@@ -1,0 +1,104 @@
+.clickable-sentence {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.15em;
+  align-items: baseline;
+}
+
+.word-punct {
+  color: var(--cream-dim);
+  font-family: var(--font-devanagari, inherit);
+}
+
+.word-chip {
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.05em 0.2em;
+  transition: background 0.15s, color 0.15s;
+  font-family: inherit;
+  line-height: 1.4;
+}
+
+.word-chip:hover {
+  background: rgba(201, 148, 42, 0.12);
+  color: var(--gold-light);
+}
+
+.word-chip.active {
+  background: rgba(201, 148, 42, 0.18);
+  color: var(--gold-light);
+}
+
+.word-chip.has-meaning:hover,
+.word-chip.has-meaning.active {
+  text-decoration: underline;
+  text-decoration-color: var(--gold-dim);
+  text-underline-offset: 3px;
+}
+
+/* Tooltip bubble */
+.word-tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg-elevated);
+  border: 1px solid var(--gold-dim);
+  border-radius: 8px;
+  padding: 0.6rem 0.85rem;
+  min-width: 130px;
+  max-width: 220px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  white-space: nowrap;
+  pointer-events: none;
+  animation: tooltipIn 0.15s ease both;
+}
+
+/* Arrow */
+.word-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--gold-dim);
+}
+
+.tooltip-word {
+  font-family: var(--font-devanagari, inherit);
+  font-size: 1.1rem;
+  color: var(--gold);
+  line-height: 1;
+}
+
+.tooltip-iast {
+  font-size: 0.75rem;
+  color: var(--cream-dim);
+  font-style: italic;
+}
+
+.tooltip-english {
+  font-size: 0.82rem;
+  color: var(--cream);
+  font-family: var(--font-body, inherit);
+  font-weight: 500;
+}
+
+.tooltip-pos {
+  font-size: 0.7rem;
+  color: var(--teal);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: var(--font-mono, monospace);
+}
+
+@keyframes tooltipIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(4px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}

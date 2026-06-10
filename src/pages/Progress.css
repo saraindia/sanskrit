@@ -1,0 +1,148 @@
+.prog-page {
+  max-width: 960px;
+  padding: 0 0.75rem;
+}
+/* page-header already has its own left/right padding — don't double up */
+.prog-page .page-header { padding-left: 0; padding-right: 0; }
+
+.prog-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.concept-table { display: flex; flex-direction: column; gap: 2px; }
+.ct-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 0.4rem 0;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  letter-spacing: 0.07em;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0.4rem;
+}
+.ct-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+  gap: 0.5rem;
+}
+.ct-flagged { background: rgba(184,92,56,0.04); border-radius: var(--radius-sm); }
+.ct-label { font-size: 0.85rem; color: var(--text-primary); }
+.ct-acc { display: flex; align-items: center; gap: 0.5rem; }
+.ct-attempts { font-size: 0.78rem; color: var(--text-muted); font-family: var(--font-mono); }
+.ct-flag { font-size: 0.72rem; color: var(--terracotta); font-family: var(--font-display); grid-column: span 1; }
+
+.weak-spotlight { padding: 0.8rem 0; border-bottom: 1px solid var(--border); }
+.ws-label { font-size: 0.9rem; color: var(--text-primary); margin-bottom: 0.4rem; }
+.ws-bar { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.3rem; }
+.ws-pct { font-size: 0.78rem; color: var(--terracotta); font-family: var(--font-mono); min-width: 32px; }
+.ws-tip { font-size: 0.75rem; color: var(--text-muted); font-style: italic; }
+
+.session-list { display: flex; flex-direction: column; gap: 0.5rem; }
+.session-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.sr-date { font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono); min-width: 90px; }
+.sr-score { font-size: 0.85rem; color: var(--text-secondary); font-family: var(--font-mono); min-width: 48px; }
+.sr-pct { font-size: 0.8rem; color: var(--gold); font-family: var(--font-mono); min-width: 36px; }
+
+/* ── What You'll Learn section ───────────────────────────────────────────────── */
+.prog-learn-section {
+  margin-bottom: 1.5rem;
+}
+.prog-learn-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.prog-learn-title {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.prog-learn-total {
+  font-size: 0.78rem;
+  color: var(--gold);
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+}
+.prog-learn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+.prog-learn-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 0.85rem;
+  transition: border-color 0.15s;
+}
+.prog-learn-card:hover { border-color: var(--border-bright); }
+
+/* Compact pill so "INTERMEDIATE" doesn't overflow the card */
+.prog-learn-card .pill {
+  font-size: 0.58rem;
+  padding: 0.18rem 0.45rem;
+  letter-spacing: 0.03em;
+  flex-shrink: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.prog-learn-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+.prog-learn-icon { font-size: 1.2rem; line-height: 1; }
+.prog-learn-count {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1.1;
+  margin-bottom: 0.1rem;
+}
+.prog-learn-unit {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  font-family: var(--font-body);
+}
+.prog-learn-name {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+  margin-bottom: 0.2rem;
+  line-height: 1.2;
+}
+.prog-learn-desc {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  line-height: 1.3;
+}

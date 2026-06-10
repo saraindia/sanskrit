@@ -1,0 +1,244 @@
+/* ── Profile & Settings page ─────────────────────────────────────────────────── */
+.profile-page {
+  padding: 1rem 1rem calc(1rem + min(env(safe-area-inset-bottom, 0px), 20px));
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* ── Hero ────────────────────────────────────────────────────────────────────── */
+.profile-hero {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 1rem 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.profile-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold-dim), var(--gold));
+  color: var(--bg-deep);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  box-shadow: 0 4px 16px rgba(201,148,42,0.25);
+}
+.profile-display-name {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.04em;
+}
+.profile-username {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
+/* ── Section labels ──────────────────────────────────────────────────────────── */
+.profile-section-label {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 0 0.25rem;
+  margin: 1.2rem 0 0.6rem;
+}
+
+/* ── Theme grid ──────────────────────────────────────────────────────────────── */
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.65rem;
+}
+
+.theme-card {
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  overflow: hidden;
+  transition: border-color 0.15s, transform 0.1s;
+  -webkit-tap-highlight-color: transparent;
+}
+.theme-card:active { transform: scale(0.97); }
+.theme-card.active {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 1px var(--gold-dim);
+}
+
+/* Mini swatch at top of card */
+.theme-swatch {
+  width: 100%;
+  height: 54px;
+  position: relative;
+  overflow: hidden;
+}
+.theme-swatch-bar {
+  position: absolute;
+  top: 8px; left: 6px; right: 6px;
+  height: 8px;
+  border-radius: 3px;
+  opacity: 0.9;
+}
+.theme-swatch-accent {
+  position: absolute;
+  bottom: 8px; left: 6px;
+  width: 22px; height: 4px;
+  border-radius: 999px;
+}
+.theme-swatch-text {
+  position: absolute;
+  bottom: 8px; left: 34px; right: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.theme-swatch-line {
+  height: 3px;
+  border-radius: 999px;
+}
+.theme-swatch-line.short { width: 60%; }
+.theme-swatch-check {
+  position: absolute;
+  top: 4px; right: 6px;
+  font-size: 0.75rem;
+  color: var(--gold);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.theme-card-icon {
+  font-size: 1rem;
+  padding: 0.45rem 0.5rem 0.1rem;
+  line-height: 1;
+}
+.theme-card-name {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+  padding: 0 0.5rem;
+  line-height: 1.3;
+}
+.theme-card-desc {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  padding: 0.15rem 0.5rem 0.55rem;
+  line-height: 1.3;
+}
+
+/* ── Settings group ──────────────────────────────────────────────────────────── */
+.profile-settings-group {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.profile-setting-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.profile-setting-row.no-interact { cursor: default; }
+.profile-setting-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 0 1rem;
+}
+.profile-setting-info { flex: 1; }
+.profile-setting-title {
+  font-size: 0.92rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.profile-setting-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 0.1rem;
+  line-height: 1.3;
+}
+.profile-setting-badge {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ── iOS-style toggle ────────────────────────────────────────────────────────── */
+.profile-toggle-wrap { position: relative; flex-shrink: 0; }
+.profile-toggle-input {
+  position: absolute; opacity: 0; width: 0; height: 0;
+}
+.profile-toggle-track {
+  display: block;
+  width: 44px; height: 26px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  position: relative;
+  transition: background 0.2s, border-color 0.2s;
+}
+.profile-toggle-input:checked ~ .profile-toggle-track {
+  background: rgba(201,148,42,0.3);
+  border-color: var(--gold-dim);
+}
+.profile-toggle-thumb {
+  display: block;
+  position: absolute;
+  top: 3px; left: 3px;
+  width: 18px; height: 18px;
+  background: var(--text-muted);
+  border-radius: 50%;
+  transition: transform 0.2s, background 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+.profile-toggle-input:checked ~ .profile-toggle-track .profile-toggle-thumb {
+  transform: translateX(18px);
+  background: var(--gold);
+}
+
+/* ── Sign out ────────────────────────────────────────────────────────────────── */
+.profile-signout {
+  width: 100%;
+  margin-top: 1.4rem;
+  padding: 0.9rem;
+  background: rgba(184,92,56,0.08);
+  border: 1px solid rgba(184,92,56,0.25);
+  border-radius: var(--radius-md);
+  color: var(--terracotta);
+  font-size: 0.92rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background 0.15s;
+}
+.profile-signout:active { background: rgba(184,92,56,0.16); }
+
+/* ── Footer ──────────────────────────────────────────────────────────────────── */
+.profile-footer {
+  text-align: center;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 1.8rem;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.04em;
+}

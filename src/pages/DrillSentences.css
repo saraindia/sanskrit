@@ -1,0 +1,168 @@
+.drill {
+  max-width: 760px;
+  padding: 0 0.75rem;
+}
+/* page-header already has its own left/right padding — don't double up */
+.drill .page-header { padding-left: 0; padding-right: 0; }
+
+.drill-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+  flex-wrap: wrap;
+}
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex: 1;
+  min-width: 0;
+}
+.control-label {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  letter-spacing: 0.07em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.drill-select {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.38rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  cursor: pointer;
+  flex: 1;
+  min-width: 0;
+  /* truncate long option text */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.drill-select:focus { outline: none; border-color: var(--gold-dim); }
+
+.weak-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.weak-toggle input { accent-color: var(--gold); }
+
+.drill-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.sentence-card { padding: 2rem; }
+.sentence-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
+.sentence-deva {
+  font-size: 2.2rem;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+.sentence-iast {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  letter-spacing: 0.04em;
+}
+
+.concept-pills { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.concept-pill {
+  background: rgba(139,109,181,0.1);
+  color: var(--purple);
+  border: 1px solid rgba(139,109,181,0.25);
+  border-radius: 4px;
+  padding: 0.15rem 0.55rem;
+  font-size: 0.74rem;
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+}
+
+.drill-prompt { margin-bottom: 1rem; }
+.prompt-text { color: var(--text-secondary); font-style: italic; }
+
+.reveal-btn { margin-top: 0.5rem; }
+
+.sentence-answer { border-top: 1px solid var(--border); padding-top: 1.25rem; margin-top: 1rem; }
+.answer-english {
+  font-size: 1.4rem;
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+/* Word picture strip */
+.word-pic-strip {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 0.75rem 0 1.25rem;
+  padding: 0.8rem 1rem;
+  background: rgba(201,148,42,0.06);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.word-pic-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.word-pic-emoji { font-size: 1.5rem; line-height: 1; }
+.word-pic-deva {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.answer-breakdown { margin-bottom: 1.25rem; }
+.breakdown-title { font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-display); letter-spacing: 0.08em; margin-bottom: 0.5rem; }
+.breakdown-item { display: flex; justify-content: space-between; padding: 0.3rem 0; border-bottom: 1px solid var(--border); }
+.bi-concept { font-size: 0.85rem; color: var(--text-secondary); }
+.bi-level { font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono); }
+
+.rate-btns { display: flex; gap: 0.75rem; }
+.rate-wrong {
+  flex: 1;
+  padding: 0.65rem;
+  border-radius: var(--radius-sm);
+  background: rgba(184,92,56,0.12);
+  border: 1px solid rgba(184,92,56,0.3);
+  color: var(--terracotta);
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  transition: all 0.15s;
+}
+.rate-correct {
+  flex: 1;
+  padding: 0.65rem;
+  border-radius: var(--radius-sm);
+  background: rgba(58,158,138,0.12);
+  border: 1px solid rgba(58,158,138,0.3);
+  color: var(--teal);
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  transition: all 0.15s;
+}
+.rate-wrong:hover, .rate-correct:hover { transform: translateY(-2px); filter: brightness(1.15); }

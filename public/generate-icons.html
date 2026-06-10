@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head><title>Generate Icons</title></head>
+<body>
+<canvas id="c192" width="192" height="192"></canvas>
+<canvas id="c512" width="512" height="512"></canvas>
+<script>
+function drawIcon(canvas) {
+  const s = canvas.width;
+  const ctx = canvas.getContext('2d');
+  // Light Parchment background gradient
+  const bg = ctx.createRadialGradient(s*0.4, s*0.35, 0, s/2, s/2, s*0.72);
+  bg.addColorStop(0, '#fdf8f0');
+  bg.addColorStop(1, '#ede4d4');
+  ctx.fillStyle = bg;
+  ctx.beginPath();
+  ctx.roundRect(0, 0, s, s, s * 0.18);
+  ctx.fill();
+  // Subtle warm border
+  ctx.strokeStyle = '#b8901e';
+  ctx.lineWidth = s * 0.022;
+  ctx.beginPath();
+  ctx.roundRect(s*0.04, s*0.04, s*0.92, s*0.92, s*0.15);
+  ctx.stroke();
+  // Inner glow ring
+  ctx.strokeStyle = 'rgba(184,144,30,0.18)';
+  ctx.lineWidth = s * 0.012;
+  ctx.beginPath();
+  ctx.roundRect(s*0.09, s*0.09, s*0.82, s*0.82, s*0.12);
+  ctx.stroke();
+  // Sanskrit OM symbol — dark gold on light background
+  ctx.fillStyle = '#9a6a10';
+  ctx.font = `bold ${s * 0.50}px "Noto Sans Devanagari", serif`;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText('ॐ', s/2, s * 0.44);
+  // App name
+  ctx.fillStyle = '#7a5a1a';
+  ctx.font = `600 ${s * 0.09}px serif`;
+  ctx.letterSpacing = `${s * 0.012}px`;
+  ctx.fillText('SANSKRITLY', s/2, s * 0.82);
+}
+drawIcon(document.getElementById('c192'));
+drawIcon(document.getElementById('c512'));
+
+// Download
+['192','512'].forEach(sz => {
+  const a = document.createElement('a');
+  a.download = `icon-${sz}.png`;
+  a.href = document.getElementById(`c${sz}`).toDataURL();
+  document.body.appendChild(a);
+  a.click();
+});
+</script>
+</body>
+</html>

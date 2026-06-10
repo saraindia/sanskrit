@@ -1,0 +1,179 @@
+/* ── Theme overrides — applied as class on <html> ───────────────────────────── */
+/* dark-gold is the default (already in :root) — no override needed             */
+
+/* ── Midnight ────────────────────────────────────────────────────────────────── */
+html.theme-midnight {
+  --bg-deep:        #080c14;
+  --bg-card:        #101828;
+  --bg-elevated:    #182034;
+  --bg-subtle:      #1e2a42;
+
+  --gold:           #6fa8dc;
+  --gold-light:     #9dc4ee;
+  --gold-dim:       #2e5a88;
+  --terracotta:     #7a9fd4;
+  --terracotta-dim: #2a4a70;
+  --cream:          #dde8f5;
+  --cream-dim:      #7a99c0;
+  --saffron:        #5c9bd6;
+
+  --teal:           #4ab8c8;
+  --teal-dim:       #1e5868;
+  --purple:         #9985cc;
+  --purple-dim:     #3e3068;
+
+  --text-primary:   #dde8f5;
+  --text-secondary: #7a99c0;
+  --text-muted:     #3e5878;
+  --border:         rgba(111,168,220,0.15);
+  --border-bright:  rgba(111,168,220,0.38);
+}
+html.theme-midnight body::before {
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 10%, rgba(30,60,120,0.12) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 80% 90%, rgba(111,168,220,0.07) 0%, transparent 60%);
+}
+
+/* ── Sepia ───────────────────────────────────────────────────────────────────── */
+html.theme-sepia {
+  --bg-deep:        #1e1206;
+  --bg-card:        #2c1e0f;
+  --bg-elevated:    #3a2a18;
+  --bg-subtle:      #4a3828;
+
+  --gold:           #d4872a;
+  --gold-light:     #e8a84a;
+  --gold-dim:       #8a5a18;
+  --terracotta:     #c06040;
+  --terracotta-dim: #703828;
+  --cream:          #f5e8cc;
+  --cream-dim:      #b89870;
+  --saffron:        #e07818;
+
+  --teal:           #5aaa8a;
+  --teal-dim:       #28624a;
+  --purple:         #9878b8;
+  --purple-dim:     #504070;
+
+  --text-primary:   #f5e8cc;
+  --text-secondary: #b89870;
+  --text-muted:     #7a6040;
+  --border:         rgba(212,135,42,0.18);
+  --border-bright:  rgba(212,135,42,0.4);
+}
+html.theme-sepia body::before {
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 10%, rgba(192,96,64,0.1) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 80% 90%, rgba(212,135,42,0.08) 0%, transparent 60%);
+}
+
+/* ── Saffron ─────────────────────────────────────────────────────────────────── */
+html.theme-saffron {
+  --bg-deep:        #130a02;
+  --bg-card:        #1e1004;
+  --bg-elevated:    #2a1808;
+  --bg-subtle:      #38220e;
+
+  --gold:           #e8821a;
+  --gold-light:     #f5a040;
+  --gold-dim:       #904e10;
+  --terracotta:     #d4582a;
+  --terracotta-dim: #7a3018;
+  --cream:          #fde8c4;
+  --cream-dim:      #c09060;
+  --saffron:        #f09830;
+
+  --teal:           #40b090;
+  --teal-dim:       #206848;
+  --purple:         #b080d0;
+  --purple-dim:     #583878;
+
+  --text-primary:   #fde8c4;
+  --text-secondary: #c09060;
+  --text-muted:     #7a5030;
+  --border:         rgba(232,130,26,0.18);
+  --border-bright:  rgba(232,130,26,0.42);
+}
+html.theme-saffron body::before {
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 10%, rgba(212,88,42,0.1) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 80% 90%, rgba(232,130,26,0.08) 0%, transparent 60%);
+}
+
+/* ── High Contrast (vision-friendly) ────────────────────────────────────────── */
+html.theme-high-contrast {
+  --bg-deep:        #000000;
+  --bg-card:        #0e0e0e;
+  --bg-elevated:    #1a1a1a;
+  --bg-subtle:      #282828;
+
+  --gold:           #ffdd00;
+  --gold-light:     #ffe94d;
+  --gold-dim:       #a89000;
+  --terracotta:     #ff6633;
+  --terracotta-dim: #aa3311;
+  --cream:          #ffffff;
+  --cream-dim:      #cccccc;
+  --saffron:        #ff9900;
+
+  --teal:           #00ffcc;
+  --teal-dim:       #008866;
+  --purple:         #cc88ff;
+  --purple-dim:     #7744aa;
+
+  --text-primary:   #ffffff;
+  --text-secondary: #cccccc;
+  --text-muted:     #888888;
+  --border:         rgba(255,221,0,0.3);
+  --border-bright:  rgba(255,221,0,0.7);
+
+  --radius-sm:      4px;
+  --radius-md:      8px;
+  --radius-lg:      14px;
+}
+html.theme-high-contrast body::before { display: none; }
+/* Stronger borders everywhere in high-contrast */
+html.theme-high-contrast .card,
+html.theme-high-contrast .module-card,
+html.theme-high-contrast .action-btn { border-width: 2px; }
+
+/* ── Light Parchment (vision-friendly) ──────────────────────────────────────── */
+html.theme-light {
+  --bg-deep:        #f0e8d8;
+  --bg-card:        #ede4d4;
+  --bg-elevated:    #e8ddc8;
+  --bg-subtle:      #ddd0ba;
+
+  --gold:           #9a6a10;
+  --gold-light:     #b88020;
+  --gold-dim:       #c8a060;
+  --terracotta:     #b84028;
+  --terracotta-dim: #d87060;
+  --cream:          #2a1a08;
+  --cream-dim:      #604030;
+  --saffron:        #c06010;
+
+  --teal:           #206858;
+  --teal-dim:       #70b0a0;
+  --purple:         #5840a0;
+  --purple-dim:     #9080c0;
+
+  --text-primary:   #1e1008;
+  --text-secondary: #5a3a20;
+  --text-muted:     #9a7850;
+  --border:         rgba(154,106,16,0.25);
+  --border-bright:  rgba(154,106,16,0.55);
+}
+html.theme-light body { background: var(--bg-card); }
+html.theme-light body::before {
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 10%, rgba(184,64,40,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 80% 90%, rgba(154,106,16,0.06) 0%, transparent 60%);
+}
+html.theme-light ::-webkit-scrollbar-track { background: var(--bg-elevated); }
+html.theme-light ::-webkit-scrollbar-thumb { background: var(--gold-dim); }
+
+/* ── Large Text mode ─────────────────────────────────────────────────────────── */
+html.large-text { font-size: 19px; }
+html.large-text .devanagari { font-size: 1.6rem; }
+html.large-text .tab-label  { font-size: 0.72rem; }

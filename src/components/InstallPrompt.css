@@ -1,0 +1,199 @@
+/* ── PWA Install Prompt — bottom sheet ───────────────────────────────────────── */
+
+/* Backdrop */
+.ip-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: 200;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  animation: ipFadeIn 0.25s ease both;
+}
+@keyframes ipFadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* Bottom sheet */
+.ip-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 201;
+  background: var(--bg-card);
+  border-top: 1px solid var(--border-bright);
+  border-radius: 24px 24px 0 0;
+  padding: 0 1.25rem calc(1.5rem + min(env(safe-area-inset-bottom, 0px), 20px));
+  max-width: 520px;
+  margin: 0 auto;
+  animation: ipSlideUp 0.35s cubic-bezier(0.34,1.4,0.64,1) both;
+  box-shadow: 0 -8px 48px rgba(0,0,0,0.5);
+}
+@keyframes ipSlideUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+
+/* Drag handle */
+.ip-handle {
+  width: 40px;
+  height: 4px;
+  background: var(--border-bright);
+  border-radius: 2px;
+  margin: 0.75rem auto 1.1rem;
+}
+
+/* Header */
+.ip-header {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-bottom: 1.1rem;
+}
+.ip-om {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-size: 2.2rem;
+  color: var(--gold);
+  line-height: 1;
+  filter: drop-shadow(0 0 12px rgba(201,148,42,0.35));
+  flex-shrink: 0;
+}
+.ip-header-text { flex: 1; }
+.ip-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.04em;
+}
+.ip-subtitle {
+  font-size: 0.8rem;
+  color: var(--cream-dim);
+  margin-top: 0.15rem;
+}
+.ip-close {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Benefits strip */
+.ip-benefits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1.1rem;
+}
+.ip-benefit {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.7rem;
+  font-size: 0.8rem;
+  color: var(--cream-dim);
+}
+.ip-benefit span:first-child { font-size: 1rem; }
+
+/* Install button */
+.ip-install-btn {
+  width: 100%;
+  background: var(--gold);
+  color: var(--bg-deep);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 0.95rem;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  margin-bottom: 0.85rem;
+  min-height: 54px;
+  transition: background 0.15s, transform 0.1s;
+  -webkit-tap-highlight-color: transparent;
+}
+.ip-install-btn:hover  { background: var(--gold-light); }
+.ip-install-btn:active { transform: scale(0.97); }
+
+/* Manual steps */
+.ip-steps {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1rem;
+  margin-bottom: 0.85rem;
+}
+.ip-steps-label {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 0.7rem;
+}
+.ip-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.ip-step:last-of-type { border-bottom: none; padding-bottom: 0; }
+.ip-step-icon { font-size: 1.1rem; flex-shrink: 0; line-height: 1.4; }
+.ip-step-text {
+  font-size: 0.85rem;
+  color: var(--cream-dim);
+  line-height: 1.4;
+  user-select: text;
+}
+.ip-note {
+  margin-top: 0.65rem;
+  padding: 0.5rem 0.7rem;
+  background: rgba(184,92,56,0.08);
+  border-left: 2px solid var(--terracotta);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 0.75rem;
+  color: var(--cream-dim);
+  line-height: 1.4;
+  user-select: text;
+}
+
+/* Show steps toggle */
+.ip-show-steps {
+  width: 100%;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  margin-bottom: 0.85rem;
+  transition: border-color 0.15s, color 0.15s;
+}
+.ip-show-steps:hover { border-color: var(--gold-dim); color: var(--cream-dim); }
+
+/* Dismiss */
+.ip-dismiss-link {
+  width: 100%;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.4rem;
+  display: block;
+}
+.ip-dismiss-link:hover { color: var(--cream-dim); }

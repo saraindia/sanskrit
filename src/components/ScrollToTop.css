@@ -1,0 +1,59 @@
+/* ── Scroll-to-top / bottom floating buttons ─────────────────────────────── */
+
+.stt-wrap {
+  position: fixed;
+  right: 1rem;
+  /* Sit above the tab bar + safe area */
+  bottom: calc(60px + env(safe-area-inset-bottom, 0px) + 1.25rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  z-index: 900;
+  pointer-events: none;
+}
+
+.stt-btn {
+  pointer-events: all;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(30, 22, 10, 0.82);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: var(--gold, #d4a843);
+  font-size: 1.05rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.18s ease, background 0.15s, box-shadow 0.15s, opacity 0.18s;
+  opacity: 0.82;
+}
+
+.stt-btn:hover {
+  transform: translateY(-2px) scale(1.06);
+  background: rgba(40, 30, 12, 0.95);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.stt-btn:active {
+  transform: scale(0.93);
+  transition: transform 0.08s;
+}
+
+/* Up arrow — slightly more prominent */
+.stt-up {
+  font-size: 1.1rem;
+}
+
+/* Desktop — sit above the sidebar gutter on wide screens */
+@media (min-width: 860px) {
+  .stt-wrap {
+    right: 1.5rem;
+    bottom: 1.5rem;
+  }
+}

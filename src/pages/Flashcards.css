@@ -1,0 +1,218 @@
+.flashcards {
+  max-width: 680px;
+  padding: 0 0.75rem;
+}
+/* page-header already has its own left/right padding — don't double up */
+.flashcards .page-header { padding-left: 0; padding-right: 0; }
+
+.fc-controls { display: flex; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.fc-filter { display: flex; gap: 4px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 3px; }
+.filter-btn {
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  background: transparent;
+  color: var(--text-secondary);
+  text-transform: capitalize;
+  transition: all 0.15s;
+}
+.filter-btn.active { background: var(--bg-elevated); color: var(--gold); }
+.filter-btn:hover { color: var(--text-primary); }
+
+.fc-card {
+  perspective: 1200px;
+  height: 225px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  border-radius: var(--radius-lg);
+}
+.fc-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+.fc-card.flipped .fc-card-inner { transform: rotateY(180deg); }
+
+.fc-front, .fc-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+}
+.fc-front { background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-elevated) 100%); }
+.fc-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(135deg, var(--bg-elevated) 0%, rgba(201,148,42,0.06) 100%);
+  border-color: var(--border-bright);
+}
+
+.fc-emoji { font-size: 3.8rem; line-height: 1; margin-bottom: 0.4rem; text-align: center; }
+.fc-emoji-back { font-size: 2.2rem; line-height: 1; margin-bottom: 0.6rem; opacity: 0.8; text-align: center; }
+.fc-deva-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+.fc-deva { font-size: 2.6rem; color: var(--gold); text-align: center; }
+.fc-iast { font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-secondary); letter-spacing: 0.06em; }
+.fc-hint { font-size: 0.7rem; color: var(--text-muted); font-style: italic; margin-top: 0.25rem; }
+.fc-english { font-size: 1.35rem; color: var(--cream); font-family: var(--font-body); font-weight: 300; text-align: center; }
+.fc-meta { font-size: 0.72rem; color: var(--text-secondary); font-style: italic; }
+.fc-deva-small { font-size: 1.05rem; color: var(--gold-dim); }
+
+.fc-ratings {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.rating-btn {
+  padding: 0.55rem 1.1rem;
+  border-radius: var(--radius-sm);
+  background: rgba(var(--rbg), 0.12);
+  border: 1px solid color-mix(in srgb, var(--rbg) 40%, transparent);
+  color: var(--rbg);
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  background-color: color-mix(in srgb, var(--rbg) 12%, transparent);
+  color: var(--rbg);
+  border-color: color-mix(in srgb, var(--rbg) 35%, transparent);
+  transition: all 0.15s;
+}
+.rating-btn:hover { transform: translateY(-2px); filter: brightness(1.2); }
+
+.session-result {
+  text-align: center;
+  padding: 3rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.result-score { font-family: var(--font-display); font-size: 3rem; color: var(--gold); line-height: 1; }
+.result-label { color: var(--text-secondary); margin: 0.5rem 0; }
+.result-pct { font-size: 1.2rem; color: var(--cream); }
+
+/* ── Browse mode (virtualised list) ── */
+.fc-browse { display: flex; flex-direction: column; gap: 0.75rem; }
+
+.fc-browse-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.fc-browse-search {
+  flex: 1;
+  padding: 0.55rem 0.9rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  outline: none;
+}
+.fc-browse-search:focus { border-color: var(--gold-dim); }
+
+.fc-browse-count {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+/* The scroll container — fixed height so virtualizer can work */
+.fc-browse-scroll {
+  height: 420px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  overscroll-behavior: contain;
+}
+
+.fc-browse-row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0 0.85rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.82rem;
+  transition: background 0.1s;
+}
+.fc-browse-row:hover { background: var(--bg-elevated); }
+
+.fc-browse-deva {
+  min-width: 3rem;
+  font-size: 1.1rem;
+  color: var(--gold);
+  line-height: 1;
+}
+.fc-browse-iast {
+  min-width: 5rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+}
+.fc-browse-english {
+  flex: 1;
+  color: var(--cream);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fc-browse-acc {
+  font-size: 0.68rem;
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+  min-width: 2.5rem;
+  text-align: right;
+}
+.fc-browse-speak {
+  padding: 0.3rem;
+  opacity: 0.6;
+  transition: opacity 0.15s;
+}
+.fc-browse-row:hover .fc-browse-speak { opacity: 1; }
+
+.fc-browse-study-btn { margin-top: 0.5rem; }
+
+/* Browse toggle button */
+.fc-browse-toggle {
+  border: 1px solid var(--border-bright) !important;
+  color: var(--text-secondary) !important;
+  background: transparent !important;
+  margin-left: auto;
+}
+.fc-browse-toggle:hover { color: var(--gold) !important; border-color: var(--gold-dim) !important; }
+
+.fc-browse-back-btn {
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-bright);
+  background: transparent;
+  color: var(--gold);
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.fc-browse-back-btn:hover { background: rgba(201,148,42,0.08); border-color: var(--gold); }

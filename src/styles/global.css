@@ -1,0 +1,249 @@
+:root {
+  --bg-deep:       #0e0b08;
+  --bg-card:       #1a1410;
+  --bg-elevated:   #241c15;
+  --bg-subtle:     #2e241b;
+
+  --gold:          #c9942a;
+  --gold-light:    #e8b84b;
+  --gold-dim:      #7a5a1a;
+  --terracotta:    #b85c38;
+  --terracotta-dim:#6b3320;
+  --cream:         #f0e6d0;
+  --cream-dim:     #a89070;
+  --saffron:       #e8821a;
+
+  --teal:          #3a9e8a;
+  --teal-dim:      #1f5e52;
+  --purple:        #8b6db5;
+  --purple-dim:    #4a3868;
+
+  --text-primary:  #f0e6d0;
+  --text-secondary:#a89070;
+  --text-muted:    #8a7058;
+  --border:        rgba(201,148,42,0.15);
+  --border-bright: rgba(201,148,42,0.35);
+
+  --font-display:  'Cinzel', serif;
+  --font-body:     'Crimson Pro', serif;
+  --font-mono:     'JetBrains Mono', monospace;
+
+  --radius-sm:     6px;
+  --radius-md:     12px;
+  --radius-lg:     20px;
+  --radius-xl:     32px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  /* prevent overscroll on iOS */
+  overscroll-behavior: none;
+  height: 100%;
+  /* On iPhone PWA the OS paints the home-indicator zone using the <html>
+     background. Without this it shows the dark :root default (#0e0b08) as a
+     strip below the nav bar regardless of the active theme.
+     var(--bg-card) resolves correctly for every theme because the theme class
+     lives on <html> itself, so the CSS variable is always in scope here. */
+  background: var(--bg-card);
+}
+
+body {
+  /* Match --bg-card (same as html + nav) so iOS paints the home-indicator
+     zone with the nav colour regardless of whether it samples html or body. */
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  height: 100%;
+  overflow: hidden;           /* app-shell handles all scrolling */
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;  /* remove tap flash on mobile */
+  user-select: none;          /* native app feel — no text selection on UI chrome */
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 10%, rgba(184,92,56,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 80% 90%, rgba(201,148,42,0.06) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+/* Allow text selection inside content areas */
+.main-content, .story-reader, .mp-page, .flashcard-inner,
+p, .verse-translation, .mp-verse-translation { user-select: text; }
+
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing: 0.04em; }
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.1rem; }
+
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: var(--gold-light); }
+
+button {
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.devanagari {
+  font-family: 'Noto Sans Devanagari', 'Arial Unicode MS', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  transition: border-color 0.2s;
+}
+.card:hover { border-color: var(--border-bright); }
+
+.btn-primary {
+  background: var(--gold);
+  color: var(--bg-deep);
+  padding: 0.7rem 1.8rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+.btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-secondary);
+  padding: 0.6rem 1.4rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+.btn-ghost:hover { border-color: var(--border-bright); color: var(--text-primary); }
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-family: var(--font-display);
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+.pill-beginner  { background: rgba(58,158,138,0.15); color: var(--teal); border: 1px solid rgba(58,158,138,0.3); }
+.pill-intermediate { background: rgba(139,109,181,0.15); color: var(--purple); border: 1px solid rgba(139,109,181,0.3); }
+.pill-advanced  { background: rgba(184,92,56,0.15); color: var(--terracotta); border: 1px solid rgba(184,92,56,0.3); }
+.pill-sacred    { background: rgba(201,148,42,0.15); color: var(--gold); border: 1px solid rgba(201,148,42,0.3); }
+
+.progress-bar-track {
+  height: 4px;
+  background: var(--bg-subtle);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold-dim), var(--gold));
+  border-radius: 999px;
+  transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse-gold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(201,148,42,0); }
+  50%       { box-shadow: 0 0 0 6px rgba(201,148,42,0.12); }
+}
+.anim-fade-up { animation: fadeUp 0.4s ease both; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-deep); }
+::-webkit-scrollbar-thumb { background: var(--bg-subtle); border-radius: 3px; }
+
+.speak-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-subtle);
+  border: 1px solid var(--gold-dim);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  color: var(--gold-dim);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.1s;
+  line-height: 1;
+}
+.speak-btn svg { width: 1rem; height: 1rem; display: block; }
+.speak-btn:hover {
+  background: rgba(201,148,42,0.1);
+  border-color: var(--gold);
+  color: var(--gold);
+  transform: scale(1.1);
+}
+.speak-btn:active { transform: scale(0.95); }
+
+/* Engine toggle button (Google TTS / System voice) */
+.engine-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.72rem;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all 0.15s;
+  flex-shrink: 0;
+}
+.engine-toggle-btn:hover { border-color: var(--gold-dim); color: var(--text-secondary); }
+
+/* ── Shared Next button ──────────────────────────────────────────────────────── */
+.fc-next-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.fc-next-btn {
+  background: var(--gold);
+  color: var(--bg-deep);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 0.85rem 2.5rem;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  min-height: 52px;
+  min-width: 180px;
+  transition: background 0.15s, transform 0.1s;
+  -webkit-tap-highlight-color: transparent;
+}
+.fc-next-btn:hover  { background: var(--gold-light); }
+.fc-next-btn:active { transform: scale(0.96); }
