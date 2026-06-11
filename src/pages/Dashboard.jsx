@@ -124,7 +124,7 @@ function DictionarySearch({ vocabulary }) {
     const q = e.target.value
     setQuery(q)
     setResults(searchDict(q, dictIndex))
-  }, [])
+  }, [dictIndex])
 
   const handleListen = useCallback((e, word) => {
     e.stopPropagation()
