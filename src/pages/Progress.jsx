@@ -1,29 +1,35 @@
 import React, { useMemo } from 'react'
 import { useUserProgress as useProgress } from '../hooks/useUserProgress'
-import { GRAMMAR_CONCEPTS, VOCABULARY, ALPHABET_CARDS } from '../data/vocabulary.js'
-import { VNP_SENTENCES, FILL_BLANKS } from '../data/sentences.js'
+import { useVocabularyData, useSentenceData } from '../hooks/useData'
 import { STORIES } from '../data/stories.js'
 import { BHAGAVAD_GITA, UPANISHAD_VERSES, YOGA_SUTRAS, GRAMMAR_LESSONS, SANDHI_RULES } from '../data/sacred.js'
 import './Progress.css'
 
-const ALL_ITEMS = [...ALPHABET_CARDS, ...VOCABULARY, ...VNP_SENTENCES]
 
-const CURRICULUM = [
-  { icon: '🔤', label: 'Devanāgarī Script',  count: ALPHABET_CARDS.length,    unit: 'characters',  level: 'beginner',     desc: 'Letters, vowels & consonants' },
-  { icon: '📖', label: 'Core Vocabulary',     count: VOCABULARY.length,         unit: 'words',       level: 'beginner',     desc: 'Essential Sanskrit words with meanings' },
+const CURRICULUM_STATIC = [
+  { icon: '🔤', label: 'Devanāgarī Script',  count: 31,   unit: 'characters',  level: 'beginner',     desc: 'Letters, vowels & consonants' },
+  { icon: '📖', label: 'Core Vocabulary',     count: 1161, unit: 'words',       level: 'beginner',     desc: 'Essential Sanskrit words with meanings' },
   { icon: '📜', label: 'Sacred Verses',       count: BHAGAVAD_GITA.length + UPANISHAD_VERSES.length + YOGA_SUTRAS.length, unit: 'verses', level: 'advanced', desc: 'Bhagavad Gītā, Upaniṣads & Yoga Sūtras' },
-  { icon: '⚡', label: 'Sentence Drill',      count: VNP_SENTENCES.length,      unit: 'sentences',   level: 'intermediate', desc: 'Verb · noun · pronoun patterns' },
+  { icon: '⚡', label: 'Sentence Drill',      count: 150,      unit: 'sentences',   level: 'intermediate', desc: 'Verb · noun · pronoun patterns' },
   { icon: '📚', label: 'Stories',             count: STORIES.length,            unit: 'stories',     level: 'beginner',     desc: 'Word-by-word reading with translation' },
-  { icon: '✏️', label: 'Fill in the Blanks', count: FILL_BLANKS.length,        unit: 'exercises',   level: 'intermediate', desc: 'Grammar & vocabulary practice' },
+  { icon: '✏️', label: 'Fill in the Blanks', count: 50,        unit: 'exercises',   level: 'intermediate', desc: 'Grammar & vocabulary practice' },
   { icon: '🔡', label: 'Grammar Lessons',    count: GRAMMAR_LESSONS.length,    unit: 'lessons',     level: 'intermediate', desc: 'Cases, declensions & verb forms' },
   { icon: '🔗', label: 'Sandhi Rules',       count: SANDHI_RULES.length,       unit: 'rules',       level: 'advanced',     desc: 'Sound-combination rules' },
 ]
 
 const VERSE_WORDS = [...BHAGAVAD_GITA, ...UPANISHAD_VERSES, ...YOGA_SUTRAS]
   .reduce((n, v) => n + (v.words?.length || 0), 0)
-const TOTAL_WORDS = VOCABULARY.length + VERSE_WORDS
+const TOTAL_WORDS = vocabulary.length + VERSE_WORDS
 
 export default function Progress() {
+  const vocabData = useVocabularyData()
+  const sentData  = useSentenceData()
+  const vocabulary      = vocabData?.vocabulary      || []
+  const alphabetCards   = vocabData?.alphabet_cards  || []
+  const grammarConcepts = vocabData?.grammar_concepts || {}
+  const vnpSentences    = sentData?.vnp_sentences    || []
+  const allItems = [...alphabetCards, ...vocabulary, ...vnpSentences]
+  const CURRICULUM = CURRICULUM_STATIC
   const { progress, getWeakConcepts, getDueItems, resetProgress } = useProgress()
 
   const weakConcepts = useMemo(() => getWeakConcepts(), [getWeakConcepts])
@@ -44,8 +50,8 @@ export default function Progress() {
       .filter(([, c]) => c.attempts > 0)
       .map(([id, c]) => ({
         id,
-        label: GRAMMAR_CONCEPTS[id]?.label || id,
-        level: GRAMMAR_CONCEPTS[id]?.level || '—',
+        label: grammarConcepts[id]?.label || id,
+        level: grammarConcepts[id]?.level || '—',
         accuracy: Math.round(c.correct / c.attempts * 100),
         attempts: c.attempts,
         flagged: c.flagged,
@@ -139,14 +145,14 @@ export default function Progress() {
             ? <p style={{color:'var(--text-secondary)',fontSize:'0.9rem',fontStyle:'italic'}}>No weak areas — great work!</p>
             : weakConcepts.slice(0,6).map(c => (
               <div key={c.id} className="weak-spotlight">
-                <div className="ws-label">{GRAMMAR_CONCEPTS[c.id]?.label || c.id}</div>
+                <div className="ws-label">{grammarConcepts[c.id]?.label || c.id}</div>
                 <div className="ws-bar">
                   <div className="progress-bar-track" style={{flex:1}}>
                     <div className="progress-bar-fill" style={{width:`${c.accuracy}%`, background:'var(--terracotta)'}} />
                   </div>
                   <span className="ws-pct">{c.accuracy}%</span>
                 </div>
-                <p className="ws-tip">Go to Drill → select "{GRAMMAR_CONCEPTS[c.id]?.label}" to practice</p>
+                <p className="ws-tip">Go to Drill → select "{grammarConcepts[c.id]?.label}" to practice</p>
               </div>
           ))}
         </div>

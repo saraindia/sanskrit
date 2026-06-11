@@ -2,8 +2,7 @@ import React, { useState, useMemo, useCallback } from 'react'
 import { useUserProgress as useProgress } from '../hooks/useUserProgress'
 import { useSpeech } from '../hooks/useSpeech'
 import { useSoundEffects } from '../hooks/useSoundEffects'
-import { FILL_BLANKS } from '../data/sentences.js'
-import { GRAMMAR_CONCEPTS } from '../data/vocabulary.js'
+import { useVocabularyData, useSentenceData } from '../hooks/useData'
 import { toIAST } from '../utils/transliterate.js'
 import { freshOrder } from '../utils/freshOrder.js'
 import ClickableSentence from '../components/ClickableSentence'
@@ -11,6 +10,10 @@ import SpeakIcon from '../components/SpeakIcon'
 import './FillBlanks.css'
 
 export default function FillBlanks() {
+  const vocabData = useVocabularyData()
+  const sentData  = useSentenceData()
+  const fillBlanks      = sentData?.fill_blanks       || []
+  const grammarConcepts = vocabData?.grammar_concepts || {}
   const { recordAnswer, progress } = useProgress()
   const [currentIdx, setCurrentIdx]   = useState(0)
   const [selected, setSelected]       = useState(null)
@@ -22,7 +25,7 @@ export default function FillBlanks() {
 
   // Unseen questions first, then least-recently-seen; recomputed each round
   const questions = useMemo(() => {
-    const list = levelFilter === 'all' ? FILL_BLANKS : FILL_BLANKS.filter(q => q.level === levelFilter)
+    const list = levelFilter === 'all' ? fillBlanks : fillBlanks.filter(q => q.level === levelFilter)
     return freshOrder(list, progress.srs)
   }, [levelFilter, round]) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -159,7 +162,7 @@ export default function FillBlanks() {
           <div className={`fb-feedback anim-fade-up ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`}>
             {isCorrect ? '✓ Correct!' : `✗ Correct answer: ${q.blank}`}
             <div className="fb-concepts">
-              {q.concepts?.map(c => <span key={c} className="concept-pill">{GRAMMAR_CONCEPTS[c]?.label || c}</span>)}
+              {q.concepts?.map(c => <span key={c} className="concept-pill">{grammarConcepts[c]?.label || c}</span>)}
             </div>
           </div>
         )}

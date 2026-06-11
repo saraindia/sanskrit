@@ -4,18 +4,17 @@ import { useSpeech } from '../hooks/useSpeech'
 import { useSoundEffects } from '../hooks/useSoundEffects'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import WellDoneToast from '../components/WellDoneToast'
-import { VNP_SENTENCES } from '../data/sentences.js'
-import { GRAMMAR_CONCEPTS } from '../data/vocabulary.js'
+import { useVocabularyData, useSentenceData } from '../hooks/useData'
 import { freshOrder } from '../utils/freshOrder.js'
+import { toIAST } from '../utils/transliterate.js'
 import ClickableSentence from '../components/ClickableSentence'
 import SpeakIcon from '../components/SpeakIcon'
 import './DrillSentences.css'
 
-// Stable id→sentence lookup so we can restore the shuffled order
-const SENT_BY_ID = Object.fromEntries(VNP_SENTENCES.map(s => [s.id, s]))
 
 const PATTERNS = [
   { id: 'all',              label: 'All patterns' },
+  // Original VNP patterns
   { id: 'noun+verb',        label: 'Noun + verb' },
   { id: 'pronoun+verb',     label: 'Pronoun + verb' },
   { id: 'noun+obj+verb',    label: 'Noun + object + verb' },
@@ -24,6 +23,62 @@ const PATTERNS = [
   { id: 'pronoun-dat+verb', label: 'Dative pronoun' },
   { id: 'noun-loc+verb',    label: 'Locative noun' },
   { id: 'causative',        label: 'Causative verbs' },
+  // Collated patterns — Beginner Foundations
+  { id: 'सः + noun',        label: 'सः + noun (He is…)' },
+  { id: 'सा + noun',        label: 'सा + noun (She is…)' },
+  { id: 'तत् + noun',       label: 'तत् + noun (That is…)' },
+  { id: 'सः/सा + verb',     label: 'सः/सा + verb' },
+  { id: 'noun + adjective + verb', label: 'Noun + adjective + verb' },
+  { id: 'कः का किम्',       label: 'कः / का / किम् (who/what)' },
+  { id: 'वा questions',     label: 'वा questions' },
+  { id: 'अस्ति / नास्ति',   label: 'अस्ति / नास्ति' },
+  // Pronouns with verbs
+  { id: 'pronoun+verb: सः', label: 'सः + verb (He…)' },
+  { id: 'pronoun+verb: सा', label: 'सा + verb (She…)' },
+  { id: 'pronoun+verb: तत्',label: 'तत् + verb (It…)' },
+  { id: 'pronoun+verb: एषः',label: 'एषः + verb (This m.)' },
+  { id: 'pronoun+verb: एषा',label: 'एषा + verb (This f.)' },
+  { id: 'pronoun+verb: एतत्',label: 'एतत् + verb (This n.)' },
+  { id: 'pronoun+verb: कः', label: 'कः + verb (Who m.?)' },
+  { id: 'pronoun+verb: का', label: 'का + verb (Who f.?)' },
+  { id: 'pronoun+verb: किम्',label: 'किम् + verb (What?)' },
+  { id: 'pronoun+verb: भवान्',label: 'भवान् + verb (polite m.)' },
+  { id: 'pronoun+verb: भवती',label: 'भवती + verb (polite f.)' },
+  // First/second person descriptive
+  { id: 'descriptive: अहम्', label: 'अहम् descriptive (I am…)' },
+  { id: 'descriptive: भवान्',label: 'भवान् descriptive (You m. are…)' },
+  { id: 'descriptive: भवती',label: 'भवती descriptive (You f. are…)' },
+  // करोति / करोतु
+  { id: 'अहम् … करोमि',     label: 'अहम् … करोमि (I am doing…)' },
+  { id: 'भवान् … करोतु',    label: 'भवान् … करोतु (You m. do…)' },
+  { id: 'भवती … करोतु',    label: 'भवती … करोतु (You f. do…)' },
+  { id: '3rd-person + imperative combinations', label: '3rd person imperatives' },
+  // Singular / Plural
+  { id: 'singular: masculine', label: 'Singular masculine' },
+  { id: 'plural: masculine',   label: 'Plural masculine' },
+  { id: 'singular: feminine',  label: 'Singular feminine' },
+  { id: 'plural: feminine',    label: 'Plural feminine' },
+  { id: 'singular: neuter',    label: 'Singular neuter' },
+  { id: 'plural: neuter',      label: 'Plural neuter' },
+  // षष्ठी Genitive
+  { id: 'shashti (षष्ठी): masculine', label: 'षष्ठी masculine/neuter' },
+  { id: 'shashti (षष्ठी): feminine',  label: 'षष्ठी feminine' },
+  // Spatial avyayas
+  { id: 'spatial: पुरतः (in front of)', label: 'पुरतः (in front of)' },
+  { id: 'spatial: पृष्ठतः (behind)',    label: 'पृष्ठतः (behind)' },
+  { id: 'spatial: दक्षिणतः (to the right of)', label: 'दक्षिणतः (right of)' },
+  { id: 'spatial: वामतः (to the left of)',      label: 'वामतः (left of)' },
+  { id: 'spatial: उपरि (above / on top of)',    label: 'उपरि (above)' },
+  { id: 'spatial: अधः (below / under)',         label: 'अधः (below)' },
+  // Locative adverbs
+  { id: 'adverb: कुत्र (where?)',       label: 'कुत्र (where?)' },
+  { id: 'adverb: अत्र (here)',          label: 'अत्र (here)' },
+  { id: 'adverb: तत्र (there)',         label: 'तत्र (there)' },
+  { id: 'adverb: सर्वत्र (everywhere)', label: 'सर्वत्र (everywhere)' },
+  { id: 'adverb: अन्यत्र (somewhere else / elsewhere)', label: 'अन्यत्र (elsewhere)' },
+  // Interrogatives
+  { id: 'interrogative: कदा (when?)',   label: 'कदा (when?)' },
+  { id: 'interrogative: कति (how many?)',label: 'कति (how many?)' },
 ]
 
 const MODES = [
@@ -33,6 +88,14 @@ const MODES = [
 ]
 
 export default function DrillSentences() {
+  const vocabData  = useVocabularyData()
+  const sentData   = useSentenceData()
+  const grammarConcepts = vocabData?.grammar_concepts || {}
+  const allSentences = React.useMemo(() => [
+    ...(sentData?.vnp_sentences      || []),
+    ...(sentData?.collated_sentences || []),
+  ], [sentData])
+  const sentById = React.useMemo(() => Object.fromEntries(allSentences.map(s => [s.id, s])), [allSentences])
   const { recordAnswer, getWeakConcepts, progress } = useProgress()
 
   // Persist session state across tab switches
@@ -52,13 +115,13 @@ export default function DrillSentences() {
 
   const sentences = useMemo(() => {
     // Filter first
-    let list = VNP_SENTENCES
+    let list = allSentences
     if (pattern !== 'all') list = list.filter(s => s.pattern === pattern)
     if (weakOnly) list = list.filter(s => s.concepts?.some(c => weakConcepts.includes(c)))
 
     // Try to restore previously-saved shuffle for this exact filter set
     if (shuffledIds.length > 0) {
-      const restored = shuffledIds.map(id => SENT_BY_ID[id]).filter(Boolean)
+      const restored = shuffledIds.map(id => sentById[id]).filter(Boolean)
       // Only reuse if the restored set matches the current filtered list size
       const filteredIds = new Set(list.map(s => s.id))
       const valid = restored.filter(s => filteredIds.has(s.id))
@@ -176,10 +239,10 @@ export default function DrillSentences() {
 
           {/* Main Sanskrit text — each word clickable */}
           <div className="sentence-deva devanagari" style={{display:'flex',alignItems:'center',gap:'0.75rem',flexWrap:'wrap'}}>
-            <ClickableSentence text={sentence.devanagari} />
+            <ClickableSentence vocabulary={vocabData?.vocabulary} text={sentence.devanagari} />
             <button className="speak-btn" title="Hear full sentence" onClick={() => speak(sentence.devanagari)}><SpeakIcon /></button>
           </div>
-          <div className="sentence-iast">{sentence.iast}</div>
+          <div className="sentence-iast">{sentence.iast || toIAST(sentence.devanagari)}</div>
 
           {/* Mode-specific prompt */}
           <div className="drill-prompt">

@@ -5,16 +5,12 @@ import { useSoundEffects } from '../hooks/useSoundEffects'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useVirtualizer } from '@tanstack/react-virtual'
 import WellDoneToast from '../components/WellDoneToast'
-import { ALPHABET_CARDS, VOCABULARY } from '../data/vocabulary.js'
+import { useVocabularyData } from '../hooks/useData'
 import { freshOrder } from '../utils/freshOrder.js'
 import ClickableSentence from '../components/ClickableSentence'
 import SpeakIcon from '../components/SpeakIcon'
 import './Flashcards.css'
 
-const ALL_CARDS = [...ALPHABET_CARDS, ...VOCABULARY]
-
-// Build a stable id→card lookup for restoring shuffled order
-const CARD_BY_ID = Object.fromEntries(ALL_CARDS.map(c => [c.id, c]))
 
 // ── Virtualised browse list ───────────────────────────────────────────────────
 function BrowseList({ cards, onStudy }) {
@@ -99,6 +95,11 @@ function BrowseList({ cards, onStudy }) {
 }
 
 export default function Flashcards() {
+  const vocabData     = useVocabularyData()
+  const alphabetCards = vocabData?.alphabet_cards || []
+  const vocabulary    = vocabData?.vocabulary     || []
+  const allCards  = React.useMemo(() => [...alphabetCards, ...vocabulary], [alphabetCards, vocabulary])
+  const cardById  = React.useMemo(() => Object.fromEntries(allCards.map(c => [c.id, c])), [allCards])
   const { getDueItems, recordAnswer, getItemAccuracy, progress } = useProgress()
 
   // Browse mode — shows the full virtualised card list
@@ -116,9 +117,9 @@ export default function Flashcards() {
   const [flipped, setFlipped] = useState(false)   // intentionally ephemeral
   const [round, setRound]     = useState(0)       // bumping forces a fresh deck
 
-  const sourceCards = deckType === 'alphabet' ? ALPHABET_CARDS
-                    : deckType === 'vocab'    ? VOCABULARY
-                    : ALL_CARDS
+  const sourceCards = deckType === 'alphabet' ? alphabetCards
+                    : deckType === 'vocab'    ? vocabulary
+                    : allCards
 
   // Build the deck; for 'all' re-use the saved shuffle so the card doesn't jump
   const deck = useMemo(() => {
@@ -129,7 +130,7 @@ export default function Flashcards() {
     })
     // filter === 'all' — try to restore the saved shuffle
     if (shuffledIds.length > 0) {
-      const restored = shuffledIds.map(id => CARD_BY_ID[id]).filter(Boolean)
+      const restored = shuffledIds.map(id => cardById[id]).filter(Boolean)
       // If the restored deck matches the current source, use it
       if (restored.length === Math.min(sourceCards.length, 30)) return restored
     }
@@ -252,7 +253,7 @@ export default function Flashcards() {
         <div className="fc-card-inner">
           <div className="fc-front">
             <div className="fc-deva-row">
-              <div className="fc-deva devanagari"><ClickableSentence text={card?.devanagari || ''} /></div>
+              <div className="fc-deva devanagari"><ClickableSentence vocabulary={vocabulary} text={card?.devanagari || ''} /></div>
               <button className="speak-btn" title="Hear pronunciation"
                 onClick={e => { e.stopPropagation(); speak(card?.devanagari) }}><SpeakIcon /></button>
             </div>

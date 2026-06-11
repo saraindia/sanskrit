@@ -1,29 +1,65 @@
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback, useMemo } from 'react'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
 import './GitaPage.css'
 
-// Text JSON is fetched on demand and kept for the session
+const COMMENTARY_LABELS = {
+  advaita_vedanta:   { label: 'Advaita Vedānta',   subtitle: 'Śaṅkara' },
+  vishishtadvaita:   { label: 'Viśiṣṭādvaita',     subtitle: 'Rāmānuja' },
+  dvaita_vedanta:    { label: 'Dvaita Vedānta',     subtitle: 'Madhva' },
+  integral_advaita:  { label: 'Integral Advaita',   subtitle: 'Aurobindo' },
+  integral_yoga:     { label: 'Integral Yoga',      subtitle: 'Aurobindo' },
+  modern_vedanta:    { label: 'Modern Vedānta',     subtitle: 'Vivekānanda / Sarvapriyananda' },
+  universalist:      { label: 'Universalist',       subtitle: 'Neo-Vedānta' },
+}
+
+function CommentaryPanel({ commentaries }) {
+  const [open, setOpen] = useState(null)
+  if (!commentaries) return null
+  return (
+    <div className="upan-commentaries">
+      <div className="upan-comm-heading">Commentaries</div>
+      {Object.entries(COMMENTARY_LABELS).map(([key, { label, subtitle }]) => {
+        const body = commentaries[key]
+        if (!body) return null
+        const isOpen = open === key
+        return (
+          <div key={key} className={`upan-comm-item${isOpen ? ' upan-comm-open' : ''}`}>
+            <button className="upan-comm-toggle" onClick={() => setOpen(isOpen ? null : key)}>
+              <span className="upan-comm-label">{label}</span>
+              <span className="upan-comm-sub">{subtitle}</span>
+              <span className="upan-comm-arrow">{isOpen ? '▲' : '▼'}</span>
+            </button>
+            {isOpen && <div className="upan-comm-body">{body}</div>}
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
 const cache = new Map()
 async function loadJson(file) {
   if (cache.has(file)) return cache.get(file)
-  const res = await fetch(`/content/upanishads/${file}`)
+  const res = await fetch(`/content/upanishads/${file}`, file === 'manifest.json' ? { cache: 'no-store' } : undefined)
   if (!res.ok) throw new Error(`Could not load ${file}`)
-  const data = await res.json()
-  cache.set(file, data)
+  const raw = await res.text()
+  const data = JSON.parse(raw.replace(/,(\s*[}\]])/g, '$1'))
+  if (file !== 'manifest.json') cache.set(file, data)
   return data
 }
 
 export default function UpanishadsPage() {
-  const [manifest, setManifest] = useState(() => cache.get('manifest.json') || null)
-  const [textId, setTextId]     = useSessionStorage('upan_text', '')   // '' = text list
-  const [verseIdx, setVerseIdx] = useSessionStorage('upan_verse', 0)
-  const [drill, setDrill]       = useSessionStorage('upan_drill', true)
-  const [revealed, setRevealed] = useState(false)
-  const [text, setText]         = useState(null)
-  const [error, setError]       = useState(null)
-  const { speak } = useSpeech()
+  const [manifest, setManifest]   = useState(null)
+  const [textId, setTextId]       = useSessionStorage('upan_text', '')
+  const [sectionId, setSectionId] = useSessionStorage('upan_section', '')
+  const [verseIdx, setVerseIdx]   = useSessionStorage('upan_verse', 0)
+  const [drill, setDrill]         = useSessionStorage('upan_drill', true)
+  const [revealed, setRevealed]   = useState(false)
+  const [text, setText]           = useState(null)
+  const [error, setError]         = useState(null)
+  const { speak }                 = useSpeech()
 
   useEffect(() => {
     loadJson('manifest.json').then(setManifest).catch(e => setError(e.message))
@@ -38,20 +74,61 @@ export default function UpanishadsPage() {
     return () => { live = false }
   }, [textId])
 
-  // Hide the answer again whenever the verse changes
-  useEffect(() => { setRevealed(false) }, [textId, verseIdx])
+  useEffect(() => { setRevealed(false) }, [textId, sectionId, verseIdx])
 
-  const openText = (id) => { setTextId(id); setVerseIdx(0) }
+  // Unique sections in document order
+  const sections = useMemo(() => {
+    if (!text) return []
+    const seen = new Set()
+    const result = []
+    for (const v of text.verses) {
+      if (!seen.has(v.sec)) {
+        seen.add(v.sec)
+        result.push(v.sec)
+      }
+    }
+    return result
+  }, [text])
 
-  const randomVerse = useCallback(async () => {
+  // Auto-advance to verse view when there is only one section
+  useEffect(() => {
+    if (text && sections.length === 1 && !sectionId) setSectionId(sections[0])
+  }, [text, sections, sectionId, setSectionId])
+
+  // Verses belonging to the currently-selected section
+  const sectionVerses = useMemo(() => {
+    if (!text || !sectionId) return []
+    return text.verses.filter(v => v.sec === sectionId)
+  }, [text, sectionId])
+
+  const openText = (id) => { setTextId(id); setSectionId(''); setVerseIdx(0) }
+  const openSection = (sec) => { setSectionId(sec); setVerseIdx(0) }
+
+  const randomVerse = useCallback(() => {
     if (!manifest) return
     const total = manifest.texts.reduce((s, t) => s + t.verses, 0)
     let n = Math.floor(Math.random() * total)
     for (const t of manifest.texts) {
-      if (n < t.verses) { setTextId(t.id); setVerseIdx(n); return }
+      if (n < t.verses) {
+        loadJson(`${t.id}.json`).then(data => {
+          const secs = [...new Set(data.verses.map(v => v.sec))]
+          let rem = n
+          for (const sec of secs) {
+            const secV = data.verses.filter(v => v.sec === sec)
+            if (rem < secV.length) {
+              setTextId(t.id)
+              setSectionId(sec)
+              setVerseIdx(rem)
+              return
+            }
+            rem -= secV.length
+          }
+        })
+        return
+      }
       n -= t.verses
     }
-  }, [manifest, setTextId, setVerseIdx])
+  }, [manifest, setTextId, setSectionId, setVerseIdx])
 
   if (error) return (
     <div className="gita anim-fade-up">
@@ -103,37 +180,57 @@ export default function UpanishadsPage() {
     </div>
   )
 
-  // ── Verse view ────────────────────────────────────────────────────────
-  const idx = Math.min(verseIdx, text.verses.length - 1)
-  const verse = text.verses[idx]
-  const showAnswer = !drill || revealed
-  const atStart = idx === 0
-  const atEnd = idx === text.verses.length - 1
-
-  // Group verse indices by section for the dropdown
-  const groups = []
-  text.verses.forEach((v, i) => {
-    const last = groups[groups.length - 1]
-    if (!last || last.sec !== v.sec) groups.push({ sec: v.sec, items: [[i, v.ref]] })
-    else last.items.push([i, v.ref])
-  })
-
-  return (
+  // ── Chapter / section picker ──────────────────────────────────────────
+  if (!sectionId) return (
     <div className="gita anim-fade-up">
       <div className="page-header">
         <button className="gita-back" onClick={() => setTextId('')}>← All Upaniṣads</button>
         <h1 className="page-title devanagari">{text.titleDeva}</h1>
         <p className="page-subtitle">{text.title} · {text.titleEnglish}</p>
       </div>
+      <div className="gita-toolbar">
+        <button className="btn-primary" onClick={randomVerse}>🎲 Random verse</button>
+        <label className="weak-toggle">
+          <input type="checkbox" checked={drill} onChange={e => setDrill(e.target.checked)} />
+          <span>Drill mode</span>
+        </label>
+      </div>
+      <div className="gita-chapters">
+        {sections.map((sec, i) => {
+          const count = text.verses.filter(v => v.sec === sec).length
+          return (
+            <button key={sec} className="gita-ch-card card" onClick={() => openSection(sec)}>
+              <span className="gita-ch-num">Section {i + 1} · {count} verses</span>
+              <span className="gita-ch-eng">{sec}</span>
+            </button>
+          )
+        })}
+      </div>
+    </div>
+  )
+
+  // ── Verse view ────────────────────────────────────────────────────────
+  const idx      = Math.min(verseIdx, sectionVerses.length - 1)
+  const verse    = sectionVerses[idx]
+  if (!verse) return null
+  const showAnswer = !drill || revealed
+  const atStart    = idx === 0
+  const atEnd      = idx === sectionVerses.length - 1
+
+  return (
+    <div className="gita anim-fade-up">
+      <div className="page-header">
+        <button className="gita-back" onClick={() => setSectionId('')}>← {text.title} chapters</button>
+        <h1 className="page-title devanagari">{text.titleDeva}</h1>
+        <p className="page-subtitle">{sectionId}</p>
+      </div>
 
       <div className="gita-toolbar">
         <button className="gita-nav-btn" onClick={() => setVerseIdx(idx - 1)} disabled={atStart} aria-label="Previous verse">←</button>
         <select className="drill-select gita-verse-select" value={idx}
           onChange={e => setVerseIdx(Number(e.target.value))}>
-          {groups.map(g => (
-            <optgroup key={g.sec} label={g.sec}>
-              {g.items.map(([i, ref]) => <option key={i} value={i}>Verse {ref}</option>)}
-            </optgroup>
+          {sectionVerses.map((v, i) => (
+            <option key={i} value={i}>Verse {v.ref}</option>
           ))}
         </select>
         <button className="gita-nav-btn" onClick={() => setVerseIdx(idx + 1)} disabled={atEnd} aria-label="Next verse">→</button>
@@ -146,8 +243,8 @@ export default function UpanishadsPage() {
 
       <div className="card gita-verse-card">
         <div className="gita-verse-tags">
-          <span className="pill pill-sacred">{text.title} {verse.ref}</span>
-          <span className="pill pill-sacred" style={{marginLeft:'0.4rem'}}>{verse.sec}</span>
+          <span className="pill pill-sacred">{text.title}</span>
+          <span className="pill pill-sacred" style={{marginLeft:'0.4rem'}}>Verse {verse.ref}</span>
         </div>
 
         <div className="gita-deva devanagari">{verse.dev}</div>
@@ -157,6 +254,7 @@ export default function UpanishadsPage() {
         {showAnswer ? (
           <div className="gita-answer anim-fade-up">
             <div className="gita-trans">{verse.trans}</div>
+            <CommentaryPanel commentaries={verse.commentaries} />
           </div>
         ) : (
           <button className="btn-primary gita-reveal" onClick={() => setRevealed(true)}>Reveal translation</button>
@@ -164,7 +262,10 @@ export default function UpanishadsPage() {
 
         <div className="gita-footer-nav">
           <button className="btn-ghost" onClick={() => setVerseIdx(idx - 1)} disabled={atStart}>← Previous</button>
-          <button className="btn-primary" onClick={() => setVerseIdx(idx + 1)} disabled={atEnd}>Next verse →</button>
+          {atEnd
+            ? <button className="btn-primary" onClick={() => setSectionId('')}>Back to chapters →</button>
+            : <button className="btn-primary" onClick={() => setVerseIdx(idx + 1)}>Next verse →</button>
+          }
         </div>
       </div>
     </div>

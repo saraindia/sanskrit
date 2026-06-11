@@ -5,17 +5,19 @@ import { useSpeech } from '../hooks/useSpeech'
 import { useSoundEffects } from '../hooks/useSoundEffects'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import WellDoneToast from '../components/WellDoneToast'
-import { VOCABULARY } from '../data/vocabulary.js'
+import { useVocabularyData } from '../hooks/useData'
 import { freshOrder } from '../utils/freshOrder.js'
 import { setItem, getItem } from '../utils/storage'
 import './MatchPairs.css'
 
 const ROUND_SIZE = 5
-const WORD_BY_ID = Object.fromEntries(VOCABULARY.map(w => [w.id, w]))
 
 const shuffle = (arr) => [...arr].sort(() => Math.random() - 0.5)
 
 export default function MatchPairs() {
+  const vocabData = useVocabularyData()
+  const vocabulary = vocabData?.vocabulary || []
+  const wordById   = React.useMemo(() => Object.fromEntries(vocabulary.map(w => [w.id, w])), [vocabulary])
   const { user } = useAuth()
   const { recordAnswer, progress } = useProgress()
   const { speak } = useSpeech()
@@ -37,7 +39,7 @@ export default function MatchPairs() {
   }, [storeKey])
 
   const dealRound = useCallback((roundNum) => {
-    const words = freshOrder(VOCABULARY, progress.srs).slice(0, ROUND_SIZE)
+    const words = freshOrder(vocabulary, progress.srs).slice(0, ROUND_SIZE)
     const g = {
       sa: shuffle(words).map(w => w.id),
       en: shuffle(words).map(w => w.id),
@@ -46,7 +48,7 @@ export default function MatchPairs() {
     }
     setGame(g)
     persist(g)
-  }, [progress.srs, persist]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [vocabulary, progress.srs, persist]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Restore an unfinished round, otherwise deal a fresh one
   useEffect(() => {
@@ -56,7 +58,7 @@ export default function MatchPairs() {
       if (
         saved &&
         saved.sa?.length === ROUND_SIZE &&
-        saved.sa.every(id => WORD_BY_ID[id]) &&
+        saved.sa.every(id => wordById[id]) &&
         saved.matched.length < ROUND_SIZE
       ) {
         setGame(saved)
@@ -150,7 +152,7 @@ export default function MatchPairs() {
 
       <div className="mp-grid">
         <div className="mp-col">
-          {game.sa.map(id => WORD_BY_ID[id]).map(w => (
+          {game.sa.map(id => wordById[id]).map(w => (
             <button key={w.id} className={cardClass('sa', w)}
               onClick={() => handleTap('sa', w)} disabled={matched.includes(w.id)}>
               {w.devanagari}
@@ -158,7 +160,7 @@ export default function MatchPairs() {
           ))}
         </div>
         <div className="mp-col">
-          {game.en.map(id => WORD_BY_ID[id]).map(w => (
+          {game.en.map(id => wordById[id]).map(w => (
             <button key={w.id} className={cardClass('en', w)}
               onClick={() => handleTap('en', w)} disabled={matched.includes(w.id)}>
               {w.english}

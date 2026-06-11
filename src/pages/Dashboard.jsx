@@ -1,24 +1,16 @@
 import React, { useMemo, useState, useRef, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { useUserProgress as useProgress } from '../hooks/useUserProgress'
-import { VOCABULARY, ALPHABET_CARDS } from '../data/vocabulary.js'
-import { VNP_SENTENCES } from '../data/sentences.js'
+import { useVocabularyData, useSentenceData } from '../hooks/useData'
 import { MODULES } from '../data/modules.js'
 import { useSpeech } from '../hooks/useSpeech'
 import './Dashboard.css'
 
-const ALL_ITEMS = [...ALPHABET_CARDS, ...VOCABULARY, ...VNP_SENTENCES]
 
-// ── Dictionary search index (built once) ─────────────────────────────────────
-const DICT_INDEX = VOCABULARY.map(v => ({
-  ...v,
-  _search: [v.devanagari, v.iast, v.english, v.pos || '', v.gender || ''].join(' ').toLowerCase(),
-}))
-
-function searchDict(q) {
-  if (!q || !q.trim()) return []
+function searchDict(q, index) {
+  if (!q || !q.trim() || !index) return []
   const terms = q.trim().toLowerCase().split(/\s+/)
-  return DICT_INDEX.filter(v => terms.every(t => v._search.includes(t))).slice(0, 40)
+  return index.filter(v => terms.every(t => v._search.includes(t))).slice(0, 40)
 }
 
 // ── POS badge colour map ──────────────────────────────────────────────────────
@@ -112,7 +104,11 @@ function WordPopup({ word, onClose, anchorRef }) {
 }
 
 // ── Dictionary search widget ──────────────────────────────────────────────────
-function DictionarySearch() {
+function DictionarySearch({ vocabulary }) {
+  const dictIndex = React.useMemo(() => (vocabulary || []).map(v => ({
+    ...v,
+    _search: [v.devanagari, v.iast, v.english, v.pos || '', v.gender || ''].join(' ').toLowerCase(),
+  })), [vocabulary])
   const [query, setQuery]     = useState('')
   const [results, setResults] = useState([])
   const [playingId, setPlayingId] = useState(null)
@@ -127,7 +123,7 @@ function DictionarySearch() {
   const handleChange = useCallback((e) => {
     const q = e.target.value
     setQuery(q)
-    setResults(searchDict(q))
+    setResults(searchDict(q, dictIndex))
   }, [])
 
   const handleListen = useCallback((e, word) => {
@@ -224,7 +220,14 @@ function DictionarySearch() {
 
 export default function Dashboard() {
   const { progress, getDueItems, getWeakConcepts } = useProgress()
-  const dueItems     = useMemo(() => getDueItems(ALL_ITEMS), [getDueItems])
+  const vocabData = useVocabularyData()
+  const sentData  = useSentenceData()
+  const allItems  = React.useMemo(() => [
+    ...(vocabData?.alphabet_cards || []),
+    ...(vocabData?.vocabulary     || []),
+    ...(sentData?.vnp_sentences   || []),
+  ], [vocabData, sentData])
+  const dueItems     = useMemo(() => getDueItems(allItems), [getDueItems, allItems])
   const weakConcepts = useMemo(() => getWeakConcepts(), [getWeakConcepts])
 
   const avgAccuracy = useMemo(() => {
@@ -253,7 +256,7 @@ export default function Dashboard() {
       <div className="dash-section-label" style={{ marginTop: '0.25rem' }}>
         <span style={{ marginRight: '0.4rem' }}>📖</span> Dictionary
       </div>
-      <DictionarySearch />
+      <DictionarySearch vocabulary={vocabData?.vocabulary} />
 
       {/* ── 3-stat strip ───────────────────────────────────────────────── */}
       <div className="dash-stats">

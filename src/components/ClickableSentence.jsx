@@ -1,34 +1,24 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
-import { VOCABULARY } from '../data/vocabulary.js'
 import { useSpeech } from '../hooks/useSpeech'
 import './ClickableSentence.css'
 
-// Build a lookup: try exact match, then prefix match on devanagari stem
-function lookupWord(raw) {
-  // Strip punctuation: ।,।,.
+function lookupWord(raw, vocabulary) {
   const word = raw.replace(/[।॥.,!?]/g, '').trim()
-  if (!word) return null
-
-  // Exact match
-  let entry = VOCABULARY.find(v => v.devanagari === word)
+  if (!word || !vocabulary) return null
+  let entry = vocabulary.find(v => v.devanagari === word)
   if (entry) return entry
-
-  // Prefix match — vocab stem appears at the start of the inflected form
-  // e.g. राम matches रामः, रामं; गच्छति exact; बाल matches बालः, बालं, बाले
-  entry = VOCABULARY.find(v => word.startsWith(v.devanagari) && v.devanagari.length >= 2)
+  entry = vocabulary.find(v => word.startsWith(v.devanagari) && v.devanagari.length >= 2)
   if (entry) return entry
-
-  // Reverse: word is a prefix of vocab entry (for short stems)
-  entry = VOCABULARY.find(v => v.devanagari.startsWith(word) && word.length >= 2)
+  entry = vocabulary.find(v => v.devanagari.startsWith(word) && word.length >= 2)
   return entry || null
 }
 
-function WordChip({ token, onClose, activeToken, setActiveToken }) {
+function WordChip({ token, vocabulary, onClose, activeToken, setActiveToken }) {
   const { speak } = useSpeech()
   const ref = useRef(null)
   const isActive = activeToken === token.key
 
-  const entry = lookupWord(token.word)
+  const entry = lookupWord(token.word, vocabulary)
   const isPunctuation = /^[।॥.,!? ]+$/.test(token.word)
 
   const handleClick = useCallback(() => {
@@ -37,7 +27,6 @@ function WordChip({ token, onClose, activeToken, setActiveToken }) {
     setActiveToken(isActive ? null : token.key)
   }, [isPunctuation, isActive, token, speak, setActiveToken])
 
-  // Close on outside click
   useEffect(() => {
     if (!isActive) return
     const handler = (e) => {
@@ -71,21 +60,15 @@ function WordChip({ token, onClose, activeToken, setActiveToken }) {
   )
 }
 
-export default function ClickableSentence({ text, className = '' }) {
+export default function ClickableSentence({ text, vocabulary, className = '' }) {
   const [activeToken, setActiveToken] = useState(null)
-
-  // Split on spaces, keep punctuation attached to preceding word
   const tokens = text.trim().split(/\s+/).map((w, i) => ({ word: w, key: i }))
 
   return (
     <span className={`clickable-sentence ${className}`}>
       {tokens.map((token, i) => (
         <React.Fragment key={token.key}>
-          <WordChip
-            token={token}
-            activeToken={activeToken}
-            setActiveToken={setActiveToken}
-          />
+          <WordChip token={token} vocabulary={vocabulary} activeToken={activeToken} setActiveToken={setActiveToken} />
           {i < tokens.length - 1 && ' '}
         </React.Fragment>
       ))}

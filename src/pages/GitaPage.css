@@ -1,4 +1,5 @@
-.gita { max-width: 720px; }
+.gita { max-width: 720px; padding-left: 1.1rem; padding-right: 1.1rem; }
+@media (max-width: 480px) { .gita { padding-left: 0.75rem; padding-right: 0.75rem; } }
 
 .gita-loading {
   padding: 3rem;
@@ -37,7 +38,7 @@
 .gita-nav-btn:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); }
 .gita-nav-btn:disabled { opacity: 0.35; cursor: default; }
 
-.gita-verse-select { min-width: 150px; }
+.gita-verse-select { min-width: 120px; max-width: 240px; flex: 0 1 auto; }
 
 .gita-chapters {
   display: grid;
@@ -196,4 +197,62 @@
 @media (max-width: 600px) {
   .gita-deva { font-size: 1.3rem; }
   .gita-verse-card { padding: 1.25rem; }
+}
+
+/* ── Upanishad commentary accordion ─────────────────────────────────────── */
+.upan-commentaries {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+}
+.upan-comm-heading {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+.upan-comm-item {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 0.4rem;
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+.upan-comm-item.upan-comm-open { border-color: var(--gold); }
+.upan-comm-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  color: var(--text-primary);
+}
+.upan-comm-toggle:hover { background: var(--surface-hover, rgba(255,255,255,0.04)); }
+.upan-comm-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  flex: 1;
+}
+.upan-comm-sub {
+  font-size: 0.75rem;
+  color: var(--gold);
+  font-style: italic;
+}
+.upan-comm-arrow {
+  font-size: 0.65rem;
+  color: var(--text-secondary);
+  margin-left: 0.25rem;
+}
+.upan-comm-body {
+  padding: 0.6rem 0.9rem 0.8rem;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--border);
 }

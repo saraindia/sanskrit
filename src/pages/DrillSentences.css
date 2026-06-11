@@ -1,6 +1,7 @@
 .drill {
   max-width: 760px;
-  padding: 0 0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 /* page-header already has its own left/right padding — don't double up */
 .drill .page-header { padding-left: 0; padding-right: 0; }

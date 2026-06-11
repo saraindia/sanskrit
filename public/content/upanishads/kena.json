@@ -1,0 +1,477 @@
+{
+  "id": "kena",
+  "title": "Kena Upaniṣad",
+  "titleDeva": "केनोपनिषद्",
+  "titleEnglish": "By whom is all this directed?",
+  "veda": "Sāma Veda",
+  "verses": [
+    {
+      "ref": "0",
+      "sec": "Śānti Pāṭha",
+      "dev": "ॐ आप्यायन्तु ममाङ्गानि वाक्प्राणश्चक्षुःश्रोत्रमथो बलमिन्द्रियाणि च सर्वाणि ।\nसर्वं ब्रह्मौपनिषदं माऽहं ब्रह्म निराकुर्यां मा मा ब्रह्म निराकरोदनिराकरणमस्त्वनिराकरणं मेऽस्तु ।\nतदात्मनि निरते य उपनिषत्सु धर्मास्ते मयि सन्तु ते मयि सन्तु ॥\nॐ शान्तिः शान्तिः शान्तिः ॥",
+      "iast": "om āpyāyantu mamāṅgāni vākprāṇaścakṣuḥśrotramatho balamindriyāṇi ca sarvāṇi |\nsarvaṁ brahmaupaniṣadaṁ mā'haṁ brahma nirākuryāṁ mā mā brahma nirākarodanirākaraṇamastvanirākaraṇaṁ me'stu |\ntadātmani nirate ya upaniṣatsu dharmāste mayi santu te mayi santu ||\nom śāntiḥ śāntiḥ śāntiḥ ||",
+      "trans": "Om. May my limbs, speech, prana (breath), eyes, ears, strength, and all my senses become robust. All is the Brahman revealed in the Upanishads. May I never deny Brahman, and may Brahman never deny me. May there be no denial at all; may there be no denial from my side. May those dharma (virtues) spoken of in the Upanishads repose in me, who am devoted to the Atman; may they repose in me. Om Peace, Peace, Peace.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara notes that this peace invocation prepares the student's physical body and sensory instruments. To realize the non-dual Brahman, the mind and outer senses must be completely unified, strong, and cooperative. The prayer of mutual non-denial ensures the seeker's mind stays aligned with the truth that there is no division between the individual and the Absolute.",
+        "vishishtadvaita": "Ramanuja views this as an earnest prayer for structural purification. The senses and organs are acknowledged as instruments given by the Lord. The seeker prays that these instruments stay vitalized and dedicated to the service of Brahman, who holds all individual souls as His eternal, dependent body.",
+        "dvaita_vedanta": "Madhva explains that the text asks for the grace of Hari (Vishnu) to keep the vital breath and faculties robust. True scriptural study requires clear physical health and intellectual sharpness, which can only be granted by the Supreme Independent Lord who governs all individual faculties.",
+        "integral_advaita": "Aurobindo sees this as an foundational step toward divine transformation. The physical body, speech, and life-force must not be rejected or starved; rather, they must grow robust and be filled with the spiritual light of Brahman so they can effectively express the Divine on earth."
+      }
+    },
+    {
+      "ref": "1",
+      "sec": "Khanda I: The Directive Power Behind the Senses",
+      "dev": "केनेषितं पतति प्रेषितं मनः केन प्राणः प्रथमः प्रैति युक्तः ।\nकेनेषितां वाचमिमां वदन्ति चक्षुः श्रोत्रं क उ देवो युनक्ति ॥ १ ॥",
+      "iast": "keneṣitaṁ patati preṣitaṁ manaḥ kena prāṇaḥ prathamaḥ praiti yuktaḥ |\nkeneṣitāṁ vācamimāṁ vadanti cakṣuḥ śrotraṁ ka u devo yunakti || 1 ||",
+      "trans": "By whom willed and directed does the mind light upon its objects? By whom commanded does the foremost life-breath move forward? By whose will do people utter this speech? And what luminous power directs the eye and the ear?",
+      "commentaries": {
+        "advaita_vedanta": "Shankara highlights that the word 'Kena' (By whom?) initiates an investigation into the Ultimate Reality. The mind and senses are inert matter; they cannot direct themselves. This question implies that there must be an independent, self-luminous Light of Consciousness (the Atman) that activates the psychological machinery without itself moving.",
+        "vishishtadvaita": "Ramanuja explains that the disciple is seeking to understand the Supreme Controller (Ishvara). The cosmic forces, the individual soul, and the life-breath do not function on their own accord. They require the directing will of the Supreme Personality of Godhead, who sits as the inner indweller.",
+        "dvaita_vedanta": "Madhva asserts that this verse explicitly shows the natural dependence of all individual souls and their sensory faculties. The word 'Deva' refers directly to Vishnu, the Supreme Lord, who alone inspires, activates, and commands the functions of the mind, breath, and body.",
+        "integral_advaita": "Aurobindo explains that this inquiry marks the boundary where mental life seeks its hidden spiritual source. The human mind and vital breath are only minor, imperfect reflections of a grander, hidden Supramental consciousness that orchestrates our entire existence from behind the scenes."
+      }
+    },
+    {
+      "ref": "2",
+      "sec": "Khanda I: The Directive Power Behind the Senses",
+      "dev": "श्रोत्रस्य श्रोत्रं मनसो मनो यद्वाचो ह वाचं स उ प्राणस्य प्राणः ।\nचक्षुषश्चक्षुरतिमुच्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ॥ २ ॥",
+      "iast": "śrotrasya śrotraṁ manaso mano yadvāco ha vācaṁ sa u prāṇasya prāṇaḥ |\ncakṣuṣascakṣuratimucya dhīrāḥ pretyāsmāllokādamṛtā bhavanti || 2 ||",
+      "trans": "It is the Ear of the ear, the Mind of the mind, the Speech of speech, the Life of life, and the Eye of the eye. The wise, freeing themselves from these instruments and turning away from this world, become immortal.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains that Brahman is the absolute subjective reality. The physical ear only hears because it is backed by the light of consciousness. By realizing 'I am that pure witness-consciousness, not the physical instrument,' the wise detach from the ego and realize their inherent, non-dual immortality.",
+        "vishishtadvaita": "Ramanuja interprets this to mean that the Lord is the ultimate sustaining power behind our faculties. Our senses only have power because God lends them capacity. Realizing this deep dependence causes a devotee to detach from worldly cravings and attain eternal union with the Divine.",
+        "dvaita_vedanta": "Madhva states that Vishnu is called 'the Ear of the ear' because He is the supreme controller and activator of the inner sensory deities. True immortality is achieved when a soul stops taking credit for its actions and realizes that all capacity flows entirely from the Lord.",
+        "integral_advaita": "Aurobindo views this as a revelation of the absolute core values of our existence. There is a divine hearing, a divine seeing, and a divine thinking that precedes our clumsy human faculties. Immortality is achieved by raising our human consciousness into that perfect, divine awareness."
+      }
+    },
+    {
+      "ref": "3",
+      "sec": "Khanda I: The Directive Power Behind the Senses",
+      "dev": "न तत्र चक्षुर्गच्छति न वाग्गच्छति नो मनः ।\nन विद्मो न विजानीमो यथैतदनुशिष्यात् ॥ ३ ॥",
+      "iast": "na tatra cakṣurgacchati na vāggacchati no manaḥ |\nna vidmo na vijānīmo yathaitadanuśiṣyāt || 3 ||",
+      "trans": "The eye cannot go there, nor speech, nor the mind. We do not know It, nor can we understand how one should teach It.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara asserts that Brahman cannot be made an object of knowledge because It is the ultimate Subject. You cannot see the seer of seeing. Since speech and mind require Brahman to function, they can never turn around to grasp It. Teaching It is unique; it requires pointing out that It is identical with the inquirer's own being.",
+        "vishishtadvaita": "Ramanuja explains that the infinite nature of God exceeds the natural capacity of human intellect and sensory perception. It is impossible to fully measure or define God using material logic. He can only be known when He chooses to reveal Himself to a heart purified by pure devotion.",
+        "dvaita_vedanta": "Madhva notes that this verse highlights the radical difference between the Lord and worldly objects. No one can fully grasp or describe the complete, infinite virtues of Vishnu. Masters can only teach about Him by utilizing negative definitions and pointing to His divine actions.",
+        "integral_advaita": "Aurobindo maintains that the human mind is structurally incapable of capturing the Absolute. Our ordinary reason deals exclusively with divisions and fragments. To know Brahman, the mind must quiet down completely, allowing intellectual thought to give way to direct, supramental intuition."
+      }
+    },
+    {
+      "ref": "4",
+      "sec": "Khanda I: The Directive Power Behind the Senses",
+      "dev": "अन्यदेव तद्विदितादथो अविदितादधि ।\nइति शुश्रुम धीराणां ये नस्तद्विचचक्षिरे ॥ ४ ॥",
+      "iast": "anyadeva tadviditādatho aviditādadhi |\nitya śuśruma dhīrāṇāṁ ye nastadvicacakṣire || 4 ||",
+      "trans": "It is surely different from the known, and It is also above the unknown. Thus have we heard from the wise who explained It to us.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara notes that 'the known' constitutes the entire manifest universe of objects, while 'the unknown' refers to unmanifested primordial matter. By stating that Brahman is different from both, the text establishes that Brahman is not a thing to be found in the world, but is the very Self of the knower.",
+        "vishishtadvaita": "Ramanuja interprets 'the known' as the perishable, material world (achit) and 'the unknown' as the individual unliberated souls (chit). God is entirely distinct from and vastly superior to both; He is the supreme Purushottama who rules over all matter and spirit.",
+        "dvaita_vedanta": "Madhva views this as an assertion of the absolute uniqueness (Atyanta-bheda) of Vishnu. The Lord is totally distinct from what humans have conceptualized through their senses ('the known') and remains beyond what is currently ungrasped by them ('the unknown').",
+        "integral_advaita": "Aurobindo explains that Brahman escapes all our standard mental definitions. It cannot be cataloged as a known material object, nor is It an unknowable blank void. It is a transcendent reality that can only be realized by transcending our ordinary mental consciousness altogether."
+      }
+    },
+    {
+      "ref": "5",
+      "sec": "Khanda I: The Directive Power Behind the Senses",
+      "dev": "यद्वाचानाभ्युदितं येन वागभ्युद्यते ।\nतदेव ब्रह्म त्वं विद्धि नेदं यदिदमूपासते ॥ ५ ॥",
+      "iast": "yadvācānabhyuditaṁ yena vāgabhyudyate |\ntadeva brahma tvaṁ viddhi nedaṁ yadidamūpāsate || 5 ||",
+      "trans": "What speech cannot express, but that by which speech itself is expressed—know that alone to be Brahman, and not this which people worship here.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara delivers a major critique against outer ritualism. 'Not this which people worship' means that any objective god, idol, or mental concept worshipped as an external 'other' is not the ultimate Brahman. True Brahman is the internal, subjective consciousness that gives speech its power.",
+        "vishishtadvaita": "Ramanuja clarifies that this verse does not condemn the worship of a personal God. Rather, it target the mistake of limiting God to an inanimate object or an external mental construct. Brahman is the vast spirit that enlivens our speech; He must be worshipped as our ultimate internal ruler.",
+        "dvaita_vedanta": "Madhva strongly rejects any idea that traditional worship is useless. He interprets the verse to mean that Brahman cannot be fully limited or spoken of by human speech. Seekers must understand that the small external forms they visualize do not completely exhaust the boundless majesty of Vishnu.",
+        "integral_advaita": "Aurobindo sees this as a call to step beyond religious dogmas and outer forms. True spirituality means moving past the mental constructs we create about God, and directly touching the dynamic, infinite reality that enlivens our throat, heart, and mind."
+      }
+    },
+    {
+      "ref": "6",
+      "sec": "Khanda I: The Directive Power Behind the Senses",
+      "dev": "यन्मनसा न मनुते येनाहुर्मनो मतम् ।\nतदेव ब्रह्म त्वं विद्धि नेदं यदिदमूपासते ॥ ६ ॥",
+      "iast": "yanmanasā na manute yenāhurmano matam |\ntadeva brahma tvaṁ viddhi nedaṁ yadidamūpāsate || 6 ||",
+      "trans": "What cannot be thought of by the mind, but that by which they say the mind is thought of—know that alone to be Brahman, and not this which people worship here.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara argues that the mind can only conceptualize objects that have qualities like form, color, or lineage. Since Brahman is the witness-consciousness that illuminates the mind itself, the mind cannot turn around to think of It. Brahman is your own mind's illumination, not an object of thought.",
+        "vishishtadvaita": "Ramanuja explains that human thoughts can never fully contain the absolute reality of God. The mind functions only because the Lord provides it with consciousness. True meditation involves realizing that the source of your thoughts is infinitely greater than the thoughts themselves.",
+        "dvaita_vedanta": "Madhva maintains that the human mind cannot independently perceive or understand the true nature of Vishnu. The mind only gains clarity when it is inspired by the Lord's internal light. Therefore, we must avoid reducing God to a petty concept born of our limited imagination.",
+        "integral_advaita": "Aurobindo views this as a vital principle for yoga. Mental silence is mandatory. Since the ordinary mind cannot think of Brahman, we must silence our thoughts so that the higher, divine consciousness can manifest within us without distortion."
+      }
+    },
+    {
+      "ref": "7",
+      "sec": "Khanda I: The Directive Power Behind the Senses",
+      "dev": "यच्चक्षुषा न पश्यति येन चक्षूंषि पश्यति ।\nतदेव ब्रह्म त्वं विद्धि नेदं यदिदमूपासते ॥ ७ ॥",
+      "iast": "yaccakṣuṣā na paśyati yena cakṣūṁṣi paśyati |\ntadeva brahma tvaṁ viddhi nedaṁ yadidamūpāsate || 7 ||",
+      "trans": "What cannot be seen by the eye, but that by which the eyes are able to see—know that alone to be Brahman, and not this which people worship here.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains that the eye can only see external objects that possess form and color. Brahman is completely devoid of physical attributes and is the internal light of awareness that allows the optic nerve to process sight. It is the internal Seer, never the seen.",
+        "vishishtadvaita": "Ramanuja teaches that God cannot be observed using material vision. He is the cosmic eye behind all eyes, lending sight to all creatures. To perceive Him, a seeker must develop an internal 'divine eye' born of deep devotion and love.",
+        "dvaita_vedanta": "Madhva explains that Vishnu cannot be captured by the physical senses. He dwells inside the eye as its hidden guide. The verse warns against confusing the limited physical forms seen in the material world with the infinite, supreme spirit.",
+        "integral_advaita": "Aurobindo notes that our outer sight is limited to the surface of material things. Brahman is the total consciousness that supports all light and sight. We must look past the superficial appearance of objects to see the divine presence residing within them."
+      }
+    },
+    {
+      "ref": "8",
+      "sec": "Khanda I: The Directive Power Behind the Senses",
+      "dev": "यच्छ्रोत्रेण न शृणोति येनेदं श्रोत्रं श्रुतम् ।\nतदेव ब्रह्म त्वं विद्धि नेदं यदिदमूपासते ॥ ८ ॥",
+      "iast": "yacchrotreṇa na śṛṇoti yenedaṁ śrotraṁ śrutam |\ntadeva brahma tvaṁ viddhi nedaṁ yadidamūpāsate || 8 ||",
+      "trans": "What cannot be heard by the ear, but that by which this hearing is heard—know that alone to be Brahman, and not this which people worship here.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara reiterates that sound waves require the presence of consciousness to be recognized as sound. Brahman cannot be heard as an external vibration because It is the foundational awareness that experiences all sound. It is the ultimate subjective listener.",
+        "vishishtadvaita": "Ramanuja teaches that while our ears hear external sound waves, the capacity to perceive meaning and experience consciousness is a gift from the Lord. He is the ultimate listener within us, and our hearing must be dedicated to listening to His truth.",
+        "dvaita_vedanta": "Madhva explains that Vishnu acts as the inner ruler of the auditory faculty. He cannot be captured by material sound waves, but He enables all hearing. We must realize that the ultimate goal of hearing is to understand the sacred words that describe His glory.",
+        "integral_advaita": "Aurobindo explains that past our physical hearing lies an inner, spiritual ear capable of catching cosmic truths and divine inspirations. Brahman is the source of that supreme harmony, far transcending any temporary material sound."
+      }
+    },
+    {
+      "ref": "9",
+      "sec": "Khanda I: The Directive Power Behind the Senses",
+      "dev": "यत्प्राणेन न प्राणिति येन प्राणः प्रणीयते ।\nतदेव ब्रह्म त्वं विद्धि नेदं यदिदमूपासते ॥ ९ ॥",
+      "iast": "yatprāṇena na prāṇiti yena prāṇaḥ praṇīyate |\ntadeva brahma tvaṁ viddhi nedaṁ yadidamūpāsate || 9 ||",
+      "trans": "What cannot be activated by the life-breath, but that by which the life-breath itself is directed—know that alone to be Brahman, and not this which people worship here.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara concludes the first section by examining the life-force (Prana). The breath moves in and out like a bellows, but it cannot move on its own accord. It is driven by the presence of the Atman. Brahman is the Life of our life, completely independent of physical respiration.",
+        "vishishtadvaita": "Ramanuja explains that the vital breath sustains the physical shell, but the Lord sustains the vital breath itself. True spiritual life begins when we realize that our very existence and every breath we take are entirely dependent on God's continuous will.",
+        "dvaita_vedanta": "Madhva states that the chief life-force (Mukhya Prana) functions entirely under the control of Vishnu. The breath does not give life to God; rather, God gives life-energy to the breath. This underscores the absolute independence of the Supreme Lord.",
+        "integral_advaita": "Aurobindo views this as a vital principle for the spiritual evolution of life. The life-force is not an inert mechanical energy; it is an expression of divine consciousness. By consciously connecting our breath with its divine source, we can divinize our physical body and actions."
+      }
+    },
+    {
+      "ref": "1",
+      "sec": "Khanda II: The Paradox of Knowing Brahman",
+      "dev": "यदि मन्यसे सुवेदेति दभ्रमेवापि नूनं त्वं वेत्थ ब्रह्मणो रूपम् ।\nयदस्य त्वं यदस्य देवेष्वथ नु मीमांस्यमेव ते मन्ये विदितम् ॥ १ ॥",
+      "iast": "yadi manyase suvedeti dabhramevāpi nūnaṁ tvaṁ vettha brahmaṇo rūpam |\nyadasya tvaṁ yadasya deveṣvatha nu mīmāṁsyamev te manye viditam || 1 ||",
+      "trans": "If you think 'I know It well,' then you know but little of Brahman’s nature. What you know of It as yourself, and what you know of It among the gods, is minor. Therefore, Brahman must be further investigated by you.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains that a teacher uses these words to shatter a student's intellectual pride. If you claim 'I know Brahman well,' you have mistakenly turned Brahman into a defined object of your mind, which means you do not know It at all. You must drop the egoistic claim of ownership over knowledge.",
+        "vishishtadvaita": "Ramanuja interprets this as a warning against thinking you can fully comprehend or limit God's infinite qualities. What you perceive of Him within your own soul or within the cosmic gods is just a tiny fraction of His infinite being. One must continue investigating with deep humility.",
+        "dvaita_vedanta": "Madhva states that no individual soul, nor any cosmic deity, can ever completely know the full extent of Vishnu's attributes. Claiming absolute knowledge is a sign of deep ignorance. A genuine devotee always remains a humble student of the Lord's endless glory.",
+        "integral_advaita": "Aurobindo notes that an intellectual grasp of spiritual concepts is highly incomplete. The mind likes to think it has captured the absolute truth with a phrase or a definition. We must push past these rigid mental assumptions to enter the boundless experience of the Divine."
+      }
+    },
+    {
+      "ref": "2",
+      "sec": "Khanda II: The Paradox of Knowing Brahman",
+      "dev": "नाहं मन्ये सुवेदेति नो न वेदेति वेद च ।\nयो नस्तद्वेद तद्वेद नो न वेदेति वेद च ॥ २ ॥",
+      "iast": "nāhaṁ manye suvedeti no na vedeti veda ca |\nyo nastadveda tadveda no na vedeti veda ca || 2 ||",
+      "trans": "I do not think 'I know It well,' nor do I think 'I know It not.' He among us who understands this double statement—'not that I do not know, and yet I know'—knows the truth.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara showcases the classic paradox of non-dual realization. The student replies: 'I do not know Brahman as an objective thing (like a book), nor am I ignorant of It, because It is my own self.' Knowing Brahman means realizing that It is the very subjective awareness that is experiencing these words.",
+        "vishishtadvaita": "Ramanuja explains that the devotee understands God is beyond full intellectual definition ('I do not know Him completely'), yet they have a direct personal relationship with Him through love ('yet I know Him'). This balance avoids both intellectual pride and total agnosticism.",
+        "dvaita_vedanta": "Madhva interprets this verse as an expression of proper humility. A true scholar of the scriptures knows that they cannot fully comprehend Vishnu ('I do not know Him entirely'), but they do possess valid, scriptural knowledge of His existence and grace ('yet I know Him').",
+        "integral_advaita": "Aurobindo sees this as a description of an intuitive state of consciousness that transcends ordinary logic. It is a state of direct realization where you know the Divine by becoming one with It, bypassing the dualistic process of a mental knower looking at a known object."
+      }
+    },
+    {
+      "ref": "3",
+      "sec": "Khanda II: The Paradox of Knowing Brahman",
+      "dev": "यस्यामतं तस्य मतं मतं यस्य न वेद सः ।\nअविज्ञातं विजानतां विज्ञातमविजानताम् ॥ ३ ॥",
+      "iast": "yasyāmataṁ tasya mataṁ mataṁ yasya na veda saḥ |\navijñātaṁ vijānatāṁ vijñātamavijānatām || 3 ||",
+      "trans": "To whomsoever It is unknown, to him It is known. To whomsoever It is known, he does not know It. It is unknown to those who claim to know It, and known to those who know they cannot know It.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara clarifies that those who believe Brahman can be grasped as a mental concept remain completely ignorant of It. Conversely, those who realize that Brahman is the incomprehensible, infinite subject have reached true understanding. The text uses these extreme paradoxes to force the mind out of its dualistic habits.",
+        "vishishtadvaita": "Ramanuja explains that scholars who believe their logic can fully map out God's infinite nature are deeply mistaken. True knowledge belongs to those who realize God's nature is infinite and approach Him with a heart full of surrender, recognizing their own intellectual limitations.",
+        "dvaita_vedanta": "Madhva maintains that someone who claims to have fully mastered all knowledge regarding Vishnu is proud and ignorant. True understanding belongs to the devotee who knows that God's virtues are completely boundless, far exceeding human comprehension.",
+        "integral_advaita": "Aurobindo explains that this verse contrasts mental knowledge with supramental realization. The mental man collects definitions and thinks he knows. The spiritual seer steps past these concepts into a state of silent, direct oneness where the egoistic need to 'know a thing' is totally transcended."
+      }
+    },
+    {
+      "ref": "4",
+      "sec": "Khanda II: The Paradox of Knowing Brahman",
+      "dev": "प्रतिबोधविदितं मतममृतत्वं हि विन्दते ।\nआत्मना विन्दते वीर्यं विद्यया विन्दतेऽमृतम् ॥ ४ ॥",
+      "iast": "pratibodhaviditaṁ mataṁ amṛtatvaṁ hi vindate |\nātmanā vindate vīryaṁ vidyayā vindate'mṛtam || 4 ||",
+      "trans": "Brahman is truly known when It is realized as the witness in every state of consciousness. By such knowledge one attains immortality. Through the Atman one gains spiritual strength, and through wisdom one attains immortality.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara defines 'pratibodha-viditam' as realizing Brahman as the witness of every single thought and experience. Whether a thought is pleasant or painful, the underlying light that observes the thought is Brahman. Recognizing this constant witness-consciousness breaks the illusion of birth and death, revealing your true immortality.",
+        "vishishtadvaita": "Ramanuja explains that when a soul perceives the Lord's hand in every event and state of mind, it gains supreme spiritual strength (*vīryam*). This strength does not come from human willpower, but flows directly from God into the heart of the devoted seeker, leading them to eternal life.",
+        "dvaita_vedanta": "Madhva takes 'pratibodha' to mean correct, unshakeable scriptural knowledge given by a qualified teacher. This true wisdom reveals that the soul is completely dependent on Vishnu. This realization grants spiritual strength and releases the soul from the wheel of birth and death.",
+        "integral_advaita": "Aurobindo views this as the key to active spiritual realization. We must not look for Brahman only in deep trance; we must recognize It in every single flash of perception, thought, and action. This integrated awareness brings divine power (*vīryam*) into our daily life, transforming it completely."
+      }
+    },
+    {
+      "ref": "5",
+      "sec": "Khanda II: The Paradox of Knowing Brahman",
+      "dev": "इह चेदवेदीदथ सत्यमस्ति न चेदिहावेदीन्महती विनष्टिः ।\nभूतेषु भूतेषु विचित्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ॥ ५ ॥",
+      "iast": "iha cedavedīdatha satyamasti na cedihāvedīnmahatī vinaṣṭiḥ |\nbhūteṣu bhūteṣu vicityā dhīrāḥ pretyāsmāllokādamṛtā bhavanti || 5 ||",
+      "trans": "If one realizes It here in this life, then there is true fulfillment. If one does not realize It here, great is the ruin. Distinguishing the Self in every single creature, the wise, on departing from this world, become immortal.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara emphasizes the extreme urgency of human life. You do not have to wait until physical death to be saved. If you realize the Atman while alive, you attain true fulfillment (*Satyam*). Failing to do so means staying trapped in the painful cycle of rebirth, which is a 'great ruin' (*mahatī vinaṣṭiḥ*).",
+        "vishishtadvaita": "Ramanuja explains that the human birth offers a unique, precious opportunity to break free from material bondage through devotion. If a soul ignores God in this life, it wastes a rare chance and slides back into material darkness. Sages see the Lord residing inside every being and treat all creation with love.",
+        "dvaita_vedanta": "Madhva views 'great ruin' as falling into lower realms of darkness due to lack of devotion. Sages recognize that Vishnu is the supreme provider and indweller within every creature. Living with this awareness ensures that upon leaving the physical body, the soul ascends to eternal service in Vaikuntha.",
+        "integral_advaita": "Aurobindo sees this as a powerful call for spiritual evolution right here on earth. We must not treat the physical world as a worthless illusion to be abandoned. We must discover the Divine present inside every form and creature, manifesting that light actively to transform earthly life."
+      }
+    },
+    {
+      "ref": "1",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "ब्रह्म ह देवेभ्यो विजिग्ये तस्य ह ब्रह्मणो विजये देवा अमहीयन्त ।\nत ऐक्षन्तास्माकमेवायं विजयोऽस्माकमेवायं महिमेति ॥ १ ॥",
+      "iast": "brahma ha devebhyo vijigye tasya ha brahmaṇo vijaye devā amahīyanta |\nta aikṣantāsmākamevāyaṁ vijayo'smākamevāyaṁ mahimeti || 1 ||",
+      "trans": "Once, Brahman won a victory for the gods. But the gods grew arrogant over this victory of Brahman, thinking: 'This victory is ours alone, and this glory belongs to us alone.'",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains that this narrative allegory is introduced to make the abstract teachings of the first two sections easier to understand. The gods represent our sensory faculties and ego. When we achieve success, our ego takes all the credit, completely ignoring the underlying consciousness (Brahman) that actually made the action possible.",
+        "vishishtadvaita": "Ramanuja notes that the gods (like Agni and Vayu) are real cosmic entities, but they are entirely dependent on the supreme Lord. When they defeated the demons, they forgot that their strength was lent to them by God. This verse demonstrates how egoism can cloud the vision of even highly advanced souls.",
+        "dvaita_vedanta": "Madhva uses this verse to reinforce his core doctrine of the absolute independence of God and the dependence of all other beings. The gods have no independent power; their victory over the demons was entirely orchestrated by Vishnu. Their pride was a major spiritual defect.",
+        "integral_advaita": "Aurobindo views this as a description of how cosmic forces operate. The cosmic energies (represented by the gods) carry out the evolutionary work of the Divine. However, as these forces manifest in the material world, they become infected with egoism, falsely believing they are independent actors."
+      }
+    },
+    {
+      "ref": "2",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "तद्धैषां विजज्ञौ तेभ्यो ह प्रादुर्बभूव तन्न व्यजानन्त किमिदं यक्षमिति ॥ २ ॥",
+      "iast": "taddhaiṣāṁ vijajñau tebhyo ha prādurbabhūva tanna vyajānanta kimidaṁ yakṣamiti || 2 ||",
+      "trans": "Brahman knew their arrogance and appeared before them as a mysterious, adorable Spirit (Yaksha). They did not know what this mysterious Spirit was.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara notes that Brahman is omniscient and instantly perceives the pride of the gods. To bless them and remove their ignorance, Brahman takes on a magnificent, ungraspable form called a 'Yaksha'. This shows that whenever the ego grows too proud, the ultimate reality appears as a profound mystery to baffle the intellect.",
+        "vishishtadvaita": "Ramanuja explains that out of pure compassion, the Lord appeared before the gods to correct their delusion. He assumes a wondrous, awe-inspiring form to show them that there are realities far beyond their comprehension, forcing them to question their own power.",
+        "dvaita_vedanta": "Madhva states that Vishnu took on this mysterious appearance to humiliate the pride of the lesser deities and bring them back to truth. The gods could not identify the Yaksha because their personal pride had temporarily blinded their spiritual vision.",
+        "integral_advaita": "Aurobindo views the Yaksha as the unknown Infinite presenting itself directly to our limited faculties. When our human mind and life-force become too proud of their material achievements, the Divine appears as an inexplicable mystery, forcing us to look beyond our narrow boundaries."
+      }
+    },
+    {
+      "ref": "3",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "तेऽग्निमब्रुवन्जातवेद एतद्विजानीहि किमेतद्यक्षमिति तथेति ॥ ३ ॥",
+      "iast": "te'gnimabruvañjātaveda etadvijānīhi kimedat-yakṣamiti tatheti || 3 ||",
+      "trans": "The gods said to Fire: 'O Jataveda (All-knowing), go find out what this mysterious Spirit is.' He replied: 'So be it,' and rushed toward It.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains that Agni is sent first because he is the most powerful and intelligent among the manifest gods of action. His name 'Jataveda' means 'he who knows almost everything.' The gods confidently rely on their highest intellectual and active faculties to solve the mystery of the Absolute.",
+        "vishishtadvaita": "Ramanuja notes that Agni represents the cosmic power of heat and light, as well as human speech and intellect. The gods try to use their own mental and physical powers to investigate the Divine, confident that their advanced faculties can easily categorize this new phenomenon.",
+        "dvaita_vedanta": "Madhva explains that Agni is an subordinate deity under Vishnu. Although he possesses vast knowledge regarding the material world, he remains completely ignorant of the true depth of the Supreme Lord unless Vishnu chooses to reveal It to him.",
+        "integral_advaita": "Aurobindo interprets Agni as the inner flame of human will, aspiration, and speech. When faced with the great mystery of existence, humanity first sends its active will and brilliant speech forward to master and define the unknown reality."
+      }
+    },
+    {
+      "ref": "4",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "तदभ्यद्रवत्तमभ्यवदत्कोऽसीत्यग्निर्वा अहमस्मीत्यब्रवीज्जातवेदा वा अहमस्मीति ॥ ४ ॥",
+      "iast": "tadabhyadravattamabhyavadatko'sītyagnirvā ahamasmītyabravījjātavedā vā ahamasmīti || 4 ||",
+      "trans": "Agni rushed toward the Spirit. The Spirit asked him: 'Who are you?' He replied: 'I am Agni, I am Jataveda (the master of all wealth and knowledge).'",
+      "commentaries": {
+        "advaita_vedanta": "Shankara points out the subtle irony in Agni's response. When questioned by the Absolute, Agni boasts of his worldly titles and identity. This represents the egoistic soul who, when standing before the ultimate truth, still proudly clings to its temporary titles, degrees, and worldly achievements.",
+        "vishishtadvaita": "Ramanuja notes that Agni's boast demonstrates how deeply his pride had set in. He steps forward as an independent power, announcing his cosmic titles to the very Lord who created him, completely unaware of his own total dependence.",
+        "dvaita_vedanta": "Madhva highlights that Agni's self-glorification is the target of this lesson. By proclaiming 'I am Jataveda,' Agni is falsely claiming independent ownership over attributes that actually belong exclusively to Vishnu.",
+        "integral_advaita": "Aurobindo notes that when human language and intellect approach the ultimate Truth, they do so with immense self-importance. Mind and speech boast of their capacity to analyze, name, and categorize everything in existence."
+      }
+    },
+    {
+      "ref": "5",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वं दहेयं यदिदं पृथिव्यामिति ॥ ५ ॥",
+      "iast": "tasmiṁstvayi kiṁ vīryamityapīdaṁ sarvaṁ daheyaṁ yadidaṁ pṛthivyāmiti || 5 ||",
+      "trans": "The Spirit asked: 'What power is there in you who possess such names?' Agni replied: 'I can burn up everything that exists on this earth.'",
+      "commentaries": {
+        "advaita_vedanta": "Shankara notes that Brahman asks this question to expose the limitations of relative power. Agni boasts of his immense destructive capacity, believing that his power to consume matter is absolute and inherent to his own nature.",
+        "vishishtadvaita": "Ramanuja explains that Agni is boasting of his cosmic function. He believes that his capacity to burn things is an independent force that he owns, entirely forgetting that he is just an instrument being used by the supreme Lord.",
+        "dvaita_vedanta": "Madhva emphasizes that Agni's claim to be able to burn 'everything' is a proud exaggeration. No creature has absolute power. Any capacity to act or transform matter is lent to them by Vishnu.",
+        "integral_advaita": "Aurobindo sees this as the voice of human intellect boasting of its capacity to manipulate the physical world. It is like modern science claiming it can dismantle, analyze, and control all material forces on earth."
+      }
+    },
+    {
+      "ref": "6",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "तस्मै तृणं निदधावेतद्दहेति ।\nतदुपप्रेयाय सर्वजवेन तन्न शशाक दग्धुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ॥ ६ ॥",
+      "iast": "tasmai tṛṇaṁ nidadhāvetaddheti |\ntadupapreyāya sarvajavena tanna śaśāka dagdhuṁ sa tata eva nivavṛte naitadaśakaṁ vijñātuṁ yadetadyakṣamiti || 6 ||",
+      "trans": "The Spirit placed a blade of grass before him and said: 'Burn this.' Agni rushed at it with all his might, but was unable to burn it. He returned to the gods, crestfallen, saying: 'I could not find out what this mysterious Spirit is.'",
+      "commentaries": {
+        "advaita_vedanta": "Shankara delivers a beautiful explanation. Brahman places a tiny blade of grass before the mighty fire-god. Agni uses his entire cosmic power (*sarvajavena*) but cannot even singe it, because Brahman withheld the underlying consciousness that allows fire to burn. Without Brahman, fire is completely inert.",
+        "vishishtadvaita": "Ramanuja demonstrates that the elements have no independent power. The burning quality of fire is a specific, dependent attribute maintained by God's continuous will. When the Lord suspends that power, the mightiest cosmic force becomes completely helpless before a single piece of grass.",
+        "dvaita_vedanta": "Madhva states that this event completely broke Agni's pride. It proved that his power was not his own. Vishnu can disarm the greatest cosmic deities instantly. Agni returns to the gods humbled, admitting the limits of his knowledge.",
+        "integral_advaita": "Aurobindo explains that when human intellect and will try to grasp the Absolute using raw force, they fail completely. The most powerful mental concepts are totally baffled by the simplest expression of divine reality when it chooses to withhold itself."
+      }
+    },
+    {
+      "ref": "7",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "अथ वायुमब्रुवन्वायवेतद्विजानीहि किमेतद्यक्षमिति तथेति ॥ ७ ॥",
+      "iast": "atha vāyumabruvanvāyavetadvijānīhi kimetadyakṣamiti tatheti || 7 ||",
+      "trans": "Then the gods said to Wind: 'O Vayu, go find out what this mysterious Spirit is.' He replied: 'So be it,' and rushed toward It.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara notes that after the intellect/speech (Agni) fails, the gods send Vayu, who represents the cosmic life-force (Prana) and physical strength. The ego tries to use its vital energy and lifeforce to capture and comprehend the mystery of existence.",
+        "vishishtadvaita": "Ramanuja explains that Vayu represents the dynamic power of movement and life across the universe. The gods hope that where analytical intellect failed, the immense, dynamic vital energy of life might succeed in conquering the mystery.",
+        "dvaita_vedanta": "Madhva notes that Vayu is a vital deity in the universal hierarchy, second only to the chief Prana. However, despite his immense cosmic reach and power to move worlds, he too is completely dependent on Vishnu for his strength.",
+        "integral_advaita": "Aurobindo interprets Vayu as the dynamic life-force and vital energy within humans. After our mind and speech fail to define God, we try to use our vital energy, emotional intensity, and dynamic action to master the spiritual reality."
+      }
+    },
+    {
+      "ref": "8",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "तदभ्यद्रवत्तमभ्यवदत्कोऽसीत्यु वायुर्वा अहमस्मीत्यब्रवीन्मातरिश्वा वा अहमस्मीति ॥ ८ ॥",
+      "iast": "tadabhyadravattamabhyavadatko'sītyu vāyurvā ahamasmītyabravīnmātariśvā vā ahamasmīti || 8 ||",
+      "trans": "Vayu rushed toward the Spirit. The Spirit asked him: 'Who are you?' He replied: 'I am Vayu; I am Matarishvan (the traveler of space).'",
+      "commentaries": {
+        "advaita_vedanta": "Shankara points out that Vayu falls into the exact same trap of pride as Agni. He proudly announces his high cosmic titles, 'Vayu' and 'Matarishvan' (he who moves throughout space), showing that the vital ego is just as arrogant as the intellectual ego.",
+        "vishishtadvaita": "Ramanuja notes that Vayu steps forward with immense self-importance. He boasts of his title as the great cosmic wind that flows through the atmosphere, completely blind to the fact that his movement is entirely generated by the Lord.",
+        "dvaita_vedanta": "Madhva states that Vayu's claim to his titles is a manifestation of egoism. He takes personal credit for the universal life-sustaining movements that are actually entirely directed and maintained by Vishnu.",
+        "integral_advaita": "Aurobindo explains that our vital life-energy is incredibly proud of its dynamic capacities. It boasts of its power to travel, execute plans, alter environments, and dominate physical space."
+      }
+    },
+    {
+      "ref": "9",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वमाददीय यदिदं पृथिव्यामिति ॥ ९ ॥",
+      "iast": "tasmiṁstvayi kiṁ vīryamityapīdaṁ sarvamādadīya yadidaṁ pṛthivyāmiti || 9 ||",
+      "trans": "The Spirit asked: 'What power is there in you who possess such names?' Vayu replied: 'I can blow away and blow out everything that exists on this earth.'",
+      "commentaries": {
+        "advaita_vedanta": "Shankara notes that Vayu boasts of his capacity to sweep away and uproot all material objects (*sarvam-ādadīya*). He believes that his dynamic force is an absolute power inherent to his own being.",
+        "vishishtadvaita": "Ramanuja explains that Vayu is defining his cosmic function as an independent capacity. He believes his power to lift, move, and destroy material things belongs exclusively to him, completely forgetting his source.",
+        "dvaita_vedanta": "Madhva emphasizes that Vayu's claim to be able to move 'everything' is broken by the Lord. No individual entity has independent power over matter; all movement is permitted only by the supreme will of Vishnu.",
+        "integral_advaita": "Aurobindo sees this as the voice of vital human desire and life-force, which claims it can overpower any obstacle, reshape ecosystems, and blow away any material resistance on earth."
+      }
+    },
+    {
+      "ref": "10",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "तस्मै तृणं निदधावेतदादत्स्वेति तदुपप्रेयाय सर्वजवेन तन्न शशाकादातुं ।\nस तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ॥ १० ॥",
+      "iast": "tasmai tṛṇaṁ nidadhāvetadādatsveti tadupapreyāya sarvajavena tanna śaśākādātuṁ |\nsa tata eva nivavṛte naitadaśakaṁ vijñātuṁ yadetadyakṣamiti || 10 ||",
+      "trans": "The Spirit placed a blade of grass before him and said: 'Blow this away.' Vayu rushed at it with all his might, but was unable to move it. He returned to the gods, crestfallen, saying: 'I could not find out what this mysterious Spirit is.'",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains that Brahman exposes Vayu's helplessness using the exact same blade of grass. Vayu exerts his entire cosmic speed and power (*sarvajavena*), but the grass remains completely motionless. Without the underlying power of Brahman's presence, the universal wind cannot move a single molecule.",
+        "vishishtadvaita": "Ramanuja teaches that the power of movement is a specific, dependent quality supported by God. When the Lord chooses to hold the grass steady, the entire collective force of the cosmic wind cannot budge it. Vayu's pride is shattered, and he returns humbled.",
+        "dvaita_vedanta": "Madhva emphasizes that this event demonstrates that Vishnu is the ultimate source of all physical and vital power. Vayu learns that he cannot move even a tiny blade of grass without the permission of the Lord, exposing his own total dependence.",
+        "integral_advaita": "Aurobindo explains that when the vital human life-force tries to conquer spiritual reality through raw emotional or physical violence, it fails completely. Our dynamic energy is rendered totally paralyzed when it confronts the silent, unmoving stability of the Infinite."
+      }
+    },
+    {
+      "ref": "11",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "अथेन्द्रमब्रुवन्मघवन्नेतद्विजानीहि किमेतद्यक्षमिति तथेति तदभ्यद्रवत्तस्मात्तिरोदधे ॥ ११ ॥",
+      "iast": "athendramabruvanmaghavannetadvijānīhi kimetadyakṣamiti tatheti tadabhyadravattasmāttirodadhe || 11 ||",
+      "trans": "Then the gods said to Indra: 'O Maghavan (all-powerful), go find out what this mysterious Spirit is.' He replied: 'So be it,' and rushed toward It. But the Spirit vanished from his sight.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara notes a crucial shift in the story. Indra represents the mind or the king of the senses. When Indra approaches, Brahman does not engage in a conversation; instead, the Yaksha completely vanishes (*tirosaddhe*). This demonstrates that when the mind tries to look at Brahman as an external object, It disappears, because Brahman cannot be objectified.",
+        "vishishtadvaita": "Ramanuja explains that Indra represents the ruler of the senses and the leader of the gods. The Lord vanishes to teach Indra a deeper lesson in humility. By denying Indra even the opportunity to speak or boast, God forces him into a state of total, silent wonder.",
+        "dvaita_vedanta": "Madhva states that Vishnu disappeared to show Indra that the Supreme Lord cannot be approached with any remaining trace of ego or intellectual pride. The vanishing of the Yaksha humbles Indra completely, forcing him to drop all self-importance.",
+        "integral_advaita": "Aurobindo views Indra as the god of the illuminated mind and mental intelligence. When the illuminated mind approaches the divine mystery, it does not find a defined object to map out. The divine mystery recedes, forcing the mind to fall completely silent and look upward."
+      }
+    },
+    {
+      "ref": "12",
+      "sec": "Khanda III: The Allegory of the Gods and the Yaksha",
+      "dev": "स तस्मिन्नेवाकाशे स्त्रियमाजगाम बहुशोभमानामुमां हैमवतीं तां होवाच किमेतद्यक्षमिति ॥ १२ ॥",
+      "iast": "sa tasminnevākāśe striyamājagāma bahuśobhamānāmumāṁ haimavatīṁ tāṁ hovāca kimetadyakṣamiti || 12 ||",
+      "trans": "In that very spot in the sky, he came across a woman of supreme beauty—Uma Haimavati (daughter of the Himalayas). He asked her: 'What was this mysterious Spirit?'",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains that Indra did not return to the gods in defeat like Agni and Vayu; instead, he stayed in that space of sky, waiting with deep humility. Because of his patience, Divine Wisdom (*Uma*) appears to him. Uma represents *Jnana-Shakti* (the power of spiritual knowledge) that bridges the gap between human mind and pure Brahman.",
+        "vishishtadvaita": "Ramanuja interprets Uma as the divine consort of Shiva, representing the personification of divine grace and spiritual wisdom. She appears to the humbled Indra because spiritual secrets are never revealed to proud material forces, but are freely given to a quiet mind that waits with devotion.",
+        "dvaita_vedanta": "Madhva states that Uma is the deity of the sacred speech and wisdom (Prakriti). She acts as the ultimate mediator, instructing the dependent gods about the supreme supremacy of Vishnu. Indra approaches her because she holds the authentic knowledge of the Lord.",
+        "integral_advaita": "Aurobindo interprets Uma Haimavati as the supreme Divine Mother, the consciousness-force (*Shakti*) that mediates between the transcendent Absolute and the manifest universe. When the human mind falls completely silent, the Divine Mother reveals Herself to guide the soul into the supreme truth."
+      }
+    },
+    {
+      "ref": "1",
+      "sec": "Khanda IV: The Epilogue and Secret Doctrine",
+      "dev": "सा ब्रह्मेति होवाच ब्रह्मणो वा एतद्विजये महीयध्वमिति ततो नू वैव विदाञ्चकार ब्रह्मेति ॥ १ ॥",
+      "iast": "sā brahmeti hovāca brahmaṇo vā etadvijaye mahīyadhvamiti tato nū vaiva vidāñcakāra brahmeti || 1 ||",
+      "trans": "She replied: 'It was Brahman. It is through the victory of Brahman alone that you have attained this glory.' From her words, Indra finally understood that the mysterious Spirit was Brahman.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara notes that Uma completely destroys the gods' collective illusion. She informs them that their victory over the demons was entirely driven by Brahman. Indra finally understands the truth: there is no independent individual glory; all power and victory are expressions of the one underlying Absolute Consciousness.",
+        "vishishtadvaita": "Ramanuja explains that Uma reveals the foundational principle of devotion: all success, power, and glory belong exclusively to God (*brahmaṇo vā*). Humans are merely instruments. Indra's realization marks the transition from egoistic pride to complete, loving surrender to the Supreme Lord.",
+        "dvaita_vedanta": "Madhva asserts that this verse confirms that Vishnu is the ultimate source of all cosmic victories. The lesser gods have no right to boast. Indra's newly gained knowledge is the realization of his own total dependence on the Supreme Being.",
+        "integral_advaita": "Aurobindo views this as the key turning point in human evolution. The Divine Mother reveals that our material progress and mental victories are driven by the hidden divine will. True spiritual evolution begins when the mind consciously recognizes its divine source."
+      }
+    },
+    {
+      "ref": "2",
+      "sec": "Khanda IV: The Epilogue and Secret Doctrine",
+      "dev": "तस्माद्वा एते देवा अतितरामिवान्यान्देवान्यदग्निर्वायुरिन्द्रस्ते ह्येनन्नेदिष्ठं पस्पर्शूस्ते ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ॥ २ ॥",
+      "iast": "tasmādvā ete devā atitarāmivānyāndevānyadagnirvāyurindraste hyenannediṣṭhaṁ pasparśūste hyenatprathamo vidāñcakāra brahmeti || 2 ||",
+      "trans": "Therefore, these gods—Agni, Vayu, and Indra—excel greatly over the other gods, for they approached nearest to Brahman and were the first to know It as Brahman.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains that Agni, Vayu, and Indra are highly praised because they directly encountered the Yaksha. Even though Agni and Vayu failed their tests, their direct encounter with the absolute reality brought them vastly closer to realization than the other, lesser faculties that remained completely trapped in outer worldly objects.",
+        "vishishtadvaita": "Ramanuja notes that these three deities represent the primary channels through which the soul interacts with the Divine: speech/intellect (Agni), life-force (Vayu), and mind/sensory control (Indra). By bringing these core faculties into direct contact with God, they become highly purified and elevated.",
+        "dvaita_vedanta": "Madhva explains that these deities excel because they received direct instructions regarding the supremacy of Vishnu. Among all cosmic administrators, those who consciously recognize their absolute dependence on the Supreme Lord are placed at the highest tier of the universal hierarchy.",
+        "integral_advaita": "Aurobindo explains that human speech, vital energy, and mind are our highest evolutionary instruments. Even though they are imperfect, they are the specific faculties that first touch the edge of the spiritual reality, paving the way for the total transformation of our consciousness."
+      }
+    },
+    {
+      "ref": "3",
+      "sec": "Khanda IV: The Epilogue and Secret Doctrine",
+      "dev": "तस्माद्वा इन्द्रोऽतितरामिवान्यान्देवान् स ह्येनन्नेदिष्ठं पस्पर्श स ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ॥ ३ ॥",
+      "iast": "tasmādvā indro'titarāmivānyāndevān sa hyenannediṣṭhaṁ pasparśa sa hyenatprathamo vidāñcakāra brahmeti || 3 ||",
+      "trans": "Therefore, Indra excels greatly over all other gods, for he approached nearest to Brahman and was the very first to know It as Brahman.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains why Indra holds the highest rank. While Agni and Vayu retreated in confusion, Indra stayed in that space of sky with deep patience and humility. Because his mind remained completely focused on the mystery, he was the very first to receive the direct revelation of non-dual truth from Uma.",
+        "vishishtadvaita": "Ramanuja teaches that Indra represents the mind that has completely conquered outer sensory desires. When the mind is quieted and entirely dedicated to the contemplation of God, it becomes the closest and most effective instrument for receiving divine grace and spiritual illumination.",
+        "dvaita_vedanta": "Madhva highlights that Indra is praised because he dropped his personal ego completely when the Yaksha vanished. He stayed to seek the truth with genuine humility, making him fit to become the leader of the gods and the primary recipient of the knowledge of Vishnu's supremacy.",
+        "integral_advaita": "Aurobindo explains that the illuminated mind (Indra) is the highest peak of human intelligence. When this mental intelligence realizes its own limits and surrenders to the Divine Mother, it becomes the direct gateway through which supramental wisdom can enter into the human being."
+      }
+    },
+    {
+      "ref": "4",
+      "sec": "Khanda IV: The Epilogue and Secret Doctrine",
+      "dev": "तस्यैष आदेशो यदेतद्विद्युतो व्यद्युतदा इतीन्न्यमीमिषदा इत्यधिदैवतम् ॥ ४ ॥",
+      "iast": "tasyaiṣa ādeśo yadetadvidyuto vyadyutadā itīnnyamīmiṣadā ityadhidaivatam || 4 ||",
+      "trans": "This is the continuous instruction regarding Brahman from the cosmic standpoint (Adhidaivata): It is like a sudden flash of lightning, or like the quick blinking of an eye.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains the cosmic metaphor (*adhidaivatam*). Spiritual awakening often occurs as a sudden, blinding flash of illumination that disrupts our ordinary reality, much like a bolt of lightning instantly lights up a dark night sky. It is immediate and beyond time.",
+        "vishishtadvaita": "Ramanuja interprets the lightning flash as a metaphor for the dazzling, awe-inspiring majesty of God's sudden revelation. It shows that divine illumination is completely beyond human control; it manifests instantly by His supreme grace, temporarily blinding our material thoughts.",
+        "dvaita_vedanta": "Madhva explains that this verse demonstrates the incomprehensible speed and absolute control of Vishnu over the cosmos. His administrative commands and transformations are executed instantly across the universe, as quick as the blinking of an eye.",
+        "integral_advaita": "Aurobindo sees this as a description of how supramental truth first breaks into our ordinary human mind. It doesn't arrive as a slow, logical argument; it comes as a sudden, intense flash of absolute intuition that permanently transforms our consciousness."
+      }
+    },
+    {
+      "ref": "5",
+      "sec": "Khanda IV: The Epilogue and Secret Doctrine",
+      "dev": "अथाध्यात्मं यदेतद्गच्छतीव च मनोऽनेन चैतदुपस्मरत्यभीक्ष्णं सङ्कल्पः ॥ ५ ॥",
+      "iast": "athādhyātmaṁ yadetadgacchative ca mano'nena caitadupasmaratyabhīkṣṇaṁ saṅkalpaḥ || 5 ||",
+      "trans": "Now, the instruction from the internal standpoint of the individual soul (Adhyatma): It is that toward which the mind seems to move, and by which the imagination continuously remembers and wills.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains the internal viewpoint (*adhyātmaṁ*). Brahman is the hidden force that pulls the mind inward. Whenever the mind recalls an intuitive truth or experiences a deep spiritual longing (*saṅkalpaḥ*), it is reacting to the magnetic pull of the underlying Atman.",
+        "vishishtadvaita": "Ramanuja interprets this as the psychological process of constant devotion (*Bhakti*). The mind of the devotee is constantly drawn toward God, remembering Him continuously (*abhīkṣṇaṁ*) with every thought, transforming memory into an act of unceasing worship.",
+        "dvaita_vedanta": "Madhva states that the individual mind and its willpower (*saṅkalpaḥ*) are entirely animated by the Lord. The mind only has the capacity to think, remember, and make choices because Vishnu continuously supports its operations from within.",
+        "integral_advaita": "Aurobindo views this as the method for internal yoga. We must train our ordinary mind, memory, and willpower to turn continuously inward toward their hidden spiritual source, until our entire mental activity becomes a conscious reflection of the Divine."
+      }
+    },
+    {
+      "ref": "6",
+      "sec": "Khanda IV: The Epilogue and Secret Doctrine",
+      "dev": "तद्ध तद्वनं नाम तद्वनमित्युपासितव्यं स य एतदेवं वेदाभि हैनं सर्वाणि भूतानि संवाञ्छन्ति ॥ ६ ॥",
+      "iast": "taddha tadvanaṁ nāma tadvanamityupāsitavyaṁ sa ya etadevaṁ vedābhi hainaṁ sarvāṇi bhūtāni saṁvāñchanti || 6 ||",
+      "trans": "Brahman is well known by the name 'Tadvana' (the Dearestness of all). It should be meditated upon as Tadvana. He who meditates upon It as such is loved by all living beings.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara notes that 'Tadvana' means the ultimate source of absolute love and bliss (*Vana* means adorable or dear). Brahman is the essential beauty inside every desirable thing. One who realizes this supreme unity becomes the Self of all creatures, and naturally receives the love of all creation.",
+        "vishishtadvaita": "Ramanuja explains that God is the ultimate object of all love and desire (*Tadvana*). True meditation means viewing the Lord as your dearest beloved. A devotee who radiates this divine love becomes a source of immense comfort, and is deeply loved by all living beings.",
+        "dvaita_vedanta": "Madhva interprets 'Tadvana' to mean that Vishnu is the ultimate master and protector of all forests, worlds, and souls. Recognizing Him as the most adorable ruler inspires universal respect, causing all living creatures to honor and love the advanced devotee.",
+        "integral_advaita": "Aurobindo views this as a revelation of the divine delight (*Ananda*). Brahman is not a cold, indifferent absolute; It is the core sweetness and joy of existence. Meditating on this universal joy fills the seeker with a divine charm that naturally attracts all creation."
+      }
+    },
+    {
+      "ref": "7",
+      "sec": "Khanda IV: The Epilogue and Secret Doctrine",
+      "dev": "उपनिषदं भो ब्रूहीत्युक्ता त उपनिषद्ब्राह्मीं वाव त उपनिषदमब्रूमेति ॥ ७ ॥",
+      "iast": "upaniṣadaṁ bho brūhītyuktā ta upaniṣadbrāhmīṁ vāva ta upaniṣadamabrūmeti || 7 ||",
+      "trans": "The disciple said: 'Sir, teach me the secret Upanishad.' The teacher replied: 'The secret Upanishad has already been spoken to you. We have certainly delivered to you the secret knowledge of Brahman.'",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains that the disciple is asking if there are any further ritual secret instructions left to learn. The teacher replies firmly: 'We have already given you the ultimate non-dual knowledge of Brahman.' Nothing more needs to be added to the realization that you are the absolute witness.",
+        "vishishtadvaita": "Ramanuja notes that the teacher is emphasizing the complete self-sufficiency of the text. The core truth—that the Lord is the supreme source and controller of all our faculties—has been fully delivered. The disciple must now practice this truth with deep devotion.",
+        "dvaita_vedanta": "Madhva maintains that the teacher is confirming that the absolute truth regarding the supremacy of Vishnu has been fully unveiled through these allegories and paradoxes. The student possesses the authentic knowledge required for salvation.",
+        "integral_advaita": "Aurobindo sees this as an assertion of the text's completeness. The central secret—that our human mind must surrender to the higher, divine consciousness—has been spoken. The student's task now is to live this truth practically through yoga."
+      }
+    },
+    {
+      "ref": "8",
+      "sec": "Khanda IV: The Epilogue and Secret Doctrine",
+      "dev": "तस्यै तपो दमः कर्मेति प्रतिष्ठा वेदाः सर्वाङ्गानि सत्यमायतनम् ॥ ८ ॥",
+      "iast": "tasyai tapo damaḥ karmeti pratiṣṭhā vedāḥ sarvāṅgāni satyamāyatanam || 8 ||",
+      "trans": "Austerity (Tapas), self-control (Dama), and dedicated work (Karma) are its foundations. The Vedas are its limbs, and Truth (Satyam) is its permanent abode.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara explains that while knowledge of Brahman is independent, these practices are mandatory foundations (*pratiṣṭhā*) to prepare the mind. *Tapas* purifies the intellect, *Dama* quiets the senses, and *Satyam* (truthfulness) is the indispensable home where wisdom resides. Without these, non-dual realization remains a mere intellectual concept.",
+        "vishishtadvaita": "Ramanuja views this as an essential guide for daily life. Realization cannot blossom without *Tapas* (focused spiritual discipline), *Dama* (mastery over sensory temptations), and *Karma* (performing your duties as a selfless offering to God). The Vedas provide the cosmic roadmap, and absolute honesty (*Satyam*) provides the foundational landscape.",
+        "dvaita_vedanta": "Madhva states that these spiritual practices are mandatory duties commanded by Vishnu. Performing rituals without selfish motives, practicing sensory control, and maintaining absolute truthfulness are the primary means to receive the divine grace that leads to final liberation.",
+        "integral_advaita": "Aurobindo treats this as the practical method for his integral yoga. Spiritual realization must not be isolated from physical life. We use *Tapas* (will-power), *Dama* (sensory integration), and *Karma* (dynamic work) to build a solid physical foundation, allowing the divine truth (*Satyam*) to fully inhabit our entire material existence."
+      }
+    },
+    {
+      "ref": "9",
+      "sec": "Khanda IV: The Epilogue and Secret Doctrine",
+      "dev": "यो वा एतामेवं वेदापहत्य पाप्मानमनन्ते स्वर्गे लोके ज्येये प्रतितिष्ठति प्रतितिष्ठति ॥ ९ ॥",
+      "iast": "yo vā etāmevaṁ vedāpahātya pāpmānamanante svarge loke jyeye pratitiṣṭhati pratitiṣṭhati || 9 ||",
+      "trans": "He who realizes this secret knowledge shatters all sin and becomes permanently established in the boundless, supreme, and most blissful heaven of Brahman. Yes, he remains established there.",
+      "commentaries": {
+        "advaita_vedanta": "Shankara clarifies that 'heaven' (*svarge loke*) does not refer to a temporary material paradise in the clouds. It refers to the boundless, unshakeable bliss of Brahman itself (*Ananda*). By destroying the 'sin' of ignorance and separation, the enlightened sage permanently abides in their own true, immortal nature.",
+        "vishishtadvaita": "Ramanuja interprets this final verse as the attainment of absolute liberation (*Moksha*). By overcoming all past negative karma and sins through wisdom and devotion, the soul enters Vaikuntha—the boundless, supreme realm of divine light—where it abides eternally in blissful service to the Lord.",
+        "dvaita_vedanta": "Madhva asserts that the phrase 'supreme heaven' refers to the unshakeable, eternal spiritual realm of Vishnu. The soul that knows its true, dependent position is completely freed from all sins and enters into a state of everlasting, individual joy near the feet of the Lord.",
+        "integral_advaita": "Aurobindo concludes that this supreme heaven is the state of perfect, integrated spiritual consciousness. By shattering the sins of egoism, limitation, and division, humanity fulfills its evolutionary destiny, becoming permanently established in the boundless light, harmony, and joy of the Divine."
+      }
+    }
+  ]
+}

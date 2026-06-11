@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react'
 import { STORIES } from '../data/stories.js'
-import { VOCABULARY, VOCAB_MAP } from '../data/vocabulary.js'
+import { useVocabularyData } from '../hooks/useData'
 import { useSpeech } from '../hooks/useSpeech'
 import { useSoundEffects } from '../hooks/useSoundEffects'
 import SpeakIcon from '../components/SpeakIcon'
@@ -9,9 +9,7 @@ import './StorySession.css'
 // Persists the selected story across tab navigations (module scope survives unmount)
 let _persistedStoryId = null
 
-// ── Search index — built once at module load ────────────────────────────────
 // Each story gets a flat string of every searchable token for fast matching
-const VOCAB_BY_ID = Object.fromEntries(VOCABULARY.map(v => [v.id, v]))
 
 function buildSearchIndex(story) {
   const parts = [
@@ -25,7 +23,7 @@ function buildSearchIndex(story) {
       parts.push(w.devanagari, w.iast, w.english, w.grammar || '')
     }
     for (const vid of (s.vocabIds || [])) {
-      const v = VOCAB_BY_ID[vid]
+      const v = vocabById[vid]
       if (v) parts.push(v.devanagari, v.iast, v.english)
     }
     parts.push(s.translation || '')
@@ -55,7 +53,7 @@ function getMatchingSentences(story, q) {
     const haystack = [
       s.words.map(w => `${w.devanagari} ${w.iast} ${w.english}`).join(' '),
       (s.vocabIds || []).map(vid => {
-        const v = VOCAB_BY_ID[vid]
+        const v = vocabById[vid]
         return v ? `${v.devanagari} ${v.iast} ${v.english}` : ''
       }).join(' '),
       s.translation,
@@ -67,7 +65,7 @@ function getMatchingSentences(story, q) {
 // ── Interlinear word token ──────────────────────────────────────────────────
 function WordToken({ word, onSpeak }) {
   const [open, setOpen] = useState(false)
-  const emoji = VOCAB_MAP[word.devanagari]?.emoji
+  const emoji = vocabMap[word.devanagari]?.emoji
   return (
     <span
       className={`word-token ${open ? 'active' : ''}`}
@@ -142,8 +140,8 @@ function DialogueBubble({ sentence, roles, index, active, onSpeak, onSpeakWord }
 // ── Vocab quiz ──────────────────────────────────────────────────────────────
 function buildQuizItems(story) {
   const vocabIdSet = new Set(story.sentences.flatMap(s => s.vocabIds))
-  const items = VOCABULARY.filter(v => vocabIdSet.has(v.id))
-  const pool  = VOCABULARY.filter(v => !vocabIdSet.has(v.id))
+  const items = vocabulary.filter(v => vocabIdSet.has(v.id))
+  const pool  = vocabulary.filter(v => !vocabIdSet.has(v.id))
   return items.map(v => {
     const wrongs = [...pool].sort(() => Math.random() - 0.5).slice(0, 3).map(x => x.english)
     const options = [...wrongs, v.english].sort(() => Math.random() - 0.5)
@@ -698,6 +696,7 @@ function StoryCard({ story, query, onSelect }) {
 
 // ── Main page ────────────────────────────────────────────────────────────────
 export default function StorySession() {
+  const vocabData = useVocabularyData()
   // Restore previously selected story if user switched tabs and came back
   const [activeStory, setActiveStory] = useState(() =>
     _persistedStoryId ? (STORIES.find(s => s.id === _persistedStoryId) || null) : null
