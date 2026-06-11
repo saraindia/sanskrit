@@ -12,25 +12,51 @@ const ASSETS = [
 
 // Injected at build time: every built JS/CSS chunk, content JSON (Gita,
 // Upanishads, commentary), icons and manifest — so all pages and texts work
-// offline even if never opened. In dev the placeholder fails to parse → [].
+// offline even if never opened. Entries are { u: url, r: content hash } so
+// installs can copy unchanged files from the previous version's cache and
+// download only what actually changed. In dev the placeholder fails to
+// parse → [].
 let PRECACHE = []
 try { PRECACHE = JSON.parse('__PRECACHE_MANIFEST__') } catch {}
+const MANIFEST_KEY = '/__precache-manifest__'
 
 // Install — skipWaiting immediately so new SW activates without user action.
 // This means every new Vercel deploy is applied the next time the user opens
 // or focuses the app (no manual "Update" tap required).
 self.addEventListener('install', e => {
-  e.waitUntil(
-    caches.open(CACHE_VERSION)
-      .then(c =>
-        c.addAll(ASSETS)
-          // Precache individually so one flaky file can't block install;
-          // anything missed is picked up by runtime caching later.
-          .then(() => Promise.allSettled(PRECACHE.map(url => c.add(url))))
-      )
-      .catch(() => {})
-      .then(() => self.skipWaiting())   // ← activate immediately
-  )
+  e.waitUntil((async () => {
+    try {
+      const cache = await caches.open(CACHE_VERSION)
+      await cache.addAll(ASSETS)
+
+      // The previous version's cache still exists during install (it's only
+      // deleted on activate) — read its fingerprint manifest so unchanged
+      // files can be copied over instead of re-downloaded.
+      const oldKey = (await caches.keys()).find(k => k !== CACHE_VERSION && k.startsWith('sanskritly-'))
+      const oldCache = oldKey ? await caches.open(oldKey) : null
+      let oldRevs = {}
+      try {
+        const m = oldCache && await oldCache.match(MANIFEST_KEY)
+        if (m) oldRevs = await m.json()
+      } catch {}
+
+      // Settle individually so one flaky file can't block install; anything
+      // missed is picked up by runtime caching later.
+      await Promise.allSettled(PRECACHE.map(async ({ u, r }) => {
+        if (oldCache && oldRevs[u] === r) {
+          const prev = await oldCache.match(u)
+          if (prev) { await cache.put(u, prev); return }
+        }
+        await cache.add(u)
+      }))
+
+      const revs = Object.fromEntries(PRECACHE.map(({ u, r }) => [u, r]))
+      await cache.put(MANIFEST_KEY, new Response(JSON.stringify(revs), {
+        headers: { 'Content-Type': 'application/json' },
+      }))
+    } catch {}
+    await self.skipWaiting()   // ← activate immediately
+  })())
 })
 
 // Activate — clean up old caches

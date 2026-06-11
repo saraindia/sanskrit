@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import fs from 'fs'
 import path from 'path'
+import crypto from 'crypto'
 import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -20,6 +21,9 @@ function swTimestampPlugin() {
       const swPath = path.join(distDir, 'sw.js')
       if (!fs.existsSync(swPath)) return
 
+      // Each entry carries a content fingerprint so the SW can tell which
+      // files actually changed since the previous deploy and reuse the rest
+      // from the old cache instead of re-downloading them.
       const precache = []
       const walk = (dir) => {
         for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -27,7 +31,10 @@ function swTimestampPlugin() {
           if (entry.isDirectory()) { walk(full); continue }
           const rel = '/' + path.relative(distDir, full).split(path.sep).join('/')
           if (rel === '/sw.js' || rel === '/index.html') continue
-          if (/\.(js|css|json|png|svg|woff2?)$/.test(rel)) precache.push(rel)
+          if (/\.(js|css|json|png|svg|woff2?)$/.test(rel)) {
+            const rev = crypto.createHash('sha256').update(fs.readFileSync(full)).digest('hex').slice(0, 12)
+            precache.push({ u: rel, r: rev })
+          }
         }
       }
       walk(distDir)
