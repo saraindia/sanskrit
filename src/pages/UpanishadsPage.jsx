@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback, useMemo } from 'react'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
+import HubBack from '../components/HubBack'
 import './GitaPage.css'
 
 const COMMENTARY_LABELS = {
@@ -149,12 +150,13 @@ export default function UpanishadsPage() {
   // ── Text picker ───────────────────────────────────────────────────────
   if (!textId) return (
     <div className="gita anim-fade-up">
+      <HubBack to="/texts" label="Sacred Texts" />
       <div className="page-header">
         <h1 className="page-title">Upaniṣads</h1>
         <p className="page-subtitle">{manifest.texts.length} texts · {manifest.texts.reduce((s,t)=>s+t.verses,0)} verses · Müller translation</p>
       </div>
       <div className="gita-toolbar">
-        <button className="btn-primary" onClick={randomVerse}>🎲 Random verse</button>
+        <button className="gita-nav-btn" title="Random verse" onClick={randomVerse}>🎲 Random verse</button>
         <label className="weak-toggle">
           <input type="checkbox" checked={drill} onChange={e => setDrill(e.target.checked)} />
           <span>Drill mode — hide translations</span>
@@ -183,13 +185,13 @@ export default function UpanishadsPage() {
   // ── Chapter / section picker ──────────────────────────────────────────
   if (!sectionId) return (
     <div className="gita anim-fade-up">
+      <button className="gita-back" onClick={() => setTextId('')}>← All Upaniṣads</button>
       <div className="page-header">
-        <button className="gita-back" onClick={() => setTextId('')}>← All Upaniṣads</button>
         <h1 className="page-title devanagari">{text.titleDeva}</h1>
         <p className="page-subtitle">{text.title} · {text.titleEnglish}</p>
       </div>
       <div className="gita-toolbar">
-        <button className="btn-primary" onClick={randomVerse}>🎲 Random verse</button>
+        <button className="gita-nav-btn" title="Random verse" onClick={randomVerse}>🎲 Random verse</button>
         <label className="weak-toggle">
           <input type="checkbox" checked={drill} onChange={e => setDrill(e.target.checked)} />
           <span>Drill mode</span>
@@ -219,8 +221,8 @@ export default function UpanishadsPage() {
 
   return (
     <div className="gita anim-fade-up">
+      <button className="gita-back" onClick={() => setSectionId('')}>← {text.title} chapters</button>
       <div className="page-header">
-        <button className="gita-back" onClick={() => setSectionId('')}>← {text.title} chapters</button>
         <h1 className="page-title devanagari">{text.titleDeva}</h1>
         <p className="page-subtitle">{sectionId}</p>
       </div>

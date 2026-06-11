@@ -9,6 +9,8 @@ import { useVocabularyData } from '../hooks/useData'
 import { freshOrder } from '../utils/freshOrder.js'
 import ClickableSentence from '../components/ClickableSentence'
 import SpeakIcon from '../components/SpeakIcon'
+import HubBack from '../components/HubBack'
+import { toIAST } from '../utils/transliterate.js'
 import './Flashcards.css'
 
 
@@ -71,12 +73,6 @@ function BrowseList({ cards, onStudy }) {
                   height: vRow.size,
                 }}
               >
-                <span className="fc-browse-deva devanagari">{card.devanagari}</span>
-                <span className="fc-browse-iast">{card.iast}</span>
-                <span className="fc-browse-english">{card.english}</span>
-                {acc !== null && (
-                  <span className="fc-browse-acc" style={{ color: accColor }}>{acc}%</span>
-                )}
                 <button
                   className="fc-browse-speak speak-btn"
                   onClick={() => speak(card.devanagari)}
@@ -84,6 +80,12 @@ function BrowseList({ cards, onStudy }) {
                 >
                   <SpeakIcon />
                 </button>
+                <span className="fc-browse-deva devanagari">{card.devanagari}</span>
+                <span className="fc-browse-iast">{card.iast || toIAST(card.devanagari || '')}</span>
+                <span className="fc-browse-english">{card.english}</span>
+                {acc !== null && (
+                  <span className="fc-browse-acc" style={{ color: accColor }}>{acc}%</span>
+                )}
               </div>
             )
           })}
@@ -230,6 +232,7 @@ export default function Flashcards() {
   return (
     <div className="flashcards anim-fade-up">
       <WellDoneToast show={showToast} onHide={() => setShowToast(false)} />
+      <HubBack to="/study" label="Study" />
       <div className="page-header">
         <h1 className="page-title">Flashcards</h1>
         <p className="page-subtitle">{currentIdx + 1} of {deck.length} · {sessionStats.correct} correct so far</p>
@@ -266,7 +269,7 @@ export default function Flashcards() {
               <button className="speak-btn" title="Hear pronunciation"
                 onClick={e => { e.stopPropagation(); speak(card?.devanagari) }}><SpeakIcon /></button>
             </div>
-            <div className="fc-iast">{card?.iast}</div>
+            <div className="fc-iast">{card?.iast || toIAST(card?.devanagari || '')}</div>
             {card?.type && <span className={`pill ${card.level ? 'pill-'+card.level : 'pill-beginner'}`}>{card.type}</span>}
             <button className="engine-toggle-btn" title={useGoogle ? 'Google Neural TTS (click to switch)' : 'System voice (click to switch)'}
               onClick={e => { e.stopPropagation(); toggleEngine() }}>
@@ -286,7 +289,7 @@ export default function Flashcards() {
       {/* Next button — shown after flip */}
       {flipped && (
         <div className="fc-next-wrap anim-fade-up">
-          <button className="fc-next-btn" onClick={handleNext}>
+          <button className="btn-primary" onClick={handleNext}>
             Next →
           </button>
         </div>

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
+import HubBack from '../components/HubBack'
 import './GitaPage.css'
 
 // Chapter JSON is fetched on demand and kept for the session
@@ -104,12 +105,13 @@ export default function GitaPage() {
   // ── Chapter picker ────────────────────────────────────────────────────
   if (!chapterNum) return (
     <div className="gita anim-fade-up">
+      <HubBack to="/texts" label="Sacred Texts" />
       <div className="page-header">
         <h1 className="page-title">Bhagavad Gītā</h1>
         <p className="page-subtitle">18 chapters · 701 verses · word by word</p>
       </div>
       <div className="gita-toolbar">
-        <button className="btn-primary" onClick={randomVerse}>🎲 Random verse</button>
+        <button className="gita-nav-btn" title="Random verse" onClick={randomVerse}>🎲 Random verse</button>
         <label className="weak-toggle">
           <input type="checkbox" checked={drill} onChange={e => setDrill(e.target.checked)} />
           <span>Drill mode — hide translations</span>
@@ -143,8 +145,8 @@ export default function GitaPage() {
 
   return (
     <div className="gita anim-fade-up">
+      <button className="gita-back" onClick={() => setChapterNum(0)}>← All chapters</button>
       <div className="page-header">
-        <button className="gita-back" onClick={() => setChapterNum(0)}>← All chapters</button>
         <h1 className="page-title devanagari">{chapter.name}</h1>
         <p className="page-subtitle">Chapter {chapter.chapter} · {chapter.nameEnglish}</p>
       </div>

@@ -14,6 +14,8 @@ const ProfilePage   = lazy(() => import('./pages/ProfilePage'))
 const GitaPage      = lazy(() => import('./pages/GitaPage'))
 const UpanishadsPage= lazy(() => import('./pages/UpanishadsPage'))
 const MatchPairs    = lazy(() => import('./pages/MatchPairs'))
+const StudyHub      = lazy(() => import('./pages/StudyHub'))
+const TextsHub      = lazy(() => import('./pages/TextsHub'))
 import AuthPage from './pages/AuthPage'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
@@ -28,15 +30,31 @@ import InstallPrompt from './components/InstallPrompt'
 import ScrollToTop from './components/ScrollToTop'
 import './styles/app.css'
 
-const TABS = [
-  { to: '/',          label: 'Home',    icon: '🏠', end: true },
-  { to: '/flashcards',label: 'Cards',   icon: '🗂️'           },
-  { to: '/story',     label: 'Stories', icon: '📖'           },
-  { to: '/drill',     label: 'Drill',   icon: '⚡'           },
-  { to: '/gita',      label: 'Gītā',    icon: '🪷'           },
-  { to: '/upanishads',label: 'Upaniṣad',icon: '🕉️'           },
-  { to: '/progress',  label: 'Progress',icon: '📈'           },
-  { to: '/podcast',   label: 'Listen',  icon: '🎧'           },
+// Routes grouped for mobile "Study" and "Texts" tabs
+const STUDY_ROUTES = ['/study', '/flashcards', '/drill', '/fill', '/match']
+const TEXTS_ROUTES = ['/texts', '/gita', '/upanishads']
+const MORE_ROUTES  = ['/progress', '/podcast']
+
+// Desktop sidebar: full grouped list
+const SIDEBAR_GROUPS = [
+  { label: null, items: [{ to: '/', label: 'Home', icon: '🏠', end: true }] },
+  { label: 'Study', items: [
+    { to: '/study',      label: 'Study Hub',     icon: '📚' },
+    { to: '/flashcards', label: 'Flashcards',    icon: '🗂️' },
+    { to: '/drill',      label: 'Sentence Drill',icon: '⚡' },
+    { to: '/fill',       label: 'Fill Blanks',   icon: '✏️' },
+    { to: '/match',      label: 'Match Pairs',   icon: '🔡' },
+  ]},
+  { label: 'Sacred Texts', items: [
+    { to: '/texts',      label: 'Texts Hub',  icon: '📜' },
+    { to: '/gita',       label: 'Gītā',       icon: '🪷' },
+    { to: '/upanishads', label: 'Upaniṣad',   icon: '🕉️' },
+  ]},
+  { label: null, items: [
+    { to: '/story',    label: 'Stories',  icon: '📖' },
+    { to: '/progress', label: 'Progress', icon: '📈' },
+    { to: '/podcast',  label: 'Listen',   icon: '🎧' },
+  ]},
 ]
 
 // ── Logged-in app shell ───────────────────────────────────────────────────────
@@ -45,6 +63,21 @@ function AppShell() {
   const navigate  = useNavigate()
   const location  = useLocation()
   const { progress } = useProgress(progressKey)
+  const [moreOpen, setMoreOpen] = React.useState(false)
+  const lastStudy = React.useRef('/study')
+  const lastTexts = React.useRef('/texts')
+
+  // Track last visited route in each group; close More sheet on any navigation
+  React.useEffect(() => {
+    const p = location.pathname
+    if (STUDY_ROUTES.includes(p)) lastStudy.current = p
+    if (TEXTS_ROUTES.includes(p)) lastTexts.current = p
+    setMoreOpen(false)
+  }, [location.pathname])
+
+  const isStudyActive = STUDY_ROUTES.includes(location.pathname)
+  const isTextsActive = TEXTS_ROUTES.includes(location.pathname)
+  const isMoreActive  = MORE_ROUTES.includes(location.pathname)
   const { updateReady, updateApp, dismiss: dismissUpdate } = usePWAUpdate()
 
   // Profile hint — shown on login, then randomly every 45–120s
@@ -136,6 +169,8 @@ function AppShell() {
         <Suspense fallback={<div className="page-loading"><span className="page-loading-om">ॐ</span></div>}>
         <Routes>
           <Route path="/"           element={<Dashboard />} />
+          <Route path="/study"      element={<StudyHub />} />
+          <Route path="/texts"      element={<TextsHub />} />
           <Route path="/flashcards" element={<Flashcards />} />
           <Route path="/drill"      element={<DrillSentences />} />
           <Route path="/fill"       element={<FillBlanks />} />
@@ -164,15 +199,46 @@ function AppShell() {
           </div>
         </div>
 
-        {/* Nav links — on mobile these are direct flex children; on desktop wrapped */}
+        {/* ── Mobile: 5 primary tabs ── */}
+        <div className="mobile-tabs">
+          <NavLink to="/" end className={({ isActive }) => `tab-item ${isActive ? 'active' : ''}`}>
+            <div className="tab-icon-wrap"><span className="tab-icon">🏠</span></div>
+            <span className="tab-label">Home</span>
+          </NavLink>
+          <button className={`tab-item ${isStudyActive ? 'active' : ''}`}
+            onClick={() => navigate(lastStudy.current)}>
+            <div className="tab-icon-wrap"><span className="tab-icon">📚</span></div>
+            <span className="tab-label">Study</span>
+          </button>
+          <button className={`tab-item ${isTextsActive ? 'active' : ''}`}
+            onClick={() => navigate(lastTexts.current)}>
+            <div className="tab-icon-wrap"><span className="tab-icon">📜</span></div>
+            <span className="tab-label">Texts</span>
+          </button>
+          <NavLink to="/story" className={({ isActive }) => `tab-item ${isActive ? 'active' : ''}`}>
+            <div className="tab-icon-wrap"><span className="tab-icon">📖</span></div>
+            <span className="tab-label">Stories</span>
+          </NavLink>
+          <button className={`tab-item ${isMoreActive || moreOpen ? 'active' : ''}`}
+            onClick={() => setMoreOpen(v => !v)}>
+            <div className="tab-icon-wrap"><span className="tab-icon" style={{fontSize:'0.95rem',letterSpacing:'-0.05em'}}>•••</span></div>
+            <span className="tab-label">More</span>
+          </button>
+        </div>
+
+        {/* ── Desktop: full grouped sidebar links ── */}
         <div className="sidebar-links">
-          {TABS.map(t => (
-            <NavLink key={t.to} to={t.to} end={t.end}
-              className={({ isActive }) => `tab-item ${isActive ? 'active' : ''}`}
-            >
-              <span className="tab-icon">{t.icon}</span>
-              <span className="tab-label">{t.label}</span>
-            </NavLink>
+          {SIDEBAR_GROUPS.map((group, gi) => (
+            <React.Fragment key={gi}>
+              {group.label && <div className="sidebar-group-label">{group.label}</div>}
+              {group.items.map(t => (
+                <NavLink key={t.to} to={t.to} end={t.end}
+                  className={({ isActive }) => `tab-item ${isActive ? 'active' : ''}`}>
+                  <span className="tab-icon">{t.icon}</span>
+                  <span className="tab-label">{t.label}</span>
+                </NavLink>
+              ))}
+            </React.Fragment>
           ))}
         </div>
 
@@ -192,6 +258,26 @@ function AppShell() {
           <button className="sidebar-logout-btn" onClick={logout} aria-label="Sign out" title="Sign out">⎋</button>
         </div>
       </nav>
+
+      {/* ── More sheet (mobile) ──────────────────────────────────────── */}
+      {moreOpen && (
+        <>
+          <div className="more-overlay" onClick={() => setMoreOpen(false)} />
+          <div className="more-sheet">
+            <div className="more-sheet-title">More</div>
+            <div className="more-sheet-grid">
+              <NavLink to="/progress" className="more-sheet-item" onClick={() => setMoreOpen(false)}>
+                <span className="more-sheet-icon">📈</span>
+                <span className="more-sheet-label">Progress</span>
+              </NavLink>
+              <NavLink to="/podcast" className="more-sheet-item" onClick={() => setMoreOpen(false)}>
+                <span className="more-sheet-icon">🎧</span>
+                <span className="more-sheet-label">Listen</span>
+              </NavLink>
+            </div>
+          </div>
+        </>
+      )}
 
       {/* ── App update banner ────────────────────────────────────────── */}
       {updateReady && (

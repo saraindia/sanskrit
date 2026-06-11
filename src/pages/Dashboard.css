@@ -85,15 +85,16 @@
   letter-spacing: 0.12em;
   color: var(--text-muted);
   text-transform: uppercase;
-  padding: 1.1rem 1.1rem 0.5rem;
+  padding: 1.25rem 0.75rem 0.5rem;
 }
 
 /* ── Quick action list ──────────────────────────────────────────────────────── */
 .quick-actions {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 0.5rem;
   padding: 0 0.75rem;
+  margin-bottom: 0.5rem;
 }
 .action-btn {
   display: flex;

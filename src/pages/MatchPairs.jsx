@@ -8,6 +8,7 @@ import WellDoneToast from '../components/WellDoneToast'
 import { useVocabularyData } from '../hooks/useData'
 import { freshOrder } from '../utils/freshOrder.js'
 import { setItem, getItem } from '../utils/storage'
+import HubBack from '../components/HubBack'
 import './MatchPairs.css'
 
 const ROUND_SIZE = 5
@@ -82,7 +83,7 @@ export default function MatchPairs() {
       return
     }
 
-    const partner = WORD_BY_ID[selected.id]
+    const partner = wordById[selected.id]
     if (selected.id === word.id) {
       // ── Correct pair — read out, flash, then grey out ──────────────────
       play('correct')
@@ -139,6 +140,7 @@ export default function MatchPairs() {
   return (
     <div className="matchpairs anim-fade-up">
       <WellDoneToast show={showToast} onHide={() => setShowToast(false)} />
+      <HubBack to="/study" label="Study" />
       <div className="page-header">
         <h1 className="page-title">Matching Pairs</h1>
         <p className="page-subtitle">

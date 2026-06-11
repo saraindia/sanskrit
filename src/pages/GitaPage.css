@@ -8,35 +8,77 @@
 }
 
 .gita-back {
-  background: none;
-  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 600;
   color: var(--text-secondary);
   cursor: pointer;
-  padding: 0 0 0.5rem;
-  font-size: 0.9rem;
+  padding: 0.38rem 0.75rem 0.38rem 0.55rem;
+  margin: 0 0 0.4rem 0.1rem;
+  background: color-mix(in srgb, var(--bg-elevated) 85%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--border-bright);
+  border-radius: 999px;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  position: sticky;
+  top: 0.5rem;
+  z-index: 50;
+  align-self: flex-start;
 }
-.gita-back:hover { color: var(--gold); }
+.gita-back:hover {
+  color: var(--gold);
+  border-color: var(--gold-dim);
+  background: rgba(201,148,42,0.08);
+}
+.gita-back:active { opacity: 0.75; transform: scale(0.97); }
 
 .gita-toolbar {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.6rem;
+  gap: 0.5rem;
   margin-bottom: 1.25rem;
 }
 
 .gita-nav-btn {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  color: var(--text-primary);
-  padding: 0.45rem 0.8rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-bright);
+  border-radius: 999px;
+  color: var(--text-secondary);
+  padding: 0.42rem 0.85rem;
   cursor: pointer;
-  font-size: 1rem;
-  transition: all 0.15s;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1;
+  transition: border-color 0.15s, color 0.15s, background 0.15s, transform 0.1s;
 }
-.gita-nav-btn:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); }
-.gita-nav-btn:disabled { opacity: 0.35; cursor: default; }
+.gita-nav-btn:hover:not(:disabled) {
+  border-color: var(--gold-dim);
+  color: var(--gold);
+  background: rgba(201,148,42,0.08);
+}
+.gita-nav-btn:active:not(:disabled) { transform: scale(0.95); }
+.gita-nav-btn:disabled { opacity: 0.28; cursor: default; }
+
+/* Random verse button — gold ghost pill */
+.gita-nav-btn[title="Random verse"] {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  padding: 0.42rem 0.9rem;
+  color: var(--gold-dim);
+  border-color: var(--gold-dim);
+}
+.gita-nav-btn[title="Random verse"]:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+  background: rgba(201,148,42,0.1);
+}
 
 .gita-verse-select {
   flex: 1;
@@ -44,7 +86,7 @@
   max-width: 280px;
   background: var(--bg-elevated);
   border: 1px solid var(--border-bright);
-  border-radius: var(--radius-sm);
+  border-radius: 999px;
   color: var(--text-primary);
   font-family: var(--font-body);
   font-size: 0.82rem;
@@ -117,7 +159,8 @@
 
 .gita-iast {
   font-size: 0.95rem;
-  color: var(--text-secondary);
+  color: var(--text-primary);
+  opacity: 0.82;
   font-style: italic;
   white-space: pre-line;
   line-height: 1.7;
@@ -162,6 +205,34 @@
 .gita-word:hover .gita-word-ear { opacity: 1; }
 .gita-word-sa { font-size: 0.78rem; color: var(--gold); font-style: italic; }
 .gita-word-en { font-size: 0.78rem; color: var(--text-secondary); }
+
+/* Drill mode toggle — pill switch style */
+.weak-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.38rem 0.75rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+  user-select: none;
+}
+.weak-toggle:has(input:checked) {
+  color: var(--gold);
+  border-color: var(--gold-dim);
+  background: rgba(201,148,42,0.1);
+}
+.weak-toggle input { display: none; }
 
 .gita-reveal { margin-bottom: 0.5rem; }
 
@@ -220,6 +291,58 @@
   justify-content: space-between;
   gap: 0.75rem;
   margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+/* ── Gita / Upanishad action buttons — frosted translucent style ── */
+.gita .btn-primary,
+.gita .btn-ghost {
+  background: color-mix(in srgb, var(--gold) 14%, transparent);
+  color: var(--gold);
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.06);
+  font-weight: 600;
+  letter-spacing: 0.07em;
+}
+.gita .btn-primary:hover,
+.gita .btn-ghost:hover {
+  background: color-mix(in srgb, var(--gold) 22%, transparent);
+  border-color: color-mix(in srgb, var(--gold) 65%, transparent);
+  color: var(--gold-light);
+  filter: none;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.08);
+}
+.gita .btn-primary:active,
+.gita .btn-ghost:active {
+  transform: scale(0.97);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+.gita .btn-primary:disabled,
+.gita .btn-ghost:disabled {
+  opacity: 0.3;
+  cursor: default;
+  transform: none;
+}
+
+.gita-footer-nav .btn-ghost,
+.gita-footer-nav .btn-primary {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  padding: 0.6rem 1rem;
+}
+.gita-reveal.btn-primary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  padding: 0.65rem 1rem;
 }
 
 @media (max-width: 600px) {

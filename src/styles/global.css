@@ -122,7 +122,7 @@ button {
   background: linear-gradient(160deg, var(--gold-light) 0%, var(--gold) 60%, color-mix(in srgb, var(--gold) 80%, #000) 100%);
   color: var(--bg-deep);
   padding: 0.7rem 1.8rem;
-  border-radius: var(--radius-sm);
+  border-radius: 999px;
   border: none;
   font-family: var(--font-display);
   font-size: 0.85rem;
@@ -147,7 +147,7 @@ button {
   background: transparent;
   color: var(--text-secondary);
   padding: 0.65rem 1.4rem;
-  border-radius: var(--radius-sm);
+  border-radius: 999px;
   border: 1px solid var(--border-bright);
   font-size: 0.85rem;
   font-family: var(--font-display);
@@ -274,3 +274,44 @@ button {
 }
 .fc-next-btn:hover  { background: var(--gold-light); }
 .fc-next-btn:active { transform: scale(0.96); }
+
+/* ── Study pages — frosted translucent buttons ─────────────────────────── */
+.flashcards .btn-primary, .flashcards .btn-ghost,
+.fillblanks .btn-primary, .fillblanks .btn-ghost,
+.matchpairs .btn-primary, .matchpairs .btn-ghost,
+.drill      .btn-primary, .drill      .btn-ghost {
+  background: color-mix(in srgb, var(--gold) 14%, transparent);
+  color: var(--gold);
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.06);
+  font-weight: 600;
+  letter-spacing: 0.07em;
+}
+.flashcards .btn-primary:hover, .flashcards .btn-ghost:hover,
+.fillblanks .btn-primary:hover, .fillblanks .btn-ghost:hover,
+.matchpairs .btn-primary:hover, .matchpairs .btn-ghost:hover,
+.drill      .btn-primary:hover, .drill      .btn-ghost:hover {
+  background: color-mix(in srgb, var(--gold) 22%, transparent);
+  border-color: color-mix(in srgb, var(--gold) 65%, transparent);
+  color: var(--gold-light);
+  filter: none;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.08);
+}
+.flashcards .btn-primary:active, .flashcards .btn-ghost:active,
+.fillblanks .btn-primary:active, .fillblanks .btn-ghost:active,
+.matchpairs .btn-primary:active, .matchpairs .btn-ghost:active,
+.drill      .btn-primary:active, .drill      .btn-ghost:active {
+  transform: scale(0.97);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+.flashcards .btn-primary:disabled, .flashcards .btn-ghost:disabled,
+.fillblanks .btn-primary:disabled, .fillblanks .btn-ghost:disabled,
+.matchpairs .btn-primary:disabled, .matchpairs .btn-ghost:disabled,
+.drill      .btn-primary:disabled, .drill      .btn-ghost:disabled {
+  opacity: 0.3;
+  cursor: default;
+  transform: none;
+}

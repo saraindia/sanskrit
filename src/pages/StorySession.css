@@ -1,4 +1,5 @@
-.story-page { max-width: 860px; }
+.story-page { max-width: 860px; padding-left: 0.75rem; padding-right: 0.75rem; }
+.story-page .page-header { padding-left: 0; padding-right: 0; }
 
 /* Story selector */
 .story-list {
@@ -189,7 +190,7 @@
 }
 
 /* Story reader */
-.story-reader { animation: fadeUp 0.35s ease both; padding: 0 1.1rem; }
+.story-reader { animation: fadeUp 0.35s ease both; }
 
 .story-reader-header {
   display: flex;
@@ -896,11 +897,10 @@
   display: flex;
   align-items: center;
   margin-bottom: 1.25rem;
-  padding: 0 1.1rem;
 }
 .story-search-icon {
   position: absolute;
-  left: calc(1.1rem + 0.75rem);  /* wrapper padding + inset from input edge */
+  left: 0.75rem;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
@@ -913,7 +913,7 @@
   width: 100%;
   background: var(--bg-elevated);
   border: 1px solid var(--border);
-  border-radius: var(--radius-md);
+  border-radius: 999px;
   padding: 0.7rem 2.4rem 0.7rem 2.4rem;
   color: var(--text-primary);
   font-family: var(--font-body);

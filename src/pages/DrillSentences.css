@@ -33,7 +33,7 @@
   border: 1px solid var(--border-bright);
   color: var(--text-primary);
   padding: 0.42rem 2rem 0.42rem 0.65rem;
-  border-radius: var(--radius-sm);
+  border-radius: 999px;
   font-family: var(--font-body);
   font-size: 0.8rem;
   cursor: pointer;
@@ -192,7 +192,7 @@
 .rate-wrong {
   flex: 1;
   padding: 0.65rem;
-  border-radius: var(--radius-sm);
+  border-radius: 999px;
   background: rgba(184,92,56,0.12);
   border: 1px solid rgba(184,92,56,0.3);
   color: var(--terracotta);
@@ -204,7 +204,7 @@
 .rate-correct {
   flex: 1;
   padding: 0.65rem;
-  border-radius: var(--radius-sm);
+  border-radius: 999px;
   background: rgba(58,158,138,0.12);
   border: 1px solid rgba(58,158,138,0.3);
   color: var(--teal);

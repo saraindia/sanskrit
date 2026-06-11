@@ -269,22 +269,14 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* ── Study now ──────────────────────────────────────────────────── */}
-      <div className="dash-section-label">Study Now</div>
+      {/* ── Study ──────────────────────────────────────────────────────── */}
+      <div className="dash-section-label">Study</div>
       <div className="quick-actions">
         <Link to="/flashcards" className="action-btn action-primary">
-          <span className="action-icon">◈</span>
+          <span className="action-icon">🗂️</span>
           <div className="action-text">
             <div className="action-label">Flashcards</div>
             <div className="action-sub">{dueItems.length} due today</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
-        <Link to="/story" className="action-btn">
-          <span className="action-icon">◑</span>
-          <div className="action-text">
-            <div className="action-label">Stories</div>
-            <div className="action-sub">Read with word-by-word translation</div>
           </div>
           <span className="action-chevron">›</span>
         </Link>
@@ -300,15 +292,28 @@ export default function Dashboard() {
           <span className="action-icon">✏️</span>
           <div className="action-text">
             <div className="action-label">Fill in Blanks</div>
-            <div className="action-sub">Grammar practice</div>
+            <div className="action-sub">Grammar & vocabulary practice</div>
           </div>
           <span className="action-chevron">›</span>
         </Link>
+        <Link to="/match" className="action-btn">
+          <span className="action-icon">🔡</span>
+          <div className="action-text">
+            <div className="action-label">Match Pairs</div>
+            <div className="action-sub">Sanskrit ↔ English matching</div>
+          </div>
+          <span className="action-chevron">›</span>
+        </Link>
+      </div>
+
+      {/* ── Texts ──────────────────────────────────────────────────────── */}
+      <div className="dash-section-label">Texts</div>
+      <div className="quick-actions">
         <Link to="/gita" className="action-btn">
           <span className="action-icon">🪷</span>
           <div className="action-text">
             <div className="action-label">Bhagavad Gītā</div>
-            <div className="action-sub">All 701 verses · browse or drill</div>
+            <div className="action-sub">701 verses · browse or drill</div>
           </div>
           <span className="action-chevron">›</span>
         </Link>
@@ -320,11 +325,37 @@ export default function Dashboard() {
           </div>
           <span className="action-chevron">›</span>
         </Link>
-        <Link to="/match" className="action-btn">
-          <span className="action-icon">🧩</span>
+      </div>
+
+      {/* ── Stories ─────────────────────────────────────────────────────── */}
+      <div className="dash-section-label">Stories</div>
+      <div className="quick-actions">
+        <Link to="/story" className="action-btn">
+          <span className="action-icon">📖</span>
           <div className="action-text">
-            <div className="action-label">Matching Pairs</div>
-            <div className="action-sub">Tap Sanskrit ↔ English pairs</div>
+            <div className="action-label">Sanskrit Stories</div>
+            <div className="action-sub">Read with word-by-word translation</div>
+          </div>
+          <span className="action-chevron">›</span>
+        </Link>
+      </div>
+
+      {/* ── More ────────────────────────────────────────────────────────── */}
+      <div className="dash-section-label">More</div>
+      <div className="quick-actions">
+        <Link to="/progress" className="action-btn">
+          <span className="action-icon">📈</span>
+          <div className="action-text">
+            <div className="action-label">Progress</div>
+            <div className="action-sub">Track your learning streak & stats</div>
+          </div>
+          <span className="action-chevron">›</span>
+        </Link>
+        <Link to="/podcast" className="action-btn">
+          <span className="action-icon">🎧</span>
+          <div className="action-text">
+            <div className="action-label">Listen</div>
+            <div className="action-sub">Sanskrit audio & podcasts</div>
           </div>
           <span className="action-chevron">›</span>
         </Link>

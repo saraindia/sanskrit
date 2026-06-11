@@ -7,6 +7,7 @@ import { toIAST } from '../utils/transliterate.js'
 import { freshOrder } from '../utils/freshOrder.js'
 import ClickableSentence from '../components/ClickableSentence'
 import SpeakIcon from '../components/SpeakIcon'
+import HubBack from '../components/HubBack'
 import './FillBlanks.css'
 
 export default function FillBlanks() {
@@ -27,7 +28,7 @@ export default function FillBlanks() {
   const questions = useMemo(() => {
     const list = levelFilter === 'all' ? fillBlanks : fillBlanks.filter(q => q.level === levelFilter)
     return freshOrder(list, progress.srs)
-  }, [levelFilter, round]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [fillBlanks, levelFilter, round]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const q = questions[currentIdx]
   const { speak } = useSpeech()
@@ -99,6 +100,7 @@ export default function FillBlanks() {
 
   return (
     <div className="fillblanks anim-fade-up">
+      <HubBack to="/study" label="Study" />
       <div className="page-header">
         <h1 className="page-title">Fill in the Blanks</h1>
         <p className="page-subtitle">{currentIdx + 1} of {questions.length} · {sessionStats.correct} correct</p>

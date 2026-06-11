@@ -9,6 +9,7 @@ import { freshOrder } from '../utils/freshOrder.js'
 import { toIAST } from '../utils/transliterate.js'
 import ClickableSentence from '../components/ClickableSentence'
 import SpeakIcon from '../components/SpeakIcon'
+import HubBack from '../components/HubBack'
 import './DrillSentences.css'
 
 
@@ -215,6 +216,7 @@ export default function DrillSentences() {
   return (
     <div className="drill anim-fade-up">
       <WellDoneToast show={showToast} onHide={() => setShowToast(false)} />
+      <HubBack to="/study" label="Study" />
       <div className="page-header">
         <h1 className="page-title">Sentence Drill</h1>
         <p className="page-subtitle">Verb · noun · pronoun combinations</p>
@@ -284,7 +286,7 @@ export default function DrillSentences() {
             <div className="sentence-answer anim-fade-up">
               <div className="answer-english">{sentence.english}</div>
               <div className="rate-btns">
-                <button className="fc-next-btn" onClick={handleNext}>Next →</button>
+                <button className="btn-primary" onClick={handleNext}>Next →</button>
               </div>
             </div>
           ) : (
