@@ -1,70 +1,37 @@
 /* ── Theme overrides — applied as class on <html> ───────────────────────────── */
 /* dark-gold is the default (already in :root) — no override needed             */
 
-/* ── Forest ──────────────────────────────────────────────────────────────────── */
-html.theme-forest {
-  --bg-deep:        #060e0a;
-  --bg-card:        #0a1a0f;
-  --bg-elevated:    #112414;
-  --bg-subtle:      #173020;
+/* ── Slate Ink ───────────────────────────────────────────────────────────────── */
+html.theme-slate-ink {
+  --bg-deep:        #0c0e14;
+  --bg-card:        #111520;
+  --bg-elevated:    #181d2b;
+  --bg-subtle:      #202636;
 
-  --gold:           #34d399;
-  --gold-light:     #6ee7b7;
-  --gold-dim:       #064e3b;
-  --terracotta:     #fb923c;
-  --terracotta-dim: #7c2d12;
-  --cream:          #d1fae5;
-  --cream-dim:      #6ee7b7;
-  --saffron:        #fcd34d;
+  --gold:           #d4a843;
+  --gold-light:     #e8be58;
+  --gold-dim:       #7a6020;
+  --terracotta:     #e07868;
+  --terracotta-dim: #7a3020;
+  --cream:          #dce5f0;
+  --cream-dim:      #7a8faa;
+  --saffron:        #c89a30;
 
-  --teal:           #22d3ee;
-  --teal-dim:       #164e63;
-  --purple:         #a78bfa;
-  --purple-dim:     #4c1d95;
+  --teal:           #4db8c8;
+  --teal-dim:       #1a4a58;
+  --purple:         #a094e0;
+  --purple-dim:     #3a3070;
 
-  --text-primary:   #ecfdf5;
-  --text-secondary: #6ee7b7;
-  --text-muted:     #065f46;
-  --border:         rgba(52,211,153,0.15);
-  --border-bright:  rgba(52,211,153,0.38);
+  --text-primary:   #dce5f2;
+  --text-secondary: #8fa0b8;
+  --text-muted:     #445068;
+  --border:         rgba(100,130,180,0.18);
+  --border-bright:  rgba(100,130,180,0.38);
 }
-html.theme-forest body::before {
+html.theme-slate-ink body::before {
   background:
-    radial-gradient(ellipse 60% 40% at 15% 10%, rgba(16,185,129,0.1) 0%, transparent 60%),
-    radial-gradient(ellipse 50% 60% at 85% 90%, rgba(52,211,153,0.07) 0%, transparent 60%);
-}
-
-/* ── Carbon ──────────────────────────────────────────────────────────────────── */
-html.theme-carbon {
-  --bg-deep:        #0a0b0d;
-  --bg-card:        #111214;
-  --bg-elevated:    #1a1b1e;
-  --bg-subtle:      #242528;
-
-  --gold:           #fbbf24;
-  --gold-light:     #fcd34d;
-  --gold-dim:       #92400e;
-  --terracotta:     #f87171;
-  --terracotta-dim: #7f1d1d;
-  --cream:          #fef3c7;
-  --cream-dim:      #d97706;
-  --saffron:        #f59e0b;
-
-  --teal:           #34d399;
-  --teal-dim:       #064e3b;
-  --purple:         #a78bfa;
-  --purple-dim:     #4c1d95;
-
-  --text-primary:   #f5f5f4;
-  --text-secondary: #a8a29e;
-  --text-muted:     #57534e;
-  --border:         rgba(251,191,36,0.15);
-  --border-bright:  rgba(251,191,36,0.38);
-}
-html.theme-carbon body::before {
-  background:
-    radial-gradient(ellipse 60% 40% at 15% 10%, rgba(180,83,9,0.08) 0%, transparent 60%),
-    radial-gradient(ellipse 50% 60% at 85% 90%, rgba(251,191,36,0.06) 0%, transparent 60%);
+    radial-gradient(ellipse 60% 40% at 15% 10%, rgba(60,80,140,0.12) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 85% 90%, rgba(212,168,67,0.06) 0%, transparent 60%);
 }
 
 /* ── High Contrast (vision-friendly) ────────────────────────────────────────── */

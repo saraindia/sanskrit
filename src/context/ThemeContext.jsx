@@ -15,18 +15,11 @@ export const THEMES = [
     preview: { bg: '#0e0b08', accent: '#c9942a', text: '#f0e6d0', card: '#1a1410' },
   },
   {
-    id:      'forest',
-    label:   'Forest',
-    desc:    'Deep green — calm, natural, easy on the eyes',
-    icon:    '🌿',
-    preview: { bg: '#060e0a', accent: '#34d399', text: '#ecfdf5', card: '#0a1a0f' },
-  },
-  {
-    id:      'carbon',
-    label:   'Carbon',
-    desc:    'Neutral charcoal with amber — minimal and clean',
-    icon:    '⬛',
-    preview: { bg: '#0a0b0d', accent: '#fbbf24', text: '#f5f5f4', card: '#111214' },
+    id:      'slate-ink',
+    label:   'Slate Ink',
+    desc:    'Cool dark blue-grey with warm gold — clean and editorial',
+    icon:    '🖋',
+    preview: { bg: '#0c0e14', accent: '#d4a843', text: '#dce5f2', card: '#111520' },
   },
   {
     id:      'high-contrast',

@@ -4,6 +4,8 @@ import { useUserProgress as useProgress } from '../hooks/useUserProgress'
 import { useVocabularyData, useSentenceData } from '../hooks/useData'
 import { MODULES } from '../data/modules.js'
 import { useSpeech } from '../hooks/useSpeech'
+import SpeakIcon from '../components/SpeakIcon'
+import { toIAST } from '../utils/transliterate.js'
 import './Dashboard.css'
 
 
@@ -175,18 +177,7 @@ function DictionarySearch({ vocabulary }) {
             {results.map(word => {
               const isThisPlaying = playingId === word.id
               return (
-                <div
-                  key={word.id}
-                  className="dict-result-row"
-                >
-                  <span className="dict-result-deva">{word.devanagari}</span>
-                  <span className="dict-result-iast">{word.iast}</span>
-                  <span className="dict-result-english">{word.english}</span>
-                  {word.pos && (
-                    <span className="dict-result-pos" style={{ color: POS_COLOUR[word.pos] || 'var(--text-muted)' }}>
-                      {word.pos}
-                    </span>
-                  )}
+                <div key={word.id} className="dict-result-row">
                   <button
                     className={`dict-result-listen ${isThisPlaying ? 'dict-result-listen--playing' : ''}`}
                     onClick={(e) => handleListen(e, word)}
@@ -194,14 +185,18 @@ function DictionarySearch({ vocabulary }) {
                     aria-label={isThisPlaying ? 'Stop pronunciation' : `Pronounce ${word.devanagari}`}
                   >
                     {isThisPlaying
-                      ? <span className="dict-listen-bars">
-                          <span/><span/><span/>
-                        </span>
-                      : <svg width="11" height="11" viewBox="0 0 12 12" fill="currentColor">
-                          <polygon points="2,1 11,6 2,11"/>
-                        </svg>
+                      ? <span className="dict-listen-bars"><span/><span/><span/></span>
+                      : <SpeakIcon size="13px" />
                     }
                   </button>
+                  <span className="dict-result-deva">{word.devanagari}</span>
+                  <span className="dict-result-iast">{word.iast || toIAST(word.devanagari)}</span>
+                  <span className="dict-result-english">{word.english}</span>
+                  {word.pos && (
+                    <span className="dict-result-pos" style={{ color: POS_COLOUR[word.pos] || 'var(--text-muted)' }}>
+                      {word.pos}
+                    </span>
+                  )}
                 </div>
               )
             })}
