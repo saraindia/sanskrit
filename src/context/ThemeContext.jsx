@@ -15,25 +15,18 @@ export const THEMES = [
     preview: { bg: '#0e0b08', accent: '#c9942a', text: '#f0e6d0', card: '#1a1410' },
   },
   {
-    id:      'midnight',
-    label:   'Midnight',
-    desc:    'Deep blue-black with cool silver tones',
-    icon:    '🌌',
-    preview: { bg: '#080c14', accent: '#6fa8dc', text: '#dde8f5', card: '#101828' },
+    id:      'forest',
+    label:   'Forest',
+    desc:    'Deep green — calm, natural, easy on the eyes',
+    icon:    '🌿',
+    preview: { bg: '#060e0a', accent: '#34d399', text: '#ecfdf5', card: '#0a1a0f' },
   },
   {
-    id:      'sepia',
-    label:   'Sepia',
-    desc:    'Warm parchment — easy on the eyes for long sessions',
-    icon:    '📜',
-    preview: { bg: '#2c1e0f', accent: '#d4872a', text: '#f5e8cc', card: '#3a2a18' },
-  },
-  {
-    id:      'saffron',
-    label:   'Saffron',
-    desc:    'Vibrant saffron-orange inspired by temple colours',
-    icon:    '🔆',
-    preview: { bg: '#1a0e04', accent: '#e8821a', text: '#fde8c4', card: '#2a1808' },
+    id:      'carbon',
+    label:   'Carbon',
+    desc:    'Neutral charcoal with amber — minimal and clean',
+    icon:    '⬛',
+    preview: { bg: '#0a0b0d', accent: '#fbbf24', text: '#f5f5f4', card: '#111214' },
   },
   {
     id:      'high-contrast',
@@ -69,9 +62,11 @@ function applyTheme(themeId, largeText) {
 export function ThemeProvider({ children }) {
   const { user } = useAuth()
 
+  const VALID_IDS = new Set(THEMES.map(t => t.id))
   const [themeId, setThemeId] = useState(() => {
     const uid = user?.id
-    return getItem(themeKey(uid)) || 'high-contrast'
+    const saved = getItem(themeKey(uid))
+    return (saved && VALID_IDS.has(saved)) ? saved : 'dark-gold'
   })
   const [largeText, setLargeText] = useState(() => {
     const uid = user?.id
@@ -82,7 +77,8 @@ export function ThemeProvider({ children }) {
   // Re-read prefs when user changes
   useEffect(() => {
     const uid = user?.id
-    const saved = getItem(themeKey(uid)) || 'high-contrast'
+    const rawTheme = getItem(themeKey(uid))
+    const saved = (rawTheme && VALID_IDS.has(rawTheme)) ? rawTheme : 'dark-gold'
     const ltRaw = getItem(a11yKey(uid))
     const lt    = ltRaw === null ? true : ltRaw === 'true'  // default ON
     setThemeId(saved)

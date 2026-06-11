@@ -110,8 +110,23 @@ export default function DrillSentences() {
 
   const [revealed, setRevealed] = useState(false)   // intentionally ephemeral
   const [round, setRound]       = useState(0)       // bumping forces a fresh question order
+  const [patternTip, setPatternTip] = useState(true) // show on mount every visit
 
   const weakConcepts = useMemo(() => getWeakConcepts().map(c => c.id), [getWeakConcepts])
+
+  // Auto-dismiss the pattern tip after 4 s
+  React.useEffect(() => {
+    if (!patternTip) return
+    const t = setTimeout(() => setPatternTip(false), 4000)
+    return () => clearTimeout(t)
+  }, [patternTip])
+
+  // Randomly re-surface the tip ~every 5 cards (30 % chance)
+  React.useEffect(() => {
+    if (currentIdx > 0 && currentIdx % 5 === 0 && Math.random() < 0.3) {
+      setPatternTip(true)
+    }
+  }, [currentIdx])
 
   const sentences = useMemo(() => {
     // Filter first
@@ -132,7 +147,7 @@ export default function DrillSentences() {
     const fresh = freshOrder(list, progress.srs)
     setShuffledIds(fresh.map(s => s.id))
     return fresh
-  }, [pattern, weakOnly, weakConcepts, round]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [allSentences, pattern, weakOnly, weakConcepts, round]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const sentence = sentences[currentIdx]
   const { speak } = useSpeech()
@@ -167,6 +182,13 @@ export default function DrillSentences() {
     setRound(r => r + 1) // recompute the deck with fresh questions
   }
 
+  if (!sentData) return (
+    <div className="drill anim-fade-up">
+      <div className="page-header"><h1 className="page-title">Sentence Drill</h1></div>
+      <div className="card drill-loading">Loading…</div>
+    </div>
+  )
+
   if (sentences.length === 0) return (
     <div className="drill anim-fade-up">
       <div className="page-header"><h1 className="page-title">Sentence Drill</h1></div>
@@ -200,11 +222,17 @@ export default function DrillSentences() {
 
       {/* Controls */}
       <div className="drill-controls">
-        <div className="control-group">
+        <div className="control-group" style={{position:'relative'}}>
           <label className="control-label">Pattern</label>
-          <select className="drill-select" value={pattern} onChange={e => { setPattern(e.target.value); restart() }}>
+          <select className="drill-select" value={pattern} onChange={e => { setPattern(e.target.value); setPatternTip(false); restart() }}>
             {PATTERNS.map(p => <option key={p.id} value={p.id}>{p.label}</option>)}
           </select>
+          {patternTip && (
+            <div className="pattern-tip" onClick={() => setPatternTip(false)}>
+              <span className="pattern-tip-arrow" />
+              Filter by pattern to focus your practice — e.g. "Dative pronoun" or "षष्ठी"
+            </div>
+          )}
         </div>
         <div className="control-group">
           <label className="control-label">Mode</label>

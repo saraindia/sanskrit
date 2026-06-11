@@ -9,6 +9,11 @@ import './StorySession.css'
 // Persists the selected story across tab navigations (module scope survives unmount)
 let _persistedStoryId = null
 
+// Populated once async vocab data loads (see StorySession component)
+let vocabById = {}
+let vocabulary = []
+let vocabMap   = {}
+
 // Each story gets a flat string of every searchable token for fast matching
 
 function buildSearchIndex(story) {
@@ -697,6 +702,15 @@ function StoryCard({ story, query, onSelect }) {
 // ── Main page ────────────────────────────────────────────────────────────────
 export default function StorySession() {
   const vocabData = useVocabularyData()
+
+  // Populate module-level vocab references once async data arrives
+  React.useEffect(() => {
+    if (!vocabData) return
+    vocabulary = vocabData.vocabulary || []
+    vocabById  = Object.fromEntries(vocabulary.map(v => [v.id, v]))
+    vocabMap   = Object.fromEntries(vocabulary.map(v => [v.devanagari, v]))
+  }, [vocabData])
+
   // Restore previously selected story if user switched tabs and came back
   const [activeStory, setActiveStory] = useState(() =>
     _persistedStoryId ? (STORIES.find(s => s.id === _persistedStoryId) || null) : null

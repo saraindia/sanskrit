@@ -50,8 +50,9 @@ export default function MatchPairs() {
     persist(g)
   }, [vocabulary, progress.srs, persist]) // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Restore an unfinished round, otherwise deal a fresh one
+  // Restore an unfinished round, otherwise deal a fresh one — wait for vocab to load
   useEffect(() => {
+    if (!vocabData) return
     setSelected(null); setWrongPair(null); setJustMatched(null)
     try {
       const saved = JSON.parse(getItem(storeKey) || 'null')
@@ -67,7 +68,7 @@ export default function MatchPairs() {
     } catch {}
     dealRound(0)
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [storeKey])
+  }, [storeKey, vocabData])
 
   const handleTap = useCallback((side, word) => {
     if (!game || game.matched.includes(word.id) || wrongPair || justMatched) return

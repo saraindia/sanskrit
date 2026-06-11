@@ -7,6 +7,7 @@
 .prog-page .page-header { padding-left: 0; padding-right: 0; }
 
 .prog-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 600px) { .prog-grid { grid-template-columns: 1fr; } }
 
 .section-title {
   font-family: var(--font-display);
@@ -17,7 +18,13 @@
   margin-bottom: 1rem;
 }
 
-.concept-table { display: flex; flex-direction: column; gap: 2px; }
+/* Override global grid-4 to 2×2 on mobile */
+@media (max-width: 600px) {
+  .prog-page .grid-4 { grid-template-columns: 1fr 1fr; }
+}
+
+.concept-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.concept-table { display: flex; flex-direction: column; gap: 2px; min-width: 380px; }
 .ct-header {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;

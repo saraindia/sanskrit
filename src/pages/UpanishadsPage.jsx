@@ -227,7 +227,7 @@ export default function UpanishadsPage() {
 
       <div className="gita-toolbar">
         <button className="gita-nav-btn" onClick={() => setVerseIdx(idx - 1)} disabled={atStart} aria-label="Previous verse">←</button>
-        <select className="drill-select gita-verse-select" value={idx}
+        <select className="gita-verse-select" value={idx}
           onChange={e => setVerseIdx(Number(e.target.value))}>
           {sectionVerses.map((v, i) => (
             <option key={i} value={i}>Verse {v.ref}</option>

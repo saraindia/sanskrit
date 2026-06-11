@@ -151,7 +151,7 @@ export default function GitaPage() {
 
       <div className="gita-toolbar">
         <button className="gita-nav-btn" onClick={prev} disabled={atStart} aria-label="Previous verse">←</button>
-        <select className="drill-select gita-verse-select" value={verse.v}
+        <select className="gita-verse-select" value={verse.v}
           onChange={e => setVerseNum(Number(e.target.value))}>
           {chapter.verses.map(v => <option key={v.v} value={v.v}>Verse {v.v} of {chapter.verses.length}</option>)}
         </select>

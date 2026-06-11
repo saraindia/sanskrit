@@ -38,7 +38,31 @@
 .gita-nav-btn:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); }
 .gita-nav-btn:disabled { opacity: 0.35; cursor: default; }
 
-.gita-verse-select { min-width: 120px; max-width: 240px; flex: 0 1 auto; }
+.gita-verse-select {
+  flex: 1;
+  min-width: 0;
+  max-width: 280px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  padding: 0.45rem 2rem 0.45rem 0.75rem;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  /* gold chevron arrow */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23c9a84c'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.6rem center;
+  transition: border-color 0.15s;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.gita-verse-select:focus { outline: none; border-color: var(--gold); }
+.gita-verse-select:hover { border-color: var(--gold-dim, var(--gold)); }
 
 .gita-chapters {
   display: grid;

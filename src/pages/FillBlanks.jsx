@@ -63,6 +63,13 @@ export default function FillBlanks() {
 
   const restart = () => { setCurrentIdx(0); setSelected(null); setConfirmed(false); setDone(false); setSessionStats({ correct: 0, total: 0 }); setRound(r => r + 1) }
 
+  if (!sentData) return (
+    <div className="fillblanks anim-fade-up">
+      <div className="page-header"><h1 className="page-title">Fill in the Blanks</h1></div>
+      <div className="card" style={{padding:'2rem',textAlign:'center'}}><p style={{color:'var(--text-secondary)'}}>Loading…</p></div>
+    </div>
+  )
+
   if (questions.length === 0) return (
     <div className="fillblanks anim-fade-up">
       <div className="page-header"><h1 className="page-title">Fill in the Blanks</h1></div>

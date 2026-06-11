@@ -138,7 +138,7 @@ export default function Flashcards() {
     const fresh = freshOrder(sourceCards, progress.srs).slice(0, 30)
     setShuffledIds(fresh.map(c => c.id))
     return fresh
-  }, [filter, deckType, round]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [allCards, filter, deckType, round]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const card = deck[currentIdx]
   const { speak, useGoogle, toggleEngine } = useSpeech()
@@ -192,6 +192,15 @@ export default function Flashcards() {
       </div>
     )
   }
+
+  if (!vocabData) return (
+    <div className="flashcards anim-fade-up">
+      <div className="page-header"><h1 className="page-title">Flashcards</h1></div>
+      <div className="card" style={{textAlign:'center',padding:'3rem'}}>
+        <p style={{color:'var(--text-secondary)'}}>Loading…</p>
+      </div>
+    </div>
+  )
 
   if (deck.length === 0) return (
     <div className="flashcards anim-fade-up">

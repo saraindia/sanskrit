@@ -19,7 +19,6 @@ const CURRICULUM_STATIC = [
 
 const VERSE_WORDS = [...BHAGAVAD_GITA, ...UPANISHAD_VERSES, ...YOGA_SUTRAS]
   .reduce((n, v) => n + (v.words?.length || 0), 0)
-const TOTAL_WORDS = vocabulary.length + VERSE_WORDS
 
 export default function Progress() {
   const vocabData = useVocabularyData()
@@ -29,11 +28,12 @@ export default function Progress() {
   const grammarConcepts = vocabData?.grammar_concepts || {}
   const vnpSentences    = sentData?.vnp_sentences    || []
   const allItems = [...alphabetCards, ...vocabulary, ...vnpSentences]
+  const TOTAL_WORDS = vocabulary.length + VERSE_WORDS
   const CURRICULUM = CURRICULUM_STATIC
   const { progress, getWeakConcepts, getDueItems, resetProgress } = useProgress()
 
   const weakConcepts = useMemo(() => getWeakConcepts(), [getWeakConcepts])
-  const dueItems = useMemo(() => getDueItems(ALL_ITEMS), [getDueItems])
+  const dueItems = useMemo(() => getDueItems(allItems), [getDueItems, allItems]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const srsStats = useMemo(() => {
     const items = Object.values(progress.srs)
@@ -116,24 +116,26 @@ export default function Progress() {
           {conceptRows.length === 0
             ? <p style={{color:'var(--text-secondary)',fontSize:'0.9rem',fontStyle:'italic'}}>No concept data yet — start drilling!</p>
             : (
-              <div className="concept-table">
-                <div className="ct-header">
-                  <span>Concept</span><span>Level</span><span>Accuracy</span><span>Attempts</span>
-                </div>
-                {conceptRows.map(r => (
-                  <div key={r.id} className={`ct-row ${r.flagged ? 'ct-flagged' : ''}`}>
-                    <span className="ct-label">{r.label}</span>
-                    <span className={`pill pill-${r.level}`}>{r.level}</span>
-                    <span className="ct-acc">
-                      <div className="progress-bar-track" style={{width:'80px',display:'inline-block'}}>
-                        <div className="progress-bar-fill" style={{width:`${r.accuracy}%`, background: r.accuracy < 50 ? 'var(--terracotta)' : r.accuracy < 70 ? 'var(--gold-dim)' : 'var(--teal)'}} />
-                      </div>
-                      <span style={{fontSize:'0.78rem',color:'var(--text-secondary)',minWidth:'32px'}}>{r.accuracy}%</span>
-                    </span>
-                    <span className="ct-attempts">{r.attempts}</span>
-                    {r.flagged && <span className="ct-flag">⚑ weak</span>}
+              <div className="concept-table-wrap">
+                <div className="concept-table">
+                  <div className="ct-header">
+                    <span>Concept</span><span>Level</span><span>Accuracy</span><span>Attempts</span>
                   </div>
-                ))}
+                  {conceptRows.map(r => (
+                    <div key={r.id} className={`ct-row ${r.flagged ? 'ct-flagged' : ''}`}>
+                      <span className="ct-label">{r.label}</span>
+                      <span className={`pill pill-${r.level}`}>{r.level}</span>
+                      <span className="ct-acc">
+                        <div className="progress-bar-track" style={{width:'80px',display:'inline-block'}}>
+                          <div className="progress-bar-fill" style={{width:`${r.accuracy}%`, background: r.accuracy < 50 ? 'var(--terracotta)' : r.accuracy < 70 ? 'var(--gold-dim)' : 'var(--teal)'}} />
+                        </div>
+                        <span style={{fontSize:'0.78rem',color:'var(--text-secondary)',minWidth:'32px'}}>{r.accuracy}%</span>
+                      </span>
+                      <span className="ct-attempts">{r.attempts}</span>
+                      {r.flagged && <span className="ct-flag">⚑ weak</span>}
+                    </div>
+                  ))}
+                </div>
               </div>
           )}
         </div>
