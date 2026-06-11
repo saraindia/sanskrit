@@ -269,7 +269,7 @@ export default function Flashcards() {
               <button className="speak-btn" title="Hear pronunciation"
                 onClick={e => { e.stopPropagation(); speak(card?.devanagari) }}><SpeakIcon /></button>
             </div>
-            <div className="fc-iast">{card?.iast || toIAST(card?.devanagari || '')}</div>
+            <div className="fc-iast">{card?.iast || (card?.devanagari ? toIAST(card.devanagari) : '')}</div>
             {card?.type && <span className={`pill ${card.level ? 'pill-'+card.level : 'pill-beginner'}`}>{card.type}</span>}
             <button className="engine-toggle-btn" title={useGoogle ? 'Google Neural TTS (click to switch)' : 'System voice (click to switch)'}
               onClick={e => { e.stopPropagation(); toggleEngine() }}>

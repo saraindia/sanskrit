@@ -192,9 +192,25 @@ export default function DrillSentences() {
 
   if (sentences.length === 0) return (
     <div className="drill anim-fade-up">
+      <HubBack to="/study" label="Study" />
       <div className="page-header"><h1 className="page-title">Sentence Drill</h1></div>
-      <div className="card" style={{textAlign:'center',padding:'3rem'}}>
-        <p style={{color:'var(--text-secondary)'}}>No sentences match this filter. Try changing the pattern or turning off weak-only.</p>
+      <div className="card" style={{textAlign:'center',padding:'2rem'}}>
+        <div style={{fontSize:'2rem',marginBottom:'0.75rem'}}>🎯</div>
+        <p style={{color:'var(--text-secondary)',marginBottom:'1.5rem'}}>
+          {weakOnly
+            ? 'No weak areas yet — keep drilling to build up your history!'
+            : 'No sentences match this filter.'}
+        </p>
+        <div style={{display:'flex',gap:'0.75rem',justifyContent:'center',flexWrap:'wrap'}}>
+          {weakOnly && (
+            <button className="btn-primary" onClick={() => { setWeakOnly(false); restart() }}>
+              Study all sentences
+            </button>
+          )}
+          <button className="btn-ghost" onClick={() => { setPattern('all'); setWeakOnly(false); restart() }}>
+            Reset filters
+          </button>
+        </div>
       </div>
     </div>
   )

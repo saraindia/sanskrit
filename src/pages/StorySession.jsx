@@ -546,7 +546,7 @@ function StoryReader({ story, onBack }) {
 }
 
 // ── Paginated section helper ─────────────────────────────────────────────────
-const PAGE_SIZE = 5
+const PAGE_SIZE = 3
 
 function StorySection({ label, icon, subtitle, items, query, onSelect, totalCount }) {
   const [visible, setVisible] = useState(PAGE_SIZE)
