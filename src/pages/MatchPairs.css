@@ -24,7 +24,7 @@
   border-radius: var(--radius-md, 14px);
   color: var(--text-primary);
   font-family: inherit;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   padding: 0.5rem 0.55rem;
   cursor: pointer;
   text-align: center;
@@ -40,7 +40,7 @@
 }
 .mp-card:active { transform: scale(0.97); }
 
-.mp-sa { font-size: 1.15rem; }
+.mp-sa { font-size: 1.05rem; }
 
 .mp-active {
   border-color: var(--gold);
@@ -75,7 +75,7 @@
 }
 
 @media (max-width: 480px) {
-  .mp-card { font-size: 0.82rem; padding: 0.5rem 0.4rem; height: 60px; }
-  .mp-sa { font-size: 1.05rem; }
+  .mp-card { font-size: 0.9rem; padding: 0.5rem 0.4rem; height: 60px; }
+  .mp-sa { font-size: 1rem; }
   .mp-grid { gap: 0.5rem 0.6rem; }
 }

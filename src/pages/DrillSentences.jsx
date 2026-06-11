@@ -13,73 +13,104 @@ import HubBack from '../components/HubBack'
 import './DrillSentences.css'
 
 
-const PATTERNS = [
-  { id: 'all',              label: 'All patterns' },
-  // Original VNP patterns
-  { id: 'noun+verb',        label: 'Noun + verb' },
-  { id: 'pronoun+verb',     label: 'Pronoun + verb' },
-  { id: 'noun+obj+verb',    label: 'Noun + object + verb' },
-  { id: 'pronoun+obj+verb', label: 'Pronoun + object + verb' },
-  { id: 'pronoun+noun+verb',label: 'Pronoun + noun + verb' },
-  { id: 'pronoun-dat+verb', label: 'Dative pronoun' },
-  { id: 'noun-loc+verb',    label: 'Locative noun' },
-  { id: 'causative',        label: 'Causative verbs' },
-  // Collated patterns — Beginner Foundations
-  { id: 'सः + noun',        label: 'सः + noun (He is…)' },
-  { id: 'सा + noun',        label: 'सा + noun (She is…)' },
-  { id: 'तत् + noun',       label: 'तत् + noun (That is…)' },
-  { id: 'सः/सा + verb',     label: 'सः/सा + verb' },
-  { id: 'noun + adjective + verb', label: 'Noun + adjective + verb' },
-  { id: 'कः का किम्',       label: 'कः / का / किम् (who/what)' },
-  { id: 'वा questions',     label: 'वा questions' },
-  { id: 'अस्ति / नास्ति',   label: 'अस्ति / नास्ति' },
-  // Pronouns with verbs
-  { id: 'pronoun+verb: सः', label: 'सः + verb (He…)' },
-  { id: 'pronoun+verb: सा', label: 'सा + verb (She…)' },
-  { id: 'pronoun+verb: तत्',label: 'तत् + verb (It…)' },
-  { id: 'pronoun+verb: एषः',label: 'एषः + verb (This m.)' },
-  { id: 'pronoun+verb: एषा',label: 'एषा + verb (This f.)' },
-  { id: 'pronoun+verb: एतत्',label: 'एतत् + verb (This n.)' },
-  { id: 'pronoun+verb: कः', label: 'कः + verb (Who m.?)' },
-  { id: 'pronoun+verb: का', label: 'का + verb (Who f.?)' },
-  { id: 'pronoun+verb: किम्',label: 'किम् + verb (What?)' },
-  { id: 'pronoun+verb: भवान्',label: 'भवान् + verb (polite m.)' },
-  { id: 'pronoun+verb: भवती',label: 'भवती + verb (polite f.)' },
-  // First/second person descriptive
-  { id: 'descriptive: अहम्', label: 'अहम् descriptive (I am…)' },
-  { id: 'descriptive: भवान्',label: 'भवान् descriptive (You m. are…)' },
-  { id: 'descriptive: भवती',label: 'भवती descriptive (You f. are…)' },
-  // करोति / करोतु
-  { id: 'अहम् … करोमि',     label: 'अहम् … करोमि (I am doing…)' },
-  { id: 'भवान् … करोतु',    label: 'भवान् … करोतु (You m. do…)' },
-  { id: 'भवती … करोतु',    label: 'भवती … करोतु (You f. do…)' },
-  { id: '3rd-person + imperative combinations', label: '3rd person imperatives' },
-  // Singular / Plural
-  { id: 'singular: masculine', label: 'Singular masculine' },
-  { id: 'plural: masculine',   label: 'Plural masculine' },
-  { id: 'singular: feminine',  label: 'Singular feminine' },
-  { id: 'plural: feminine',    label: 'Plural feminine' },
-  { id: 'singular: neuter',    label: 'Singular neuter' },
-  { id: 'plural: neuter',      label: 'Plural neuter' },
-  // षष्ठी Genitive
-  { id: 'shashti (षष्ठी): masculine', label: 'षष्ठी masculine/neuter' },
-  { id: 'shashti (षष्ठी): feminine',  label: 'षष्ठी feminine' },
-  // Spatial avyayas
-  { id: 'spatial: पुरतः (in front of)', label: 'पुरतः (in front of)' },
-  { id: 'spatial: पृष्ठतः (behind)',    label: 'पृष्ठतः (behind)' },
-  { id: 'spatial: दक्षिणतः (to the right of)', label: 'दक्षिणतः (right of)' },
-  { id: 'spatial: वामतः (to the left of)',      label: 'वामतः (left of)' },
-  { id: 'spatial: उपरि (above / on top of)',    label: 'उपरि (above)' },
-  { id: 'spatial: अधः (below / under)',         label: 'अधः (below)' },
-  // Locative adverbs
-  { id: 'adverb: कुत्र (where?)',       label: 'कुत्र (where?)' },
-  { id: 'adverb: अत्र (here)',          label: 'अत्र (here)' },
-  { id: 'adverb: तत्र (there)',         label: 'तत्र (there)' },
-  { id: 'adverb: सर्वत्र (everywhere)', label: 'सर्वत्र (everywhere)' },
-  { id: 'adverb: अन्यत्र (somewhere else / elsewhere)', label: 'अन्यत्र (elsewhere)' },
-  // Interrogatives
-  { id: 'interrogative: कदा (when?)',   label: 'कदा (when?)' },
-  { id: 'interrogative: कति (how many?)',label: 'कति (how many?)' },
+// Patterns organised into friendly groups — rendered as <optgroup> sections
+// so the dropdown stays scannable as the sentence bank grows.
+const PATTERN_GROUPS = [
+  {
+    label: 'Basics',
+    items: [
+      { id: 'noun+verb',        label: 'Noun + verb' },
+      { id: 'noun+obj+verb',    label: 'Noun + object + verb' },
+      { id: 'noun + adjective + verb', label: 'Noun + adjective + verb' },
+      { id: 'pronoun+verb',     label: 'Pronoun + verb' },
+      { id: 'pronoun+obj+verb', label: 'Pronoun + object + verb' },
+      { id: 'pronoun+noun+verb',label: 'Pronoun + noun + verb' },
+    ],
+  },
+  {
+    label: 'He / She / It / This',
+    items: [
+      { id: 'सः + noun',        label: 'सः + noun (He is…)' },
+      { id: 'सा + noun',        label: 'सा + noun (She is…)' },
+      { id: 'तत् + noun',       label: 'तत् + noun (That is…)' },
+      { id: 'सः/सा + verb',     label: 'सः/सा + verb' },
+      { id: 'pronoun+verb: सः', label: 'सः + verb (He…)' },
+      { id: 'pronoun+verb: सा', label: 'सा + verb (She…)' },
+      { id: 'pronoun+verb: तत्',label: 'तत् + verb (It…)' },
+      { id: 'pronoun+verb: एषः',label: 'एषः + verb (This m.)' },
+      { id: 'pronoun+verb: एषा',label: 'एषा + verb (This f.)' },
+      { id: 'pronoun+verb: एतत्',label: 'एतत् + verb (This n.)' },
+    ],
+  },
+  {
+    label: 'I & You',
+    items: [
+      { id: 'descriptive: अहम्', label: 'अहम् (I am…)' },
+      { id: 'descriptive: भवान्',label: 'भवान् (You m. are…)' },
+      { id: 'descriptive: भवती',label: 'भवती (You f. are…)' },
+      { id: 'pronoun+verb: भवान्',label: 'भवान् + verb (polite m.)' },
+      { id: 'pronoun+verb: भवती',label: 'भवती + verb (polite f.)' },
+      { id: 'अहम् … करोमि',     label: 'अहम् … करोमि (I am doing…)' },
+      { id: 'भवान् … करोतु',    label: 'भवान् … करोतु (You m. do…)' },
+      { id: 'भवती … करोतु',    label: 'भवती … करोतु (You f. do…)' },
+    ],
+  },
+  {
+    label: 'Questions',
+    items: [
+      { id: 'कः का किम्',       label: 'कः / का / किम् (who/what)' },
+      { id: 'pronoun+verb: कः', label: 'कः + verb (Who m.?)' },
+      { id: 'pronoun+verb: का', label: 'का + verb (Who f.?)' },
+      { id: 'pronoun+verb: किम्',label: 'किम् + verb (What?)' },
+      { id: 'वा questions',     label: 'वा questions (or / is it?)' },
+      { id: 'adverb: कुत्र (where?)',        label: 'कुत्र (where?)' },
+      { id: 'interrogative: कदा (when?)',    label: 'कदा (when?)' },
+      { id: 'interrogative: कति (how many?)',label: 'कति (how many?)' },
+    ],
+  },
+  {
+    label: 'Is / Is not & Possession',
+    items: [
+      { id: 'अस्ति / नास्ति',   label: 'अस्ति / नास्ति (is / is not)' },
+      { id: 'shashti (षष्ठी): masculine', label: 'षष्ठी masculine/neuter (of…)' },
+      { id: 'shashti (षष्ठी): feminine',  label: 'षष्ठी feminine (of…)' },
+    ],
+  },
+  {
+    label: 'Singular & Plural',
+    items: [
+      { id: 'singular: masculine', label: 'Singular masculine' },
+      { id: 'plural: masculine',   label: 'Plural masculine' },
+      { id: 'singular: feminine',  label: 'Singular feminine' },
+      { id: 'plural: feminine',    label: 'Plural feminine' },
+      { id: 'singular: neuter',    label: 'Singular neuter' },
+      { id: 'plural: neuter',      label: 'Plural neuter' },
+    ],
+  },
+  {
+    label: 'Place & Direction',
+    items: [
+      { id: 'adverb: अत्र (here)',          label: 'अत्र (here)' },
+      { id: 'adverb: तत्र (there)',         label: 'तत्र (there)' },
+      { id: 'adverb: सर्वत्र (everywhere)', label: 'सर्वत्र (everywhere)' },
+      { id: 'adverb: अन्यत्र (somewhere else / elsewhere)', label: 'अन्यत्र (elsewhere)' },
+      { id: 'spatial: पुरतः (in front of)', label: 'पुरतः (in front of)' },
+      { id: 'spatial: पृष्ठतः (behind)',    label: 'पृष्ठतः (behind)' },
+      { id: 'spatial: दक्षिणतः (to the right of)', label: 'दक्षिणतः (right of)' },
+      { id: 'spatial: वामतः (to the left of)',      label: 'वामतः (left of)' },
+      { id: 'spatial: उपरि (above / on top of)',    label: 'उपरि (above)' },
+      { id: 'spatial: अधः (below / under)',         label: 'अधः (below)' },
+    ],
+  },
+  {
+    label: 'Grammar Forms',
+    items: [
+      { id: 'pronoun-dat+verb', label: 'Dative pronoun (to/for…)' },
+      { id: 'noun-loc+verb',    label: 'Locative noun (in/on…)' },
+      { id: 'causative',        label: 'Causative verbs' },
+      { id: '3rd-person + imperative combinations', label: '3rd person imperatives' },
+    ],
+  },
 ]
 
 const MODES = [
@@ -243,7 +274,12 @@ export default function DrillSentences() {
         <div className="control-group" style={{position:'relative'}}>
           <label className="control-label">Pattern</label>
           <select className="drill-select" value={pattern} onChange={e => { setPattern(e.target.value); setPatternTip(false); restart() }}>
-            {PATTERNS.map(p => <option key={p.id} value={p.id}>{p.label}</option>)}
+            <option value="all">All patterns</option>
+            {PATTERN_GROUPS.map(g => (
+              <optgroup key={g.label} label={g.label}>
+                {g.items.map(p => <option key={p.id} value={p.id}>{p.label}</option>)}
+              </optgroup>
+            ))}
           </select>
           {patternTip && (
             <div className="pattern-tip" onClick={() => setPatternTip(false)}>

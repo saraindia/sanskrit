@@ -56,6 +56,22 @@
   border-color: var(--gold);
   box-shadow: 0 0 0 2px rgba(201,148,42,0.18), 0 1px 4px rgba(0,0,0,0.25);
 }
+.drill-select optgroup {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  background: var(--bg-elevated);
+}
+.drill-select option {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--text-primary);
+  background: var(--bg-card);
+}
 
 /* Pattern dropdown tooltip */
 .pattern-tip {
