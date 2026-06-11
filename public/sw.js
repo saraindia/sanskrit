@@ -10,13 +10,24 @@ const ASSETS = [
   '/index.html',
 ]
 
+// Injected at build time: every built JS/CSS chunk, content JSON (Gita,
+// Upanishads, commentary), icons and manifest — so all pages and texts work
+// offline even if never opened. In dev the placeholder fails to parse → [].
+let PRECACHE = []
+try { PRECACHE = JSON.parse('__PRECACHE_MANIFEST__') } catch {}
+
 // Install — skipWaiting immediately so new SW activates without user action.
 // This means every new Vercel deploy is applied the next time the user opens
 // or focuses the app (no manual "Update" tap required).
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(CACHE_VERSION)
-      .then(c => c.addAll(ASSETS))
+      .then(c =>
+        c.addAll(ASSETS)
+          // Precache individually so one flaky file can't block install;
+          // anything missed is picked up by runtime caching later.
+          .then(() => Promise.allSettled(PRECACHE.map(url => c.add(url))))
+      )
       .catch(() => {})
       .then(() => self.skipWaiting())   // ← activate immediately
   )
@@ -55,6 +66,7 @@ self.addEventListener('fetch', e => {
       return fetch(e.request).then(res => {
         if (res.ok && (
           e.request.url.includes('/assets/') ||
+          e.request.url.includes('/content/') ||
           e.request.url.includes('fonts.google')
         )) {
           const clone = res.clone()

@@ -6,19 +6,38 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
-// Plugin: replace __BUILD_TIMESTAMP__ in the output sw.js with the actual
-// Unix timestamp so every Vercel deploy produces a byte-different SW file.
-// The browser detects the change and installs the new worker automatically.
+// Plugin: post-process the output sw.js —
+//  1. replace __BUILD_TIMESTAMP__ with the build time so every deploy produces
+//     a byte-different SW file (browser auto-installs the new worker)
+//  2. replace __PRECACHE_MANIFEST__ with the full list of built assets and
+//     content JSON so the whole app works offline, including pages and
+//     texts the user has never opened.
 function swTimestampPlugin() {
   return {
     name: 'sw-timestamp',
     closeBundle() {
-      const swPath = path.resolve(__dirname, 'dist/sw.js')
+      const distDir = path.resolve(__dirname, 'dist')
+      const swPath = path.join(distDir, 'sw.js')
       if (!fs.existsSync(swPath)) return
+
+      const precache = []
+      const walk = (dir) => {
+        for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+          const full = path.join(dir, entry.name)
+          if (entry.isDirectory()) { walk(full); continue }
+          const rel = '/' + path.relative(distDir, full).split(path.sep).join('/')
+          if (rel === '/sw.js' || rel === '/index.html') continue
+          if (/\.(js|css|json|png|svg|woff2?)$/.test(rel)) precache.push(rel)
+        }
+      }
+      walk(distDir)
+
       const ts = Date.now().toString()
       const src = fs.readFileSync(swPath, 'utf8')
-      fs.writeFileSync(swPath, src.replace(/__BUILD_TIMESTAMP__/g, ts))
-      console.log(`[sw-timestamp] stamped sw.js → ${ts}`)
+      fs.writeFileSync(swPath, src
+        .replace(/__BUILD_TIMESTAMP__/g, ts)
+        .replace(/'__PRECACHE_MANIFEST__'/g, JSON.stringify(JSON.stringify(precache))))
+      console.log(`[sw-timestamp] stamped sw.js → ${ts}, precache: ${precache.length} files`)
     }
   }
 }
