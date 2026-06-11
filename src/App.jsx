@@ -11,6 +11,8 @@ const StorySession  = lazy(() => import('./pages/StorySession'))
 const PodcastPage   = lazy(() => import('./pages/PodcastPage'))
 const ModulePage    = lazy(() => import('./pages/ModulePage'))
 const ProfilePage   = lazy(() => import('./pages/ProfilePage'))
+const GitaPage      = lazy(() => import('./pages/GitaPage'))
+const UpanishadsPage= lazy(() => import('./pages/UpanishadsPage'))
 import AuthPage from './pages/AuthPage'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
@@ -30,6 +32,8 @@ const TABS = [
   { to: '/flashcards',label: 'Cards',   icon: '🗂️'           },
   { to: '/story',     label: 'Stories', icon: '📖'           },
   { to: '/drill',     label: 'Drill',   icon: '⚡'           },
+  { to: '/gita',      label: 'Gītā',    icon: '🪷'           },
+  { to: '/upanishads',label: 'Upaniṣad',icon: '🕉️'           },
   { to: '/progress',  label: 'Progress',icon: '📈'           },
   { to: '/podcast',   label: 'Listen',  icon: '🎧'           },
 ]
@@ -134,6 +138,8 @@ function AppShell() {
           <Route path="/flashcards" element={<Flashcards />} />
           <Route path="/drill"      element={<DrillSentences />} />
           <Route path="/fill"       element={<FillBlanks />} />
+          <Route path="/gita"       element={<GitaPage />} />
+          <Route path="/upanishads" element={<UpanishadsPage />} />
           <Route path="/story"      element={<StorySession />} />
           <Route path="/progress"   element={<Progress />} />
           <Route path="/module/:id" element={<ModulePage />} />

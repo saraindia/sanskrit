@@ -306,6 +306,22 @@ export default function Dashboard() {
           </div>
           <span className="action-chevron">›</span>
         </Link>
+        <Link to="/gita" className="action-btn">
+          <span className="action-icon">🪷</span>
+          <div className="action-text">
+            <div className="action-label">Bhagavad Gītā</div>
+            <div className="action-sub">All 701 verses · browse or drill</div>
+          </div>
+          <span className="action-chevron">›</span>
+        </Link>
+        <Link to="/upanishads" className="action-btn">
+          <span className="action-icon">🕉️</span>
+          <div className="action-text">
+            <div className="action-label">Upaniṣads</div>
+            <div className="action-sub">Īśā · Kaṭha · Muṇḍaka — 201 verses</div>
+          </div>
+          <span className="action-chevron">›</span>
+        </Link>
       </div>
 
       {/* ── Curriculum modules ─────────────────────────────────────────── */}

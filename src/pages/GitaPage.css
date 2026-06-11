@@ -1,0 +1,199 @@
+.gita { max-width: 720px; }
+
+.gita-loading {
+  padding: 3rem;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.gita-back {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 0 0 0.5rem;
+  font-size: 0.9rem;
+}
+.gita-back:hover { color: var(--gold); }
+
+.gita-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.gita-nav-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.15s;
+}
+.gita-nav-btn:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); }
+.gita-nav-btn:disabled { opacity: 0.35; cursor: default; }
+
+.gita-verse-select { min-width: 150px; }
+
+.gita-chapters {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+
+.gita-ch-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  padding: 1rem 1.1rem;
+  cursor: pointer;
+  text-align: left;
+  border: 1px solid var(--border);
+  transition: all 0.15s;
+}
+.gita-ch-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+
+.gita-ch-num {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  color: var(--gold);
+}
+
+.gita-ch-name {
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.gita-ch-eng { font-size: 0.85rem; color: var(--text-secondary); }
+.gita-ch-count { font-size: 0.75rem; color: var(--text-tertiary, var(--text-secondary)); }
+
+.gita-verse-card { padding: 2rem; position: relative; }
+
+.gita-verse-tags { margin-bottom: 1.25rem; }
+
+.gita-deva {
+  font-size: 1.6rem;
+  line-height: 2;
+  color: var(--text-primary);
+  white-space: pre-line;
+}
+
+.gita-speak { margin: 0.5rem 0; }
+
+.gita-iast {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  white-space: pre-line;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.gita-trans {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-primary);
+  border-left: 3px solid var(--gold-dim, var(--gold));
+  padding-left: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.gita-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.gita-word {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.4rem 0.65rem;
+  max-width: 100%;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+.gita-word:hover { border-color: var(--gold); transform: translateY(-1px); }
+.gita-word:active { transform: translateY(0); }
+
+.gita-word-deva { font-size: 1.05rem; color: var(--text-primary); line-height: 1.5; }
+.gita-word-ear { font-size: 0.65rem; margin-left: 0.35rem; opacity: 0.45; }
+.gita-word:hover .gita-word-ear { opacity: 1; }
+.gita-word-sa { font-size: 0.78rem; color: var(--gold); font-style: italic; }
+.gita-word-en { font-size: 0.78rem; color: var(--text-secondary); }
+
+.gita-reveal { margin-bottom: 0.5rem; }
+
+.gita-comm { margin-top: 1.25rem; border-top: 1px solid var(--border); padding-top: 0.75rem; }
+
+.gita-comm-toggle {
+  background: none;
+  border: none;
+  color: var(--gold);
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  font-family: inherit;
+}
+.gita-comm-toggle:hover { text-decoration: underline; }
+
+.gita-comm-loading { color: var(--text-secondary); font-size: 0.9rem; padding: 0.5rem 0; }
+
+.gita-comm-authors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0.6rem 0 0.85rem;
+}
+
+.gita-comm-authors .filter-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+.gita-comm-authors .filter-btn:hover { border-color: var(--gold); color: var(--text-primary); }
+.gita-comm-authors .filter-btn.active {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: rgba(212, 175, 55, 0.08);
+}
+
+.gita-comm-text {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+.gita-comm-text.devanagari { font-size: 1.05rem; }
+
+.gita-footer-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .gita-deva { font-size: 1.3rem; }
+  .gita-verse-card { padding: 1.25rem; }
+}
