@@ -13,6 +13,7 @@ const ModulePage    = lazy(() => import('./pages/ModulePage'))
 const ProfilePage   = lazy(() => import('./pages/ProfilePage'))
 const GitaPage      = lazy(() => import('./pages/GitaPage'))
 const UpanishadsPage= lazy(() => import('./pages/UpanishadsPage'))
+const MatchPairs    = lazy(() => import('./pages/MatchPairs'))
 import AuthPage from './pages/AuthPage'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
@@ -140,6 +141,7 @@ function AppShell() {
           <Route path="/fill"       element={<FillBlanks />} />
           <Route path="/gita"       element={<GitaPage />} />
           <Route path="/upanishads" element={<UpanishadsPage />} />
+          <Route path="/match"      element={<MatchPairs />} />
           <Route path="/story"      element={<StorySession />} />
           <Route path="/progress"   element={<Progress />} />
           <Route path="/module/:id" element={<ModulePage />} />

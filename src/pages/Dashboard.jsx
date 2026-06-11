@@ -322,6 +322,14 @@ export default function Dashboard() {
           </div>
           <span className="action-chevron">›</span>
         </Link>
+        <Link to="/match" className="action-btn">
+          <span className="action-icon">🧩</span>
+          <div className="action-text">
+            <div className="action-label">Matching Pairs</div>
+            <div className="action-sub">Tap Sanskrit ↔ English pairs</div>
+          </div>
+          <span className="action-chevron">›</span>
+        </Link>
       </div>
 
       {/* ── Curriculum modules ─────────────────────────────────────────── */}

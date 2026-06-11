@@ -1,0 +1,68 @@
+.matchpairs { max-width: 640px; }
+
+.mp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.9rem 1.4rem;
+}
+
+.mp-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.mp-card {
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md, 14px);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 1.05rem;
+  padding: 1.1rem 0.75rem;
+  cursor: pointer;
+  text-align: center;
+  min-height: 64px;
+  transition: border-color 0.15s, color 0.2s, background 0.2s, opacity 0.4s, transform 0.1s;
+}
+.mp-card:active { transform: scale(0.97); }
+
+.mp-sa { font-size: 1.35rem; }
+
+.mp-active {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: rgba(212, 175, 55, 0.08);
+}
+
+.mp-correct {
+  border-color: var(--teal);
+  color: var(--teal);
+  background: rgba(58, 158, 138, 0.12);
+}
+
+.mp-wrong {
+  border-color: var(--terracotta);
+  color: var(--terracotta);
+  background: rgba(184, 92, 56, 0.12);
+  animation: mp-shake 0.3s;
+}
+
+.mp-matched {
+  opacity: 0.3;
+  color: var(--text-secondary);
+  cursor: default;
+  pointer-events: none;
+}
+
+@keyframes mp-shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+@media (max-width: 480px) {
+  .mp-card { font-size: 0.95rem; padding: 0.9rem 0.5rem; min-height: 56px; }
+  .mp-sa { font-size: 1.2rem; }
+  .mp-grid { gap: 0.7rem 0.9rem; }
+}
