@@ -1,1 +1,78 @@
-{"sanskritSource":"Vedanta_Datasets + indian-scriptures (ancient text, public domain)","translator":"F. Max Müller, Sacred Books of the East (1879/1884, public domain)","texts":[{"id":"aitareya","title":"Aitareya Upaniṣad","titleDeva":"ऐतरेयोपनिषद्","titleEnglish":"Consciousness is Brahman","veda":"Rigveda","verses":33,"file":"aitareya.json"},{"id":"isha","title":"Īśā Upaniṣad","titleDeva":"ईशोपनिषद्","titleEnglish":"The Lord-pervaded world","veda":"Śukla Yajurveda","verses":19,"file":"isha.json"},{"id":"kena","title":"Kena Upaniṣad","titleDeva":"केनोपनिषद्","titleEnglish":"By whom is all this directed?","veda":"Sāma Veda","verses":36,"file":"kena.json"},{"id":"katha","title":"Kaṭha Upaniṣad","titleDeva":"कठोपनिषद्","titleEnglish":"Nachiketa and Death","veda":"Kṛṣṇa Yajurveda","verses":119,"file":"katha.json"},{"id":"taittiriya","title":"Taittirīya Upaniṣad","titleDeva":"तैत्तिरीयोपनिषद्","titleEnglish":"Truth, Knowledge, Infinity is Brahman","veda":"Kṛṣṇa Yajurveda","verses":31,"file":"taittiriya.json"},{"id":"mandukya","title":"Māṇḍūkya Upaniṣad","titleDeva":"माण्डूक्योपनिषद्","titleEnglish":"The Four States of Consciousness","veda":"Atharvaveda","verses":12,"file":"mandukya.json"},{"id":"mundaka","title":"Muṇḍaka Upaniṣad","titleDeva":"मुण्डकोपनिषद्","titleEnglish":"The two kinds of knowledge","veda":"Atharvaveda","verses":64,"file":"mundaka.json"}]}
+{
+ "sanskritSource": "Vedanta_Datasets + indian-scriptures (ancient text, public domain)",
+ "translator": "F. Max Müller, Sacred Books of the East (1879/1884, public domain)",
+ "texts": [
+  {
+   "id": "aitareya",
+   "title": "Aitareya Upaniṣad",
+   "titleDeva": "ऐतरेयोपनिषद्",
+   "titleEnglish": "Consciousness is Brahman",
+   "veda": "Rigveda",
+   "verses": 33,
+   "file": "aitareya.json"
+  },
+  {
+   "id": "isha",
+   "title": "Īśā Upaniṣad",
+   "titleDeva": "ईशोपनिषद्",
+   "titleEnglish": "The Lord-pervaded world",
+   "veda": "Śukla Yajurveda",
+   "verses": 19,
+   "file": "isha.json"
+  },
+  {
+   "id": "kena",
+   "title": "Kena Upaniṣad",
+   "titleDeva": "केनोपनिषद्",
+   "titleEnglish": "By whom is all this directed?",
+   "veda": "Sāma Veda",
+   "verses": 36,
+   "file": "kena.json"
+  },
+  {
+   "id": "katha",
+   "title": "Kaṭha Upaniṣad",
+   "titleDeva": "कठोपनिषद्",
+   "titleEnglish": "Nachiketa and Death",
+   "veda": "Kṛṣṇa Yajurveda",
+   "verses": 119,
+   "file": "katha.json"
+  },
+  {
+   "id": "taittiriya",
+   "title": "Taittirīya Upaniṣad",
+   "titleDeva": "तैत्तिरीयोपनिषद्",
+   "titleEnglish": "Truth, Knowledge, Infinity is Brahman",
+   "veda": "Kṛṣṇa Yajurveda",
+   "verses": 31,
+   "file": "taittiriya.json"
+  },
+  {
+   "id": "mandukya",
+   "title": "Māṇḍūkya Upaniṣad",
+   "titleDeva": "माण्डूक्योपनिषद्",
+   "titleEnglish": "The Four States of Consciousness",
+   "veda": "Atharvaveda",
+   "verses": 12,
+   "file": "mandukya.json"
+  },
+  {
+   "id": "mundaka",
+   "title": "Muṇḍaka Upaniṣad",
+   "titleDeva": "मुण्डकोपनिषद्",
+   "titleEnglish": "The two kinds of knowledge",
+   "veda": "Atharvaveda",
+   "verses": 64,
+   "file": "mundaka.json"
+  },
+  {
+   "id": "chandogya",
+   "title": "Chāndogya Upaniṣad",
+   "titleDeva": "छान्दोग्योपनिषद्",
+   "titleEnglish": "Tat tvam asi — That thou art",
+   "veda": "Sāmaveda",
+   "verses": 599,
+   "file": "chandogya.json"
+  }
+ ]
+}
