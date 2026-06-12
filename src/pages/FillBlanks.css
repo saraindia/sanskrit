@@ -125,6 +125,40 @@
   padding-left: 0.1rem;
 }
 
+/* Full English translation shown after the answer is revealed */
+.fb-english {
+  font-size: 0.92rem;
+  color: var(--cream);
+  font-family: var(--font-body);
+  margin-top: 0.35rem;
+  padding-left: 0.1rem;
+  line-height: 1.5;
+}
+
+/* Answer word + meaning inside the feedback box */
+.fb-answer-word {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  font-family: var(--font-body);
+}
+.fb-answer-word .devanagari {
+  font-size: 1.2rem;
+  color: var(--gold);
+}
+.fb-answer-iast {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+}
+.fb-answer-meaning {
+  font-size: 0.88rem;
+  color: var(--text-primary);
+}
+
 .fb-option-deva {
   font-size: 1.05rem;
   line-height: 1.35;

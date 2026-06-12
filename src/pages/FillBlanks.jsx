@@ -130,6 +130,7 @@ export default function FillBlanks() {
               <button className="speak-btn" title="Hear sentence" onClick={() => speak(q.template.replace('_____', q.blank))}><SpeakIcon /></button>
             </div>
             <div className="fb-iast">{sentenceIast}</div>
+            {q.english && <div className="fb-english">{q.english}</div>}
           </div>
         ) : (
           <div className="fb-sentence-wrap">
@@ -170,6 +171,13 @@ export default function FillBlanks() {
         {confirmed && (
           <div className={`fb-feedback anim-fade-up ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`}>
             {isCorrect ? '✓ Correct!' : `✗ Correct answer: ${q.blank}`}
+            {q.blank_english && (
+              <div className="fb-answer-word">
+                <span className="devanagari">{q.blank}</span>
+                <span className="fb-answer-iast">{toIAST(q.blank)}</span>
+                <span className="fb-answer-meaning">— {q.blank_english}</span>
+              </div>
+            )}
             <div className="fb-concepts">
               {q.concepts?.map(c => <span key={c} className="concept-pill">{grammarConcepts[c]?.label || c}</span>)}
             </div>
