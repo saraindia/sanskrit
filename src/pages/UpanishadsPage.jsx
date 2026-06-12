@@ -91,11 +91,6 @@ export default function UpanishadsPage() {
     return result
   }, [text])
 
-  // Auto-advance to verse view when there is only one section
-  useEffect(() => {
-    if (text && sections.length === 1 && !sectionId) setSectionId(sections[0])
-  }, [text, sections, sectionId, setSectionId])
-
   // Verses belonging to the currently-selected section
   const sectionVerses = useMemo(() => {
     if (!text || !sectionId) return []

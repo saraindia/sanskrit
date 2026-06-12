@@ -144,7 +144,7 @@ export default function MatchPairs() {
       <div className="page-header">
         <h1 className="page-title">Matching Pairs</h1>
         <p className="page-subtitle">
-          Tap the matching pairs · round {game.round + 1}
+          Tap the matching pairs · round {game.round + 1} of {Math.ceil(vocabulary.length / ROUND_SIZE)} · {vocabulary.length} words
           {accuracy !== null && <> · {stats.pairs} matched · {accuracy}% accuracy</>}
         </p>
       </div>
