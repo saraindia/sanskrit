@@ -3,6 +3,8 @@ import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
 import HubBack from '../components/HubBack'
+import { ClickableVerse } from '../components/ClickableSentence'
+import { useVocabularyData } from '../hooks/useData'
 import './GitaPage.css'
 
 const COMMENTARY_LABELS = {
@@ -62,6 +64,7 @@ export default function UpanishadsPage() {
   const [text, setText]           = useState(null)
   const [error, setError]         = useState(null)
   const { speak }                 = useSpeech()
+  const vocabData                 = useVocabularyData()
 
   useEffect(() => {
     loadJson('manifest.json').then(setManifest).catch(e => setError(e.message))
@@ -297,7 +300,7 @@ export default function UpanishadsPage() {
           <span className="pill pill-sacred" style={{marginLeft:'0.4rem'}}>Verse {verse.ref}</span>
         </div>
 
-        <div className="gita-deva devanagari">{verse.dev}</div>
+        <div className="gita-deva devanagari"><ClickableVerse text={verse.dev} vocabulary={vocabData?.vocabulary} /></div>
         <button className="speak-btn gita-speak" title="Hear verse" onClick={() => speak(verse.dev)}><SpeakIcon /></button>
         <div className="gita-iast">{verse.iast}</div>
 

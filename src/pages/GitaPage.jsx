@@ -3,6 +3,8 @@ import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
 import HubBack from '../components/HubBack'
+import { ClickableVerse } from '../components/ClickableSentence'
+import { useVocabularyData } from '../hooks/useData'
 import './GitaPage.css'
 
 // Chapter JSON is fetched on demand and kept for the session
@@ -30,6 +32,7 @@ export default function GitaPage() {
   const [commAuthor, setCommAuthor] = useSessionStorage('gita_comm_author', 'sivananda')
   const [commentary, setCommentary] = useState(null)
   const { speak } = useSpeech()
+  const vocabData = useVocabularyData()
 
   useEffect(() => {
     loadJson('manifest.json').then(setManifest).catch(e => setError(e.message))
@@ -170,7 +173,7 @@ export default function GitaPage() {
           <span className="pill pill-sacred">BG {chapter.chapter}.{verse.v}</span>
         </div>
 
-        <div className="gita-deva devanagari">{verse.dev}</div>
+        <div className="gita-deva devanagari"><ClickableVerse text={verse.dev} vocabulary={vocabData?.vocabulary} /></div>
         <button className="speak-btn gita-speak" title="Hear verse" onClick={() => speak(verse.dev)}><SpeakIcon /></button>
         <div className="gita-iast">{verse.iast}</div>
 

@@ -61,6 +61,23 @@ function WordChip({ token, vocabulary, onClose, activeToken, setActiveToken }) {
   )
 }
 
+// Multi-line verse helper — keeps the verse's line breaks while making
+// every word tappable (speak + IAST/meaning tooltip)
+export function ClickableVerse({ text, vocabulary, className = '' }) {
+  if (!text) return null
+  const lines = text.split('\n')
+  return (
+    <span className={className}>
+      {lines.map((line, i) => (
+        <React.Fragment key={i}>
+          <ClickableSentence text={line} vocabulary={vocabulary} />
+          {i < lines.length - 1 && <br />}
+        </React.Fragment>
+      ))}
+    </span>
+  )
+}
+
 export default function ClickableSentence({ text, vocabulary, className = '' }) {
   const [activeToken, setActiveToken] = useState(null)
   const tokens = text.trim().split(/\s+/).map((w, i) => ({ word: w, key: i }))
