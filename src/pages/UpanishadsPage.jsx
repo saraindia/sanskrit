@@ -54,6 +54,7 @@ async function loadJson(file) {
 export default function UpanishadsPage() {
   const [manifest, setManifest]   = useState(null)
   const [textId, setTextId]       = useSessionStorage('upan_text', '')
+  const [adhId, setAdhId]         = useSessionStorage('upan_adh', '')
   const [sectionId, setSectionId] = useSessionStorage('upan_section', '')
   const [verseIdx, setVerseIdx]   = useSessionStorage('upan_verse', 0)
   const [drill, setDrill]         = useSessionStorage('upan_drill', true)
@@ -77,19 +78,35 @@ export default function UpanishadsPage() {
 
   useEffect(() => { setRevealed(false) }, [textId, sectionId, verseIdx])
 
-  // Unique sections in document order
+  // Unique adhyāyas (top level, only for texts that have them) in document order
+  const adhyayas = useMemo(() => {
+    if (!text) return []
+    const seen = new Set()
+    const result = []
+    for (const v of text.verses) {
+      if (v.adh && !seen.has(v.adh)) {
+        seen.add(v.adh)
+        result.push(v.adh)
+      }
+    }
+    return result
+  }, [text])
+  const hasAdhyayas = adhyayas.length > 0
+
+  // Unique sections in document order (within the chosen adhyāya, if any)
   const sections = useMemo(() => {
     if (!text) return []
     const seen = new Set()
     const result = []
     for (const v of text.verses) {
+      if (hasAdhyayas && v.adh !== adhId) continue
       if (!seen.has(v.sec)) {
         seen.add(v.sec)
         result.push(v.sec)
       }
     }
     return result
-  }, [text])
+  }, [text, hasAdhyayas, adhId])
 
   // Verses belonging to the currently-selected section
   const sectionVerses = useMemo(() => {
@@ -97,7 +114,8 @@ export default function UpanishadsPage() {
     return text.verses.filter(v => v.sec === sectionId)
   }, [text, sectionId])
 
-  const openText = (id) => { setTextId(id); setSectionId(''); setVerseIdx(0) }
+  const openText = (id) => { setTextId(id); setAdhId(''); setSectionId(''); setVerseIdx(0) }
+  const openAdhyaya = (adh) => { setAdhId(adh); setSectionId(''); setVerseIdx(0) }
   const openSection = (sec) => { setSectionId(sec); setVerseIdx(0) }
 
   const randomVerse = useCallback(() => {
@@ -113,6 +131,7 @@ export default function UpanishadsPage() {
             const secV = data.verses.filter(v => v.sec === sec)
             if (rem < secV.length) {
               setTextId(t.id)
+              setAdhId(secV[rem].adh || '')
               setSectionId(sec)
               setVerseIdx(rem)
               return
@@ -124,7 +143,7 @@ export default function UpanishadsPage() {
       }
       n -= t.verses
     }
-  }, [manifest, setTextId, setSectionId, setVerseIdx])
+  }, [manifest, setTextId, setAdhId, setSectionId, setVerseIdx])
 
   if (error) return (
     <div className="gita anim-fade-up">
@@ -177,8 +196,8 @@ export default function UpanishadsPage() {
     </div>
   )
 
-  // ── Chapter / section picker ──────────────────────────────────────────
-  if (!sectionId) return (
+  // ── Adhyāya picker (top level, for texts with chapters e.g. Chāndogya) ──
+  if (hasAdhyayas && !adhId) return (
     <div className="gita anim-fade-up">
       <button className="gita-back" onClick={() => setTextId('')}>← All Upaniṣads</button>
       <div className="page-header">
@@ -193,11 +212,43 @@ export default function UpanishadsPage() {
         </label>
       </div>
       <div className="gita-chapters">
+        {adhyayas.map((adh, i) => {
+          const av = text.verses.filter(v => v.adh === adh)
+          const nSecs = new Set(av.map(v => v.sec)).size
+          return (
+            <button key={adh} className="gita-ch-card card" onClick={() => openAdhyaya(adh)}>
+              <span className="gita-ch-num">{nSecs} khaṇḍas · {av.length} verses</span>
+              <span className="gita-ch-eng">{adh}</span>
+            </button>
+          )
+        })}
+      </div>
+    </div>
+  )
+
+  // ── Khaṇḍa / section picker ──────────────────────────────────────────
+  if (!sectionId) return (
+    <div className="gita anim-fade-up">
+      <button className="gita-back" onClick={() => hasAdhyayas ? setAdhId('') : setTextId('')}>
+        ← {hasAdhyayas ? `${text.title} adhyāyas` : 'All Upaniṣads'}
+      </button>
+      <div className="page-header">
+        <h1 className="page-title devanagari">{text.titleDeva}</h1>
+        <p className="page-subtitle">{text.title}{hasAdhyayas ? ` · ${adhId}` : ` · ${text.titleEnglish}`}</p>
+      </div>
+      <div className="gita-toolbar">
+        <button className="gita-nav-btn" title="Random verse" onClick={randomVerse}>🎲 Random verse</button>
+        <label className="weak-toggle">
+          <input type="checkbox" checked={drill} onChange={e => setDrill(e.target.checked)} />
+          <span>Drill mode</span>
+        </label>
+      </div>
+      <div className="gita-chapters">
         {sections.map((sec, i) => {
           const count = text.verses.filter(v => v.sec === sec).length
           return (
             <button key={sec} className="gita-ch-card card" onClick={() => openSection(sec)}>
-              <span className="gita-ch-num">Section {i + 1} · {count} verses</span>
+              <span className="gita-ch-num">{hasAdhyayas ? 'Khaṇḍa' : 'Section'} {i + 1} · {count} verses</span>
               <span className="gita-ch-eng">{sec}</span>
             </button>
           )
@@ -216,7 +267,9 @@ export default function UpanishadsPage() {
 
   return (
     <div className="gita anim-fade-up">
-      <button className="gita-back" onClick={() => setSectionId('')}>← {text.title} chapters</button>
+      <button className="gita-back" onClick={() => setSectionId('')}>
+        ← {hasAdhyayas ? `${adhId} khaṇḍas` : `${text.title} chapters`}
+      </button>
       <div className="page-header">
         <h1 className="page-title devanagari">{text.titleDeva}</h1>
         <p className="page-subtitle">{sectionId}</p>
