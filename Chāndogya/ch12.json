@@ -1,0 +1,63 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 12: Chapter 1, Section 13. The mystical meaning of the Stobha syllables. This section reveals the esoteric correspondences of the musical insert syllables (Stobhas) used in the chanting of the Sāman, linking them to cosmic forces, physical elements, and the Self.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_1": {
+      "sections": [
+        {
+          "section_number": 13,
+          "title": "The Mystical Significances of the Stobha Syllables",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अयं वाव लोको हाउकारो वायुर्हाइकारश्चन्द्रमा अथकार आत्मेहकारोऽग्निरीकारः ॥ १ ॥",
+              "iast": "ayaṃ vāva loko hāukāro vāyurhāikāraścandramā athakāra ātmehakāro'gnirīkāraḥ || 1 ||",
+              "english_translation": "Verily, this physical world is the syllable 'hāu'; the wind is the syllable 'hāi'; the moon is the syllable 'atha'; the self is the syllable 'iha'; and the fire is the syllable 'ī'.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that *Stobhas* are musical syllables inserted during the singing of a Sāman chant that do not belong to the original verse text. To prevent these syllables from being treated as meaningless sounds, the Upanishad provides a profound meditation (*upāsana*). The syllable 'hāu' represents this earth because this world is stable and vast, matching the deep resonant tone of the sound. The syllable 'hāi' represents the wind (*Vāyu*) because wind connects everything, and 'hāi' acts as a musical bridge. Each syllable is mapped to a cosmic reality, turning vocal music into an act of meditation on the Absolute.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that these syllables are not random sounds; they are specific vibrations through which the Supreme Lord manifests His cosmic body. By meditating on the syllable 'iha' as the individual self (*ātman*) and 'ī' as fire (*agni*), the chanter realizes that the inner self and the outer elements are harmonized under the single ruler of the cosmos.",
+                "dvaita_vedanta": "Madhvācārya points out that specific cosmic administrators (*devatās*) dwell within these musical sounds. The syllable 'atha' is governed by the deity of the moon, who controls the mind and the tides. This mapping proves that the entire Sāman chant is a precise structural map of the dependent universe under the control of Lord Viṣṇu."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "आदित्य ऊकारो निहव एकाकारो विश्वे देवा औहोयिकारः प्रजापतिर्हिकारः प्राणः स्वरोऽन्नं या वाग्विराट् ॥ २ ॥",
+              "iast": "āditya ūkāro nihava ekākāro viśve devā auhoyikāraḥ prajāpatirhikāraḥ prāṇaḥ svaro'nnaṃ yā vāgvirāṭ || 2 ||",
+              "english_translation": "The sun is the syllable 'ū'; the invocation is the syllable 'e'; the All-Gods are the syllable 'auhoi'; Prajāpati is the syllable 'hiṃ'; breath is the tone 'svara'; food is 'yā'; and speech is 'virāṭ'.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the transition to higher cosmic spheres. The sun is mapped to 'ū' because the sun stays high above (*ūrdhva*). The invocation (*nihava*) is mapped to 'e' because it calls upon the gods. The syllable 'hiṃ', which starts the chant, belongs to Prajāpati, the lord of creation, because creation begins with an initial stir of sound. Breath is called 'svara' because it is self-luminous sound itself, and speech is 'virāṭ', the radiant manifest universe.",
+                "vishishtadvaita": "The school highlights that these mappings elevate the ritual chanter's awareness from pure music to cosmic devotion. When the chanter sings 'auhoi' or 'hiṃ', they are instructed to see the collective gods and the Creator Himself acting through their vocal cords, reminding them that all talents come from the Divine.",
+                "dvaita_vedanta": "Madhva explains that 'svara' (tone) represents the primary life force (*Mukhya Prāṇa*) which gives power to all sounds. Food is mapped to 'yā' because food sustains movement (*yāti*). This shows that the physical and spiritual needs of the chanter are built directly into the structure of the sacred sound vibrations."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अनिरुक्तस्त्रयोदशः स्तोभः संचरो हुंकारः ॥ ३ ॥",
+              "iast": "aniruktastrayodaśaḥ stobhaḥ saṃcaro huṃkāraḥ || 3 ||",
+              "english_translation": "The thirteenth Stobha syllable is 'huṃ'. It is undefinable, variable, and all-pervading.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara delivers a profound analysis of *anirukta* (the undefinable). The thirteenth syllable, 'huṃ', represents the unmanifest, supreme Brahman (*Nirguṇa Brahman*). Because it cannot be limited by a single name, form, or definition, it is called variable and all-pervading (*saṃcara*). It is the foundational background sound from which all other specific syllables emerge and into which they return.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that 'huṃ' represents the mysterious, infinite nature of the Supreme Lord. While the other twelve syllables represent clear, visible aspects of creation, 'huṃ' reminds the devotee that God always exceeds human language and definitions, inspiring a sense of awe during the chant.",
+                "dvaita_vedanta": "According to Madva, 'huṃ' is the specific seed sound (*bīja*) of the independent Lord of all forces. It is called variable because it moves through all forms of matter and spirit, holding the entire universe together while remaining untouched by material changes."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "दुग्धेऽस्मै वाग्दोहं यो वाचो दोहोऽन्नवानन्नादो भवति य एतामेवं साम्नामुपनिषदं वेदोपनिषदं वेद इति ॥ ४ ॥",
+              "iast": "dugdhe'smai vāgdohaṃ yo vāco doho'nnavānannādo bhavati ya etāmevaṃ sāmnāmupaniṣadaṃ vedopaniṣadaṃ veda iti || 4 ||",
+              "english_translation": "For him, speech yields its milk, which is the full fruit of speech itself. He becomes rich in food and a consumer of food—he who knows this secret doctrine of the Sāman syllables, yea, he who knows this secret doctrine.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara beautifully closes the first chapter of the Chandogya Upanishad. The phrase 'speech yields its milk' is a metaphor: just as a cow yields milk, the power of speech yields all desired spiritual and material fruits to the knower. Knowing the *upaniṣadaṃ* (the secret inner meaning) of these sounds transforms the chanter from a mechanical singer into a realized sage who sees the absolute Brahman in every vibration. The repetition marks the conclusion of Chapter 1.",
+                "vishishtadvaita": "The school views the final verse as a promise of both physical and spiritual fulfillment. A devotee who understands these inner secrets receives the grace of the Lord through speech. They are blessed with physical food for the body and spiritual truth to nourish the soul, ensuring complete harmony in life.",
+                "dvaita_vedanta": "Madhva concludes that this verse establishes the ultimate reward of correct knowledge. Understanding the cosmic hierarchy behind the Stobha syllables grants the practitioner mastery over their speech and senses. They become an 'eater of food' (*annādaḥ*), meaning they are no longer controlled by material nature, but instead master it through their clear alignment with the Supreme Lord Viṣṇu."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

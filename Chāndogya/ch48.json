@@ -1,0 +1,190 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 48: Chapter 4, Sections 16–17. The silent Brahman priest and the healing of the sacrifice by the vyāhṛtis. Completes Chapter 4.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_4": {
+      "sections": [
+        {
+          "section_number": 16,
+          "title": "The Sacrifice That Purifies — Mind and Speech, the Two Tracks",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "एष ह वै यज्ञो योऽयं पवते एष ह यन्निदं सर्वं पुनाति यदेष यन्निदं सर्वं पुनाति तस्मादेष एव यज्ञस्तस्य मनश्च वाक्च वर्तनी ॥ १ ॥",
+              "iast": "eṣa ha vai yajño yo 'yaṃ pavate eṣa ha yann idaṃ sarvaṃ punāti yad eṣa yann idaṃ sarvaṃ punāti tasmād eṣa eva yajñas tasya manaś ca vāk ca vartanī || 1 ||",
+              "english_translation": "That which purifies (the wind that blows) is verily the sacrifice; for moving along, it purifies all this. Because moving along it purifies all this, it is indeed the sacrifice. Its two tracks are mind and speech.",
+              "commentaries": {
+                "advaita_vedanta": "The ever-moving wind is the cosmic sacrifice, and the rite on earth runs on two wheels — mind and speech. Śaṅkara: inner contemplation and outer utterance must move together for the rite to be whole.",
+                "vishishtadvaita": "The purifying wind is the Lord's breath as cosmic liturgy; the worshipper's mind and tongue are its twin rails — both to be offered to Him.",
+                "dvaita_vedanta": "Vāyu, the great purifier, embodies the sacrifice under Viṣṇu; mind and speech are the channels by which the rite reaches the Lord."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तयोरन्यतरां मनसा संस्करोति ब्रह्मा वाचा होताध्वर्युरुद्गातान्यतरां स यत्रौपाकृते प्रातरनुवाके पुरा परिधानीयाया ब्रह्मा व्यवदति ॥ २ ॥",
+              "iast": "tayor anyatarāṃ manasā saṃskaroti brahmā vācā hotādhvaryur udgātānyatarāṃ sa yatraupākṛte prātaranuvāke purā paridhānīyāyā brahmā vyavadati || 2 ||",
+              "english_translation": "Of these two tracks, the Brahman priest perfects one with his mind; the Hotṛ, Adhvaryu, and Udgātṛ perfect the other with speech. If, after the morning litany has begun and before the closing verse, the Brahman priest breaks his silence —",
+              "commentaries": {
+                "advaita_vedanta": "The Brahman priest's office is silence — the mental track. His untimely speech derails the inner wheel of the rite.",
+                "vishishtadvaita": "The silent overseer keeps the mind-track for the Lord; speech out of season abandons his post.",
+                "dvaita_vedanta": "Each priest's duty is fixed by divine ordinance; the silent guardian must not desert the mental rail."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अन्यतरामेव वर्तनीं संस्करोति हीयतेऽन्यतरा स यथैकपाद्व्रजन्रथो वैकेन चक्रेण वर्तमानो रिष्यत्येवमस्य यज्ञो रिष्यति यज्ञं रिष्यन्तं यजमानोऽनुरिष्यति स इष्ट्वा पापीयान्भवति ॥ ३ ॥",
+              "iast": "anyatarām eva vartanīṃ saṃskaroti hīyate 'nyatarā sa yathaikapād vrajan ratho vaikena cakreṇa vartamāno riṣyaty evam asya yajño riṣyati yajñaṃ riṣyantaṃ yajamāno 'nuriṣyati sa iṣṭvā pāpīyān bhavati || 3 ||",
+              "english_translation": "— then only one track is perfected and the other is lost. As a one-legged man walking, or a chariot running on one wheel, comes to harm, so his sacrifice comes to harm; and when the sacrifice is harmed, the sacrificer is harmed after it. Having sacrificed (thus), he becomes worse.",
+              "commentaries": {
+                "advaita_vedanta": "The one-wheeled chariot is Śaṅkara's emblem of ritual without inwardness: outer performance unsupported by mind injures rather than uplifts.",
+                "vishishtadvaita": "Worship of the Lord must run on devotion and utterance together; a rite without the mind's offering limps and wounds its performer.",
+                "dvaita_vedanta": "Negligence in the appointed order turns merit to demerit; the Lord receives only the complete offering."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ यत्रोपाकृते प्रातरनुवाके न पुरा परिधानीयाया ब्रह्मा व्यवदत्युभे एव वर्तनी संस्कुर्वन्ति न हीयतेऽन्यतरा ॥ ४ ॥",
+              "iast": "atha yatraupākṛte prātaranuvāke na purā paridhānīyāyā brahmā vyavadaty ubhe eva vartanī saṃskurvanti na hīyate 'nyatarā || 4 ||",
+              "english_translation": "But when, after the morning litany has begun and before the closing verse, the Brahman priest does not break his silence, then both tracks are perfected and neither is lost.",
+              "commentaries": {
+                "advaita_vedanta": "Kept silence keeps the mind-wheel turning; the rite runs whole on both rails.",
+                "vishishtadvaita": "Discipline of silence preserves the inner offering alongside the outer hymn.",
+                "dvaita_vedanta": "Duty fully kept makes the sacrifice whole before the Lord."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "स यथोभयपाद्व्रजन्रथो वोभाभ्यां चक्राभ्यां वर्तमानः प्रतितिष्ठत्येवमस्य यज्ञः प्रतितिष्ठति यज्ञं प्रतितिष्ठन्तं यजमानोऽनुप्रतितिष्ठति स इष्ट्वा श्रेयान्भवति ॥ ५ ॥",
+              "iast": "sa yathobhayapād vrajan ratho vobhābhyāṃ cakrābhyāṃ vartamānaḥ pratitiṣṭhaty evam asya yajñaḥ pratitiṣṭhati yajñaṃ pratitiṣṭhantaṃ yajamāno 'nupratitiṣṭhati sa iṣṭvā śreyān bhavati || 5 ||",
+              "english_translation": "As a man walking on both legs, or a chariot running on both wheels, stands firm, so his sacrifice stands firm; and when the sacrifice stands firm, the sacrificer stands firm after it. Having sacrificed (thus), he becomes better.",
+              "commentaries": {
+                "advaita_vedanta": "Mind and speech together establish the rite — and, beyond ritual, the seeker whose thought and word agree is established in truth.",
+                "vishishtadvaita": "The two-wheeled rite carries the worshipper steadily toward the Lord's favour.",
+                "dvaita_vedanta": "Complete performance brings firm standing — prosperity here and grace hereafter."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 17,
+          "title": "The Vyāhṛtis — Healing the Wounded Sacrifice",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "प्रजापतिर्लोकानभ्यतपत्तेषां तप्यमानानां रसान्प्रावृहदग्निं पृथिव्या वायुमन्तरिक्षादादित्यं दिवः ॥ १ ॥",
+              "iast": "prajāpatir lokān abhyatapat teṣāṃ tapyamānānāṃ rasān prāvṛhad agniṃ pṛthivyā vāyum antarikṣād ādityaṃ divaḥ || 1 ||",
+              "english_translation": "Prajāpati brooded over the worlds; from them, thus brooded over, he extracted their essences: fire from the earth, wind from the mid-region, the sun from the sky.",
+              "commentaries": {
+                "advaita_vedanta": "Creation by tapas: the Creator distils the luminous essence of each world — the first step of a triple distillation ending in the vyāhṛtis.",
+                "vishishtadvaita": "The Lord as Prajāpati draws forth the powers of His own cosmic body for the welfare of the rite.",
+                "dvaita_vedanta": "Viṣṇu through Prajāpati extracts the world-essences — all potency descends from Him by stages."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स एतास्तिस्रो देवता अभ्यतपत्तासां तप्यमानानां रसान्प्रावृहदग्नेरृचो वायोर्यजूंषि सामान्यादित्यात् ॥ २ ॥",
+              "iast": "sa etās tisro devatā abhyatapat tāsāṃ tapyamānānāṃ rasān prāvṛhad agner ṛco vāyor yajūṃṣi sāmāny ādityāt || 2 ||",
+              "english_translation": "He brooded over these three deities; from them, thus brooded over, he extracted their essences: the Ṛg verses from fire, the Yajus formulas from wind, the Sāman chants from the sun.",
+              "commentaries": {
+                "advaita_vedanta": "The three Vedas are the essences of the three lights — scripture itself is distilled cosmos.",
+                "vishishtadvaita": "The Lord's word arises from His own radiant manifestations; Veda and world are one fabric of His glory.",
+                "dvaita_vedanta": "The eternal Vedas are manifested through the deities in order — their authority roots in the Lord."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स एतां त्रयीं विद्यामभ्यतपत्तस्यास्तप्यमानाया रसान्प्रावृहद्भूरित्यृग्भ्यो भुवरिति यजुर्भ्यः स्वरिति सामभ्यः ॥ ३ ॥",
+              "iast": "sa etāṃ trayīṃ vidyām abhyatapat tasyās tapyamānāyā rasān prāvṛhad bhūr ity ṛgbhyo bhuvar iti yajurbhyaḥ svar iti sāmabhyaḥ || 3 ||",
+              "english_translation": "He brooded over the threefold knowledge; from it, thus brooded over, he extracted its essences: Bhūḥ from the Ṛg verses, Bhuvaḥ from the Yajus formulas, Svaḥ from the Sāman chants.",
+              "commentaries": {
+                "advaita_vedanta": "The three vyāhṛtis are the Veda's final essence — three syllabic drops holding the whole of revelation, as the Self holds the world.",
+                "vishishtadvaita": "The sacred utterances are the concentrated power of the Lord's word, His grace in portable form.",
+                "dvaita_vedanta": "The vyāhṛtis carry the Veda's full potency by the Lord's design — medicine prepared in advance for the rite's wounds."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तद्यदृक्तो रिष्येद्भूः स्वाहेति गार्हपत्ये जुहुयादृचामेव तद्रसेनर्चां वीर्येणर्चां यज्ञस्य विरिष्टं संदधाति ॥ ४ ॥",
+              "iast": "tad yad ṛkto riṣyed bhūḥ svāheti gārhapatye juhuyād ṛcām eva tad rasenarcāṃ vīryeṇarcāṃ yajñasya viriṣṭaṃ saṃdadhāti || 4 ||",
+              "english_translation": "If the sacrifice is injured on the side of the Ṛg verses, one should offer in the Gārhapatya fire with 'Bhūḥ svāhā!' Thus by the essence and power of the Ṛg verses themselves one mends the Ṛg-side injury of the sacrifice.",
+              "commentaries": {
+                "advaita_vedanta": "Each wound is healed by the essence of its own limb — like cures like at the level of sacred sound.",
+                "vishishtadvaita": "The Lord has appointed a remedy for every ritual failing; His mercy anticipates human error.",
+                "dvaita_vedanta": "The expiation works by the Veda's inherent power, deployed exactly as ordained."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "स यदि यजुष्टो रिष्येद्भुवः स्वाहेति दक्षिणाग्नौ जुहुयाद्यजुषामेव तद्रसेन यजुषां वीर्येण यजुषां यज्ञस्य विरिष्टं संदधाति ॥ ५ ॥",
+              "iast": "sa yadi yajuṣṭo riṣyed bhuvaḥ svāheti dakṣiṇāgnau juhuyād yajuṣām eva tad rasena yajuṣāṃ vīryeṇa yajuṣāṃ yajñasya viriṣṭaṃ saṃdadhāti || 5 ||",
+              "english_translation": "If it is injured on the side of the Yajus formulas, one should offer in the southern fire with 'Bhuvaḥ svāhā!' Thus by the essence and power of the Yajus formulas themselves one mends the Yajus-side injury of the sacrifice.",
+              "commentaries": {
+                "advaita_vedanta": "The second wound, the second balm — the symmetry of the healing doctrine continues.",
+                "vishishtadvaita": "Each fire receives its own remedial utterance, the Lord's order pervading even repair.",
+                "dvaita_vedanta": "Precision in expiation honours the Lord's exact ordinances."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "अथ यदि सामतो रिष्येत्स्वः स्वाहेत्याहवनीये जुहुयात्साम्नामेव तद्रसेन साम्नां वीर्येण साम्नां यज्ञस्य विरिष्टं संदधाति ॥ ६ ॥",
+              "iast": "atha yadi sāmato riṣyet svaḥ svāhety āhavanīye juhuyāt sāmnām eva tad rasena sāmnāṃ vīryeṇa sāmnāṃ yajñasya viriṣṭaṃ saṃdadhāti || 6 ||",
+              "english_translation": "And if it is injured on the side of the Sāman chants, one should offer in the Āhavanīya fire with 'Svaḥ svāhā!' Thus by the essence and power of the Sāman chants themselves one mends the Sāman-side injury of the sacrifice.",
+              "commentaries": {
+                "advaita_vedanta": "The third balm completes the pharmacy of the vyāhṛtis.",
+                "vishishtadvaita": "Threefold injury, threefold mercy — the Lord leaves no breach without remedy.",
+                "dvaita_vedanta": "All three Vedas' wounds find cure in their distilled essences."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "तद्यथा लवणेन सुवर्णं संदध्यात्सुवर्णेन रजतं रजतेन त्रपु त्रपुणा सीसं सीसेन लोहं लोहेन दारु दारु चर्मणा ॥ ७ ॥",
+              "iast": "tad yathā lavaṇena suvarṇaṃ saṃdadhyāt suvarṇena rajataṃ rajatena trapu trapuṇā sīsaṃ sīsena lohaṃ lohena dāru dāru carmaṇā || 7 ||",
+              "english_translation": "As one would join gold with borax-salt, silver with gold, tin with silver, lead with tin, iron with lead, wood with iron, or wood with leather —",
+              "commentaries": {
+                "advaita_vedanta": "The metallurgical simile: every break has its proper solder. So the vyāhṛtis solder the broken rite.",
+                "vishishtadvaita": "The craftsman's chain of joints images the Lord's graded remedies for every grade of fault.",
+                "dvaita_vedanta": "Gradation even among solders — Madhva sees the hierarchic principle everywhere confirmed."
+              }
+            },
+            {
+              "verse_number": 8,
+              "devanagari": "एवमेषां लोकानामासां देवतानामस्यास्त्रय्या विद्याया वीर्येण यज्ञस्य विरिष्टं संदधाति भेषजकृतो ह वा एष यज्ञो यत्रैवंविद्ब्रह्मा भवति ॥ ८ ॥",
+              "iast": "evam eṣāṃ lokānām āsāṃ devatānām asyās trayyā vidyāyā vīryeṇa yajñasya viriṣṭaṃ saṃdadhāti bheṣajakṛto ha vā eṣa yajño yatraivaṃvid brahmā bhavati || 8 ||",
+              "english_translation": "— even so does one mend the injury of the sacrifice with the power of these worlds, these deities, and the threefold knowledge. That sacrifice, verily, is healed by medicine where the Brahman priest is one who knows thus.",
+              "commentaries": {
+                "advaita_vedanta": "The knowing priest is the rite's physician: knowledge, not mere repetition, heals. Śaṅkara generalises — in all things it is understanding that restores.",
+                "vishishtadvaita": "A knower seated as Brahman priest makes the whole rite medicine; the Lord honours knowledge above mechanism.",
+                "dvaita_vedanta": "The rite prospers where its overseer knows the Lord's science of essences."
+              }
+            },
+            {
+              "verse_number": 9,
+              "devanagari": "एष ह वा उदक्प्रवणो यज्ञो यत्रैवंविद्ब्रह्मा भवत्येवंविदं ह वा एषा ब्रह्माणमनुगाथा यतो यत आवर्तते तत्तद्गच्छति ॥ ९ ॥",
+              "iast": "eṣa ha vā udakpravaṇo yajño yatraivaṃvid brahmā bhavaty evaṃvidaṃ ha vā eṣā brahmāṇam anugāthā yato yata āvartate tat tad gacchati || 9 ||",
+              "english_translation": "That sacrifice inclines northward (toward the path of the gods) where the Brahman priest is one who knows thus. About such a knowing Brahman priest there is this song: 'Wherever it turns back, thither it (the rite, guarded) goes (aright).'",
+              "commentaries": {
+                "advaita_vedanta": "With knowledge at the helm, even the rite's reversals turn to good; the northward slope points it toward light.",
+                "vishishtadvaita": "The knower's presence orients the whole sacrifice toward the Lord's realm.",
+                "dvaita_vedanta": "Under a knowing guardian every turn of the rite lands true, by the Lord's steering."
+              }
+            },
+            {
+              "verse_number": 10,
+              "devanagari": "मानवो ब्रह्मैवैक ऋत्विक्कुरूनश्वाभिरक्षत्येवंविद्ध वै ब्रह्मा यज्ञं यजमानं सर्वांश्चर्त्विजोऽभिरक्षति तस्मादेवंविदमेव ब्रह्माणं कुर्वीत नानेवंविदं नानेवंविदम् ॥ १० ॥",
+              "iast": "mānavo brahmaivaika ṛtvik kurūn aśvābhirakṣaty evaṃvid dha vai brahmā yajñaṃ yajamānaṃ sarvāṃś cartvijo 'bhirakṣati tasmād evaṃvidam eva brahmāṇaṃ kurvīta nānevaṃvidaṃ nānevaṃvidam || 10 ||",
+              "english_translation": "'The silent Brahman priest, like a mare protecting (her rider among) the Kurus, is the one priest (who guards the rite).' The knowing Brahman priest protects the sacrifice, the sacrificer, and all the priests. Therefore one should make only such a knower one's Brahman priest — not one who does not know, not one who does not know.",
+              "commentaries": {
+                "advaita_vedanta": "The closing injunction, doubled for emphasis: entrust the rite — and by extension, one's spiritual welfare — only to the one who knows. Knowledge protects all who shelter under it.",
+                "vishishtadvaita": "The knower-priest is the rite's guardian as the ācārya is the soul's; choose guides who know the Lord.",
+                "dvaita_vedanta": "Madhva: authority belongs to knowledge alone; the repetition forbids ever installing the ignorant in the seat of the knower. Chapter 4 ends with the supremacy of the knowing guardian."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

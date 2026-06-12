@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 24: Chapter 2, Section 12. The Meditation on the Rathantara Sāman (Rathantara Sāmopāsanā). This section details the meditation on the Rathantara melody, mapping its liturgical structure onto the production, churning, and manifestation of Fire (Agni).",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 12,
+          "title": "The Meditation on the Rathantara Sāman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अभिमन्थति स हिंकारो धूमो जायते स प्रस्तावो ज्वलति स उद्गीथोऽङ्गारा भवन्ति स प्रतिहारो उपशाम्यति तन्निधनं संशाम्यति तन्निधनमेतद्रथन्तरमग्नौ प्रोतम् ॥ १ ॥",
+              "iast": "abhimanthati sa hiṃkāro dhūmo jāyate sa prastāvo jvalati sa udgītho'ṅgārā bhavanti sa pratihāro upaśāmyati tannidhanaṃ saṃśāmyati tannidhanametadrathantaramagnau protam || 1 ||",
+              "english_translation": "The churning of the fire-sticks is the syllable 'Hiṃ'; the rising of smoke is the introductory praise (Prastāva); the bursting into flame is the loud chant (Udgītha); the formation of glowing embers is the response (Pratihāra); the dying down of the flame is the finale (Nidhana); and its complete extinguishment is the absolute finale (Nidhana). This is the Rathantara Sāman as woven into fire.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that the *Rathantara-Sāman* (literally 'that which crosses or transports the chariot') is historically and liturgically bound to the element of Fire (*Agni*). The Upanishad breaks down the mechanical generation of fire as an exact liturgical dance. The friction-based rubbing of the wooden churning sticks (*abhimanthati*) represents *Hiṃkāra*, the initialization. The first physical byproduct—the rising of columned smoke (*dhūmaḥ*)—is the *Prastāva*. The brilliant, hot emergence of the open flame (*jvalati*) corresponds to the *Udgītha*, the peak expression. The calming of the dynamic flame into steady, radiating coals (*aṅgārāḥ*) represents the protective *Pratihāra*. The cooling process (*upaśāmyati*) and the absolute cold silence of spent ash (*saṃśāmyati*) serve as the double *Nidhana* where the visible energy returns to its unmanifest state. This teaches that thermodynamic cycles are micro-reflections of the universal Sāman sound.",
+                "vishishtadvaita": "Raṅgarāmānuja structuralizes this chemical sequence as a profound lesson on spiritual awakening. The churning represents the intense self-discipline (*tapas*) of the seeker. The smoke is the initial confusion or purifying stage. The bright flame is the sudden manifestation of direct spiritual knowledge (*jñāna*), which stands as the *Udgītha*. The final rest in the cooling embers shows the transition of ecstatic devotion into *Sānti*—the permanent, peaceful, quiet balance inside the Lord.",
+                "dvaita_vedanta": "Madhvācārya points out that the element of Fire is governed by the deity Agni under the sovereign command of Lord Viṣṇu. The stages of combustion are not unguided physical chances; they are controlled expressions of divine law. Meditating on the Rathantara Sāman in fire helps the seeker realize that warmth, light, and final rest are structural provisions engineered by the Lord to support and ultimately gather back material creation."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एवमेतद्रथन्तरमग्नौ प्रोतं वेद ब्रह्मवर्चस्यन्नादो भवति सुवर्णं गच्छेत्सर्वमायुरेति ज्योग्जीवति महान्प्रजया पशुभिर्भवति महान्कीर्त्या न प्रत्यङ्ङग्निमाचामेन्न निष्ठीवेत्तद्व्रतम् ॥ २ ॥",
+              "iast": "sa ya evametadrathantaramagnau protaṃ veda brahmavarcasyannādo bhavati suvarṇaṃ gacchetsarvamāyureti jyogjīvati mahān prajayā paśubhirbhavati mahān kīrtyā na pratyaṅṅagnimācāmenna niṣṭhīvettadvratam || 2 ||",
+              "english_translation": "He who knows this Rathantara Sāman as woven into fire becomes radiant with spiritual luster (Brahmavarcas), possesses a robust digestion, attains a glorious and bright life, lives out a full lifespan, and becomes great in progeny, cattle, and renown. His sacred vow should be never to rinse his mouth facing fire, nor to spit toward it.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the special reward of *Brahmavarcas* (the aura of spiritual learning and scriptural purity). Because the meditator internalizes the purifying nature of fire, their intellect shines brightly. The strict physical taboos instituted by this meditation—*na pratyaṅ agnim ācāmet* (one should never rinse or eject water toward fire) and *na niṣṭhīvet* (one must never spit toward it)—are behavioral vows of environmental reverence. Insulting or defiling the elements with bodily waste breaks the practitioner's non-dual empathy with the cosmic Sāman layout.",
+                "vishishtadvaita": "The school highlights that avoiding disrespect toward fire means treating all natural elements as sacred extensions of the Lord's universal temple. *Brahmavarcas* is the outer signature of a soul that lives in clean harmony with creation. By keeping this vow of respect, the devotee preserves their inner spiritual heat (*tapas*) and uses their health to praise the Divine without drop-offs.",
+                "dvaita_vedanta": "Madhva explains that the explicit prohibitions against spitting or rinsing toward fire serve to honor the deity Agni, who acts as the primary conveyor of ritual offerings to Viṣṇu. Breaking this discipline invites spiritual dullness. Observing this vow with care aligns the seeker with the divine cosmic hierarchy, granting long life, line-age stability, and unshakeable peace."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

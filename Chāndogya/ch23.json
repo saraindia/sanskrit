@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 23: Chapter 2, Section 11. The Meditation on the Gāyatra Sāman (Gāyatra Sāmopāsanā). This section introduces specialized meditations based on specific musical structures and named melodies of the Sāman liturgy, beginning with the foundational Gāyatra-Sāman mapped onto the vital breath.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 11,
+          "title": "The Meditation on the Gāyatra Sāman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "प्राणो हिंकारो वाक्प्रस्तावश्चक्षुरुद्गीथः श्रोत्रं प्रतिहारोऽपानो निधनमेतद्गायत्रं प्राणेषु प्रोतम् ॥ १ ॥",
+              "iast": "prāṇo hiṃkāro vākprastāvaścakṣurudgīthaḥ śrotraṃ pratihāro'pāno nidhanametadgāyatraṃ prāṇeṣu protam || 1 ||",
+              "english_translation": "The outward breath (Prāṇa) is the syllable 'Hiṃ'; speech (Vāk) is the introductory praise (Prastāva); the eye (Cakṣus) is the loud chant (Udgītha); the ear (Śrotram) is the response (Pratihāra); and the downward breath (Apāna) is the finale (Nidhana). This is the Gāyatra Sāman as woven into the vital breaths and senses.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that having covered the generalized fivefold and sevenfold meditations, the Upanishad now introduces specific, highly potent musical compositions (*Sāman* melodies), beginning with the *Gāyatra-Sāman*. The Gāyatra melody is the foundational meter and chief song of the Sāmaveda. Here, it is described as *protam*—interwoven or threaded like warp and weft—into the organic human faculties. While the structural divisions match Section 7, the meditation changes in quality: the seeker must perceive the specific, rapid, and purifying acoustic vibration of the *Gāyatra* rhythm operating through their breath, sight, and hearing, making the body an active vessel for this melody.",
+                "vishishtadvaita": "Raṅgarāmānuja writes that *Gāyatra* means 'that which protects the singer' (*gāyantam trāyate*). By understanding that this protective melody is tightly woven into our organic faculties by the Divine, the devotee realizes that their physical life is continuously guarded. The eyes, ears, and breath are not independent biological machines; they are parts of a protective rhythm managed by the indwelling Lord.",
+                "dvaita_vedanta": "Madhvācārya notes that the Gāyatra meter is presided over by the Supreme Lord Viṣṇu in His Gāyatrī manifestation. The word *protam* confirms that the vital breaths do not function by their own power; they are completely dependent on and bound to the divine blueprint. Recognizing this layout prevents the soul from claiming independent mastery over their health or physical senses."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एवमेतद्गायत्रं प्राणेषु प्रोतं वेद प्राणवान्भवती सर्वमायुरेति ज्योग्जीवति महान्प्रजया पशुभिर्भवति महान्कीर्त्या महामनाः स्यात्तद्व्रतम् ॥ २ ॥",
+              "iast": "sa ya evametadgāyatraṃ prāṇeṣu protaṃ veda prāṇavānbhavati sarvamāyureti jyogjīvati mahān prajayā paśubhirbhavati mahān kīrtyā mahāmanāḥ syāttadvratam || 2 ||",
+              "english_translation": "He who knows this Gāyatra Sāman as woven into the vital breaths becomes rich in vital energy, attains a full lifespan, lives resplendently, becomes great with progeny and cattle, and grows magnificent in spiritual renown. His sacred vow should be to remain broad-minded and magnanimous (Mahāmanāḥ).",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the unique psychological vow (*Vrata*) assigned to this meditation: *mahāmanāḥ syāt* (one should be broad-minded and magnanimous). A person who understands that the supreme Gāyatra rhythm flows through all life cannot afford to be narrow-minded, petty, or bogged down by small attachments. Broad-mindedness is not just a moral suggestion here; it is the natural, structural consequence of realizing that your breath and your neighbor's breath are expressions of the same universal melody.",
+                "vishishtadvaita": "The school highlights that *mahāmanāḥ* means keeping the mind completely fixed on the greatness of the Lord and His creation. Petty thoughts, jealousy, and anxiety vanish when the mind expands to see the Gāyatra melody operating within. This mental expansiveness allows the devotee to experience full vital energy (*prāṇavān*) and use their lifespan entirely for spiritual service.",
+                "dvaita_vedanta": "Madhva explains that the blessing of a broad mind (*mahāmanas*) is a direct gift from Mukhyaprāṇa, who is the deity of absolute intelligence and vitality. When a practitioner avoids small, selfish thinking, their capacity to receive and hold divine wisdom increases, ensuring that their spiritual renown (*kīrti*) reflects their true alignment with God's vast, independent management."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 20: Chapter 2, Section 8. Introduction to the Sevenfold Sāman Meditation on Speech (Vāci Saptavidha Sāmopāsanam). This section marks a structural transition from the fivefold (pañcavidha) division to the more complex sevenfold (saptavidha) framework of the Sāman chant, using the progressive stages of vocal expression as the template.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 8,
+          "title": "The Sevenfold Sāman Meditation on Speech",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ सप्तविधस्य वाचि सप्तविधं सामोपासीत यत्किंच वाचो हुमिति स हिंकारो यत्प्रतीति स प्रस्तावो यदेति स आदिः ॥ १ ॥",
+              "iast": "atha saptavidhasya vāci saptavidhaṃ sāmopāseeta yatkiṃca vāco humiti sa hiṃkāro yatpratīti sa prastāvo yadeti sa ādiḥ || 1 ||",
+              "english_translation": "Now begins the instruction on the sevenfold Sāman. One should meditate on the sevenfold Sāman in Speech. Whatever in speech is represented by the sound 'Hum' is the Hiṃkāra; whatever begins with 'Pra' is the Prastāva; and whatever begins with 'Ā' is the Ādi.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara notes that the text introduces a structural upgrade here, moving from the five structural parts of the chant to a sevenfold (*saptavidha*) classification. The two additional parts inserted into this liturgical sequence are the *Ādi* (the initial letter or syllable, usually *Om*) and the *Upadrava* (the penultimate chant movement leading to the finale). In this verse, Speech (*Vāk*) is analyzed by its phonetic and intent-based structure. The guttural sound *Hum*, which signifies a clearing of the throat or initial intent to articulate, represents the *Hiṃkāra*. The prefix *Pra-*, which initiates formal statements or praise, corresponds to the *Prastāva*. The syllable *Ā-*, which marks the expansive entry into core concepts or the sacred syllable *Om*, represents the *Ādi*.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that speech is a progressive disclosure of meaning, mirroring how the Supreme Lord gradually manifests the universe from unmanifest sound (*parā vāk*) down to articulate syllables (*vaikharī*). The sevenfold division forces the practitioner to slow down their perception of language. Every utterance becomes an orderly, liturgical ladder leading consciousness back to its source.",
+                "dvaita_vedanta": "Madhvācārya observes that the acoustic components of language are controlled by specific *Devatās* operating in a strict hierarchy under Vāk and Prāṇa. Sound is not a random byproduct of vocal cord friction; it is a precisely engineered instrument of divine communication. By meditating on these phonetic milestones (*Hum*, *Pra*, *Ā*), the seeker learns to respect the sacred nature of vocal expression."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "यदुदिति स उद्गीथो यत्प्रतीति स प्रतिहारो यदुपेति स उपद्रवो यन्निनीति तन्निधनम् ॥ २ ॥",
+              "iast": "yaduditi sa udgītho yatpratīti sa pratihāro yadupeti sa upadravo yannineeti tannidhanam || 2 ||",
+              "english_translation": "Whatever begins with 'Ut' is the Udgītha; whatever begins with 'Prati' is the Pratihāra; whatever begins with 'Upa' is the Upadrava; and whatever ends in an absolute termination or conclusion is the Nidhana.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the remaining four movements of the sevenfold chant. The syllable *Ut*, which represents elevation, upward movement, and vocal resonance, matches the *Udgītha*. The prefix *Prati-*, indicating a counter-response or holding back, represents the *Pratihāra*. The prefix *Upa-*, meaning 'approaching closely' or drawing near to the end, maps to the newly introduced *Upadrava*. Finally, any phonetic termination (*ni-*) or complete quietude where sound dissolves back into silence is the *Nidhana*. This covers the complete anatomy of a spoken sentence or thought.",
+                "vishishtadvaita": "The school suggests that the expansion into seven parts demonstrates that as spiritual maturity deepens, the soul perceives more intricate layers of the Lord's design. The transition from *Upadrava* (approaching the end) to *Nidhana* (the final rest) symbolizes the individual soul's ultimate path—gradually winding down its worldly involvements to enter the permanent, tranquil shelter of the Divine.",
+                "dvaita_vedanta": "Madhva focuses on the word *Ut* as a pointer to *Uttama* (the Supreme Being, Puruṣottama). All speech components that elevate the mind toward God are inherently *Udgītha*. The sevenfold meditation cleanses human speech of profane or useless gossip, transforming every conversation into an orderly sequence that resolves in *Nidhana*—the absolute resting state in the will of Viṣṇu."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "दुग्धेऽस्मै वाग्दोहं यो वाचो दोहोऽन्नवानन्नादो भवति य एतदेवं विद्वान्वांछि सप्तविधं सामोपास्ते ॥ ३ ॥",
+              "iast": "dugdhe'smai vāgdohaṃ yo vāco doho'nnavānannādo bhavati ya etadevaṃ vidvānvāñchi saptavidhaṃ sāmopāste || ३ ||",
+              "english_translation": "Speech yields its secret essence—which is the milk of wisdom and truth—to him, and he becomes rich in nourishment and a devourer of food, he who knows this truth and meditates on the sevenfold Sāman in Speech.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara interprets the phrase *dugdhe'smai vāgdoham* as speech yielding its milk. Just as a cow yields nourishing milk, speech yields its ultimate fruit—truth, flawless articulation, and scriptural insight—to the sage. He becomes *annādaḥ* (a devourer of food), which metaphorically means his digestive and assimilation capacities—both physically and intellectually—are perfectly balanced. He is no longer consumed by external worldly influences; rather, he cleanly digests experience.",
+                "vishishtadvaita": "Raṅgarāmānuja writes that the milk of speech is nothing other than the capacity to sing praises to the Lord without obstruction. A tongue purified by this sevenfold meditation loses the ability to lie, slander, or complain. It becomes a source of spiritual nourishment for everyone who hears it.",
+                "dvaita_vedanta": "According to Madva, the worldly benefits of sustenance and robust health are gifts from the deity Sarasvatī (governing speech) acting under the Lord's direction. When speech is aligned with the sevenfold Sāman, the practitioner's words carry an innate spiritual authority and power (*Vāk-Siddhi*), ensuring their material and spiritual environment remains stable and well-supported."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

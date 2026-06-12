@@ -1,0 +1,214 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 53: Chapter 5, Sections 19–24. The Prāṇāgnihotra: the five oblations of food to the five breaths, and the supremacy of eating with knowledge. Completes Chapter 5.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_5": {
+      "sections": [
+        {
+          "section_number": 19,
+          "title": "The First Oblation — To Prāṇa",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "तद्यद्भक्तं प्रथममागच्छेत्तद्धोमीयं स यां प्रथमामाहुतिं जुहुयात्तां जुहुयात्प्राणाय स्वाहेति प्राणस्तृप्यति ॥ १ ॥",
+              "iast": "tad yad bhaktaṃ prathamam āgacchet tad dhomīyaṃ sa yāṃ prathamām āhutiṃ juhuyāt tāṃ juhuyāt prāṇāya svāheti prāṇas tṛpyati || 1 ||",
+              "english_translation": "So whatever food comes first should be an offering. The first oblation one offers, one should offer with 'To prāṇa — svāhā!' Then prāṇa is satisfied.",
+              "commentaries": {
+                "advaita_vedanta": "The meal becomes Agnihotra: the first morsel offered to the out-breath. Eating with this knowledge is worship without altar or priest.",
+                "vishishtadvaita": "Every meal is the Lord's fire-rite; the first portion honours His vital presence within.",
+                "dvaita_vedanta": "The bodily fire-sacrifice begins with prāṇa, the Lord's chief minister, duly fed first."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "प्राणे तृप्यति चक्षुस्तृप्यति चक्षुषि तृप्यत्यादित्यस्तृप्यत्यादित्ये तृप्यति द्यौस्तृप्यति दिवि तृप्यन्त्यां यत्किंच द्यौश्चादित्यश्चाधितिष्ठतस्तत्तृप्यति तस्यानुतृप्तिं तृप्यति प्रजया पशुभिरन्नाद्येन तेजसा ब्रह्मवर्चसेनेति ॥ २ ॥",
+              "iast": "prāṇe tṛpyati cakṣus tṛpyati cakṣuṣi tṛpyaty ādityas tṛpyaty āditye tṛpyati dyaus tṛpyati divi tṛpyantyāṃ yat kiṃca dyauś cādityaś cādhitiṣṭhatas tat tṛpyati tasyānutṛptiṃ tṛpyati prajayā paśubhir annādyena tejasā brahmavarcaseneti || 2 ||",
+              "english_translation": "When prāṇa is satisfied, the eye is satisfied; when the eye is satisfied, the sun is satisfied; when the sun is satisfied, heaven is satisfied; when heaven is satisfied, whatever heaven and the sun preside over is satisfied. Through its satisfaction the eater is satisfied with offspring, cattle, food, splendour, and the lustre of sacred knowledge.",
+              "commentaries": {
+                "advaita_vedanta": "One morsel ripples outward: breath, eye, sun, heaven, and all beneath them. The microcosm feeds the macrocosm because both are one fabric.",
+                "vishishtadvaita": "Satisfaction ascends the chain of the Lord's body — the inner offering gladdens the cosmic hierarchy and returns as blessing.",
+                "dvaita_vedanta": "The graded chain of satisfaction shows the Lord's ordered administration: feed His agent within, and the gods above are pleased."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 20,
+          "title": "The Second Oblation — To Vyāna",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ यां द्वितीयां जुहुयात्तां जुहुयाद्व्यानाय स्वाहेति व्यानस्तृप्यति ॥ १ ॥",
+              "iast": "atha yāṃ dvitīyāṃ juhuyāt tāṃ juhuyād vyānāya svāheti vyānas tṛpyati || 1 ||",
+              "english_translation": "The second oblation one offers, one should offer with 'To vyāna — svāhā!' Then vyāna is satisfied.",
+              "commentaries": {
+                "advaita_vedanta": "The second morsel feeds the pervading breath that knits the body together.",
+                "vishishtadvaita": "Vyāna, the Lord's binding energy, receives the second portion.",
+                "dvaita_vedanta": "Each breath-officer is fed in order, as the rite prescribes."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "व्याने तृप्यति श्रोत्रं तृप्यति श्रोत्रे तृप्यति चन्द्रमास्तृप्यति चन्द्रमसि तृप्यति दिशस्तृप्यन्ति दिक्षु तृप्यन्तीषु यत्किंच दिशश्च चन्द्रमाश्चाधितिष्ठन्ति तत्तृप्यति तस्यानुतृप्तिं तृप्यति प्रजया पशुभिरन्नाद्येन तेजसा ब्रह्मवर्चसेनेति ॥ २ ॥",
+              "iast": "vyāne tṛpyati śrotraṃ tṛpyati śrotre tṛpyati candramās tṛpyati candramasi tṛpyati diśas tṛpyanti dikṣu tṛpyantīṣu yat kiṃca diśaś ca candramāś cādhitiṣṭhanti tat tṛpyati tasyānutṛptiṃ tṛpyati prajayā paśubhir annādyena tejasā brahmavarcaseneti || 2 ||",
+              "english_translation": "When vyāna is satisfied, the ear is satisfied; when the ear is satisfied, the moon is satisfied; when the moon is satisfied, the quarters are satisfied; when the quarters are satisfied, whatever the quarters and the moon preside over is satisfied. Through its satisfaction the eater is satisfied with offspring, cattle, food, splendour, and the lustre of sacred knowledge.",
+              "commentaries": {
+                "advaita_vedanta": "The chain runs through ear, moon, and the quarters — a second artery of the one cosmic circulation.",
+                "vishishtadvaita": "The lunar line of the Lord's body is gladdened by the second offering.",
+                "dvaita_vedanta": "The second chain of satisfaction proceeds by the same divine order."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 21,
+          "title": "The Third Oblation — To Apāna",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ यां तृतीयां जुहुयात्तां जुहुयादपानाय स्वाहेत्यपानस्तृप्यति ॥ १ ॥",
+              "iast": "atha yāṃ tṛtīyāṃ juhuyāt tāṃ juhuyād apānāya svāhety apānas tṛpyati || 1 ||",
+              "english_translation": "The third oblation one offers, one should offer with 'To apāna — svāhā!' Then apāna is satisfied.",
+              "commentaries": {
+                "advaita_vedanta": "The third morsel to the downward breath, keeper of elimination and rootedness.",
+                "vishishtadvaita": "Apāna serves the Lord below as prāṇa above; both are honoured.",
+                "dvaita_vedanta": "The downward officer receives his due portion."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अपाने तृप्यति वाक्तृप्यति वाचि तृप्यन्त्यामग्निस्तृप्यत्यग्नौ तृप्यति पृथिवी तृप्यति पृथिव्यां तृप्यन्त्यां यत्किंच पृथिवी चाग्निश्चाधितिष्ठतस्तत्तृप्यति तस्यानुतृप्तिं तृप्यति प्रजया पशुभिरन्नाद्येन तेजसा ब्रह्मवर्चसेनेति ॥ २ ॥",
+              "iast": "apāne tṛpyati vāk tṛpyati vāci tṛpyantyām agnis tṛpyaty agnau tṛpyati pṛthivī tṛpyati pṛthivyāṃ tṛpyantyāṃ yat kiṃca pṛthivī cāgniś cādhitiṣṭhatas tat tṛpyati tasyānutṛptiṃ tṛpyati prajayā paśubhir annādyena tejasā brahmavarcaseneti || 2 ||",
+              "english_translation": "When apāna is satisfied, speech is satisfied; when speech is satisfied, fire is satisfied; when fire is satisfied, the earth is satisfied; when the earth is satisfied, whatever the earth and fire preside over is satisfied. Through its satisfaction the eater is satisfied with offspring, cattle, food, splendour, and the lustre of sacred knowledge.",
+              "commentaries": {
+                "advaita_vedanta": "Speech, fire, earth — the third circuit grounds the offering in the terrestrial order.",
+                "vishishtadvaita": "The earthly line of the Lord's form receives its share of gladness.",
+                "dvaita_vedanta": "Earth and fire, His servants, are pleased through their inner counterpart."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 22,
+          "title": "The Fourth Oblation — To Samāna",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ यां चतुर्थीं जुहुयात्तां जुहुयात्समानाय स्वाहेति समानस्तृप्यति ॥ १ ॥",
+              "iast": "atha yāṃ caturthīṃ juhuyāt tāṃ juhuyāt samānāya svāheti samānas tṛpyati || 1 ||",
+              "english_translation": "The fourth oblation one offers, one should offer with 'To samāna — svāhā!' Then samāna is satisfied.",
+              "commentaries": {
+                "advaita_vedanta": "The equalising breath, digester at the body's centre, takes the fourth portion.",
+                "vishishtadvaita": "Samāna distributes the Lord's nourishment evenly; he too is fed.",
+                "dvaita_vedanta": "The central officer of digestion receives his oblation."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "समाने तृप्यति मनस्तृप्यति मनसि तृप्यति पर्जन्यस्तृप्यति पर्जन्ये तृप्यति विद्युत्तृप्यति विद्युति तृप्यन्त्यां यत्किंच विद्युच्च पर्जन्यश्चाधितिष्ठतस्तत्तृप्यति तस्यानुतृप्तिं तृप्यति प्रजया पशुभिरन्नाद्येन तेजसा ब्रह्मवर्चसेनेति ॥ २ ॥",
+              "iast": "samāne tṛpyati manas tṛpyati manasi tṛpyati parjanyas tṛpyati parjanye tṛpyati vidyut tṛpyati vidyuti tṛpyantyāṃ yat kiṃca vidyuc ca parjanyaś cādhitiṣṭhatas tat tṛpyati tasyānutṛptiṃ tṛpyati prajayā paśubhir annādyena tejasā brahmavarcaseneti || 2 ||",
+              "english_translation": "When samāna is satisfied, the mind is satisfied; when the mind is satisfied, the rain-god is satisfied; when the rain-god is satisfied, lightning is satisfied; when lightning is satisfied, whatever lightning and the rain-god preside over is satisfied. Through its satisfaction the eater is satisfied with offspring, cattle, food, splendour, and the lustre of sacred knowledge.",
+              "commentaries": {
+                "advaita_vedanta": "Mind, rain, lightning — the subtle circuit of thought and storm gladdened by the fourth morsel.",
+                "vishishtadvaita": "The mental-meteorological line of the Lord's body is satisfied in turn.",
+                "dvaita_vedanta": "The fourth chain ascends to the storm-gods under the Lord."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 23,
+          "title": "The Fifth Oblation — To Udāna",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ यां पञ्चमीं जुहुयात्तां जुहुयादुदानाय स्वाहेत्युदानस्तृप्यति ॥ १ ॥",
+              "iast": "atha yāṃ pañcamīṃ juhuyāt tāṃ juhuyād udānāya svāhety udānas tṛpyati || 1 ||",
+              "english_translation": "The fifth oblation one offers, one should offer with 'To udāna — svāhā!' Then udāna is satisfied.",
+              "commentaries": {
+                "advaita_vedanta": "The ascending breath, which will one day carry the soul upward, receives the final portion.",
+                "vishishtadvaita": "Udāna, bearer of the soul on its last journey, is honoured at every meal.",
+                "dvaita_vedanta": "The fifth officer completes the round of the inner Agnihotra."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "उदाने तृप्यति त्वक्तृप्यति त्वचि तृप्यन्त्यां वायुस्तृप्यति वायौ तृप्यत्याकाशस्तृप्यत्याकाशे तृप्यति यत्किंच वायुश्चाकाशश्चाधितिष्ठतस्तत्तृप्यति तस्यानुतृप्तिं तृप्यति प्रजया पशुभिरन्नाद्येन तेजसा ब्रह्मवर्चसेनेति ॥ २ ॥",
+              "iast": "udāne tṛpyati tvak tṛpyati tvaci tṛpyantyāṃ vāyus tṛpyati vāyau tṛpyaty ākāśas tṛpyaty ākāśe tṛpyati yat kiṃca vāyuś cākāśaś cādhitiṣṭhatas tat tṛpyati tasyānutṛptiṃ tṛpyati prajayā paśubhir annādyena tejasā brahmavarcaseneti || 2 ||",
+              "english_translation": "When udāna is satisfied, the skin is satisfied; when the skin is satisfied, the wind is satisfied; when the wind is satisfied, space is satisfied; when space is satisfied, whatever the wind and space preside over is satisfied. Through its satisfaction the eater is satisfied with offspring, cattle, food, splendour, and the lustre of sacred knowledge.",
+              "commentaries": {
+                "advaita_vedanta": "Skin, wind, space — the widest circuit closes the five; one mindful meal has fed the universe.",
+                "vishishtadvaita": "The fifth chain reaches the Lord's most pervasive members; the whole cosmos shares the devotee's table.",
+                "dvaita_vedanta": "All five chains complete, the entire hierarchy is satisfied through the body's small fire."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 24,
+          "title": "Eating with Knowledge — Ash or Universe",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "स य इदमविद्वानग्निहोत्रं जुहोति यथाङ्गारानपोह्य भस्मनि जुहुयात्तादृक्तत्स्यात् ॥ १ ॥",
+              "iast": "sa ya idam avidvān agnihotraṃ juhoti yathāṅgārān apohya bhasmani juhuyāt tādṛk tat syāt || 1 ||",
+              "english_translation": "He who offers the Agnihotra without knowing this — that would be as if he removed the live coals and poured his offering on dead ashes.",
+              "commentaries": {
+                "advaita_vedanta": "Ritual minus knowledge is oblation on ash: form without fire. Śaṅkara's recurring verdict — understanding is the live coal of every act.",
+                "vishishtadvaita": "Worship unanimated by knowledge of the Lord's indwelling misses the living flame of His presence.",
+                "dvaita_vedanta": "Acts without right knowledge of the Lord's order are cold offerings; knowledge kindles them."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अथ य एतदेवं विद्वानग्निहोत्रं जुहोति तस्य सर्वेषु लोकेषु सर्वेषु भूतेषु सर्वेष्वात्मसु हुतं भवति ॥ २ ॥",
+              "iast": "atha ya etad evaṃ vidvān agnihotraṃ juhoti tasya sarveṣu lokeṣu sarveṣu bhūteṣu sarveṣv ātmasu hutaṃ bhavati || 2 ||",
+              "english_translation": "But he who offers the Agnihotra knowing this — his offering is made in all worlds, in all beings, in all selves.",
+              "commentaries": {
+                "advaita_vedanta": "Knowing the Vaiśvānara, one's single offering lands everywhere — for the knower's self is the Self of all.",
+                "vishishtadvaita": "Offered to the Lord within, the oblation reaches Him in every world and creature He ensouls.",
+                "dvaita_vedanta": "Through the Lord's pervading administration, the knower's oblation is credited universally."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तद्यथेषीकातूलमग्नौ प्रोतं प्रदूयेतैवं हास्य सर्वे पाप्मानः प्रदूयन्ते य एतदेवं विद्वानग्निहोत्रं जुहोति ॥ ३ ॥",
+              "iast": "tad yatheṣīkātūlam agnau protaṃ pradūyetaivaṃ hāsya sarve pāpmānaḥ pradūyante ya etad evaṃ vidvān agnihotraṃ juhoti || 3 ||",
+              "english_translation": "As a tuft of reed-cotton laid on a fire is burnt up, so are all the sins of him burnt up who, knowing this, offers the Agnihotra.",
+              "commentaries": {
+                "advaita_vedanta": "The famous image: sins flare to nothing like cotton on flame in the fire of knowledge-informed action.",
+                "vishishtadvaita": "The Lord's accepted offering consumes the offerer's sins instantly and utterly.",
+                "dvaita_vedanta": "Accumulated sin is incinerated for the knower by the Lord's grace through the rite."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तस्मादु हैवंविद्यद्यपि चण्डालायोच्छिष्टं प्रयच्छेदात्मनि हैवास्य तद्वैश्वानरे हुतं स्यादिति तदेष श्लोकः ॥ ४ ॥",
+              "iast": "tasmād u haivaṃvid yady api caṇḍālāyocchiṣṭaṃ prayacched ātmani haivāsya tad vaiśvānare hutaṃ syād iti tad eṣa ślokaḥ || 4 ||",
+              "english_translation": "Therefore, even if one who knows this should give his leavings to an outcaste, it would be offered in that very Vaiśvānara Self (in him too). On this there is this verse:",
+              "commentaries": {
+                "advaita_vedanta": "The radical consequence: the one Self dwells in the outcaste also; given with knowledge, even leavings are oblation to the Universal. Śaṅkara: the vidyā dissolves the walls the world builds.",
+                "vishishtadvaita": "The Lord indwells every body; what is given to any of His dwellings reaches Him.",
+                "dvaita_vedanta": "The Lord present in all receives what is given anywhere with knowledge of Him."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "यथेह क्षुधिता बाला मातरं पर्युपासत एवं सर्वाणि भूतान्यग्निहोत्रमुपासत इत्यग्निहोत्रमुपासत इति ॥ ५ ॥",
+              "iast": "yatheha kṣudhitā bālā mātaraṃ paryupāsata evaṃ sarvāṇi bhūtāny agnihotram upāsata ity agnihotram upāsata iti || 5 ||",
+              "english_translation": "'As hungry children here sit round their mother, so do all beings sit round the Agnihotra — sit round the Agnihotra.'",
+              "commentaries": {
+                "advaita_vedanta": "The closing śloka: the whole creation waits like children on the knower's inner sacrifice — the universe nourished from one wise meal. The repetition ends Chapter 5.",
+                "vishishtadvaita": "All beings cluster as children at the mother's lap around the worship of the indwelling Lord — the image of His universal motherhood.",
+                "dvaita_vedanta": "Creation depends on the rite of the wise as children on the mother; the Lord feeds the world through His knowers."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

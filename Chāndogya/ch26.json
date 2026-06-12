@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 26: Chapter 2, Section 14. The Meditation on the Bṛhat Sāman (Bṛhat Sāmopāsanā). This section details the fourth specific named melody, the Bṛhat-Sāman, mapping its structural phases onto the rising, peaking, and setting movements of the Sun.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 14,
+          "title": "The Meditation on the Bṛhat Sāman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "उद्यन्हिंकारो मुदितः प्रस्तावो मध्यंदिन उद्गीथोऽपराह्नः प्रतिहारोऽस्तं यन्निधनमेतद्बृहदादित्ये प्रोतम् ॥ १ ॥",
+              "iast": "udyanhiṃkāro muditaḥ prastāvo madhyaṃdina udgītho'parāhnaḥ pratihāro'staṃ yannidhanametadbṛhadāditye protam || 1 ||",
+              "english_translation": "The rising sun is the syllable 'Hiṃ'; the freshly risen sun when it gladdens all creatures is the introductory praise (Prastāva); the exact midday sun is the loud chant (Udgītha); the afternoon sun is the response (Pratihāra); and the setting sun is the finale (Nidhana). This is the Bṛhat Sāman as woven into the sun.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that the word *Bṛhat* signifies vastness, majesty, and immense cosmic scale. While Section 9 analyzed the sun through a broad sevenfold structure, this section introduces the specific *Bṛhat-Sāman* melody, mapping its five rhythmic components directly onto the solar milestones. The sun breaking the horizon (*udyan*) is *Hiṃkāra*. The *muditaḥ* state—when the sun is fully above the horizon, warming the morning and gladdening the hearts of living beings—is *Prastāva*. Midday (*madhyaṃdina*), when the sun stands majestic, direct, and unshadowed at its highest point, is the *Udgītha*. The slanting, cooling afternoon rays (*aparāhnaḥ*) are the *Pratihāra*, and the act of sinking below the western horizon (*astaṃ yan*) is the *Nidhana*. This meditation teaches the seeker to experience the day not as a series of mundane hours, but as the unfolding of a vast, majestic song.",
+                "vishishtadvaita": "Raṅgarāmānuja structuralizes this solar alignment as an expression of the supreme majesty (*bṛhatva*) of the Lord's cosmic form. The sun is the great wheeling clock of the universe. The *muditaḥ* (joyful morning) phase reminds the devotee that divine light is inherently bliss-giving. By aligning the midday sun with the *Udgītha*, the text guides the soul to recognize that the peak of human capability and spiritual realization must be centered on the absolute, brilliant clarity of God.",
+                "dvaita_vedanta": "Madhvācārya points out that the *Bṛhat-Sāman* is explicitly overseen by the independent majesty of Lord Viṣṇu working through the solar deity. The term *protam* means the solar cycle is tightly threaded into this musical matrix. The specific stages of daylight are carefully measured outlays of spiritual energy designed to maintain universal order, ensuring that no creature can exist outside of the sovereign layout established by the Almighty."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एवमेतद्बृहदादित्ये प्रोतं वेद तेजस्व्यन्नादो भवति सर्वमायुरेति ज्योग्जीवति महान्प्रजया पशुभिर्भवति महान्कीर्त्या तपन्तं न निन्देत्तद्व्रतम् ॥ २ ॥",
+              "iast": "sa ya evametadbṛhadāditye protaṃ veda tejasvyannādo bhavati sarvamāyureti jyogjīvati mahān prajayā paśubhirbhavati mahān kīrtyā tapantaṃ na nindettadvratam || 2 ||",
+              "english_translation": "He who knows this Bṛhat Sāman as woven into the sun becomes radiant with spiritual energy, possesses excellent digestion, lives out a complete and glorious lifespan, and grows great in progeny, cattle, and renown. His sacred vow should be never to speak ill of the burning sun.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara unpacks the vital behavioral vow (*Vrata*) associated with this meditation: *tapantaṃ na nindet* (one must never criticize or complain about the burning sun). When the summer heat or afternoon rays become intense, humans naturally tend to complain about the heat. Shankara points out that criticizing the heat is a sign of spiritual ignorance; it means you are insulting the *Udgītha* phase of the majestic Bṛhat melody. The vow forces an inner psychological shift from defensive ego-discomfort to non-dual acceptance, honoring the fierce intensity of the element that sustains all global ecosystems.",
+                "vishishtadvaita": "The school notes that honoring the burning sun means recognizing that even the harsh, scorching trials of life (*tapas*) are sent by the Lord for our purification. Complaining about the heat or our trials breaks our alignment with the divine plan. Keeping this vow preserves the seeker's inner spiritual radiance (*tejas*) and keeps them anchored in gratitude under all circumstances.",
+                "dvaita_vedanta": "According to Madva, the burning sun is a direct manifestation of the raw power and administrative authority of Sūrya-Nārāyaṇa. Speaking ill of the sun's heat is an act of irreverence toward the planetary controllers appointed by Viṣṇu. Observing this vow strictly purifies the mind, builds resilience, and grants the material rewards of health, lineage continuity, and stellar reputation (*kīrti*)."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 57: Chapter 6, Sections 11–16. The tree and the life-sap, the banyan seed, the salt in water, the blindfolded traveller of Gandhāra, the dying man, and the ordeal of the heated axe — the remaining declarations of 'Tat tvam asi'. Completes Chapter 6.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_6": {
+      "sections": [
+        {
+          "section_number": 11,
+          "title": "The Tree and the Living Self",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अस्य सोम्य महतो वृक्षस्य यो मूलेऽभ्याहन्याज्जीवन्स्रवेद्यो मध्येऽभ्याहन्याज्जीवन्स्रवेद्योऽग्रेऽभ्याहन्याज्जीवन्स्रवेत्स एष जीवेनात्मनानुप्रभूतः पेपीयमानो मोदमानस्तिष्ठति ॥ १ ॥",
+              "iast": "asya somya mahato vṛkṣasya yo mūle 'bhyāhanyāj jīvan sraved yo madhye 'bhyāhanyāj jīvan sraved yo 'gre 'bhyāhanyāj jīvan sravet sa eṣa jīvenātmanānuprabhūtaḥ pepīyamāno modamānas tiṣṭhati || 1 ||",
+              "english_translation": "'If someone were to strike at the root of this great tree, gentle one, it would bleed but live; if at the middle, it would bleed but live; if at the top, it would bleed but live. Pervaded by the living self, it stands firm, drinking in its nourishment and rejoicing.",
+              "commentaries": {
+                "advaita_vedanta": "The tree lives by the one life pervading root, trunk, and crown — life is not in any part but throughout, as the Self pervades the body.",
+                "vishishtadvaita": "The indwelling soul (and through it the Lord) vivifies the whole tree; pervasion sustains every limb.",
+                "dvaita_vedanta": "The jīva animates the tree under the Lord's sustaining presence; life is the soul's gift to matter, the Lord's gift to the soul."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अस्य यदेकां शाखां जीवो जहात्यथ सा शुष्यति द्वितीयां जहात्यथ सा शुष्यति तृतीयां जहात्यथ सा शुष्यति सर्वं जहाति सर्वः शुष्यति ॥ २ ॥",
+              "iast": "asya yad ekāṃ śākhāṃ jīvo jahāty atha sā śuṣyati dvitīyāṃ jahāty atha sā śuṣyati tṛtīyāṃ jahāty atha sā śuṣyati sarvaṃ jahāti sarvaḥ śuṣyati || 2 ||",
+              "english_translation": "'If the living self leaves one branch, that branch withers; if it leaves a second, that withers; if it leaves a third, that withers. If it leaves the whole, the whole withers.",
+              "commentaries": {
+                "advaita_vedanta": "What withers is the branch, never the life: presence vivifies, departure desiccates — but life itself neither grows nor withers.",
+                "vishishtadvaita": "The body's vitality is wholly borrowed from the indwelling self; the Lord's withdrawal is matter's collapse.",
+                "dvaita_vedanta": "Departure of the animating soul leaves dead matter — the soul is the body's life, the Lord the soul's."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "एवमेव खलु सोम्य विद्धीति होवाच जीवापेतं वाव किलेदं म्रियते न जीवो म्रियत इति स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो इति भूय एव मा भगवान्विज्ञापयत्विति तथा सोम्येति होवाच ॥ ३ ॥",
+              "iast": "evam eva khalu somya viddhīti hovāca jīvāpetaṃ vāva kiledaṃ mriyate na jīvo mriyata iti sa ya eṣo 'ṇimaitadātmyam idaṃ sarvaṃ tat satyaṃ sa ātmā tat tvam asi śvetaketo iti bhūya eva mā bhagavān vijñāpayatv iti tathā somyeti hovāca || 3 ||",
+              "english_translation": "'Know it to be even so, gentle one,' he said: 'this (body), deserted by the living self, dies — but the living self does not die. That which is this subtlest essence — this whole world has it as its self. That is the Real. That is the Self. That thou art, Śvetaketu.' — 'Revered sir, instruct me still further.' — 'So be it, gentle one,' he said.",
+              "commentaries": {
+                "advaita_vedanta": "'The jīva does not die' — death belongs to the body alone. The deathless life within the tree of the body is the very Being taught from the start: thou art That.",
+                "vishishtadvaita": "The soul's immortality is declared; deathless, it lives in and for the deathless Lord, its inner Self.",
+                "dvaita_vedanta": "The eternal soul outlives every body — distinct from matter below and from the Lord above, on whom it forever depends."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 12,
+          "title": "The Banyan Seed — The Subtle Essence Unseen",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "न्यग्रोधफलमत आहरेतीदं भगव इति भिन्द्धीति भिन्नं भगव इति किमत्र पश्यसीत्यण्व्य इवेमा धाना भगव इत्यासामङ्गैकां भिन्द्धीति भिन्ना भगव इति किमत्र पश्यसीति न किंचन भगव इति ॥ १ ॥",
+              "iast": "nyagrodhaphalam ata āharetīdaṃ bhagava iti bhinddhīti bhinnaṃ bhagava iti kim atra paśyasīty aṇvya ivemā dhānā bhagava ity āsām aṅgaikāṃ bhinddhīti bhinnā bhagava iti kim atra paśyasīti na kiṃcana bhagava iti || 1 ||",
+              "english_translation": "'Fetch a fruit of that banyan tree.' — 'Here it is, revered sir.' — 'Split it.' — 'It is split, revered sir.' — 'What do you see in it?' — 'These rather fine seeds, revered sir.' — 'Split one of them.' — 'It is split, revered sir.' — 'What do you see in it?' — 'Nothing at all, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "The experiment of the seed: at the heart of the visible lies the invisible. 'Nothing at all' — to the eye; everything — to understanding.",
+                "vishishtadvaita": "The unseen within the seed is the Lord's subtle presence, too fine for sight yet mighty in effect.",
+                "dvaita_vedanta": "The invisible potency in the seed is the Lord's power at work, not bare emptiness."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तं होवाच यं वै सोम्यैतमणिमानं न निभालयस एतस्य वै सोम्यैषोऽणिम्न एवं महान्यग्रोधस्तिष्ठति श्रद्धत्स्व सोम्येति ॥ २ ॥",
+              "iast": "taṃ hovāca yaṃ vai somyaitam aṇimānaṃ na nibhālayasa etasya vai somyaiṣo 'ṇimna evaṃ mahān nyagrodhas tiṣṭhati śraddhatsva somyeti || 2 ||",
+              "english_translation": "He said to him: 'That subtle essence which you do not perceive, gentle one — from that very subtlety this great banyan tree stands. Have faith, gentle one.",
+              "commentaries": {
+                "advaita_vedanta": "From the imperceptible springs the immense: so from unseen Being stands the world-tree. 'Have faith' — śraddhā bridges the gap until direct knowledge dawns.",
+                "vishishtadvaita": "The Lord, subtler than the subtle, upholds the vast; faith in revelation precedes vision of Him.",
+                "dvaita_vedanta": "The great grows from the imperceptible by the Lord's power; trust in scripture grasps what eyes cannot."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो इति भूय एव मा भगवान्विज्ञापयत्विति तथा सोम्येति होवाच ॥ ३ ॥",
+              "iast": "sa ya eṣo 'ṇimaitadātmyam idaṃ sarvaṃ tat satyaṃ sa ātmā tat tvam asi śvetaketo iti bhūya eva mā bhagavān vijñāpayatv iti tathā somyeti hovāca || 3 ||",
+              "english_translation": "'That which is this subtlest essence — this whole world has it as its self. That is the Real. That is the Self. That thou art, Śvetaketu.' — 'Revered sir, instruct me still further.' — 'So be it, gentle one,' he said.",
+              "commentaries": {
+                "advaita_vedanta": "The unseen seed-essence is the Self of the world and of the seer — the refrain plants the truth deeper with each image.",
+                "vishishtadvaita": "The invisible sustainer of tree and cosmos is the soul's own indweller.",
+                "dvaita_vedanta": "The subtle Lord behind all growth is he to whom the soul belongs."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 13,
+          "title": "The Salt in Water — Unseen Yet Everywhere",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "लवणमेतदुदकेऽवधायाथ मा प्रातरुपसीदथा इति स ह तथा चकार तं होवाच यद्दोषा लवणमुदकेऽवाधा अङ्ग तदाहरेति तद्धावमृश्य न विवेद ॥ १ ॥",
+              "iast": "lavaṇam etad udake 'vadhāyātha mā prātar upasīdathā iti sa ha tathā cakāra taṃ hovāca yad doṣā lavaṇam udake 'vādhā aṅga tad āhareti tad dhāvamṛśya na viveda || 1 ||",
+              "english_translation": "'Place this salt in water and come to me in the morning.' He did so. He said to him: 'That salt you placed in the water last evening — please bring it.' He groped for it but did not find it, for it was completely dissolved.",
+              "commentaries": {
+                "advaita_vedanta": "The most beloved of the parables: the salt has vanished to hand and eye yet pervades every drop — as Being, unseizable by the senses, pervades all.",
+                "vishishtadvaita": "The Lord cannot be grasped as an object, for He is everywhere within His creation as taste in water.",
+                "dvaita_vedanta": "The unseen pervader is known by effect, not by grasp — God's presence is tasted, not handled."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "यथा विलीनमेवाङ्गास्यान्तादाचामेति कथमिति लवणमिति मध्यादाचामेति कथमिति लवणमित्यन्तादाचामेति कथमिति लवणमित्यभिप्रास्यैतदथ मोपसीदथा इति तद्ध तथा चकार तच्छश्वत्संवर्तते तं होवाचात्र वाव किल तत्सोम्य न निभालयसेऽत्रैव किलेति ॥ २ ॥",
+              "iast": "yathā vilīnam evāṅgāsyāntād ācāmeti katham iti lavaṇam iti madhyād ācāmeti katham iti lavaṇam ity antād ācāmeti katham iti lavaṇam ity abhiprāsyaitad atha mopasīdathā iti tad dha tathā cakāra tac chaśvat saṃvartate taṃ hovācātra vāva kila tat somya na nibhālayase 'traiva kileti || 2 ||",
+              "english_translation": "'Sip from this end — how is it?' — 'Salt.' — 'Sip from the middle — how is it?' — 'Salt.' — 'Sip from that end — how is it?' — 'Salt.' — 'Set it aside and come to me.' He did so — yet it (the salt) exists for ever (in the water). Then he said to him: 'Here too, verily, you do not perceive Being, gentle one — yet here indeed it is.',",
+              "commentaries": {
+                "advaita_vedanta": "Top, middle, bottom — salt everywhere, visible nowhere. So Being pervades body and world: not perceived, never absent. For Śaṅkara this is the direct pointer to the Self's omnipresence in experience.",
+                "vishishtadvaita": "As taste in every sip, the Lord is in every particle of His body the world — the antaryāmin found wherever one 'tastes'.",
+                "dvaita_vedanta": "The Lord pervades all invisibly, knowable by His effects everywhere — pervasion without identity with the water."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो इति भूय एव मा भगवान्विज्ञापयत्विति तथा सोम्येति होवाच ॥ ३ ॥",
+              "iast": "sa ya eṣo 'ṇimaitadātmyam idaṃ sarvaṃ tat satyaṃ sa ātmā tat tvam asi śvetaketo iti bhūya eva mā bhagavān vijñāpayatv iti tathā somyeti hovāca || 3 ||",
+              "english_translation": "'That which is this subtlest essence — this whole world has it as its self. That is the Real. That is the Self. That thou art, Śvetaketu.' — 'Revered sir, instruct me still further.' — 'So be it, gentle one,' he said.",
+              "commentaries": {
+                "advaita_vedanta": "The salt-truth turns inward: the all-pervading, imperceptible Being is the taster himself.",
+                "vishishtadvaita": "The pervading Lord is the Self of the one who sips and seeks.",
+                "dvaita_vedanta": "The refrain again seals the soul's dependence on the all-pervading Lord."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 14,
+          "title": "The Blindfolded Traveller — The Teacher Shows the Way Home",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यथा सोम्य पुरुषं गन्धारेभ्योऽभिनद्धाक्षमानीय तं ततोऽतिजने विसृजेत्स यथा तत्र प्राङ्वोदङ्वाधराङ्वा प्रत्यङ्वा प्रध्मायीताभिनद्धाक्ष आनीतोऽभिनद्धाक्षो विसृष्टः ॥ १ ॥",
+              "iast": "yathā somya puruṣaṃ gandhārebhyo 'bhinaddhākṣam ānīya taṃ tato 'tijane visṛjet sa yathā tatra prāṅ vodaṅ vādharāṅ vā pratyaṅ vā pradhmāyītābhinaddhākṣa ānīto 'bhinaddhākṣo visṛṣṭaḥ || 1 ||",
+              "english_translation": "'Just as, gentle one, a man might be led away blindfolded from the land of Gandhāra and abandoned in a deserted place, and as he would shout there toward east or north or south or west, \"I have been brought here blindfolded! I have been left here blindfolded!\" —",
+              "commentaries": {
+                "advaita_vedanta": "The parable of the human condition: blindfolded by ignorance, carried far from our homeland (Being), we cry in all directions.",
+                "vishishtadvaita": "The soul, hooded by karma, wanders far from its Lord and home, crying for direction.",
+                "dvaita_vedanta": "Bound and disoriented, the soul cannot find its way without a guide — the human plight stated."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्य यथाभिनहनं प्रमुच्य प्रब्रूयादेतां दिशं गन्धारा एतां दिशं व्रजेति स ग्रामाद्ग्रामं पृच्छन्पण्डितो मेधावी गन्धारानेवोपसंपद्येतैवमेवेहाचार्यवान्पुरुषो वेद तस्य तावदेव चिरं यावन्न विमोक्ष्येऽथ संपत्स्य इति ॥ २ ॥",
+              "iast": "tasya yathābhinahanaṃ pramucya prabrūyād etāṃ diśaṃ gandhārā etāṃ diśaṃ vrajeti sa grāmād grāmaṃ pṛcchan paṇḍito medhāvī gandhārān evopasaṃpadyetaivam eveha ācāryavān puruṣo veda tasya tāvad eva ciraṃ yāvan na vimokṣye 'tha saṃpatsya iti || 2 ||",
+              "english_translation": "'and as someone might remove his blindfold and tell him, \"Gandhāra is in that direction; go that way,\" and he, asking from village to village, informed and capable, would reach Gandhāra itself — even so here, the person who has a teacher knows: \"I shall remain (in this world) only so long as I am not released; then I shall arrive home.\"',",
+              "commentaries": {
+                "advaita_vedanta": "Ācāryavān puruṣo veda — 'he who has a teacher knows': Śaṅkara's charter for the guru. The teacher unties the blindfold (ignorance) and points the way; the seeker, asking village to village (text to text, practice to practice), reaches the homeland that was always his. The delay lasts only as long as the body's momentum (prārabdha); then — union.",
+                "vishishtadvaita": "The ācārya, the Lord's emissary, removes the soul's bandage and directs it home to Him; instruction, inquiry, and arrival map the path of the surrendered.",
+                "dvaita_vedanta": "Only the guide appointed by the Lord can free the eyes and name the road; the soul reaches its destination — the Lord's realm — by his direction."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो इति भूय एव मा भगवान्विज्ञापयत्विति तथा सोम्येति होवाच ॥ ३ ॥",
+              "iast": "sa ya eṣo 'ṇimaitadātmyam idaṃ sarvaṃ tat satyaṃ sa ātmā tat tvam asi śvetaketo iti bhūya eva mā bhagavān vijñāpayatv iti tathā somyeti hovāca || 3 ||",
+              "english_translation": "'That which is this subtlest essence — this whole world has it as its self. That is the Real. That is the Self. That thou art, Śvetaketu.' — 'Revered sir, instruct me still further.' — 'So be it, gentle one,' he said.",
+              "commentaries": {
+                "advaita_vedanta": "Home, road, and traveller resolve into one Being — the refrain after the parable of the way.",
+                "vishishtadvaita": "The homeland is the Lord; the refrain names Him as the soul's inmost Self and goal.",
+                "dvaita_vedanta": "The destination belongs to the Lord; the soul reaches Him, never becomes Him."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 15,
+          "title": "The Dying Man — Merging in Being",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "पुरुषं सोम्योतोपतापिनं ज्ञातयः पर्युपासते जानासि मां जानासि मामिति तस्य यावन्न वाङ्मनसि संपद्यते मनः प्राणे प्राणस्तेजसि तेजः परस्यां देवतायां तावज्जानाति ॥ १ ॥",
+              "iast": "puruṣaṃ somyotopatāpinaṃ jñātayaḥ paryupāsate jānāsi māṃ jānāsi mām iti tasya yāvan na vāṅ manasi saṃpadyate manaḥ prāṇe prāṇas tejasi tejaḥ parasyāṃ devatāyāṃ tāvaj jānāti || 1 ||",
+              "english_translation": "'Around a man gravely ill, gentle one, his kinsmen gather and ask: \"Do you know me? Do you know me?\" As long as his speech has not merged in his mind, his mind in his breath, his breath in fire, and fire in the highest deity, so long he knows them.",
+              "commentaries": {
+                "advaita_vedanta": "The deathbed observed: recognition lasts while the instruments still function; their staged withdrawal into Being is dying described from within.",
+                "vishishtadvaita": "The faculties retire into the Lord step by step; consciousness of kin fades as the soul turns inward to its source.",
+                "dvaita_vedanta": "The ordered dissolution at death is the Lord receiving each power in sequence."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अथ यदास्य वाङ्मनसि संपद्यते मनः प्राणे प्राणस्तेजसि तेजः परस्यां देवतायामथ न जानाति ॥ २ ॥",
+              "iast": "atha yadāsya vāṅ manasi saṃpadyate manaḥ prāṇe prāṇas tejasi tejaḥ parasyāṃ devatāyām atha na jānāti || 2 ||",
+              "english_translation": "'But when his speech merges in his mind, his mind in his breath, his breath in fire, and fire in the highest deity, then he no longer knows them.",
+              "commentaries": {
+                "advaita_vedanta": "Knowing of objects ceases as the knower returns to the Ground; what remains is not unconsciousness but Being beyond subject-object knowing.",
+                "vishishtadvaita": "The soul withdrawn into the Lord no longer attends the outer circle; it rests in Him.",
+                "dvaita_vedanta": "External cognition ends as the faculties are gathered home by their Master."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो इति भूय एव मा भगवान्विज्ञापयत्विति तथा सोम्येति होवाच ॥ ३ ॥",
+              "iast": "sa ya eṣo 'ṇimaitadātmyam idaṃ sarvaṃ tat satyaṃ sa ātmā tat tvam asi śvetaketo iti bhūya eva mā bhagavān vijñāpayatv iti tathā somyeti hovāca || 3 ||",
+              "english_translation": "'That which is this subtlest essence — this whole world has it as its self. That is the Real. That is the Self. That thou art, Śvetaketu.' — 'Revered sir, instruct me still further.' — 'So be it, gentle one,' he said.",
+              "commentaries": {
+                "advaita_vedanta": "That into which the dying merge is the very Self of the living — the eighth declaration.",
+                "vishishtadvaita": "The highest deity who receives the dying is the indweller of the living: one Lord at both ends.",
+                "dvaita_vedanta": "The receiver of all at death is the Lord to whom the soul eternally belongs."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 16,
+          "title": "The Ordeal of the Heated Axe — Truth Protects; the Final 'Tat Tvam Asi'",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "पुरुषं सोम्योत हस्तगृहीतमानयन्त्यपहार्षीत्स्तेयमकार्षीत्परशुमस्मै तपतेति स यदि तस्य कर्ता भवति तत एवानृतमात्मानं कुरुते सोऽनृताभिसंधोऽनृतेनात्मानमन्तर्धाय परशुं तप्तं प्रतिगृह्णाति स दह्यतेऽथ हन्यते ॥ १ ॥",
+              "iast": "puruṣaṃ somyota hastagṛhītam ānayanty apahārṣīt steyam akārṣīt paraśum asmai tapateti sa yadi tasya kartā bhavati tata evānṛtam ātmānaṃ kurute so 'nṛtābhisaṃdho 'nṛtenātmānam antardhāya paraśuṃ taptaṃ pratigṛhṇāti sa dahyate 'tha hanyate || 1 ||",
+              "english_translation": "'They bring a man seized by the hand, gentle one, crying: \"He has robbed! He has committed theft! Heat the axe for him!\" If he is the doer of it, he makes himself untrue; intent on untruth, covering himself with untruth, he grasps the heated axe — he is burnt, and then he is slain.",
+              "commentaries": {
+                "advaita_vedanta": "The ancient ordeal as parable: untruth has no protection against the fire of the Real. He who hides in falsehood is exposed by contact with truth's heat.",
+                "vishishtadvaita": "Falsehood severs the soul from the Lord of truth; unshielded, it burns.",
+                "dvaita_vedanta": "The lie isolates the soul from the Lord's protection; judgment follows contact."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अथ यदि तस्याकर्ता भवति तत एव सत्यमात्मानं कुरुते स सत्याभिसन्धः सत्येनात्मानमन्तर्धाय परशुं तप्तं प्रतिगृह्णाति स न दह्यतेऽथ मुच्यते ॥ २ ॥",
+              "iast": "atha yadi tasyākartā bhavati tata eva satyam ātmānaṃ kurute sa satyābhisandhaḥ satyenātmānam antardhāya paraśuṃ taptaṃ pratigṛhṇāti sa na dahyate 'tha mucyate || 2 ||",
+              "english_translation": "'But if he is not the doer of it, he makes himself true; intent on truth, covering himself with truth, he grasps the heated axe — he is not burnt, and then he is released.",
+              "commentaries": {
+                "advaita_vedanta": "Truth shields as armour shields: he who is one with the Real passes through fire unburnt. Śaṅkara: so the knower, clothed in the truth of the Self, passes through the world unscathed and is released (mucyate) — the word for liberation itself.",
+                "vishishtadvaita": "Wrapped in truth, the soul is wrapped in the Lord; fire honours its own. Release here prefigures mokṣa by truth-surrender.",
+                "dvaita_vedanta": "Truth aligns the soul with the Lord of truth, whose protection turns the ordeal to acquittal."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स यथा तत्र नादाह्येतैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो इति तद्धास्य विजज्ञाविति विजज्ञाविति ॥ ३ ॥",
+              "iast": "sa yathā tatra nādāhyetaitadātmyam idaṃ sarvaṃ tat satyaṃ sa ātmā tat tvam asi śvetaketo iti tad dhāsya vijajñāv iti vijajñāv iti || 3 ||",
+              "english_translation": "'As in that case he is not burnt (being grounded in truth), so this whole world has That as its self. That is the Real. That is the Self. That thou art, Śvetaketu.' And he understood it from him — yes, he understood.",
+              "commentaries": {
+                "advaita_vedanta": "The ninth and final declaration, and now the disciple understands (vijajñau) — the doubled verb announces realisation, not mere assent. The Sad-vidyā closes: Being is the world's self, the Real, the Self — and the hearer is That. For Śaṅkara, Chapter 6 is the heart of the entire Vedānta.",
+                "vishishtadvaita": "Nine times taught, at last received: the soul knows the Lord as its inner Self and itself as His body — intimacy without confusion, the consummation of the teaching.",
+                "dvaita_vedanta": "The son finally grasps the soul's true station: wholly dependent on, beloved of, and forever distinct from the Lord — the knowledge that frees. The repetition certifies the transmission complete."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

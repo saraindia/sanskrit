@@ -1,0 +1,85 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 22: Chapter 2, Section 10. The Sāman Measured by Itself (Ātmasammita), Beyond Death.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 10,
+          "title": "The Twenty-Two Syllables — The Sāman Beyond Death",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ खल्वात्मसंमितमतिमृत्यु सप्तविधं सामोपासीत । हिङ्कार इति त्र्यक्षरं प्रस्ताव इति त्र्यक्षरं तत्समम् ॥ १ ॥",
+              "iast": "atha khalv ātmasaṃmitam atimṛtyu saptavidhaṃ sāmopāsīta | hiṅkāra iti tryakṣaraṃ prastāva iti tryakṣaraṃ tat samam || 1 ||",
+              "english_translation": "Now, verily, one should meditate on the sevenfold Sāman as measured by itself and as leading beyond death. The word 'hiṅkāra' has three syllables; the word 'prastāva' has three syllables — so they are equal.",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara explains 'ātmasammita' as the Sāman measured against its own members — each part balancing the others — and 'atimṛtyu' as that which carries the meditator beyond death, since the syllable-count itself transcends the twenty-one-fold world of mortality. The equality of syllables points to the underlying sameness (sāmya) that is the real meaning of Sāman.",
+                "vishishtadvaita": "The syllable-equivalence is a divinely ordained harmony within the liturgy; meditating on this balance as the Lord's own design purifies the worshipper. The Sāman 'beyond death' means that meditation performed through it wins the Lord's realm, where there is no return to mortality.",
+                "dvaita_vedanta": "Madhva reads the balanced syllables as testimony to Viṣṇu's perfect ordering of sacred speech. 'Beyond death' signifies that the Lord alone, propitiated by this meditation, grants release from saṃsāra — the syllables have no independent power."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "आदिरिति द्व्यक्षरं प्रतिहार इति चतुरक्षरं तत इहैकं तत्समम् ॥ २ ॥",
+              "iast": "ādir iti dvyakṣaraṃ pratihāra iti caturakṣaraṃ tata ihaikaṃ tat samam || 2 ||",
+              "english_translation": "The word 'ādi' has two syllables; the word 'pratihāra' has four syllables. Taking one syllable from there to here — they become equal.",
+              "commentaries": {
+                "advaita_vedanta": "The transfer of a syllable to create balance shows that apparent inequality in the empirical realm conceals an underlying equality — a hint of the non-dual substrate behind diverse forms.",
+                "vishishtadvaita": "Even apparent excess and deficiency in the Lord's liturgy resolve into harmony, teaching the worshipper that all parts of creation find their proper measure in relation to Him.",
+                "dvaita_vedanta": "The adjustment of syllables is scripture's own device, sanctioned by the Lord; it teaches that gradation and order pervade even sacred sound, all dependent on Viṣṇu's will."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "उद्गीथ इति त्र्यक्षरमुपद्रव इति चतुरक्षरं त्रिभिस्त्रिभिः समं भवत्यक्षरमतिशिष्यते त्र्यक्षरं तत्समम् ॥ ३ ॥",
+              "iast": "udgītha iti tryakṣaram upadrava iti caturakṣaraṃ tribhis tribhiḥ samaṃ bhavaty akṣaram atiśiṣyate tryakṣaraṃ tat samam || 3 ||",
+              "english_translation": "The word 'udgītha' has three syllables; the word 'upadrava' has four syllables. Three and three are equal, and one syllable is left over; being itself counted as three-syllabled ('a-kṣa-ra'), it too is equal.",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara notes the subtlety: the leftover syllable, when named 'akṣara', itself contains three syllables and thus restores balance. 'Akṣara' also means the Imperishable — the remainder beyond all counting is Brahman itself.",
+                "vishishtadvaita": "The leftover syllable resolving into equality shows that nothing in the Lord's creation is ever truly surplus or deficient; what seems a remainder is itself a fullness.",
+                "dvaita_vedanta": "The word 'akṣara' (imperishable) appearing as the balancing remainder points to Viṣṇu, the Imperishable, who alone completes and harmonises all things."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "निधनमिति त्र्यक्षरं तत्सममेव भवति तानि ह वा एतानि द्वाविंशतिरक्षराणि ॥ ४ ॥",
+              "iast": "nidhanam iti tryakṣaraṃ tat samam eva bhavati tāni ha vā etāni dvāviṃśatir akṣarāṇi || 4 ||",
+              "english_translation": "The word 'nidhana' has three syllables; it is likewise equal. These, verily, are the twenty-two syllables.",
+              "commentaries": {
+                "advaita_vedanta": "The total of twenty-two syllables completes the symmetric body of the Sāman. The perfection of the count prepares the next verse's teaching: twenty-one reaches the sun, the twenty-second goes beyond.",
+                "vishishtadvaita": "The complete count represents the fullness of the Lord's liturgical form; the worshipper who contemplates the whole attains the whole — the Lord Himself.",
+                "dvaita_vedanta": "Madhva sees the fixed number as proof of the eternal, authorless precision of the Veda, whose meaning rests in Viṣṇu."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "एकविंशत्यादित्यमाप्नोत्येकविंशो वा इतोऽसावादित्यो द्वाविंशेन परमादित्याज्जयति तन्नाकं तद्विशोकम् ॥ ५ ॥",
+              "iast": "ekaviṃśaty ādityam āpnoty ekaviṃśo vā ito 'sāv ādityo dvāviṃśena param ādityāj jayati tan nākaṃ tad viśokam || 5 ||",
+              "english_translation": "With the twenty-one syllables one reaches the sun — for the sun is the twenty-first from here. With the twenty-second one conquers what is beyond the sun: that is heaven (nāka), that is freedom from sorrow.",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara counts twelve months, five seasons, three worlds, and the sun as the twenty-first. The twenty-second step 'beyond the sun' is the sorrowless state — 'nāka' is glossed as 'where there is no sorrow' — ultimately pointing to liberation beyond all relative worlds.",
+                "vishishtadvaita": "The passage maps the soul's ascent: through the cosmic order up to the sun, and by the Lord's grace beyond it to His supreme abode, which is free of all grief — attained by the devoted meditator.",
+                "dvaita_vedanta": "Madhva stresses that the 'beyond' is not an impersonal state but the realm of Viṣṇu, higher than all cosmic stations including the sun-deity; only His grace carries the soul across."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "आप्नोती हादित्यस्य जयं परो हास्यादित्यजयाज्जयो भवति य एतदेवं विद्वानात्मसंमितमतिमृत्यु सप्तविधं सामोपास्ते सामोपास्ते ॥ ६ ॥",
+              "iast": "āpnotī hādityasya jayaṃ paro hāsyādityajayāj jayo bhavati ya etad evaṃ vidvān ātmasaṃmitam atimṛtyu saptavidhaṃ sāmopāste sāmopāste || 6 ||",
+              "english_translation": "He who, knowing this thus, meditates on the sevenfold Sāman as measured by itself and as beyond death, gains the conquest of the sun; indeed a victory higher than the conquest of the sun becomes his — he who meditates on the Sāman, who meditates on the Sāman.",
+              "commentaries": {
+                "advaita_vedanta": "The repetition ('sāmopāste sāmopāste') marks the close of the meditation. The 'victory beyond the sun' is the fruit transcending all relative attainments — the meditator is led along the path of light toward brahmaloka and, with the dawning of knowledge, to liberation itself.",
+                "vishishtadvaita": "The double statement seals the promise: the fruit of this upāsanā is not merely the solar world but the supreme realm of Nārāyaṇa beyond it, where the freed soul enjoys uninterrupted communion with the Lord.",
+                "dvaita_vedanta": "Madhva reads the higher victory as entry into Viṣṇu's eternal world, surpassing every cosmic dominion; the emphatic repetition affirms the certainty of the result for the qualified devotee."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

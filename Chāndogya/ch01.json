@@ -1,0 +1,159 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "8 Chapters (Adhyāyas), 154 Sections (Khaṇḍas) total.",
+      "note": "Part 1: Chapter 1, Sections 1 and 2. Contains full Devanagari, IAST, English translation, and major Vedantic school commentaries."
+    },
+    "chapter_1": {
+      "adhyaya_number": 1,
+      "title": "The Meditation on the Udgītha (Omkāra)",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "The Essence of All Essences — The Syllable OM",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "ओमित्येतदक्षरमुद्गीथमुपासीत । ओमिति ह्युद्गायति तस्योपव्याख्यानम् ॥ १ ॥",
+              "iast": "omityetadakṣaramudgīthamupāsīta | omiti hyudgāyati tasyopavyākhyānam || 1 ||",
+              "english_translation": "One should meditate on the syllable 'OM' as the Udgītha, for one sings the loud chant beginning with OM. Of this syllable, the close explanation follows.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that 'OM' (*Omkāra*) is the most intimate and direct phonetic symbol of the Supreme Brahman (*Parama-Brahman*). In the context of the Sāmavedic rituals, it is called the *Udgītha* because it is chanted aloud by the Udgātṛ priest. Śaṅkara emphasizes that this text bridges ritual action (*Karma*) with spiritual meditation (*Upāsanā*). By meditating on OM not just as a sound, but as the supreme, unattached substrate of reality, the mind is purified and turned away from objective phenomena toward the non-dual Self.",
+                "vishishtadvaita": "Raṅgarāmānuja (following Rāmānuja's methodology) interprets 'OM' as the primary name of the Supreme Lord, Śrīman Nārāyaṇa. The syllable designates Him who is the container of all sentient (*Cit*) and insentient (*Acit*) beings. Meditating on OM as the Udgītha is an injunction for loving, structured meditation (*Bhakti-rūpāpannā Upāsanā*). The verse commands the seeker to realize that the Lord is the ultimate goal and the source of all sacrificial rewards.",
+                "dvaita_vedanta": "Madhvācārya asserts that the word 'Akṣara' here does not merely mean an alphabet or syllable, but 'The Imperishable One'—Lord Viṣṇu. OM represents His infinite, independent, and flawless attributes. Madhva highlights a strict hierarchy: the sound OM is the dependent acoustic vehicle, while the independent reality it represents is Viṣṇu Himself. Meditating on Him as the Udgītha means recognizing Him as the prime mover of all vital energies and cosmic activities."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "एषां भूतानां पृथिवी रसः पृथिव्या आपो रसोऽपामोषधयो रस ओषधीनां पुरुषो रसः पुरुषस्य वाग्रसो वाच ऋग्रस ऋचः साम रसः साम्न उद्गीथो रसः ॥ २ ॥",
+              "iast": "eṣāṃ bhūtānāṃ pṛthivī rasaḥ pṛthivyā āpo raso'pāmoṣadhayo rasa oṣadhīnāṃ puruṣo rasaḥ puruṣasya vāgraso vāca ṛgrasa ṛcaḥ sāma rasaḥ sāmna udgītho rasa || 2 ||",
+              "english_translation": "The earth is the essence of all these beings; water is the essence of the earth; plants are the essence of water; man is the essence of plants; speech is the essence of man; the Rigveda is the essence of speech; the Sāmaveda is the essence of the Rigveda; and the Udgītha (OM) is the essence of the Sāmaveda.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks this ascending scale of refinement to show the absolute prioritization of consciousness. Earth supports physical life; water vitalizes earth; plants sustain man. Within man, speech is the highest output; within speech, the wisdom of the Rigveda; within the Rigveda, the musical harmony of the Sāmaveda; and within the Sāmaveda, the syllable OM. Thus, OM is the *Rasa-tama*—the ultimate essence of all essences, the final distillation of the cosmos into a single point of pure conscious awareness.",
+                "vishishtadvaita": "Raṅgarāmānuja explains this text as a structural map of the Lord's cosmic body (*Vibhūti*). The progressive refinement demonstrates how the Lord systematically structures creation, ensuring each layer serves as the essence and support of the lower one. The ultimate essence being OM proves that the entire material universe is designed to find its final meaning and resting place in the praise of the Supreme Lord.",
+                "dvaita_vedanta": "Madhva interprets 'Rasa' as 'the source of strength and controller.' The earth controls creatures, water controls earth, and so forth, in a strict cosmic hierarchy managed by specific presiding deities (*Abhimāni Devatās*). The ultimate controller of the entire sequence is the deity of the Udgītha, who is entirely dependent on and subordinate to Lord Viṣṇu, the absolute, independent Essence of all things."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स एष रसानां रसतमः परमः परार्ध्योऽष्टमो यदुद्गीथः ॥ ३ ॥",
+              "iast": "sa eṣa rasānāṃ rasatamaḥ paramaḥ parārdhyo'ṣṭamo yadudgīthaḥ || 3 ||",
+              "english_translation": "That Udgītha (OM) is the ultimate essence of essences, the supreme, the highest, deserving the highest place, the eighth in the sequence.",
+              "commentaries": {
+                "advaita_vedanta": "The term *Parārdhya* means deserving the absolute highest place. Shankara emphasizes that because OM is the eighth step in the cosmic ladder of essence, it represents the transcendence of the seven worldly layers. It stands for the pure Self (*Atman*) which is unattached to the material elements, and meditating upon it allows the seeker to transcend relative nature.",
+                "vishishtadvaita": "The description highlights the supreme majesty of the name of God. Being 'the highest' signifies that meditation on OM transcends all ordinary ritual actions. It is the spiritual crown of all Sāmavedic worship, designed to connect the soul directly to the Lord's transcendent form.",
+                "dvaita_vedanta": "Madhva emphasizes the word *Paramaḥ* (Supreme). It refers to the independent Lord who dwells within the eighth factor (Udgītha). While the previous seven items are material or cosmic elements, the eighth points directly to the transcendent nature of Viṣṇu, who surpasses all material categories."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "कतमा कतमा ऋक् कतमत् कतमत् साम कतमः कतम उद्गीथ इति विमृष्टं भवति ॥ ४ ॥",
+              "iast": "katamā katamā ṛk katamat katamat sāma katamaḥ katama udgītha iti vimṛṣṭaṃ bhavati || 4 ||",
+              "english_translation": "What is the Rigveda? What is the Sāmaveda? What is the Udgītha? This is now being deeply considered.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara notes that this verse sets up an inner philosophical inquiry (*Vīmāṃsā*). The repetition ('Which? Which?') indicates that this is not a casual question, but an exhaustive analysis meant to shake the student out of mechanical ritualism and push them toward deep internal reflection.",
+                "vishishtadvaita": "The inquiry is meant to clarify the relationship between the ritual text, the musical chant, and the divine target. It shows that true worship cannot be mindless execution; it requires a clear, conceptual understanding of the sacred structures ordained by scripture.",
+                "dvaita_vedanta": "Madhva explains that this inquiry is aimed at identifying the specific presiding deities governing each layer of sacred sound, ensuring that the seeker understands the exact spiritual hierarchy and does not confuse a subordinate cosmic power with the Supreme Independent Lord."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "वागेवर्क्प्राणः सामोमित्येतदक्षरमुद्गीथस्तद्वा एतन्मिथुनं यद्वाक्च प्राणश्चर्च सा म च ॥ ५ ॥",
+              "iast": "vāgevarkprāṇaḥ sāmōmityetadakṣaramudgīthastadvā etanmithunaṃ yadvākca prāṇaścarca sā ma ca || 5 ||",
+              "english_translation": "Speech is indeed the Rigveda; the vital breath (Prāṇa) is the Sāmaveda; the syllable OM is the Udgītha. This forms a divine couple—namely, Speech and Breath, the Rik and the Sāman.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara unifies the macrocosm with human physiology. Speech (*Vāk*) is the source of the written verse (*Rik*), and the vital internal breath (*Prāṇa*) is the driver of the musical chant (*Sāman*). They form a sacred pair (*Mithuna*) inside every human being. When speech and breath join to utter OM, they merge their energies back into the single source of life—pure Consciousness.",
+                "vishishtadvaita": "The union of Speech and Breath represents the cooperative design of the human vehicle by the Lord. Raṅgarāmānuja explains that this biological pair is meant to be dedicated to the service of the Lord through scriptural recitation, showing that our physical functions are built specifically for divine devotion.",
+                "dvaita_vedanta": "Madhva identifies the underlying deities: *Vāk* is governed by Agni and Sarasvatī, while *Prāṇa* is governed by Mukhya-Prāṇa (the chief life-force deity). Their union represents the cosmic cooperation of these deities under the sovereign command of Viṣṇu, who uses their unified action to manifest sacred Vedic knowledge."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 2,
+          "title": "The Cosmic Battle Between Devas and Asuras — The Purity of Prāṇa",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "देवासुरा ह वै यत्र संयेतिरे उभये प्राजापत्यास्तद्ध देवा उद्गीथमाजह्रुरनेनैनानभिभविष्याम इति ॥ १ ॥",
+              "iast": "devāsurā ha vai yatra saṃyetire ubhaye prājāpatyāstaddha devā udgīthamājahruranenainānabhibhaviṣyāma iti || 1 ||",
+              "english_translation": "When the Devas (gods) and Asuras (demons), both offspring of Prajāpati, fought against each other, the Devas took hold of the Udgītha (OM), thinking: 'With this chant, we shall overcome the Asuras.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara interprets this battle allegorically. Both Devas and Asuras are 'offspring of Prajāpati' because they represent the two opposing tendencies inside the human mind: the Devas are our virtuous impulses illuminated by scriptural wisdom, while the Asuras are our selfish, sensory desires driven by ignorance. The battle is internal. To defeat our darker impulses, we must take refuge in the meditation of the Udgītha (OM).",
+                "vishishtadvaita": "This is a historic and cosmic event used to illustrate spiritual truth. The Devas represent the forces of righteousness (*Dharma*) who seek shelter in the supreme name of God to defeat the forces of chaos and sin (*Adharma*), proving that victory over material temptation is only possible through divine refuge.",
+                "dvaita_vedanta": "Madhva asserts that the Devas and Asuras are real, distinct groups of souls with fixed, eternal natures (*Sāttvika* and *Tāmasa*). The Devas are naturally loyal to Viṣṇu and gain strength by taking refuge in His sacred acoustic symbol, while the Asuras are defined by their eternal hatred and opposition to the divine order."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "ते ह नासिक्यं प्राणमुद्गीथमुपासांचक्रिरे तं हासुरा पाप्मना विविधुस्तस्मात्तेनोभयं जिघ्रति सुरभि च दुर्गन्धि च पाप्मना ह्येष विद्धः ॥ २ ॥",
+              "iast": "te ha nāsikyaṃ prāṇamudgīthamupāsāṃcakrire taṃ hāsurā pāpmanā vividhustasmāttenōbhayaṃ jighrati surabhi ca durgandhi ca pāpmanā hyeṣa viddhaḥ || 2 ||",
+              "english_translation": "Then the Devas meditated on the Udgītha as the vital breath in the nose. But the Asuras pierced that breath with evil. Therefore, with the nose, one smells both what is pleasant and what is foul, because it has been pierced by evil.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara explains that the Devas tried to limit their meditation to the physical sense of smell located in the nostrils (*Nāsikya Prāṇa*). Because it is a localized sensory organ, it is vulnerable to attachment and repulsion. The Asuras 'pierced' it with evil, meaning they introduced duality—causing us to love sweet smells and hate foul smells. This shows that any meditation restricted to a physical sensory organ remains bound by ego and worldly corruption.",
+                "vishishtadvaita": "The physical sense of smell is vulnerable to the impurities of material nature (*Prakriti*). The school notes that because the sensory faculties can be misdirected toward selfish gratification, they are easily tainted by sin, resulting in the mixed experiences of pleasure and disgust found in earthly life.",
+                "dvaita_vedanta": "Madhva clarifies that the minor deity presiding over the sense of smell was overwhelmed by the demonic forces of darkness because of its limited cosmic rank. This demonstrates that minor deities cannot provide absolute protection against spiritual corruption; they are dependent powers that can be destabilized."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अथ ह वाचमुद्गीथमुपासांचक्रिरे तां हासुरा पाप्मना विविधुस्तस्मात्तेनोभयं वदति सत्यं चानृतं च पाप्मना ह्येषा विद्धा ॥ ३ ॥",
+              "iast": "atha ha vācamudgīthamupāsāṃcakrire tāṃ hāsurā pāpmanā vividhustasmāttenobhayaṃ vadati satyaṃ cānṛtaṃ ca pāpmanā hyeṣā viddhā || 3 ||",
+              "english_translation": "Then the Devas meditated on the Udgītha as speech. But the Asuras pierced speech with evil. Therefore, with speech, one speaks both truth and falsehood, because it has been pierced by evil.",
+              "commentaries": {
+                "advaita_vedanta": "Speech can be used to chant holy mantras, but it can also be used to lie, insult, and deceive. Shankara points out that because the physical organ of speech is driven by individual desires, it was corrupted by the Asuras. It remains dualistic and cannot serve as the untainted foundation of absolute meditation.",
+                "vishishtadvaita": "Speech is a material instrument that can be turned toward virtue or vice. When human intent is corrupted by material desires, speech becomes an instrument of falsehood (*Anṛtam*), losing its natural, divine orientation toward truth.",
+                "dvaita_vedanta": "The deity governing speech (*Vāk*) was assaulted and partially corrupted by the Asuras, allowing lie and deception to enter human communication. This proves that no individual mental or physical faculty is completely immune to material degradation on its own."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ ह चक्षुरुद्गीथमुपासांचक्रिरे तद्धासुरा पाप्मना विविधुस्तस्मात्तेनोभयं पश्यति दर्शनीयं चादर्शनीयं च पाप्मना ह्येतद्विद्धम् ॥ ४ ॥",
+              "iast": "atha ha cakṣurudgīthamupāsāṃcakrire taddhāsurā pāpmanā vividhustasmāttenōbhayaṃ paśyati darśanīyaṃ cādarśanīyaṃ ca pāpmanā hyetadviddham || 4 ||",
+              "english_translation": "Then the Devas meditated on the Udgītha as the eye (sight). But the Asuras pierced the eye with evil. Therefore, with the eye, one sees both what is beautiful and what is ugly, because it has been pierced by evil.",
+              "commentaries": {
+                "advaita_vedanta": "Sight is pulled toward attractive forms and repulsed by offensive ones. Shankara emphasizes that as long as our meditation is tied to objective seeing, our mind remains caught in the trap of likes and dislikes (*Rāga-Dveṣa*), which is the definition of the Asuric infection.",
+                "vishishtadvaita": "The eye registers physical modifications of matter. Because the mind interprets these changes through personal ego, it creates the binary categories of material beauty and ugliness, separating the soul from seeing the single divine presence pervading everything.",
+                "dvaita_vedanta": "Madhva explains that the solar deity (*Sūrya*) presiding over individual human eyes allows for flawed perceptions when the human soul falls under the influence of dark karma, showing that sensory observation is fundamentally unstable."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अथ ह श्रोत्रमुद्गीथमुपासांचक्रिरे तद्धासुरा पाप्मना विविधुस्तस्मात्तेनोभयं शृणोति श्रवणीयं चाश्रवणीयं च पाप्मना ह्येतद्विद्धम् ॥ ५ ॥",
+              "iast": "atha ha śrotramudgīthamupāsāṃcakrire taddhāsurā pāpmanā vividhustasmāttenōbhayaṃ śṛṇoti śravaṇīyaṃ cāśravaṇīyaṃ ca pāpmanā hyetadviddham || 5 ||",
+              "english_translation": "Then the Devas meditated on the Udgītha as the ear (hearing). But the Asuras pierced the ear with evil. Therefore, with the ear, one hears both what is pleasant to hear and what is unpleasant, because it has been pierced by evil.",
+              "commentaries": {
+                "advaita_vedanta": "The ear listens to praise with delight and to criticism with anger. Shankara states that this vulnerability shows the ear is an impure center for absolute meditation, as its function is continually disturbed by external conditions.",
+                "vishishtadvaita": "Hearing gets trapped by material sounds, gossip, and wordly attachments. This corruption prevents the soul from listening to the eternal spiritual sound of the scriptures, diverting its focus away from God.",
+                "dvaita_vedanta": "The deities ruling the quarters of space (*Digdevatās*), acting within the human ear, cannot block out negative acoustic influences due to the presence of cosmic evil, reinforcing the need for a higher, unassailable power."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "अथ ह मन उद्गीथमुपासांचक्रिरे तद्धासुरा पाप्मना विविधुस्तस्मात्तेनोभयं सङ्कल्पयति सङ्कल्पनीयं चासङ्कल्पनीयं च पाप्मना ह्येतद्विद्धम् ॥ ६ ॥",
+              "iast": "atha ha mana udgīthamupāsāṃcakrire taddhāsurā pāpmanā vividhustasmāttenōbhayaṃ saṅkalpayati saṅkalpanīyaṃ cāsaṅkalpanīyaṃ ca pāpmanā hyetadviddham || 6 ||",
+              "english_translation": "Then the Devas meditated on the Udgītha as the mind. But the Asuras pierced the mind with evil. Therefore, with the mind, one imagines both proper thoughts and improper thoughts, because it has been pierced by evil.",
+              "commentaries": {
+                "advaita_vedanta": "The mind (*Manas*) is the clearinghouse of all desires and fantasies. Shankara points out that the mind is notoriously unstable, jumping from pure intentions to dark, destructive fantasies. Because it is highly volatile, it was easily breached by the Asuras, making it an unreliable foundation for steady realization unless it is completely anchored in the higher Self.",
+                "vishishtadvaita": "The mind is the source of attachments (*Saṅkalpa*). Raṅgarāmānuja notes that when the mind is left uncontrolled, it becomes flooded with inappropriate material desires, turning it into a tool of bondage instead of a pathway to liberation.",
+                "dvaita_vedanta": "The moon deity (*Candra*), who rules the human mind, is subject to fluctuations and dark periods. Madhva asserts that this mental instability proves that the individual mind cannot save itself; it must be completely subordinated to a force that cannot be touched by darkness."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "अथ ह य एवायं मुख्यः प्राणस्तमुद्गीथमुपासांचक्रिरे तं हासुरा ऋत्वा व्यानशुर्यथा अश्मानमखणमृत्वा लोष्टो विध्वंसेतैवम् ॥ ७ ॥",
+              "iast": "atha ha ya evāyaṃ mukhyaḥ prāṇastamudgīthamupāsāṃcakrire taṃ hāsurā ṛtvā vyānaśuryathā aśmānamakhaṇamṛtvā loṣṭo vidhvaṃsetaivam || 7 ||",
+              "english_translation": "Then the Devas meditated on the Udgītha as the chief vital life-force inside the body (Mukhya Prāṇa). When the Asuras rushed at it to pierce it with evil, they were completely shattered and destroyed, just as a clod of earth is smashed to pieces when struck against a solid, unyielding rock.",
+              "commentaries": {
+                "advaita_vedanta": "A magnificent spiritual climax. Shankara explains that the 'chief vital breath' (*Mukhya Prāṇa*) does not refer to the physical act of breathing or any specific sensory organ. It represents the primal, unattached life-force itself, which animates the body without seeking any private sensory pleasure. It has no personal likes or dislikes; it functions with absolute equality toward all. Because it is completely free from individual desires, the Asuras (evil tendencies) could find no foothold in it. The moment their selfish energy struck this pure, objective life-force, they were instantly obliterated. Meditating on this pure, unattached substrate represents the step toward realizing the non-dual Self.",
+                "vishishtadvaita": "The *Mukhya Prāṇa* is the untainted instrument of the Lord inside the body. Raṅgarāmānuja explains that while the five senses are easily corrupted by worldly objects, the central life-force remains pure and dedicated exclusively to keeping the temple of the body alive. It represents the perfect servant of God, totally immune to demonic corruption, serving as an ideal model for the soul's surrender.",
+                "dvaita_vedanta": "This is a foundational verse for the Dvaita school. Madhvācārya declares that *Mukhya Prāṇa* is the highest of all dependent entities, the supreme intermediary soul (*Jīvottama*). He is absolutely flawless and immune to sin (*Pāpma-aspreṣṭa*). The Asuras, representing the dark forces of ignorance, are completely shattered when they challenge his authority. Madhva asserts that salvation cannot be reached directly; a soul must go through Mukhya Prāṇa, who acts as the ultimate spiritual master and path to Lord Viṣṇu."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

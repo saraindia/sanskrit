@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 18: Chapter 2, Section 6. The Fivefold Sāman Meditation on Animals (Paśuṣu Pañcavidha Sāmopāsanam). This section provides a framework for meditating on the living animal kingdom, mapping types of creatures to the five parts of the Sāman chant.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 6,
+          "title": "The Fivefold Sāman Meditation on Animals",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "पशुषु पञ्चविधं सामोपासीत अजा हिंकारोऽवर्यः प्रस्तावो गाव उद्गीथः अश्वाः प्रतिहारः पुरुषो निधनम् ॥ १ ॥",
+              "iast": "paśuṣu pañcavidaṃ sāmopāsieta ajā hiṃkāro'vayaḥ prastāvo gāva udgīthaḥ aśvāḥ pratihāraḥ puruṣo nidhanam || 1 ||",
+              "english_translation": "One should meditate on the fivefold Sāman in animals. Goats are the introductory syllable 'Hiṃ'; sheep are the introductory praise (Prastāva); cows are the loud chant (Udgītha); horses are the response (Pratihāra); and man is the finale (Nidhana).",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that after meditating on cosmic spaces, weather patterns, and the flow of time, the student is directed to the biological sphere of living creatures (*paśus*). Goats (*ajāḥ*) are mapped to *Hiṃkāra* because they are often at the forefront of herds and their vocalizations resemble an opening sound. Sheep (*avayaḥ*) represent the *Prastāva*, immediately following in sacrificial and agricultural order. Cows (*gāvaḥ*) are identified with the *Udgītha* because they are the most valuable, primary, and life-sustaining animals in Vedic culture, just as *Udgītha* is the foundational essence of the Sāman chant. Horses (*aśvāḥ*) match the *Pratihāra* because of their swiftness and power to carry or draw back weight. Finally, man (*puruṣaḥ*) acts as the *Nidhana* because he is the shelter, protector, and master of all these domestic animals, serving as the conscious destination where the livestock find their purpose and safety.",
+                "vishishtadvaita": "Raṅgarāmānuja writes that the living kingdoms are interconnected expressions of the indwelling soul (*antaryāmin*). This hierarchy shows that humans carry a unique responsibility. By mapping man as the *Nidhana* (finale/shelter) for the animal kingdom, the text teaches that human consciousness must act as a protective, loving guardian for all living beings, reflecting the ultimate shelter that God provides to all creation.",
+                "dvaita_vedanta": "Madhvācārya points out that every animal group is guided by specific minor deities working under the sovereign governance of Lord Viṣṇu. The clear division of animals based on utility and nature demonstrates a deliberate cosmic order. Meditating on this fivefold distribution helps the seeker perceive that livestock are not mere objects for selfish human consumption, but are sacred components of a divinely managed network."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "भवन्ति हास्य पशवः पशुमान्भवति य एतदेवं विद्वान्पशुषु पञ्चविधं सामोपास्ते ॥ २ ॥",
+              "iast": "bhavanti hāsya paśavaḥ paśumānbhavati ya etadevaṃ vidvānpaśuषु पञ्चविधं सामोपास्ते || 2 ||",
+              "english_translation": "Animals belong to him, and he becomes rich in animals—he who knows this truth and meditates on the fivefold Sāman across animals.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the outcome (*Phala*): *bhavanti hāsya paśavaḥ* (animals come to belong to him). For an ordinary person, keeping animals requires constant physical labor, anxiety, and defensive measures. For a sage who meditates on the underlying Sāman harmony within the animal kingdom, an internal spiritual kinship forms with all living things. Animals instinctively feel safe around such a realized soul, and he becomes *paśumān*—wealthy not just in physical herds, but in his deep, non-dual connection with the life force animating all creatures.",
+                "vishishtadvaita": "The school highlights that being 'rich in animals' represents prosperity that is completely free from greed or exploitation. When a devotee views animals as sacred expressions of the Lord's wealth, their livelihood becomes blessed, peaceful, and abundant. Nature naturally cooperates with a soul that treats all living beings with divine reverence.",
+                "dvaita_vedanta": "Madhva explains that an enlightened practitioner who understands how the independent Lord coordinates the animal kingdoms through His administrative deities receives material stability as a natural byproduct of their meditation. Their heart is freed from fear of loss, as their focus remains fixed on the true owner and sustainer of all biological life—the Supreme Lord."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 34: Chapter 2, Section 22. The Phonetic Characteristics and Varieties of the Udgītha (Svara-vibhāga-lakṣaṇam). This section focuses on the acoustic, vocal, and phonetic implementation of the Sāman chants, outlining the musical qualities of the vowels, consonants, and sibilants, and linking specific vocal modulations to their respective deities.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 22,
+          "title": "The Musical and Phonetic Qualities of the Chants",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "विनर्दि साम्नोऽग्नेरुद्गीथस्तदनिरुक्तं प्रजापतेर्निरुक्तं सोमस्य मृदु लक्ष्णं वायोस्तीक्ष्णं क्रौञ्चं वृहस्पतेरपध्वान्तं यमस्य तानि सर्वाण्येवोपसेवेतार्णेयमेव तु यमस्य ॥ १ ॥",
+              "iast": "vinardi sāmno'gnerudgīthastadaniruktaṃ prajāpaterniruktaṃ somasya mṛdu lakṣṇaṃ vāyostīkṣṇaṃ krauñcaṃ bṛhaspaterapadhvāntaṃ yamasya tāni sarvāṇyevopasevetāgneyameva tu yamasya || 1 ||",
+              "english_translation": "Of the musical modulations of the Sāman, the roaring tone (Vinardi) belongs to Agni; the undefined or unexpressed tone (Anirukta) belongs to Prajāpati; the defined or clear tone (Nirukta) belongs to Soma; the soft and smooth tone (Mṛdu-lakṣṇam) belongs to Vāyu; the sharp and piercing tone (Tīkṣṇam-krauñcam) belongs to Bṛhaspati; and the broken or dull tone (Apadhvāntam) belongs to Yama. A chanter should employ all these varieties, but avoid the tone belonging to Yama.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that this section shifts from cosmic meditations to the precise acoustic discipline (*svara*) necessary for vocal projection, as phonetic purity directly impacts psychological stabilization. The text details six vocal qualities. The bellowing, deep-chested tone (*vinardi*) matches Agni's crackling fire. The deep, unuttered tone emerging from the navel (*anirukta*) mirrors Prajāpati's unmanifest potential. The clear, structured articulation (*nirukta*) aligns with Soma's clarity. The smooth, flowing whisper (*mṛdu*) reflects Vāyu's wind. The high, piercing tone resembling a crane's cry (*tīkṣṇam-krauñcam*) belongs to Bṛhaspati, the master of intellect. Finally, the raspy, dull sound (*apadhvāntam*), like a cracked bronze vessel, belongs to Yama, the god of death. Shankara emphasizes that while a master chanter understands all tones, they must strictly avoid Yama's flat, deadened tone (*varjayet*) in their ritual work, as it drains life-force and fractures the non-dual vitality of the breath.",
+                "vishishtadvaita": "Raṅgarāmānuja structuralizes this vocal taxonomy to demonstrate that sound modulation is a sacred pathway for tuning the individual soul's nervous system. Each phonetic quality is a direct attribute of the Lord's administrative powers (*vibhūtis*). Avoiding the tone of Yama is a liturgical instruction meant to protect the practitioner from descending into existential sorrow or depression, ensuring that vocal worship remains an uplifting, life-affirming dedication to the supreme indweller.",
+                "dvaita_vedanta": "Madhvācārya notes that these acoustic qualities are supervised by specialized acoustic deities (*Svara-devatās*) acting under the supreme command of Lord Viṣṇu. Sound is an immutable physical layout. The prohibition against Yama's tone indicates that certain acoustic frequencies carry destructive kinetic energy. By choosing tones associated with Agni, Soma, and Bṛhaspati, the practitioner invokes purifying cosmic forces that stabilize the subtle physical vehicle for steady spiritual practice."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अमृतत्वं देवेभ्य आगायानीति प्रजया पशुभ्यो मनुष्येभ्यस्तृणमुदकमश्वेभ्यः स्वर्गं लोकं यजमानायान्नमात्मन आगायानीत्येतानि मनसा ध्यायन्नप्रमत्तः स्तुवीत ॥ २ ॥",
+              "iast": "amṛtatvaṃ devebhya āgāyānīti prajayā paśubhyo manuṣyebhyastṛṇamudakamaśvebhyaḥ svargaṃ lokaṃ yajamānāyānnamātmana āgāyānītyetāni manasā dhyāyannapramattaḥ stuvīta || 2 ||",
+              "english_translation": "'Let me sing for immortality for the deities; let me sing for progeny and cattle for humans; let me sing for grass and water for the livestock; let me sing for the heavenly world for the sacrificer; and let me sing for nourishment for myself.' Reflecting upon all these intentions in his mind, the chanter should sing the praises with absolute alertness.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the psychological frame of the chanter during execution. Vocalizing is never a thoughtless mechanical act; it requires absolute presence of mind (*apramattaḥ*). The chanter must intentionally direct the sound to benefit every layer of the cosmic network: invoking *amṛtatvam* (deathlessness) for the cosmic principles, peace for humanity, primary sustenance for the animal kingdom, higher spiritual planes for the seeker who sponsored the work, and basic energetic nourishment for themselves. In the non-dual view, this ensures that the ego does not hoard the spiritual fruit of the chant. The sound becomes a total altruistic offering that dissolves the separation between the individual singer and the global field.",
+                "vishishtadvaita": "The school highlights that this verse reveals the true spirit of selfless service (*kaiṅkarya*). The chanter acts as an unselfish medium through whom divine grace flows to all living things. By meditating on the welfare of deities, humans, animals, and the soul together, the practice transforms a simple vocal exercise into a deep meditation on universal interconnectedness, fulfilling the Lord's desire for global welfare.",
+                "dvaita_vedanta": "According to Madva, this verse defines the strict intentional blueprint required for successful worship. Every note must be explicitly dedicated to its proper recipient under the overarching rule of Viṣṇu. Lack of concentration (*pramāda*) ruins the sacrifice. Singing with a disciplined mind fixes the soul in its rightful place within the divine cosmic economy, bringing stability to both the material environment and the inner mind."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "सर्वे स्वरा इन्द्रस्यात्मानः सर्व ऊष्माणः प्रजापतेरात्मानः सर्वे स्पर्शा मृत्योरात्मानस्तं यदि स्वरेषूपालभेतेन्द्रं शरणं प्रपन्नोऽभूवं स त्वा प्रतिवक्ष्यतीति स्वेनमेनं ब्रूयात् ॥ ३ ॥",
+              "iast": "sarve svarā indrasyātmānaḥ sarva ūṣmāṇaḥ prajāpaterātmānaḥ sarve sparśā mṛtyorātmānastaṃ yadi svareṣūpālabhetendraṃ śaraṇaṃ prapanno'bhūvaṃ sa tvā prativakṣyatīti svenamenaṃ brūyāt || 3 ||",
+              "english_translation": "All vowels (Svaras) are the embodiments of Indra; all sibilants (Ūṣmāṇas) are the embodiments of Prajāpati; all stop-consonants (Sparśas) are the embodiments of Death (Mṛtyu). If someone should criticize a chanter for his pronunciation of vowels, the chanter should say: 'I have taken refuge in Indra; he will answer you.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara details the specific phonetic assignment: vowels (*svaras*) represent Indra (the power of cosmic strength and flash illumination); sibilants like śa, ṣa, sa, ha (*ūṣmāṇas*) represent Prajāpati (the vital heat of generation); and stop-consonants from ka to ma (*sparśas*) represent Mṛtyu (the hard, solid boundaries of matter and death). This verse establishes an unshakeable spiritual confidence based on this alignment. If a critic finds fault with the chanter's vowels, the chanter does not react with defensive anger or insecurity. They rest knowing that because their vowels are dedicated entirely to Indra, any insult to the sound is an insult to Indra himself, who will naturally handle the obstruction.",
+                "vishishtadvaita": "The school explains that the alphabet itself is structured as the body of the Lord. Vowels carry the free flow of spirit, sibilants carry the warmth of life-breath, and consonants provide the firm boundaries. Trusting this sacred anatomy relieves the devotee from the fear of human criticism, allowing them to chant with absolute faith and deep peace.",
+                "dvaita_vedanta": "Madhva explains that this verse reinforces the reality of the sound-controllers (*Varṇa-devatās*). Phonetics is a precise science under divine law. When a chanter performs their duty carefully and rests their mind in the supreme deity overseeing that specific sound, they are shielded from worldly doubts, and the underlying spiritual power of the liturgy remains completely undamaged."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ यद्येनमूंष्मसूपालभेत प्रजापतिं शरणं प्रपन्नोऽभूवं स त्वा प्रतिपेक्ष्यतीति स्वेनमेनं ब्रूयादथ यद्येनं स्पर्शेषूपालभेत मृत्युं शरणं प्रपन्नोऽभूवं स त्वा प्रतिधक्ष्यतीति स्वेनमेनं ब्रूयात् ॥ ४ ॥",
+              "iast": "atha yadyenamūṣmasūpālabheta prajāpatiṃ śaraṇaṃ prapanno'bhūvaṃ sa tvā pratipekṣyatīti svenamenaṃ brūyādatha yadyenaṃ sparṣeṣūpālabheta mṛtyuṃ śaraṇaṃ prapanno'bhūvaṃ sa tvā pratidhakṣyatīti svenamenaṃ brūyāt || 4 ||",
+              "english_translation": "And if someone should criticize his sibilants, he should say: 'I have taken refuge in Prajāpati; he will crush you.' And if someone should criticize his consonants, he should say: 'I have taken refuge in Death; he will burn you up.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the remaining phonetic scenarios to close this defensive shield. If the sibilants (*ūṣmāṇas*) are mocked, the chanter invokes Prajāpati, the lord of vitality, who will shatter (*pratipekṣyati*) the critic's ignorance. If the hard consonants (*sparśas*) are criticized, the chanter invokes Mṛtyu (Death) itself, stating that Death will burn away (*pratidhakṣyati*) the critic's arrogance. Non-dually, this shows that the enlightened chanter does not engage in petty scholarly debates. By identifying their voice with the primal cosmic forces, the chanter's speech becomes completely unassailable, resting securely within the absolute power of Brahman.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that this severe language serves to warn against treating sacred sound with casual, arrogant human analysis. Sound is a manifestation of divine energy. When a chanter has surrendered their tongue to God, the cosmic laws themselves step in to defend the purity of the offering, keeping the devotee safe from external distractions.",
+                "dvaita_vedanta": "According to Madva, this final verse demonstrates the absolute protection guaranteed to those who align with the cosmic layout engineered by Viṣṇu. When you know which specific deity commands a sound and you take refuge there, your performance is backed by the entire weight of the universe, and all negative criticisms are naturally neutralized by the sovereign laws of time and death."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

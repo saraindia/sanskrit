@@ -1,0 +1,196 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 55: Chapter 6, Sections 5–7. Mind is made of food, breath of water, speech of fire — the churned butter analogy, and the fast of Śvetaketu proving the sixteen parts of man.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_6": {
+      "sections": [
+        {
+          "section_number": 5,
+          "title": "The Threefold Division of Food, Water, and Fire in Man",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अन्नमशितं त्रेधा विधीयते तस्य यः स्थविष्ठो धातुस्तत्पुरीषं भवति यो मध्यमस्तन्मांसं योऽणिष्ठस्तन्मनः ॥ १ ॥",
+              "iast": "annam aśitaṃ tredhā vidhīyate tasya yaḥ sthaviṣṭho dhātus tat purīṣaṃ bhavati yo madhyamas tan māṃsaṃ yo 'ṇiṣṭhas tan manaḥ || 1 ||",
+              "english_translation": "'Food, when eaten, is divided three ways: its coarsest part becomes faeces, its middle part flesh, its subtlest part mind.",
+              "commentaries": {
+                "advaita_vedanta": "Physiology serves metaphysics: the mind is the finest distillate of food — material, therefore not the Self. Śaṅkara uses this to detach the disciple from identifying with the mind.",
+                "vishishtadvaita": "The Lord's alchemy refines the meal into the instrument of thought; mind is His crafted organ for the soul's use.",
+                "dvaita_vedanta": "Mind's material origin proves its dependence; only the Lord and the soul are non-material here, and they are eternally distinct."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "आपः पीतास्त्रेधा विधीयन्ते तासां यः स्थविष्ठो धातुस्तन्मूत्रं भवति यो मध्यमस्तल्लोहितं योऽणिष्ठः स प्राणः ॥ २ ॥",
+              "iast": "āpaḥ pītās tredhā vidhīyante tāsāṃ yaḥ sthaviṣṭho dhātus tan mūtraṃ bhavati yo madhyamas tal lohitaṃ yo 'ṇiṣṭhaḥ sa prāṇaḥ || 2 ||",
+              "english_translation": "'Water, when drunk, is divided three ways: its coarsest part becomes urine, its middle part blood, its subtlest part breath.",
+              "commentaries": {
+                "advaita_vedanta": "Even the breath, so near the Self, is water refined — vesture, not wearer.",
+                "vishishtadvaita": "The Lord turns water into the body's life-current; every sip sustains His gift of breath.",
+                "dvaita_vedanta": "Breath's bodily aspect derives from water; its presiding deity serves the Lord."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तेजोऽशितं त्रेधा विधीयते तस्य यः स्थविष्ठो धातुस्तदस्थि भवति यो मध्यमः स मज्जा योऽणिष्ठः सा वाक् ॥ ३ ॥",
+              "iast": "tejo 'śitaṃ tredhā vidhīyate tasya yaḥ sthaviṣṭho dhātus tad asthi bhavati yo madhyamaḥ sa majjā yo 'ṇiṣṭhaḥ sā vāk || 3 ||",
+              "english_translation": "'Fire (in oil, butter, and the like), when consumed, is divided three ways: its coarsest part becomes bone, its middle part marrow, its subtlest part speech.",
+              "commentaries": {
+                "advaita_vedanta": "Speech, the organ of the Veda itself, is refined fire — the third demonstration that all instruments are elemental.",
+                "vishishtadvaita": "The Lord refines fire into the tongue's power; speech is His luminous gift.",
+                "dvaita_vedanta": "Speech's fiery substance shows its created, dependent character."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अन्नमयं हि सोम्य मन आपोमयः प्राणस्तेजोमयी वागिति भूय एव मा भगवान्विज्ञापयत्विति तथा सोम्येति होवाच ॥ ४ ॥",
+              "iast": "annamayaṃ hi somya mana āpomayaḥ prāṇas tejomayī vāg iti bhūya eva mā bhagavān vijñāpayatv iti tathā somyeti hovāca || 4 ||",
+              "english_translation": "'For the mind, gentle one, is made of food, the breath of water, speech of fire.' — 'Revered sir, instruct me still further.' — 'So be it, gentle one,' he said.",
+              "commentaries": {
+                "advaita_vedanta": "The summary triad — mind of food, breath of water, speech of fire — and the son's hunger for more: each round of teaching deepens toward the Self that none of these are.",
+                "vishishtadvaita": "The disciple's repeated petition models śravaṇa: hearing again and again until the truth settles.",
+                "dvaita_vedanta": "The progressive method honours the student's growth stage by stage."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 6,
+          "title": "The Churning of Butter — How the Subtle Rises",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "दध्नः सोम्य मथ्यमानस्य योऽणिमा स उर्ध्वः समुदीषति तत्सर्पिर्भवति ॥ १ ॥",
+              "iast": "dadhnaḥ somya mathyamānasya yo 'ṇimā sa urdhvaḥ samudīṣati tat sarpir bhavati || 1 ||",
+              "english_translation": "'When curds are churned, gentle one, their subtle part rises upward and becomes butter.",
+              "commentaries": {
+                "advaita_vedanta": "The homely churn explains the body's refinery: the subtle ever rises from the gross.",
+                "vishishtadvaita": "The Lord's processes in kitchen and body are one law of refinement.",
+                "dvaita_vedanta": "The illustration grounds the doctrine in observable order."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "एवमेव खलु सोम्यान्नस्याश्यमानस्य योऽणिमा स ऊर्ध्वः समुदीषति तन्मनो भवति ॥ २ ॥",
+              "iast": "evam eva khalu somyānnasyāśyamānasya yo 'ṇimā sa ūrdhvaḥ samudīṣati tan mano bhavati || 2 ||",
+              "english_translation": "'Even so, gentle one, when food is eaten, its subtle part rises upward and becomes mind.",
+              "commentaries": {
+                "advaita_vedanta": "Mind is the butter of food — daily churned in the body's vessel.",
+                "vishishtadvaita": "Thought is food's cream, skimmed by the indwelling Lord.",
+                "dvaita_vedanta": "The mind's hourly dependence on food is plain demonstration."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अपां सोम्य पीयमानानां योऽणिमा स ऊर्ध्वः समुदीषति स प्राणो भवति ॥ ३ ॥",
+              "iast": "apāṃ somya pīyamānānāṃ yo 'ṇimā sa ūrdhvaḥ samudīṣati sa prāṇo bhavati || 3 ||",
+              "english_translation": "'When water is drunk, gentle one, its subtle part rises upward and becomes breath.",
+              "commentaries": {
+                "advaita_vedanta": "Breath is water's essence ascending — the churn turns in every draught.",
+                "vishishtadvaita": "Life rises from the cup by the Lord's quiet refining.",
+                "dvaita_vedanta": "The breath is replenished from water as ordained."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तेजसः सोम्याश्यमानस्य योऽणिमा स ऊर्ध्वः समुदीषति सा वाग्भवति ॥ ४ ॥",
+              "iast": "tejasaḥ somyāśyamānasya yo 'ṇimā sa ūrdhvaḥ samudīṣati sā vāg bhavati || 4 ||",
+              "english_translation": "'When fire (in rich food) is consumed, gentle one, its subtle part rises upward and becomes speech.",
+              "commentaries": {
+                "advaita_vedanta": "Speech is fire's finest flame, rising from the eaten spark.",
+                "vishishtadvaita": "The tongue's light is kindled daily from consumed fire.",
+                "dvaita_vedanta": "Speech burns by borrowed fire, never self-sustained."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अन्नमयं हि सोम्य मन आपोमयः प्राणस्तेजोमयी वागिति भूय एव मा भगवान्विज्ञापयत्विति तथा सोम्येति होवाच ॥ ५ ॥",
+              "iast": "annamayaṃ hi somya mana āpomayaḥ prāṇas tejomayī vāg iti bhūya eva mā bhagavān vijñāpayatv iti tathā somyeti hovāca || 5 ||",
+              "english_translation": "'For the mind, gentle one, is made of food, the breath of water, speech of fire.' — 'Revered sir, instruct me still further.' — 'So be it, gentle one,' he said.",
+              "commentaries": {
+                "advaita_vedanta": "The refrain returns; now the father will prove it by experiment — the fast of the next khaṇḍa.",
+                "vishishtadvaita": "Doctrine will be sealed by demonstration, the surest pedagogy.",
+                "dvaita_vedanta": "From analogy to test: the teaching submits itself to verification."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 7,
+          "title": "The Fast — Mind Is Made of Food, Proven",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "षोडशकलः सोम्य पुरुषः पञ्चदशाहानि माशीः काममपः पिबापोमयः प्राणो नपिबतो विच्छेत्स्यत इति ॥ १ ॥",
+              "iast": "ṣoḍaśakalaḥ somya puruṣaḥ pañcadaśāhāni māśīḥ kāmam apaḥ pibāpomayaḥ prāṇo napibato vicchetsyata iti || 1 ||",
+              "english_translation": "'Man, gentle one, consists of sixteen parts. Do not eat for fifteen days, but drink water as you please — for the breath is made of water and will not be cut off in one who drinks.'",
+              "commentaries": {
+                "advaita_vedanta": "The experiment: starve the food-made mind while preserving the water-made breath. The sixteen parts will dwindle to one.",
+                "vishishtadvaita": "The father risks his son's comfort for truth's demonstration — instruction by lived proof.",
+                "dvaita_vedanta": "The test isolates variables with a scientist's care: water continues, food ceases."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स ह पञ्चदशाहानि नाशाथ हैनमुपससाद किं ब्रवीमि भो इत्यृचः सोम्य यजूंषि सामानीति स होवाच न वै मा प्रतिभान्ति भो इति ॥ २ ॥",
+              "iast": "sa ha pañcadaśāhāni nāśātha hainam upasasāda kiṃ bravīmi bho ity ṛcaḥ somya yajūṃṣi sāmānīti sa hovāca na vai mā pratibhānti bho iti || 2 ||",
+              "english_translation": "He did not eat for fifteen days. Then he approached him: 'What shall I recite, sir?' — 'The Ṛg verses, the Yajus formulas, the Sāman chants, gentle one.' He said: 'They do not come to me, sir.'",
+              "commentaries": {
+                "advaita_vedanta": "The Vedas themselves vanish from the starved mind — memory, the mind's treasury, is food-funded. Twelve years of study gone dim in fifteen days.",
+                "vishishtadvaita": "Even sacred learning rides on the body the Lord nourishes; the proud scholar feels his dependence.",
+                "dvaita_vedanta": "The demonstration humbles: without the Lord's material support, learning is inaccessible."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तं होवाच यथा सोम्य महतोऽभ्याहितस्यैकोऽङ्गारः खद्योतमात्रः परिशिष्टः स्यात्तेन ततोऽपि न बहु दहेदेवं सोम्य ते षोडशानां कलानामेका कलातिशिष्टा स्यात्तयैतर्हि वेदान्नानुभवस्यशानाथ मे विज्ञास्यसीति ॥ ३ ॥",
+              "iast": "taṃ hovāca yathā somya mahato 'bhyāhitasyaiko 'ṅgāraḥ khadyotamātraḥ pariśiṣṭaḥ syāt tena tato 'pi na bahu dahed evaṃ somya te ṣoḍaśānāṃ kalānām ekā kalātiśiṣṭā syāt tayaitarhi vedān nānubhavasy aśānātha me vijñāsyasīti || 3 ||",
+              "english_translation": "He said to him: 'As from a great kindled fire a single coal the size of a firefly might remain, and by it the fire could not burn much more — even so, gentle one, of your sixteen parts a single part remains, and by it you cannot now experience the Vedas. Eat; then you will understand me.'",
+              "commentaries": {
+                "advaita_vedanta": "The firefly-coal: consciousness persists, but its instrument is reduced to an ember. The Self is not destroyed by fasting — only its mental wick has burned low.",
+                "vishishtadvaita": "The soul endures while its faculties flicker; the Lord preserves the spark for rekindling.",
+                "dvaita_vedanta": "The last part remaining shows the soul distinct from the waning instruments."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "स हाशाथ हैनमुपससाद तं ह यत्किंच पप्रच्छ सर्वं ह प्रतिपेदे ॥ ४ ॥",
+              "iast": "sa hāśātha hainam upasasāda taṃ ha yat kiṃca papraccha sarvaṃ ha pratipede || 4 ||",
+              "english_translation": "He ate, and then approached him; and whatever he asked, he answered it all.",
+              "commentaries": {
+                "advaita_vedanta": "One meal relights the libraries of memory — proof complete: mind is made of food.",
+                "vishishtadvaita": "Nourished again, the faculties serve; the demonstration is sealed in experience.",
+                "dvaita_vedanta": "Restored capacity confirms the doctrine empirically."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "तं होवाच यथा सोम्य महतोऽभ्याहितस्यैकमङ्गारं खद्योतमात्रं परिशिष्टं तृणैरुपसमाधाय प्राज्वलयेत्तेन ततोऽपि बहु दहेत् ॥ ५ ॥",
+              "iast": "taṃ hovāca yathā somya mahato 'bhyāhitasyaikam aṅgāraṃ khadyotamātraṃ pariśiṣṭaṃ tṛṇair upasamādhāya prājvalayet tena tato 'pi bahu dahet || 5 ||",
+              "english_translation": "He said to him: 'As from a great kindled fire a single coal the size of a firefly, if covered with straw, may be made to blaze up, and by it the fire would then burn much more —",
+              "commentaries": {
+                "advaita_vedanta": "The simile completes its circle: the ember fed with straw blazes; the mind fed with food knows.",
+                "vishishtadvaita": "The Lord rekindles the soul's instruments from the smallest spark.",
+                "dvaita_vedanta": "Restoration follows nourishment in the Lord's order of causes."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "एवं सोम्य ते षोडशानां कलानामेका कलातिशिष्टाभूत्सान्नेनोपसमाहिता प्राज्वाली तयैतर्हि वेदाननुभवस्यन्नमयं हि सोम्य मन आपोमयः प्राणस्तेजोमयी वागिति तद्धास्य विजज्ञाविति विजज्ञाविति ॥ ६ ॥",
+              "iast": "evaṃ somya te ṣoḍaśānāṃ kalānām ekā kalātiśiṣṭābhūt sānnenopasamāhitā prājvālī tayaitarhi vedān anubhavasy annamayaṃ hi somya mana āpomayaḥ prāṇas tejomayī vāg iti tad dhāsya vijajñāv iti vijajñāv iti || 6 ||",
+              "english_translation": "'— even so, gentle one, of your sixteen parts a single part remained; covered with food it blazed up, and by it you now experience the Vedas. For the mind, gentle one, is made of food, the breath of water, speech of fire.' And he understood it from him — yes, he understood.",
+              "commentaries": {
+                "advaita_vedanta": "The doubled 'he understood' closes the demonstration. The disciple now knows by experience that mind is matter — the ground is cleared for the teaching of what he truly is.",
+                "vishishtadvaita": "Experiential conviction completes hearing; the son is ready for the doctrine of the indwelling Self.",
+                "dvaita_vedanta": "Proof received and acknowledged; the discourse can now ascend to the Lord, root of all."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

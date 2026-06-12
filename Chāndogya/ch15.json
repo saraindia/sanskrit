@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 15: Chapter 2, Section 3. The Fivefold Sāman Meditation on Rain (Vṛṣṭiṣu Pañcavidha Sāmopāsanam). This section teaches how to visualize the chronological stages of a rainstorm as identical to the five distinct movements of the Sāman chant.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 3,
+          "title": "The Fivefold Sāman Meditation on Rain",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "वृष्टौ पञ्चविधं सामोपासीत पुरोवातो हिंकारो मेघो जायते स प्रस्तावो वर्षति स उद्गीथो विद्योतते स्तनयति स प्रतिहारः ॥ १ ॥",
+              "iast": "vṛṣṭau pañcavidaṃ sāmopāsieta purovāto hiṃkāro megho jāyate sa prastāvo varṣati sa udgītho vidyotate stanayati sa pratihāraḥ || 1 ||",
+              "english_translation": "One should meditate on the fivefold Sāman in rain. The forward wind that blows before a storm is the introductory syllable 'Hiṃ'; when the cloud is formed, it is the introductory praise (Prastāva); when it rains, it is the loud chant (Udgītha); and when it lightens and thunders, it is the response (Pratihāra).",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara notes that after mapping the stable physical worlds, the text moves to the vital natural process that links heaven and earth: rain (*vṛṣṭi*). This meditation coordinates the sequence of a storm with the musical timeline of the chant. The *Hiṃkāra* represents the early, sweeping wind (*purovātaḥ*) because it signals the arrival of the event. The gathering of the cloud is the *Prastāva*, showing structural preparation. The actual downpour is mapped to the *Udgītha* because rain is the primary, vital center of the whole meteorological cycle, just as *Udgītha* is the heart of the song. The flashes of lightning and crashes of thunder represent the *Pratihāra* because they spread across the dark sky, collecting and holding human attention.",
+                "vishishtadvaita": "Raṅgarāmānuja points out that this meditation trains the devotee to look past seasonal weather and see the deliberate hand of the Divine. The transition from a dry wind to dense clouds, followed by nourishing rain and majestic thunder, demonstrates the step-by-step display of the Lord's creative majesty, turning a passing storm into a lesson in active worship.",
+                "dvaita_vedanta": "Madhvācārya states that the cosmic controllers of wind, cloud, moisture, and lightning function in a strict order under the direction of the Supreme Lord Viṣṇu. Mapping these stages to the five movements of the Sāman shows that natural laws are synchronized by an independent divine intelligence, reinforcing that nature relies entirely on God to thrive."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "उद्गृह्णाति तन्निधनं वर्षति हास्मै वर्षयति ह य एतदेवं विद्वान्वृष्टौ पञ्चविधं सामोपास्ते ॥ २ ॥",
+              "iast": "udgṛhṇāti tannidhanaṃ varṣati hāsmai varṣayati ha ya etadevaṃ vidvān vṛṣṭau pañcavidaṃ sāmopāste || 2 ||",
+              "english_translation": "When the storm ceases and the clouds lift, that is the finale (Nidhana). It rains for him, and he can bring rain for others, whoever knows this truth and meditates on the fivefold Sāman in rain.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the final stage: *udgṛhṇāti* (the gathering up or cessation of the rain). When the sky clears and the storm withdraws into its unmanifest state, it represents the *Nidhana*—the concluding shelter where all active energies return to peace. For a sage who realizes that the entire water cycle is a sacred Sāman song, nature responds to his internal alignment. He is no longer at the mercy of chaotic elements; his mind is beautifully synchronized with the cosmic source.",
+                "vishishtadvaita": "The school highlights the blessing of service built into this verse. A devotee who meditates on rain as a direct expression of the Lord’s life-giving compassion becomes a vessel for that same blessing. They are granted both personal abundance (*varṣati hāsmai*) and the spiritual power to uplift and nourish their entire community.",
+                "dvaita_vedanta": "Madhva explains that understanding the divine hierarchy behind the rain cycle brings specific spiritual powers (*siddhis*) as a byproduct of genuine devotion. By knowing how the independent Lord governs the life-giving waters through His cosmic administrators, the devotee's prayers gain immense clarity, allowing them to channel blessings to the world around them."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

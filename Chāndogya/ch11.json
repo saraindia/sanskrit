@@ -1,0 +1,74 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 11: Chapter 1, Section 12. The Śva-Udgītha (The Udgītha of the Dogs). A highly allegorical narrative where a sage observes dogs performing a Vedic chant to obtain food, illustrating the cosmic dependence on vital energy and the divine for sustenance.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_1": {
+      "sections": [
+        {
+          "section_number": 12,
+          "title": "The Śva-Udgītha: The Vision of the Chanting Dogs",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथातः शौव उद्गीथः तद्ध बको दाल्भ्यो ग्लावो वा मैत्रेयः स्वाध्यायमुद्वव्राज ॥ १ ॥",
+              "iast": "athātaḥ śauva udgīthaḥ taddha bako dālbhyo glāvo vā maitreyaḥ svādhyāyamudvavrāja || 1 ||",
+              "english_translation": "Now begins the Udgītha of the dogs. The sage Baka, the son of Dalbha—also known as Glāva, the son of Mitrā—went out of the village to a quiet place to study the Veda.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that this section follows naturally from the previous section's conclusion, which identified Food (Anna) as the deity of the Pratihāra. This story illustrates a specific meditation designed to secure food. The sage Baka Dālbhya went to a solitary place near a riverbank to chant, seeking a vision of the deities who provide sustenance.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that the sage's departure to a quiet place highlights the necessity of solitude for deep meditation. The term 'Udgītha of the dogs' (Śauva Udgītha) indicates a profound allegory where the divine reveals itself in unexpected, humble forms to teach the sage about absolute reliance on God for worldly and spiritual nourishment.",
+                "dvaita_vedanta": "Madhvācārya points out that the sage was performing severe austerities to understand the secret forces driving the universe. The unusual event that follows is not a mundane occurrence but a divine revelation orchestrated by the Supreme Lord to unveil the esoteric relationship between the life force and the senses."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्मै श्वा श्वेताः प्रादुर्बभूव तमन्ये श्वान उपसमेत्योचुर्अन्नं नो भगवानागायत्वशनायाम वा इति ॥ २ ॥",
+              "iast": "tasmai śvā śvetah prādurbabhūva tamanye śvāna upasametyocurannaṃ no bhagavānāgāyatvaśanāyāma vā iti || 2 ||",
+              "english_translation": "A white dog appeared before him. Other dogs gathered around this white dog and said, 'Venerable sir, please sing to obtain food for us, for we are hungry.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara asserts that the 'white dog' is a celestial deity (such as Vāyu, the wind god, or Sūrya, the sun god) who, pleased by the sage's study, took this animal form to bestow grace. The other dogs represent lesser deities or vital energies. The request for food reinforces the Upanishadic theme that the physical vehicle must be nourished to support the pursuit of ultimate knowledge.",
+                "vishishtadvaita": "The school views the white dog as an embodiment of purity and divine leadership within the material realm. The lesser dogs begging for the chant demonstrate that even the hidden forces of nature must perform sacred actions (chanting) and rely on a higher spiritual authority to receive their sustenance.",
+                "dvaita_vedanta": "Madhva provides a brilliant internal allegory. The 'white dog' (śvā śvetah) is Mukhya Prāṇa, the chief vital breath. The word 'śvā' is derived from a root meaning movement or breath. The 'other dogs' are the sensory organs (eyes, ears, etc.). The senses are entirely dependent on the central life force for their energy (food). When the senses are depleted, they instinctively 'beg' the vital breath to revitalize them."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तान्होवाचािह्येव मा प्रातरुपसमीयातेति तद्ध बको दाल्भ्यो ग्लावो वा मैत्रेयः प्रतिपालयांचकार ॥ ३ ॥",
+              "iast": "tānhovācehaiva mā prātarupasameeyāteti taddha bako dālbhyo glāvo vā maitreyaḥ pratipālayāṃcakāra || 3 ||",
+              "english_translation": "The white dog said to them: 'Come back to me here tomorrow morning.' Baka Dālbhya (Glāva Maitreya) kept watch, waiting for their return.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara notes that the white dog delays the chant until the next morning because the morning is the auspicious time associated with the sun god (Āditya), who is the ultimate bestower of food and vitality. The sage Baka, realizing that this is a divine teaching unfolding before his eyes, patiently waits, demonstrating the necessary vigilance of a true spiritual seeker.",
+                "vishishtadvaita": "The delay tests the sincerity of the request and aligns the ritual with the cosmic rhythms of dawn. Baka Dālbhya’s patient observation signifies that spiritual truths are often revealed not instantly upon request, but after a period of attentive waiting and purification.",
+                "dvaita_vedanta": "Madhva explains that the dawn represents the awakening of consciousness and the proper time for the life force (Prāṇa) to gather the energies of the sun. Baka's observation of this internal and external cosmic alignment shows his deep qualification to receive the highest knowledge."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "ते ह यथैवेदं बहिष्पवमानेन स्तोष्यमाणाः संरब्धाः सर्पन्तीत्येवमाससृपुस्ते ह समुपविश्य हिं चक्रुः ॥ ४ ॥",
+              "iast": "te ha yathaivedaṃ bahiṣpavamānena stoṣyamāṇāḥ saṃrabdhāḥ sarpantītyevamāsasṛpuste ha samupaviśya hiṃ cakruḥ || 4 ||",
+              "english_translation": "The dogs returned the next morning. Just as the priests, when they are about to chant the Bahiṣpavamāna hymn, glide along holding each other's robes, the dogs glided along in the same manner. Then they sat down and uttered the syllable 'Hiṃ'.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara describes the ritualistic precision of the dogs. In standard Vedic sacrifices, priests walk in a connected line, each holding the robe of the one in front, symbolizing the unbroken continuity of the ritual intent. The dogs perfectly replicate this, confirming they are deities in disguise. The utterance of 'Hiṃ' is the traditional phonetic starting point of the Sāman chant.",
+                "vishishtadvaita": "Raṅgarāmānuja highlights the harmony between the animal forms and the highest Vedic strictures. It teaches that the Divine Order permeates all layers of existence. The connected gliding represents unity of purpose; whether priests in a court or deities in a vision, obtaining the grace of the Lord requires collective harmony and proper procedure.",
+                "dvaita_vedanta": "Madhva interprets the 'gliding together' as the perfect synchronization of the bodily senses following the lead of the primary vital breath (Prāṇa). When Prāṇa moves, the senses follow it in an unbroken chain. The 'Hiṃ' sound is the initial vibration of life energy preparing to draw in sustenance from the universe."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "ओ३मदामो३म्पिबामो३म्देवो वरुणः प्रजापतिः सविताऽन्नमिहा२हरत अन्नपतेऽन्नमिहा२हरा२ओ३मिति ॥ ५ ॥",
+              "iast": "o3madāmo3mpibāmo3mdevo varuṇaḥ prajāpatiḥ savitā'nnamihā2harata annapate'nnamihā2harā2o3miti || 5 ||",
+              "english_translation": "They sang: 'Om, let us eat! Om, let us drink! Om, may the divine Varuṇa, Prajāpati, and Savitṛ bring us food! O Lord of food, bring food here, bring it here! Om!'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara concludes that this chant is the actual 'Udgītha of the dogs'. It invokes the specific deities responsible for sustaining the physical world: Varuṇa (rain/water), Prajāpati (the creator/protector), and Savitṛ (the sun/source of energy). By properly chanting this Sāman with the visualization of these deities, one secures the physical nourishment needed to continue living a life of spiritual inquiry.",
+                "vishishtadvaita": "The school views this closing chant as a beautiful prayer of dependence. Even though specific deities are named, the ultimate address is to the 'Lord of food' (Annapati), which is the Supreme Lord acting through Varuṇa, Prajāpati, and Savitṛ. It reinforces that while we must act to sustain ourselves, true nourishment is a direct blessing from God.",
+                "dvaita_vedanta": "Madhva sees this as the ultimate prayer of the life force. Mukhya Prāṇa (the white dog) invokes the cosmic administrators of nature to provide fuel for the body's senses. The repetition of 'bring it here' is the raw, vibrating demand of existence itself. It proves that all action, down to the basic need to eat and drink, is essentially a Vedic ritual managed by the vital breath in service to the Supreme Lord."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

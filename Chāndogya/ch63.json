@@ -1,0 +1,64 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 63: Chapter 8, Sections 13–15. The shaking off of evil, space as the unfolder of name and form, and the final rule of life: he who lives thus reaches the world of Brahman and does not return. Completes the Chāndogya Upaniṣad.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_8": {
+      "sections": [
+        {
+          "section_number": 13,
+          "title": "Shaking Off Evil as a Horse Shakes Its Mane",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "श्यामाच्छबलं प्रपद्ये शबलाच्छ्यामं प्रपद्येऽश्व इव रोमाणि विधूय पापं चन्द्र इव राहोर्मुखात्प्रमुच्य धूत्वा शरीरमकृतं कृतात्मा ब्रह्मलोकमभिसंभवामीत्यभिसंभवामीति ॥ १ ॥",
+              "iast": "śyāmāc chabalaṃ prapadye śabalāc chyāmaṃ prapadye 'śva iva romāṇi vidhūya pāpaṃ candra iva rāhor mukhāt pramucya dhūtvā śarīram akṛtaṃ kṛtātmā brahmalokam abhisaṃbhavāmīty abhisaṃbhavāmīti || 1 ||",
+              "english_translation": "'From the dark I take refuge in the dappled; from the dappled I take refuge in the dark. Shaking off evil as a horse shakes its mane, shaking off the body as the moon frees itself from the mouth of Rāhu, I — a perfected self — attain the uncreated world of Brahman; yes, I attain it.'",
+              "commentaries": {
+                "advaita_vedanta": "The liberation-mantra: dark and dappled are the channels of night and day, or sin and its mixture — crossed in both directions and left behind. Evil falls away like loose hairs; the body drops like the eclipse from the moon's face. 'Akṛtam' — the world of Brahman is uncreated, no product of works: Śaṅkara's proof that mokṣa is not made but disclosed.",
+                "vishishtadvaita": "The soul's cry of passage: refuge taken through the Lord's stages, sin shaken off by His grace, the body shed like Rāhu's shadow, and the soul — perfected by Him — entering His eternal, uncreated realm.",
+                "dvaita_vedanta": "The freed soul, cleansed and released from the body's eclipse, attains the everlasting world of Viṣṇu — uncreated because His abode is no karmic construction. The repetition voices the certainty of arrival."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 14,
+          "title": "Space, the Unfolder of Name and Form",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "आकाशो वै नाम नामरूपयोर्निर्वहिता ते यदन्तरा तद्ब्रह्म तदमृतं स आत्मा प्रजापतेः सभां वेश्म प्रपद्ये यशोऽहं भवामि ब्राह्मणानां यशो राज्ञां यशो विशां यशोऽहमनुप्रापत्सि स हाहं यशसां यशः श्येतमदत्कमदत्कं श्येतं लिन्दु माभिगां लिन्दु माभिगाम् ॥ १ ॥",
+              "iast": "ākāśo vai nāma nāmarūpayor nirvahitā te yad antarā tad brahma tad amṛtaṃ sa ātmā prajāpateḥ sabhāṃ veśma prapadye yaśo 'haṃ bhavāmi brāhmaṇānāṃ yaśo rājñāṃ yaśo viśāṃ yaśo 'ham anuprāpatsi sa hāhaṃ yaśasāṃ yaśaḥ śyetam adatkam adatkaṃ śyetaṃ lindu mābhigāṃ lindu mābhigām || 1 ||",
+              "english_translation": "That which is called space is the unfolder of name and form. That within which they are — that is Brahman, that is the immortal, that is the Self. 'I come to the assembly-hall, the dwelling of Prajāpati. I am the glory of the brāhmaṇas, the glory of the kings, the glory of the people. I have attained to glory; I am the glory of glories. May I never go to the white, toothless, devouring, slippery place — may I never go to it!'",
+              "commentaries": {
+                "advaita_vedanta": "The 'space' that unfolds name and form yet stands within and beyond them is Brahman itself — the immortal Self. The seeker, claiming his place in Prajāpati's hall, becomes the glory of all orders, praying never to return to the womb (the 'white, toothless, slippery' place) — never again to birth.",
+                "vishishtadvaita": "The Lord, subtler than space, projects and indwells all names and forms; the soul arriving at His hall shines as the glory of every class, praying against return to the womb of saṃsāra.",
+                "dvaita_vedanta": "Brahman who unfolds name and form is Viṣṇu, the immortal; the freed soul, glorified in His assembly, is forever past the womb's door — no rebirth touches the released."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 15,
+          "title": "The Final Rule — He Does Not Return",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "तद्धैतद्ब्रह्मा प्रजापतय उवाच प्रजापतिर्मनवे मनुः प्रजाभ्य आचार्यकुलाद्वेदमधीत्य यथाविधानं गुरोः कर्मातिशेषेणाभिसमावृत्य कुटुम्बे शुचौ देशे स्वाध्यायमधीयानो धार्मिकान्विदधदात्मनि सर्वैन्द्रियाणि संप्रतिष्ठाप्याहिंसन्सर्वभूतान्यन्यत्र तीर्थेभ्यः स खल्वेवं वर्तयन्यावदायुषं ब्रह्मलोकमभिसंपद्यते न च पुनरावर्तते न च पुनरावर्तते ॥ १ ॥",
+              "iast": "tad dhaitad brahmā prajāpataya uvāca prajāpatir manave manuḥ prajābhya ācāryakulād vedam adhītya yathāvidhānaṃ guroḥ karmātiśeṣeṇābhisamāvṛtya kuṭumbe śucau deśe svādhyāyam adhīyāno dhārmikān vidadhad ātmani sarvaindriyāṇi saṃpratiṣṭhāpyāhiṃsan sarvabhūtāny anyatra tīrthebhyaḥ sa khalv evaṃ vartayan yāvad āyuṣaṃ brahmalokam abhisaṃpadyate na ca punar āvartate na ca punar āvartate || 1 ||",
+              "english_translation": "This Brahmā told to Prajāpati, Prajāpati to Manu, Manu to his descendants. He who has studied the Veda in the family of a teacher according to rule, in the time left over from serving the guru; who, having returned home, continues Vedic study in a clean place within his household and raises virtuous students; who has settled all his senses in the Self; who injures no being except at holy places (in sanctioned rites) — he indeed, living thus all his life, reaches the world of Brahman and does not return again — he does not return again.",
+              "commentaries": {
+                "advaita_vedanta": "The Upaniṣad's last word is a whole life: study, service, return, householding, teaching, the senses gathered into the Self, harmlessness to all beings — and at its end, the world of Brahman with no return. Śaṅkara reads 'na ca punar āvartate' as the final seal of mokṣa: for the knower there is no re-entry into saṃsāra, ever. The lineage Brahmā → Prajāpati → Manu → mankind hands the treasure to every generation — and so the Chāndogya closes.",
+                "vishishtadvaita": "Rāmānuja cherishes this close: a life of Vedic discipline, household dharma, sense-control, and universal harmlessness, crowned by arrival at the Lord's world from which there is no return — the double negation is the charter of eternal, irrevocable communion with Him.",
+                "dvaita_vedanta": "Madhva: the ordained path — study, service, righteous family life, harmlessness, senses fixed on the Lord — leads the qualified soul to Viṣṇu's world, whence none return. The repetition is scripture's oath: liberation, once granted by the Lord, is everlasting. Thus ends the Chāndogya Upaniṣad."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

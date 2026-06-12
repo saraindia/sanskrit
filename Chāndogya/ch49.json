@@ -1,0 +1,278 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 49: Chapter 5, Sections 1–2. The contest of the vital powers: prāṇa as the eldest and best, and the mantha rite for greatness.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_5": {
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "The Quarrel of the Senses — Prāṇa Is Supreme",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यो ह वै ज्येष्ठं च श्रेष्ठं च वेद ज्येष्ठश्च ह वै श्रेष्ठश्च भवति प्राणो वाव ज्येष्ठश्च श्रेष्ठश्च ॥ १ ॥",
+              "iast": "yo ha vai jyeṣṭhaṃ ca śreṣṭhaṃ ca veda jyeṣṭhaś ca ha vai śreṣṭhaś ca bhavati prāṇo vāva jyeṣṭhaś ca śreṣṭhaś ca || 1 ||",
+              "english_translation": "He who knows the eldest and the best becomes himself the eldest and the best. The breath, verily, is the eldest and the best.",
+              "commentaries": {
+                "advaita_vedanta": "Prāṇa precedes the senses in the embryo (eldest) and excels them in function (best); Śaṅkara reads the vidyā as a step toward the Self, of which prāṇa is the immediate vesture.",
+                "vishishtadvaita": "The breath's primacy mirrors the Lord's: as prāṇa is first among powers, the Lord is first of all; knowing the true order confers its dignity.",
+                "dvaita_vedanta": "For Madhva this is a signature text: prāṇa (Mukhya-prāṇa, Vāyu) is the eldest and best of all souls, Viṣṇu's foremost servant; knowing his rank rightly elevates the knower."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "यो ह वै वसिष्ठं वेद वसिष्ठो ह स्वानां भवति वाग्वाव वसिष्ठः ॥ २ ॥",
+              "iast": "yo ha vai vasiṣṭhaṃ veda vasiṣṭho ha svānāṃ bhavati vāg vāva vasiṣṭhaḥ || 2 ||",
+              "english_translation": "He who knows the most prosperous becomes the most prosperous among his own. Speech, verily, is the most prosperous.",
+              "commentaries": {
+                "advaita_vedanta": "Speech wins wealth and standing (vasu); each sense now states its excellence before the contest.",
+                "vishishtadvaita": "Eloquence is the Lord's gift through Vāk; its knower prospers among his kin.",
+                "dvaita_vedanta": "Speech's riches are real but subordinate — the narrative will rank all under prāṇa."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "यो ह वै प्रतिष्ठां वेद प्रति ह तिष्ठत्यस्मिंश्च लोकेऽमुष्मिंश्च चक्षुर्वाव प्रतिष्ठा ॥ ३ ॥",
+              "iast": "yo ha vai pratiṣṭhāṃ veda prati ha tiṣṭhaty asmiṃś ca loke 'muṣmiṃś ca cakṣur vāva pratiṣṭhā || 3 ||",
+              "english_translation": "He who knows the firm basis stands firm in this world and in the other. The eye, verily, is the firm basis.",
+              "commentaries": {
+                "advaita_vedanta": "By sight one finds footing on even and uneven ground — the eye is the body's surveyor.",
+                "vishishtadvaita": "Vision steadies the walker; the Lord steadies the soul through it.",
+                "dvaita_vedanta": "The eye's stabilising office is delegated, like all offices, from above."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "यो ह वै संपदं वेद सं हास्मै कामाः पद्यन्ते दैवाश्च मानुषाश्च श्रोत्रं वाव संपत् ॥ ४ ॥",
+              "iast": "yo ha vai saṃpadaṃ veda saṃ hāsmai kāmāḥ padyante daivāś ca mānuṣāś ca śrotraṃ vāva saṃpat || 4 ||",
+              "english_translation": "He who knows attainment — for him desires are attained, both divine and human. The ear, verily, is attainment.",
+              "commentaries": {
+                "advaita_vedanta": "Through hearing the Veda is gained, and through the Veda all ends — the ear is the gate of attainment.",
+                "vishishtadvaita": "Śravaṇa — hearing the Lord's word — is the first rung of devotion; hence the ear's claim.",
+                "dvaita_vedanta": "Hearing scripture rightly is the seed of all attainment under the Lord."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "यो ह वा आयतनं वेदायतनं ह स्वानां भवति मनो ह वा आयतनम् ॥ ५ ॥",
+              "iast": "yo ha vā āyatanaṃ vedāyatanaṃ ha svānāṃ bhavati mano ha vā āyatanam || 5 ||",
+              "english_translation": "He who knows the abode becomes the abode of his own. The mind, verily, is the abode.",
+              "commentaries": {
+                "advaita_vedanta": "All sense-data come home to the mind; it is the household of experience.",
+                "vishishtadvaita": "The mind houses the impressions the Lord's instruments gather; its knower shelters his kin.",
+                "dvaita_vedanta": "Mind's housing of the senses is an office held under prāṇa and, above him, the Lord."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "अथ ह प्राणा अहंश्रेयसि व्यूदिरेऽहं श्रेयानस्म्यहं श्रेयानस्मीति ॥ ६ ॥",
+              "iast": "atha ha prāṇā ahaṃśreyasi vyūdire 'haṃ śreyān asmy ahaṃ śreyān asmīti || 6 ||",
+              "english_translation": "Now the vital powers disputed about who was superior, each saying: 'I am superior! I am superior!'",
+              "commentaries": {
+                "advaita_vedanta": "The quarrel of the faculties is the parable of egoism: each power, forgetting its source, claims primacy.",
+                "vishishtadvaita": "Self-assertion among the Lord's servants must be settled by the Father — the appeal to Prajāpati follows.",
+                "dvaita_vedanta": "Rank is not self-claimed but divinely adjudicated, as the story will show."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "ते ह प्राणाः प्रजापतिं पितरमेत्योचुर्भगवन्को नः श्रेष्ठ इति तान्होवाच यस्मिन्व उत्क्रान्ते शरीरं पापिष्ठतरमिव दृश्येत स वः श्रेष्ठ इति ॥ ७ ॥",
+              "iast": "te ha prāṇāḥ prajāpatiṃ pitaram etyocur bhagavan ko naḥ śreṣṭha iti tān hovāca yasmin va utkrānte śarīraṃ pāpiṣṭhataram iva dṛśyeta sa vaḥ śreṣṭha iti || 7 ||",
+              "english_translation": "Those powers went to Prajāpati their father and said: 'Revered sir, who is the best of us?' He said to them: 'He on whose departure the body looks most wretched — he is the best of you.'",
+              "commentaries": {
+                "advaita_vedanta": "The Creator proposes the test of withdrawal: worth is measured by what collapses in one's absence.",
+                "vishishtadvaita": "The Father's criterion is service rendered, not voice raised — the Lord judges by indispensability.",
+                "dvaita_vedanta": "Prajāpati, under Viṣṇu, sets the test that will reveal Vāyu's supremacy among the powers."
+              }
+            },
+            {
+              "verse_number": 8,
+              "devanagari": "सा ह वागुच्चक्राम सा संवत्सरं प्रोष्य पर्येत्योवाच कथमशकतर्ते मज्जीवितुमिति यथा कला अवदन्तः प्राणन्तः प्राणेन पश्यन्तश्चक्षुषा शृण्वन्तः श्रोत्रेण ध्यायन्तो मनसैवमिति प्रविवेश ह वाक् ॥ ८ ॥",
+              "iast": "sā ha vāg uccakrāma sā saṃvatsaraṃ proṣya paryetyovāca katham aśakatarte maj jīvitum iti yathā kalā avadantaḥ prāṇantaḥ prāṇena paśyantaś cakṣuṣā śṛṇvantaḥ śrotreṇa dhyāyanto manasaivam iti praviveśa ha vāk || 8 ||",
+              "english_translation": "Speech departed. Having stayed away a year, it returned and asked: 'How have you been able to live without me?' They said: 'As the dumb live — not speaking, but breathing with the breath, seeing with the eye, hearing with the ear, thinking with the mind.' So speech re-entered.",
+              "commentaries": {
+                "advaita_vedanta": "Life persists without speech — the first claimant's absence proves survivable; the body limps but lives.",
+                "vishishtadvaita": "Each power's leave shows its service partial; only the Lord's chief minister is indispensable.",
+                "dvaita_vedanta": "Speech humbled returns; the ranking of powers proceeds by demonstration."
+              }
+            },
+            {
+              "verse_number": 9,
+              "devanagari": "चक्षुर्होच्चक्राम तत्संवत्सरं प्रोष्य पर्येत्योवाच कथमशकतर्ते मज्जीवितुमिति यथान्धा अपश्यन्तः प्राणन्तः प्राणेन वदन्तो वाचा शृण्वन्तः श्रोत्रेण ध्यायन्तो मनसैवमिति प्रविवेश ह चक्षुः ॥ ९ ॥",
+              "iast": "cakṣur hoccakrāma tat saṃvatsaraṃ proṣya paryetyovāca katham aśakatarte maj jīvitum iti yathāndhā apaśyantaḥ prāṇantaḥ prāṇena vadanto vācā śṛṇvantaḥ śrotreṇa dhyāyanto manasaivam iti praviveśa ha cakṣuḥ || 9 ||",
+              "english_translation": "The eye departed. Having stayed away a year, it returned and asked: 'How have you been able to live without me?' They said: 'As the blind live — not seeing, but breathing with the breath, speaking with speech, hearing with the ear, thinking with the mind.' So the eye re-entered.",
+              "commentaries": {
+                "advaita_vedanta": "Sight too proves dispensable; the parable strips each faculty of its boast in turn.",
+                "vishishtadvaita": "The blind live by the Lord's other gifts; no single sense is the soul's life.",
+                "dvaita_vedanta": "The eye's humbling continues the demonstration of graded worth."
+              }
+            },
+            {
+              "verse_number": 10,
+              "devanagari": "श्रोत्रं होच्चक्राम तत्संवत्सरं प्रोष्य पर्येत्योवाच कथमशकतर्ते मज्जीवितुमिति यथा बधिरा अशृण्वन्तः प्राणन्तः प्राणेन वदन्तो वाचा पश्यन्तश्चक्षुषा ध्यायन्तो मनसैवमिति प्रविवेश ह श्रोत्रम् ॥ १० ॥",
+              "iast": "śrotraṃ hoccakrāma tat saṃvatsaraṃ proṣya paryetyovāca katham aśakatarte maj jīvitum iti yathā badhirā aśṛṇvantaḥ prāṇantaḥ prāṇena vadanto vācā paśyantaś cakṣuṣā dhyāyanto manasaivam iti praviveśa ha śrotram || 10 ||",
+              "english_translation": "The ear departed. Having stayed away a year, it returned and asked: 'How have you been able to live without me?' They said: 'As the deaf live — not hearing, but breathing with the breath, speaking with speech, seeing with the eye, thinking with the mind.' So the ear re-entered.",
+              "commentaries": {
+                "advaita_vedanta": "Hearing's absence, too, leaves life standing.",
+                "vishishtadvaita": "The deaf live on; the ear learns its measure.",
+                "dvaita_vedanta": "Third humbling; the order of worth clarifies."
+              }
+            },
+            {
+              "verse_number": 11,
+              "devanagari": "मनो होच्चक्राम तत्संवत्सरं प्रोष्य पर्येत्योवाच कथमशकतर्ते मज्जीवितुमिति यथा बाला अमनसः प्राणन्तः प्राणेन वदन्तो वाचा पश्यन्तश्चक्षुषा शृण्वन्तः श्रोत्रेणैवमिति प्रविवेश ह मनः ॥ ११ ॥",
+              "iast": "mano hoccakrāma tat saṃvatsaraṃ proṣya paryetyovāca katham aśakatarte maj jīvitum iti yathā bālā amanasaḥ prāṇantaḥ prāṇena vadanto vācā paśyantaś cakṣuṣā śṛṇvantaḥ śrotreṇaivam iti praviveśa ha manaḥ || 11 ||",
+              "english_translation": "The mind departed. Having stayed away a year, it returned and asked: 'How have you been able to live without me?' They said: 'As infants live, mindless — but breathing with the breath, speaking with speech, seeing with the eye, hearing with the ear.' So the mind re-entered.",
+              "commentaries": {
+                "advaita_vedanta": "Even mind is dispensable to bare life — a radical claim preparing prāṇa's unanswerable case.",
+                "vishishtadvaita": "The infant's life without formed mind shows where life's root truly lies.",
+                "dvaita_vedanta": "Mind, too, bows; only the chief remains untested."
+              }
+            },
+            {
+              "verse_number": 12,
+              "devanagari": "अथ ह प्राण उच्चिक्रमिषन्स यथा सुहयः पड्वीशशङ्कून्संखिदेदेवमितरान्प्राणान्समखिदत्तं हाभिसमेत्योचुर्भगवन्नेधि त्वं नः श्रेष्ठोऽसि मोत्क्रमीरिति ॥ १२ ॥",
+              "iast": "atha ha prāṇa uccikramiṣan sa yathā suhayaḥ paḍvīśaśaṅkūn saṃkhided evam itarān prāṇān samakhidat taṃ hābhisametyocur bhagavann edhi tvaṃ naḥ śreṣṭho 'si motkramīr iti || 12 ||",
+              "english_translation": "Then, as the breath was about to depart — as a fine horse might tear up the pegs of its tether all together — it tore up the other powers all together. They gathered round it and said: 'Revered sir, remain! You are the best of us — do not depart!'",
+              "commentaries": {
+                "advaita_vedanta": "Prāṇa needs no year's absence: its mere stirring uproots all. Śaṅkara: the powers exist by participation in the one life — the parable of the Self's relation to all faculties.",
+                "vishishtadvaita": "The tethered-horse image shows utter dependence: the senses are pegged to the breath as all beings are to the Lord.",
+                "dvaita_vedanta": "Madhva's central proof-text: at Mukhya-prāṇa's first movement the rest are dragged up — his supremacy among created beings is demonstrated, while he in turn serves Viṣṇu alone."
+              }
+            },
+            {
+              "verse_number": 13,
+              "devanagari": "अथ हैनं वागुवाच यदहं वसिष्ठोऽस्मि त्वं तद्वसिष्ठोऽसीत्यथ हैनं चक्षुरुवाच यदहं प्रतिष्ठास्मि त्वं तत्प्रतिष्ठासीति ॥ १३ ॥",
+              "iast": "atha hainaṃ vāg uvāca yad ahaṃ vasiṣṭho 'smi tvaṃ tad vasiṣṭho 'sīty atha hainaṃ cakṣur uvāca yad ahaṃ pratiṣṭhāsmi tvaṃ tat pratiṣṭhāsīti || 13 ||",
+              "english_translation": "Then speech said to it: 'In that I am the most prosperous, you are the most prosperous.' The eye said to it: 'In that I am the firm basis, you are the firm basis.'",
+              "commentaries": {
+                "advaita_vedanta": "Each power returns its boast to the source: whatever excellence they have is prāṇa's lent to them.",
+                "vishishtadvaita": "The faculties' tribute models the soul's surrender: all our excellences belong to the Sustainer.",
+                "dvaita_vedanta": "The senses formally cede their titles to prāṇa — hierarchy acknowledged is harmony restored."
+              }
+            },
+            {
+              "verse_number": 14,
+              "devanagari": "अथ हैनं श्रोत्रमुवाच यदहं संपदस्मि त्वं तत्संपदसीत्यथ हैनं मन उवाच यदहमायतनमस्मि त्वं तदायतनमसीति ॥ १४ ॥",
+              "iast": "atha hainaṃ śrotram uvāca yad ahaṃ saṃpad asmi tvaṃ tat saṃpad asīty atha hainaṃ mana uvāca yad aham āyatanam asmi tvaṃ tad āyatanam asīti || 14 ||",
+              "english_translation": "The ear said to it: 'In that I am attainment, you are attainment.' The mind said to it: 'In that I am the abode, you are the abode.'",
+              "commentaries": {
+                "advaita_vedanta": "The transfer of titles is complete: prosperity, basis, attainment, abode — all are the one life appearing as many functions.",
+                "vishishtadvaita": "All glories rest finally in the sustaining power, as all souls' glories rest in the Lord.",
+                "dvaita_vedanta": "Every office is held in trust from the chief; Madhva sees the cosmic constitution displayed."
+              }
+            },
+            {
+              "verse_number": 15,
+              "devanagari": "न वै वाचो न चक्षूंषि न श्रोत्राणि न मनांसीत्याचक्षते प्राणा इत्येवाचक्षते प्राणो ह्येवैतानि सर्वाणि भवति ॥ १५ ॥",
+              "iast": "na vai vāco na cakṣūṃṣi na śrotrāṇi na manāṃsīty ācakṣate prāṇā ity evācakṣate prāṇo hy evaitāni sarvāṇi bhavati || 15 ||",
+              "english_translation": "Verily, people do not call them 'speeches' or 'eyes' or 'ears' or 'minds'; they call them 'prāṇas' (vital powers), for the breath indeed is all these.",
+              "commentaries": {
+                "advaita_vedanta": "Usage itself testifies: the faculties are named after prāṇa because they are prāṇa diversified. Śaṅkara points beyond: as the senses are prāṇa, so all this is the Self under many names.",
+                "vishishtadvaita": "The common name declares the common life — one sustainer wearing many functions, as the one Lord ensouls all.",
+                "dvaita_vedanta": "Language enshrines the truth of Vāyu's pervading stewardship of the faculties under the Lord."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 2,
+          "title": "Prāṇa's Food and Garment — The Mantha Rite",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "स होवाच किं मेऽन्नं भविष्यतीति यत्किंचिदिदमा श्वभ्य आ शकुनिभ्य इति होचुस्तद्वा एतदनस्यान्नमनो ह वै नाम प्रत्यक्षं न ह वा एवंविदि किंचनानन्नं भवतीति ॥ १ ॥",
+              "iast": "sa hovāca kiṃ me 'nnaṃ bhaviṣyatīti yat kiṃcid idam ā śvabhya ā śakunibhya iti hocus tad vā etad anasyānnam ano ha vai nāma pratyakṣaṃ na ha vā evaṃvidi kiṃcanānannaṃ bhavatīti || 1 ||",
+              "english_translation": "It (the breath) said: 'What shall be my food?' They said: 'Whatever there is, down to dogs and birds.' This, then, is the food of 'ana' (the breath); 'ana' is its evident name. For the one who knows thus, nothing whatever is not-food.",
+              "commentaries": {
+                "advaita_vedanta": "All that lives eats for the universal breath; to the knower nothing is impure at the level of the one life — Śaṅkara cautions this states a meditation's vision, not a licence for conduct.",
+                "vishishtadvaita": "Every creature's eating feeds the Lord's vital minister; the devotee sees the Lord's sustenance flowing through all.",
+                "dvaita_vedanta": "Prāṇa eats through every mouth as Viṣṇu's agent; the knower honours the universal feeding without breaching dharma."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स होवाच किं मे वासो भविष्यतीत्याप इति होचुस्तस्माद्वा एतदशिष्यन्तः पुरस्ताच्चोपरिष्टाच्चाद्भिः परिदधति लम्भुको ह वासो भवत्यनग्नो ह भवति ॥ २ ॥",
+              "iast": "sa hovāca kiṃ me vāso bhaviṣyatīty āpa iti hocus tasmād vā etad aśiṣyantaḥ purastāc copariṣṭāc cādbhiḥ paridadhati lambhuko ha vāso bhavaty anagno ha bhavati || 2 ||",
+              "english_translation": "It said: 'What shall be my garment?' They said: 'Water.' Therefore, when people are about to eat, they enclose the food before and after with water (by sipping). Thus the breath obtains its garment and is not naked.",
+              "commentaries": {
+                "advaita_vedanta": "The daily sippings (ācamana) around meals clothe the inner breath — ritual practice encodes the vidyā.",
+                "vishishtadvaita": "The water-garment honours the Lord's life within; tradition's smallest gestures carry His worship.",
+                "dvaita_vedanta": "The custom of sipping is prāṇa's vestment, a perpetual reminder of his presence at every meal."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तद्धैतत्सत्यकामो जाबालो गोश्रुतये वैयाघ्रपद्यायोक्त्वोवाच यद्यप्येनच्छुष्काय स्थाणवे ब्रूयाज्जायेरन्नेवास्मिञ्शाखाः प्ररोहेयुः पलाशानीति ॥ ३ ॥",
+              "iast": "tad dhaitat satyakāmo jābālo gośrutaye vaiyāghrapadyāyoktvovāca yady apy enac chuṣkāya sthāṇave brūyāj jāyerann evāsmiñ śākhāḥ praroheyuḥ palāśānīti || 3 ||",
+              "english_translation": "Satyakāma Jābāla, having taught this to Gośruti Vaiyāghrapadya, said: 'Even if one should declare this to a dried-up stump, branches would sprout on it and leaves would spring forth.'",
+              "commentaries": {
+                "advaita_vedanta": "Hyperbole of the vidyā's power: the doctrine of life would quicken dead wood — how much more the living soul.",
+                "vishishtadvaita": "The teaching carries the Lord's vivifying force; no recipient is beyond its greening.",
+                "dvaita_vedanta": "The praise marks the vidyā's potency, granted by the Lord to His doctrine of the chief breath."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ यदि महज्जिगमिषेदमावास्यायां दीक्षित्वा पौर्णमास्यां रात्रौ सर्वौषधस्य मन्थं दधिमधुनोरुपमथ्य ज्येष्ठाय श्रेष्ठाय स्वाहेत्यग्नावाज्यस्य हुत्वा मन्थे संपातमवनयेत् ॥ ४ ॥",
+              "iast": "atha yadi mahaj jigamiṣed amāvāsyāyāṃ dīkṣitvā paurṇamāsyāṃ rātrau sarvauṣadhasya manthaṃ dadhimadhunor upamathya jyeṣṭhāya śreṣṭhāya svāhety agnāv ājyasya hutvā manthe saṃpātam avanayet || 4 ||",
+              "english_translation": "Now, if one desires to attain greatness: having consecrated oneself on the new-moon day, on the night of the full moon let him stir a mash (mantha) of all herbs with curds and honey; let him offer clarified butter in the fire with 'To the eldest, to the best — svāhā!' and pour the residue into the mash.",
+              "commentaries": {
+                "advaita_vedanta": "The mantha rite translates the prāṇa-doctrine into ceremony: greatness is sought from the eldest and best.",
+                "vishishtadvaita": "The rite petitions the Lord through His chief minister; consecration and offering frame the request.",
+                "dvaita_vedanta": "Worship of prāṇa as eldest and best, with oblations, is the sanctioned path to greatness under the Lord."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "वसिष्ठाय स्वाहेत्यग्नावाज्यस्य हुत्वा मन्थे संपातमवनयेत्प्रतिष्ठायै स्वाहेत्यग्नावाज्यस्य हुत्वा मन्थे संपातमवनयेत्संपदे स्वाहेत्यग्नावाज्यस्य हुत्वा मन्थे संपातमवनयेदायतनाय स्वाहेत्यग्नावाज्यस्य हुत्वा मन्थे संपातमवनयेत् ॥ ५ ॥",
+              "iast": "vasiṣṭhāya svāhety agnāv ājyasya hutvā manthe saṃpātam avanayet pratiṣṭhāyai svāhety agnāv ājyasya hutvā manthe saṃpātam avanayet saṃpade svāhety agnāv ājyasya hutvā manthe saṃpātam avanayed āyatanāya svāhety agnāv ājyasya hutvā manthe saṃpātam avanayet || 5 ||",
+              "english_translation": "With 'To the most prosperous — svāhā!' let him offer butter in the fire and pour the residue into the mash. With 'To the firm basis — svāhā!' ... with 'To attainment — svāhā!' ... with 'To the abode — svāhā!' let him offer butter in the fire and pour the residue into the mash.",
+              "commentaries": {
+                "advaita_vedanta": "The five titles won in the contest become the five oblations — narrative crystallised into liturgy.",
+                "vishishtadvaita": "Each excellence is saluted as the Lord's own, gathered into the cup of blessing.",
+                "dvaita_vedanta": "The fivefold offering honours prāṇa under his five conquered titles."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "अथ प्रतिसृप्याञ्जलौ मन्थमाधाय जपत्यमो नामास्यमा हि ते सर्वमिदं स हि ज्येष्ठः श्रेष्ठो राजाधिपतिः स मा ज्यैष्ठ्यं श्रैष्ठ्यं राज्यमाधिपत्यं गमयत्वहमेवेदं सर्वमसानीति ॥ ६ ॥",
+              "iast": "atha pratisṛpyāñjalau mantham ādhāya japaty amo nāmāsy amā hi te sarvam idaṃ sa hi jyeṣṭhaḥ śreṣṭho rājādhipatiḥ sa mā jyaiṣṭhyaṃ śraiṣṭhyaṃ rājyam ādhipatyaṃ gamayatv aham evedaṃ sarvam asānīti || 6 ||",
+              "english_translation": "Then, creeping back (to the fire) and holding the mash in his cupped hands, he murmurs: 'Your name is Ama (power), for all this is with you. He is the eldest, the best, the king, the overlord. May he lead me to eldership, to excellence, to kingship, to overlordship. May I be all this!'",
+              "commentaries": {
+                "advaita_vedanta": "The prayer's climax — 'may I be all this' — looks past particular boons to the universal: the meditator aspires to the totality that prāṇa represents and the Self truly is.",
+                "vishishtadvaita": "The petition addresses the Lord, the true 'eldest and best, king and overlord'; the devotee asks for greatness within His sovereign order.",
+                "dvaita_vedanta": "Madhva reads the titles as Viṣṇu's, mediated by Vāyu; the aspirant seeks the station the Lord may grant, never identity with Him."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "अथ खल्वेतयर्चा पच्छ आचामति तत्सवितुर्वृणीमह इत्याचामति वयं देवस्य भोजनमित्याचामति श्रेष्ठं सर्वधातममित्याचामति तुरं भगस्य धीमहीति सर्वं पिबति निर्णिज्य कंसं चमसं वा पश्चादग्नेः संविशति चर्मणि वा स्थण्डिले वा वाचंयमोऽप्रसाहः स यदि स्त्रियं पश्येत्समृद्धं कर्मेति विद्यात् ॥ ७ ॥",
+              "iast": "atha khalv etayarcā paccha ācāmati tat savitur vṛṇīmaha ity ācāmati vayaṃ devasya bhojanam ity ācāmati śreṣṭhaṃ sarvadhātamam ity ācāmati turaṃ bhagasya dhīmahīti sarvaṃ pibati nirṇijya kaṃsaṃ camasaṃ vā paścād agneḥ saṃviśati carmaṇi vā sthaṇḍile vā vācaṃyamo 'prasāhaḥ sa yadi striyaṃ paśyet samṛddhaṃ karmeti vidyāt || 7 ||",
+              "english_translation": "Then he sips the mash foot by foot with this Ṛg verse: 'That (food) of Savitṛ we choose' — he sips; 'the food of the god' — he sips; 'the best and all-sustaining' — he sips; 'we meditate on the swift (bounty) of Bhaga' — and he drinks the whole. Having cleansed the goblet or cup, he lies down behind the fire, on a skin or on the bare ground, restraining speech and self-possessed. If he should see a woman (in his dream), let him know that his rite has prospered.",
+              "commentaries": {
+                "advaita_vedanta": "The verse-by-verse sipping unites mantra and act; the dream-omen attests the rite's ripeness in the depths of the mind.",
+                "vishishtadvaita": "The Sāvitrī-derived verses consecrate the drinking; success is signalled to the surrendered, watchful heart.",
+                "dvaita_vedanta": "Disciplined completion — silence, bare couch, vigil — invites the auspicious sign appointed by the Lord."
+              }
+            },
+            {
+              "verse_number": 8,
+              "devanagari": "तदेष श्लोको यदा कर्मसु काम्येषु स्त्रियं स्वप्नेषु पश्यति समृद्धिं तत्र जानीयात्तस्मिन्स्वप्ननिदर्शने तस्मिन्स्वप्ननिदर्शने ॥ ८ ॥",
+              "iast": "tad eṣa śloko yadā karmasu kāmyeṣu striyaṃ svapneṣu paśyati samṛddhiṃ tatra jānīyāt tasmin svapnanidarśane tasmin svapnanidarśane || 8 ||",
+              "english_translation": "On this there is this verse: 'When, during rites performed for a wish, one sees a woman in dreams, let him know prosperity from that dream-vision — from that dream-vision.'",
+              "commentaries": {
+                "advaita_vedanta": "The śloka seals the khaṇḍa; dream is the mind's mirror of the rite's accomplishment. The repetition closes the section.",
+                "vishishtadvaita": "Even omens are the Lord's gentle assurances to the hopeful performer.",
+                "dvaita_vedanta": "The confirming verse, doubled, certifies the sign's reliability within the Lord's order."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

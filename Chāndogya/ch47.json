@@ -1,0 +1,258 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 47: Chapter 4, Sections 10–15. The story of Upakosala: the household fires teach Brahman, and the teacher reveals the Person in the eye and the path of light.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_4": {
+      "sections": [
+        {
+          "section_number": 10,
+          "title": "Upakosala Serves the Fires",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "उपकोसलो ह वै कामलायनः सत्यकामे जाबाले ब्रह्मचर्यमुवास तस्य ह द्वादश वर्षाण्यग्नीन्परिचचार स ह स्मान्यानन्तेवासिनः समावर्तयंस्तं ह स्मैव न समावर्तयति ॥ १ ॥",
+              "iast": "upakosalo ha vai kāmalāyanaḥ satyakāme jābāle brahmacaryam uvāsa tasya ha dvādaśa varṣāṇy agnīn paricacāra sa ha smānyān antevāsinaḥ samāvartayaṃs taṃ ha smaiva na samāvartayati || 1 ||",
+              "english_translation": "Upakosala Kāmalāyana lived as a student of sacred knowledge with Satyakāma Jābāla. For twelve years he tended his teacher's fires; but though the teacher let other students return home, him he did not allow to depart.",
+              "commentaries": {
+                "advaita_vedanta": "Satyakāma, now himself a teacher, withholds graduation from his best student — Śaṅkara reads this as the teacher's deliberate ripening of an exceptional vessel: prolonged service burns away the last impurities before knowledge.",
+                "vishishtadvaita": "The delay is providential: the Lord arranges that Upakosala's teachers shall be the sacred fires themselves, a grace earned by selfless service.",
+                "dvaita_vedanta": "Twelve years of fire-service is tapas appointed by the Lord through the guru; the apparent neglect is preparation for higher instruction."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तं जायोवाच तप्तो ब्रह्मचारी कुशलमग्नीन्परिचचारीन्मा त्वाग्नयः परिप्रवोचन्प्रब्रूह्यस्मा इति तस्मै हाप्रोच्यैव प्रवासांचक्रे ॥ २ ॥",
+              "iast": "taṃ jāyovāca tapto brahmacārī kuśalam agnīn paricacārīn mā tvāgnayaḥ paripravocan prabrūhy asmā iti tasmai hāprocyaiva pravāsāṃ cakre || 2 ||",
+              "english_translation": "His wife said to him: 'The student is austere and has tended the fires well; teach him, lest the fires reproach you.' But without teaching him, the teacher went away on a journey.",
+              "commentaries": {
+                "advaita_vedanta": "Even the household sees the student's worth; the teacher's silence and departure clear the stage for the fires to speak — knowledge arrives by the way providence chooses.",
+                "vishishtadvaita": "The wife's compassion voices dharma; the teacher's strange silence serves the Lord's deeper plan for the disciple.",
+                "dvaita_vedanta": "The Lord moves through all the actors — wife, teacher, fires — to bring the fit soul its destined teaching."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स ह व्याधिनानशितुं दध्रे तमाचार्यजायोवाच ब्रह्मचारिन्नशान किं नु नाश्नासीति स होवाच बहव इमेऽस्मिन्पुरुषे कामा नानात्यया व्याधीभिः प्रतिपूर्णोऽस्मि नाशिष्यामीति ॥ ३ ॥",
+              "iast": "sa ha vyādhinānaśituṃ dadhre tam ācāryajāyovāca brahmacārinn aśāna kiṃ nu nāśnāsīti sa hovāca bahava ime 'smin puruṣe kāmā nānātyayā vyādhībhiḥ pratipūrṇo 'smi nāśiṣyāmīti || 3 ||",
+              "english_translation": "Out of grief he resolved to fast. The teacher's wife said to him: 'Student, eat! Why do you not eat?' He said: 'In this man (in me) there are many desires turned in different directions; I am full of afflictions. I will not eat.'",
+              "commentaries": {
+                "advaita_vedanta": "The student's sorrow is the holy discontent (vairāgya-born grief) that precedes illumination; his fast is the soul's refusal of everything short of truth.",
+                "vishishtadvaita": "His confession of inner turmoil is honest self-surrender; such transparency before the Lord's household invites divine intervention.",
+                "dvaita_vedanta": "Genuine longing for knowledge eclipses bodily wants; the Lord hastens to those who hunger thus."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ हाग्नयः समूदिरे तप्तो ब्रह्मचारी कुशलं नः पर्यचारीद्धन्तास्मै प्रब्रवामेति तस्मै होचुः प्राणो ब्रह्म कं ब्रह्म खं ब्रह्मेति ॥ ४ ॥",
+              "iast": "atha hāgnayaḥ samūdire tapto brahmacārī kuśalaṃ naḥ paryacārīd dhantāsmai prabravāmeti tasmai hocuḥ prāṇo brahma kaṃ brahma khaṃ brahmeti || 4 ||",
+              "english_translation": "Then the fires said among themselves: 'The student is austere and has tended us well. Come, let us teach him.' And they said to him: 'Breath is Brahman; joy (ka) is Brahman; space (kha) is Brahman.'",
+              "commentaries": {
+                "advaita_vedanta": "The fires, moved by service, deliver the seed-teaching: Brahman as life, as bliss, as the subtle expanse. Śaṅkara notes that 'ka' (joy) and 'kha' (space) qualify each other — Brahman is the bliss that is not worldly pleasure and the space that is not mere element.",
+                "vishishtadvaita": "Agni and his fellow fires are the Lord's priests; their triple formula names Him as the soul's life, its joy, and its boundless ground.",
+                "dvaita_vedanta": "The fires teach what they know under Viṣṇu: He is the breath of all, the bliss of all, the inner firmament — three names of one Lord."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "स होवाच विजानाम्यहं यत्प्राणो ब्रह्म कं च तु खं च न विजानामीति ते होचुर्यद्वाव कं तदेव खं यदेव खं तदेव कमिति प्राणं च हास्मै तदाकाशं चोचुः ॥ ५ ॥",
+              "iast": "sa hovāca vijānāmy ahaṃ yat prāṇo brahma kaṃ ca tu khaṃ ca na vijānāmīti te hocur yad vāva kaṃ tad eva khaṃ yad eva khaṃ tad eva kam iti prāṇaṃ ca hāsmai tad ākāśaṃ cocuḥ || 5 ||",
+              "english_translation": "He said: 'I understand that breath is Brahman; but joy and space I do not understand.' They said: 'What is joy — that indeed is space; and what is space — that indeed is joy.' Thus they taught him breath and the space (within the heart).",
+              "commentaries": {
+                "advaita_vedanta": "The mutual definition is decisive for Śaṅkara: the bliss meant is not sensory (which would be fleeting), and the space meant is not physical (which would be insentient). Each corrects the other — Brahman is bliss-as-vastness, the ānanda that is ākāśa of the heart.",
+                "vishishtadvaita": "Joy and space interpenetrate in the Lord: His joy is unbounded as space, His pervasiveness is blissful — the heart-space where He dwells is the place of delight.",
+                "dvaita_vedanta": "Madhva: the Lord called 'ka-kha' is bliss itself and the support of space; the equation teaches His attributes, not an impersonal substrate."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 11,
+          "title": "The Gārhapatya Fire's Teaching",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ हैनं गार्हपत्योऽनुशशास पृथिव्यग्निरन्नमादित्य इति य एष आदित्ये पुरुषो दृश्यते सोऽहमस्मि स एवाहमस्मीति ॥ १ ॥",
+              "iast": "atha hainaṃ gārhapatyo 'nuśaśāsa pṛthivy agnir annam āditya iti ya eṣa āditye puruṣo dṛśyate so 'ham asmi sa evāham asmīti || 1 ||",
+              "english_translation": "Then the Gārhapatya fire instructed him: 'Earth, fire, food, and the sun (are my forms). The Person seen in the sun — I am he; indeed, I am he.'",
+              "commentaries": {
+                "advaita_vedanta": "The household fire discloses its cosmic identity, culminating in the Person in the sun — each fire is a thread leading from the ritual hearth to the universal Light.",
+                "vishishtadvaita": "The fire's 'I am he' declares the one Lord indwelling hearth and sun alike; worship at home touches the Person in the heavens.",
+                "dvaita_vedanta": "The fire identifies its empowering deity — the Lord's presence in the sun — never itself as independent."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एतमेवं विद्वानुपास्तेऽपहते पापकृत्यां लोकी भवति सर्वमायुरेति ज्योग्जीवति नास्यावरपुरुषाः क्षीयन्त उप वयं तं भुञ्जामोऽस्मिंश्च लोकेऽमुष्मिंश्च य एतमेवं विद्वानुपास्ते ॥ २ ॥",
+              "iast": "sa ya etam evaṃ vidvān upāste 'pahate pāpakṛtyāṃ lokī bhavati sarvam āyur eti jyog jīvati nāsyāvarapuruṣāḥ kṣīyanta upa vayaṃ taṃ bhuñjāmo 'smiṃś ca loke 'muṣmiṃś ca ya etam evaṃ vidvān upāste || 2 ||",
+              "english_translation": "He who, knowing thus, meditates on it, drives away evil deeds, wins a world, reaches a full span of life, and lives long; his descendants do not perish. 'We support him in this world and in the other' — him who, knowing thus, meditates on it.",
+              "commentaries": {
+                "advaita_vedanta": "The fires pledge their protection in both worlds; meditational fruits accompany the seeker until knowledge completes itself.",
+                "vishishtadvaita": "The Lord's ministers guarantee welfare here and hereafter to the devoted meditator.",
+                "dvaita_vedanta": "Blessings flow through the fire by the Lord's sanction — long life, posterity, and support beyond death."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 12,
+          "title": "The Anvāhāryapacana Fire's Teaching",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ हैनमन्वाहार्यपचनोऽनुशशासापो दिशो नक्षत्राणि चन्द्रमा इति य एष चन्द्रमसि पुरुषो दृश्यते सोऽहमस्मि स एवाहमस्मीति ॥ १ ॥",
+              "iast": "atha hainam anvāhāryapacano 'nuśaśāsāpo diśo nakṣatrāṇi candramā iti ya eṣa candramasi puruṣo dṛśyate so 'ham asmi sa evāham asmīti || 1 ||",
+              "english_translation": "Then the Anvāhāryapacana (southern) fire instructed him: 'Water, the quarters, the stars, and the moon (are my forms). The Person seen in the moon — I am he; indeed, I am he.'",
+              "commentaries": {
+                "advaita_vedanta": "The southern fire unfolds the watery, lunar line of the cosmos; the Person in the moon is the same Light under a second cosmic mask.",
+                "vishishtadvaita": "One indweller shines in sun and moon; the fires teach His many stations.",
+                "dvaita_vedanta": "Each fire names the Lord's presence in its own cosmic chain — moon as in sun."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एतमेवं विद्वानुपास्तेऽपहते पापकृत्यां लोकी भवति सर्वमायुरेति ज्योग्जीवति नास्यावरपुरुषाः क्षीयन्त उप वयं तं भुञ्जामोऽस्मिंश्च लोकेऽमुष्मिंश्च य एतमेवं विद्वानुपास्ते ॥ २ ॥",
+              "iast": "sa ya etam evaṃ vidvān upāste 'pahate pāpakṛtyāṃ lokī bhavati sarvam āyur eti jyog jīvati nāsyāvarapuruṣāḥ kṣīyanta upa vayaṃ taṃ bhuñjāmo 'smiṃś ca loke 'muṣmiṃś ca ya etam evaṃ vidvān upāste || 2 ||",
+              "english_translation": "He who, knowing thus, meditates on it, drives away evil deeds, wins a world, reaches a full span of life, and lives long; his descendants do not perish. 'We support him in this world and in the other' — him who, knowing thus, meditates on it.",
+              "commentaries": {
+                "advaita_vedanta": "The identical refrain — each fire gives the same pledge, for the goal of every chain is one.",
+                "vishishtadvaita": "The repeated promise shows the uniform generosity of the Lord through all His agents.",
+                "dvaita_vedanta": "Uniform fruits from different fires confirm a single granting Lord behind them."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 13,
+          "title": "The Āhavanīya Fire's Teaching",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ हैनमाहवनीयोऽनुशशास प्राण आकाशो द्यौर्विद्युदिति य एष विद्युति पुरुषो दृश्यते सोऽहमस्मि स एवाहमस्मीति ॥ १ ॥",
+              "iast": "atha hainam āhavanīyo 'nuśaśāsa prāṇa ākāśo dyaur vidyud iti ya eṣa vidyuti puruṣo dṛśyate so 'ham asmi sa evāham asmīti || 1 ||",
+              "english_translation": "Then the Āhavanīya fire instructed him: 'Breath, space, heaven, and lightning (are my forms). The Person seen in lightning — I am he; indeed, I am he.'",
+              "commentaries": {
+                "advaita_vedanta": "The offering fire completes the triad with the subtlest line — breath, space, heaven, lightning: the Person flashes nearest to the formless here.",
+                "vishishtadvaita": "The Lord in lightning is His swiftest, most dazzling station; the fires together have shown Him above, below, and between.",
+                "dvaita_vedanta": "Lightning's Person is the same Lord; the three fires have taught His threefold cosmic majesty."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एतमेवं विद्वानुपास्तेऽपहते पापकृत्यां लोकी भवति सर्वमायुरेति ज्योग्जीवति नास्यावरपुरुषाः क्षीयन्त उप वयं तं भुञ्जामोऽस्मिंश्च लोकेऽमुष्मिंश्च य एतमेवं विद्वानुपास्ते ॥ २ ॥",
+              "iast": "sa ya etam evaṃ vidvān upāste 'pahate pāpakṛtyāṃ lokī bhavati sarvam āyur eti jyog jīvati nāsyāvarapuruṣāḥ kṣīyanta upa vayaṃ taṃ bhuñjāmo 'smiṃś ca loke 'muṣmiṃś ca ya etam evaṃ vidvān upāste || 2 ||",
+              "english_translation": "He who, knowing thus, meditates on it, drives away evil deeds, wins a world, reaches a full span of life, and lives long; his descendants do not perish. 'We support him in this world and in the other' — him who, knowing thus, meditates on it.",
+              "commentaries": {
+                "advaita_vedanta": "Third pledge of the third fire: the meditations protect, but the gati — the final way — remains to be told by the teacher.",
+                "vishishtadvaita": "The fires bless; the human ācārya will crown their teaching with the path to the Lord.",
+                "dvaita_vedanta": "Welfare assured, the disciple still awaits the saving doctrine from his guru."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 14,
+          "title": "The Teacher Returns",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "ते होचुरुपकोसलैषा सोम्य तेऽस्मद्विद्यात्मविद्या चाचार्यस्तु ते गतिं वक्तेत्याजगाम हास्याचार्यस्तमाचार्योऽभ्युवादोपकोसल३ इति ॥ १ ॥",
+              "iast": "te hocur upakosalaiṣā somya te 'smadvidyātmavidyā cācāryas tu te gatiṃ vaktety ājagāma hāsyācāryas tam ācāryo 'bhyuvādopakosala3 iti || 1 ||",
+              "english_translation": "The fires said: 'Upakosala, gentle one, this is our knowledge and the knowledge of the Self; but the teacher will tell you the way.' Then his teacher returned, and the teacher addressed him: 'Upakosala!'",
+              "commentaries": {
+                "advaita_vedanta": "The fires themselves defer to the ācārya for the gati — the path. Even divine teachers honour the human lineage through which knowledge is sealed.",
+                "vishishtadvaita": "Cosmic instruction is incomplete without the ācārya's word on the way to the Lord — the school's cardinal principle.",
+                "dvaita_vedanta": "The fires teach truths; the guru alone, by the Lord's order, bestows the route of ascent."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "भगव इति ह प्रतिशुश्राव ब्रह्मविद इव सोम्य ते मुखं भाति को नु त्वानुशशासेति को नु मानुशिष्याद्भो इतीहापेव निह्नुत इमे नूनमीदृशा अन्यादृशा इतीहाग्नीनभ्यूदे किं नु सोम्य किल तेऽवोचन्निति ॥ २ ॥",
+              "iast": "bhagava iti ha pratiśuśrāva brahmavida iva somya te mukhaṃ bhāti ko nu tvānuśaśāseti ko nu mānuśiṣyād bho itīhāpeva nihnuta ime nūnam īdṛśā anyādṛśā itīhāgnīn abhyūde kiṃ nu somya kila te 'vocann iti || 2 ||",
+              "english_translation": "'Revered sir!' he answered. 'Gentle one, your face shines like one who knows Brahman. Who has taught you?' — 'Who indeed should teach me, sir?' he said, as if denying; and he glanced toward the fires, as if to say: 'these were thus, though now otherwise.' — 'What, gentle one, did they tell you?'",
+              "commentaries": {
+                "advaita_vedanta": "Again knowledge shows in the face. The student's delicate honesty — neither boasting of divine teachers nor lying — and his glance at the fires display perfect discipleship.",
+                "vishishtadvaita": "The radiant face is grace made visible; the student's modesty leaves the final word with his ācārya.",
+                "dvaita_vedanta": "Truthful even in reticence, the disciple credits the fires while submitting all to the guru's judgment."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "इदमिति ह प्रतिजज्ञे लोकान्वाव किल सोम्य तेऽवोचन्नहं तु ते तद्वक्ष्यामि यथा पुष्करपलाश आपो न श्लिष्यन्त एवमेवंविदि पापं कर्म न श्लिष्यत इति ब्रवीतु मे भगवानिति तस्मै होवाच ॥ ३ ॥",
+              "iast": "idam iti ha pratijajñe lokān vāva kila somya te 'vocann ahaṃ tu te tad vakṣyāmi yathā puṣkarapalāśa āpo na śliṣyanta evam evaṃvidi pāpaṃ karma na śliṣyata iti bravītu me bhagavān iti tasmai hovāca || 3 ||",
+              "english_translation": "'This,' he confessed (telling what they had taught). 'They told you only the worlds, gentle one; but I will tell you that (knowledge), knowing which, as water does not cling to the lotus leaf, so no evil deed clings to the knower.' — 'Tell me, revered sir.' And he said to him:",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara treasures the lotus-leaf image: action leaves no residue on the knower of the Self, for he no longer identifies with the doer. The fires gave worlds; the teacher gives that which frees from all worlds.",
+                "vishishtadvaita": "The teacher promises the vidyā that renders karma powerless — the soul surrendered to the Lord is untouched by sin, as the lotus leaf by water (the Gītā echoes this).",
+                "dvaita_vedanta": "Madhva: by the Lord's grace won through right knowledge, accrued karma slides off the devotee; the guru now teaches what the fires could not."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 15,
+          "title": "The Person in the Eye and the Path of Light",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "य एषोऽक्षिणि पुरुषो दृश्यत एष आत्मेति होवाचैतदमृतमभयमेतद्ब्रह्मेति तद्यद्यप्यस्मिन्सर्पिर्वोदकं वा सिञ्चति वर्त्मनी एव गच्छति ॥ १ ॥",
+              "iast": "ya eṣo 'kṣiṇi puruṣo dṛśyata eṣa ātmeti hovācaitad amṛtam abhayam etad brahmeti tad yady apy asmin sarpir vodakaṃ vā siñcati vartmanī eva gacchati || 1 ||",
+              "english_translation": "'The Person seen in the eye — this is the Self,' he said; 'this is the immortal, the fearless; this is Brahman. Even if one drops clarified butter or water into the eye, it flows away to the edges (leaving the eye unstained).'",
+              "commentaries": {
+                "advaita_vedanta": "The seer in the eye — the witness of seeing — is the Self, immortal and fearless. As the eye is unstained by what falls on it, the witness is untouched by experience: Śaṅkara's core teaching of the asaṅga (unattached) Self.",
+                "vishishtadvaita": "The Person in the eye is the Lord dwelling within the faculty of sight, immaculate as the eye that nothing can stain; meditation on Him there is the heart of this vidyā.",
+                "dvaita_vedanta": "Madhva identifies the akṣi-puruṣa as Viṣṇu seated in the eye — immortal, fearless, untouched — the object of the disciple's worship, distinct from the soul who sees by His light."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "एतं संयद्वाम इत्याचक्षत एतं हि सर्वाणि वामान्यभिसंयन्ति सर्वाण्येनं वामान्यभिसंयन्ति य एवं वेद ॥ २ ॥",
+              "iast": "etaṃ saṃyadvāma ity ācakṣata etaṃ hi sarvāṇi vāmāny abhisaṃyanti sarvāṇy enaṃ vāmāny abhisaṃyanti ya evaṃ veda || 2 ||",
+              "english_translation": "They call him Saṃyadvāma (the gatherer of blessings), for all blessings go toward him. All blessings go toward him who knows thus.",
+              "commentaries": {
+                "advaita_vedanta": "All excellences converge on the Self, the source of every value; the knower shares this convergence.",
+                "vishishtadvaita": "Every auspicious thing streams toward the Lord in the eye; His meditator becomes a confluence of blessings.",
+                "dvaita_vedanta": "The Lord is the meeting-point of all good; His worshipper receives what flows to Him."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "एष उ एव वामनीरेष हि सर्वाणि वामानि नयति सर्वाणि वामानि नयति य एवं वेद ॥ ३ ॥",
+              "iast": "eṣa u eva vāmanīr eṣa hi sarvāṇi vāmāni nayati sarvāṇi vāmāni nayati ya evaṃ veda || 3 ||",
+              "english_translation": "He is also Vāmanī (the leader of blessings), for he leads all blessings. He who knows thus leads all blessings.",
+              "commentaries": {
+                "advaita_vedanta": "The Self not only receives but distributes all good — and so does the one who knows it.",
+                "vishishtadvaita": "The Lord conducts blessings to all beings; His devotee becomes a channel of that bounty.",
+                "dvaita_vedanta": "Viṣṇu alone dispenses every excellence; the knower shares in His distribution."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "एष उ एव भामनीरेष हि सर्वेषु लोकेषु भाति सर्वेषु लोकेषु भाति य एवं वेद ॥ ४ ॥",
+              "iast": "eṣa u eva bhāmanīr eṣa hi sarveṣu lokeṣu bhāti sarveṣu lokeṣu bhāti ya evaṃ veda || 4 ||",
+              "english_translation": "He is also Bhāmanī (the shining one), for he shines in all worlds. He who knows thus shines in all worlds.",
+              "commentaries": {
+                "advaita_vedanta": "The Self is the light of all worlds; its knower is luminous everywhere — the threefold naming completes the meditation on the eye-Person.",
+                "vishishtadvaita": "The Lord's splendour fills the worlds, and His meditator radiates with borrowed glory.",
+                "dvaita_vedanta": "All cosmic light is the Lord's; the devotee reflects it in every world he attains."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अथ यदु चैवास्मिञ्शव्यं कुर्वन्ति यदि च नार्चिषमेवाभिसंभवन्त्यर्चिषोऽहरह्न आपूर्यमाणपक्षमापूर्यमाणपक्षाद्यान्षडुदङ्ङेति मासांस्तान्मासेभ्यः संवत्सरं संवत्सरादादित्यमादित्याच्चन्द्रमसं चन्द्रमसो विद्युतं तत्पुरुषोऽमानवः स एनान्ब्रह्म गमयत्येष देवपथो ब्रह्मपथ एतेन प्रतिपद्यमाना इमं मानवमावर्तं नावर्तन्ते नावर्तन्ते ॥ ५ ॥",
+              "iast": "atha yad u caivāsmiñ śavyaṃ kurvanti yadi ca nārciṣam evābhisaṃbhavanty arciṣo 'har ahna āpūryamāṇapakṣam āpūryamāṇapakṣād yān ṣaḍ udaṅṅ eti māsāṃs tān māsebhyaḥ saṃvatsaraṃ saṃvatsarād ādityam ādityāc candramasaṃ candramaso vidyutaṃ tat puruṣo 'mānavaḥ sa enān brahma gamayaty eṣa devapatho brahmapatha etena pratipadyamānā imaṃ mānavam āvartaṃ nāvartante nāvartante || 5 ||",
+              "english_translation": "Now, whether or not funeral rites are performed for such men, they pass into the flame; from the flame into the day; from the day into the bright fortnight; from the bright fortnight into the six months when the sun moves north; from the months into the year; from the year into the sun; from the sun into the moon; from the moon into the lightning. There a Person who is not human leads them to Brahman. This is the path of the gods, the path to Brahman. Those who proceed by it do not return to this human whirlpool — they do not return.",
+              "commentaries": {
+                "advaita_vedanta": "The devayāna — the path of light — carries the meditator stage by stage to brahmaloka, whence, says Śaṅkara, there is no return: liberation follows there in due course (krama-mukti). For the fully awakened, however, no path is needed at all; the path belongs to meditators on the qualified Brahman.",
+                "vishishtadvaita": "Rāmānuja's tradition reads this as the arcirādi-mārga in full: the amānava-puruṣa, the Lord's own messenger, takes the freed soul by the hand to the supreme abode, from which there is no return to saṃsāra — the charter text of Śrīvaiṣṇava eschatology.",
+                "dvaita_vedanta": "Madhva: the path of light is real and final for the qualified devotee; the non-human Person is the Lord's deputy who conducts the soul to Viṣṇu's world. The double negation — 'they do not return' — guarantees eternal residence with the Lord."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

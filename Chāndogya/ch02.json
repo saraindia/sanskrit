@@ -1,0 +1,74 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 2: Chapter 1, Section 3. Focusing on the cosmic and prānic identity of the Udgītha.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_1": {
+      "sections": [
+        {
+          "section_number": 3,
+          "title": "The Cosmic and Internal Correlations of the Udgītha",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "तमु ह एतमुद्गीथमुपासीतोष्णं वा एतमुद्गीथमुपासीत। य एवासौ तपति तमुद्गीथमुपासीत यो वै सोऽसौ स एवोष्णस्तस्मादेतमुद्गीथमुपासीत ॥ १ ॥",
+              "iast": "tamu ha etamudgīthamupāsītoṣṇaṃ vā etamudgīthamupāsīta | ya evāsau tapati tamudgīthamupāsīta yo vai so'sau sa evoṣṇastasmādetamudgīthamupāsīta || 1 ||",
+              "english_translation": "One should meditate on this very Udgītha as that which gives out heat. One should meditate on the Udgītha as yonder Sun that shines. Truly, he is warm, and this chief vital breath is also warm. Therefore, one should meditate on both as the Udgītha.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that this verse initiates an upāsanā (meditation) based on identity of attributes (*guṇa-sāmānya*). The individual life-force (*Mukhya Prāṇa*) inside the body is warm, and the cosmic Sun (*Aditya*) in the heavens is also warm. The attribute of heat (*uṣṇatva*) unifies the macrocosm and the microcosm. By meditating on this common denominator, the seeker expands their individual consciousness into cosmic consciousness, realizing that the light animating the body is identical to the light illuminating the universe.",
+                "vishishtadvaita": "Raṅgarāmānuja interprets the heat and light of both the Sun and the Prāṇa as manifestations of the divine energy (*Vibhūti*) of the Supreme Lord. The Sun is not merely a physical sphere, but a cosmic eye of Nārāyaṇa, while Prāṇa is His internal vehicle. The meditation acts as a way to view both the internal life-force and the external universe as functional limbs of the single, sovereign cosmic body of God.",
+                "dvaita_vedanta": "Madhvācārya points out that the word 'sau' (yonder Sun) refers to the deity Sūrya, who is powered by an indwelling form of Lord Viṣṇu. Similarly, the heat in the body is driven by Viṣṇu acting through Mukhya Prāṇa. The meditation emphasizes the dependent nature of both the solar deity and the vital breath, directing the soul's focus past the physical elements to the Independent Lord who warms them both."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "नमेवमनेन चामुना चोभौ समानौ। अयं च सो चोष्णः। अयं च सो च स्वर इतीममाहुः। स्वर इति प्रत्यास्वर इत्यमुं तस्माद्वा एतमुद्गीथमुपासीत ॥ २ ॥",
+              "iast": "namevamanena cāmunā cobhau samānau | ayaṃ ca so coṣṇaḥ | ayaṃ ca so ca svara itīmamāhuḥ | svara iti pratyāsvara ityamuṃ tasmādvā etamudgīthamupāsīta || 2 ||",
+              "english_translation": "One should realize: 'This (Prāṇa) and That (Sun) are exactly the same.' This is warm, and That is warm. This is called sound (Svara), and That is called moving sound or reflection (Pratyāsvara). Therefore, one should meditate on this and that as the Udgītha.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the linguistic and functional parallels. Prāṇa is called *Svara* because it produces vocal sound and is self-manifested in the body. The Sun is called *Pratyāsvara* because it sets and returns day after day, acting like a recurring reflection of light. The underlying reality behind both the sound of life and the light of heaven is the non-dual Brahman. This meditation breaks down the artificial barrier between 'inside' and 'outside'.",
+                "vishishtadvaita": "The equality (*samānatva*) mentioned here does not mean absolute ontological identity, but a perfect functional harmony designed by the Lord. Raṅgarāmānuja notes that the synchronization of internal life rhythms (*Svara*) with external solar movements (*Pratyāsvara*) is proof of a singular, divine cosmic order controlled by the Supreme Ruler.",
+                "dvaita_vedanta": "Madhva explains that *Svara* and *Pratyāsvara* are names of specific divine forms of Lord Viṣṇu residing within the Prāṇa and the Sun respectively. The meditation is intended to show that the identical Supreme Power operates seamlessly across different planes of creation, ensuring that the seeker respects the unified hierarchy of the universe."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अथ खलु व्यानमेवोद्गीथमुपासीत यद्वै प्राणिति स प्राणो यदपानिति सोऽपानः। अथ यः प्राणापानयोः सन्धिः स व्यानो यो व्यानः सा वाक्तस्मादप्राणन्ननपानन्वाचमभिव्याहरति ॥ ३ ॥",
+              "iast": "atha khalu vyānamevodgīthamupāsīta yadvai prāṇiti sa prāṇo yadapāniti so'pānaḥ | atha yaḥ prāṇāpānayoḥ sandhiḥ sa vyāno yo vyānaḥ sā vāktasmādaprāṇannanapānandvācamabhivyāharati || 3 ||",
+              "english_translation": "Now, indeed, one should meditate on Vyāna as the Udgītha. That which one breathes out is Prāṇa; that which one breathes in is Apāna. The junction of Prāṇa and Apāna is Vyāna. This Vyāna is speech. Therefore, when a person speaks, they neither breathe out nor breathe in; they speak while holding both.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara provides a profound physiological and psychological analysis of the breath. *Prāṇa* is the outward breath; *Apāna* is the inward breath. The quiet interval or gap where these two currents meet is *Vyāna*, the pervasive vital force. Speech requires a person to hold their breath—meaning all speech happens exclusively within the quiet space of Vyāna. By focusing on Vyāna during the Udgītha, the practitioner is actually meditating on the still, unmoving pause between actions, which points directly to the silent witness, the Ātman.",
+                "vishishtadvaita": "Raṅgarāmānuja highlights the precision of the body's internal engineering. Vyāna is an specialized energy stream supplied by the Lord to sustain difficult, coordinated physical tasks like speech and sacred chanting. Meditating on Vyāna helps the devotee realize that even the silent, physical transitions of the body are powered by a higher grace meant for divine praise.",
+                "dvaita_vedanta": "Madhva views Prāṇa, Apāna, and Vyāna as distinct sub-deities working under the leadership of Mukhya Prāṇa. Vyāna holds a unique position because it acts as the bridge (*sandhi*). Meditating on Vyāna means worshiping the specific coordinating aspect of the life-force, acknowledging that all communicative power belongs ultimately to the Lord dwelling inside the breath."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "या वाक्सर्क् तस्मादप्राणन्ननपानन्नृचमभिव्याहरति यर्क् तत्साम तस्मादप्राणन्ननपानन्साम गायति यत्साम स उद्गीथस्तस्मादप्राणन्ननपानन्नुद्गायति ॥ ४ ॥",
+              "iast": "yā vāksark tasmādaprāṇannanapānannṛcamabhivyāharati yark tatsāma tasmādaprāṇannanapānansāma gāyati yatsāma sa udgīthastasmādaprāṇannanapānannudgāyati || 4 ||",
+              "english_translation": "What is speech is the Rik (verse). Therefore, one recites the Rik without breathing out or breathing in. What is Rik is the Sāman (chant). Therefore, one sings the Sāman without breathing out or breathing in. What is Sāman is the Udgītha (OM). Therefore, one chants the Udgītha without breathing out or breathing in.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara demonstrates that the entire Vedic liturgical framework (Rik, Sāman, Udgītha) is entirely sustained by this internal, non-breathing state of *Vyāna*. Because sacred chanting requires the suspension of normal inhalation and exhalation, it mimics the process of *Prāṇāyāma* (breath control). Thus, every vocal ritual action is rooted in an effortless internal stillness, revealing that ritualism is secretly an inner meditation.",
+                "vishishtadvaita": "This verse reinforces the idea that scriptural worship is an intense, single-pointed physical and mental offering. The suspension of normal breathing during the loud chant shows that the physical organs must be completely controlled and bound together in absolute concentration when addressing the Supreme Lord.",
+                "dvaita_vedanta": "Madhva emphasizes the hierarchical chain of dependencies: Speech supports the Rik, Rik supports the Sāman, and Sāman supports the Udgītha. Since all of these operations happen through Vyāna, it proves that the presiding deity of Vyāna is a major cosmic facilitator of Vedic wisdom, acting on behalf of Lord Nārāyaṇa."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अतो यान्यान्यन्यानि वीर्यवन्ति कर्माणि यथाग्नेर्मन्थनं आजेः सरणं दृढस्य धनुष आयमनमप्राणन्ननपानंस्तानि करोत्यतस्य हेतोरव्यानमेवोद्गीथमुपासीत ॥ ५ ॥",
+              "iast": "ato yānyānyanyāni vīryavanti karmāṇi yathāgnermanthanaṃ ājeḥ saraṇaṃ dṛḍhasya dhanuṣa āyamanamaprāṇannanapānaṃstāni karotyatasya hetoravyānamevodgīth0hupāsīta || 5 ||",
+              "english_translation": "Therefore, any other actions that require exceptional strength—such as rubbing two sticks together to strike fire, running a race, or bending a stiff, heavy bow—are all performed without breathing out or breathing in. For this reason, one should meditate on Vyāna as the Udgītha.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara uses everyday, physical examples to make the spiritual point accessible. When a person performs a feat of immense strength, they automatically hold their breath. This internal concentration of energy (*vīrya*) is the natural expression of *Vyāna*. By linking the cosmic Udgītha to this concentrated pocket of power, the text instructs the seeker to locate the core of spiritual strength not in superficial physical movements, but in the deep, concentrated stillness within.",
+                "vishishtadvaita": "The school notes that worldly acts of power confirm the sacred nature of Vyāna. If material success requires the focused holding of energy, spiritual liberation requires an even deeper concentration of the soul's faculties. The physical exertion of holding the breath is a natural signpost pointing toward the internal effort needed for *Bhakti*.",
+                "dvaita_vedanta": "Madhva asserts that all physical strength (*Bala*) in the universe belongs originally to Lord Viṣṇu, who manifests it in the living world through Mukhya Prāṇa (often called Prāṇa-Bala). The acts of striking fire, racing, or pulling a bow show how this divine energy is lent to human beings through the sub-deity Vyāna."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

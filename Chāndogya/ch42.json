@@ -1,0 +1,146 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 42: Chapter 3, Sections 14–15. The celebrated Śāṇḍilya-vidyā ('All this is Brahman') and the imperishable cosmic chest.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_3": {
+      "sections": [
+        {
+          "section_number": 14,
+          "title": "Śāṇḍilya-Vidyā — All This Is Brahman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ खलु क्रतुमयः पुरुषो यथाक्रतुरस्मिँल्लोके पुरुषो भवति तथेतः प्रेत्य भवति स क्रतुं कुर्वीत ॥ १ ॥",
+              "iast": "sarvaṃ khalv idaṃ brahma tajjalān iti śānta upāsīta | atha khalu kratumayaḥ puruṣo yathākratur asmiṁl loke puruṣo bhavati tathetaḥ pretya bhavati sa kratuṃ kurvīta || 1 ||",
+              "english_translation": "All this, verily, is Brahman, for from It all arises (ja), into It all dissolves (la), and in It all breathes (an) — thus tranquil, one should meditate. Now, a person consists of will (kratu); as is a person's will in this world, so does he become on departing hence. Let him therefore form his will.",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara's reading of 'tajjalān': the world is born from, dissolves into, and lives in Brahman — hence nothing exists apart from It. 'Sarvaṃ khalv idaṃ brahma' is for him a direct statement of non-duality: the universe has no being independent of Brahman, as pots have none apart from clay. Tranquillity (śānta) is the prerequisite, for only a stilled mind can entertain the identity. The doctrine of kratu teaches that meditation shapes destiny — until knowledge dawns and destiny itself is transcended.",
+                "vishishtadvaita": "Rāmānuja treats this text as central: all this is Brahman because all — souls and matter — constitutes His body, arising from, sustained by, and dissolving into Him. The identity is the identity of body and embodied, not the erasure of distinction. The injunction to 'form one's will' commands śaraṇāgati-infused meditation: as one resolves on the Lord here, so one attains Him hereafter.",
+                "dvaita_vedanta": "Madhva interprets: all this is 'Brahman' in the sense that all depends utterly on Viṣṇu for origin, maintenance, and dissolution — not that all is identical with Him. The tranquil meditator contemplates the Lord's universal causality. The kratu doctrine affirms that the soul's fixed devotion to the Lord here determines its attainment hereafter."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "मनोमयः प्राणशरीरो भारूपः सत्यसंकल्प आकाशात्मा सर्वकर्मा सर्वकामः सर्वगन्धः सर्वरसः सर्वमिदमभ्यात्तोऽवाक्यनादरः ॥ २ ॥",
+              "iast": "manomayaḥ prāṇaśarīro bhārūpaḥ satyasaṃkalpa ākāśātmā sarvakarmā sarvakāmaḥ sarvagandhaḥ sarvarasaḥ sarvam idam abhyātto 'vāky anādaraḥ || 2 ||",
+              "english_translation": "He who consists of mind, whose body is the vital breath, whose form is light, whose resolve is truth, whose self is space; who contains all actions, all desires, all odours, all tastes; who embraces all this, who speaks not, who is without eagerness —",
+              "commentaries": {
+                "advaita_vedanta": "The attributes describe Brahman as grasped through the mind in the heart: luminous, of unfailing will, subtle as space. 'Embracing all, yet silent and unconcerned' — Brahman pervades everything while remaining actionless witness. Śaṅkara takes these qualities as aids for meditation (upāsanā), provisional pointers to the attributeless Reality.",
+                "vishishtadvaita": "These are the Lord's auspicious attributes (kalyāṇa-guṇas), each literally true: His resolve is never frustrated (satyasaṃkalpa), His form is luminous, He pervades like space, He contains all. Rāmānuja insists they are real qualities of the personal Brahman, the object of loving meditation.",
+                "dvaita_vedanta": "Madhva reads each epithet as a real, infinite perfection of Viṣṇu — His true will, His luminous body of consciousness-bliss, His containment of all things as their inner ruler. The silence and non-eagerness signify His utter self-sufficiency."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "एष म आत्मान्तर्हृदयेऽणीयान्व्रीहेर्वा यवाद्वा सर्षपाद्वा श्यामाकाद्वा श्यामाकतण्डुलाद्वैष म आत्मान्तर्हृदये ज्यायान्पृथिव्या ज्यायानन्तरिक्षाज्ज्यायान्दिवो ज्यायानेभ्यो लोकेभ्यः ॥ ३ ॥",
+              "iast": "eṣa ma ātmāntar hṛdaye 'ṇīyān vrīher vā yavād vā sarṣapād vā śyāmākād vā śyāmākataṇḍulād vaiṣa ma ātmāntar hṛdaye jyāyān pṛthivyā jyāyān antarikṣāj jyāyān divo jyāyān ebhyo lokebhyaḥ || 3 ||",
+              "english_translation": "This is my Self within the heart, smaller than a grain of rice, than a barley-corn, than a mustard seed, than a millet grain, than the kernel of a millet grain. This is my Self within the heart, greater than the earth, greater than the mid-region, greater than heaven, greater than all these worlds.",
+              "commentaries": {
+                "advaita_vedanta": "The paradox of smaller-than-small and greater-than-great shatters spatial thinking: the Self has no size, being the infinite ground of all sizes. 'My Self' (ma ātmā) is decisive for Śaṅkara — the Brahman meditated upon is not another, but one's own innermost Self.",
+                "vishishtadvaita": "The Lord, subtle enough to dwell in the heart's core, is simultaneously vaster than all worlds — His omnipresence and accessibility together. 'My Self' means 'the Self of my self', the inner controller of the soul.",
+                "dvaita_vedanta": "Madhva: the indwelling Viṣṇu is atomic in His presence within the heart yet infinite in His cosmic majesty — both literally true of the Lord, who is distinct from the finite soul He inhabits."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "सर्वकर्मा सर्वकामः सर्वगन्धः सर्वरसः सर्वमिदमभ्यात्तोऽवाक्यनादर एष म आत्मान्तर्हृदय एतद्ब्रह्मैतमितः प्रेत्याभिसंभवितास्मीति यस्य स्यादद्धा न विचिकित्सास्तीति ह स्माह शाण्डिल्यः शाण्डिल्यः ॥ ४ ॥",
+              "iast": "sarvakarmā sarvakāmaḥ sarvagandhaḥ sarvarasaḥ sarvam idam abhyātto 'vāky anādara eṣa ma ātmāntar hṛdaya etad brahmaitam itaḥ pretyābhisaṃbhavitāsmīti yasya syād addhā na vicikitsāstīti ha smāha śāṇḍilyaḥ śāṇḍilyaḥ || 4 ||",
+              "english_translation": "Containing all actions, all desires, all odours, all tastes, embracing all this, speechless, without eagerness — this is my Self within the heart; this is Brahman. Into Him I shall enter on departing hence. He who has this faith has indeed no doubt. Thus spoke Śāṇḍilya — yes, Śāṇḍilya.",
+              "commentaries": {
+                "advaita_vedanta": "The vidyā closes with certainty: 'I shall become Him' — for Śaṅkara, the meditator's conviction ripens into the knowledge that he already is That. Freedom from doubt (na vicikitsā) is the mark of mature realisation. The sage's name is repeated to honour the teaching's authority.",
+                "vishishtadvaita": "The devotee's assurance — 'departing hence, I shall attain Him' — is the fruit of unwavering faith in the indwelling Lord; he reaches Brahman and shares His bliss without losing individuality.",
+                "dvaita_vedanta": "Madhva underscores 'abhisaṃbhavitāsmi' as attainment, not merger: the soul reaches Viṣṇu's presence and abides with Him eternally. Firm faith free of doubt is itself the Lord's gift to the elect."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 15,
+          "title": "The Imperishable Chest — A Father's Prayer for His Son",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अन्तरिक्षोदरः कोशो भूमिबुध्नो न जीर्यति दिशो ह्यस्य स्रक्तयो द्यौरस्योत्तरं बिलं स एष कोशो वसुधानस्तस्मिन्विश्वमिदं श्रितम् ॥ १ ॥",
+              "iast": "antarikṣodaraḥ kośo bhūmibudhno na jīryati diśo hy asya sraktayo dyaur asyottaraṃ bilaṃ sa eṣa kośo vasudhānas tasmin viśvam idaṃ śritam || 1 ||",
+              "english_translation": "There is a chest whose belly is the mid-region and whose bottom is the earth; it never decays. Its corners are the quarters of the sky, and its upper opening is heaven. This chest is the treasury; within it rests this whole universe.",
+              "commentaries": {
+                "advaita_vedanta": "The cosmos is imaged as one undecaying receptacle — a meditation that gathers the scattered world into a single whole, pointing toward the one substratum holding all.",
+                "vishishtadvaita": "The cosmic chest is the Lord's treasury, His body containing all wealth of beings; nothing exists outside His containment.",
+                "dvaita_vedanta": "The undecaying container reflects the Lord's sustaining power; the universe rests in Him though He is untouched by its changes."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्य प्राची दिग्जुहूर्नाम सहमाना नाम दक्षिणा राज्ञी नाम प्रतीची सुभूता नामोदीची तासां वायुर्वत्सः स य एतमेवं वायुं दिशां वत्सं वेद न पुत्ररोदं रोदिति सोऽहमेतमेवं वायुं दिशां वत्सं वेद मा पुत्ररोदं रुदम् ॥ २ ॥",
+              "iast": "tasya prācī dig juhūr nāma sahamānā nāma dakṣiṇā rājñī nāma pratīcī subhūtā nāmodīcī tāsāṃ vāyur vatsaḥ sa ya etam evaṃ vāyuṃ diśāṃ vatsaṃ veda na putrarodaṃ roditi so 'ham etam evaṃ vāyuṃ diśāṃ vatsaṃ veda mā putrarodaṃ rudam || 2 ||",
+              "english_translation": "Its eastern quarter is named Juhū (the offering ladle), the southern Sahamānā (the enduring), the western Rājñī (the queen), the northern Subhūtā (the prosperous). Their calf is the wind. He who knows the wind thus as the calf of the quarters does not weep for a son. 'I know the wind thus as the calf of the quarters — may I not weep for a son.'",
+              "commentaries": {
+                "advaita_vedanta": "The vidyā is taught as a protective meditation for a father: knowing the wind — the cosmic life that never perishes — one is shielded from the grief of losing what lives by it.",
+                "vishishtadvaita": "The named quarters are the Lord's powers; the wind, His breath, is their child. The father entrusts his son to the Lord's all-sustaining life and is freed from fear.",
+                "dvaita_vedanta": "Vāyu, dearest of the Lord's servants, is the life of the directions; invoking him under Viṣṇu's authority protects one's lineage."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अरिष्टं कोशं प्रपद्येऽमुनामुनामुना प्राणं प्रपद्येऽमुनामुनामुना भूः प्रपद्येऽमुनामुनामुना भुवः प्रपद्येऽमुनामुनामुना स्वः प्रपद्येऽमुनामुनामुना ॥ ३ ॥",
+              "iast": "ariṣṭaṃ kośaṃ prapadye 'munāmunāmunā prāṇaṃ prapadye 'munāmunāmunā bhūḥ prapadye 'munāmunāmunā bhuvaḥ prapadye 'munāmunāmunā svaḥ prapadye 'munāmunāmunā || 3 ||",
+              "english_translation": "'I take refuge in the imperishable chest with this one, this one, this one (naming the son). I take refuge in the prāṇa with this one, this one, this one. I take refuge in Bhūḥ... in Bhuvaḥ... in Svaḥ with this one, this one, this one.'",
+              "commentaries": {
+                "advaita_vedanta": "The thrice-repeated 'with this one' places the son under each cosmic shelter by name; refuge (prapatti) in the undecaying whole secures what is fragile.",
+                "vishishtadvaita": "A model of śaraṇāgati: the father performs formal surrender of his child to the Lord's cosmic forms — chest, breath, and the three worlds.",
+                "dvaita_vedanta": "Refuge is sought in the Lord through His manifestations; the repetition of the son's name commits him to divine protection."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "स यदवोचं प्राणं प्रपद्य इति प्राणो वा इदं सर्वं भूतं यदिदं किञ्च तमेव तत्प्रापत्सि ॥ ४ ॥",
+              "iast": "sa yad avocaṃ prāṇaṃ prapadya iti prāṇo vā idaṃ sarvaṃ bhūtaṃ yad idaṃ kiñca tam eva tat prāpatsi || 4 ||",
+              "english_translation": "When I said 'I take refuge in the prāṇa', it is because the prāṇa is all this, whatever exists — so it was in That alone that I took refuge.",
+              "commentaries": {
+                "advaita_vedanta": "Prāṇa here stands for the universal Life — Brahman as the breath of all; refuge in it is refuge in the All.",
+                "vishishtadvaita": "The universal prāṇa is the Lord as inner sustainer of every creature; surrender to Him is total shelter.",
+                "dvaita_vedanta": "All beings live by the Lord's breath; refuge in prāṇa is refuge in Viṣṇu through His chief instrument."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अथ यदवोचं भूः प्रपद्य इति पृथिवीं प्रपद्येऽन्तरिक्षं प्रपद्ये दिवं प्रपद्य इत्येव तदवोचम् ॥ ५ ॥",
+              "iast": "atha yad avocaṃ bhūḥ prapadya iti pṛthivīṃ prapadye 'ntarikṣaṃ prapadye divaṃ prapadya ity eva tad avocam || 5 ||",
+              "english_translation": "And when I said 'I take refuge in Bhūḥ', what I said was: I take refuge in the earth, I take refuge in the mid-region, I take refuge in heaven.",
+              "commentaries": {
+                "advaita_vedanta": "The vyāhṛti 'Bhūḥ' compresses the three worlds; the mantra's power lies in its condensed truth.",
+                "vishishtadvaita": "The sacred utterance unfolds into the Lord's threefold cosmic domain, all of it shelter.",
+                "dvaita_vedanta": "Each vyāhṛti names a sphere of the Lord's governance in which protection is sought."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "अथ यदवोचं भुवः प्रपद्य इत्यग्निं प्रपद्ये वायुं प्रपद्य आदित्यं प्रपद्य इत्येव तदवोचम् ॥ ६ ॥",
+              "iast": "atha yad avocaṃ bhuvaḥ prapadya ity agniṃ prapadye vāyuṃ prapadya ādityaṃ prapadya ity eva tad avocam || 6 ||",
+              "english_translation": "And when I said 'I take refuge in Bhuvaḥ', what I said was: I take refuge in fire, I take refuge in the wind, I take refuge in the sun.",
+              "commentaries": {
+                "advaita_vedanta": "The second utterance gathers the luminaries — the world's powers of light and life — as forms of the one refuge.",
+                "vishishtadvaita": "Fire, wind, and sun are the Lord's radiant officers; refuge in them is refuge in their Master.",
+                "dvaita_vedanta": "The gods named serve Viṣṇu; shelter sought through them rests finally in Him."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "अथ यदवोचं स्वः प्रपद्य इत्यृग्वेदं प्रपद्ये यजुर्वेदं प्रपद्ये सामवेदं प्रपद्य इत्येव तदवोचं तदवोचम् ॥ ७ ॥",
+              "iast": "atha yad avocaṃ svaḥ prapadya ity ṛgvedaṃ prapadye yajurvedaṃ prapadye sāmavedaṃ prapadya ity eva tad avocaṃ tad avocam || 7 ||",
+              "english_translation": "And when I said 'I take refuge in Svaḥ', what I said was: I take refuge in the Ṛgveda, I take refuge in the Yajurveda, I take refuge in the Sāmaveda. That is what I said — that is what I said.",
+              "commentaries": {
+                "advaita_vedanta": "The final refuge is the Veda itself — the breath of the Real in the form of knowledge. The repetition closes the protective vidyā.",
+                "vishishtadvaita": "The three Vedas are the Lord's word; to shelter in them is to rest in His revealed grace.",
+                "dvaita_vedanta": "The eternal Vedas, whose import is Viṣṇu, are the surest refuge; the doubling affirms the rite's completion."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

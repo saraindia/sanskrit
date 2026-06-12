@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 17: Chapter 2, Section 5. The Fivefold Sāman Meditation on the Seasons (Ṛtuṣu Pañcavidha Sāmopāsanam). This section provides a framework for meditating on the annual wheel of time, mapping the progression of the seasons to the structural parts of the Sāman chant.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 5,
+          "title": "The Fivefold Sāman Meditation on the Seasons",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "ऋतुषु पञ्चविधं सामोपासीत वसन्तो हिंकारो ग्रीष्मः प्रस्तावो वर्षा उद्गीथः शरत्प्रतिहारो हेमन्तो निधनम् ॥ १ ॥",
+              "iast": "ṛtuṣu pañcavidaṃ sāmopāsieta vasanto hiṃkāro grīṣmaḥ prastāvo varṣā udgīthaḥ śaratpratihāro hemanto nidhanam || 1 ||",
+              "english_translation": "One should meditate on the fivefold Sāman in the seasons. Spring is the introductory syllable 'Hiṃ'; Summer is the introductory praise (Prastāva); the Rainy Season is the loud chant (Udgītha); Autumn is the response (Pratihāra); and Winter is the finale (Nidhana).",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that after mapping the physical layout of spatial worlds, rain, and planetary waters, the Upanishad directs the seeker's attention to the dimension of Time through the annual cycle of seasons (*ṛtus*). The five movements of the chant are mapped onto this natural wheel. Spring (*Vasanta*) is the *Hiṃkāra* because it marks the initialization, rebirth, and opening of the agricultural and natural year. Summer (*Grīṣma*) represents the *Prastāva*, a period of intensifying solar heat and preparation. The Rainy Season (*Varṣā*) is mapped to the *Udgītha* because it is the vital, life-sustaining climax that brings crops to fruition, matching the central importance of *Udgītha* in the liturgy. Autumn (*Śarat*) is the *Pratihāra*, a time of harvest and collection. Winter (*Hemanta*) acts as the *Nidhana* because it brings a withdrawal of energy, a freeze in outer growth, and a quiet state of rest where nature returns to its seeds.",
+                "vishishtadvaita": "Raṅgarāmānuja structuralizes this sequence as the rhythmic heartbeat of the Supreme Lord's temporal manifestation. Time is not a destructive, blind force; it is an ordered melody. By identifying the seasonal shifts with the components of the Sāman, the devotee recognizes that whether life is in a phase of abundant growth (Rainy/Udgītha) or frozen dormancy (Winter/Nidhana), the entire process is a harmonious expression of divine administration working for the ultimate refinement of the soul.",
+                "dvaita_vedanta": "Madhvācārya observes that time is entirely dependent on the independent will of Lord Viṣṇu, who commands specific cosmic deities (*Kālātmaka Devatās*) to govern each season. The transitioning of seasons ensures that the material world cycles smoothly between production and rest. Meditating on this fivefold framework prevents the soul from lamenting structural changes like aging or hardship, as all shifts are seen as parts of a grand, divinely managed arrangement."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "कल्पन्ते हास्मै ऋतव ऋतुमान्भवति य एतदेवं विद्वानृतुषु पञ्चविधं सामोपास्ते ॥ २ ॥",
+              "iast": "kalpante hāsmai ṛtava ṛtumānbhavati ya etadevaṃ vidvānṛtuṣu pañcavidaṃ sāmopāste || 2 ||",
+              "english_translation": "The seasons become supportive and fully available to him, and he becomes rich in the virtues of the seasons—he who knows this truth and meditates on the fivefold Sāman across the seasons.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the precise reward (*Phala*): *kalpante hāsmai ṛtavaḥ* (the seasons serve or conform to him). For an unillumined mind, time is an external tyrant that brings decay, anxiety, and unfulfilled desires. However, for a sage who meditates on the underlying Sāman harmony within time, the seasons lose their hostile or binding power. He becomes *ṛtumān*—master of the seasonal laws, internally stable and undisturbed by outer fluctuations, experiencing the eternal present.",
+                "vishishtadvaita": "The school highlights that being 'rich in the virtues of the seasons' means the devotee's life becomes entirely fruitful and balanced. Just as each season brings its unique gift to the earth, the devotee's character flourishes with appropriate spiritual virtues at every stage of their life, completely aligned with the divine rhythm.",
+                "dvaita_vedanta": "Madhva explains that an enlightened practitioner who understands how the independent Lord coordinates the wheel of time through His administrative deities is granted an unshakeable state of peace. They are freed from the suffering caused by seasonal changes or worldly transitions, as their intellect is securely anchored in the eternal, unchanging nature of God."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

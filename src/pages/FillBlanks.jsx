@@ -14,7 +14,6 @@ export default function FillBlanks() {
   const vocabData = useVocabularyData()
   const sentData  = useSentenceData()
   const fillBlanks      = sentData?.fill_blanks       || []
-  const grammarConcepts = vocabData?.grammar_concepts || {}
   const { recordAnswer, progress } = useProgress()
   const [currentIdx, setCurrentIdx]   = useState(0)
   const [selected, setSelected]       = useState(null)
@@ -30,11 +29,25 @@ export default function FillBlanks() {
     return freshOrder(list, progress.srs)
   }, [fillBlanks, levelFilter, round]) // eslint-disable-line react-hooks/exhaustive-deps
 
+  // Devanagari → English lookup for option meanings (with stem fallbacks
+  // so inflected forms like बालः / फलम् still match the vocab entry)
+  const vocabEnglish = useMemo(() => {
+    const m = {}
+    for (const v of vocabData?.vocabulary || []) m[v.devanagari] = v.english
+    return m
+  }, [vocabData])
+  const meaningOf = (w) =>
+    vocabEnglish[w] ||
+    vocabEnglish[w.replace(/[ःं]$/, '')] ||
+    vocabEnglish[w.replace(/म्$/, '')] ||
+    null
+
   const q = questions[currentIdx]
   const { speak } = useSpeech()
   const { play } = useSoundEffects()
 
   const handleSelect = (opt) => {
+    speak(opt)                    // hear the word on every tap
     if (confirmed) return
     setSelected(opt)
   }
@@ -93,10 +106,19 @@ export default function FillBlanks() {
   const isCorrect = confirmed && selected === q.blank
   const isWrong   = confirmed && selected !== q.blank
 
-  // Transliteration helpers
+  // English translation shown after reveal — falls back to the hint with its
+  // blank filled in when the question has no explicit english field
+  const blankEnglishPlain = (q.blank_english || meaningOf(q.blank) || '').replace(/\s*\(.*\)$/, '')
+  const revealedEnglish = q.english
+    || (q.hint?.includes('___') && blankEnglishPlain
+          ? q.hint.split('___').join(blankEnglishPlain)
+          : q.hint)
+
+  // Transliteration helpers — toIAST trims each piece, so join with spaces
   const sentenceIast = confirmed
     ? toIAST(q.template.replace('_____', q.blank))
-    : toIAST(parts[0]) + (selected ? toIAST(selected) : '…') + toIAST(parts[1])
+    : [toIAST(parts[0]), selected ? toIAST(selected) : '_____', toIAST(parts[1])]
+        .filter(Boolean).join(' ')
 
   return (
     <div className="fillblanks anim-fade-up">
@@ -126,27 +148,27 @@ export default function FillBlanks() {
         {confirmed ? (
           <div className="fb-sentence-wrap">
             <div className="fb-sentence devanagari" style={{display:'flex',alignItems:'center',gap:'0.75rem',flexWrap:'wrap'}}>
-              <ClickableSentence text={q.template.replace('_____', q.blank)} />
+              <ClickableSentence text={q.template.replace('_____', q.blank)} vocabulary={vocabData?.vocabulary} />
               <button className="speak-btn" title="Hear sentence" onClick={() => speak(q.template.replace('_____', q.blank))}><SpeakIcon /></button>
             </div>
             <div className="fb-iast">{sentenceIast}</div>
-            {q.english && <div className="fb-english">{q.english}</div>}
+            <div className="fb-english">{revealedEnglish}</div>
           </div>
         ) : (
           <div className="fb-sentence-wrap">
             <div className="fb-sentence devanagari" style={{display:'flex',alignItems:'center',gap:'0.75rem',flexWrap:'wrap'}}>
               <button className="speak-btn" title="Hear sentence" onClick={() => speak(q.template.replace('_____', q.blank))}><SpeakIcon /></button>
-              {parts[0]}
+              {parts[0].trim() && <ClickableSentence text={parts[0]} vocabulary={vocabData?.vocabulary} />}
               <span className={`fb-blank ${selected ? 'filled' : ''}`}>
                 {selected || '_____'}
               </span>
-              {parts[1]}
+              {parts[1].trim() && <ClickableSentence text={parts[1]} vocabulary={vocabData?.vocabulary} />}
             </div>
             <div className="fb-iast">{sentenceIast}</div>
           </div>
         )}
 
-        <div className="fb-hint">{q.hint}</div>
+        {!confirmed && <div className="fb-hint">{q.hint}</div>}
 
         {/* Options */}
         <div className="fb-options">
@@ -161,6 +183,7 @@ export default function FillBlanks() {
             return (
               <button key={opt} className={cls} onClick={() => handleSelect(opt)}>
                 <span className="fb-option-deva devanagari">{opt}</span>
+                {meaningOf(opt) && <span className="fb-option-eng">{meaningOf(opt)}</span>}
                 <span className="fb-option-iast">{toIAST(opt)}</span>
               </button>
             )
@@ -170,17 +193,10 @@ export default function FillBlanks() {
         {/* Feedback */}
         {confirmed && (
           <div className={`fb-feedback anim-fade-up ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`}>
-            {isCorrect ? '✓ Correct!' : `✗ Correct answer: ${q.blank}`}
-            {q.blank_english && (
-              <div className="fb-answer-word">
-                <span className="devanagari">{q.blank}</span>
-                <span className="fb-answer-iast">{toIAST(q.blank)}</span>
-                <span className="fb-answer-meaning">— {q.blank_english}</span>
-              </div>
-            )}
-            <div className="fb-concepts">
-              {q.concepts?.map(c => <span key={c} className="concept-pill">{grammarConcepts[c]?.label || c}</span>)}
-            </div>
+            <span className="fb-feedback-mark">{isCorrect ? '✓' : '✗'}</span>
+            <span className="devanagari fb-answer-deva">{q.blank}</span>
+            {q.blank_english && <span className="fb-answer-meaning">{q.blank_english.replace(/\s*\(.*\)$/, '')}</span>}
+            <span className="fb-answer-iast">{toIAST(q.blank)}</span>
           </div>
         )}
 

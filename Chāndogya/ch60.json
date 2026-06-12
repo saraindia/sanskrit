@@ -1,0 +1,233 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 60: Chapter 7, Sections 16–26. From truth to the Infinite (Bhūman): 'The Infinite alone is happiness — there is no happiness in the small.' Sanatkumāra shows Nārada the far shore of darkness. Completes Chapter 7.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_7": {
+      "sections": [
+        {
+          "section_number": 16,
+          "title": "Speaking by Truth",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "एष तु वा अतिवदति यः सत्येनातिवदति सोऽहं भगवः सत्येनातिवदानीति सत्यं त्वेव विजिज्ञासितव्यमिति सत्यं भगवो विजिज्ञास इति ॥ १ ॥",
+              "iast": "eṣa tu vā ativadati yaḥ satyenātivadati so 'haṃ bhagavaḥ satyenātivadānīti satyaṃ tv eva vijijñāsitavyam iti satyaṃ bhagavo vijijñāsa iti || 1 ||",
+              "english_translation": "'But he truly surpasses in speech who surpasses in speech by truth.' — 'May I, revered sir, surpass in speech by truth!' — 'But one must desire to understand truth.' — 'Revered sir, I desire to understand truth.'",
+              "commentaries": {
+                "advaita_vedanta": "Above the knower of prāṇa stands the speaker of truth — and truth must be understood, not merely uttered. The dialogue now climbs by inner conditions: each rung the prerequisite of the last.",
+                "vishishtadvaita": "True speech is speech of the True One; the desire to understand Him is itself His drawing of the soul.",
+                "dvaita_vedanta": "Truth-grounded speech outranks all eloquence; understanding of the Lord, Truth itself, must be sought."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 17,
+          "title": "Truth Rests on Understanding",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यदा वै विजानात्यथ सत्यं वदति नाविजानन्सत्यं वदति विजानन्नेव सत्यं वदति विज्ञानं त्वेव विजिज्ञासितव्यमिति विज्ञानं भगवो विजिज्ञास इति ॥ १ ॥",
+              "iast": "yadā vai vijānāty atha satyaṃ vadati nāvijānan satyaṃ vadati vijānann eva satyaṃ vadati vijñānaṃ tv eva vijijñāsitavyam iti vijñānaṃ bhagavo vijijñāsa iti || 1 ||",
+              "english_translation": "'Only when one understands does one speak truth; one who does not understand does not speak truth. Only he who understands speaks truth. But one must desire to understand understanding.' — 'Revered sir, I desire to understand understanding.'",
+              "commentaries": {
+                "advaita_vedanta": "Truth presupposes insight; parroted truth is not truth. The regress of conditions begins its descent to the root of all acts.",
+                "vishishtadvaita": "Understanding precedes true confession of the Lord.",
+                "dvaita_vedanta": "Verity of speech flows from clarity of knowledge."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 18,
+          "title": "Understanding Rests on Reflection",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यदा वै मनुतेऽथ विजानाति नामत्वा विजानाति मत्वैव विजानाति मतिस्त्वेव विजिज्ञासितव्येति मतिं भगवो विजिज्ञास इति ॥ १ ॥",
+              "iast": "yadā vai manute 'tha vijānāti nāmatvā vijānāti matvaiva vijānāti matis tv eva vijijñāsitavyeti matiṃ bhagavo vijijñāsa iti || 1 ||",
+              "english_translation": "'Only when one reflects does one understand; without reflecting one does not understand. Only he who reflects understands. But one must desire to understand reflection.' — 'Revered sir, I desire to understand reflection.'",
+              "commentaries": {
+                "advaita_vedanta": "Manana — sustained reflection — is the soil of insight: the second limb of Vedāntic practice named in its place.",
+                "vishishtadvaita": "Pondering the heard teaching ripens it into understanding.",
+                "dvaita_vedanta": "Reasoned reflection under scripture's guidance precedes knowledge."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 19,
+          "title": "Reflection Rests on Faith",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यदा वै श्रद्दधात्यथ मनुते नाश्रद्दधन्मनुते श्रद्दधदेव मनुते श्रद्धा त्वेव विजिज्ञासितव्येति श्रद्धां भगवो विजिज्ञास इति ॥ १ ॥",
+              "iast": "yadā vai śraddadhāty atha manute nāśraddadhan manute śraddadhad eva manute śraddhā tv eva vijijñāsitavyeti śraddhāṃ bhagavo vijijñāsa iti || 1 ||",
+              "english_translation": "'Only when one has faith does one reflect; without faith one does not reflect. Only he who has faith reflects. But one must desire to understand faith.' — 'Revered sir, I desire to understand faith.'",
+              "commentaries": {
+                "advaita_vedanta": "No one ponders what he does not trust: śraddhā — provisional confidence in scripture and teacher — underlies all inquiry.",
+                "vishishtadvaita": "Faith is the heart's openness to the Lord's word, mother of all reflection.",
+                "dvaita_vedanta": "Trust in the right sources is knowledge's gate."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 20,
+          "title": "Faith Rests on Steadfastness",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यदा वै निस्तिष्ठत्यथ श्रद्दधाति नानिस्तिष्ठञ्छ्रद्दधाति निस्तिष्ठन्नेव श्रद्दधाति निष्ठा त्वेव विजिज्ञासितव्येति निष्ठां भगवो विजिज्ञास इति ॥ १ ॥",
+              "iast": "yadā vai nistiṣṭhaty atha śraddadhāti nānistiṣṭhañ chraddadhāti nistiṣṭhann eva śraddadhāti niṣṭhā tv eva vijijñāsitavyeti niṣṭhāṃ bhagavo vijijñāsa iti || 1 ||",
+              "english_translation": "'Only when one is steadfast (in service of the teacher) does one have faith; without steadfastness one has no faith. Only he who is steadfast has faith. But one must desire to understand steadfastness.' — 'Revered sir, I desire to understand steadfastness.'",
+              "commentaries": {
+                "advaita_vedanta": "Niṣṭhā — devoted attendance on the teacher — breeds faith; conviction grows from commitment, not before it.",
+                "vishishtadvaita": "Constancy in service opens the heart to trust.",
+                "dvaita_vedanta": "Steadfast practice anchors belief."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 21,
+          "title": "Steadfastness Rests on Action",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यदा वै करोत्यथ निस्तिष्ठति नाकृत्वा निस्तिष्ठति कृत्वैव निस्तिष्ठति कृतिस्त्वेव विजिज्ञासितव्येति कृतिं भगवो विजिज्ञास इति ॥ १ ॥",
+              "iast": "yadā vai karoty atha nistiṣṭhati nākṛtvā nistiṣṭhati kṛtvaiva nistiṣṭhati kṛtis tv eva vijijñāsitavyeti kṛtiṃ bhagavo vijijñāsa iti || 1 ||",
+              "english_translation": "'Only when one acts (restrains the senses, performs one's duty) is one steadfast; without acting one is not steadfast. Only he who acts is steadfast. But one must desire to understand action.' — 'Revered sir, I desire to understand action.'",
+              "commentaries": {
+                "advaita_vedanta": "Doing precedes standing-fast: discipline of sense and duty is the body of steadfastness.",
+                "vishishtadvaita": "Active service grounds constancy.",
+                "dvaita_vedanta": "Performance of the ordained sustains all higher states."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 22,
+          "title": "Action Rests on Happiness",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यदा वै सुखं लभतेऽथ करोति नासुखं लब्ध्वा करोति सुखमेव लब्ध्वा करोति सुखं त्वेव विजिज्ञासितव्यमिति सुखं भगवो विजिज्ञास इति ॥ १ ॥",
+              "iast": "yadā vai sukhaṃ labhate 'tha karoti nāsukhaṃ labdhvā karoti sukham eva labdhvā karoti sukhaṃ tv eva vijijñāsitavyam iti sukhaṃ bhagavo vijijñāsa iti || 1 ||",
+              "english_translation": "'Only when one obtains happiness does one act; obtaining no happiness, one does not act. Only he who obtains happiness acts. But one must desire to understand happiness.' — 'Revered sir, I desire to understand happiness.'",
+              "commentaries": {
+                "advaita_vedanta": "The hidden spring of all endeavour is disclosed: no being acts but for happiness. The whole ladder has been climbing toward the question of joy itself.",
+                "vishishtadvaita": "All motion seeks delight — and all delight, knowingly or not, seeks the all-delightful Lord.",
+                "dvaita_vedanta": "Sukha drives action; its true and full form awaits naming."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 23,
+          "title": "The Infinite Alone Is Happiness",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यो वै भूमा तत्सुखं नाल्पे सुखमस्ति भूमैव सुखं भूमा त्वेव विजिज्ञासितव्य इति भूमानं भगवो विजिज्ञास इति ॥ १ ॥",
+              "iast": "yo vai bhūmā tat sukhaṃ nālpe sukham asti bhūmaiva sukhaṃ bhūmā tv eva vijijñāsitavya iti bhūmānaṃ bhagavo vijijñāsa iti || 1 ||",
+              "english_translation": "'That which is the Infinite (bhūman) — that is happiness. There is no happiness in the small (alpa). The Infinite alone is happiness. But one must desire to understand the Infinite.' — 'Revered sir, I desire to understand the Infinite.'",
+              "commentaries": {
+                "advaita_vedanta": "The chapter's diamond: nālpe sukham asti — no finite thing can ever satisfy, for limitation itself is sorrow's root. Only the Plenitude, Brahman, is joy. Śaṅkara: every craving is the disguised longing for the Infinite Self.",
+                "vishishtadvaita": "The Bhūman is the Lord in His boundless perfection; all small joys are droplets of His ocean, and the soul's thirst is made for that sea alone.",
+                "dvaita_vedanta": "Madhva: the Bhūman is Viṣṇu, infinite in attributes; happiness in the small is illusory because the small cannot give what only the Full possesses."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 24,
+          "title": "Where One Sees Nothing Else — The Infinite Defined",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यत्र नान्यत्पश्यति नान्यच्छृणोति नान्यद्विजानाति स भूमाथ यत्रान्यत्पश्यत्यन्यच्छृणोत्यन्यद्विजानाति तदल्पं यो वै भूमा तदमृतमथ यदल्पं तन्मर्त्यं स भगवः कस्मिन्प्रतिष्ठित इति स्वे महिम्नि यदि वा न महिम्नीति ॥ १ ॥",
+              "iast": "yatra nānyat paśyati nānyac chṛṇoti nānyad vijānāti sa bhūmātha yatrānyat paśyaty anyac chṛṇoty anyad vijānāti tad alpaṃ yo vai bhūmā tad amṛtam atha yad alpaṃ tan martyaṃ sa bhagavaḥ kasmin pratiṣṭhita iti sve mahimni yadi vā na mahimnīti || 1 ||",
+              "english_translation": "'Where one sees nothing else, hears nothing else, understands nothing else — that is the Infinite. But where one sees another, hears another, understands another — that is the small. The Infinite is the immortal; the small is the mortal.' — 'Revered sir, on what is the Infinite established?' — 'On its own greatness — or not even on greatness.',",
+              "commentaries": {
+                "advaita_vedanta": "The definitive description of non-duality: the Infinite is that experience wherein no second remains to be seen, heard, or known. Duality is smallness and death; non-duality is immortality. 'Or not even on greatness': Brahman rests on nothing — even self-establishment is a concession of speech.",
+                "vishishtadvaita": "Rāmānuja reads: in the Bhūman one sees nothing outside Him, for all is His body — He pervades so completely that no independent 'other' appears. He rests on His own glory, dependent on none.",
+                "dvaita_vedanta": "Madhva: the Lord sees nothing else because nothing exists outside His knowledge and control; 'the small' is the dependent realm. His establishment is in His own inherent majesty alone."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "गोअश्वमिह महिमेत्याचक्षते हस्तिहिरण्यं दासभार्यं क्षेत्राण्यायतनानीति नाहमेवं ब्रवीमि ब्रवीमीति होवाचान्यो ह्यन्यस्मिन्प्रतिष्ठित इति ॥ २ ॥",
+              "iast": "goaśvam iha mahimety ācakṣate hastihiraṇyaṃ dāsabhāryaṃ kṣetrāṇy āyatanānīti nāham evaṃ bravīmi bravīmīti hovācānyo hy anyasmin pratiṣṭhita iti || 2 ||",
+              "english_translation": "'Here on earth people call cows and horses, elephants and gold, slaves and wives, fields and houses \"greatness\". I do not speak thus, I do not speak thus,' he said, 'for (in such greatness) one thing is established on another.'",
+              "commentaries": {
+                "advaita_vedanta": "Worldly greatness is relational — propped on possessions, hence small. The Infinite leans on nothing; therein lies its immortality.",
+                "vishishtadvaita": "The Lord's greatness is intrinsic, unlike wealth's borrowed lustre.",
+                "dvaita_vedanta": "Dependent greatness is no greatness; only the Independent is truly great."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 25,
+          "title": "The Infinite Is All — The Self Below, Above, Everywhere",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "स एवाधस्तात्स उपरिष्टात्स पश्चात्स पुरस्तात्स दक्षिणतः स उत्तरतः स एवेदं सर्वमित्यथातोऽहंकारादेश एवाहमेवाधस्तादहमुपरिष्टादहं पश्चादहं पुरस्तादहं दक्षिणतोऽहमुत्तरतोऽहमेवेदं सर्वमिति ॥ १ ॥",
+              "iast": "sa evādhastāt sa upariṣṭāt sa paścāt sa purastāt sa dakṣiṇataḥ sa uttarataḥ sa evedaṃ sarvam ity athāto 'haṃkārādeśa evāham evādhastād aham upariṣṭād ahaṃ paścād ahaṃ purastād ahaṃ dakṣiṇato 'ham uttarato 'ham evedaṃ sarvam iti || 1 ||",
+              "english_translation": "'It is below, It is above, It is behind, It is before, It is to the south, It is to the north — It alone is all this. Next, the instruction through the \"I\": I am below, I am above, I am behind, I am before, I am to the south, I am to the north — I alone am all this.',",
+              "commentaries": {
+                "advaita_vedanta": "The Infinite is taught first as 'It', then — decisively — as 'I': the Bhūman is not a distant object but the very Self of the meditator. The shift from third to first person is the heart of the upadeśa.",
+                "vishishtadvaita": "The 'I' here is the Lord as inner Self of the speaker: He who is everywhere is the 'I' of every i — pervasion taught through the soul's own pronoun.",
+                "dvaita_vedanta": "Madhva refers the 'I' to the Lord, the true referent of all self-reference; the meditation is on His omnipresence, not the soul's."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अथात आत्मादेश एवात्मैवाधस्तादात्मोपरिष्टादात्मा पश्चादात्मा पुरस्तादात्मा दक्षिणत आत्मोत्तरत आत्मैवेदं सर्वमिति स वा एष एवं पश्यन्नेवं मन्वान एवं विजानन्नात्मरतिरात्मक्रीड आत्ममिथुन आत्मानन्दः स स्वराड्भवति तस्य सर्वेषु लोकेषु कामचारो भवति अथ येऽन्यथातो विदुरन्यराजानस्ते क्षय्यलोका भवन्ति तेषां सर्वेषु लोकेष्वकामचारो भवति ॥ २ ॥",
+              "iast": "athāta ātmādeśa evātmaivādhastād ātmopariṣṭād ātmā paścād ātmā purastād ātmā dakṣiṇata ātmottarata ātmaivedaṃ sarvam iti sa vā eṣa evaṃ paśyann evaṃ manvāna evaṃ vijānann ātmaratir ātmakrīḍa ātmamithuna ātmānandaḥ sa svarāḍ bhavati tasya sarveṣu lokeṣu kāmacāro bhavati atha ye 'nyathāto vidur anyarājānas te kṣayyalokā bhavanti teṣāṃ sarveṣu lokeṣv akāmacāro bhavati || 2 ||",
+              "english_translation": "'Next, the instruction through the Self: the Self alone is below, the Self above, the Self behind, the Self before, the Self to the south, the Self to the north — the Self alone is all this. He who sees thus, thinks thus, understands thus, delighting in the Self, playing with the Self, uniting with the Self, rejoicing in the Self — he becomes self-sovereign (svarāj); in all worlds he moves at will. But those who know otherwise are ruled by others; theirs are perishable worlds, and in no world do they move at will.',",
+              "commentaries": {
+                "advaita_vedanta": "Ātmaratir ātmakrīḍaḥ — the liberated delights, plays, and rejoices in the Self alone, needing no second. Svarāj: self-rule, the only sovereignty without subjects. Those who 'know otherwise' — who see duality — serve other masters in dying worlds.",
+                "vishishtadvaita": "The freed soul sports in communion with the supreme Self, the Lord — joy in Him, play with Him; sovereignty by participation in His freedom.",
+                "dvaita_vedanta": "Delight 'in the Self' means in the Lord, the soul's beloved; the released, ruled by Him alone, are free of every lesser ruler — others remain bound in decaying realms."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 26,
+          "title": "All Springs from the Self — The Far Shore of Darkness",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "तस्य ह वा एतस्यैवं पश्यत एवं मन्वानस्यैवं विजानत आत्मतः प्राण आत्मत आशात्मतः स्मर आत्मत आकाश आत्मतस्तेज आत्मत आप आत्मत आविर्भावतिरोभावावात्मतोऽन्नमात्मतो बलमात्मतो विज्ञानमात्मतो ध्यानमात्मतश्चित्तमात्मतः संकल्प आत्मतो मन आत्मतो वागात्मतो नामात्मतो मन्त्रा आत्मतः कर्माण्यात्मत एवेदं सर्वमिति ॥ १ ॥",
+              "iast": "tasya ha vā etasyaivaṃ paśyata evaṃ manvānasyaivaṃ vijānata ātmataḥ prāṇa ātmata āśātmataḥ smara ātmata ākāśa ātmatas teja ātmata āpa ātmata āvirbhāvatirobhāvāv ātmato 'nnam ātmato balam ātmato vijñānam ātmato dhyānam ātmataś cittam ātmataḥ saṃkalpa ātmato mana ātmato vāg ātmato nāmātmato mantrā ātmataḥ karmāṇy ātmata evedaṃ sarvam iti || 1 ||",
+              "english_translation": "'For him who sees thus, thinks thus, understands thus — from the Self is the life-breath, from the Self hope, from the Self memory, from the Self space, from the Self fire, from the Self water, from the Self appearance and disappearance, from the Self food, from the Self strength, from the Self understanding, from the Self contemplation, from the Self thought, from the Self will, from the Self mind, from the Self speech, from the Self name, from the Self the mantras, from the Self the rites — from the Self alone is all this.',",
+              "commentaries": {
+                "advaita_vedanta": "The whole ladder is now read backward: every rung — prāṇa to name — springs from the Self. What was climbed as a series is seen, from the summit, as the Self's own radiation. This reversal is realisation.",
+                "vishishtadvaita": "All powers and worlds issue from the supreme Self, the Lord; the knower sees every faculty as His gift flowing from Him.",
+                "dvaita_vedanta": "The entire hierarchy derives from the Lord; the wise trace each power to its single Source."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तदेष श्लोको न पश्यो मृत्युं पश्यति न रोगं नोत दुःखतां सर्वं ह पश्यः पश्यति सर्वमाप्नोति सर्वश इति स एकधा भवति त्रिधा भवति पञ्चधा सप्तधा नवधा चैव पुनश्चैकादशः स्मृतः शतं च दश चैकश्च सहस्राणि च विंशतिराहारशुद्धौ सत्त्वशुद्धिः सत्त्वशुद्धौ ध्रुवा स्मृतिः स्मृतिलम्भे सर्वग्रन्थीनां विप्रमोक्षस्तस्मै मृदितकषायाय तमसस्पारं दर्शयति भगवान्सनत्कुमारस्तं स्कन्द इत्याचक्षते तं स्कन्द इत्याचक्षते ॥ २ ॥",
+              "iast": "tad eṣa śloko na paśyo mṛtyuṃ paśyati na rogaṃ nota duḥkhatāṃ sarvaṃ ha paśyaḥ paśyati sarvam āpnoti sarvaśa iti sa ekadhā bhavati tridhā bhavati pañcadhā saptadhā navadhā caiva punaś caikādaśaḥ smṛtaḥ śataṃ ca daśa caikaś ca sahasrāṇi ca viṃśatir āhāraśuddhau sattvaśuddhiḥ sattvaśuddhau dhruvā smṛtiḥ smṛtilambhe sarvagranthīnāṃ vipramokṣas tasmai mṛditakaṣāyāya tamasas pāraṃ darśayati bhagavān sanatkumāras taṃ skanda ity ācakṣate taṃ skanda ity ācakṣate || 2 ||",
+              "english_translation": "On this there is this verse: 'The seer sees not death, nor sickness, nor any sorrow; the seer sees only the All and attains the All entirely.' He becomes onefold, threefold, fivefold, sevenfold, ninefold; again he is called elevenfold, and a hundred-and-eleven-fold, and twenty-thousand-fold. When the food is pure, the inner nature becomes pure; when the nature is pure, memory becomes firm; when memory is attained, there is release from all the knots (of the heart). To him whose stains were wiped away, the blessed Sanatkumāra showed the farther shore of darkness. Him they call Skanda — yes, him they call Skanda.",
+              "commentaries": {
+                "advaita_vedanta": "The seer of the All is beyond death, disease, and grief; he multiplies at will, being all. Śaṅkara dwells on the chain: pure food → pure mind → firm remembrance → the snapping of all heart-knots — and the teacher 'shows the shore beyond darkness': ignorance ends, the chapter ends, sorrow ends. Sanatkumāra, the shower of the shore, is honoured as Skanda.",
+                "vishishtadvaita": "Purity of sustenance purifies the mind for unbroken remembrance (dhruvā smṛti) of the Lord — for Rāmānuja, the very definition of upāsanā that wins release; the ācārya graciously ferries the cleansed soul past the dark.",
+                "dvaita_vedanta": "Madhva: the knots fall by the Lord's grace upon the purified; Sanatkumāra-Skanda, His exalted servant, reveals the far shore. The soul attains the Lord's realm beyond all darkness, retaining its blissful individuality forever."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

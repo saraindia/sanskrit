@@ -1,0 +1,52 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 39: Chapter 3, Section 3. The Madhu-Vidyā (The Honey Doctrine), Part 3. This section details the culmination of the solar meditation: the realization of the Eternal Sun, which neither rises nor sets for the one who perceives the divine unity of Brahman.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_3": {
+      "sections": [
+        {
+          "section_number": 3,
+          "title": "The Eternal Sun and the Dissolution of Duality",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "ता एता रश्मयः संतान्त्यन्ते ते देवा एतदेवामृतं पुंस्त्वेनाभिसंविशन्ति ॥ १ ॥",
+              "iast": "tā etā raśmayaḥ saṃtānyante te devā etadevāmṛtaṃ puṃstvenābhisaṃviśanti || 1 ||",
+              "english_translation": "Those rays (which have gathered the nectar) spread out and merge again into that same Honey; the gods, by drinking this nectar, enter into that immortality (the nature of the Sun/Brahman).",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara notes that the rays are not independent entities but extensions of the solar center. When they return, the illusion of separation dissolves. Similarly, the 'gods' and the 'nectar' are unified. This signifies that the practitioner who understands the interconnectedness of all rituals and knowledge realizes that the goal (Brahman) and the path (meditation) are one.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that the rays merging back into the honey represents the soul's return to the source of divine grace. The 'drinking of the nectar' is the soul’s participation in the infinite bliss of the Supreme Lord, becoming established in His presence.",
+                "dvaita_vedanta": "Madhvācārya points out that this merging is not total identity, but a state of perfect harmony and union (*Sāyujya*) where the soul, having fulfilled its duty, experiences the nectar of divine presence without ever again suffering from material limitations."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एतदेवममृतं वेद स एतामेव देवतां प्रति पद्यते रश्मिभिरेव ऊर्ध्व आक्रम्यते ॥ २ ॥",
+              "iast": "sa ya etadevamamṛtaṃ veda sa etāmeva devatāṃ prati padyate raśmibhireva ūrdhva ākramyate || 2 ||",
+              "english_translation": "He who knows this nectar in this way attains that very deity (the Sun/Brahman); and having ascended via the rays, he reaches the ultimate height.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara emphasizes that the 'ascent' is not a physical travel through space, but a cognitive leap (*Jñāna-mārga*). By knowing that the Sun/Brahman is the self of all, the seeker transcends the cycle of time. The 'rays' are the clarity of insight that lifts the consciousness above the dualities of rising and setting, light and dark.",
+                "vishishtadvaita": "Raṅgarāmānuja describes the ascent as the journey of the liberated soul (*Arcirādi-mārga*) along the path of light, guided by the Lord to the supreme abode. The knowledge of the nectar is the essential requirement for this final journey.",
+                "dvaita_vedanta": "Madhvācārya clarifies that the seeker, by the grace of Viṣṇu and the deity of the Sun, is granted the ability to ascend to the highest level of heaven, where they can forever enjoy the vision of the Lord's glory."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स वा एष न कदाचनास्तमेति न चोदेति । यदेतन्मधु तद्वेदैतद्ब्रह्म । तत्रैते देवाः सर्वायुर्भवन्ति ॥ ३ ॥",
+              "iast": "sa vā eṣa na kadācanāstameti na codeti | yadetanmadhu tadvedaitadbrahma | tatraite devāḥ sarvāyurbhavanti || 3 ||",
+              "english_translation": "Verily, this Sun neither sets nor rises. It is always light. Knowing this Honey (nectar), one knows Brahman. There, the gods enjoy an eternal lifespan.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara delivers the profound core of the *Madhu-Vidyā*: the Sun of pure Consciousness never rises or sets. Rising and setting are perceptions of the conditioned mind bound by time. For the one who knows the 'Honey' as Brahman, time itself is negated, and the light of the Self shines eternally without shadow.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that this verse describes the state of the eternal realm (*Vaikuṇṭha*), where the light of the Lord is constant and unbroken. Those who attain this state—the gods and the liberated souls—dwell in an eternal present, participating in the Lord's endless glory.",
+                "dvaita_vedanta": "Madhva explains that this truth applies to the Supreme Lord, Viṣṇu, who is the Sun of all suns. He is beyond time, and those who reach Him, through the meditation on His glory, partake in His eternal life, forever liberated from the cycle of birth and death."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

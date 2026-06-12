@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 30: Chapter 2, Section 18. The Meditation on the Revatī Sāman (Revatī Sāmopāsanā). This section outlines the meditation on the Revatī melody, mapping its five structural movements onto the domestic lifecycle, shelter, and nourishing presence of quadrupeds and cattle.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 18,
+          "title": "The Meditation on the Revatī Sāman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अजा हिंकारोऽवयोः प्रस्तावो गाव उद्गीथोऽश्वाः प्रतिहारः पुरुषो निधनमेता रेवत्यः पशुषु प्रोताः ॥ १ ॥",
+              "iast": "ajā hiṃkāro'vayaḥ prastāvo gāva udgītho'śvāḥ pratihāraḥ puruṣo nidhanametā revatyaḥ paśuṣu protāḥ || 1 ||",
+              "english_translation": "Goats (Ajāḥ) are the syllable 'Hiṃ'; sheep (Avayaḥ) are the introductory praise (Prastāva); cattle and cows (Gāvaḥ) are the loud chant (Udgītha); horses (Aśvāḥ) are the response (Pratihāra); and the human caretaker (Puruṣaḥ) is the finale (Nidhana). These are the Revatī Sāmans as woven into domesticated animals.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that *Revatī* means 'wealthy,' 'abundant,' or 'rich in nourishing assets.' In an agrarian Vedic ecosystem, true prosperity was measured by livestock (*paśu*). The Upanishad organizes these animals into a liturgical hierarchy. Goats (*ajāḥ*), being agile, quick-footed, and the first to sound, represent *Hiṃkāra*. Sheep (*avayaḥ*), moving together in gentle herds, represent *Prastāva*. Cattle and cows (*gāvaḥ*), who provide the supreme life-giving dairy products for domestic health and sacred fire offerings, are crowned as the core *Udgītha*. Horses (*aśvāḥ*), providing power, defense, and long-range transport, act as the stable *Pratihāra*. Finally, the human being (*puruṣaḥ*), who houses, guards, feeds, and relies on these animals for survival, serves as the *Nidhana* where this collective lifecycle finds its ultimate purpose and shelter. This teaches the seeker to see our relationship with the animal kingdom not as a system of cruel exploitation, but as a reciprocal, musical symphony.",
+                "vishishtadvaita": "Raṅgarāmānuja structuralizes this biological group as a beautiful display of the Lord's provider energy (*vibhūti*). Animals are living extensions of divine wealth meant to support human life and righteous duties (*dharma*). Placing the cow at the center as the *Udgītha* highlights the pure, sacred nature of the bovine form. The human being as *Nidhana* acts as a reminder that humanity's true role is to be a protective, loving guardian of the creatures entrusted to them by the Lord.",
+                "dvaita_vedanta": "Madhvācārya points out that the *Revatī-Sāman* is supervised by specialized wealth-granting deities acting under the sovereign rule of Lord Viṣṇu. The term *protam* signifies that the food chain and animal domestication are not human inventions or evolutionary accidents. They are bound together by an unchangeable divine law designed to keep human communities alive, safe, and focused on the cosmic layout established by the Supreme Person."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एवमेता रेवत्यः पशुषु प्रोता वेद पशुमान्भवति सर्वमायुरेति ज्योग्जीवति महान्प्रजया पशुभिर्भवति महान्कीर्त्या पशुन्न निन्देत्तद्व्रतम् ॥ २ ॥",
+              "iast": "sa ya evametā revatyaḥ paśuṣu protā veda paśumān bhavati sarvamāyureti jyogjīvati mahān prajayā paśubhirbhavati mahān kīrtyā paśunna nindettadvratam || 2 ||",
+              "english_translation": "He who knows these Revatī Sāmans as woven into animals becomes rich in livestock; he attains a full, radiant lifespan, and grows great in children, cattle, and renown. His sacred vow should be never to speak ill of or abuse animals.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the ethical responsibility of the vow (*Vrata*) given here: *paśūn na nindet* (one must never criticize, insult, or curse animals). Humans often take their livestock for granted or vent their frustrations on them when animals behave unpredictably. Shankara clarifies that treating animals with harsh contempt or speaking ill of them is a direct assault on the *Revatī* melody; it shatters the non-dual awareness of the practitioner. The vow demands complete empathy, retraining the mind to treat all domestic animals as living partners in a cosmic song.",
+                "vishishtadvaita": "The school highlights that *paśumān bhavati* signifies a heart that is rich in compassion and surrounded by the blessings of gentle creatures. Mistreating or yelling at animals is a direct insult to the indwelling Lord (*Antaryāmin*) who resides within them. Maintaining this vow of gentle non-injury (*ahiṃsā*) keeps the home auspicious and ensures the family remains spiritually stable and aligned with God's loving care.",
+                "dvaita_vedanta": "According to Madva, speaking ill of or neglecting animals insults the minor deities who protect livestock and serve under Viṣṇu's command. True prosperity can never blossom where animals are abused or unappreciated. Honoring this vow with discipline ensures a harmonious household, stable livestock lines, long life, and an excellent spiritual reputation (*kīrti*)."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 31: Chapter 2, Section 19. The Meditation on the Yajñāyajñīya Sāman (Yajñāyajñīya Sāmopāsanā). This section outlines the meditation on the Yajñāyajñīya melody, mapping its five structural phases onto the concentric physiological layers of the human body—from the outermost hair down to the deepest marrow.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 19,
+          "title": "The Meditation on the Yajñāyajñīya Sāman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "लोम हिंकारस्त्वक्प्रस्तावो मांसमुद्गीथोऽस्थि प्रतिहारो मज्जा निधनमेतद्यज्ञाज्ञीयमङ्गेषु प्रोतम् ॥ १ ॥",
+              "iast": "loma hiṃkārastvakprastāvo māṃsamudgītho'sthi pratihāro majjā nidhanametadyajñājñīyamaṅgeṣu protam || 1 ||",
+              "english_translation": "The bodily hair (Loma) is the syllable 'Hiṃ'; the skin (Tvak) is the introductory praise (Prastāva); the flesh (Māṃsa) is the loud chant (Udgītha); the bone (Asthi) is the response (Pratihāra); and the marrow (Majjā) is the finale (Nidhana). This is the Yajñāyajñīya Sāman as woven into the limbs and bodily organs.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that the *Yajñāyajñīya-Sāman* gets its name from its opening ritual verse (*Yajñā-yajñā vo agnaye...*). This melody is deeply associated with stabilization, structure, and internal sacrificial offering. The Upanishad directs the seeker to map this sacred song inward, onto the very layers of their own physical body (*aṅgeṣu*). The outermost, fine boundary of bodily hair (*loma*) acts as the *Hiṃkāra*. The protective casing of skin (*tvak*) serves as the *Prastāva*. The vital substance of muscular flesh (*māṃsa*), which holds the body's dynamic energy, is crowned as the central *Udgītha*. The sturdy skeletal framework of bones (*asthi*), which resists gravity and preserves the body's structure, acts as the *Pratihāra*. Finally, the deepest, hidden core inside the bone—the marrow (*majjā*)—serves as the *Nidhana*, the ultimate place of quietude and storage. By meditating this way, the seeker breaks free from viewing the body as a mere bag of gross matter, transforming it instead into a breathing, resonant instrument of a cosmic ritual.",
+                "vishishtadvaita": "Raṅgarāmānuja structuralizes this somatic alignment to show that the physical body is fundamentally a living temple (*dehasthala*) designed for the service of the indwelling Lord. The layering from hair to marrow mirrors the nested courts of a sanctuary. Placing the flesh at the center as the *Udgītha* highlights that our physical vitality must be spent in active service, while the marrow as *Nidhana* shows that the deepest core of human anatomy is meant to store the silent, nourishing peace of divine devotion.",
+                "dvaita_vedanta": "Madhvācārya points out that the *Yajñāyajñīya-Sāman* is supervised by internal bio-deities (*dehastha-devatās*) who direct metabolic and structural growth under the sovereign rule of Lord Viṣṇu. The term *protam* emphasizes that our physiology is not a product of random cellular mechanics. The body is tightly organized by an intelligent divine layout, reminding the soul that every tissue and bone must be kept pure and oriented toward its true spiritual duty (*dharma*)."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एवमेतद्यज्ञाज्ञीयमङ्गेषु प्रोतं वेदाङ्गी भवति नाङ्गेन विहूर्छति सर्वमायुरेति ज्योग्जीवति महान्प्रजया पशुभिर्भवति महान्कीर्त्या संवत्सरं मांसं नाश्नीयात्तद्व्रतम् ॥ २ ॥",
+              "iast": "sa ya evametadyajñājñīyamaṅgeṣu protaṃ vedaṅgī bhavati nāṅgena vihūrchati sarvamāyureti jyogjīvati mahān prajayā paśubhirbhavati mahān kīrtyā saṃvatsaraṃ māṃsaṃ nāśnīyāttadvratam || 2 ||",
+              "english_translation": "He who knows this Yajñāyajñīya Sāman as woven into the limbs becomes whole in body (Aṅgī), never suffers structural deformity or crippling breakdown of his limbs, enjoys a full and vibrant lifespan, and grows great in children, cattle, and renown. His sacred vow should be to abstain from eating meat for a full year, or never to eat it at all.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the exceptional somatic consequence and vow (*Vrata*) attached to this practice: *saṃvatsaraṃ māṃsaṃ nāśnīyāt* (one should not eat meat for a year, or ideally, drop it altogether). The reasoning is direct and non-dual: because flesh (*māṃsa*) has been specifically identified as the sacred *Udgītha* phase of the internal Yajñāyajñīya melody, eating the flesh of another living being would be an act of spiritual blindness—literally devouring the Udgītha. Keeping this vow preserves the practitioner's internal harmony, ensuring they become *aṅgī* (fully whole and integrated) and protecting them from physical or nervous collapse (*na vihūrchati*).",
+                "vishishtadvaita": "The school highlights that abstaining from meat cleanses the mind (*sattva-śuddhi*) and aligns the seeker with the principle of universal compassion. Since the indwelling Lord resides within all bodies, consuming flesh harms the temple of God in another creature. Following this discipline builds a clean, resilient body that can easily sustain deep meditation and host the unclouded light of divine grace.",
+                "dvaita_vedanta": "According to Madva, eating meat disrupts the internal subtle channels (*nāḍīs*) and angers the deities who govern human physiology. Observing this vow of restraint directly honors the life-force managed by Viṣṇu. Following this discipline brings great physical stamina, family stability, a healthy lineage, and an unblemished spiritual reputation (*kīrti*)."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

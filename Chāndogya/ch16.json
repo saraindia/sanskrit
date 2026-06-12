@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 16: Chapter 2, Section 4. The Fivefold Sāman Meditation on All Waters (Apsu Pañcavidha Sāmopāsanam). This section provides a framework for meditating on the complete hydrological cycle—from clouds to oceans—mapping each state of water to the structural parts of the Sāman chant.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 4,
+          "title": "The Fivefold Sāman Meditation on All Waters",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अप्सु पञ्चविधं सामोपासीत मेघो यत्संप्लवते स हिंकारो यद्वर्षति स प्रस्तावो याः प्राच्यः स्यन्दन्ते स उद्गीथो याः प्रतीच्यः स प्रतिहारः समुद्रो निधनम् ॥ १ ॥",
+              "iast": "apsu pañcavidaṃ sāmopāsieta megho yatsaṃplavate sa hiṃkāro yadvarṣati sa prastāvo yāḥ prācyaḥ syandante sa udgītho yāḥ pratīcyaḥ sa pratihāraḥ samudro nidhanam || 1 ||",
+              "english_translation": "One should meditate on the fivefold Sāman in all waters. When the clouds gather together, that is the introductory syllable 'Hiṃ'; when it rains, that is the introductory praise (Prastāva); the rivers that flow eastward are the loud chant (Udgītha); the rivers that flow westward are the response (Pratihāra); and the ocean is the finale (Nidhana).",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara notes that while the previous section dealt specifically with the active event of rain (*vṛṣṭi*), this section expands into *Apsu*—the element of water in all its planetary forms. The gathering of mist and vapor into thick clouds is the *Hiṃkāra*, representing the origin point of the cycle. The falling rain is the *Prastāva*. The rivers flowing toward the east (the direction of the rising sun and traditional spiritual dawn) are mapped to the *Udgītha*, representing the primary forward movement of life energy. The rivers flowing toward the west are mapped to the *Pratihāra*. Finally, the vast ocean (*Samudra*) acts as the *Nidhana* because it is the ultimate destination, boundary, and resting place where all distinct flowing rivers lose their names and forms, merging into a single watery mass.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that this meditation traces the journey of individual souls back to their divine source. Just as rivers flow in different directions based on geography but ultimately find absolute peace and union in the deep ocean, individual souls (*jīvas*) follow diverse pathways in life but are destined to find their true rest and shelter (*Nidhana*) in the infinite ocean of the Supreme Lord's presence.",
+                "dvaita_vedanta": "Madhvācārya observes that the waters are guided by distinct cosmic controllers under the direct command of the Lord. The division of rivers into eastern and western streams shows that the physical world is explicitly organized to distribute life across continents. The ocean represents the supreme collecting pool of material energy, proving that all diverse physical systems are bound together in a beautifully managed network designed by an independent divine intelligence."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "न हाप्सु प्रमीयते य एतदेवं विद्वानप्सु पञ्चविधं सामोपास्ते ॥ २ ॥",
+              "iast": "na hāpsu pramīyate ya etadevaṃ vidvānapsu pañcavidaṃ sāmopāste || 2 ||",
+              "english_translation": "He who knows this truth and meditates on the fivefold Sāman in all waters does not perish in water; he becomes master of water.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara clarifies the immediate reward (*Phala*) of this meditation: *na hāpsu pramīyate* (he does not die or drown in water). This can be understood both literally and metaphorically. Literally, a sage whose consciousness is perfectly synchronized with the universal spirit of water develops an intuitive alignment with nature, shielding him from watery disasters. Metaphorically, water represents the shifting, turbulent stream of relative existence (*saṃsāra*). One who sees the supreme Sāman order operating through all changes will never drown in the emotional or material currents of life.",
+                "vishishtadvaita": "The school views this verse as an assurance of divine protection. Water is the primordial element of life and cleansing. A devotee who contemplates the Lord as the inner ruler of the world's waters is blessed with fearlessness. They transcend the fear of physical drowning and, more importantly, are protected from slipping into spiritual stagnation, as the living waters of grace keep their heart completely pure.",
+                "dvaita_vedanta": "Madhva explains that a practitioner who understands how the independent Lord rules over the water element through His cosmic administrative deities gains a unique mastery over material nature. The elements cease to act as hostile forces. Because the devotee treats water as a sacred expression of divine management, they receive its support across their daily duties and spiritual journeys, ensuring they emerge victorious over the limitations of the physical world."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

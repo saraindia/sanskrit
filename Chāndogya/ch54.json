@@ -1,0 +1,279 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 54: Chapter 6, Sections 1–4. Uddālaka and Śvetaketu: the teaching by which the unheard is heard — Being alone was in the beginning, one without a second — and the three colours of fire, sun, moon, and lightning.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_6": {
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "The Teaching by Which the Unheard Is Heard",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "श्वेतकेतुर्हारुणेय आस तं ह पितोवाच श्वेतकेतो वस ब्रह्मचर्यं न वै सोम्यास्मत्कुलीनोऽननूच्य ब्रह्मबन्धुरिव भवतीति ॥ १ ॥",
+              "iast": "śvetaketur hāruṇeya āsa taṃ ha pitovāca śvetaketo vasa brahmacaryaṃ na vai somyāsmatkulīno 'nanūcya brahmabandhur iva bhavatīti || 1 ||",
+              "english_translation": "There was Śvetaketu Āruṇeya. His father said to him: 'Śvetaketu, live the life of a student of sacred knowledge. No one of our family, gentle one, remains unlearned, a brāhmaṇa only by kinship.'",
+              "commentaries": {
+                "advaita_vedanta": "The opening of the Sad-vidyā, crown of the Upaniṣad. The father's charge — not to be a brāhmaṇa in name only — sets the theme: reality over label, being over designation.",
+                "vishishtadvaita": "The family's tradition of learning is the channel of grace; the father sends the son to be formed in it.",
+                "dvaita_vedanta": "Birth without learning is an empty title; the boy is dispatched to earn the substance of his name."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स ह द्वादशवर्ष उपेत्य चतुर्विंशतिवर्षः सर्वान्वेदानधीत्य महामना अनूचानमानी स्तब्ध एयाय तं ह पितोवाच ॥ २ ॥",
+              "iast": "sa ha dvādaśavarṣa upetya caturviṃśativarṣaḥ sarvān vedān adhītya mahāmanā anūcānamānī stabdha eyāya taṃ ha pitovāca || 2 ||",
+              "english_translation": "Having gone at the age of twelve, he returned at twenty-four, having studied all the Vedas — conceited, thinking himself learned, and stiff with pride. His father said to him:",
+              "commentaries": {
+                "advaita_vedanta": "Twelve years of Veda yielded pride, not wisdom — text-learning without knowledge of the Self inflates. The father will now deflate and then truly teach.",
+                "vishishtadvaita": "Mastery of words without the Lord they signify breeds stiffness; the cure is the doctrine of the One.",
+                "dvaita_vedanta": "Learning is completed, humility is not; the father begins the higher course."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "श्वेतकेतो यन्नु सोम्येदं महामना अनूचानमानी स्तब्धोऽस्युत तमादेशमप्राक्ष्यो येनाश्रुतं श्रुतं भवत्यमतं मतमविज्ञातं विज्ञातमिति कथं नु भगवः स आदेशो भवतीति ॥ ३ ॥",
+              "iast": "śvetaketo yan nu somyedaṃ mahāmanā anūcānamānī stabdho 'sy uta tam ādeśam aprākṣyo yenāśrutaṃ śrutaṃ bhavaty amataṃ matam avijñātaṃ vijñātam iti kathaṃ nu bhagavaḥ sa ādeśo bhavatīti || 3 ||",
+              "english_translation": "'Śvetaketu, since you are now so conceited, thinking yourself learned, and stiff — did you ask for that teaching by which the unheard becomes heard, the unthought thought, the unknown known?' — 'How, revered sir, can there be such a teaching?'",
+              "commentaries": {
+                "advaita_vedanta": "The question of questions: what single knowledge reveals all? Śaṅkara — only if all is in essence one thing can knowing it reveal everything; the question itself implies non-duality.",
+                "vishishtadvaita": "To know the cause is to know all effects: knowing the Lord, the soul knows all that is His body — Rāmānuja reads the promise through the cause-effect relation of Brahman and world.",
+                "dvaita_vedanta": "Madhva: knowing the Lord, the chief of all, one knows all in principle — as knowing the king one knows the kingdom's order; identity of all things is not implied."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "यथा सोम्यैकेन मृत्पिण्डेन सर्वं मृन्मयं विज्ञातं स्याद्वाचारम्भणं विकारो नामधेयं मृत्तिकेत्येव सत्यम् ॥ ४ ॥",
+              "iast": "yathā somyaikena mṛtpiṇḍena sarvaṃ mṛnmayaṃ vijñātaṃ syād vācārambhaṇaṃ vikāro nāmadheyaṃ mṛttikety eva satyam || 4 ||",
+              "english_translation": "'Just as, gentle one, by one lump of clay all that is made of clay would be known — the modification is a mere name arising from speech, while the truth is just \"clay\" —",
+              "commentaries": {
+                "advaita_vedanta": "The charter text of vivarta: pots and jars are 'names arising from speech' (vācārambhaṇa); clay alone is real. So the world of effects is name-and-form upon the one Being — knowing It, all is known. Śaṅkara builds his entire doctrine of the non-difference of effect and cause here.",
+                "vishishtadvaita": "Rāmānuja: the effect is the cause in a new state — clay really becomes pot. 'Name' designates the new configuration, not an illusion. So the world is a real transformation of Brahman's body, and knowing Brahman one knows His every state.",
+                "dvaita_vedanta": "Madhva: the example teaches that effects depend wholly on their material; knowledge of the independent cause (Viṣṇu) gives knowledge of all dependents — dependence, not identity, is the point."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "यथा सोम्यैकेन लोहमणिना सर्वं लोहमयं विज्ञातं स्याद्वाचारम्भणं विकारो नामधेयं लोहमित्येव सत्यम् ॥ ५ ॥",
+              "iast": "yathā somyaikena lohamaṇinā sarvaṃ lohamayaṃ vijñātaṃ syād vācārambhaṇaṃ vikāro nāmadheyaṃ loham ity eva satyam || 5 ||",
+              "english_translation": "'just as by one nugget of gold all that is made of gold would be known — the modification is a mere name arising from speech, while the truth is just \"gold\" —",
+              "commentaries": {
+                "advaita_vedanta": "Ornaments differ in name and use; gold alone persists through them all — the second witness to the sole reality of the substrate.",
+                "vishishtadvaita": "Gold truly assumes the bracelet's form; the underlying substance unifies real modifications.",
+                "dvaita_vedanta": "All golden things are known through gold as dependents through their source."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "यथा सोम्यैकेन नखनिकृन्तनेन सर्वं कार्ष्णायसं विज्ञातं स्याद्वाचारम्भणं विकारो नामधेयं कृष्णायसमित्येव सत्यमेवं सोम्य स आदेशो भवतीति ॥ ६ ॥",
+              "iast": "yathā somyaikena nakhanikṛntanena sarvaṃ kārṣṇāyasaṃ vijñātaṃ syād vācārambhaṇaṃ vikāro nāmadheyaṃ kṛṣṇāyasam ity eva satyam evaṃ somya sa ādeśo bhavatīti || 6 ||",
+              "english_translation": "'and just as by one nail-cutter all that is made of iron would be known — the modification is a mere name arising from speech, while the truth is just \"iron\" — even so, gentle one, is that teaching.'",
+              "commentaries": {
+                "advaita_vedanta": "Clay, gold, iron: three substrates, one lesson — difference belongs to speech, being to the substrate. The 'teaching' is thus the knowledge of Being itself.",
+                "vishishtadvaita": "Three examples of real causal continuity prepare the doctrine of Brahman as the world's material and efficient cause.",
+                "dvaita_vedanta": "The examples illustrate knowledge-by-the-chief; the teaching proper will name the One on whom all depends."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "न वै नूनं भगवन्तस्त एतदवेदिषुर्यद्ध्येतदवेदिष्यन्कथं मे नावक्ष्यन्निति भगवांस्त्वेव मे तद्ब्रवीत्विति तथा सोम्येति होवाच ॥ ७ ॥",
+              "iast": "na vai nūnaṃ bhagavantas ta etad avediṣur yad dhy etad avediṣyan kathaṃ me nāvakṣyann iti bhagavāṃs tv eva me tad bravītv iti tathā somyeti hovāca || 7 ||",
+              "english_translation": "'Surely my revered teachers did not know this; for had they known it, why would they not have told me? So may you, revered sir, tell it to me.' — 'So be it, gentle one,' he said.",
+              "commentaries": {
+                "advaita_vedanta": "Pride dissolves into discipleship at home: the son asks his father for what twelve years abroad never gave.",
+                "vishishtadvaita": "The humbled son becomes the fit vessel; the father consents as the Lord's instrument.",
+                "dvaita_vedanta": "Right asking precedes right teaching; the great instruction begins."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 2,
+          "title": "In the Beginning, Being Alone — One Without a Second",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "सदेव सोम्येदमग्र आसीदेकमेवाद्वितीयम् । तद्धैक आहुरसदेवेदमग्र आसीदेकमेवाद्वितीयं तस्मादसतः सज्जायत ॥ १ ॥",
+              "iast": "sad eva somyedam agra āsīd ekam evādvitīyam | tad dhaika āhur asad evedam agra āsīd ekam evādvitīyaṃ tasmād asataḥ saj jāyata || 1 ||",
+              "english_translation": "'In the beginning, gentle one, this was Being alone — one only, without a second. Some say that in the beginning this was Non-being alone, one only, without a second, and that from Non-being Being was born.",
+              "commentaries": {
+                "advaita_vedanta": "The mahāvākya-context opens: SAT — pure Being, one without a second (advitīya: no second of any kind, like or unlike or internal). Śaṅkara takes this as the definitive statement of non-dual Brahman, refuting the nihilist alternative cited next.",
+                "vishishtadvaita": "Being 'one without a second' means Brahman with souls and matter in subtle, name-form-free condition — no rival principle existed, but His body was ever with Him. The Lord alone, thus qualified, was.",
+                "dvaita_vedanta": "Madhva: 'Being alone' affirms Viṣṇu's sole independence before creation; 'without a second' denies any equal or superior, not the existence of dependent realities in latent form."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "कुतस्तु खलु सोम्यैवं स्यादिति होवाच कथमसतः सज्जायेतेति । सत्त्वेव सोम्येदमग्र आसीदेकमेवाद्वितीयम् ॥ २ ॥",
+              "iast": "kutas tu khalu somyaivaṃ syād iti hovāca katham asataḥ saj jāyeteti | sat tv eva somyedam agra āsīd ekam evādvitīyam || 2 ||",
+              "english_translation": "'But how, indeed, gentle one, could it be so?' he said. 'How could Being be born from Non-being? No — in the beginning this was Being alone, one only, without a second.",
+              "commentaries": {
+                "advaita_vedanta": "Ex nihilo is unthinkable: from nothing, nothing comes. Being is beginningless — the rational backbone of Vedānta's satkāryavāda.",
+                "vishishtadvaita": "The world's source must itself exist; the Lord, ever-existent, is that source.",
+                "dvaita_vedanta": "Non-being produces nothing; the eternal Lord precedes and produces all."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तदैक्षत बहु स्यां प्रजायेयेति तत्तेजोऽसृजत तत्तेज ऐक्षत बहु स्यां प्रजायेयेति तदपोऽसृजत । तस्माद्यत्र क्वच शोचति स्वेदते वा पुरुषस्तेजस एव तदध्यापो जायन्ते ॥ ३ ॥",
+              "iast": "tad aikṣata bahu syāṃ prajāyeyeti tat tejo 'sṛjata tat teja aikṣata bahu syāṃ prajāyeyeti tad apo 'sṛjata | tasmād yatra kvaca śocati svedate vā puruṣas tejasa eva tad adhy āpo jāyante || 3 ||",
+              "english_translation": "'It thought (aikṣata): \"May I be many; may I procreate.\" It created fire. That fire thought: \"May I be many; may I procreate.\" It created water. Therefore whenever a person grieves or sweats, water is born from that heat.",
+              "commentaries": {
+                "advaita_vedanta": "'It saw/thought' — Being is conscious, refuting the Sāṅkhya's unconscious prime matter. Creation proceeds by the One's own will to be many: the world is Brahman appearing as plurality, not a second thing.",
+                "vishishtadvaita": "The Lord's resolve 'may I be many' is His real self-diversification into the cosmos through His body — divine will, not impersonal evolution.",
+                "dvaita_vedanta": "The conscious Lord wills creation; fire and water arise as His dependent productions in ordered sequence."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "ता आप ऐक्षन्त बह्व्यः स्याम प्रजायेमहीति ता अन्नमसृजन्त तस्माद्यत्र क्व च वर्षति तदेव भूयिष्ठमन्नं भवत्यद्भ्य एव तदध्यन्नाद्यं जायते ॥ ४ ॥",
+              "iast": "tā āpa aikṣanta bahvyaḥ syāma prajāyemahīti tā annam asṛjanta tasmād yatra kva ca varṣati tad eva bhūyiṣṭham annaṃ bhavaty adbhya eva tad adhy annādyaṃ jāyate || 4 ||",
+              "english_translation": "'Those waters thought: \"May we be many; may we procreate.\" They created food (earth). Therefore wherever it rains, abundant food grows; from water indeed edible food is born.",
+              "commentaries": {
+                "advaita_vedanta": "Fire, water, food (earth): the primal triad from the One — each stage 'thinking', for the whole chain is consciousness diversifying.",
+                "vishishtadvaita": "Each element wills under the Lord's indwelling impulse; the chain of creation is His continuous act.",
+                "dvaita_vedanta": "The elements' 'thinking' is the Lord thinking within them; production is His alone."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 3,
+          "title": "The Deity Enters with the Living Self",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "तेषां खल्वेषां भूतानां त्रीण्येव बीजानि भवन्त्याण्डजं जीवजमुद्भिज्जमिति ॥ १ ॥",
+              "iast": "teṣāṃ khalv eṣāṃ bhūtānāṃ trīṇy eva bījāni bhavanty āṇḍajaṃ jīvajam udbhijjam iti || 1 ||",
+              "english_translation": "'Of these beings there are just three origins: born from the egg, born from the living, and born from the sprout.",
+              "commentaries": {
+                "advaita_vedanta": "All creatures classed by three modes of birth — the canvas on which name-and-form will be painted.",
+                "vishishtadvaita": "The Lord's creatures in three families, all His body's diversifications.",
+                "dvaita_vedanta": "The threefold taxonomy displays the Lord's ordered zoology."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "सेयं देवतैक्षत हन्ताहमिमास्तिस्रो देवता अनेन जीवेनात्मनानुप्रविश्य नामरूपे व्याकरवाणीति ॥ २ ॥",
+              "iast": "seyaṃ devataikṣata hantāham imās tisro devatā anena jīvenātmanānupraviśya nāmarūpe vyākaravāṇīti || 2 ||",
+              "english_translation": "'That deity (Being) thought: \"Come, let me enter these three deities (fire, water, food) with this living self (jīva) and unfold name and form.\"",
+              "commentaries": {
+                "advaita_vedanta": "The pivotal verse: Being enters its creation 'as this living self' — the jīva is Being itself, reflected in its products. Name-and-form (nāmarūpa) are unfolded upon the One; their unfolding is the world.",
+                "vishishtadvaita": "The Lord enters with the jīva as His mode: He is the soul of the soul, indwelling every name and form as inner ruler — the seed of Rāmānuja's śarīra-śarīri doctrine.",
+                "dvaita_vedanta": "Madhva: the Lord enters accompanied by the eternally distinct jīva; He differentiates names and forms while remaining the inner controller, never identical with the soul He directs."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तासां त्रिवृतं त्रिवृतमेकैकां करवाणीति सेयं देवतेमास्तिस्रो देवता अनेनैव जीवेनात्मनानुप्रविश्य नामरूपे व्याकरोत् ॥ ३ ॥",
+              "iast": "tāsāṃ trivṛtaṃ trivṛtam ekaikāṃ karavāṇīti seyaṃ devatemās tisro devatā anenaiva jīvenātmanānupraviśya nāmarūpe vyākarot || 3 ||",
+              "english_translation": "'\"Let me make each of them threefold.\" That deity, entering these three deities with this living self, unfolded name and form.",
+              "commentaries": {
+                "advaita_vedanta": "Trivṛtkaraṇa — each element compounded with the others — explains the mixed world we perceive; purity belongs to the root, mixture to the branches.",
+                "vishishtadvaita": "The Lord weaves the elements together as a weaver plies threads — His craftsmanship in every compound.",
+                "dvaita_vedanta": "The threefolding is the Lord's deliberate blending, ordered down to the least mixture."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तासां त्रिवृतं त्रिवृतमेकैकामकरोद्यथा तु खलु सोम्येमास्तिस्रो देवतास्त्रिवृत्त्रिवृदेकैका भवति तन्मे विजानीहीति ॥ ४ ॥",
+              "iast": "tāsāṃ trivṛtaṃ trivṛtam ekaikām akarod yathā tu khalu somyemās tisro devatās trivṛt trivṛd ekaikā bhavati tan me vijānīhīti || 4 ||",
+              "english_translation": "'He made each of them threefold. Now learn from me, gentle one, how each of these three deities becomes threefold.'",
+              "commentaries": {
+                "advaita_vedanta": "The father promises the analysis that follows — seeing the three strands in every appearance is training in reduction to the One.",
+                "vishishtadvaita": "Discernment of the components honours the Composer.",
+                "dvaita_vedanta": "Analysis of the blend glorifies the Blender."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 4,
+          "title": "The Three Colours — Fire, Sun, Moon, and Lightning Resolved",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यदग्ने रोहितं रूपं तेजसस्तद्रूपं यच्छुक्लं तदपां यत्कृष्णं तदन्नस्यापागादग्नेरग्नित्वं वाचारम्भणं विकारो नामधेयं त्रीणि रूपाणीत्येव सत्यम् ॥ १ ॥",
+              "iast": "yad agne rohitaṃ rūpaṃ tejasas tad rūpaṃ yac chuklaṃ tad apāṃ yat kṛṣṇaṃ tad annasyāpāgād agner agnitvaṃ vācārambhaṇaṃ vikāro nāmadheyaṃ trīṇi rūpāṇīty eva satyam || 1 ||",
+              "english_translation": "'The red colour of fire is the colour of the primal fire; its white, of water; its black, of food. Thus the fire-ness of fire has vanished: the modification is a mere name arising from speech — the truth is just \"the three colours\".",
+              "commentaries": {
+                "advaita_vedanta": "Analysis dissolves 'fire' into its three constituent colours: the composite was only a name. Śaṅkara: so every object, analysed, surrenders its claimed identity — until only Being remains.",
+                "vishishtadvaita": "Resolution into components shows each thing's dependence on its materials, all states of the Lord's body.",
+                "dvaita_vedanta": "Composite names dissolve into real constituents; the analysis honours the true gradation of causes under the Lord."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "यदादित्यस्य रोहितं रूपं तेजसस्तद्रूपं यच्छुक्लं तदपां यत्कृष्णं तदन्नस्यापागादादित्यादादित्यत्वं वाचारम्भणं विकारो नामधेयं त्रीणि रूपाणीत्येव सत्यम् ॥ २ ॥",
+              "iast": "yad ādityasya rohitaṃ rūpaṃ tejasas tad rūpaṃ yac chuklaṃ tad apāṃ yat kṛṣṇaṃ tad annasyāpāgād ādityād ādityatvaṃ vācārambhaṇaṃ vikāro nāmadheyaṃ trīṇi rūpāṇīty eva satyam || 2 ||",
+              "english_translation": "'The red colour of the sun is the colour of the primal fire; its white, of water; its black, of food. Thus the sun-ness of the sun has vanished: the modification is a mere name arising from speech — the truth is just \"the three colours\".",
+              "commentaries": {
+                "advaita_vedanta": "Even the sun, mightiest of appearances, dissolves under analysis — no name withstands the reduction to constituents.",
+                "vishishtadvaita": "The sun's composition glorifies the Lord whose elements compose it.",
+                "dvaita_vedanta": "The great luminary too is a dependent compound under the Independent."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "यच्चन्द्रमसो रोहितं रूपं तेजसस्तद्रूपं यच्छुक्लं तदपां यत्कृष्णं तदन्नस्यापागाच्चन्द्राच्चन्द्रत्वं वाचारम्भणं विकारो नामधेयं त्रीणि रूपाणीत्येव सत्यम् ॥ ३ ॥",
+              "iast": "yac candramaso rohitaṃ rūpaṃ tejasas tad rūpaṃ yac chuklaṃ tad apāṃ yat kṛṣṇaṃ tad annasyāpāgāc candrāc candratvaṃ vācārambhaṇaṃ vikāro nāmadheyaṃ trīṇi rūpāṇīty eva satyam || 3 ||",
+              "english_translation": "'The red colour of the moon is the colour of the primal fire; its white, of water; its black, of food. Thus the moon-ness of the moon has vanished: the modification is a mere name arising from speech — the truth is just \"the three colours\".",
+              "commentaries": {
+                "advaita_vedanta": "Third dissolution: the moon yields its name to its strands.",
+                "vishishtadvaita": "The moon's threefold weave is the Lord's loom-work.",
+                "dvaita_vedanta": "Another composite resolved into its divinely ordered parts."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "यद्विद्युतो रोहितं रूपं तेजसस्तद्रूपं यच्छुक्लं तदपां यत्कृष्णं तदन्नस्यापागाद्विद्युतो विद्युत्त्वं वाचारम्भणं विकारो नामधेयं त्रीणि रूपाणीत्येव सत्यम् ॥ ४ ॥",
+              "iast": "yad vidyuto rohitaṃ rūpaṃ tejasas tad rūpaṃ yac chuklaṃ tad apāṃ yat kṛṣṇaṃ tad annasyāpāgād vidyuto vidyuttvaṃ vācārambhaṇaṃ vikāro nāmadheyaṃ trīṇi rūpāṇīty eva satyam || 4 ||",
+              "english_translation": "'The red colour of lightning is the colour of the primal fire; its white, of water; its black, of food. Thus the lightning-ness of lightning has vanished: the modification is a mere name arising from speech — the truth is just \"the three colours\".",
+              "commentaries": {
+                "advaita_vedanta": "Fire, sun, moon, lightning — the world's four great lights all reduce to the same three strands: the lesson generalises to everything nameable.",
+                "vishishtadvaita": "All radiances are woven of the Lord's three primal threads.",
+                "dvaita_vedanta": "The four lights exemplify universal dependence on the primal elements and their Maker."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "एतद्ध स्म वै तद्विद्वांस आहुः पूर्वे महाशाला महाश्रोत्रिया न नोऽद्य कश्चनाश्रुतममतमविज्ञातमुदाहरिष्यतीति ह्येभ्यो विदांचक्रुः ॥ ५ ॥",
+              "iast": "etad dha sma vai tad vidvāṃsa āhuḥ pūrve mahāśālā mahāśrotriyā na no 'dya kaścanāśrutam amatam avijñātam udāhariṣyatīti hy ebhyo vidāṃ cakruḥ || 5 ||",
+              "english_translation": "'Knowing this, the great householders and great scholars of old said: \"No one now can mention to us anything unheard, unthought, or unknown\" — for from these (three forms) they knew everything.",
+              "commentaries": {
+                "advaita_vedanta": "The ancients' boast fulfils the opening promise: grasping the strands, nothing remained foreign — knowledge of the root is knowledge of all.",
+                "vishishtadvaita": "Knowing the Lord's primal triad, the wise could place every phenomenon within His order.",
+                "dvaita_vedanta": "Comprehension of the principal causes yields comprehension of their endless effects."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "यदु रोहितमिवाभूदिति तेजसस्तद्रूपमिति तद्विदांचक्रुर्यदु शुक्लमिवाभूदित्यपां रूपमिति तद्विदांचक्रुर्यदु कृष्णमिवाभूदित्यन्नस्य रूपमिति तद्विदांचक्रुः ॥ ६ ॥",
+              "iast": "yad u rohitam ivābhūd iti tejasas tad rūpam iti tad vidāṃ cakrur yad u śuklam ivābhūd ity apāṃ rūpam iti tad vidāṃ cakrur yad u kṛṣṇam ivābhūd ity annasya rūpam iti tad vidāṃ cakruḥ || 6 ||",
+              "english_translation": "'Whatever appeared reddish they knew as the colour of fire; whatever appeared whitish they knew as the colour of water; whatever appeared blackish they knew as the colour of food.",
+              "commentaries": {
+                "advaita_vedanta": "The trained eye reads every appearance back to its strands — the habit of reduction that ends in the One.",
+                "vishishtadvaita": "Discernment traces each hue to the Lord's element behind it.",
+                "dvaita_vedanta": "Right classification of appearances follows right knowledge of causes."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "यदविज्ञातमिवाभूदित्येतासामेव देवतानां समास इति तद्विदांचक्रुर्यथा तु खलु सोम्येमास्तिस्रो देवताः पुरुषं प्राप्य त्रिवृत्त्रिवृदेकैका भवति तन्मे विजानीहीति ॥ ७ ॥",
+              "iast": "yad avijñātam ivābhūd ity etāsām eva devatānāṃ samāsa iti tad vidāṃ cakrur yathā tu khalu somyemās tisro devatāḥ puruṣaṃ prāpya trivṛt trivṛd ekaikā bhavati tan me vijānīhīti || 7 ||",
+              "english_translation": "'And whatever seemed unknown they knew as a combination of these same deities. Now learn from me, gentle one, how each of these three deities, on reaching man, becomes threefold.'",
+              "commentaries": {
+                "advaita_vedanta": "Even the unclassifiable is only a denser mixture. The teaching now turns inward: the same strands compose the eater of food — the analysis approaches the Self.",
+                "vishishtadvaita": "From cosmos to body: the Lord's three threads will now be traced within the person.",
+                "dvaita_vedanta": "The inquiry moves from world to man, both fabrics of the Lord's weaving."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

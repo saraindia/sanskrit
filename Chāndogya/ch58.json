@@ -1,0 +1,264 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 58: Chapter 7, Sections 1–7. Nārada approaches Sanatkumāra: 'I know only the mantras, not the Self.' The ascending ladder begins — Name, Speech, Mind, Will, Thought, Contemplation, Understanding.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_7": {
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "Nārada's Grief — 'I Am Only a Knower of Words'",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अधीहि भगव इति होपससाद सनत्कुमारं नारदस्तं होवाच यद्वेत्थ तेन मोपसीद ततस्त ऊर्ध्वं वक्ष्यामीति स होवाच ॥ १ ॥",
+              "iast": "adhīhi bhagava iti hopasasāda sanatkumāraṃ nāradas taṃ hovāca yad vettha tena mopasīda tatas ta ūrdhvaṃ vakṣyāmīti sa hovāca || 1 ||",
+              "english_translation": "'Teach me, revered sir' — with these words Nārada approached Sanatkumāra. He said to him: 'Come to me with what you know; then I will tell you what is beyond that.' He said:",
+              "commentaries": {
+                "advaita_vedanta": "The divine sage Nārada himself comes as a student — no attainment short of Self-knowledge exempts anyone from discipleship. The teacher first inventories the known to reveal its limit.",
+                "vishishtadvaita": "Sanatkumāra's method is gracious: he builds upward from the disciple's holdings toward the Lord.",
+                "dvaita_vedanta": "Even celestial sages need the lineage of instruction; knowledge is measured before it is extended."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "ऋग्वेदं भगवोऽध्येमि यजुर्वेदं सामवेदमाथर्वणं चतुर्थमितिहासपुराणं पञ्चमं वेदानां वेदं पित्र्यं राशिं दैवं निधिं वाकोवाक्यमेकायनं देवविद्यां ब्रह्मविद्यां भूतविद्यां क्षत्रविद्यां नक्षत्रविद्यां सर्पदेवजनविद्यामेतद्भगवोऽध्येमि ॥ २ ॥",
+              "iast": "ṛgvedaṃ bhagavo 'dhyemi yajurvedaṃ sāmavedam ātharvaṇaṃ caturtham itihāsapurāṇaṃ pañcamaṃ vedānāṃ vedaṃ pitryaṃ rāśiṃ daivaṃ nidhiṃ vākovākyam ekāyanaṃ devavidyāṃ brahmavidyāṃ bhūtavidyāṃ kṣatravidyāṃ nakṣatravidyāṃ sarpadevajanavidyām etad bhagavo 'dhyemi || 2 ||",
+              "english_translation": "'Revered sir, I know the Ṛgveda, the Yajurveda, the Sāmaveda, the Atharvan as fourth, legend and ancient lore as fifth, the Veda of Vedas (grammar), the rites for the fathers, mathematics, augury, treasure-finding, dialogues, the one-pointed doctrine, the science of gods, of ritual, of beings, of rulership, of the stars, of serpents and celestial minstrels — this, revered sir, I know.",
+              "commentaries": {
+                "advaita_vedanta": "The grandest curriculum in the Upaniṣads — and all of it about to be classed as mere 'name'. Encyclopaedic learning is not Self-knowledge.",
+                "vishishtadvaita": "Nārada's vast erudition lacks one science — that of the Lord within; the inventory humbles every lesser mastery.",
+                "dvaita_vedanta": "Many sciences, one missing key: knowledge of the Lord, without which the rest cannot save."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "सोऽहं भगवो मन्त्रविदेवास्मि नात्मविच्छ्रुतं ह्येव मे भगवद्दृशेभ्यस्तरति शोकमात्मविदिति सोऽहं भगवः शोचामि तं मा भगवाञ्छोकस्य पारं तारयत्विति तं होवाच यद्वै किंचैतदध्यगीष्ठा नामैवैतत् ॥ ३ ॥",
+              "iast": "so 'haṃ bhagavo mantravid evāsmi nātmavic chrutaṃ hy eva me bhagavaddṛśebhyas tarati śokam ātmavid iti so 'haṃ bhagavaḥ śocāmi taṃ mā bhagavāñ chokasya pāraṃ tārayatv iti taṃ hovāca yad vai kiṃcaitad adhyagīṣṭhā nāmaivaitat || 3 ||",
+              "english_translation": "'But I, revered sir, am only a knower of the words (mantras), not a knower of the Self. I have heard from men like you that the knower of the Self crosses beyond sorrow. I am in sorrow, revered sir. Take me across to the far shore of sorrow.' He said to him: 'Whatever you have studied here is really only name.',",
+              "commentaries": {
+                "advaita_vedanta": "The cry at the heart of the chapter: 'mantravid evāsmi nātmavit' — a knower of texts, not of Self; and the promise quoted: 'tarati śokam ātmavit' — the Self-knower crosses sorrow. Śaṅkara hears here the whole motive of Vedānta: sorrow ends only in Self-knowledge.",
+                "vishishtadvaita": "Nārada's confession is the soul's universal plaint; the crossing of sorrow is found in knowing the Lord as one's inner Self — the teacher will lead him there rung by rung.",
+                "dvaita_vedanta": "Sorrow's cure is knowledge of the Lord, not learning's bulk; the great sage models the surrender that precedes instruction."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "नाम वा ऋग्वेदो यजुर्वेदः सामवेद आथर्वणश्चतुर्थ इतिहासपुराणः पञ्चमो वेदानां वेदः पित्र्यो राशिर्दैवो निधिर्वाकोवाक्यमेकायनं देवविद्या ब्रह्मविद्या भूतविद्या क्षत्रविद्या नक्षत्रविद्या सर्पदेवजनविद्या नामैवैतन्नामोपास्स्वेति ॥ ४ ॥",
+              "iast": "nāma vā ṛgvedo yajurvedaḥ sāmaveda ātharvaṇaś caturtha itihāsapurāṇaḥ pañcamo vedānāṃ vedaḥ pitryo rāśir daivo nidhir vākovākyam ekāyanaṃ devavidyā brahmavidyā bhūtavidyā kṣatravidyā nakṣatravidyā sarpadevajanavidyā nāmaivaitan nāmopāssveti || 4 ||",
+              "english_translation": "'Name, verily, is the Ṛgveda, the Yajurveda, the Sāmaveda, the Atharvan as fourth, legend and lore as fifth, grammar, the rites for the fathers, mathematics, augury, treasure-finding, dialogues, the one-pointed doctrine, the sciences of gods, ritual, beings, rulership, stars, serpents and minstrels. All this is only name. Meditate on name.',",
+              "commentaries": {
+                "advaita_vedanta": "All scripture and science are 'name' — the lowest rung, yet a rung: even name, meditated as Brahman, carries the mind upward.",
+                "vishishtadvaita": "Each rung is real and to be revered as the Lord's manifestation at that level; worship of name begins the ascent to Him.",
+                "dvaita_vedanta": "The hierarchy of meditations starts at name; each step is true worship when offered to the Lord in it."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "स यो नाम ब्रह्मेत्युपास्ते यावन्नाम्नो गतं तत्रास्य यथाकामचारो भवति यो नाम ब्रह्मेत्युपास्तेऽस्ति भगवो नाम्नो भूय इति नाम्नो वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ ५ ॥",
+              "iast": "sa yo nāma brahmety upāste yāvan nāmno gataṃ tatrāsya yathākāmacāro bhavati yo nāma brahmety upāste 'sti bhagavo nāmno bhūya iti nāmno vāva bhūyo 'stīti tan me bhagavān bravītv iti || 5 ||",
+              "english_translation": "'He who meditates on name as Brahman gains free movement as far as name reaches — he who meditates on name as Brahman.' — 'Is there, revered sir, anything greater than name?' — 'There is indeed something greater than name.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "The dialogue's engine: each meditation yields its measured freedom, and each prompts the question 'is there more?' — the restlessness that will not stop short of the Infinite.",
+                "vishishtadvaita": "Every fruit has its boundary; the disciple's holy dissatisfaction is grace drawing him toward the Lord.",
+                "dvaita_vedanta": "Graded results for graded worship; the question 'is there more?' propels the ascent ordained by the Lord."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 2,
+          "title": "Speech — Greater than Name",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "वाग्वाव नाम्नो भूयसी वाग्वा ऋग्वेदं विज्ञापयति यजुर्वेदं सामवेदमाथर्वणं चतुर्थमितिहासपुराणं पञ्चमं वेदानां वेदं पित्र्यं राशिं दैवं निधिं वाकोवाक्यमेकायनं देवविद्यां ब्रह्मविद्यां भूतविद्यां क्षत्रविद्यां नक्षत्रविद्यां सर्पदेवजनविद्यां दिवं च पृथिवीं च वायुं चाकाशं चापश्च तेजश्च देवांश्च मनुष्यांश्च पशूंश्च वयांसि च तृणवनस्पतीञ्श्वापदान्याकीटपतङ्गपिपीलकं धर्मं चाधर्मं च सत्यं चानृतं च साधु चासाधु च हृदयज्ञं चाहृदयज्ञं च यद्वै वाङ्नाभविष्यन्न धर्मो नाधर्मो व्यज्ञापयिष्यन्न सत्यं नानृतं न साधु नासाधु न हृदयज्ञो नाहृदयज्ञो वागेवैतत्सर्वं विज्ञापयति वाचमुपास्स्वेति ॥ १ ॥",
+              "iast": "vāg vāva nāmno bhūyasī vāg vā ṛgvedaṃ vijñāpayati yajurvedaṃ sāmavedam ātharvaṇaṃ caturtham itihāsapurāṇaṃ pañcamaṃ vedānāṃ vedaṃ pitryaṃ rāśiṃ daivaṃ nidhiṃ vākovākyam ekāyanaṃ devavidyāṃ brahmavidyāṃ bhūtavidyāṃ kṣatravidyāṃ nakṣatravidyāṃ sarpadevajanavidyāṃ divaṃ ca pṛthivīṃ ca vāyuṃ cākāśaṃ cāpaś ca tejaś ca devāṃś ca manuṣyāṃś ca paśūṃś ca vayāṃsi ca tṛṇavanaspatīñ śvāpadāny ākīṭapataṅgapipīlakaṃ dharmaṃ cādharmaṃ ca satyaṃ cānṛtaṃ ca sādhu cāsādhu ca hṛdayajñaṃ cāhṛdayajñaṃ ca yad vai vāṅ nābhaviṣyan na dharmo nādharmo vyajñāpayiṣyan na satyaṃ nānṛtaṃ na sādhu nāsādhu na hṛdayajño nāhṛdayajño vāg evaitat sarvaṃ vijñāpayati vācam upāssveti || 1 ||",
+              "english_translation": "'Speech, verily, is greater than name. Speech makes known the four Vedas and all the sciences, heaven and earth, wind and space, water and fire, gods and men, beasts and birds, grasses and trees, animals down to worms, insects, and ants, right and wrong, true and false, good and bad, pleasant and unpleasant. Had there been no speech, neither right nor wrong would be made known, nor true nor false, nor good nor bad, nor pleasant nor unpleasant. Speech alone makes all this known. Meditate on speech.'",
+              "commentaries": {
+                "advaita_vedanta": "Name exists only when spoken: speech, the revealer, exceeds the revealed. Even dharma waits on the word — hence the Veda's own medium ranks above its content here.",
+                "vishishtadvaita": "Speech is the Lord's herald; all distinctions ride on His word-power. Worship it as His instrument.",
+                "dvaita_vedanta": "The revealing power outranks the revealed text; speech serves the Lord as His crier in creation."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स यो वाचं ब्रह्मेत्युपास्ते यावद्वाचो गतं तत्रास्य यथाकामचारो भवति यो वाचं ब्रह्मेत्युपास्तेऽस्ति भगवो वाचो भूय इति वाचो वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ २ ॥",
+              "iast": "sa yo vācaṃ brahmety upāste yāvad vāco gataṃ tatrāsya yathākāmacāro bhavati yo vācaṃ brahmety upāste 'sti bhagavo vāco bhūya iti vāco vāva bhūyo 'stīti tan me bhagavān bravītv iti || 2 ||",
+              "english_translation": "'He who meditates on speech as Brahman gains free movement as far as speech reaches — he who meditates on speech as Brahman.' — 'Is there, revered sir, anything greater than speech?' — 'There is indeed something greater than speech.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "The formula repeats; the seeker presses on — beyond the word lies the speaker.",
+                "vishishtadvaita": "Each attainment kindles the next question, as the Lord draws the soul inward.",
+                "dvaita_vedanta": "The ladder continues by the teacher's measured disclosures."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 3,
+          "title": "Mind — Greater than Speech",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "मनो वाव वाचो भूयो यथा वै द्वे वामलके द्वे वा कोले द्वौ वाक्षौ मुष्टिरनुभवत्येवं वाचं च नाम च मनोऽनुभवति स यदा मनसा मनस्यति मन्त्रानधीयीयेत्यथाधीते कर्माणि कुर्वीयेत्यथ कुरुते पुत्रांश्च पशूंश्चेच्छेयेत्यथेच्छत इमं च लोकममुं चेच्छेयेत्यथेच्छते मनो ह्यात्मा मनो हि लोको मनो हि ब्रह्म मन उपास्स्वेति ॥ १ ॥",
+              "iast": "mano vāva vāco bhūyo yathā vai dve vāmalake dve vā kole dvau vākṣau muṣṭir anubhavaty evaṃ vācaṃ ca nāma ca mano 'nubhavati sa yadā manasā manasyati mantrān adhīyīyety athādhīte karmāṇi kurvīyety atha kurute putrāṃś ca paśūṃś ceccheyety athecchata imaṃ ca lokam amuṃ ceccheyety athecchate mano hy ātmā mano hi loko mano hi brahma mana upāssveti || 1 ||",
+              "english_translation": "'Mind, verily, is greater than speech. As a closed fist holds two myrobalans, two jujubes, or two dice, so does mind hold speech and name. When a man thinks in his mind \"let me study the mantras\", then he studies; \"let me perform rites\", then he performs them; \"let me desire sons and cattle\", then he desires; \"let me desire this world and that\", then he desires. Mind indeed is the self; mind is the world; mind is Brahman. Meditate on mind.'",
+              "commentaries": {
+                "advaita_vedanta": "Mind grasps both word and named as the fist its fruits; all action germinates in thought. 'Mind is Brahman' — at this rung; the rungs themselves will be surpassed.",
+                "vishishtadvaita": "The inner organ steers all outer service; the Lord is to be sought as the mind's mover.",
+                "dvaita_vedanta": "Mind directs speech as its master, yet is itself directed — the regress points finally to the Lord."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स यो मनो ब्रह्मेत्युपास्ते यावन्मनसो गतं तत्रास्य यथाकामचारो भवति यो मनो ब्रह्मेत्युपास्तेऽस्ति भगवो मनसो भूय इति मनसो वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ २ ॥",
+              "iast": "sa yo mano brahmety upāste yāvan manaso gataṃ tatrāsya yathākāmacāro bhavati yo mano brahmety upāste 'sti bhagavo manaso bhūya iti manaso vāva bhūyo 'stīti tan me bhagavān bravītv iti || 2 ||",
+              "english_translation": "'He who meditates on mind as Brahman gains free movement as far as mind reaches — he who meditates on mind as Brahman.' — 'Is there, revered sir, anything greater than mind?' — 'There is indeed something greater than mind.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "Beyond the thinking instrument lies what sets it thinking.",
+                "vishishtadvaita": "The ascent continues toward the will behind thought.",
+                "dvaita_vedanta": "Each faculty bows to a higher, all to the Highest."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 4,
+          "title": "Will (Saṅkalpa) — Greater than Mind",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "संकल्पो वाव मनसो भूयान्यदा वै संकल्पयतेऽथ मनस्यत्यथ वाचमीरयति तामु नाम्नीरयति नाम्नि मन्त्रा एकं भवन्ति मन्त्रेषु कर्माणि ॥ १ ॥",
+              "iast": "saṃkalpo vāva manaso bhūyān yadā vai saṃkalpayate 'tha manasyaty atha vācam īrayati tām u nāmnīrayati nāmni mantrā ekaṃ bhavanti mantreṣu karmāṇi || 1 ||",
+              "english_translation": "'Will, verily, is greater than mind. When a man wills, then he thinks in his mind, then he sends forth speech, and he sends it forth in a name. In the name the mantras become one, and in the mantras the rites.",
+              "commentaries": {
+                "advaita_vedanta": "Behind thinking stands the resolve to think: saṅkalpa is the spring that releases the whole cascade — will, thought, word, name, text, rite.",
+                "vishishtadvaita": "The will is the soul's helm; rightly turned to the Lord, the whole chain below it serves Him.",
+                "dvaita_vedanta": "Determination precedes cognition; the orderly cascade displays the Lord's design of the inner life."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तानि ह वा एतानि संकल्पैकायनानि संकल्पात्मकानि संकल्पे प्रतिष्ठितानि समकॢपतां द्यावापृथिवी समकल्पेतां वायुश्चाकाशं च समकल्पन्तापश्च तेजश्च तेषां संकॢप्त्यै वर्षं संकल्पते वर्षस्य संकॢप्त्या अन्नं संकल्पतेऽन्नस्य संकॢप्त्यै प्राणाः संकल्पन्ते प्राणानां संकॢप्त्यै मन्त्राः संकल्पन्ते मन्त्राणां संकॢप्त्यै कर्माणि संकल्पन्ते कर्मणां संकॢप्त्यै लोकः संकल्पते लोकस्य संकॢप्त्यै सर्वं संकल्पते स एष संकल्पः संकल्पमुपास्स्वेति ॥ २ ॥",
+              "iast": "tāni ha vā etāni saṃkalpaikāyanāni saṃkalpātmakāni saṃkalpe pratiṣṭhitāni samakḷpatāṃ dyāvāpṛthivī samakalpetāṃ vāyuś cākāśaṃ ca samakalpantāpaś ca tejaś ca teṣāṃ saṃkḷptyai varṣaṃ saṃkalpate varṣasya saṃkḷptyā annaṃ saṃkalpate 'nnasya saṃkḷptyai prāṇāḥ saṃkalpante prāṇānāṃ saṃkḷptyai mantrāḥ saṃkalpante mantrāṇāṃ saṃkḷptyai karmāṇi saṃkalpante karmaṇāṃ saṃkḷptyai lokaḥ saṃkalpate lokasya saṃkḷptyai sarvaṃ saṃkalpate sa eṣa saṃkalpaḥ saṃkalpam upāssveti || 2 ||",
+              "english_translation": "'All these have will as their sole abode, will as their self, and rest on will. Heaven and earth were formed by will; wind and space were formed; water and fire were formed. Through their formation rain takes form; through rain's formation, food; through food's formation, the vital breaths; through the breaths, the mantras; through the mantras, the rites; through the rites, the world; through the world, everything. Such is will. Meditate on will.'",
+              "commentaries": {
+                "advaita_vedanta": "Cosmic saṅkalpa: the worlds themselves are crystallised resolve — echoing Being's primal 'may I be many'. The microcosmic will mirrors the macrocosmic.",
+                "vishishtadvaita": "All formation flows from the Lord's will; the soul's will is its likeness and instrument.",
+                "dvaita_vedanta": "The chain of formations runs on the Supreme Will; created wills participate at His pleasure."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स यः संकल्पं ब्रह्मेत्युपास्ते संकॢप्तान्वै स लोकान्ध्रुवान्ध्रुवः प्रतिष्ठितान् प्रतिष्ठितोऽव्यथमानानव्यथमानोऽभिसिध्यति यावत्संकल्पस्य गतं तत्रास्य यथाकामचारो भवति यः संकल्पं ब्रह्मेत्युपास्तेऽस्ति भगवः संकल्पाद्भूय इति संकल्पाद्वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ ३ ॥",
+              "iast": "sa yaḥ saṃkalpaṃ brahmety upāste saṃkḷptān vai sa lokān dhruvān dhruvaḥ pratiṣṭhitān pratiṣṭhito 'vyathamānān avyathamāno 'bhisidhyati yāvat saṃkalpasya gataṃ tatrāsya yathākāmacāro bhavati yaḥ saṃkalpaṃ brahmety upāste 'sti bhagavaḥ saṃkalpād bhūya iti saṃkalpād vāva bhūyo 'stīti tan me bhagavān bravītv iti || 3 ||",
+              "english_translation": "'He who meditates on will as Brahman attains worlds formed by will — himself constant, worlds constant; himself established, worlds established; himself untroubled, worlds untroubled. He gains free movement as far as will reaches — he who meditates on will as Brahman.' — 'Is there, revered sir, anything greater than will?' — 'There is indeed something greater than will.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "The fruit grows richer rung by rung; still the question stands — what wills the will?",
+                "vishishtadvaita": "Stability flows from aligned will; yet higher faculties beckon.",
+                "dvaita_vedanta": "Firm worlds for firm resolve; the ascent continues."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 5,
+          "title": "Thought (Citta) — Greater than Will",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "चित्तं वाव संकल्पाद्भूयो यदा वै चेतयतेऽथ संकल्पयतेऽथ मनस्यत्यथ वाचमीरयति तामु नाम्नीरयति नाम्नि मन्त्रा एकं भवन्ति मन्त्रेषु कर्माणि ॥ १ ॥",
+              "iast": "cittaṃ vāva saṃkalpād bhūyo yadā vai cetayate 'tha saṃkalpayate 'tha manasyaty atha vācam īrayati tām u nāmnīrayati nāmni mantrā ekaṃ bhavanti mantreṣu karmāṇi || 1 ||",
+              "english_translation": "'Thought (citta), verily, is greater than will. When a man thinks (attends, considers), then he wills, then he thinks in his mind, then he sends forth speech, and he sends it forth in a name. In the name the mantras become one, and in the mantras the rites.",
+              "commentaries": {
+                "advaita_vedanta": "Citta — attentive intelligence — precedes resolve: one wills only what one has considered. The analysis digs ever closer to the conscious core.",
+                "vishishtadvaita": "Discriminating attention guides the will; the Lord is approached through the deepening interior.",
+                "dvaita_vedanta": "Reflection ranks above resolve in the Lord's hierarchy of instruments."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्माद्यद्यपि बहुविदचित्तो भवति नायमस्तीत्येवैनमाहुर्यदयं वेद यद्वा अयं विद्वान्नेत्थमचित्तः स्यादित्यथ यद्यल्पविच्चित्तवान्भवति तस्मा एवोत बुभूषन्ति चित्तं ह्येवैषामेकायनं चित्तमात्मा चित्तं प्रतिष्ठा चित्तमुपास्स्वेति ॥ २ ॥",
+              "iast": "tasmād yady api bahuvid acitto bhavati nāyam astīty evainam āhur yad ayaṃ veda yad vā ayaṃ vidvān netthamacittaḥ syād ity atha yady alpavic cittavān bhavati tasmā evota bubhūṣanti cittaṃ hy evaiṣām ekāyanaṃ cittam ātmā cittaṃ pratiṣṭhā cittam upāssveti || 2 ||",
+              "english_translation": "'Therefore, even if a man of much learning is without attention, people say of him: \"He is nothing, whatever he knows; were he truly wise he would not be so inattentive.\" But if a man of little learning is attentive, people are eager to listen to him. Thought is the sole abode of all these; thought is their self; thought is their support. Meditate on thought.'",
+              "commentaries": {
+                "advaita_vedanta": "The world itself prizes presence over erudition — a learned fool is 'nothing'. Attention is the self of all faculties.",
+                "vishishtadvaita": "Heedfulness toward the Lord outweighs libraries; the attentive heart is His seat.",
+                "dvaita_vedanta": "Alert understanding, however small its store, excels distracted learning — quality of attention is the Lord's gift."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स यश्चित्तं ब्रह्मेत्युपास्ते चित्तान्वै स लोकान्ध्रुवान्ध्रुवः प्रतिष्ठितान्प्रतिष्ठितोऽव्यथमानानव्यथमानोऽभिसिध्यति यावच्चित्तस्य गतं तत्रास्य यथाकामचारो भवति यश्चित्तं ब्रह्मेत्युपास्तेऽस्ति भगवश्चित्ताद्भूय इति चित्ताद्वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ ३ ॥",
+              "iast": "sa yaś cittaṃ brahmety upāste cittān vai sa lokān dhruvān dhruvaḥ pratiṣṭhitān pratiṣṭhito 'vyathamānān avyathamāno 'bhisidhyati yāvac cittasya gataṃ tatrāsya yathākāmacāro bhavati yaś cittaṃ brahmety upāste 'sti bhagavaś cittād bhūya iti cittād vāva bhūyo 'stīti tan me bhagavān bravītv iti || 3 ||",
+              "english_translation": "'He who meditates on thought as Brahman attains worlds of thought — himself constant, worlds constant; himself established, worlds established; himself untroubled, worlds untroubled. He gains free movement as far as thought reaches — he who meditates on thought as Brahman.' — 'Is there, revered sir, anything greater than thought?' — 'There is indeed something greater than thought.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "Still upward: what does attention serve?",
+                "vishishtadvaita": "Beyond attention lies sustained contemplation of the Lord.",
+                "dvaita_vedanta": "Another rung secured, another revealed."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 6,
+          "title": "Contemplation (Dhyāna) — Greater than Thought",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "ध्यानं वाव चित्ताद्भूयो ध्यायतीव पृथिवी ध्यायतीवान्तरिक्षं ध्यायतीव द्यौर्ध्यायन्तीवापो ध्यायन्तीव पर्वता ध्यायन्तीव देवमनुष्यास्तस्माद्य इह मनुष्याणां महत्तां प्राप्नुवन्ति ध्यानापादांशा इवैव ते भवन्त्यथ येऽल्पाः कलहिनः पिशुना उपवादिनस्तेऽथ ये प्रभवो ध्यानापादांशा इवैव ते भवन्ति ध्यानमुपास्स्वेति ॥ १ ॥",
+              "iast": "dhyānaṃ vāva cittād bhūyo dhyāyatīva pṛthivī dhyāyatīvāntarikṣaṃ dhyāyatīva dyaur dhyāyantīvāpo dhyāyantīva parvatā dhyāyantīva devamanuṣyās tasmād ya iha manuṣyāṇāṃ mahattāṃ prāpnuvanti dhyānāpādāṃśā ivaiva te bhavanty atha ye 'lpāḥ kalahinaḥ piśunā upavādinas te 'tha ye prabhavo dhyānāpādāṃśā ivaiva te bhavanti dhyānam upāssveti || 1 ||",
+              "english_translation": "'Contemplation (dhyāna), verily, is greater than thought. The earth contemplates, as it were; the mid-region contemplates, as it were; heaven contemplates, as it were; the waters contemplate, as it were; the mountains contemplate, as it were; gods and men contemplate, as it were. Therefore those among men who attain greatness here have, as it were, a share of contemplation; while the small are quarrelsome, slanderous, and abusive, the noble have, as it were, a share of contemplation. Meditate on contemplation.'",
+              "commentaries": {
+                "advaita_vedanta": "The great things of nature stand in immense stillness — mountains 'meditate'. Human greatness shares this poise; pettiness is its absence. Dhyāna is gathered being, not mere thinking.",
+                "vishishtadvaita": "Steady absorption is the mark of the Lord's noble servants; creation's calm grandeur models the meditative soul.",
+                "dvaita_vedanta": "Composure reflects rank in the Lord's order; the quarrelsome reveal their distance from contemplation."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स यो ध्यानं ब्रह्मेत्युपास्ते यावद्ध्यानस्य गतं तत्रास्य यथाकामचारो भवति यो ध्यानं ब्रह्मेत्युपास्तेऽस्ति भगवो ध्यानाद्भूय इति ध्यानाद्वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ २ ॥",
+              "iast": "sa yo dhyānaṃ brahmety upāste yāvad dhyānasya gataṃ tatrāsya yathākāmacāro bhavati yo dhyānaṃ brahmety upāste 'sti bhagavo dhyānād bhūya iti dhyānād vāva bhūyo 'stīti tan me bhagavān bravītv iti || 2 ||",
+              "english_translation": "'He who meditates on contemplation as Brahman gains free movement as far as contemplation reaches — he who meditates on contemplation as Brahman.' — 'Is there, revered sir, anything greater than contemplation?' — 'There is indeed something greater than contemplation.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "Absorption itself must be understood — hence the next rung.",
+                "vishishtadvaita": "Even meditation seeks its illuminator.",
+                "dvaita_vedanta": "The ladder rises toward understanding."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 7,
+          "title": "Understanding (Vijñāna) — Greater than Contemplation",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "विज्ञानं वाव ध्यानाद्भूयो विज्ञानेन वा ऋग्वेदं विजानाति यजुर्वेदं सामवेदमाथर्वणं चतुर्थमितिहासपुराणं पञ्चमं वेदानां वेदं पित्र्यं राशिं दैवं निधिं वाकोवाक्यमेकायनं देवविद्यां ब्रह्मविद्यां भूतविद्यां क्षत्रविद्यां नक्षत्रविद्यां सर्पदेवजनविद्यां दिवं च पृथिवीं च वायुं चाकाशं चापश्च तेजश्च देवांश्च मनुष्यांश्च पशूंश्च वयांसि च तृणवनस्पतीञ्श्वापदान्याकीटपतङ्गपिपीलकं धर्मं चाधर्मं च सत्यं चानृतं च साधु चासाधु च हृदयज्ञं चाहृदयज्ञं चान्नं च रसं चेमं च लोकममुं च विज्ञानेनैव विजानाति विज्ञानमुपास्स्वेति ॥ १ ॥",
+              "iast": "vijñānaṃ vāva dhyānād bhūyo vijñānena vā ṛgvedaṃ vijānāti yajurvedaṃ sāmavedam ātharvaṇaṃ caturtham itihāsapurāṇaṃ pañcamaṃ vedānāṃ vedaṃ pitryaṃ rāśiṃ daivaṃ nidhiṃ vākovākyam ekāyanaṃ devavidyāṃ brahmavidyāṃ bhūtavidyāṃ kṣatravidyāṃ nakṣatravidyāṃ sarpadevajanavidyāṃ divaṃ ca pṛthivīṃ ca vāyuṃ cākāśaṃ cāpaś ca tejaś ca devāṃś ca manuṣyāṃś ca paśūṃś ca vayāṃsi ca tṛṇavanaspatīñ śvāpadāny ākīṭapataṅgapipīlakaṃ dharmaṃ cādharmaṃ ca satyaṃ cānṛtaṃ ca sādhu cāsādhu ca hṛdayajñaṃ cāhṛdayajñaṃ cānnaṃ ca rasaṃ cemaṃ ca lokam amuṃ ca vijñānenaiva vijānāti vijñānam upāssveti || 1 ||",
+              "english_translation": "'Understanding (vijñāna), verily, is greater than contemplation. By understanding one understands the four Vedas and all the sciences, heaven and earth, wind and space, water and fire, gods and men, beasts and birds, grasses and trees, animals down to worms, insects, and ants, right and wrong, true and false, good and bad, pleasant and unpleasant, food and taste, this world and that — by understanding alone one understands. Meditate on understanding.'",
+              "commentaries": {
+                "advaita_vedanta": "Vijñāna is the discerning light in which all the foregoing — texts, worlds, values — are known at all. The survey of knowables returns, now as objects of the knower.",
+                "vishishtadvaita": "The faculty of understanding is the Lord's lamp in the soul; by it all His domains are read.",
+                "dvaita_vedanta": "Understanding ranks above absorption, for it discerns; discernment is the Lord's choicest endowment."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स यो विज्ञानं ब्रह्मेत्युपास्ते विज्ञानवतो वै स लोकाञ्ज्ञानवतोऽभिसिध्यति यावद्विज्ञानस्य गतं तत्रास्य यथाकामचारो भवति यो विज्ञानं ब्रह्मेत्युपास्तेऽस्ति भगवो विज्ञानाद्भूय इति विज्ञानाद्वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ २ ॥",
+              "iast": "sa yo vijñānaṃ brahmety upāste vijñānavato vai sa lokāñ jñānavato 'bhisidhyati yāvad vijñānasya gataṃ tatrāsya yathākāmacāro bhavati yo vijñānaṃ brahmety upāste 'sti bhagavo vijñānād bhūya iti vijñānād vāva bhūyo 'stīti tan me bhagavān bravītv iti || 2 ||",
+              "english_translation": "'He who meditates on understanding as Brahman attains worlds of understanding and knowledge. He gains free movement as far as understanding reaches — he who meditates on understanding as Brahman.' — 'Is there, revered sir, anything greater than understanding?' — 'There is indeed something greater than understanding.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "Even the knower-faculty is an instrument; the ascent has not yet reached what is no instrument at all.",
+                "vishishtadvaita": "Understanding too is sustained — by strength, the next rung — and all rungs by the Lord.",
+                "dvaita_vedanta": "The ladder mounts on: every endowment confesses a greater."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

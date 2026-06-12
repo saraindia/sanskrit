@@ -1,0 +1,64 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 13: Chapter 2, Section 1. Meditation on the Entire Sāman. Moving away from isolated syllables, Chapter 2 introduces a holistic meditation where the whole Sāman ritual is viewed as identical to the cosmos, establishing that everything good, harmonious, and orderly in the universe is a manifestation of Sāman.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_1": {},
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "Meditation on the Whole Sāman as Goodness and Harmony",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "ॐ । समस्तस्य खलु साम्न उपासनं साधु । यत्खलु साधु तत्सामेत्याचक्षते यदसाधु तदसामेति ॥ १ ॥",
+              "iast": "oṃ | samastasya khalu sāmna upāsanaṃ sādhu | yatkhalu sādhu tatsāmetyācakṣate yadasādhu tadasāmeti || 1 ||",
+              "english_translation": "Om. Meditation on the entire Sāman is excellent. Whatever is good and righteous, people call it Sāman; whatever is not good or unrighteous, they call it asāman.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara notes the transition in text structure: Chapter 1 focused on meditating on individual parts of the chant, like the Udgītha or specific musical syllables. Chapter 2 elevates this to *samastasya*—the entire, undivided Sāman. Shankara links the word *Sāman* etymologically to *sādhu* (what is wholesome, beautiful, and ethically right). In common speech, when a situation is balanced and flawless, people say 'it is Sāman'. This verse teaches that meditating on the Sāman means meditating on the pervasive, cosmic thread of goodness and harmony that underlies reality.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that 'goodness' (*sādhu*) is an inherent attribute of the Supreme Divine Body. The whole Sāman chant represents the flawless divine order (*Dharma*) instituted by God. Meditating on the entire Sāman allows the devotee to see that all moral goodness, cosmic balance, and aesthetic beauty are expressions of the Divine Will working through creation.",
+                "dvaita_vedanta": "Madhvācārya explains that *Sāman* means that which brings ultimate balance or peace. The Supreme Lord is called Sāman because He is the source of all ultimate goodness. The term *asāman* refers to actions or states devoid of His presence or alignment. Meditating on the whole Sāman means consciously training the mind to recognize the righteous, sustaining power of Viṣṇu in every aspect of life."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तदुतोताप्याहुः साम्नैनमुपागादिति साधुनैनमुपागादित्येव तदाहुः । असाम्नाइ नमुपागादित्यसाधुनैनमुपागादित्येव तदाहुः ॥ २ ॥",
+              "iast": "tadutotāpyāhuḥ sāmnainamupāgāditi sādhunainamupāgādityeva tadāhuḥ | asāmnāi namupāgādityasādhunainamupāgādityeva tadāhuḥ || 2 ||",
+              "english_translation": "Hence, people say about a man who approaches with a good cause: 'He has approached with Sāman,' meaning he has approached with goodness. If he approaches with a bad cause, they say: 'He has approached with asāman,' meaning he has approached with unrighteousness.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara illustrates this with everyday human behavior to prove that the equation between Sāman and goodness is embedded in human consciousness. When someone acts with kindness, fairness, or reconciliation, it is linguistically called 'Sāman'. This worldly consensus serves as a launchpad for spiritual meditation: if human goodness is called Sāman, then cosmic, unbroken goodness is the ultimate reality of the Sāman.",
+                "vishishtadvaita": "The school highlights the interpersonal aspect of this verse. Righteous approach, gentle speech, and noble intentions reflect the qualities of a soul aligned with God. The verse uses social relationships to show that spiritual meditation must reflect practical righteousness (*sadācāra*) in daily actions.",
+                "dvaita_vedanta": "Madhva interprets 'approaching with Sāman' as arriving with an internal disposition aligned with truth and scriptural duty. When a person's intellect is clear and dedicated to the Lord, their actions naturally yield harmony, whereas a mind tracking selfish desires brings *asāman*—chaos and friction."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अथोताप्याहुः साम नो बतेति यत्साधु भवति साधुवत्येवेमाहुः । असाम नो बतेति यदसाधु भवति असाधुवत्येवेमाहुः ॥ ३ ॥",
+              "iast": "athotāpyāhuḥ sāma no bateti yatsādhu bhavati sādhuvatyevemāhuḥ | asāma no bateti yadasāhu bhavati asādhuvatyevemāhuḥ || 3 ||",
+              "english_translation": "They also say: 'Oh, this is Sāman for us!' when something good happens, meaning 'This is excellent!' And they say: 'Oh, this is asāman for us!' when something bad happens, meaning 'This is terrible!'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara explains that this verse demonstrates how humans instinctively identify joy, prosperity, and harmony with Sāman, and suffering or disruption with its absence. The goal of this pedagogical repetition is to firmly anchor the practitioner’s understanding: the Sāman is not just musical notes sung by priests; it is the universal matrix of order, beauty, and auspiciousness.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that when people experience unexpected blessings or relief from suffering, they exclaim it is 'Sāman'. This teaches the seeker to recognize all joyful and harmonious events as direct gifts from the Divine Ruler, training the soul in constant gratitude during the meditative path.",
+                "dvaita_vedanta": "Madhva explains that worldly joy is a tiny, reflection of the absolute bliss of the Lord. When people say 'this is Sāman for us,' they are experiencing a brief flash of harmony. The text uses these moments of everyday happiness to motivate the seeker to seek the permanent, unshakeable Sāman—the Lord Himself."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "स य एतदेवं विद्वान् साधु सामेल्युपास्तेऽभ्याशो ह यदेनं साधवो धर्मा आ च गच्छेयुरुप च नमेयुः ॥ ४ ॥",
+              "iast": "sa ya etadevaṃ vidvān sādhu sāmelyupāste'bhyāśo ha yadenaṃ sādhavo dharmā ā ca gaccheyurupa ca nameyuḥ || 4 ||",
+              "english_translation": "He who knows this and meditates on the Sāman as goodness—to him quickly come all righteous deeds, and they bend down to serve him.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara explains the *Phala* (fruit) of this holistic meditation. For a sage who looks past the physical syllables and sees the Sāman as the universal principle of goodness, an internal transformation occurs. Noble qualities and virtuous thoughts (*sādhavo dharmāḥ*) naturally flock to his mind without intense manual effort. Because his mind has become identical with universal harmony, righteous actions seek him out as their natural home.",
+                "vishishtadvaita": "According to this school, when a devotee meditates on the Sāman as the flawless, loving nature of God, divine grace purifies their character. Virtues do not just arrive; they 'bend down' (*upa-nameyuḥ*), meaning they become entirely natural and effortless habits of the soul, serving the devotee on their path toward total liberation.",
+                "dvaita_vedanta": "Madhva emphasizes that for a realized soul who understands how the independent Lord manages all elements of goodness, the cosmic laws (*dharmas*) bend to their spiritual will. Nature itself aligns to assist a true devotee who sees the universe as an ordered temple of Lord Viṣṇu, ensuring that their life becomes an unbroken flow of service."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

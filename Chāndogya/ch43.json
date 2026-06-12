@@ -1,0 +1,179 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 43: Chapter 3, Sections 16–17. Man's life as a sacrifice (Mahidāsa Aitareya), and the teaching of Ghora Āṅgirasa to Kṛṣṇa, son of Devakī.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_3": {
+      "sections": [
+        {
+          "section_number": 16,
+          "title": "Man as the Sacrifice — The Three Pressings of Life",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "पुरुषो वाव यज्ञस्तस्य यानि चतुर्विंशति वर्षाणि तत्प्रातःसवनं चतुर्विंशत्यक्षरा गायत्री गायत्रं प्रातःसवनं तदस्य वसवोऽन्वायत्ताः प्राणा वाव वसव एते हीदं सर्वं वासयन्ति ॥ १ ॥",
+              "iast": "puruṣo vāva yajñas tasya yāni caturviṃśati varṣāṇi tat prātaḥsavanaṃ caturviṃśatyakṣarā gāyatrī gāyatraṃ prātaḥsavanaṃ tad asya vasavo 'nvāyattāḥ prāṇā vāva vasava ete hīdaṃ sarvaṃ vāsayanti || 1 ||",
+              "english_translation": "A person, verily, is a sacrifice. His first twenty-four years are the morning pressing, for the Gāyatrī has twenty-four syllables and the morning pressing is performed with Gāyatrī. With this the Vasus are connected; the vital breaths are indeed the Vasus, for they make all this dwell (vāsayanti).",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara explains this vidyā as the interiorisation of ritual: one who cannot perform outer sacrifices may see his very lifespan as the sacrifice. The etymology — prāṇas as Vasus because they 'house' all — turns physiology into liturgy.",
+                "vishishtadvaita": "Life itself, offered in awareness, becomes worship of the Lord; the breaths that sustain the body are His Vasus, ministering within.",
+                "dvaita_vedanta": "The body's span is the Lord's appointed rite; the prāṇas serve as gods under Viṣṇu, sustaining the sacrifice of living."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तं चेदेतस्मिन्वयसि किञ्चिदुपतपेत्स ब्रूयात्प्राणा वसव इदं मे प्रातःसवनं माध्यंदिनं सवनमनुसंतनुतेति माहं प्राणानां वसूनां मध्ये यज्ञो विलोप्सीयेत्युद्धैव तत एत्यगदो ह भवति ॥ २ ॥",
+              "iast": "taṃ ced etasmin vayasi kiñcid upatapet sa brūyāt prāṇā vasava idaṃ me prātaḥsavanaṃ mādhyaṃdinaṃ savanam anusaṃtanuteti māhaṃ prāṇānāṃ vasūnāṃ madhye yajño vilopsīyety uddhaiva tata ety agado ha bhavati || 2 ||",
+              "english_translation": "If any sickness afflict him in that period of life, let him say: 'O breaths, O Vasus, extend this my morning pressing into the midday pressing; let me, the sacrifice, not be cut off in the midst of the breaths, the Vasus.' Then he rises from it and becomes free of illness.",
+              "commentaries": {
+                "advaita_vedanta": "The prayer applies sacrificial continuity to life: as a rite must not be interrupted, neither should the life-sacrifice. The conviction itself, says Śaṅkara, has healing power for the meditator.",
+                "vishishtadvaita": "The sick man petitions the Lord's ministers to preserve the offering of his life — humble dependence that draws divine protection.",
+                "dvaita_vedanta": "Health is restored by the gods at the Lord's will when the sacrifice of life is reverently commended to them."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अथ यानि चतुश्चत्वारिंशद्वर्षाणि तन्माध्यंदिनं सवनं चतुश्चत्वारिंशदक्षरा त्रिष्टुप्त्रैष्टुभं माध्यंदिनं सवनं तदस्य रुद्रा अन्वायत्ताः प्राणा वाव रुद्रा एते हीदं सर्वं रोदयन्ति ॥ ३ ॥",
+              "iast": "atha yāni catuścatvāriṃśad varṣāṇi tan mādhyaṃdinaṃ savanaṃ catuścatvāriṃśadakṣarā triṣṭup traiṣṭubhaṃ mādhyaṃdinaṃ savanaṃ tad asya rudrā anvāyattāḥ prāṇā vāva rudrā ete hīdaṃ sarvaṃ rodayanti || 3 ||",
+              "english_translation": "The next forty-four years are the midday pressing, for the Triṣṭubh has forty-four syllables and the midday pressing is performed with Triṣṭubh. With this the Rudras are connected; the vital breaths are indeed the Rudras, for they make all this weep (rodayanti).",
+              "commentaries": {
+                "advaita_vedanta": "Middle age, with its burdens, belongs to the Rudras — the breaths as causes of weeping when they depart or afflict. The etymology again welds body to cosmos.",
+                "vishishtadvaita": "The Rudra-breaths chasten as the Lord's discipline; even life's severities are within His sacrificial order.",
+                "dvaita_vedanta": "The Rudras' power to cause weeping is exercised under Viṣṇu's justice; the wise see order, not chance, in affliction."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तं चेदेतस्मिन्वयसि किञ्चिदुपतपेत्स ब्रूयात्प्राणा रुद्रा इदं मे माध्यंदिनं सवनं तृतीयसवनमनुसंतनुतेति माहं प्राणानां रुद्राणां मध्ये यज्ञो विलोप्सीयेत्युद्धैव तत एत्यगदो ह भवति ॥ ४ ॥",
+              "iast": "taṃ ced etasmin vayasi kiñcid upatapet sa brūyāt prāṇā rudrā idaṃ me mādhyaṃdinaṃ savanaṃ tṛtīyasavanam anusaṃtanuteti māhaṃ prāṇānāṃ rudrāṇāṃ madhye yajño vilopsīyety uddhaiva tata ety agado ha bhavati || 4 ||",
+              "english_translation": "If any sickness afflict him in that period of life, let him say: 'O breaths, O Rudras, extend this my midday pressing into the third pressing; let me, the sacrifice, not be cut off in the midst of the breaths, the Rudras.' Then he rises from it and becomes free of illness.",
+              "commentaries": {
+                "advaita_vedanta": "The same healing resolve, now addressed to the Rudra-breaths: continuity of the life-rite is the theme.",
+                "vishishtadvaita": "Petition to the Lord's stern ministers turns severity into protection.",
+                "dvaita_vedanta": "The gods extend life when the Lord, hearing the dedicated soul, so ordains."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अथ यान्यष्टाचत्वारिंशद्वर्षाणि तत्तृतीयसवनमष्टाचत्वारिंशदक्षरा जगती जागतं तृतीयसवनं तदस्यादित्या अन्वायत्ताः प्राणा वावादित्या एते हीदं सर्वमाददते ॥ ५ ॥",
+              "iast": "atha yāny aṣṭācatvāriṃśad varṣāṇi tat tṛtīyasavanam aṣṭācatvāriṃśadakṣarā jagatī jāgataṃ tṛtīyasavanaṃ tad asyādityā anvāyattāḥ prāṇā vāvādityā ete hīdaṃ sarvam ādadate || 5 ||",
+              "english_translation": "The next forty-eight years are the third pressing, for the Jagatī has forty-eight syllables and the third pressing is performed with Jagatī. With this the Ādityas are connected; the vital breaths are indeed the Ādityas, for they take all this to themselves (ādadate).",
+              "commentaries": {
+                "advaita_vedanta": "Old age belongs to the Ādityas — the breaths as gatherers, drawing in the powers they once spread out. The life-sacrifice totals 116 years across its three pressings.",
+                "vishishtadvaita": "In life's evening the Lord's Āditya-ministers gather the soul's faculties homeward.",
+                "dvaita_vedanta": "The Ādityas reclaim what was lent; all faculties return to the Lord's keeping."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "तं चेदेतस्मिन्वयसि किञ्चिदुपतपेत्स ब्रूयात्प्राणा अदित्या इदं मे तृतीयसवनमायुरनुसंतनुतेति माहं प्राणानामादित्यानां मध्ये यज्ञो विलोप्सीयेत्युद्धैव तत एत्यगदो हैव भवति ॥ ६ ॥",
+              "iast": "taṃ ced etasmin vayasi kiñcid upatapet sa brūyāt prāṇā adityā idaṃ me tṛtīyasavanam āyur anusaṃtanuteti māhaṃ prāṇānām ādityānāṃ madhye yajño vilopsīyety uddhaiva tata ety agado haiva bhavati || 6 ||",
+              "english_translation": "If any sickness afflict him in that period of life, let him say: 'O breaths, O Ādityas, extend this my third pressing to a full lifespan; let me, the sacrifice, not be cut off in the midst of the breaths, the Ādityas.' Then he rises from it and becomes free of illness indeed.",
+              "commentaries": {
+                "advaita_vedanta": "Even in the last pressing the rite may be prolonged to its full measure; the meditation claims the whole span ordained for the sacrifice.",
+                "vishishtadvaita": "The aged devotee asks the Lord's gatherers for the rite's completion, and grace grants health.",
+                "dvaita_vedanta": "Length of days is the Lord's to give; the prayerful sacrifice receives its full term."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "एतद्ध स्म वै तद्विद्वानाह महिदास ऐतरेयः स किं म एतदुपतपसि योऽहमनेन न प्रेष्यामीति स ह षोडशं वर्षशतमजीवत्प्र ह षोडशं वर्षशतं जीवति य एवं वेद ॥ ७ ॥",
+              "iast": "etad dha sma vai tad vidvān āha mahidāsa aitareyaḥ sa kiṃ ma etad upatapasi yo 'ham anena na preṣyāmīti sa ha ṣoḍaśaṃ varṣaśatam ajīvat pra ha ṣoḍaśaṃ varṣaśataṃ jīvati ya evaṃ veda || 7 ||",
+              "english_translation": "Knowing this, Mahidāsa Aitareya said (to his disease): 'Why do you afflict me thus, since I shall not die by this?' He lived a hundred and sixteen years. He who knows thus also lives on to a hundred and sixteen years.",
+              "commentaries": {
+                "advaita_vedanta": "The sage's fearless address to disease shows knowledge as mastery: he who knows life's sacrificial measure cannot be cut down before its completion.",
+                "vishishtadvaita": "Mahidāsa's confidence rests on the Lord who guards the sacrifice committed to Him.",
+                "dvaita_vedanta": "The knower's longevity is the Lord's reward for completing the rite of life in devotion."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 17,
+          "title": "The Teaching of Ghora Āṅgirasa to Kṛṣṇa, Son of Devakī",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "स यदशिशिषति यत्पिपासति यन्न रमते ता अस्य दीक्षाः ॥ १ ॥",
+              "iast": "sa yad aśiśiṣati yat pipāsati yan na ramate tā asya dīkṣāḥ || 1 ||",
+              "english_translation": "When a man hungers, thirsts, and abstains from pleasure — these are his initiatory rites (dīkṣā).",
+              "commentaries": {
+                "advaita_vedanta": "Life's austerities are themselves the sacrificial consecration: hunger, thirst, and restraint purify as dīkṣā does. The whole of experience is reread as ritual.",
+                "vishishtadvaita": "Privations borne in remembrance of the Lord become consecration; nothing in the devotee's life falls outside worship.",
+                "dvaita_vedanta": "Sufferings accepted as the Lord's discipline initiate the soul into the sacrifice of living."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अथ यदश्नाति यत्पिबति यद्रमते तदुपसदैरेति ॥ २ ॥",
+              "iast": "atha yad aśnāti yat pibati yad ramate tad upasadair eti || 2 ||",
+              "english_translation": "And when he eats, drinks, and enjoys pleasure — then he keeps the upasad rites (days of milk-fasting and worship).",
+              "commentaries": {
+                "advaita_vedanta": "Even enjoyment, taken in measure, parallels the gentle upasad observances — the rite embraces both privation and delight.",
+                "vishishtadvaita": "Lawful enjoyment received as the Lord's prasāda is itself a mode of His service.",
+                "dvaita_vedanta": "Pleasures used within dharma are part of the sacrifice, not its violation."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अथ यद्धसति यज्जक्षति यन्मैथुनं चरति स्तुतशस्त्रैरेव तदेति ॥ ३ ॥",
+              "iast": "atha yad dhasati yaj jakṣati yan maithunaṃ carati stutaśastrair eva tad eti || 3 ||",
+              "english_translation": "And when he laughs, feasts, and unites with his wife — then he joins in the chants and recitations (stuta and śastra).",
+              "commentaries": {
+                "advaita_vedanta": "The sacrifice's joyous hymnody corresponds to life's gladness; nothing human is excluded from the inner rite.",
+                "vishishtadvaita": "Household joys, hallowed by remembrance, are the music of the life-sacrifice.",
+                "dvaita_vedanta": "Even mirth has its ritual analogue when life is lived under the Lord's ordinance."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ यत्तपो दानमार्जवमहिंसा सत्यवचनमिति ता अस्य दक्षिणाः ॥ ४ ॥",
+              "iast": "atha yat tapo dānam ārjavam ahiṃsā satyavacanam iti tā asya dakṣiṇāḥ || 4 ||",
+              "english_translation": "Austerity, charity, uprightness, non-violence, and truthfulness — these are his gifts to the priests (dakṣiṇā).",
+              "commentaries": {
+                "advaita_vedanta": "The five virtues are the fees of the life-sacrifice — what the sacrificer must actually give. Śaṅkara notes that ethical substance replaces external payment in this inner liturgy.",
+                "vishishtadvaita": "Virtues offered to the Lord are the true dakṣiṇā; conduct is the currency of devotion.",
+                "dvaita_vedanta": "Madhva stresses these five as obligatory offerings whose acceptance lies with the Lord alone."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "तस्मादाहुः सोष्यत्यसोष्टेति पुनरुत्पादनमेवास्य तन्मरणमेवावभृथः ॥ ५ ॥",
+              "iast": "tasmād āhuḥ soṣyaty asoṣṭeti punar utpādanam evāsya tan maraṇam evāvabhṛthaḥ || 5 ||",
+              "english_translation": "Therefore they say 'he will press' and 'he has pressed' (of the soma) — that is his rebirth (in the rite); and death itself is the final purificatory bath (avabhṛtha).",
+              "commentaries": {
+                "advaita_vedanta": "Birth is the rite's commencement, death its closing ablution — life rounded as one complete sacrifice. For the knower, death is not terror but the rite's consummation.",
+                "vishishtadvaita": "Death as avabhṛtha washes the soul for entry into the Lord's presence; the life-offering ends in purification, not loss.",
+                "dvaita_vedanta": "The final bath signifies the soul's cleansing passage to its Lord-appointed destiny."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "तद्धैतद्घोर आङ्गिरसः कृष्णाय देवकीपुत्रायोक्त्वोवाचापिपास एव स बभूव सोऽन्तवेलायामेतत्त्रयं प्रतिपद्येताक्षितमस्यच्युतमसि प्राणसंशितमसीति तत्रैतौ द्वौ श्लोकौ भवतः ॥ ६ ॥",
+              "iast": "tad dhaitad ghora āṅgirasaḥ kṛṣṇāya devakīputrāyoktvovācāpipāsa eva sa babhūva so 'ntavelāyām etat trayaṃ pratipadyetākṣitam asy acyutam asi prāṇasaṃśitam asīti tatraitau dvau ślokau bhavataḥ || 6 ||",
+              "english_translation": "Ghora Āṅgirasa, having taught this to Kṛṣṇa the son of Devakī, said — and he became free of thirst (for anything further) — 'At the final hour one should take refuge in these three: You are the Indestructible, You are the Unfallen, You are the very essence of life.' On this there are these two verses:",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara notes the dying meditation: three affirmations of the imperishable Reality. The pupil 'thirsted no more' — the teaching extinguished all further craving. The mention of Kṛṣṇa Devakīputra has been treasured by tradition as linking this vidyā to the Lord of the Gītā.",
+                "vishishtadvaita": "The threefold refuge — Imperishable, Unfallen (Acyuta), Life of life — names the Lord Himself; the school delights that Kṛṣṇa, Devakī's son, here receives what He would later teach as the Gītā's eternal message.",
+                "dvaita_vedanta": "Madhva's tradition reads the three names as Viṣṇu's own: Akṣita, Acyuta, Prāṇasaṃśita. The final-hour remembrance of these names is the seed of the Gītā's teaching on remembering the Lord at death."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "आदित्प्रत्नस्य रेतसः । उद्वयं तमसस्परि ज्योतिः पश्यन्त उत्तरं स्वः पश्यन्त उत्तरं देवं देवत्रा सूर्यमगन्म ज्योतिरुत्तममिति ज्योतिरुत्तममिति ॥ ७ ॥",
+              "iast": "ād it pratnasya retasaḥ | ud vayaṃ tamasas pari jyotiḥ paśyanta uttaraṃ svaḥ paśyanta uttaraṃ devaṃ devatrā sūryam aganma jyotir uttamam iti jyotir uttamam iti || 7 ||",
+              "english_translation": "'(They behold) the light of the ancient seed. Beholding the higher light beyond darkness, beholding the higher heaven, we have reached the Sun, god among gods, the highest light — yes, the highest light.'",
+              "commentaries": {
+                "advaita_vedanta": "The two Ṛg citations celebrate the passage from darkness to the supreme Light — for Śaṅkara, from ignorance to the Self's self-luminosity. The repetition seals the vidyā of life-as-sacrifice.",
+                "vishishtadvaita": "The 'highest light' is the supreme Person beyond the darkness of matter; the verse sings the soul's arrival at His radiant abode.",
+                "dvaita_vedanta": "Reaching 'the god among gods, the highest light' is attaining Viṣṇu, supreme over all deities — the goal of the dying devotee's remembrance."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

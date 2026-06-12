@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 32: Chapter 2, Section 20. The Meditation on the Rājana Sāman (Rājana Sāmopāsanā). This section details the meditation on the Rājana melody, mapping its five structural movements onto the glorious cosmic manifestations of the elements and celestial luminaries—Fire, Wind, Sun, Moon, and Stars.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 20,
+          "title": "The Meditation on the Rājana Sāman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अग्निर्हिंकारो वायुः प्रस्ताव आदित्य उद्गीथो नक्षत्राणि प्रतिहारश्चन्द्रमा निधनमेतद्राजनं देवतासु प्रोतम् ॥ १ ॥",
+              "iast": "agnirhiṃkāro vāyuḥ prastāva āditya udgītho nakṣatrāṇi pratihāraścandramā nidhanametadrājanaṃ devatāsu protam || 1 ||",
+              "english_translation": "Fire (Agni) is the syllable 'Hiṃ'; Wind (Vāyu) is the introductory praise (Prastāva); the Sun (Āditya) is the loud chant (Udgītha); the Stars (Nakṣatrāṇi) are the response (Pratihāra); and the Moon (Candramas) is the finale (Nidhana). This is the Rājana Sāman as woven into the deities and cosmic forces.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that *Rājana* etymologically means 'splendid,' 'shining,' or 'kingly' (*rāj*), making it perfectly suited for the radiant deities and cosmic forces (*devatās*). The text organizes these macrocosmic powers into a beautiful sequence. Fire (*agni*), the closest and most immediate terrestrial light, serves as *Hiṃkāra*. Wind (*vāyu*), the pervasive atmosphere that fans and moves life, represents the *Prastāva*. The Sun (*āditya*), standing as the brilliant, supreme king of day and life, is crowned as the central *Udgītha*. The constellation of Stars (*nakṣatrāṇi*), which stand like defensive sentinels or counter-points scattered across space, act as the *Pratihāra*. Finally, the Moon (*candramas*), which provides the soothing night sanctuary where the minds of creatures rest and rejuvenate, serves as the *Nidhana*. This meditation trains the seeker's eye to look at skyward phenomena not as empty matter, but as a vast celestial song.",
+                "vishishtadvaita": "Raṅgarāmānuja structuralizes this celestial mapping to show how the bright administrative powers of the universe reflect the splendor of the Supreme Lord. Placing the Sun at the center as the *Udgītha* highlights that all light ultimately traces back to the primary source of illumination, while the Moon as *Nidhana* reassures the devotee that the comforting, cool grace of God is the ultimate resting harbor for the travel-weary mind.",
+                "dvaita_vedanta": "Madhvācārya points out that the *Rājana-Sāman* is directed by the cosmic administrators who manage planetary cycles under the absolute, independent rule of Lord Viṣṇu. The word *protam* indicates that the interactions of elements, light, and stars are tightly coordinated. They follow an unchangeable divine layout designed to hold the universe steady, proving that creation operates within a flawless blueprint engineered by the Sovereign Being."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एवमेतद्राजनं देवतासु प्रोतं वेद एतासामेव देवतानां सलोकतां सायुज्यं गच्छति सर्वमायुरेति ज्योग्जीवति महान्प्रजया पशुभिर्भवति महान्कीर्त्या ब्राह्मणान्न निन्देत्तद्व्रतम् ॥ २ ॥",
+              "iast": "sa ya evametadrājanaṃ devatāsu protaṃ veda etāsāmeva devatānāṃ salokatāṃ sāyujyaṃ gacchati sarvamāyureti jyogjīvati mahān prajayā paśubhirbhavati mahān kīrtyā brāhmaṇānna nindettadvratam || 2 ||",
+              "english_translation": "He who knows this Rājana Sāman as woven into the deities attains residency in the same world (Salokatā) and intimate communion (Sāyujya) with these very cosmic forces; he enjoys a full and glorious lifespan, and grows great in progeny, cattle, and renown. His sacred vow should be never to speak ill of or disrespect the keepers of sacred knowledge (Brāhmaṇas).",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the unique metaphysical reward (*Salokatā* and *Sāyujya*) and the strict behavioral vow (*Vrata*) given here: *brāhmaṇān na nindet* (one must never criticize or speak ill of the Brāhmaṇas). Shankara notes that in this context, Brāhmaṇas represent the direct earthly guardians of the Vedic chants, rituals, and the cosmic knowledge that reveals these deities. Criticizing those who preserve this liturgical framework indicates a deep inner rebellion against the Sāman layout itself. Keeping this vow preserves the seeker's non-dual alignment, leading their consciousness to seamlessly merge with the cosmic fields of light.",
+                "vishishtadvaita": "The school highlights that *Sāyujya* represents a profound spiritual state where the soul shares intimately in the qualities of divine light, freed from material ignorance. Respecting the true keepers of wisdom means valuing the line of spiritual teachers (*Guru-paramparā*). Maintaining this vow keeps the seeker's mind receptive to higher scriptural instructions, ensuring that their daily life remains bright and full of devotion.",
+                "dvaita_vedanta": "According to Madva, speaking ill of genuine scholars who dedicate their lives to chanting the glories of Viṣṇu brings severe spiritual setbacks and blocks the mind. True cosmic alignment requires honoring the earthly hierarchy that links humanity to the gods. Following this discipline ensures material stability, a healthy family lineage, long life, and an excellent, enduring reputation (*kīrti*)."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

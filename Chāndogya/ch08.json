@@ -1,0 +1,63 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 8: Chapter 1, Section 9. The resolution of the debate by King Pravāhaṇa Jaivali, identifying Space (Ākāśa) as the supreme origin, support, and end of all things, identifying it with the Udgītha.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_1": {
+      "sections": [
+        {
+          "section_number": 9,
+          "title": "The Ultimate Source: The Meditation on Space as the Udgītha",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अस्य लोकस्य का गतिरित्याकाश इति होवाच सर्वाणि ह वा इमानि भूतान्याकाशादेव समुत्पद्यन्त आकाशं प्रत्यस्तं यन्त्याकाशो ह्येवैभ्यो ज्यायानाकाशः परायणम् ॥ १ ॥",
+              "iast": "asya lokasya kā gatirityākāśa iti hovāca sarvāṇi ha vā imāni bhūtānyākāśādeva samutpadyanta ākāśaṃ pratyastaṃ yantyākāśo hyevaibhyo jyāyānākāśaḥ parāyaṇam || 1 ||",
+              "english_translation": "'What is the ultimate destination of this world?' asked Śilaka. 'Space (Ākāśa),' replied Pravāhaṇa. 'Verily, all these created beings arise from Space alone, and they return back into Space. For Space alone is greater than these; Space is the ultimate goal.'",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara delivers one of his most celebrated philosophical definitions here. He clarifies that *Ākāśa* in this absolute context does not mean the material element of physical space or sky (*Bhūtākāśa*). Instead, it means the Supreme Brahman (*Paramātman*). Physical objects cannot create or dissolve other physical objects from scratch; only the infinite, non-dual Consciousness acts as the material and efficient cause of the universe. All beings sprout from Consciousness, are sustained by it, and collapse back into it. Consciousness is *jyāyān* (greater than everything) and *parāyaṇam* (the final resort).",
+                "vishishtadvaita": "Raṅgarāmānuja argues that *Ākāśa* is a direct name for the Supreme Lord (*Nārāyaṇa*), who possesses the quality of infinite expansiveness. The verse explicitly states that all elements originate from and dissolve into this space. Because material space is itself a created thing, the 'Space' mentioned here must be the sentient, independent Divine Ground who supports both the spiritual soul and physical matter.",
+                "dvaita_vedanta": "Madhvācārya explains that the word *Ākāśa* etymologically means 'He who is luminous everywhere' (*ā-samantāt kāśate*), which is an exclusive title of Lord Viṣṇu. Viṣṇu is the primary cause from whom the secondary element of space and all other elements emerge. He is 'greater' because He is completely independent, while all of creation depends on Him for its existence, movement, and preservation."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स एष परोवरीयानुद्गीथः स एषोऽनन्तः परोवरीयो हास्य भवति परोवरीयसो लोकाञ्जयति य एतदेवं विद्वान्परोवरीयाँसमुद्गीथमुपास्ते ॥ २ ॥",
+              "iast": "sa eṣa parovarīyānudgīthaḥ sa eṣo'nantaḥ parovarīyo hāsya bhavati parovarīyaso lokāñjayati ya etadevaṃ vidvānparovarīyāṃsamudgīthamupāste || 2 ||",
+              "english_translation": "This Udgītha, identical with Space, is the most excellent and supreme; it is infinite. He who, knowing this truth, meditates upon the Udgītha as the supreme and infinite, attains what is most excellent, and wins supreme and excellent worlds.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the meaning of *parovarīyān* (higher than the high, greater than the great). By identifying the Udgītha chant with infinite Space (Brahman), the meditation expands from a localized ritual act into a cosmic realization. The 'infinite worlds' won by the seeker are not temporary heavenly domains; they represent the breakdown of limitation itself. To know the infinite is to become infinite.",
+                "vishishtadvaita": "The school explains that meditating on the Udgītha as the infinite Lord brings the seeker into alignment with the highest realms of existence. The rewards described here represent step-by-step spiritual elevation, culminating in the attainment of the supreme, imperishable spiritual abode (*Vaikuṇṭha*) where there is no return to material suffering.",
+                "dvaita_vedanta": "Madhva asserts that the repetition of excellence highlights the absolute supremacy of Viṣṇu over all other paths of worship. The devotee who recognizes the Lord as the infinite, independent master of all cosmic layers breaks through lower karmic entanglements, receiving eternal spiritual joy directly from the hands of the Almighty."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तद्वैतदतिधन्वा शौनक उददरशाण्डिल्यायोक्त्वोवाच यावत्त एनं प्रजायामुद्गीथं वेदिष्यन्ते परोवरीयो हैभ्यस्तावदस्मिँल्लोके जीवनं भविष्यति ॥ ३ ॥",
+              "iast": "tadvaitadabhidhanvā śaunaka udadaraśāṇḍilyāyoktvovāca yāvatta enaṃ prajāyāmudgīthaṃ vediṣyante parovarīyo haibhyastāvadasmiँlloke jīvanaṃ bhaviṣyati || 3 ||",
+              "english_translation": "Atidhanvan, the son of Śunaka, taught this profound doctrine of the Udgītha to Udaraśāṇḍilya and said: 'As long as your descendants continue to understand this deep meaning of the Udgītha, their lives in this world will be supreme and excellent.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara points out that this verse traces the historical lineage (*Vaṃśa*) of the knowledge to prove its authenticity and unshakeable track record. The promise of an 'excellent life' for future generations means that when a family or culture maintains a living realization of the infinite, their worldly life remains free from the anxious desperation of materialistic ignorance.",
+                "vishishtadvaita": "Raṅgarāmānuja writes that spiritual wisdom should be preserved and passed down through generations as a sacred family inheritance. When children are raised with the deep understanding that the universe is pervaded by the Lord, their lives are naturally filled with righteousness, stability, and purpose.",
+                "dvaita_vedanta": "According to Madva, this lineage-based blessing shows that the true understanding of the divine hierarchy acts as a protective shield for society. Generations that honor the independent supremacy of Viṣṇu remain anchored in cosmic truth, experiencing prosperity in this life and spiritual liberation hereafter."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तथाऽमुष्मिँल्लोके लोक इति परोवरीयो हास्य भवति परोवरीयसो लोकाञ्जयति य एतदेवं विद्वान्परोवरीयाँसमुद्गीथमुपास्ते ॥ ४ ॥",
+              "iast": "tathā'muṣmiँlloke loka iti parovarīyo hāsya bhavati parovarīyaso lokāñjayati ya etadevaṃ vidvānparovarīyāṃsamudgīthamupāste || 4 ||",
+              "english_translation": "'And likewise, their state in the next world will be supreme and excellent.' He who, knowing this truth, meditates upon the Udgītha as the supreme and infinite, becomes supreme in this life and wins supreme worlds in the life to come.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara wraps up Section 9 with a comprehensive seal of realization. The phrase *tathā amuṣmin loke* guarantees that the fruits of absolute realization are unbroken across time and space. Whether existing in this physical body or passing into other dimensions of reality, the knower of Brahman remains centered in the same unmoving, boundless source, entirely free from fear.",
+                "vishishtadvaita": "The conclusion of this section emphasizes that true devotion protects the seeker across both horizons of existence. The soul is taken care of here on earth, and upon departure, it inherits the timeless spiritual kingdom, demonstrating that knowledge of the Lord as the ultimate space fulfills all paths.",
+                "dvaita_vedanta": "Madhva concludes that this absolute declaration settles the debate once and for all. Neither ritual paradise nor the physical earth can offer final safety; only the independent, all-pervading Lord Viṣṇu offers unshakeable shelter. Recognizing Him as the heart of the Udgītha guarantees ultimate success across all cosmic planes."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 7: Chapter 1, Section 8. The debate among three scholars of the Sāman (Śilaka, Dālbhya, and Pravāhaṇa) regarding the ultimate origin, support, and destination of the Udgītha.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_1": {
+      "sections": [
+        {
+          "section_number": 8,
+          "title": "The Debate on the Ultimate Substrate of the Udgītha",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "त्रयो होद्गीथे कुशला आसुः शिलकः शालावत्यश्चैकितायनो दाल्भ्यः प्रवाहणो जैवलिरिति ते होचुरुद्गीथे वै कुशलाः स्मो हन्तोद्गीथे कथां वदाम इति ॥ १ ॥",
+              "iast": "trayo hodgīthe kuśalā āsuḥ śilakaḥ śālāvatyaścaikitāyano dālbhyaḥ pravāhaṇo jaivaliriti te hocurudgīthe vai kuśalāḥ smo hantodgīthe kathāṃ vadāma iti || 1 ||",
+              "english_translation": "Three men were well-versed in the Udgītha: Śilaka Śālāvatya, Caikitāyana Dālbhya, and Pravāhaṇa Jaivali. They said to one another, 'We are all experts in the Udgītha. Come, let us hold a discussion on this sacred sound.'",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that this section shifts from purely meditative injunctions to an instructional narrative or debate (*Kthā*). The text introduces three historical scholars to emphasize that spiritual tracking requires dialogue and systematic elimination of shallow concepts. Two are Brahmins (*Śilaka* and *Dālbhya*) and one is a Kṣatriya king (*Pravāhaṇa*). This setting shows that the highest metaphysical wisdom (*Jñāna*) often bypassed rigid priestly formulas and rested with the philosophical rulers who looked beyond ritual technicalities.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that this verse sets a beautiful example of spiritual fellowship (*Satsaṅga*). Even highly accomplished masters do not act out of intellectual pride; instead, they gather humbly to refine their understanding of the ultimate truth, recognizing that talking about the Lord's symbols clears the mind and purifies the heart.",
+                "dvaita_vedanta": "Madhvācārya explains that the gathering of these three scholars was orchestrated by the divine will to reveal the true hierarchy of cosmic causes. Each scholar represents a different depth of perception, and the discussion is designed to lead the student step-by-step from material causes up to the supreme independent ruler, Viṣṇu."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तथेति ह समुपविविशुः स ह प्रवाहणो जैवलिरुवाच भगवन्तावग्रे वदतां ब्राह्मणयोर्वदतोः श्रोष्यामीति ॥ २ ॥",
+              "iast": "tatheti ha samupaviviśuḥ sa ha pravāhaṇo jaivaliruvāca bhagavantāvagre vadatāṃ brāhmaṇayorvādatoḥ śroṣyāmīti || 2 ||",
+              "english_translation": "Saying, 'Let it be so,' they sat down together. Pravāhaṇa Jaivali said, 'You two venerable Brahmins may speak first. I will listen to your philosophical dialogue.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara highlights the cultural dynamics and politeness of the debate. King Pravāhaṇa, despite holding the deeper, final knowledge, yields the platform to the two Brahmin priests out of respect for their traditional position as teachers. In Advaita, this illustrates that transactional decorum and social humility are completely compatible with internal spiritual mastery.",
+                "vishishtadvaita": "The school interprets the king's request as an example of genuine spiritual humility and patience. By choosing to listen first, the king embodies the quality of a true seeker who observes carefully before offering the ultimate context of divine reality, honoring the specialized learning of the priests.",
+                "dvaita_vedanta": "Madhva notes that the king stays quiet at first because he wants the limitations of the lower cosmic views to be fully exposed by the Brahmins themselves. This structural patience allows the final truth of the Supreme Lord's absolute independence to shine with complete clarity when it is finally spoken."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स ह शिलकः शालावत्यश्चैकितायनं दाल्भ्यमुवाच हन्त त्वा पृच्छानीति पृच्छेति होवाच ॥ ३ ॥",
+              "iast": "sa ha śilakaḥ śālāvatyaścaikitāyanaṃ dālbhyamuvāca hanta tvā pṛcchānīti pṛccheti hovāca || 3 ||",
+              "english_translation": "Then Śilaka Śālāvatya said to Caikitāyana Dālbhya, 'If you permit, may I question you?' Dālbhya replied, 'Please, ask.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the precise rules of engagement here. By asking permission to question, Śilaka sets up a formal, analytical investigation (*Vicāra*). This step-by-step dialectic ensures that the search for the core of the Udgītha moves forward logically, peeling away superficial understandings through question and answer.",
+                "vishishtadvaita": "The dialogue form shows that scriptural truths are best understood when tested through inquiry. Raṅgarāmānuja points out that this formal question-and-answer dynamic opens up the student's intellect, transforming mechanical ritual knowledge into a deeper, living quest for ultimate realities.",
+                "dvaita_vedanta": "Madhva highlights this verse as the beginning of a deliberate cosmic countdown. The examination begins between the two traditional scholars to trace the stream of energy back to its source, demonstrating that every intermediate power in creation must answer to a higher authority."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "का साम्नो गतिरिति स्वर इति होवाच स्वरस्य का गतिरिति प्राण इति होवाच प्राणस्य का गतिरित्यन्नमिति होवाच अन्नस्य का गतिरित्याप इति होवाच ॥ ४ ॥",
+              "iast": "kā sāmno gatiriti svara iti hovāca svarasya kā gatiriti prāṇa iti hovāca prāṇasya kā gatirityannamiti hovāca annasya kā gatirityāpa iti hovāca || 4 ||",
+              "english_translation": "'What is the ultimate support of the Sāman?' asked Śilaka. 'Sound or breath-pitch (Svara),' replied Dālbhya. 'What is the support of sound?' 'The Breath (Prāṇa).' 'What is the support of the Breath?' 'Food (Anna).' 'What is the support of food?' 'Water (Āpas).'",
+              "commentaries": {
+                "advaita_vedanta": "A masterpiece of logical reductionism. Shankara tracks how Dālbhya traces the material and biological layers backward. The musical Sāman depends on vocal pitch (*Svara*); pitch depends on the physical movement of breath (*Prāṇa*); breath cannot exist without the fuel of food (*Anna*); and food cannot grow without water (*Āpas*). Each step represents a deep conditioning dependency, moving from the subtle phonetic expression down to the gross material elements of nature.",
+                "vishishtadvaita": "The school notes that this chain of dependencies beautifully demonstrates the physical interconnectedness of the Lord's material universe. No biological function operates in isolation. The breath, food, and water are all linked links in a chain of life, showing how the physical body relies entirely on the elements provided by divine providence.",
+                "dvaita_vedanta": "Madhva points out that this sequence maps the hierarchy of presiding elemental deities. The deity of sound depends on the deity of breath, who relies on the food-deity, who is sustained by the water-deity. This systematic trace proves to the student that no natural element holds independent power; each answers to a superior cosmic law."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अपां का गतिरित्यसौ लोक इति होवाच अमुष्य लोकस्य का गतिरिति न स्वर्गं लोकादतिनयामीति होवाच स्वर्गं वयँ लोकं सामाभिसंस्थापयामः स्वर्गसंस्तावँ हि सामेति ॥ ५ ॥",
+              "iast": "apāṃ kā gatirityasau loka iti hovāca amuṣya lokasya kā gatiriti na svargaṃ lokādatinayāmīti hovāca svargaṃ vayaṃ lokaṃ sāmābhisaṃsthāpayāmaḥ svargasaṃstāvaṃ hi sāmeti || 5 ||",
+              "english_translation": "'What is the support of water?' 'Yonder heavenly world (Svarga),' said Dālbhya. 'And what is the support of yonder heavenly world?' Dālbhya replied, 'Do not question further, for I cannot go beyond the heavenly world. We establish the Sāman within the paradise of heaven, for the Sāman is praised as heaven itself.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara exposes the dead end of purely ritualistic thinking. Dālbhya traces water back to the rain clouds of the heavenly world (*Svarga*), but when asked what supports heaven, he hits a wall and says, 'Do not push me further' (*na atinayāmi*). For a ritualist, paradise is the final station, the absolute ceiling of happiness. Shankara explains that this is Dālbhya's error: he mistakes a temporary, conditional celestial realm for the boundless substrate of reality, exposing the limitations of material religion.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that Dālbhya's stop at heaven shows he has not yet discovered the transcendental home of God (*Parama-padam*). He treats heaven as the final goal because it satisfies the highest ritual desires, but he fails to realize that the material heavens are still finite realms created, sustained, and dissolved by the Supreme Lord.",
+                "dvaita_vedanta": "Madhva states that Dālbhya's knowledge ends at the deity of heaven because his spiritual vision is limited to karmic rewards. He believes the Sāman chant exists simply to secure a place in paradise. This verse reveals that without deep metaphysical insight, a ritualist remains trapped within the created worlds, unable to see the true source of all planes."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "तँ ह शिलकः शालावत्यश्चैकितायनं दाल्भ्यमुवाचाप्रतिष्ठितं वै किल ते दाल्भ्य साम यस्त्वेतर्हि ब्रूयान्मूर्धा ते विपतिष्यतीति मूर्धा ते विपतेदिति ॥ ६ ॥",
+              "iast": "taṃ ha śilakaḥ śālāvatyaścaikitāyanaṃ dālbhyamuvācāpratiṣṭhitaṃ vai kila te dālbhya sāma yastvetharhi brūyānmūrdhā te vipatiṣyatīti mūrdhā te vipatediti || 6 ||",
+              "english_translation": "Then Śilaka Śālāvatya said to Caikitāyana Dālbhya, 'Verily, Dālbhya, your Sāman is without a final foundation. If someone who knows the true foundation were to tell you at this moment, \"Your head will fall off,\" your head would indeed fall off.'",
+              "commentaries": {
+                "advaita_vedanta": "This severe idiomatic warning ('your head will fall off') is explained by Shankara not as a literal physical threat or a magic curse, but as a deep metaphysical law. If a teacher confidently preaches an ultimate truth but stops at a limited, incomplete layer (like heaven), they are living in a state of intellectual fragmentation. If they are challenged in public by absolute truth, their false pride and spiritual ego are completely shattered. Their conceptual 'head' falls off because their philosophy collapses under reality.",
+                "vishishtadvaita": "The school views this sharp rebuke as a necessary wake-up call for ritualists who mistake heavenly comfort for final liberation (*Mokṣa*). Stopping short of the Divine means your spiritual structure is unstable (*apratiṣṭhitam*). The warning emphasizes that teaching partial truths as absolute reality carries heavy spiritual responsibility.",
+                "dvaita_vedanta": "Madhva explains that stopping at any subordinate deity without reaching the Supreme independent source violates the laws of cosmic truth. Your spiritual understanding is ungrounded. The warning about the head falling off indicates that an incorrect understanding of the divine hierarchy halts all spiritual progress and brings downstream confusion."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "हन्ताहमेतद्भगवतो वेदानीति विद्धीति होवाचामुष्य लोकस्य का गतिरित्ययमेव लोक इति होवाचास्य लोकस्य का गतिरिति न प्रतिष्ठां लोकादतिनयामीति होवाच प्रतिष्ठां वयँ लोकं सामाभिसंस्थापयामः प्रतिष्ठासंस्तावँ हि सामेति ॥ ७ ॥",
+              "iast": "hantāhametadbhagavato vedānīti viddhīti hovācamuṣya lokasya kā gatirityayameva loka iti hovācāsya lokasya kā gatiriti na pratiṣṭhāṃ lokādatinayāmīti hovāca pratiṣṭhāṃ vayaṃ lokaṃ sāmābhisaṃsthāpayāmaḥ pratiṣṭhāsaṃstāvaṃ hi sāmeti || 7 ||",
+              "english_translation": "'Let me, then, learn the truth from you, venerable sir,' said Dālbhya. 'Learn it,' replied Śilaka. 'What is the support of yonder heavenly world?' 'This earth-world (Ayam Loka),' said Śilaka. 'And what is the support of this earth-world?' Śilaka replied, 'I cannot go beyond this earth, which is our physical foundation. We establish the Sāman on this earth, for the Sāman is praised as the foundation itself.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the next turn of the debate. Dālbhya admits his limitation and becomes a student. Śilaka takes the step forward, tracing heaven back down to *This Earth* (*Ayam Loka*). Why? Because the rituals performed on earth feed the gods in heaven; heaven relies on earth for its existence through sacrifice. But when asked what supports the earth, Śilaka hits his own wall, claiming the physical earth is the absolute foundation (*Pratiṣṭhā*). He goes lower than heaven, but remains stuck inside material nature.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that Śilaka understands the law of mutual dependence between heaven and earth through sacrifice, which is a step deeper than Dālbhya's isolated view. However, Śilaka makes the same mistake by stopping at the physical planet, failing to see the invisible, omnipotent spiritual energy that keeps the planet floating in space.",
+                "dvaita_vedanta": "According to Madva, Śilaka’s view is grounded in the material world. He recognizes that the higher worlds are fed by sacrifices on earth, which shows a broader understanding of cosmic machinery. Yet, by locking his philosophy onto physical nature as the final stop, he misses the ultimate source who anchors the earth."
+              }
+            },
+            {
+              "verse_number": 8,
+              "devanagari": "तँ ह प्रवाहणो जैवलिरुवाचाप्रतिष्ठितं वै किल ते शालावत्य साम यस्त्वेतर्हि ब्रूयान्मूर्धा ते विपतिष्यतीति मूर्धा ते विपतेदिति हन्ताहमेतद्भगवतो वेदानीति विद्धीति होवाच ॥ ८ ॥",
+              "iast": "taṃ ha pravāhaṇo jaivaliruvācāpratiṣṭhitaṃ vai kila te śālāvatya sāma yastvetharhi brūyānmūrdhā te vipatiṣyatīti mūrdhā te vipatediti hantāhametadbhagavato vedānīti viddhīti hovāca || 8 ||",
+              "english_translation": "Then Pravāhaṇa Jaivali said to him, 'Verily, Śālāvatya, your Sāman has also turned out to be without a final foundation. If someone who knows the ultimate truth were to tell you now, \"Your head will fall off,\" your head would indeed fall off.' Śilaka said, 'Let me, then, learn the truth from you, venerable sir.' The king replied, 'Learn it.'",
+              "commentaries": {
+                "advaita_vedanta": "The climax of Section 8. King Pravāhaṇa steps in and uses the exact same philosophical check on Śilaka. Both priests have failed because one stopped at a subjective heaven and the other stopped at a physical earth. They are trapped in worldly cause and effect. Śilaka immediately drops his teaching persona, humbles himself, and asks the king for instruction. This completes the transformation of the debate, preparing the stage for Section 9 to reveal the single, infinite element that supports all worlds.",
+                "vishishtadvaita": "Raṅgarāmānuja highlights this moment as the triumph of comprehensive spiritual insight over rigid ritual philosophy. Both priests are forced to admit that neither heaven nor earth can support themselves. They turn to the king as students, proving that the hunger for ultimate truth transcends social caste and ritual hierarchy.",
+                "dvaita_vedanta": "Madhva explains that this final collapse of both priestly views clears away the misconceptions of material cosmology. By reducing both heaven and earth to dependent entities, the text sets up an open runway for the king to introduce the ultimate, uncreated, independent support of the universe in the upcoming section."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

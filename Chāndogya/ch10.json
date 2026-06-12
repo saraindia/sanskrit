@@ -1,0 +1,151 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 10: Chapter 1, Section 11. The interrogation of the three sacrificial singers (Prastotṛ, Udgātṛ, and Pratihartṛ) by Sage Uṣasti Cākrāyaṇa, identifying the inner deities governing the three divisions of the Sāman.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_1": {
+      "sections": [
+        {
+          "section_number": 11,
+          "title": "The Identification of the Deities Innerly Animating the Chant",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "प्रस्तोतर्या देवता प्रस्तावमन्वायत्ता तां चेदविद्वान्प्रस्तोष्यसि मूर्धा ते विपतिष्यतीति ॥ १ ॥",
+              "iast": "prastotaryā devatā prastāvamanvāyattā tāṃ cedavidvānprastoṣyasi mūrdhā te vipatiṣyatīti || 1 ||",
+              "english_translation": "Uṣasti said: 'O Prastotṛ, if you sing the introductory praise (Prastāva) without knowing the deity that is innerly connected with it, your head will fall off.'",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara repeats his interpretation of this severe idiomatic warning. He notes that Uṣasti is not acting out of malice or practicing black magic. Rather, he is stating an unalterable epistemological law: when an individual takes on the role of a spiritual teacher or direct guide in a public ritual, yet remains completely ignorant of the underlying metaphysical reality (*devatā*), they are living in a divided state of mind. When confronted by a true knower of reality, their false confidence and intellectual ego are completely shattered. Their conceptual 'head' falls off as their superficial assertions dissolve.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that this verse serves as a crucial warning against mechanical and blind ritualism. Performing a sacred action simply for monetary reward or social standing, without knowing the indwelling Lord who gives that action its power, turns the ritual into a empty husk. The warning emphasizes that true spiritual action requires active, internal awareness of the Divine.",
+                "dvaita_vedanta": "Madhvācārya points out that every part of the sacred chant is governed by a distinct cosmic administrator under the control of the Supreme Lord. To invoke the sound without honoring the specific presiding deity violates the cosmic order, leading to a loss of spiritual capacity and mental clarity."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "एवमेवोद्गातुरुवाचोद्गातर्या देवताोद्गीथमन्वायत्ता तां चेदविद्वानुद्गास्यसि मूर्धा ते विपतिष्यतीति ॥ २ ॥",
+              "iast": "evamevodgātūruvācodgātaryā devatodgīthamanvāyattā tāṃ cedavidvānudgāsyasi mūrdhā te vipatiṣyatīti || 2 ||",
+              "english_translation": "In the same manner, he addressed the Udgātṛ: 'O Udgātṛ, if you sing the loud chant (Udgītha) without knowing the deity that is innerly connected with it, your head will fall off.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara notes that Uṣasti moves down the line of officiating priests systematically. The *Udgītha* is the central, core portion of the Sāman song. Because it is the most prominent element, performing it without realizing its true substrate is an even deeper spiritual mistake, leading to a complete collapse of inner focus when challenged by truth.",
+                "vishishtadvaita": "The school highlights that because the Udgītha represents the highest cosmic resonance, chanting it blindly is a tragedy of missed opportunity. The warning is repeated to wake up the main singer, challenging him to look beyond his musical technique and seek the ultimate object of devotion.",
+                "dvaita_vedanta": "Madhva explains that the Udgātṛ invokes a higher level of cosmic energy. Ignorance at this stage disrupts the chain of divine command, showing that high offices in spiritual practice require matching levels of inner realization."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "एवमेव प्रतिहर्तारमुवाच प्रतिहर्तर्या देवता प्रतिहारमन्वायत्ता तां चेदविद्वान्प्रतिहरिष्यसि मूर्धा ते विपतिष्यतीति ते ह विररामुरुपससेदुः ॥ ३ ॥",
+              "iast": "evameva pratihartāramuvāca pratihartaryā devatā pratihāramanvāyattā tāṃ cedavidvānpratihariṣyasi mūrdhā te vipatiṣyatīti te ha virarāmurupasaseduḥ || 3 ||",
+              "english_translation": "Finally, he addressed the Pratihartṛ: 'O Pratihartṛ, if you sing the response (Pratihāra) without knowing the deity that is innerly connected with it, your head will fall off.' Hearing this, all the priests stopped their chanting immediately and sat down silently to become his disciples.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the psychological shift here. The phrase *te ha virarāmuḥ* (they stopped immediately) shows that the priests recognized the voice of a true master. Instead of getting angry, arguing, or defending their status, they instantly dropped their ritual instruments and sat down as humble students (*upasaseduḥ*). This action shows genuine integrity: they prioritized discovering the truth over saving face in the king's court.",
+                "vishishtadvaita": "Raṅgarāmānuja praises the humility of the court priests. Despite being surrounded by the king and the wealth of the sacrifice, they chose to stop chanting the moment they realized their inner lack. This instant surrender transforms them from proud performers into true seekers of God.",
+                "dvaita_vedanta": "Madhva highlights that the absolute stillness that fell over the assembly proves the natural authority of spiritual realization. When a representative of the supreme independent truth speaks, all lower, dependent actions naturally pause to align themselves with the correct cosmic hierarchy."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ हैनं राजावाच भगवन्तं वा अहमुपविद्यां कस्यै भगवन्मयूढ उषस्तिरस्मीति होवाच ॥ ४ ॥",
+              "iast": "atha hainaṃ rājāvāca bhagavantaṃ vā ahamupavidyāṃ kasyai bhagavanmayūḍha uṣastirasmīti hovāca || 4 ||",
+              "english_translation": "Then the king said to him: 'Venerable sir, I wish to know who you are.' The sage replied: 'I am Uṣasti, the son of Cakra.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara explains that the king recognizes that this visitor is no ordinary wanderer. By asking for his identity, the king is showing formal respect. When the sage gives his name, the king immediately remembers his stellar reputation, realizing that the master he had spent months looking for has finally arrived.",
+                "vishishtadvaita": "The king's inquiry represents the awakening of a leader's discrimination. He realizes that the success of his entire kingdom's sacrifice depends on the purity and vision of the directors. Learning that it is Uṣasti brings him immense relief and joy.",
+                "dvaita_vedanta": "Madhva notes that the name of the sage carries weight because it is tied to an unbroken lineage of realization. The king's immediate shift in attitude shows that worldly power naturally honors the spiritual authority assigned by God."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "स होवाच भगवन्तं वा अहमेभिः सर्वैर्आर्त्विज्यैः पर्यैषिषं भगवतो वा अहमलाभेऽन्यानवृषि ॥ ५ ॥",
+              "iast": "sa hovāca bhagavantaṃ vā ahamebhiḥ sarvairārtvijyaiḥ paryaiṣiṣaṃ bhagavato vā ahamalābhe'nyānavṛṣi || 5 ||",
+              "english_translation": "The king said: 'Venerable sir, I searched everywhere for you to direct all these sacrificial offices. But when I could not find you, I was forced to choose these other priests.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the king's explanation. The king clarifies that choosing the other priests was not a slight against Uṣasti; it was a choice made out of necessity because the famine had scattered everyone. In Advaita, this reflects how the world functions: people choose secondary options when the ultimate truth seems temporarily hidden from view.",
+                "vishishtadvaita": "Raṅgarāmānuja highlights the king's sincere devotion. He was actively looking for a qualified teacher, proving that his heart was aligned with proper spiritual values. His explanation shows that his intentions were pure, even if his execution lacked full clarity.",
+                "dvaita_vedanta": "Madhva explains that the king's inability to find Uṣasti initially was part of a divine plan. It allowed the court priests to reach their limits and humble themselves, ensuring that the ultimate truth would be received with deep appreciation by the entire court."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "भगवांस्त्वेव मे सर्वैर्आर्त्विज्यैः परिक्रियतामिति तथेत्यथैत एव हि संविदानाः स्तोत्रं स्तुवन्तु केवलं तु मे त्वं धनमात्रां दा इति तथेति ह राजा उवाच ॥ ६ ॥",
+              "iast": "bhagavāṃstveva me sarvairārtvijyaiḥ parikriyatāmiti tathetyathaita eva hi saṃvidānāḥ stotraṃ stuvantu kevalaṃ tu me tvaṃ dhanamātrāṃ dā iti tatheti ha rājā uvāca || 6 ||",
+              "english_translation": "'Therefore, venerable sir, please take charge of my entire sacrifice.' Uṣasti replied: 'Let it be so. However, let these same priests continue to sing the hymns under my direction, since they have now been instructed. But you must give me the same amount of wealth that you would have given to all of them combined.' The king replied: 'Venerable sir, it shall be done.'",
+              "commentaries": {
+                "advaita_vedanta": "A fascinating ethical and practical resolution. Shankara points out that Uṣasti does not fire the local priests or take away their livelihood. Instead, he includes them under his higher awareness (*saṃvidānāḥ*). His demand for all their salaries combined is not a sign of greed. Rather, it restores his household after the famine and asserts the value of absolute metaphysical wisdom over mechanical labor.",
+                "vishishtadvaita": "The school highlights the sage's deep kindness. Instead of humiliating the priests by taking their places, he empowers them to sing under his inner guidance. His demand for wealth is accepted by the king because true spiritual insight is priceless, and a righteous leader happily supports the pillars of wisdom.",
+                "dvaita_vedanta": "Madhva notes that the distribution of wealth and duties balances the cosmic order. The priests perform the physical labor of singing, while the sage provides the vitalizing consciousness. This dynamic shows that all elements must work together under the supervision of the supreme guide."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "अथ हैनं प्रस्तोतोपससाद प्रस्तोतर्या देवता प्रस्तावमन्वायत्ता तां चेदविद्वान्प्रस्तोष्यसि मूर्धा ते विपतिष्यतीति माऽवोचः कतमा सा देवतेति ॥ ७ ॥",
+              "iast": "atha hainaṃ prastotopasasāda prastotaryā devatā prastāvamanvāyattā tāṃ cedavidvānprastoṣyasi mūrdhā te vipatiṣyatīti mā'vocaḥ katamā sā devatāiti || 7 ||",
+              "english_translation": "Then the Prastotṛ approached him and asked: 'Venerable sir, you told me: \"O Prastotṛ, if you sing the introductory praise without knowing the deity that is innerly connected with it, your head will fall off.\" Which is that deity?'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the formal transition back to philosophy. The structural warning has done its job, breaking through the chanter's pride. Now, the chanter returns to the original question with a clean, receptive mind. He asks the core question directly: Who is the living intelligence animating my performance?",
+                "vishishtadvaita": "The chanter's question reflects a heart ready for true transformation. He no longer cares about his prestige in front of the king; he simply wants to know the identity of the indwelling light that moves his lips, seeking a deeper relationship with the Divine.",
+                "dvaita_vedanta": "Madhva highlights that this question marks the beginning of the correction process. The priest asks for the specific deity in charge of his section, starting a step-by-step climb up the ladder of cosmic administration."
+              }
+            },
+            {
+              "verse_number": 8,
+              "devanagari": "प्राण इति होवाच सर्वाणि ह वा इमानि भूतानि प्राणमेवाभिसंविशन्ति प्राणमभ्युज्जिहते सैषा देवता प्रस्तावमन्वायत्ता तां चेदविद्वान्प्रास्तोष्यो मूर्धा तेऽविपत्यत्तथोक्तस्य मयेति ॥ ८ ॥",
+              "iast": "prāṇa iti hovāca sarvāṇi ha vā imāni bhūtāni prāṇamevābhisaṃviśanti prāṇamabhyujjihate saiṣā devatā prastāvamanvāyattā tāṃ cedavidvāuprāstoṣyo mūrdhā te'vipatya ttathoktasya mayeti || 8 ||",
+              "english_translation": "Uṣasti said: 'It is Breath (Prāṇa). Verily, all these created beings merge into Breath alone when they sleep, and they arise from Breath when they wake. This is the deity innerly connected with the Prastāva. If you had sung it without knowing this after my warning, your head would have indeed fallen off.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara delivers a profound definition of *Prāṇa*. In this absolute context, it refers to the Supreme Brahman acting as the ultimate life force of the cosmos. During deep sleep (*Suṣupti*), all individual faculties, senses, and thoughts dissolve back into this fundamental life-energy. Upon waking, the entire world emerges from it once more. Because the *Prastāva* is the preliminary, life-giving kickstart of the song, its inner essence is this ultimate cosmic breath.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that *Prāṇa* here represents the Supreme Lord as the absolute sustainer of all living souls. He is the breath within the breath. The universe breathes because He wills it. Identifying the introductory chant with this vital force reminds the singer that every breath they take is a gift from the Divine.",
+                "dvaita_vedanta": "According to Madva, this verse identifies the chief deity of life force (*Mukhya Prāṇa*), who acts as the supreme instrument of Lord Viṣṇu. All created beings depend entirely on this primary energy to breathe and exist. This realization grounds the introductory praise in the reality of absolute dependency on God's life-giving power."
+              }
+            },
+            {
+              "verse_number": 9,
+              "devanagari": "अथ हैनमुद्गातोपससोदोद्गातर्या देवताोद्गीथमन्वायत्ता तां चेदविद्वान्उद्गास्यसि मूर्धा ते विपतिष्यतीति माऽवोचः कतमा सा देवतेति ॥ ९ ॥",
+              "iast": "atha hainamudgātopasasododgātaryā devatodgīthamanvāyattā tāṃ cedavidvānudgāsyasi mūrdhā te vipatiṣyatīti mā'vocaḥ katamā sā devatāiti || 9 ||",
+              "english_translation": "Then the Udgātṛ approached him and asked: 'Venerable sir, you told me: \"O Udgātṛ, if you sing the loud chant without knowing the deity that is innerly connected with it, your head will fall off.\" Which is that deity?'",
+              "commentaries": {
+                "advaita_vedanta": "The middle chanter now steps forward, following the same procedure. He sees that his colleague was answered with a universal truth, and he eagerly seeks the secret behind his own assignment—the central Udgītha chant.",
+                "vishishtadvaita": "The Udgātṛ’s approach shows that the spirit of inquiry has spread across the entire assembly. The systematic questioning shows a collective desire to align their performance with true, internal devotion.",
+                "dvaita_vedanta": "Madhva notes that the main chanter asks his question to discover his place in the divine order, preparing the ground for the next verse to introduce the cosmic source of light."
+              }
+            },
+            {
+              "verse_number": 10,
+              "devanagari": "आदित्य इति होवाच सर्वाणि ह वा इमानि भूतान्यादित्यमुच्चैः सन्तं गायन्ति सैषा देवताोद्गीथमन्वायत्ता तां चेदविद्वानुदगास्यो मूर्धा तेऽविपत्यत्तथोक्तस्य मयेति ॥ १० ॥",
+              "iast": "āditya iti hovāca sarvāṇi ha vā imāni bhūtānyādityamuccaiḥ santaṃ gāyanti saiṣā devatāodgīthamanvāyattā tāṃ cedavidvānudagāsyo mūrdhā te'vipatya ttathoktasya mayeti || 10 ||",
+              "english_translation": "Uṣasti said: 'It is the Sun (Āditya). Verily, all these created beings sing the praises of the Sun when he rises high above. This is the deity innerly connected with the Udgītha. If you had sung it without knowing this after my warning, your head would have indeed fallen off.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the transition to the cosmic sphere. *Āditya* (the Sun) represents the supreme, self-luminous Brahman illuminating the external universe, just as Prāṇa animates it internally. The Udgītha is chanted loudly and clearly (*uccaiḥ*), mirroring how the rising sun proclaims its presence across the sky. Meditating on the chant as the sun expands the mind, breaking down the walls between the inner self and the outer cosmos.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that the Sun is the visible symbol of the glorious, radiant form of the Supreme Lord (*Sūrya-nārāyaṇa*). He resides at the center of the solar orb, dispelling both physical and spiritual darkness. Linking the main chant to the sun inspires the singer to fill their heart with divine light.",
+                "dvaita_vedanta": "Madhva states that the sun-deity is a direct, radiant instrument of Viṣṇu. All living beings naturally look up to the sun for light, warmth, and time. Recognizing this connection ensures that the central part of the sacrifice honors the independent source of all light and life."
+              }
+            },
+            {
+              "verse_number": 11,
+              "devanagari": "अथ हैनं प्रतिहर्तोपससाद प्रतिहर्र्या देवता प्रतिहारमन्वायत्ता तां चेदविद्वान्प्रतिहरिष्यसि मूर्धा ते विपतिष्यतीति माऽवोचः कतमा सा देवतेति ॥ ११ ॥",
+              "iast": "atha hainaṃ pratihartopasasāda pratihartaryā devatā pratihāramanvāyattā tāṃ cedavidvānpratihariṣyasi mūrdhā te vipatiṣyatīti mā'vocaḥ katamā sā devatāiti || 11 ||",
+              "english_translation": "Then the Pratihartṛ approached him and asked: 'Venerable sir, you told me: \"O Pratihartṛ, if you sing the response without knowing the deity that is innerly connected with it, your head will fall off.\" Which is that deity?'",
+              "commentaries": {
+                "advaita_vedanta": "The final chanter steps forward to complete the circle of learning. This final question ensures that no part of the ritual is left in the dark, bringing full clarity to the entire structure of the Sāman song.",
+                "vishishtadvaita": "The final question represents the closing movement of this spiritual adjustment. The response singer seeks his own connection, completing the transformation of the court into a unified temple of clean devotion.",
+                "dvaita_vedanta": "Madhva notes that this final step completes the cosmic countdown, preparing the audience for the revelation of the element that sustains the physical world."
+              }
+            },
+            {
+              "verse_number": 12,
+              "devanagari": "अन्नमिति होवाच सर्वाणि ह वा इमानि भूतान्यन्नमेव प्रतिहरमाणानि जीवन्ति सैषा देवता प्रतिहारमन्वायत्ता तां चेदविद्वान्प्रत्यहरिष्यो मूर्धा तेऽविपत्यत्तथोक्तस्य मयेति ॥ १२ ॥",
+              "iast": "annamiti hovāca sarvāṇi ha vā imāni bhūtānyannameva pratiharamāṇāni jīvanti saiṣā devatā pratihāramanvāyattā tāṃ cedavidvānpratyahariṣyo mūrdhā te'vipatya ttathoktasya mayeti || 12 ||",
+              "english_translation": "Uṣasti said: 'It is Food (Anna). Verily, all these created beings live by consuming food alone. This is the deity innerly connected with the Pratihāra response. If you had sung it without knowing this after my warning, your head would have indeed fallen off.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara beautifully closes Section 11 by bringing the cosmic back down to the immediate. *Anna* (Food) represents Brahman as the immediate, physical matter that gathers and holds life together. The word *pratiharamāṇāni* means bringing food to oneself or consuming it. The *Pratihāra* is the closing response that holds the song together. By identifying it with food, the Upanishad loops back to Uṣasti's story: the very beans he begged for are revealed to be a manifestation of the Divine Spirit, showing that nothing lies outside the absolute reality.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that food is a direct expression of the Lord’s nurturing compassion (*Anugraha*). He sustains the soul internally through grace and externally through food. Remembering this connection during the final response fills the devotee with deep gratitude for the physical and spiritual nourishment provided by God.",
+                "dvaita_vedanta": "Madhva concludes that identifying the final response with food honors the complete circle of dependency. The breath moves, the sun shines, and food sustains the physical frame—all operating as orderly instruments under the absolute rule of Viṣṇu. This realization brings the sacrifice into full, perfect alignment with cosmic truth."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

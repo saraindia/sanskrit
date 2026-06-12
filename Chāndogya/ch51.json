@@ -1,0 +1,129 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 51: Chapter 5, Section 10. The two paths — the way of the gods and the way of the fathers — the third state, and the purity of the knower of the five fires.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_5": {
+      "sections": [
+        {
+          "section_number": 10,
+          "title": "The Path of the Gods and the Path of the Fathers",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "तद्य इत्थं विदुर्ये चेमेऽरण्ये श्रद्धा तप इत्युपासते तेऽर्चिषमभिसंभवन्त्यर्चिषोऽहरह्न आपूर्यमाणपक्षमापूर्यमाणपक्षाद्यान्षडुदङ्ङेति मासांस्तान् ॥ १ ॥",
+              "iast": "tad ya itthaṃ vidur ye ceme 'raṇye śraddhā tapa ity upāsate te 'rciṣam abhisaṃbhavanty arciṣo 'har ahna āpūryamāṇapakṣam āpūryamāṇapakṣād yān ṣaḍ udaṅṅ eti māsāṃs tān || 1 ||",
+              "english_translation": "Now, those who know this thus, and those who in the forest meditate with faith and austerity, pass into the flame; from the flame into the day; from the day into the bright fortnight; from the bright fortnight into the six months when the sun moves north —",
+              "commentaries": {
+                "advaita_vedanta": "The bright road opens for knowers of the five fires and forest meditators: stage by luminous stage toward Brahman. Śaṅkara reads the stations as escorting deities, not mere times.",
+                "vishishtadvaita": "The arcirādi path — flame, day, bright fortnight, northern sun — is the soul's royal road to the Lord, attended at each stage by His escorts.",
+                "dvaita_vedanta": "The path of light is reserved for qualified knowers; each station is a divine officer conveying the soul upward."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "मासेभ्यः संवत्सरं संवत्सरादादित्यमादित्याच्चन्द्रमसं चन्द्रमसो विद्युतं तत्पुरुषोऽमानवः स एनान्ब्रह्म गमयत्येष देवयानः पन्था इति ॥ २ ॥",
+              "iast": "māsebhyaḥ saṃvatsaraṃ saṃvatsarād ādityam ādityāc candramasaṃ candramaso vidyutaṃ tat puruṣo 'mānavaḥ sa enān brahma gamayaty eṣa devayānaḥ panthā iti || 2 ||",
+              "english_translation": "— from the months into the year; from the year into the sun; from the sun into the moon; from the moon into the lightning. There a Person who is not human leads them on to Brahman. This is the path of the gods (devayāna).",
+              "commentaries": {
+                "advaita_vedanta": "The non-human Person conducts the soul to the conditioned Brahman (brahmaloka), whence liberation follows with the final knowledge — the doctrine of krama-mukti.",
+                "vishishtadvaita": "The amānava-puruṣa, commissioned by the Lord, takes the soul by the hand into the supreme abode — the consummation of surrender, never to return.",
+                "dvaita_vedanta": "Madhva: the soul is led to Viṣṇu's realm according to its intrinsic worth; the path of the gods is final beatitude for the devoted knower."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अथ य इमे ग्राम इष्टापूर्ते दत्तमित्युपासते ते धूममभिसंभवन्ति धूमाद्रात्रिं रात्रेरपरपक्षमपरपक्षाद्यान्षड्दक्षिणैति मासांस्तान्नैते संवत्सरमभिप्राप्नुवन्ति ॥ ३ ॥",
+              "iast": "atha ya ime grāma iṣṭāpūrte dattam ity upāsate te dhūmam abhisaṃbhavanti dhūmād rātriṃ rātrer aparapakṣam aparapakṣād yān ṣaḍ dakṣiṇaiti māsāṃs tān naite saṃvatsaram abhiprāpnuvanti || 3 ||",
+              "english_translation": "But those who, living in the village, revere sacrifice, public works, and almsgiving pass into the smoke; from the smoke into the night; from the night into the dark fortnight; from the dark fortnight into the six months when the sun moves south. They do not reach the year.",
+              "commentaries": {
+                "advaita_vedanta": "The smoky road of the ritualists: works without knowledge climb only partway. Missing 'the year' marks the path's limit — it cannot pass time's circle.",
+                "vishishtadvaita": "Meritorious works win the world of the fathers, a real but returnable reward; the Lord honours the deed but reserves Himself for the devoted knower.",
+                "dvaita_vedanta": "The southern path is the just wage of pious works; its travellers remain within the revolving order."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "मासेभ्यः पितृलोकं पितृलोकादाकाशमाकाशाच्चन्द्रमसमेष सोमो राजा तद्देवानामन्नं तं देवा भक्षयन्ति ॥ ४ ॥",
+              "iast": "māsebhyaḥ pitṛlokaṃ pitṛlokād ākāśam ākāśāc candramasam eṣa somo rājā tad devānām annaṃ taṃ devā bhakṣayanti || 4 ||",
+              "english_translation": "From the months into the world of the fathers; from the world of the fathers into space; from space into the moon. That is King Soma. That is the food of the gods; the gods feed on it.",
+              "commentaries": {
+                "advaita_vedanta": "The merit-bearing soul becomes lunar substance on which the gods 'feed' — i.e., it serves and shares their world while its merit lasts.",
+                "vishishtadvaita": "Lunar sojourn is real enjoyment in the gods' company, measured to the soul's account of works.",
+                "dvaita_vedanta": "Being 'eaten by the gods' means serving them as an instrument of their joy — temporary elevation, not freedom."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "तस्मिन्यावत्संपातमुषित्वाथैतमेवाध्वानं पुनर्निवर्तन्ते यथेतमाकाशमाकाशाद्वायुं वायुर्भूत्वा धूमो भवति धूमो भूत्वाभ्रं भवति ॥ ५ ॥",
+              "iast": "tasmin yāvat saṃpātam uṣitvāthaitam evādhvānaṃ punar nivartante yathetam ākāśam ākāśād vāyuṃ vāyur bhūtvā dhūmo bhavati dhūmo bhūtvābhraṃ bhavati || 5 ||",
+              "english_translation": "Having dwelt there until their works are exhausted, they return again by the way they came: into space; from space into the wind. Having become wind, one becomes smoke; having become smoke, one becomes mist —",
+              "commentaries": {
+                "advaita_vedanta": "Merit spends like a purse; the descent retraces the ascent. Śaṅkara: herein lies the great defect of works — their fruits end.",
+                "vishishtadvaita": "The return journey shows the perishability of all ends but the Lord; the soul drifts down through the elements it once climbed.",
+                "dvaita_vedanta": "Exhausted merit triggers lawful descent — the Lord's accounting is exact."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "अभ्रं भूत्वा मेघो भवति मेघो भूत्वा प्रवर्षति त इह व्रीहियवा ओषधिवनस्पतयस्तिलमाषा इति जायन्तेऽतो वै खलु दुर्निष्प्रपतरं यो यो ह्यन्नमत्ति यो रेतः सिञ्चति तद्भूय एव भवति ॥ ६ ॥",
+              "iast": "abhraṃ bhūtvā megho bhavati megho bhūtvā pravarṣati ta iha vrīhiyavā oṣadhivanaspatayas tilamāṣā iti jāyante 'to vai khalu durniṣprapataraṃ yo yo hy annam atti yo retaḥ siñcati tad bhūya eva bhavati || 6 ||",
+              "english_translation": "— having become mist, one becomes cloud; having become cloud, one rains down. Here they are born as rice and barley, herbs and trees, sesame and beans. From this state, truly, the escape is most difficult: only when someone eats him as food and emits him as seed does he develop further.",
+              "commentaries": {
+                "advaita_vedanta": "The bottleneck of rebirth: lodged in plants, the soul waits upon another's eating — Śaṅkara presses the horror of dependence to kindle renunciation.",
+                "vishishtadvaita": "The painful narrows of the return reveal saṃsāra's bondage, from which only the Lord's path of light finally frees.",
+                "dvaita_vedanta": "The difficult passage is the strict mechanics of karma under divine supervision — sobering the wise toward devotion."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "तद्य इह रमणीयचरणा अभ्याशो ह यत्ते रमणीयां योनिमापद्येरन्ब्राह्मणयोनिं वा क्षत्रिययोनिं वा वैश्ययोनिं वाथ य इह कपूयचरणा अभ्याशो ह यत्ते कपूयां योनिमापद्येरन्श्वयोनिं वा सूकरयोनिं वा चण्डालयोनिं वा ॥ ७ ॥",
+              "iast": "tad ya iha ramaṇīyacaraṇā abhyāśo ha yat te ramaṇīyāṃ yonim āpadyeran brāhmaṇayoniṃ vā kṣatriyayoniṃ vā vaiśyayoniṃ vātha ya iha kapūyacaraṇā abhyāśo ha yat te kapūyāṃ yonim āpadyeran śvayoniṃ vā sūkarayoniṃ vā caṇḍālayoniṃ vā || 7 ||",
+              "english_translation": "Those whose conduct here has been pleasing may expect to enter a pleasing womb — of a brāhmaṇa, a kṣatriya, or a vaiśya. But those whose conduct here has been foul may expect to enter a foul womb — of a dog, a pig, or an outcaste.",
+              "commentaries": {
+                "advaita_vedanta": "Conduct (caraṇa) steers the re-entry: ethics writes the address of the next birth. Śaṅkara: hence the urgency of right living even for the seeker of knowledge.",
+                "vishishtadvaita": "The Lord, impartial registrar of conduct, assigns wombs according to deeds — His justice underwrites morality.",
+                "dvaita_vedanta": "Karma's fruit is allotted by the Lord with perfect equity; conduct here is destiny's seed."
+              }
+            },
+            {
+              "verse_number": 8,
+              "devanagari": "अथैतयोः पथोर्न कतरेणचन तानीमानि क्षुद्राण्यसकृदावर्तीनि भूतानि भवन्ति जायस्व म्रियस्वेत्येतत्तृतीयं स्थानं तेनासौ लोको न संपूर्यते तस्माज्जुगुप्सेत तदेष श्लोकः ॥ ८ ॥",
+              "iast": "athaitayoḥ pathor na katareṇacana tānīmāni kṣudrāṇy asakṛdāvartīni bhūtāni bhavanti jāyasva mriyasvety etat tṛtīyaṃ sthānaṃ tenāsau loko na saṃpūryate tasmāj jugupseta tad eṣa ślokaḥ || 8 ||",
+              "english_translation": "But those who go by neither of these two paths become the small creatures that revolve again and again, of whom it is said: 'Be born and die.' This is the third state. Therefore yonder world is not filled up. Hence one should be disgusted (with this round). On this there is this verse:",
+              "commentaries": {
+                "advaita_vedanta": "The third state — the swarm of briefly-living creatures — answers the king's fourth question: heaven never fills because so many circle below. 'Therefore let one recoil': scripture itself prescribes vairāgya.",
+                "vishishtadvaita": "The ceaseless churn of small births moves the compassionate Lord to call souls to His path; disgust with saṃsāra is grace beginning.",
+                "dvaita_vedanta": "The third station shows karma's machinery at its bleakest; aversion to it turns the soul toward the Lord."
+              }
+            },
+            {
+              "verse_number": 9,
+              "devanagari": "स्तेनो हिरण्यस्य सुरां पिबंश्च गुरोस्तल्पमावसन्ब्रह्महा चैते पतन्ति चत्वारः पञ्चमश्चाचरंस्तैरिति ॥ ९ ॥",
+              "iast": "steno hiraṇyasya surāṃ pibaṃś ca guros talpam āvasan brahmahā caite patanti catvāraḥ pañcamaś cācaraṃs tair iti || 9 ||",
+              "english_translation": "'The thief of gold, the drinker of liquor, the defiler of his teacher's bed, the slayer of a brāhmaṇa — these four fall; and fifth, he who consorts with them.'",
+              "commentaries": {
+                "advaita_vedanta": "The śloka names the great falls; association shares their fate. Moral gravity holds even within the metaphysics of the paths.",
+                "vishishtadvaita": "Grave sins bar both bright and smoky roads; the verse fences the path of return.",
+                "dvaita_vedanta": "The five great sinners plunge by the Lord's justice; company in sin is complicity."
+              }
+            },
+            {
+              "verse_number": 10,
+              "devanagari": "अथ ह य एतानेवं पञ्चाग्नीन्वेद न सह तैरप्याचरन्पाप्मना लिप्यते शुद्धः पूतः पुण्यलोको भवति य एवं वेद य एवं वेद ॥ १० ॥",
+              "iast": "atha ha ya etān evaṃ pañcāgnīn veda na saha tair apy ācaran pāpmanā lipyate śuddhaḥ pūtaḥ puṇyaloko bhavati ya evaṃ veda ya evaṃ veda || 10 ||",
+              "english_translation": "But he who knows these five fires thus is not stained by evil even while living among such people; he becomes clean and pure and wins the world of the blessed — he who knows thus, he who knows thus.",
+              "commentaries": {
+                "advaita_vedanta": "Knowledge purifies beyond circumstance: the knower of the five fires, seeing the whole machinery of saṃsāra, stands inwardly free of it. The doubled close seals the Pañcāgni-vidyā.",
+                "vishishtadvaita": "Understanding the Lord's governance of birth and death itself sanctifies; the knower lives unstained, destined for the blessed realm.",
+                "dvaita_vedanta": "Right knowledge of the Lord's cosmic administration shields the soul from surrounding sin and earns the pure world He grants."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

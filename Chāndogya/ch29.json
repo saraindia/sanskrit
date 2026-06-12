@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 29: Chapter 2, Section 17. The Meditation on the Śakvarī Sāman (Śakvarī Sāmopāsanā). This section outlines the meditation on the Śakvarī melody, mapping its five structural movements onto the nested layers of the cosmic worlds—from the physical Earth up to the heavenly realms.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 17,
+          "title": "The Meditation on the Śakvarī Sāman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "पृथिवी हिंकारोऽन्तरिक्षं प्रस्तावो द्यौरुद्गीथो दिशः प्रतिहारः समुद्रो निधनमेताः शक्वर्यो लोकेषु प्रोताः ॥ १ ॥",
+              "iast": "pṛthivī hiṃkāro'ntarikṣaṃ prastāvo dyaurudgīthaḥ diśaḥ pratihāraḥ samudro nidhanametāḥ śakvaryo lokeṣu protāḥ || 1 ||",
+              "english_translation": "The Earth (Pṛthivī) is the syllable 'Hiṃ'; the intermediate space or atmosphere (Antarikṣa) is the introductory praise (Prastāva); Heaven (Dyaus) is the loud chant (Udgītha); the cardinal directions (Diśaḥ) are the response (Pratihāra); and the great Ocean (Samudra) is the finale (Nidhana). These are the Śakvarī Sāmans as woven into the cosmic worlds.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara notes that the word *Śakvarī* is pluralized here (*etāḥ śakvaryaḥ*) because this specialized melody represents the multi-layered powers or capacities (*śakti*) that maintain stability across the entire cosmic layout. The meditation scales upward through the structure of reality. The physical, solid base of Earth (*pṛthivī*) serves as *Hiṃkāra*, the foundational entry point. The vast atmospheric midspace (*antarikṣa*) is the *Prastāva*. The highest, luminescent realm of pure light and consciousness, Heaven (*dyaus*), is crowned as the *Udgītha*. The structural pillars that segment this space—the cardinal directions (*diśaḥ*)—act as the *Pratihāra*, gathering the space together. Finally, the Ocean (*samudra*), which acts as the ultimate earthly basin where all rivers terminate and find peace, is the *Nidhana*. This meditation expands the seeker's view, transforming geographical landscapes and space into a unified, resonant choir.",
+                "vishishtadvaita": "Raṅgarāmānuja writes that the *Śakvarī* verses highlight the absolute sovereignty and administrative power (*śakti*) of the Supreme Lord over the nested spheres of creation. The worlds are not disconnected regions; they are dynamically bound together. Elevating Heaven to the *Udgītha* signals that the highest note of reality is always oriented toward the blissful, unclouded realm of divine light, while the Ocean as *Nidhana* shows that all moving paths eventually come to rest in the bottomless expanse of God's grace.",
+                "dvaita_vedanta": "Madhvācārya explains that the *Śakvarī-Sāman* is directed by the cosmic powers ruling the elements, all moving under the independent authority of Lord Viṣṇu. The term *protam* emphasizes that the physical planet, the atmosphere, and the celestial spheres do not slide out of orbit or collapse into chaos. They are stitched firmly into a divine rhythmic framework, showing that material reality is a tightly governed layout built to serve the Lord's evolutionary plan."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एवमेताः शक्वर्यो लोकेषु प्रोता वेद लोकी भवति सर्वमायुरेति ज्योग्जीवति महान्प्रजया पशुभिर्भवति महान्कीर्त्या लोकान्न निन्देत्तद्व्रतम् ॥ २ ॥",
+              "iast": "sa ya evametāḥ śakvaryo lokeṣu protā veda lokī bhavati sarvamāyureti jyogjīvati mahān prajayā paśubhirbhavati mahān kīrtyā lokānna nindettadvratam || 2 ||",
+              "english_translation": "He who knows these Śakvarī Sāmans as woven into the cosmic worlds becomes the master of those worlds (Lokī); he attains a full, bright lifespan, and grows great in progeny, cattle, and renown. His sacred vow should be never to speak ill of the worlds.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the psychological weight of the vow (*Vrata*) given here: *lokān na nindet* (one must never criticize or condemn the worlds). People under stress often fall into dark, pessimistic states, cursing the world, life, or existence as inherently miserable or broken. Shankara states that condemning the world is a direct insult to the *Śakvarī* melody; it means you are blind to the underlying sacred rhythm. The vow forces an inner shift toward non-dual appreciation—training the mind to see that even the challenges of material life are structural components of an exquisitely ordered universe.",
+                "vishishtadvaita": "The school highlights that *lokī bhavati* means the meditator is no longer restricted or trapped by material conditions; they gain spiritual access to higher planes of existence because they view all worlds as the body of the Lord. Speaking ill of the world is equivalent to defaming God's temple. Maintaining this vow keeps the devotee anchored in divine optimism, converting their everyday life into an act of unshakeable worship.",
+                "dvaita_vedanta": "According to Madva, cursing the world or expressing nihilistic thoughts disrespects the *Loka-devatās* (the guardians of the spheres) appointed by Viṣṇu. Genuine spiritual maturity requires honoring the cosmic hierarchy and recognizing that this world is a highly purposeful training ground. Observing this discipline strictly brings health, a steady home, and an excellent spiritual reputation (*kīrti*)."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

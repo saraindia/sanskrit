@@ -1,0 +1,212 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 41: Chapter 3, Sections 12–13. The Gāyatrī as all this, and the five door-keepers of the heart.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_3": {
+      "sections": [
+        {
+          "section_number": 12,
+          "title": "Gāyatrī — All This Is the Gāyatrī",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "गायत्री वा इदं सर्वं भूतं यदिदं किञ्च वाग्वै गायत्री वाग्वा इदं सर्वं भूतं गायति च त्रायते च ॥ १ ॥",
+              "iast": "gāyatrī vā idaṃ sarvaṃ bhūtaṃ yad idaṃ kiñca vāg vai gāyatrī vāg vā idaṃ sarvaṃ bhūtaṃ gāyati ca trāyate ca || 1 ||",
+              "english_translation": "The Gāyatrī, verily, is all this, whatever being exists. Speech indeed is Gāyatrī, for speech sings (gāyati) and protects (trāyate) all this that exists.",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara derives 'Gāyatrī' from gāyati (sings, names) and trāyate (protects): speech names all beings and thereby protects them. Since nothing is apart from being named, the Gāyatrī stands for the whole world — and ultimately for the Brahman it expresses.",
+                "vishishtadvaita": "The Gāyatrī, the mother of the Vedas, is the Lord's own utterance; through it He sustains and saves all creatures. Meditating on it is meditating on Him as expressed in sacred speech.",
+                "dvaita_vedanta": "Madhva holds that the Gāyatrī signifies Viṣṇu, whose names sung in speech protect the singer. The identification of world and Gāyatrī means all depends on Him whom the metre names."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "या वै सा गायत्रीयं वाव सा येयं पृथिव्यस्यां हीदं सर्वं भूतं प्रतिष्ठितमेतामेव नातिशीयते ॥ २ ॥",
+              "iast": "yā vai sā gāyatrīyaṃ vāva sā yeyaṃ pṛthivy asyāṃ hīdaṃ sarvaṃ bhūtaṃ pratiṣṭhitam etām eva nātiśīyate || 2 ||",
+              "english_translation": "That which is the Gāyatrī is verily this earth, for on this earth all beings are established, and they do not go beyond it.",
+              "commentaries": {
+                "advaita_vedanta": "The metre is equated with the earth as universal support — a meditative identification leading the mind from the gross support to the ultimate support, Brahman.",
+                "vishishtadvaita": "Earth supports beings as the Lord's body supports all; the Gāyatrī teaches His all-supporting nature.",
+                "dvaita_vedanta": "The earth's supporting power is delegated by Viṣṇu, whom the Gāyatrī ultimately denotes."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "या वै सा पृथिवीयं वाव सा यदिदमस्मिन्पुरुषे शरीरमस्मिन्हीमे प्राणाः प्रतिष्ठिता एतदेव नातिशीयन्ते ॥ ३ ॥",
+              "iast": "yā vai sā pṛthivīyaṃ vāva sā yad idam asmin puruṣe śarīram asmin hīme prāṇāḥ pratiṣṭhitā etad eva nātiśīyante || 3 ||",
+              "english_translation": "That which is this earth is verily this body in man, for in it these vital breaths are established, and they do not go beyond it.",
+              "commentaries": {
+                "advaita_vedanta": "The contemplation moves inward: earth → body. The macrocosm is mapped onto the microcosm, preparing the discovery of the innermost ground.",
+                "vishishtadvaita": "The body, like the earth, is the Lord's instrument of support for the prāṇas that serve the soul.",
+                "dvaita_vedanta": "The body's sustaining power, too, is Viṣṇu's gift, exercised through His presence."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "यद्वै तत्पुरुषे शरीरमिदं वाव तद्यदिदमस्मिन्नन्तः पुरुषे हृदयमस्मिन्हीमे प्राणाः प्रतिष्ठिता एतदेव नातिशीयन्ते ॥ ४ ॥",
+              "iast": "yad vai tat puruṣe śarīram idaṃ vāva tad yad idam asminn antaḥ puruṣe hṛdayam asmin hīme prāṇāḥ pratiṣṭhitā etad eva nātiśīyante || 4 ||",
+              "english_translation": "That which is the body in man is verily this heart within man, for in it these vital breaths are established, and they do not go beyond it.",
+              "commentaries": {
+                "advaita_vedanta": "Body → heart: the seat of life and of meditation. The series funnels attention to the cave of the heart where Brahman is to be sought.",
+                "vishishtadvaita": "The heart is the Lord's chosen throne within the person; the prāṇas wait on Him there.",
+                "dvaita_vedanta": "The heart is the special seat of the indwelling Lord (hṛdaya-stha Hari), on whom the breaths depend."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "सैषा चतुष्पदा षड्विधा गायत्री तदेतदृचाभ्यनूक्तम् ॥ ५ ॥",
+              "iast": "saiṣā catuṣpadā ṣaḍvidhā gāyatrī tad etad ṛcābhyanūktam || 5 ||",
+              "english_translation": "This Gāyatrī is four-footed and sixfold. This very thing is declared in a Ṛg verse:",
+              "commentaries": {
+                "advaita_vedanta": "Four feet: speech, beings, earth, body-heart series; sixfold: speech, beings, earth, body, heart, prāṇas. The structured metre mirrors the structured cosmos.",
+                "vishishtadvaita": "The fourfold-sixfold structure displays the ordered amplitude of the Lord's manifestation.",
+                "dvaita_vedanta": "The enumeration shows scripture's precision; each 'foot' rests on the Lord."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "तावानस्य महिमा ततो ज्यायांश्च पूरुषः । पादोऽस्य सर्वा भूतानि त्रिपादस्यामृतं दिवीति ॥ ६ ॥",
+              "iast": "tāvān asya mahimā tato jyāyāṃś ca pūruṣaḥ | pādo 'sya sarvā bhūtāni tripād asyāmṛtaṃ divīti || 6 ||",
+              "english_translation": "'Such is His greatness; greater than that is the Puruṣa. One foot of Him is all beings; His three feet are the immortal in heaven.'",
+              "commentaries": {
+                "advaita_vedanta": "Quoting the Puruṣa-sūkta: the entire universe is but a quarter of the Reality; three quarters remain transcendent and immortal. Brahman infinitely exceeds its manifestation — the heart of Advaita's teaching on the world as a fraction-like appearance.",
+                "vishishtadvaita": "Rāmānuja's school cherishes this verse: the cosmos is a mere quarter-manifestation of the Lord's glory, while His essential, immortal splendour transcends it — He is both immanent and supremely transcendent.",
+                "dvaita_vedanta": "Madhva reads it as declaring Viṣṇu's immeasurable transcendence: creation expresses a fragment of His power, while His fullness abides eternally beyond, untouched by change."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "यद्वै तद्ब्रह्मेतीदं वाव तद्योयं बहिर्धा पुरुषादाकाशो यो वै स बहिर्धा पुरुषादाकाशः ॥ ७ ॥",
+              "iast": "yad vai tad brahmetīdaṃ vāva tad yo 'yaṃ bahirdhā puruṣād ākāśo yo vai sa bahirdhā puruṣād ākāśaḥ || 7 ||",
+              "english_translation": "What is called Brahman — that is the same as this space outside a person. And that space which is outside a person —",
+              "commentaries": {
+                "advaita_vedanta": "Space, the subtlest and most pervasive element, is taken as Brahman's symbol. The teaching will now equate outer, inner, and heart-space, dissolving the apparent walls between them.",
+                "vishishtadvaita": "The all-pervading space images the Lord's pervasion; outer space is His cosmic presence.",
+                "dvaita_vedanta": "Space is Brahman's emblem because Viṣṇu pervades all; yet the symbol is not the Lord Himself."
+              }
+            },
+            {
+              "verse_number": 8,
+              "devanagari": "अयं वाव स योऽयमन्तः पुरुष आकाशो यो वै सोऽन्तः पुरुष आकाशः ॥ ८ ॥",
+              "iast": "ayaṃ vāva sa yo 'yam antaḥ puruṣa ākāśo yo vai so 'ntaḥ puruṣa ākāśaḥ || 8 ||",
+              "english_translation": "— that is the same as this space within a person. And that space which is within a person —",
+              "commentaries": {
+                "advaita_vedanta": "Outer space and inner space are one; the apparent division by the body is no real division — a direct pointer to non-duality.",
+                "vishishtadvaita": "The Lord who fills the cosmos equally fills the person; His pervasion knows no outside or inside.",
+                "dvaita_vedanta": "The same Lord present everywhere is present within — pervasion without identity of soul and God."
+              }
+            },
+            {
+              "verse_number": 9,
+              "devanagari": "अयं वाव स योऽयमन्तर्हृदय आकाशस्तदेतत्पूर्णमप्रवर्ति पूर्णमप्रवर्तिनीं श्रियं लभते य एवं वेद ॥ ९ ॥",
+              "iast": "ayaṃ vāva sa yo 'yam antar hṛdaya ākāśas tad etat pūrṇam apravarti pūrṇam apravartinīṃ śriyaṃ labhate ya evaṃ veda || 9 ||",
+              "english_translation": "— that is the same as this space within the heart. That is the Full, the Non-moving. He who knows thus obtains full and unfailing prosperity.",
+              "commentaries": {
+                "advaita_vedanta": "The space in the heart is the Full (pūrṇa) and Unchanging (apravarti) — Brahman itself, immediately present within. He who knows this fullness lacks nothing; outer prosperity merely shadows the inner attainment.",
+                "vishishtadvaita": "Within the heart-space dwells the Lord, complete and immutable; knowing Him there, the devotee receives unfailing spiritual wealth — His grace.",
+                "dvaita_vedanta": "The 'Full and Unmoving' is Viṣṇu enthroned in the heart; the knower receives from Him imperishable felicity."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 13,
+          "title": "The Five Door-Keepers of the Heart",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "तस्य ह वा एतस्य हृदयस्य पञ्च देवसुषयः स योऽस्य प्राङ्सुषिः स प्राणस्तच्चक्षुः स आदित्यस्तदेतत्तेजोऽन्नाद्यमित्युपासीत तेजस्व्यन्नादो भवति य एवं वेद ॥ १ ॥",
+              "iast": "tasya ha vā etasya hṛdayasya pañca devasuṣayaḥ sa yo 'sya prāṅ suṣiḥ sa prāṇas tac cakṣuḥ sa ādityas tad etat tejo 'nnādyam ity upāsīta tejasvy annādo bhavati ya evaṃ veda || 1 ||",
+              "english_translation": "Of this heart there are five openings for the gods. Its eastern opening is the prāṇa; that is the eye; that is the sun. One should meditate on it as splendour and as food. He who knows thus becomes splendid and an eater of food.",
+              "commentaries": {
+                "advaita_vedanta": "The heart's 'openings' are channels through which the one Life appears as breath, sense, and deity. Each triad (breath–organ–god) is a single power seen at three levels — preparation for seeing the one Self behind all powers.",
+                "vishishtadvaita": "The five doors are stations of the Lord's deputies guarding His inner court; meditating on each as His glory yields its fruit.",
+                "dvaita_vedanta": "Each opening is presided over by a god under Viṣṇu's command; worship of the hierarchy as His servants brings splendour."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अथ योऽस्य दक्षिणः सुषिः स व्यानस्तच्छ्रोत्रं स चन्द्रमास्तदेतच्छ्रीश्च यशश्चेत्युपासीत श्रीमान्यशस्वी भवति य एवं वेद ॥ २ ॥",
+              "iast": "atha yo 'sya dakṣiṇaḥ suṣiḥ sa vyānas tac chrotraṃ sa candramās tad etac chrīś ca yaśaś cety upāsīta śrīmān yaśasvī bhavati ya evaṃ veda || 2 ||",
+              "english_translation": "Its southern opening is the vyāna; that is the ear; that is the moon. One should meditate on it as prosperity and fame. He who knows thus becomes prosperous and famous.",
+              "commentaries": {
+                "advaita_vedanta": "Vyāna, pervading breath, links hearing and the moon; the meditation transforms physiological fact into contemplative symbol.",
+                "vishishtadvaita": "The moon-door dispenses the Lord's gifts of wealth and renown to the meditator.",
+                "dvaita_vedanta": "Candra serves Viṣṇu at the southern door; his gifts flow by the Lord's leave."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अथ योऽस्य प्रत्यङ्सुषिः सोऽपानः सा वाक्सोऽग्निस्तदेतद्ब्रह्मवर्चसमन्नाद्यमित्युपासीत ब्रह्मवर्चस्यन्नादो भवति य एवं वेद ॥ ३ ॥",
+              "iast": "atha yo 'sya pratyaṅ suṣiḥ so 'pānaḥ sā vāk so 'gnis tad etad brahmavarcasam annādyam ity upāsīta brahmavarcasy annādo bhavati ya evaṃ veda || 3 ||",
+              "english_translation": "Its western opening is the apāna; that is speech; that is fire. One should meditate on it as the lustre of sacred knowledge and as food. He who knows thus becomes lustrous with sacred knowledge and an eater of food.",
+              "commentaries": {
+                "advaita_vedanta": "Apāna, speech, and fire form the western triad; brahmavarcasa — the radiance born of Vedic learning — is its meditative fruit.",
+                "vishishtadvaita": "Agni at the western door bestows the glow of sacred study on the Lord's worshipper.",
+                "dvaita_vedanta": "Fire, the Lord's priestly servant, grants Vedic lustre to those who honour the order."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ योऽस्योदङ्सुषिः स समानस्तन्मनः स पर्जन्यस्तदेतत्कीर्तिश्च व्युष्टिश्चेत्युपासीत कीर्तिमान्व्युष्टिमान्भवति य एवं वेद ॥ ४ ॥",
+              "iast": "atha yo 'syodaṅ suṣiḥ sa samānas tan manaḥ sa parjanyas tad etat kīrtiś ca vyuṣṭiś cety upāsīta kīrtimān vyuṣṭimān bhavati ya evaṃ veda || 4 ||",
+              "english_translation": "Its northern opening is the samāna; that is the mind; that is the rain-god Parjanya. One should meditate on it as renown and beauty. He who knows thus becomes renowned and beautiful.",
+              "commentaries": {
+                "advaita_vedanta": "Samāna, the equalising breath, pairs with mind and rain — both gatherers and distributors; renown and radiance are their fruit.",
+                "vishishtadvaita": "Parjanya pours the Lord's favours of fame and grace through the northern door.",
+                "dvaita_vedanta": "The rain-god, Viṣṇu's officer, rewards meditation with renown."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अथ योऽस्योर्ध्वः सुषिः स उदानः स वायुः स आकाशस्तदेतदोजश्च महश्चेत्युपासीतौजस्वी महस्वान्भवति य एवं वेद ॥ ५ ॥",
+              "iast": "atha yo 'syordhvaḥ suṣiḥ sa udānaḥ sa vāyuḥ sa ākāśas tad etad ojaś ca mahaś cety upāsītaujasvī mahasvān bhavati ya evaṃ veda || 5 ||",
+              "english_translation": "Its upper opening is the udāna; that is the wind; that is space. One should meditate on it as strength and greatness. He who knows thus becomes strong and great.",
+              "commentaries": {
+                "advaita_vedanta": "Udāna, the ascending breath that carries the soul upward at death, pairs with wind and space; its fruits are vigour and greatness — and its direction is the path of ascent.",
+                "vishishtadvaita": "The upward door, kept by Vāyu, opens toward the Lord's realm; meditation on it strengthens the soul for the final journey.",
+                "dvaita_vedanta": "Vāyu — in Madhva's school the highest of souls and Viṣṇu's foremost servant — keeps the upper door; his favour gives strength and carries the soul aloft."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "ते वा एते पञ्च ब्रह्मपुरुषाः स्वर्गस्य लोकस्य द्वारपाः स य एतानेवं पञ्च ब्रह्मपुरुषान्स्वर्गस्य लोकस्य द्वारपान्वेदास्य कुले वीरो जायते प्रतिपद्यते स्वर्गं लोकं य एतानेवं पञ्च ब्रह्मपुरुषान्स्वर्गस्य लोकस्य द्वारपान्वेद ॥ ६ ॥",
+              "iast": "te vā ete pañca brahmapuruṣāḥ svargasya lokasya dvārapāḥ sa ya etān evaṃ pañca brahmapuruṣān svargasya lokasya dvārapān vedāsya kule vīro jāyate pratipadyate svargaṃ lokaṃ ya etān evaṃ pañca brahmapuruṣān svargasya lokasya dvārapān veda || 6 ||",
+              "english_translation": "These, verily, are the five persons of Brahman, the door-keepers of the heavenly world. He who knows these five persons of Brahman as the door-keepers of the heavenly world — in his family a hero is born, and he himself reaches the heavenly world.",
+              "commentaries": {
+                "advaita_vedanta": "The 'heavenly world' here is the Brahman within the heart, whose doors the five powers guard. Knowing the keepers, one passes through them to the Light they serve.",
+                "vishishtadvaita": "The five divine persons guard the way to the Lord's presence in the heart; the knower is admitted to His world.",
+                "dvaita_vedanta": "The door-keepers admit only those who know their stations under the Lord; such a knower attains the world of light."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "अथ यदतः परो दिवो ज्योतिर्दीप्यते विश्वतः पृष्ठेषु सर्वतः पृष्ठेष्वनुत्तमेषूत्तमेषु लोकेष्विदं वाव तद्यदिदमस्मिन्नन्तः पुरुषे ज्योतिः ॥ ७ ॥",
+              "iast": "atha yad ataḥ paro divo jyotir dīpyate viśvataḥ pṛṣṭheṣu sarvataḥ pṛṣṭheṣv anuttameṣūttameṣu lokeṣv idaṃ vāva tad yad idam asminn antaḥ puruṣe jyotiḥ || 7 ||",
+              "english_translation": "Now, that light which shines above this heaven, above all, in the highest worlds beyond which there are none higher — that is the same as this light which is here within the person.",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara's key text: the supreme Light beyond heaven and the light within the person are one and the same. The transcendent Brahman is the immanent Self — the identity at the core of Advaita.",
+                "vishishtadvaita": "The supreme Light is the Lord in His transcendent splendour, and the very same Lord shines within the heart as the inner controller — identity of the indweller, not of soul and God.",
+                "dvaita_vedanta": "Madhva reads: the Light supreme above and the Light within are the one Lord Viṣṇu, present in both places; the soul that perceives Him within sees the same God who reigns beyond."
+              }
+            },
+            {
+              "verse_number": 8,
+              "devanagari": "तस्यैषा दृष्टिर्यत्रैतदस्मिञ्शरीरे संस्पर्शेनोष्णिमानं विजानाति तस्यैषा श्रुतिर्यत्रैतत्कर्णावपिगृह्य निनदमिव नदथुरिवाग्नेरिव ज्वलत उपशृणोति तदेतद्दृष्टं च श्रुतं चेत्युपासीत चक्षुष्यः श्रुतो भवति य एवं वेद य एवं वेद ॥ ८ ॥",
+              "iast": "tasyaiṣā dṛṣṭir yatraitad asmiñ śarīre saṃsparśenoṣṇimānaṃ vijānāti tasyaiṣā śrutir yatraitat karṇāv apigṛhya ninadam iva nadathur ivāgner iva jvalata upaśṛṇoti tad etad dṛṣṭaṃ ca śrutaṃ cety upāsīta cakṣuṣyaḥ śruto bhavati ya evaṃ veda ya evaṃ veda || 8 ||",
+              "english_translation": "Of this light, the seeing is this: when one perceives warmth in this body by touch. Its hearing is this: when, closing the ears, one hears something like a hum, like the rumble of a blazing fire. One should meditate on it as the seen and the heard. He who knows thus becomes one beautiful to see and widely heard of — he who knows thus.",
+              "commentaries": {
+                "advaita_vedanta": "The inner Light gives direct, bodily evidence: the warmth of life and the inner sound. Śaṅkara values these as proofs that the Self is not remote but immediately experienced; the repetition closes the vidyā.",
+                "vishishtadvaita": "The Lord within graciously offers tangible tokens — warmth and inner resonance — so the devotee may fix the mind on His presence.",
+                "dvaita_vedanta": "Bodily warmth and the inner hum are signs of the indwelling Lord's activity, perceivable evidence of His presence for the attentive devotee."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

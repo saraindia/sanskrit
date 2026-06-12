@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { useSpeech } from '../hooks/useSpeech'
+import { toIAST } from '../utils/transliterate.js'
 import './ClickableSentence.css'
 
 function lookupWord(raw, vocabulary) {
@@ -45,9 +46,9 @@ function WordChip({ token, vocabulary, onClose, activeToken, setActiveToken }) {
       {isActive && (
         <span className="word-tooltip" onClick={e => e.stopPropagation()}>
           <span className="tooltip-word">{token.word}</span>
+          <span className="tooltip-iast">{entry?.iast || toIAST(token.word.replace(/[।॥.,!?]/g, ''))}</span>
           {entry ? (
             <>
-              <span className="tooltip-iast">{entry.iast}</span>
               <span className="tooltip-english">{entry.english}</span>
               {entry.pos && <span className="tooltip-pos">{entry.pos}</span>}
             </>

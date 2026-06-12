@@ -1,0 +1,324 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 62: Chapter 8, Sections 7–12. Prajāpati teaches Indra and Virocana: the self in the eye and mirror, the dream self, the self of deep sleep, and finally the bodiless Self — the supreme Person.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_8": {
+      "sections": [
+        {
+          "section_number": 7,
+          "title": "Gods and Demons Seek the Self",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "य आत्मापहतपाप्मा विजरो विमृत्युर्विशोको विजिघत्सोऽपिपासः सत्यकामः सत्यसंकल्पः सोऽन्वेष्टव्यः स विजिज्ञासितव्यः स सर्वांश्च लोकानाप्नोति सर्वांश्च कामान्यस्तमात्मानमनुविद्य विजानातीति ह प्रजापतिरुवाच ॥ १ ॥",
+              "iast": "ya ātmāpahatapāpmā vijaro vimṛtyur viśoko vijighatso 'pipāsaḥ satyakāmaḥ satyasaṃkalpaḥ so 'nveṣṭavyaḥ sa vijijñāsitavyaḥ sa sarvāṃś ca lokān āpnoti sarvāṃś ca kāmān yas tam ātmānam anuvidya vijānātīti ha prajāpatir uvāca || 1 ||",
+              "english_translation": "'The Self which is free from evil, free from old age, free from death, free from sorrow, free from hunger and thirst, whose desires are true, whose will is true — that should be sought, that one should desire to understand. He obtains all worlds and all desires who has found and understands that Self.' Thus spoke Prajāpati.",
+              "commentaries": {
+                "advaita_vedanta": "Prajāpati's proclamation — the same eight-fold description as 8.1 — is the thesis the whole narrative will unfold through four progressive teachings. Śaṅkara: the story dramatises how easily the Self is mistaken for its reflections.",
+                "vishishtadvaita": "The Lord's herald announces the prize: the blemishless Self — for Rāmānuja, the Lord Himself and, derivatively, the freed soul conformed to Him.",
+                "dvaita_vedanta": "The proclamation describes Viṣṇu, the flawless one; seeking Him is the supreme quest of gods and souls alike."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तद्धोभये देवासुरा अनुबुबुधिरे ते होचुर्हन्त तमात्मानमन्वेच्छामो यमात्मानमन्विष्य सर्वांश्च लोकानाप्नोति सर्वांश्च कामानितीन्द्रो हैव देवानामभिप्रवव्राज विरोचनोऽसुराणां तौ हासंविदानावेव समित्पाणी प्रजापतिसकाशमाजग्मतुः ॥ २ ॥",
+              "iast": "tad dhobhaye devāsurā anububudhire te hocur hanta tam ātmānam anvecchāmo yam ātmānam anviṣya sarvāṃś ca lokān āpnoti sarvāṃś ca kāmān itīndro haiva devānām abhipravavrāja virocano 'surāṇāṃ tau hāsaṃvidānāv eva samitpāṇī prajāpatisakāśam ājagmatuḥ || 2 ||",
+              "english_translation": "Both the gods and the demons heard of this. They said: 'Come, let us seek that Self by seeking which one obtains all worlds and all desires.' Indra set out from among the gods, Virocana from among the demons. Without conferring, the two came, fuel in hand, into the presence of Prajāpati.",
+              "commentaries": {
+                "advaita_vedanta": "Gods and demons alike crave the Self — but, as the story shows, what each finds depends on the depth of his hearing. Even Indra arrives as a humble student, fuel in hand.",
+                "vishishtadvaita": "Both orders of beings seek; both submit to discipleship — but grace and fitness will divide their harvests.",
+                "dvaita_vedanta": "The same words reach different natures differently — Madhva's doctrine that doctrine sorts hearers by their intrinsic kind."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तौ ह द्वात्रिंशतं वर्षाणि ब्रह्मचर्यमूषतुस्तौ ह प्रजापतिरुवाच किमिच्छन्ताववास्तमिति तौ होचतुर्य आत्मापहतपाप्मा विजरो विमृत्युर्विशोको विजिघत्सोऽपिपासः सत्यकामः सत्यसंकल्पः सोऽन्वेष्टव्यः स विजिज्ञासितव्यः स सर्वांश्च लोकानाप्नोति सर्वांश्च कामान्यस्तमात्मानमनुविद्य विजानातीति भगवतो वचो वेदयन्ते तमिच्छन्ताववास्तमिति ॥ ३ ॥",
+              "iast": "tau ha dvātriṃśataṃ varṣāṇi brahmacaryam ūṣatus tau ha prajāpatir uvāca kim icchantāv avāstam iti tau hocatur ya ātmāpahatapāpmā vijaro vimṛtyur viśoko vijighatso 'pipāsaḥ satyakāmaḥ satyasaṃkalpaḥ so 'nveṣṭavyaḥ sa vijijñāsitavyaḥ sa sarvāṃś ca lokān āpnoti sarvāṃś ca kāmān yas tam ātmānam anuvidya vijānātīti bhagavato vaco vedayante tam icchantāv avāstam iti || 3 ||",
+              "english_translation": "The two lived the disciplined life of students for thirty-two years. Then Prajāpati asked them: 'Desiring what have you been living here?' They said: 'People report this as your word: \"The Self which is free from evil... he obtains all worlds and all desires who has found and understands that Self.\" Desiring that, we have been living here.'",
+              "commentaries": {
+                "advaita_vedanta": "Thirty-two years of service before a single word of teaching — the price of admission to the highest knowledge.",
+                "vishishtadvaita": "Long brahmacarya tests and ripens; the Lord's teacher measures the vessel before pouring.",
+                "dvaita_vedanta": "Decades of discipline precede instruction — the protocol of the eternal school."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तौ ह प्रजापतिरुवाच य एषोऽक्षिणि पुरुषो दृश्यत एष आत्मेति होवाचैतदमृतमभयमेतद्ब्रह्मेत्यथ योऽयं भगवोऽप्सु परिख्यायते यश्चायमादर्शे कतम एष इत्येष उ एवैषु सर्वेष्वन्तेषु परिख्यायत इति होवाच ॥ ४ ॥",
+              "iast": "tau ha prajāpatir uvāca ya eṣo 'kṣiṇi puruṣo dṛśyata eṣa ātmeti hovācaitad amṛtam abhayam etad brahmety atha yo 'yaṃ bhagavo 'psu parikhyāyate yaś cāyam ādarśe katama eṣa ity eṣa u evaiṣu sarveṣv anteṣu parikhyāyata iti hovāca || 4 ||",
+              "english_translation": "Prajāpati said to them: 'The person that is seen in the eye — that is the Self,' he said; 'that is the immortal, the fearless; that is Brahman.' — 'But, revered sir, the one who is perceived in water and the one in a mirror — which of these is he?' — 'He indeed is perceived in all these,' he replied.",
+              "commentaries": {
+                "advaita_vedanta": "The teacher speaks truly — the witness in the eye IS the Self — but ambiguously: the students hear 'the reflection'. Śaṅkara: scripture tests; the shallow take the shadow, the deep press on.",
+                "vishishtadvaita": "The first lesson is deliberately graded; the Lord-as-teacher meets each student at his capacity.",
+                "dvaita_vedanta": "The真 teaching hides in plain speech; natures reveal themselves by what they grasp."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 8,
+          "title": "The Reflection in the Water — Virocana's Gospel of the Body",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "उदशराव आत्मानमवेक्ष्य यदात्मनो न विजानीथस्तन्मे प्रब्रूतमिति तौ होदशरावेऽवेक्षांचक्राते तौ ह प्रजापतिरुवाच किं पश्यथ इति तौ होचतुः सर्वमेवेदमावां भगव आत्मानं पश्याव आ लोमभ्य आ नखेभ्यः प्रतिरूपमिति ॥ १ ॥",
+              "iast": "udaśarāva ātmānam avekṣya yad ātmano na vijānīthas tan me prabrūtam iti tau hodaśarāve 'vekṣāṃ cakrāte tau ha prajāpatir uvāca kiṃ paśyatha iti tau hocatuḥ sarvam evedam āvāṃ bhagava ātmānaṃ paśyāva ā lomabhya ā nakhebhyaḥ pratirūpam iti || 1 ||",
+              "english_translation": "'Look at yourselves in a pan of water, and whatever you do not understand of the Self, tell me.' They looked in the pan of water. Prajāpati asked: 'What do you see?' They said: 'Revered sir, we see ourselves entire, a likeness down to the very hairs and nails.'",
+              "commentaries": {
+                "advaita_vedanta": "The water shows them — a body. They mistake the reflection for the proclaimed Self: the universal error of identifying 'I' with the seen.",
+                "vishishtadvaita": "The mirror-test exposes body-identification, the first knot to be cut.",
+                "dvaita_vedanta": "The shallow reading takes shape for Self — the demonic reading, as the sequel shows."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तौ ह प्रजापतिरुवाच साध्वलंकृतौ सुवसनौ परिष्कृतौ भूत्वोदशरावेऽवेक्षेथामिति तौ ह साध्वलंकृतौ सुवसनौ परिष्कृतौ भूत्वोदशरावेऽवेक्षांचक्राते तौ ह प्रजापतिरुवाच किं पश्यथ इति ॥ २ ॥",
+              "iast": "tau ha prajāpatir uvāca sādhvalaṃkṛtau suvasanau pariṣkṛtau bhūtvodaśarāve 'vekṣethām iti tau ha sādhvalaṃkṛtau suvasanau pariṣkṛtau bhūtvodaśarāve 'vekṣāṃ cakrāte tau ha prajāpatir uvāca kiṃ paśyatha iti || 2 ||",
+              "english_translation": "Prajāpati said: 'Adorn yourselves well, dress finely, and groom yourselves, and then look into the pan of water.' They adorned themselves well, dressed finely, groomed themselves, and looked into the pan of water. Prajāpati asked: 'What do you see?'",
+              "commentaries": {
+                "advaita_vedanta": "The teacher heightens the error to expose it: dress the body, and the 'self' in the water dresses too — can the changeless Self change with clothes?",
+                "vishishtadvaita": "The ornament-test offers the students a chance to catch the absurdity.",
+                "dvaita_vedanta": "A deliberate magnification of the mistake, awaiting discernment."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तौ होचतुर्यथैवेदमावां भगवः साध्वलंकृतौ सुवसनौ परिष्कृतौ स्व एवमेवेमौ भगवः साध्वलंकृतौ सुवसनौ परिष्कृताविति एष आत्मेति होवाचैतदमृतमभयमेतद्ब्रह्मेति तौ ह शान्तहृदयौ प्रवव्रजतुः ॥ ३ ॥",
+              "iast": "tau hocatur yathaivedam āvāṃ bhagavaḥ sādhvalaṃkṛtau suvasanau pariṣkṛtau sva evam evemau bhagavaḥ sādhvalaṃkṛtau suvasanau pariṣkṛtāv iti eṣa ātmeti hovācaitad amṛtam abhayam etad brahmeti tau ha śāntahṛdayau pravavrajatuḥ || 3 ||",
+              "english_translation": "They said: 'Just as we are, revered sir, well adorned, finely dressed, and groomed, so are these two, revered sir, well adorned, finely dressed, and groomed.' — 'That is the Self,' he said; 'that is the immortal, the fearless; that is Brahman.' And the two went away satisfied in heart.",
+              "commentaries": {
+                "advaita_vedanta": "They depart content with a corpse-deep doctrine. The teacher's words remain true of the witness — but they have pinned them to the image. Premature satisfaction is the mark of the unfit.",
+                "vishishtadvaita": "Contentment with the body-self is the heart's untested calm; true peace lies many lessons deeper.",
+                "dvaita_vedanta": "Both leave pleased; only one will return — natures diverge at the first crossroads."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तौ हान्वीक्ष्य प्रजापतिरुवाचानुपलभ्यात्मानमननुविद्य व्रजतो यतर एतदुपनिषदो भविष्यन्ति देवा वासुरा वा ते पराभविष्यन्तीति स ह शान्तहृदय एव विरोचनोऽसुराञ्जगाम तेभ्यो हैतामुपनिषदं प्रोवाचात्मैवेह महय्य आत्मा परिचर्य आत्मानमेवेह महयन्नात्मानं परिचरन्नुभौ लोकाववाप्नोतीमं चामुं चेति ॥ ४ ॥",
+              "iast": "tau hānvīkṣya prajāpatir uvācānupalabhyātmānam ananuvidya vrajato yatara etadupaniṣado bhaviṣyanti devā vāsurā vā te parābhaviṣyantīti sa ha śāntahṛdaya eva virocano 'surāñ jagāma tebhyo haitām upaniṣadaṃ provācātmaiveha mahayya ātmā paricarya ātmānam eveha mahayann ātmānaṃ paricarann ubhau lokāv avāpnotīmaṃ cāmuṃ ceti || 4 ||",
+              "english_translation": "Watching them go, Prajāpati said: 'They depart without having perceived, without having found the Self. Whichever side holds this as its secret doctrine — gods or demons — they shall perish.' Virocana, fully satisfied in heart, went to the demons and proclaimed to them this doctrine: 'The (bodily) self alone is to be exalted here, the self alone to be served; exalting and serving the self here, one wins both worlds, this and the other.'",
+              "commentaries": {
+                "advaita_vedanta": "Virocana's gospel — body-worship — becomes the demons' creed. Śaṅkara: materialism is not modern; it is the oldest half-heard upaniṣad, and its end is perishing.",
+                "vishishtadvaita": "The asura doctrine deifies the perishable; Rāmānuja sees in it the archetype of all philosophies that stop at the body.",
+                "dvaita_vedanta": "Virocana's satisfied error displays the asura-nature: truth offered, shadow chosen — and a whole order built on the shadow."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "तस्मादप्यद्येहाददानमश्रद्दधानमयजमानमाहुरासुरो बतेत्यसुराणां ह्येषोपनिषत्प्रेतस्य शरीरं भिक्षया वसनेनालंकारेणेति संस्कुर्वन्त्येतेन ह्यमुं लोकं जेष्यन्तो मन्यन्ते ॥ ५ ॥",
+              "iast": "tasmād apy adyehādadānam aśraddadhānam ayajamānam āhur āsuro batety asurāṇāṃ hy eṣopaniṣat pretasya śarīraṃ bhikṣayā vasanenālaṃkāreṇeti saṃskurvanty etena hy amuṃ lokaṃ jeṣyanto manyante || 5 ||",
+              "english_translation": "Therefore even today they say of one who does not give, who has no faith, who does not sacrifice: 'Alas, demonic!' — for this is the doctrine of the demons. They deck out the body of the deceased with finery, garments, and ornament, thinking thereby to win yonder world.",
+              "commentaries": {
+                "advaita_vedanta": "The creed's logical end: adorning corpses to conquer eternity. Care lavished on the instrument cannot save the player.",
+                "vishishtadvaita": "Faithlessness, miserliness, and corpse-pomp flow from the body-doctrine — conduct betrays creed.",
+                "dvaita_vedanta": "The demonic rites of the dead expose the doctrine's emptiness: the body was never the Self."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 9,
+          "title": "Indra's First Doubt — The Reflected Self Perishes",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ हेन्द्रोऽप्राप्यैव देवानेतद्भयं ददर्श यथैव खल्वयमस्मिञ्शरीरे साध्वलंकृते साध्वलंकृतो भवति सुवसने सुवसनः परिष्कृते परिष्कृत एवमेवायमस्मिन्नन्धेऽन्धो भवति स्रामे स्रामः परिवृक्णे परिवृक्णोऽस्यैव शरीरस्य नाशमन्वेष नश्यति नाहमत्र भोग्यं पश्यामीति ॥ १ ॥",
+              "iast": "atha hendro 'prāpyaiva devān etad bhayaṃ dadarśa yathaiva khalv ayam asmiñ śarīre sādhvalaṃkṛte sādhvalaṃkṛto bhavati suvasane suvasanaḥ pariṣkṛte pariṣkṛta evam evāyam asminn andhe 'ndho bhavati srāme srāmaḥ parivṛkṇe parivṛkṇo 'syaiva śarīrasya nāśam anveṣa naśyati nāham atra bhogyaṃ paśyāmīti || 1 ||",
+              "english_translation": "But Indra, even before reaching the gods, saw this danger: 'Just as this (reflected self) is well adorned when the body is well adorned, finely dressed when it is finely dressed, groomed when it is groomed — even so it is blind when the body is blind, lame when it is lame, maimed when it is maimed; it perishes with the very perishing of the body. I see nothing enjoyable in this.'",
+              "commentaries": {
+                "advaita_vedanta": "Indra's greatness is his doubt: a self that ages with the body and dies with it cannot be the deathless one proclaimed. Discrimination (viveka) turns him back at the gate of contentment.",
+                "vishishtadvaita": "Divine fitness shows as holy dissatisfaction; the god refuses a perishable prize.",
+                "dvaita_vedanta": "The deva-nature questions what the asura swallowed — grace working as critical insight."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स समित्पाणिः पुनरेयाय तं ह प्रजापतिरुवाच मघवन्यच्छान्तहृदयः प्राव्राजीः सार्धं विरोचनेन किमिच्छन्पुनरागम इति स होवाच यथैव खल्वयं भगवोऽस्मिञ्शरीरे साध्वलंकृते साध्वलंकृतो भवति सुवसने सुवसनः परिष्कृते परिष्कृत एवमेवायमस्मिन्नन्धेऽन्धो भवति स्रामे स्रामः परिवृक्णे परिवृक्णोऽस्यैव शरीरस्य नाशमन्वेष नश्यति नाहमत्र भोग्यं पश्यामीति ॥ २ ॥",
+              "iast": "sa samitpāṇiḥ punar eyāya taṃ ha prajāpatir uvāca maghavan yac chāntahṛdayaḥ prāvrājīḥ sārdhaṃ virocanena kim icchan punar āgama iti sa hovāca yathaiva khalv ayaṃ bhagavo 'smiñ śarīre sādhvalaṃkṛte sādhvalaṃkṛto bhavati suvasane suvasanaḥ pariṣkṛte pariṣkṛta evam evāyam asminn andhe 'ndho bhavati srāme srāmaḥ parivṛkṇe parivṛkṇo 'syaiva śarīrasya nāśam anveṣa naśyati nāham atra bhogyaṃ paśyāmīti || 2 ||",
+              "english_translation": "Fuel in hand, he came back again. Prajāpati said to him: 'Maghavan, you went away with Virocana, satisfied in heart; desiring what have you returned?' He said: 'Revered sir, just as this one is adorned when the body is adorned... it perishes with the very perishing of the body. I see nothing enjoyable in this.'",
+              "commentaries": {
+                "advaita_vedanta": "The return with fuel in hand: doubt brings him back to discipleship, not despair.",
+                "vishishtadvaita": "Holy restlessness re-enrols the student; the Lord's teacher receives the returning seeker.",
+                "dvaita_vedanta": "The fit student's question reopens the school."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "एवमेवैष मघवन्निति होवाचैतं त्वेव ते भूयोऽनुव्याख्यास्यामि वसापराणि द्वात्रिंशतं वर्षाणीति स हापराणि द्वात्रिंशतं वर्षाण्युवास तस्मै होवाच ॥ ३ ॥",
+              "iast": "evam evaiṣa maghavann iti hovācaitaṃ tv eva te bhūyo 'nuvyākhyāsyāmi vasāparāṇi dvātriṃśataṃ varṣāṇīti sa hāparāṇi dvātriṃśataṃ varṣāṇy uvāsa tasmai hovāca || 3 ||",
+              "english_translation": "'So indeed he is, Maghavan,' he said; 'but I will explain him to you further. Live here another thirty-two years.' He lived another thirty-two years, and then Prajāpati said to him:",
+              "commentaries": {
+                "advaita_vedanta": "'So indeed he is' — the reflection too is the Self, misread; each stage is true at its level. Another thirty-two years buys the next unveiling.",
+                "vishishtadvaita": "Patience is the curriculum; the Lord reveals by degrees to the persevering.",
+                "dvaita_vedanta": "Graded disclosure over patient decades — the divine pedagogy."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 10,
+          "title": "The Dream Self — Second Teaching, Second Doubt",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "य एष स्वप्ने महीयमानश्चरत्येष आत्मेति होवाचैतदमृतमभयमेतद्ब्रह्मेति स ह शान्तहृदयः प्रवव्राज स हाप्राप्यैव देवानेतद्भयं ददर्श तद्यद्यपीदं शरीरमन्धं भवत्यनन्धः स भवति यदि स्राममस्रामो नैवैषोऽस्य दोषेण दुष्यति ॥ १ ॥",
+              "iast": "ya eṣa svapne mahīyamānaś caraty eṣa ātmeti hovācaitad amṛtam abhayam etad brahmeti sa ha śāntahṛdayaḥ pravavrāja sa hāprāpyaiva devān etad bhayaṃ dadarśa tad yady apīdaṃ śarīram andhaṃ bhavaty anandhaḥ sa bhavati yadi srāmam asrāmo naivaiṣo 'sya doṣeṇa duṣyati || 1 ||",
+              "english_translation": "'He who moves about exalted in dream — that is the Self,' he said; 'that is the immortal, the fearless; that is Brahman.' Satisfied in heart, he went away. But before reaching the gods he saw this danger: 'Even if this body is blind, that one is not blind; if it is lame, he is not lame; he is not tainted by the body's faults —',",
+              "commentaries": {
+                "advaita_vedanta": "The dream-self surpasses the reflection: untouched by the body's blindness. Yet Indra will find the dreamer too can suffer — the analysis of the three states advances.",
+                "vishishtadvaita": "The second teaching detaches Self from gross body; a higher lesson with its own residue.",
+                "dvaita_vedanta": "Dream-freedom from bodily flaw refines the search without ending it."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "न वधेनास्य हन्यते नास्य स्राम्येण स्रामो घ्नन्ति त्वेवैनं विच्छादयन्तीवाप्रियवेत्तेव भवत्यपि रोदितीव नाहमत्र भोग्यं पश्यामीति ॥ २ ॥",
+              "iast": "na vadhenāsya hanyate nāsya srāmyeṇa srāmo ghnanti tv evainaṃ vicchādayantīvāpriyavetteva bhavaty api roditīva nāham atra bhogyaṃ paśyāmīti || 2 ||",
+              "english_translation": "'— he is not slain when it is slain, nor lame with its lameness. Yet (in dream) they seem to kill him, they seem to strip him; he seems to experience the unpleasant, he even seems to weep. I see nothing enjoyable in this.'",
+              "commentaries": {
+                "advaita_vedanta": "The dreamer weeps: fear and grief pursue him though the body lies safe. A self still subject to sorrow cannot be the sorrowless one proclaimed.",
+                "vishishtadvaita": "Dream-suffering shows the second teaching incomplete; the seeker rightly presses past it.",
+                "dvaita_vedanta": "The dream-self's tears disqualify it; Indra's discrimination holds."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स समित्पाणिः पुनरेयाय तं ह प्रजापतिरुवाच मघवन्यच्छान्तहृदयः प्राव्राजीः किमिच्छन्पुनरागम इति स होवाच तद्यद्यपीदं भगवः शरीरमन्धं भवत्यनन्धः स भवति यदि स्राममस्रामो नैवैषोऽस्य दोषेण दुष्यति ॥ ३ ॥",
+              "iast": "sa samitpāṇiḥ punar eyāya taṃ ha prajāpatir uvāca maghavan yac chāntahṛdayaḥ prāvrājīḥ kim icchan punar āgama iti sa hovāca tad yady apīdaṃ bhagavaḥ śarīram andhaṃ bhavaty anandhaḥ sa bhavati yadi srāmam asrāmo naivaiṣo 'sya doṣeṇa duṣyati || 3 ||",
+              "english_translation": "Fuel in hand, he came back again. Prajāpati said to him: 'Maghavan, you went away satisfied in heart; desiring what have you returned?' He said: 'Revered sir, even if this body is blind, that one is not blind; if it is lame, he is not lame; he is not tainted by the body's faults —',",
+              "commentaries": {
+                "advaita_vedanta": "Again the return; again the report of the residue of sorrow in the dream-self.",
+                "vishishtadvaita": "The seeker recounts gain and lack alike — honest inventory before the teacher.",
+                "dvaita_vedanta": "Each return refines the question."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "एवमेवैष मघवन्निति होवाचैतं त्वेव ते भूयोऽनुव्याख्यास्यामि वसापराणि द्वात्रिंशतं वर्षाणीति स हापराणि द्वात्रिंशतं वर्षाण्युवास तस्मै होवाच ॥ ४ ॥",
+              "iast": "evam evaiṣa maghavann iti hovācaitaṃ tv eva te bhūyo 'nuvyākhyāsyāmi vasāparāṇi dvātriṃśataṃ varṣāṇīti sa hāparāṇi dvātriṃśataṃ varṣāṇy uvāsa tasmai hovāca || 4 ||",
+              "english_translation": "'So indeed he is, Maghavan,' he said; 'but I will explain him to you further. Live here another thirty-two years.' He lived another thirty-two years, and then Prajāpati said to him:",
+              "commentaries": {
+                "advaita_vedanta": "Sixty-four years served; the third unveiling is purchased.",
+                "vishishtadvaita": "The patient ascent continues under the teacher's measured grace.",
+                "dvaita_vedanta": "Persistence is itself part of the qualification."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 11,
+          "title": "The Self of Deep Sleep — Third Teaching, Third Doubt",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "तद्यत्रैतत्सुप्तः समस्तः संप्रसन्नः स्वप्नं न विजानात्येष आत्मेति होवाचैतदमृतमभयमेतद्ब्रह्मेति स ह शान्तहृदयः प्रवव्राज स हाप्राप्यैव देवानेतद्भयं ददर्श नाह खल्वयमेवं संप्रत्यात्मानं जानात्ययमहमस्मीति नो एवेमानि भूतानि विनाशमेवापीतो भवति नाहमत्र भोग्यं पश्यामीति ॥ १ ॥",
+              "iast": "tad yatraitat suptaḥ samastaḥ saṃprasannaḥ svapnaṃ na vijānāty eṣa ātmeti hovācaitad amṛtam abhayam etad brahmeti sa ha śāntahṛdayaḥ pravavrāja sa hāprāpyaiva devān etad bhayaṃ dadarśa nāha khalv ayam evaṃ saṃpraty ātmānaṃ jānāty ayam aham asmīti no evemāni bhūtāni vināśam evāpīto bhavati nāham atra bhogyaṃ paśyāmīti || 1 ||",
+              "english_translation": "'When one is asleep, composed, serene, and knows no dream — that is the Self,' he said; 'that is the immortal, the fearless; that is Brahman.' Satisfied in heart, he went away. But before reaching the gods he saw this danger: 'In truth this one does not now know himself as \"I am he\", nor indeed these beings. He has, it seems, gone to annihilation. I see nothing enjoyable in this.'",
+              "commentaries": {
+                "advaita_vedanta": "The third teaching reaches dreamless sleep — peace without sorrow, but also, it seems, without a knower. Indra's objection is philosophy's deepest: is selfhood without consciousness-of-self mere extinction? The final teaching must answer it.",
+                "vishishtadvaita": "Rāmānuja presses this verse against bare-identity readings of mokṣa: a liberation indistinguishable from annihilation cannot be the goal; consciousness and relation must survive.",
+                "dvaita_vedanta": "Madhva concurs with Indra: a self without awareness of itself or the Lord is no prize. The objection establishes that the soul's individuality persists even in mokṣa."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स समित्पाणिः पुनरेयाय तं ह प्रजापतिरुवाच मघवन्यच्छान्तहृदयः प्राव्राजीः किमिच्छन्पुनरागम इति स होवाच नाह खल्वयं भगव एवं संप्रत्यात्मानं जानात्ययमहमस्मीति नो एवेमानि भूतानि विनाशमेवापीतो भवति नाहमत्र भोग्यं पश्यामीति ॥ २ ॥",
+              "iast": "sa samitpāṇiḥ punar eyāya taṃ ha prajāpatir uvāca maghavan yac chāntahṛdayaḥ prāvrājīḥ kim icchan punar āgama iti sa hovāca nāha khalv ayaṃ bhagava evaṃ saṃpraty ātmānaṃ jānāty ayam aham asmīti no evemāni bhūtāni vināśam evāpīto bhavati nāham atra bhogyaṃ paśyāmīti || 2 ||",
+              "english_translation": "Fuel in hand, he came back again. Prajāpati said to him: 'Maghavan, you went away satisfied in heart; desiring what have you returned?' He said: 'Revered sir, in truth this one does not now know himself as \"I am he\", nor these beings. He has, it seems, gone to annihilation. I see nothing enjoyable in this.'",
+              "commentaries": {
+                "advaita_vedanta": "The third return: the student will not rest in oblivion, however peaceful.",
+                "vishishtadvaita": "The seeker demands a goal in which the soul knows and enjoys — rightly, says the school.",
+                "dvaita_vedanta": "Indra's persistence vindicates the soul's eternal claim to conscious bliss."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "एवमेवैष मघवन्निति होवाचैतं त्वेव ते भूयोऽनुव्याख्यास्यामि नो एवान्यत्रैतस्माद्वसापराणि पञ्च वर्षाणीति स हापराणि पञ्च वर्षाण्युवास तान्येकशतं संपेदुरेतत्तद्यदाहुरेकशतं ह वै वर्षाणि मघवान्प्रजापतौ ब्रह्मचर्यमुवास तस्मै होवाच ॥ ३ ॥",
+              "iast": "evam evaiṣa maghavann iti hovācaitaṃ tv eva te bhūyo 'nuvyākhyāsyāmi no evānyatraitasmād vasāparāṇi pañca varṣāṇīti sa hāparāṇi pañca varṣāṇy uvāsa tāny ekaśataṃ saṃpedur etat tad yad āhur ekaśataṃ ha vai varṣāṇi maghavān prajāpatau brahmacaryam uvāsa tasmai hovāca || 3 ||",
+              "english_translation": "'So indeed he is, Maghavan,' he said; 'but I will explain him to you further — and there is nothing further apart from this. Live here another five years.' He lived another five years. That makes one hundred and one in all; hence people say: 'For one hundred and one years Maghavan lived the disciplined life with Prajāpati.' Then he said to him:",
+              "commentaries": {
+                "advaita_vedanta": "A hundred and one years for the final word — and the promise: nothing lies beyond what comes next. The number matches the heart's hundred-and-one channels: the curriculum and the anatomy of liberation coincide.",
+                "vishishtadvaita": "The century of service consummates fitness; the ultimate teaching follows.",
+                "dvaita_vedanta": "The longest tuition precedes the highest truth — the Lord's economy of revelation."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 12,
+          "title": "The Bodiless Self — The Supreme Person",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "मघवन्मर्त्यं वा इदं शरीरमात्तं मृत्युना तदस्यामृतस्याशरीरस्यात्मनोऽधिष्ठानमात्तो वै सशरीरः प्रियाप्रियाभ्यां न वै सशरीरस्य सतः प्रियाप्रिययोरपहतिरस्त्यशरीरं वाव सन्तं न प्रियाप्रिये स्पृशतः ॥ १ ॥",
+              "iast": "maghavan martyaṃ vā idaṃ śarīram āttaṃ mṛtyunā tad asyāmṛtasyāśarīrasyātmano 'dhiṣṭhānam ātto vai saśarīraḥ priyāpriyābhyāṃ na vai saśarīrasya sataḥ priyāpriyayor apahatir asty aśarīraṃ vāva santaṃ na priyāpriye spṛśataḥ || 1 ||",
+              "english_translation": "'Maghavan, this body is mortal, held by death; but it is the standing-place of that immortal, bodiless Self. The embodied is held by pleasure and pain; for one who is embodied there is no freedom from pleasure and pain. But pleasure and pain do not touch one who is bodiless.',",
+              "commentaries": {
+                "advaita_vedanta": "The final teaching begins: the Self is aśarīra — bodiless even while the body stands. Śaṅkara: embodiment is a notion, not a fact; he who knows 'I am not the body' is untouched by the pairs even here. This verse is a cornerstone of jīvanmukti.",
+                "vishishtadvaita": "The soul in its pure state, freed of karma-made bodies, transcends pleasure-pain; its true 'body' is its relation to the Lord.",
+                "dvaita_vedanta": "Bodilessness means freedom from material vesture, not loss of self; the soul's own blissful form knows no worldly pairs."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अशरीरो वायुरभ्रं विद्युत्स्तनयित्नुरशरीराण्येतानि तद्यथैतान्यमुष्मादाकाशात्समुत्थाय परं ज्योतिरुपसंपद्य स्वेन रूपेणाभिनिष्पद्यन्ते ॥ २ ॥",
+              "iast": "aśarīro vāyur abhraṃ vidyut stanayitnur aśarīrāṇy etāni tad yathaitāny amuṣmād ākāśāt samutthāya paraṃ jyotir upasaṃpadya svena rūpeṇābhiniṣpadyante || 2 ||",
+              "english_translation": "'Bodiless is the wind; cloud, lightning, thunder — these too are bodiless. As these rise from yonder space, reach the highest light, and appear each in its own form,',",
+              "commentaries": {
+                "advaita_vedanta": "Nature's analogy: wind and lightning, formless in space, flash forth in their own form on reaching the light — so the soul in the supreme Light stands forth as what it truly is.",
+                "vishishtadvaita": "The elements' emergence images the soul's: rising from embodiment to the supreme Light — the Lord — it blooms in its own pure form.",
+                "dvaita_vedanta": "The simile shows manifestation, not merger: each appears 'in its own form' — individuality intact in the Light."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "एवमेवैष संप्रसादोऽस्माच्छरीरात्समुत्थाय परं ज्योतिरुपसंपद्य स्वेन रूपेणाभिनिष्पद्यते स उत्तमपुरुषः स तत्र पर्येति जक्षत्क्रीडन्रममाणः स्त्रीभिर्वा यानैर्वा ज्ञातिभिर्वा नोपजनं स्मरन्निदं शरीरं स यथा प्रयोग्य आचरणे युक्त एवमेवायमस्मिञ्शरीरे प्राणो युक्तः ॥ ३ ॥",
+              "iast": "evam evaiṣa saṃprasādo 'smāc charīrāt samutthāya paraṃ jyotir upasaṃpadya svena rūpeṇābhiniṣpadyate sa uttamapuruṣaḥ sa tatra paryeti jakṣat krīḍan ramamāṇaḥ strībhir vā yānair vā jñātibhir vā nopajanaṃ smarann idaṃ śarīraṃ sa yathā prayogya ācaraṇe yukta evam evāyam asmiñ śarīre prāṇo yuktaḥ || 3 ||",
+              "english_translation": "'even so this serene one, rising from this body and reaching the highest light, appears in his own form. He is the Supreme Person (uttama puruṣa). There he moves about laughing, playing, rejoicing — with women, chariots, or kinsfolk — not remembering this appendage of a body. As a draught-animal is yoked to a cart, so is the life-breath yoked to this body.',",
+              "commentaries": {
+                "advaita_vedanta": "The serene soul, reaching the Light, stands forth in its own form and IS the Supreme Person — for Śaṅkara, the appearance 'in its own form' is no new acquisition but the shedding of all that it never was. The body is recalled no more than a cart by the freed ox.",
+                "vishishtadvaita": "The freed soul attains the Lord (the highest Light), receives its pure form, and sports in His realm — laughter, play, fellowship: mokṣa is rich communion, not blank absorption; the school's most quoted picture of liberation.",
+                "dvaita_vedanta": "Madhva: the released soul, by Viṣṇu's grace, enjoys bliss in its own form — distinct, embodied in spiritual substance, delighting in His world. The yoked-breath image confirms the soul was never the cart it pulled."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ यत्रैतदाकाशमनुविषण्णं चक्षुः स चाक्षुषः पुरुषो दर्शनाय चक्षुरथ यो वेदेदं जिघ्राणीति स आत्मा गन्धाय घ्राणमथ यो वेदेदमभिव्याहराणीति स आत्माभिव्याहाराय वागथ यो वेदेदं शृण्वानीति स आत्मा श्रवणाय श्रोत्रम् ॥ ४ ॥",
+              "iast": "atha yatraitad ākāśam anuviṣaṇṇaṃ cakṣuḥ sa cākṣuṣaḥ puruṣo darśanāya cakṣur atha yo vededaṃ jighrāṇīti sa ātmā gandhāya ghrāṇam atha yo vededam abhivyāharāṇīti sa ātmābhivyāhārāya vāg atha yo vededaṃ śṛṇvānīti sa ātmā śravaṇāya śrotram || 4 ||",
+              "english_translation": "'Now, where the eye gazes into space, that is the seeing person; the eye is (only the instrument) for seeing. He who knows \"let me smell this\" — that is the Self; the nose is for smelling. He who knows \"let me speak this\" — that is the Self; the voice is for speaking. He who knows \"let me hear this\" — that is the Self; the ear is for hearing.',",
+              "commentaries": {
+                "advaita_vedanta": "The decisive discrimination: behind every instrument stands the knower who wields it. 'He who knows' — that, and not eye, nose, voice, or ear, is the Self. The witness-doctrine in four sentences.",
+                "vishishtadvaita": "The conscious self uses the organs; and within the self, the Lord empowers its knowing — instrumentality all the way to Him.",
+                "dvaita_vedanta": "The knower is other than the instruments; and the Lord is the inner mover of the knower."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अथ यो वेदेदं मन्वानीति स आत्मा मनोऽस्य दैवं चक्षुः स वा एष एतेन दैवेन चक्षुषा मनसैतान्कामान्पश्यन्रमते य एते ब्रह्मलोके ॥ ५ ॥",
+              "iast": "atha yo vededaṃ manvānīti sa ātmā mano 'sya daivaṃ cakṣuḥ sa vā eṣa etena daivena cakṣuṣā manasaitān kāmān paśyan ramate ya ete brahmaloke || 5 ||",
+              "english_translation": "'He who knows \"let me think this\" — that is the Self; the mind is his divine eye. With this divine eye of the mind he sees these desires and rejoices — those that are in the Brahman-world.',",
+              "commentaries": {
+                "advaita_vedanta": "Even mind is the Self's instrument — its 'divine eye' for the joys of the Brahman-world. The Self alone is no one's instrument.",
+                "vishishtadvaita": "With the mind as celestial eye the freed soul beholds and savours the Lord's treasures.",
+                "dvaita_vedanta": "Through the divine mental eye the released enjoy the wonders of the Lord's realm."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "तं वा एतं देवा आत्मानमुपासते तस्मात्तेषां सर्वे च लोका आत्ताः सर्वे च कामाः स सर्वांश्च लोकानाप्नोति सर्वांश्च कामान्यस्तमात्मानमनुविद्य विजानातीति ह प्रजापतिरुवाच प्रजापतिरुवाच ॥ ६ ॥",
+              "iast": "taṃ vā etaṃ devā ātmānam upāsate tasmāt teṣāṃ sarve ca lokā āttāḥ sarve ca kāmāḥ sa sarvāṃś ca lokān āpnoti sarvāṃś ca kāmān yas tam ātmānam anuvidya vijānātīti ha prajāpatir uvāca prajāpatir uvāca || 6 ||",
+              "english_translation": "'It is this Self that the gods meditate upon. Therefore all worlds are held by them and all desires. He obtains all worlds and all desires who has found and understands that Self.' Thus spoke Prajāpati — thus spoke Prajāpati.",
+              "commentaries": {
+                "advaita_vedanta": "The teaching closes its ring: the proclamation of 8.7.1 returns, fulfilled. The gods themselves worship this Self; the knower of it possesses all. The doubled 'thus spoke Prajāpati' seals the highest vidyā of the Upaniṣad.",
+                "vishishtadvaita": "The gods' own object of worship is this supreme Self — the Lord; finding Him, the soul holds every world in Him. The repetition certifies the teaching complete.",
+                "dvaita_vedanta": "Even the gods adore this Self — Viṣṇu; through knowing Him all is granted. The solemn doubling closes Prajāpati's school."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

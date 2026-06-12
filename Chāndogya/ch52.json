@@ -1,0 +1,292 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 52: Chapter 5, Sections 11–18. The Vaiśvānara-vidyā: six householders question King Aśvapati, who corrects their partial meditations and teaches the universal Self.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_5": {
+      "sections": [
+        {
+          "section_number": 11,
+          "title": "The Six Seekers Come to King Aśvapati",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "प्राचीनशाल औपमन्यवः सत्ययज्ञः पौलुषिरिन्द्रद्युम्नो भाल्लवेयो जनः शार्कराक्ष्यो बुडिल आश्वतराश्विस्ते हैते महाशाला महाश्रोत्रियाः समेत्य मीमांसां चक्रुः को न आत्मा किं ब्रह्मेति ॥ १ ॥",
+              "iast": "prācīnaśāla aupamanyavaḥ satyayajñaḥ pauluṣir indradyumno bhāllaveyo janaḥ śārkarākṣyo buḍila āśvatarāśvis te haite mahāśālā mahāśrotriyāḥ sametya mīmāṃsāṃ cakruḥ ko na ātmā kiṃ brahmeti || 1 ||",
+              "english_translation": "Prācīnaśāla Aupamanyava, Satyayajña Pauluṣi, Indradyumna Bhāllaveya, Jana Śārkarākṣya, and Buḍila Āśvatarāśvi — these great householders and great Vedic scholars came together and deliberated: 'What is our Self? What is Brahman?'",
+              "commentaries": {
+                "advaita_vedanta": "The two questions — 'what is the Self, what is Brahman?' — are really one; the vidyā will answer by uniting the inner Self with the universal (Vaiśvānara).",
+                "vishishtadvaita": "Earnest joint inquiry by the learned is itself worship; the Lord will answer them through a king.",
+                "dvaita_vedanta": "Even great scholars must seek further; the question of Self and Brahman is settled only by right tradition."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "ते ह संपादयांचक्रुरुद्दालको वै भगवन्तोऽयमारुणिः संप्रतीममात्मानं वैश्वानरमध्येति तं हन्ताभ्यागच्छामेति तं हाभ्याजग्मुः ॥ २ ॥",
+              "iast": "te ha saṃpādayāṃ cakrur uddālako vai bhagavanto 'yam āruṇiḥ saṃpratīmam ātmānaṃ vaiśvānaram adhyeti taṃ hantābhyāgacchāmeti taṃ hābhyājagmuḥ || 2 ||",
+              "english_translation": "They resolved: 'Sirs, Uddālaka Āruṇi here is at present studying this Vaiśvānara Self. Come, let us go to him.' And they went to him.",
+              "commentaries": {
+                "advaita_vedanta": "They seek the reputed knower of the Universal Self — the Self 'common to all men' (viśva-nara).",
+                "vishishtadvaita": "Vaiśvānara is the Lord as indweller of all; the search for His knower begins.",
+                "dvaita_vedanta": "The Vaiśvānara sought is Viṣṇu in His universal form; teachers are weighed before being approached."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स ह संपादयांचकार प्रक्ष्यन्ति मामिमे महाशाला महाश्रोत्रियास्तेभ्यो न सर्वमिव प्रतिपत्स्ये हन्ताहमन्यमभ्यनुशासानीति ॥ ३ ॥",
+              "iast": "sa ha saṃpādayāṃ cakāra prakṣyanti mām ime mahāśālā mahāśrotriyās tebhyo na sarvam iva pratipatsye hantāham anyam abhyanuśāsānīti || 3 ||",
+              "english_translation": "He reflected: 'These great householders and great scholars will question me, and I shall not be able to tell them everything. Come, I will direct them to another.'",
+              "commentaries": {
+                "advaita_vedanta": "Uddālaka's honesty about his limits is exemplary; the would-be teacher becomes a fellow student — pride has no place near this knowledge.",
+                "vishishtadvaita": "Humility in the learned opens the road to the king who holds the full vidyā.",
+                "dvaita_vedanta": "Admitting partial knowledge honours the truth; the Lord guides seekers through honest guides."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तान्होवाचाश्वपतिर्वै भगवन्तोऽयं कैकेयः संप्रतीममात्मानं वैश्वानरमध्येति तं हन्ताभ्यागच्छामेति तं हाभ्याजग्मुः ॥ ४ ॥",
+              "iast": "tān hovācāśvapatir vai bhagavanto 'yaṃ kaikeyaḥ saṃpratīmam ātmānaṃ vaiśvānaram adhyeti taṃ hantābhyāgacchāmeti taṃ hābhyājagmuḥ || 4 ||",
+              "english_translation": "He said to them: 'Sirs, Aśvapati Kaikeya is at present studying this Vaiśvānara Self. Come, let us go to him.' And they went to him.",
+              "commentaries": {
+                "advaita_vedanta": "Again a kṣatriya king holds the higher doctrine; the brāhmaṇas, led by Uddālaka himself, go as students.",
+                "vishishtadvaita": "The Lord lodges His vidyā where He wills; rank yields to knowledge.",
+                "dvaita_vedanta": "The six now approach the appointed custodian of the universal-form meditation."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "तेभ्यो ह प्राप्तेभ्यः पृथगर्हाणि कारयांचकार स ह प्रातः संजिहान उवाच न मे स्तेनो जनपदे न कदर्यो न मद्यपो नानाहिताग्निर्नाविद्वान्न स्वैरी स्वैरिणी कुतो यक्ष्यमाणो वै भगवन्तोऽहमस्मि यावदेकैकस्मा ऋत्विजे धनं दास्यामि तावद्भगवद्भ्यो दास्यामि वसन्तु भगवन्त इति ॥ ५ ॥",
+              "iast": "tebhyo ha prāptebhyaḥ pṛthag arhāṇi kārayāṃ cakāra sa ha prātaḥ saṃjihāna uvāca na me steno janapade na kadaryo na madyapo nānāhitāgnir nāvidvān na svairī svairiṇī kuto yakṣyamāṇo vai bhagavanto 'ham asmi yāvad ekaikasmā ṛtvije dhanaṃ dāsyāmi tāvad bhagavadbhyo dāsyāmi vasantu bhagavanta iti || 5 ||",
+              "english_translation": "When they arrived he had honours shown to each separately. Rising the next morning he said: 'In my kingdom there is no thief, no miser, no drunkard, no one without the sacred fire, no one ignorant, no licentious man — how then a licentious woman? I am about to perform a sacrifice, sirs; as much wealth as I shall give to each priest, so much shall I give to you. Stay, revered sirs.'",
+              "commentaries": {
+                "advaita_vedanta": "The king's account of his realm is his credential: a kingdom mirrors its ruler's inner order. He offers wealth first, as duty requires of a host.",
+                "vishishtadvaita": "Righteous governance flows from meditation on the universal Lord; the king's virtues authenticate his vidyā.",
+                "dvaita_vedanta": "The flawless kingdom witnesses the worth of its knower-king, fit custodian of the Lord's doctrine."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "ते होचुर्येन हैवार्थेन पुरुषश्चरेत्तं हैव वदेदात्मानमेवेमं वैश्वानरं संप्रत्यध्येषि तमेव नो ब्रूहीति ॥ ६ ॥",
+              "iast": "te hocur yena haivārthena puruṣaś caret taṃ haiva vaded ātmānam evemaṃ vaiśvānaraṃ saṃpraty adhyeṣi tam eva no brūhīti || 6 ||",
+              "english_translation": "They said: 'A man should speak only of the purpose for which he has come. You are at present studying the Vaiśvānara Self; tell us of that.'",
+              "commentaries": {
+                "advaita_vedanta": "They decline riches and ask for the Self — the only wealth seekers of this kind will carry away.",
+                "vishishtadvaita": "Single-minded petition: not the king's gold but the Lord's knowledge.",
+                "dvaita_vedanta": "True seekers state their object plainly; the vidyā is the boon."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "तान्होवाच प्रातर्वः प्रतिवक्तास्मीति ते ह समित्पाणयः पूर्वाह्णे प्रतिचक्रमिरे तान्होवाचानुपनीयैव ॥ ७ ॥",
+              "iast": "tān hovāca prātar vaḥ prativaktāsmīti te ha samitpāṇayaḥ pūrvāhṇe praticakramire tān hovācānupanīyaiva || 7 ||",
+              "english_translation": "He said to them: 'I shall answer you in the morning.' In the forenoon they returned to him with fuel in their hands (as students approach a teacher). Without even initiating them, he spoke:",
+              "commentaries": {
+                "advaita_vedanta": "Great scholars carry the student's fuel — the eternal protocol of discipleship. The king, honouring their ripeness, waives the formal initiation.",
+                "vishishtadvaita": "Their humility completes their qualification; grace dispenses with ceremony for the ready.",
+                "dvaita_vedanta": "The fuel in hand seals their submission; the teaching may now be given."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 12,
+          "title": "Heaven as the Head — Aupamanyava's Meditation Corrected",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "औपमन्यव कं त्वमात्मानमुपास्स इति दिवमेव भगवो राजन्निति होवाचैष वै सुतेजा आत्मा वैश्वानरो यं त्वमात्मानमुपास्से तस्मात्तव सुतं प्रसुतमासुतं कुले दृश्यते ॥ १ ॥",
+              "iast": "aupamanyava kaṃ tvam ātmānam upāssa iti divam eva bhagavo rājann iti hovācaiṣa vai sutejā ātmā vaiśvānaro yaṃ tvam ātmānam upāsse tasmāt tava sutaṃ prasutam āsutaṃ kule dṛśyate || 1 ||",
+              "english_translation": "'Aupamanyava, what do you meditate on as the Self?' — 'Heaven, revered king.' He said: 'What you meditate on is the Vaiśvānara Self called the Brilliant (Sutejas); therefore in your family the soma pressings — pressed, more-pressed, and after-pressed — are seen.'",
+              "commentaries": {
+                "advaita_vedanta": "Heaven is only the head of the Universal Self. Each sage has mistaken a limb for the whole — the vidyā corrects part-worship into whole-vision.",
+                "vishishtadvaita": "Heaven is the crown of the Lord's cosmic body; meditation on it yields brilliance but remains partial.",
+                "dvaita_vedanta": "The Lord's head is the bright heaven; worship of a member brings its fruit, not the Lord entire."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अत्स्यन्नं पश्यसि प्रियमत्त्यन्नं पश्यति प्रियं भवत्यस्य ब्रह्मवर्चसं कुले य एतमेवमात्मानं वैश्वानरमुपास्ते मूर्धा त्वेष आत्मन इति होवाच मूर्धा ते व्यपतिष्यद्यन्मां नागमिष्य इति ॥ २ ॥",
+              "iast": "atsy annaṃ paśyasi priyam atty annaṃ paśyati priyaṃ bhavaty asya brahmavarcasaṃ kule ya etam evam ātmānaṃ vaiśvānaram upāste mūrdhā tv eṣa ātmana iti hovāca mūrdhā te vyapatiṣyad yan māṃ nāgamiṣya iti || 2 ||",
+              "english_translation": "'You eat food and see what is dear; he who meditates on the Vaiśvānara Self thus eats food, sees what is dear, and the lustre of sacred knowledge is in his family. But this is only the head of the Self,' he said, 'and your head would have fallen off had you not come to me.'",
+              "commentaries": {
+                "advaita_vedanta": "Part-meditation carries part-danger: to take the head for the whole imperils the head. The warning drives home the necessity of integral knowledge.",
+                "vishishtadvaita": "Worship of a limb as the whole Lord courts ruin; grace brought the sage to correction in time.",
+                "dvaita_vedanta": "Error about the Lord's form endangers its corresponding member; right tradition saves."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 13,
+          "title": "The Sun as the Eye",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ होवाच सत्ययज्ञं पौलुषिं प्राचीनयोग्य कं त्वमात्मानमुपास्स इत्यादित्यमेव भगवो राजन्निति होवाचैष वै विश्वरूप आत्मा वैश्वानरो यं त्वमात्मानमुपास्से तस्मात्तव बहु विश्वरूपं कुले दृश्यते ॥ १ ॥",
+              "iast": "atha hovāca satyayajñaṃ pauluṣiṃ prācīnayogya kaṃ tvam ātmānam upāssa ity ādityam eva bhagavo rājann iti hovācaiṣa vai viśvarūpa ātmā vaiśvānaro yaṃ tvam ātmānam upāsse tasmāt tava bahu viśvarūpaṃ kule dṛśyate || 1 ||",
+              "english_translation": "Then he said to Satyayajña Pauluṣi: 'Prācīnayogya, what do you meditate on as the Self?' — 'The sun, revered king.' He said: 'What you meditate on is the Vaiśvānara Self called the Many-formed (Viśvarūpa); therefore much that is manifold is seen in your family.'",
+              "commentaries": {
+                "advaita_vedanta": "The sun is the eye of the Universal Self — another limb honoured as the whole.",
+                "vishishtadvaita": "The sun's many-formed glory is the Lord's eye; rich but partial.",
+                "dvaita_vedanta": "The Lord's eye, worshipped alone, gives manifold fruit, not the vision of Him."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "प्रवृत्तोऽश्वतरीरथो दासीनिष्कोऽत्स्यन्नं पश्यसि प्रियमत्त्यन्नं पश्यति प्रियं भवत्यस्य ब्रह्मवर्चसं कुले य एतमेवमात्मानं वैश्वानरमुपास्ते चक्षुष्ट्वेतदात्मन इति होवाचान्धोऽभविष्यो यन्मां नागमिष्य इति ॥ २ ॥",
+              "iast": "pravṛtto 'śvatarīratho dāsīniṣko 'tsy annaṃ paśyasi priyam atty annaṃ paśyati priyaṃ bhavaty asya brahmavarcasaṃ kule ya etam evam ātmānaṃ vaiśvānaram upāste cakṣuṣ ṭv etad ātmana iti hovācāndho 'bhaviṣyo yan māṃ nāgamiṣya iti || 2 ||",
+              "english_translation": "'You have a mule-chariot, a maidservant, a gold ornament; you eat food and see what is dear — such fruits has this meditation. But this is only the eye of the Self,' he said, 'and you would have gone blind had you not come to me.'",
+              "commentaries": {
+                "advaita_vedanta": "Eye mistaken for the whole risks blindness; each error endangers its own organ.",
+                "vishishtadvaita": "Partial worship, partial peril; the king's correction is the Lord's rescue.",
+                "dvaita_vedanta": "Fruits flow, yet truncated doctrine maims; the warning is mercy."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 14,
+          "title": "The Wind as the Breath",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ होवाचेन्द्रद्युम्नं भाल्लवेयं वैयाघ्रपद्य कं त्वमात्मानमुपास्स इति वायुमेव भगवो राजन्निति होवाचैष वै पृथग्वर्त्मात्मा वैश्वानरो यं त्वमात्मानमुपास्से तस्मात्त्वां पृथग्बलय आयन्ति पृथग्रथश्रेणयोऽनुयन्ति ॥ १ ॥",
+              "iast": "atha hovācendradyumnaṃ bhāllaveyaṃ vaiyāghrapadya kaṃ tvam ātmānam upāssa iti vāyum eva bhagavo rājann iti hovācaiṣa vai pṛthagvartmātmā vaiśvānaro yaṃ tvam ātmānam upāsse tasmāt tvāṃ pṛthag balaya āyanti pṛthag rathaśreṇayo 'nuyanti || 1 ||",
+              "english_translation": "Then he said to Indradyumna Bhāllaveya: 'Vaiyāghrapadya, what do you meditate on as the Self?' — 'The wind, revered king.' He said: 'What you meditate on is the Vaiśvānara Self called the One of Diverse Paths (Pṛthagvartman); therefore offerings come to you from diverse sides and rows of chariots follow you diversely.'",
+              "commentaries": {
+                "advaita_vedanta": "Wind is the breath of the Universal Self; its worshipper draws tribute from every quarter — yet holds only a limb.",
+                "vishishtadvaita": "The Lord's breath blows on many roads; its honour brings many-sided gain.",
+                "dvaita_vedanta": "Vāyu, exalted as he is, is here the Lord's breath-member, not the whole to be worshipped alone."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अत्स्यन्नं पश्यसि प्रियमत्त्यन्नं पश्यति प्रियं भवत्यस्य ब्रह्मवर्चसं कुले य एतमेवमात्मानं वैश्वानरमुपास्ते प्राणस्त्वेष आत्मन इति होवाच प्राणस्त उदक्रमिष्यद्यन्मां नागमिष्य इति ॥ २ ॥",
+              "iast": "atsy annaṃ paśyasi priyam atty annaṃ paśyati priyaṃ bhavaty asya brahmavarcasaṃ kule ya etam evam ātmānaṃ vaiśvānaram upāste prāṇas tv eṣa ātmana iti hovāca prāṇas ta udakramiṣyad yan māṃ nāgamiṣya iti || 2 ||",
+              "english_translation": "'You eat food and see what is dear — such fruits has this meditation. But this is only the breath of the Self,' he said, 'and your breath would have departed had you not come to me.'",
+              "commentaries": {
+                "advaita_vedanta": "Breath taken for the whole imperils breath itself.",
+                "vishishtadvaita": "The correction saves the sage's very life-air.",
+                "dvaita_vedanta": "Partial doctrine, mortal risk; the king's word restores order."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 15,
+          "title": "Space as the Trunk",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ होवाच जनं शार्कराक्ष्य कं त्वमात्मानमुपास्स इत्याकाशमेव भगवो राजन्निति होवाचैष वै बहुल आत्मा वैश्वानरो यं त्वमात्मानमुपास्से तस्मात्त्वं बहुलोऽसि प्रजया च धनेन च ॥ १ ॥",
+              "iast": "atha hovāca janaṃ śārkarākṣya kaṃ tvam ātmānam upāssa ity ākāśam eva bhagavo rājann iti hovācaiṣa vai bahula ātmā vaiśvānaro yaṃ tvam ātmānam upāsse tasmāt tvaṃ bahulo 'si prajayā ca dhanena ca || 1 ||",
+              "english_translation": "Then he said to Jana: 'Śārkarākṣya, what do you meditate on as the Self?' — 'Space, revered king.' He said: 'What you meditate on is the Vaiśvānara Self called the Abundant (Bahula); therefore you abound in offspring and wealth.'",
+              "commentaries": {
+                "advaita_vedanta": "Space is the ample trunk of the Universal Self; abundance is its fruit, partiality its flaw.",
+                "vishishtadvaita": "The Lord's spacious middle blesses with plenty those who honour it.",
+                "dvaita_vedanta": "The trunk-member gives abundance; the whole Lord gives Himself."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अत्स्यन्नं पश्यसि प्रियमत्त्यन्नं पश्यति प्रियं भवत्यस्य ब्रह्मवर्चसं कुले य एतमेवमात्मानं वैश्वानरमुपास्ते संदेहस्त्वेष आत्मन इति होवाच संदेहस्ते व्यशीर्यद्यन्मां नागमिष्य इति ॥ २ ॥",
+              "iast": "atsy annaṃ paśyasi priyam atty annaṃ paśyati priyaṃ bhavaty asya brahmavarcasaṃ kule ya etam evam ātmānaṃ vaiśvānaram upāste saṃdehas tv eṣa ātmana iti hovāca saṃdehas te vyaśīryad yan māṃ nāgamiṣya iti || 2 ||",
+              "english_translation": "'You eat food and see what is dear — such fruits has this meditation. But this is only the trunk of the Self,' he said, 'and your trunk would have crumbled had you not come to me.'",
+              "commentaries": {
+                "advaita_vedanta": "The body's middle answers for the meditation's middle-sized error.",
+                "vishishtadvaita": "Timely correction preserves the worshipper whole.",
+                "dvaita_vedanta": "Each limb-error endangers its limb; the pattern teaches precision in doctrine."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 16,
+          "title": "Water as the Bladder",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ होवाच बुडिलमाश्वतराश्विं वैयाघ्रपद्य कं त्वमात्मानमुपास्स इत्यप एव भगवो राजन्निति होवाचैष वै रयिरात्मा वैश्वानरो यं त्वमात्मानमुपास्से तस्मात्त्वं रयिमान्पुष्टिमानसि ॥ १ ॥",
+              "iast": "atha hovāca buḍilam āśvatarāśviṃ vaiyāghrapadya kaṃ tvam ātmānam upāssa ity apa eva bhagavo rājann iti hovācaiṣa vai rayir ātmā vaiśvānaro yaṃ tvam ātmānam upāsse tasmāt tvaṃ rayimān puṣṭimān asi || 1 ||",
+              "english_translation": "Then he said to Buḍila Āśvatarāśvi: 'Vaiyāghrapadya, what do you meditate on as the Self?' — 'Water, revered king.' He said: 'What you meditate on is the Vaiśvānara Self called Wealth (Rayi); therefore you are wealthy and flourishing.'",
+              "commentaries": {
+                "advaita_vedanta": "Water, the world's wealth, is but the lower vessel of the Universal Self.",
+                "vishishtadvaita": "The Lord's waters enrich their worshipper, yet are not His fullness.",
+                "dvaita_vedanta": "The water-member yields prosperity under the Lord's dispensation."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अत्स्यन्नं पश्यसि प्रियमत्त्यन्नं पश्यति प्रियं भवत्यस्य ब्रह्मवर्चसं कुले य एतमेवमात्मानं वैश्वानरमुपास्ते बस्तिस्त्वेष आत्मन इति होवाच बस्तिस्ते व्यभेत्स्यद्यन्मां नागमिष्य इति ॥ २ ॥",
+              "iast": "atsy annaṃ paśyasi priyam atty annaṃ paśyati priyaṃ bhavaty asya brahmavarcasaṃ kule ya etam evam ātmānaṃ vaiśvānaram upāste bastis tv eṣa ātmana iti hovāca bastis te vyabhetsyad yan māṃ nāgamiṣya iti || 2 ||",
+              "english_translation": "'You eat food and see what is dear — such fruits has this meditation. But this is only the bladder of the Self,' he said, 'and your bladder would have burst had you not come to me.'",
+              "commentaries": {
+                "advaita_vedanta": "Even the humblest organ has its cosmic counterpart; no part may pose as the whole.",
+                "vishishtadvaita": "The Lord's body includes the lowly; error about any member harms it.",
+                "dvaita_vedanta": "Correction descends to the least limb — completeness matters everywhere."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 17,
+          "title": "Earth as the Feet",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ होवाचोद्दालकमारुणिं गौतम कं त्वमात्मानमुपास्स इति पृथिवीमेव भगवो राजन्निति होवाचैष वै प्रतिष्ठात्मा वैश्वानरो यं त्वमात्मानमुपास्से तस्मात्त्वं प्रतिष्ठितोऽसि प्रजया च पशुभिश्च ॥ १ ॥",
+              "iast": "atha hovācoddālakam āruṇiṃ gautama kaṃ tvam ātmānam upāssa iti pṛthivīm eva bhagavo rājann iti hovācaiṣa vai pratiṣṭhātmā vaiśvānaro yaṃ tvam ātmānam upāsse tasmāt tvaṃ pratiṣṭhito 'si prajayā ca paśubhiś ca || 1 ||",
+              "english_translation": "Then he said to Uddālaka Āruṇi: 'Gautama, what do you meditate on as the Self?' — 'The earth, revered king.' He said: 'What you meditate on is the Vaiśvānara Self called the Firm Basis (Pratiṣṭhā); therefore you stand firm in offspring and cattle.'",
+              "commentaries": {
+                "advaita_vedanta": "Even Uddālaka, future teacher of 'Tat tvam asi', here worships only the feet — the greatest may hold but a part until the whole is shown.",
+                "vishishtadvaita": "Earth, the Lord's footing, steadies its worshipper; the king will now assemble the limbs.",
+                "dvaita_vedanta": "The feet-member grants stability; the integral vision follows."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अत्स्यन्नं पश्यसि प्रियमत्त्यन्नं पश्यति प्रियं भवत्यस्य ब्रह्मवर्चसं कुले य एतमेवमात्मानं वैश्वानरमुपास्ते पादौ त्वेतावात्मन इति होवाच पादौ ते व्यम्लास्येतां यन्मां नागमिष्य इति ॥ २ ॥",
+              "iast": "atsy annaṃ paśyasi priyam atty annaṃ paśyati priyaṃ bhavaty asya brahmavarcasaṃ kule ya etam evam ātmānaṃ vaiśvānaram upāste pādau tv etāv ātmana iti hovāca pādau te vyamlāsyetāṃ yan māṃ nāgamiṣya iti || 2 ||",
+              "english_translation": "'You eat food and see what is dear — such fruits has this meditation. But these are only the feet of the Self,' he said, 'and your feet would have withered had you not come to me.'",
+              "commentaries": {
+                "advaita_vedanta": "The last limb named, the last warning given; the stage is set for the whole.",
+                "vishishtadvaita": "Six members, six corrections — now the Lord's full form will be taught.",
+                "dvaita_vedanta": "The survey of members complete, the integral meditation follows."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 18,
+          "title": "The Whole Vaiśvānara — Measured by the Span",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "तान्होवाचैते वै खलु यूयं पृथगिवेममात्मानं वैश्वानरं विद्वांसोऽन्नमत्थ यस्त्वेतमेवं प्रादेशमात्रमभिविमानमात्मानं वैश्वानरमुपास्ते स सर्वेषु लोकेषु सर्वेषु भूतेषु सर्वेष्वात्मस्वन्नमत्ति ॥ १ ॥",
+              "iast": "tān hovācaite vai khalu yūyaṃ pṛthag ivemam ātmānaṃ vaiśvānaraṃ vidvāṃso 'nnam attha yas tv etam evaṃ prādeśamātram abhivimānam ātmānaṃ vaiśvānaram upāste sa sarveṣu lokeṣu sarveṣu bhūteṣu sarveṣv ātmasv annam atti || 1 ||",
+              "english_translation": "He said to them: 'You, knowing this Vaiśvānara Self as if separate (limb by limb), eat your food. But he who meditates on the Vaiśvānara Self as a span in measure (from heaven to earth, or within the body) and as identified with himself — he eats food in all worlds, in all beings, in all selves.',",
+              "commentaries": {
+                "advaita_vedanta": "The king's resolution: the Self is to be meditated whole — 'prādeśamātra' (span-measured) as dwelling between crown and chin, 'abhivimāna' as one's own self. The knower of the whole eats in all beings: he is the one eater everywhere — Śaṅkara hears the universal Self announced.",
+                "vishishtadvaita": "The Lord, though spanning heaven and earth, is meditated within the small measure of the heart as one's own inner Self; such a worshipper shares the Lord's universal enjoyment.",
+                "dvaita_vedanta": "The span-measured Vaiśvānara is Viṣṇu meditated in the heart; the integral worshipper receives sustenance in every world from Him."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्य ह वा एतस्यात्मनो वैश्वानरस्य मूर्धैव सुतेजाश्चक्षुर्विश्वरूपः प्राणः पृथग्वर्त्मात्मा संदेहो बहुलो बस्तिरेव रयिः पृथिव्येव पादावुर एव वेदिर्लोमानि बर्हिर्हृदयं गार्हपत्यो मनोऽन्वाहार्यपचन आस्यमाहवनीयः ॥ २ ॥",
+              "iast": "tasya ha vā etasyātmano vaiśvānarasya mūrdhaiva sutejāś cakṣur viśvarūpaḥ prāṇaḥ pṛthagvartmātmā saṃdeho bahulo bastir eva rayiḥ pṛthivy eva pādāv ura eva vedir lomāni barhir hṛdayaṃ gārhapatyo mano 'nvāhāryapacana āsyam āhavanīyaḥ || 2 ||",
+              "english_translation": "Of this Vaiśvānara Self, the head is the Brilliant (heaven), the eye the Many-formed (sun), the breath the One of Diverse Paths (wind), the trunk the Abundant (space), the bladder Wealth (water), the feet the earth. (In the rite of eating,) the chest is the altar, the hairs the sacred grass, the heart the Gārhapatya fire, the mind the Anvāhāryapacana fire, the mouth the Āhavanīya fire.",
+              "commentaries": {
+                "advaita_vedanta": "The six partial meditations now assemble into one body of the Universal Self, and the eater's own frame becomes the sacrificial ground — the daily meal transfigured into Agnihotra. Knowledge gathers the scattered into the whole.",
+                "vishishtadvaita": "The Lord's cosmic form is composed before their eyes, and the devotee's body is His altar: eating becomes unbroken worship of the indweller.",
+                "dvaita_vedanta": "The full form of the Lord assembled from His members crowns the instruction; the body's fires now serve the inner sacrifice that the next khaṇḍas detail."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

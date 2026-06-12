@@ -1,0 +1,264 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 50: Chapter 5, Sections 3–9. Śvetaketu at the Pañcāla court and the Pañcāgni-vidyā: the five cosmic fires from heaven to the fifth oblation, whereby the waters come to speak with a human voice.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_5": {
+      "sections": [
+        {
+          "section_number": 3,
+          "title": "The Five Questions of King Pravāhaṇa",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "श्वेतकेतुर्हारुणेयः पञ्चालानां समितिमेयाय तं ह प्रवाहणो जैवलिरुवाच कुमारानु त्वाशिषत्पितेत्यनु हि भगव इति ॥ १ ॥",
+              "iast": "śvetaketur hāruṇeyaḥ pañcālānāṃ samitim eyāya taṃ ha pravāhaṇo jaivalir uvāca kumārānu tvāśiṣat pitety anu hi bhagava iti || 1 ||",
+              "english_translation": "Śvetaketu Āruṇeya came to the assembly of the Pañcālas. Pravāhaṇa Jaivali said to him: 'Young man, has your father instructed you?' — 'Indeed he has, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "The proud young scholar enters a king's court; his confident 'indeed' is about to be tested by questions his book-learning cannot answer.",
+                "vishishtadvaita": "The Lord arranges instruction through unexpected mouths — here a kṣatriya king will school a brāhmaṇa's son.",
+                "dvaita_vedanta": "Learning without the Lord's deepest doctrines is incomplete, as the dialogue will expose."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "वेत्थ यदितोऽधि प्रजाः प्रयन्तीति न भगव इति वेत्थ यथा पुनरावर्तन्त३ इति न भगव इति वेत्थ पथोर्देवयानस्य पितृयाणस्य च व्यावर्तना३ इति न भगव इति ॥ २ ॥",
+              "iast": "vettha yad ito 'dhi prajāḥ prayantīti na bhagava iti vettha yathā punar āvartanta3 iti na bhagava iti vettha pathor devayānasya pitṛyāṇasya ca vyāvartanā3 iti na bhagava iti || 2 ||",
+              "english_translation": "'Do you know where created beings go from here (at death)?' — 'No, revered sir.' 'Do you know how they return again?' — 'No, revered sir.' 'Do you know where the path of the gods and the path of the fathers part?' — 'No, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "Three questions on the soul's journey — departure, return, and the fork of the two paths — none answerable by ritual learning alone.",
+                "vishishtadvaita": "The king probes the science of the soul's destiny, the special province of those who know the Lord's ways.",
+                "dvaita_vedanta": "Eschatology is revealed knowledge; honest 'I do not know' begins its acquisition."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "वेत्थ यथासौ लोको न संपूर्यत३ इति न भगव इति वेत्थ यथा पञ्चम्यामाहुतावापः पुरुषवचसो भवन्तीति नैव भगव इति ॥ ३ ॥",
+              "iast": "vettha yathāsau loko na saṃpūryata3 iti na bhagava iti vettha yathā pañcamyām āhutāv āpaḥ puruṣavacaso bhavantīti naiva bhagava iti || 3 ||",
+              "english_translation": "'Do you know why yonder world is not filled up (with the many who die)?' — 'No, revered sir.' 'Do you know how, at the fifth oblation, the waters come to speak with a human voice?' — 'No indeed, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "The fifth question holds the vidyā's key: how subtle 'waters' offered through five fires become a speaking person — the mechanics of rebirth.",
+                "vishishtadvaita": "The riddle of the waters becoming man frames the Lord's governance of reincarnation.",
+                "dvaita_vedanta": "The five-oblation question encapsulates the whole doctrine of the soul's descent into a body."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथानु किमनुशिष्टोऽवोचथा यो हीमानि न विद्यात्कथं सोऽनुशिष्टो ब्रुवीतेति स हायस्तः पितुरर्धमेयाय तं होवाचाननुशिष्य वाव किल मा भगवानब्रवीदनु त्वाशिषमिति ॥ ४ ॥",
+              "iast": "athānu kim anuśiṣṭo 'vocathā yo hīmāni na vidyāt kathaṃ so 'nuśiṣṭo bruvīteti sa hāyastaḥ pitur ardham eyāya taṃ hovācānanuśiṣya vāva kila mā bhagavān abravīd anu tvāśiṣam iti || 4 ||",
+              "english_translation": "'Then why did you say you had been instructed? How could one who does not know these things call himself instructed?' Distressed, he went back to his father's place and said to him: 'Without having instructed me, you said, revered sir, \"I have instructed you!\"'",
+              "commentaries": {
+                "advaita_vedanta": "Humbling is the door to higher learning; the son's distress is the crack through which new knowledge enters the family.",
+                "vishishtadvaita": "Wounded pride turns the seeker home — and then beyond home — for what only grace-bearing teachers hold.",
+                "dvaita_vedanta": "Exposure of ignorance is the Lord's kindness, driving father and son to the deeper doctrine."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "पञ्च मा राजन्यबन्धुः प्रश्नानप्राक्षीत्तेषां नैकंचनाशकं विवक्तुमिति स होवाच यथा मा त्वं तदैतानवदो यथाहमेषां नैकंचन वेद यद्यहमिमानवेदिष्यं कथं ते नावक्ष्यमिति ॥ ५ ॥",
+              "iast": "pañca mā rājanyabandhuḥ praśnān aprākṣīt teṣāṃ naikaṃcanāśakaṃ vivaktum iti sa hovāca yathā mā tvaṃ tadaitān avado yathāham eṣāṃ naikaṃcana veda yady aham imān avediṣyaṃ kathaṃ te nāvakṣyam iti || 5 ||",
+              "english_translation": "'That fellow of the princely class asked me five questions, and I could not answer a single one.' The father said: 'As you have stated them to me — I do not know a single one of them. If I had known them, why should I not have told you?'",
+              "commentaries": {
+                "advaita_vedanta": "Gautama's candour matches his son's: the learned father admits the limit of his learning — the honesty that qualifies him to seek.",
+                "vishishtadvaita": "No shame attaches to ignorance confessed; the father will model the dignity of becoming a student again.",
+                "dvaita_vedanta": "Truthful acknowledgment of limits is the first step toward the Lord's hidden doctrine."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "स ह गौतमो राज्ञोऽर्धमेयाय तस्मै ह प्राप्तायार्हां चकार स ह प्रातः सभाग उदेयाय तं होवाच मानुषस्य भगवन्गौतम वित्तस्य वरं वृणीथा इति स होवाच तवैव राजन्मानुषं वित्तं यामेव कुमारस्यान्ते वाचमभाषथास्तामेव मे ब्रूहीति स ह कृच्छ्री बभूव ॥ ६ ॥",
+              "iast": "sa ha gautamo rājño 'rdham eyāya tasmai ha prāptāyārhāṃ cakāra sa ha prātaḥ sabhāga udeyāya taṃ hovāca mānuṣasya bhagavan gautama vittasya varaṃ vṛṇīthā iti sa hovāca tavaiva rājan mānuṣaṃ vittaṃ yām eva kumārasyānte vācam abhāṣathās tām eva me brūhīti sa ha kṛcchrī babhūva || 6 ||",
+              "english_translation": "Gautama went to the king's place, and on his arrival the king received him with honour. In the morning he went up to the audience hall, and the king said: 'Revered Gautama, choose a boon of human wealth.' He replied: 'Let human wealth remain yours, O king. Tell me the very speech you spoke in the young man's presence.' The king was troubled.",
+              "commentaries": {
+                "advaita_vedanta": "The brāhmaṇa refuses wealth and begs the word — knowledge outweighs every boon. The king's trouble shows the doctrine's preciousness.",
+                "vishishtadvaita": "True seekers barter nothing less than truth; the king hesitates before the guarded treasure of the lineage.",
+                "dvaita_vedanta": "The kṣatriya-held vidyā passes only under constraint — the Lord's secret travels by appointed channels."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "तं ह चिरं वसेत्याज्ञापयांचकार तं होवाच यथा मा त्वं गौतमावदो यथेयं न प्राक्त्वत्तः पुरा विद्या ब्राह्मणान्गच्छति तस्मादु सर्वेषु लोकेषु क्षत्रस्यैव प्रशासनमभूदिति तस्मै होवाच ॥ ७ ॥",
+              "iast": "taṃ ha ciraṃ vasety ājñāpayāṃ cakāra taṃ hovāca yathā mā tvaṃ gautamāvado yatheyaṃ na prāk tvattaḥ purā vidyā brāhmaṇān gacchati tasmād u sarveṣu lokeṣu kṣatrasyaiva praśāsanam abhūd iti tasmai hovāca || 7 ||",
+              "english_translation": "He commanded him: 'Stay with me a long time.' Then he said: 'As to what you have told me, Gautama — this knowledge has never before you gone to brāhmaṇas; therefore in all the worlds its teaching belonged to the kṣatriya class alone.' Then he said to him:",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara notes the historical remark: this royal science of the soul's journey now crosses to the brāhmaṇas through Gautama's humility — knowledge honours the seeker, not the caste.",
+                "vishishtadvaita": "The kings held this vidyā in trust; its transmission to Gautama is the Lord widening the river of grace.",
+                "dvaita_vedanta": "Providence appointed kṣatriya custody until this hour; now the worthy brāhmaṇa receives it for all."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 4,
+          "title": "The First Fire — Yonder World",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "असौ वाव लोको गौतमाग्निस्तस्यादित्य एव समिद्रश्मयो धूमोऽहरर्चिश्चन्द्रमा अङ्गारा नक्षत्राणि विस्फुलिङ्गाः ॥ १ ॥",
+              "iast": "asau vāva loko gautamāgnis tasyāditya eva samid raśmayo dhūmo 'har arciś candramā aṅgārā nakṣatrāṇi visphuliṅgāḥ || 1 ||",
+              "english_translation": "'Yonder world (heaven), O Gautama, is a fire: the sun is its fuel, the rays its smoke, the day its flame, the moon its embers, the stars its sparks.",
+              "commentaries": {
+                "advaita_vedanta": "The first of five cosmic altars: heaven itself imagined as the sacrificial fire into which the gods offer — the universe as one continuous liturgy.",
+                "vishishtadvaita": "Creation is the Lord's yajña; each region is His altar, tended by His gods.",
+                "dvaita_vedanta": "The cosmic fires are the Lord's instruments for the soul's descent — stages He alone controls."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्मिन्नेतस्मिन्नग्नौ देवाः श्रद्धां जुह्वति तस्या आहुतेः सोमो राजा संभवति ॥ २ ॥",
+              "iast": "tasminn etasminn agnau devāḥ śraddhāṃ juhvati tasyā āhuteḥ somo rājā saṃbhavati || 2 ||",
+              "english_translation": "In this fire the gods offer faith (śraddhā); from that oblation King Soma arises.",
+              "commentaries": {
+                "advaita_vedanta": "'Faith' here is the subtle water-body of the departed offered into heaven; it condenses as Soma, the lunar substance of the soul's sojourn.",
+                "vishishtadvaita": "The soul wrapped in its subtle elements is the gods' oblation; the Lord receives it into the lunar realm.",
+                "dvaita_vedanta": "The first oblation begins the soul's guided descent — śraddhā transformed to Soma by divine agency."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 5,
+          "title": "The Second Fire — The Rain-God",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "पर्जन्यो वाव गौतमाग्निस्तस्य वायुरेव समिदभ्रं धूमो विद्युदर्चिरशनिरङ्गारा ह्रादुनयो विस्फुलिङ्गाः ॥ १ ॥",
+              "iast": "parjanyo vāva gautamāgnis tasya vāyur eva samid abhraṃ dhūmo vidyud arcir aśanir aṅgārā hrādunayo visphuliṅgāḥ || 1 ||",
+              "english_translation": "'The rain-god Parjanya, O Gautama, is a fire: the wind is its fuel, the cloud its smoke, the lightning its flame, the thunderbolt its embers, the hailstones its sparks.",
+              "commentaries": {
+                "advaita_vedanta": "The second altar: the storm. The soul's substance moves from moon to cloud in the unbroken chain of offerings.",
+                "vishishtadvaita": "The Lord's rain-altar receives the lunar oblation; His weather is liturgy.",
+                "dvaita_vedanta": "Each transformation is an offering made by gods at Viṣṇu's behest."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्मिन्नेतस्मिन्नग्नौ देवाः सोमं राजानं जुह्वति तस्या आहुतेर्वर्षं संभवति ॥ २ ॥",
+              "iast": "tasminn etasminn agnau devāḥ somaṃ rājānaṃ juhvati tasyā āhuter varṣaṃ saṃbhavati || 2 ||",
+              "english_translation": "In this fire the gods offer King Soma; from that oblation rain arises.",
+              "commentaries": {
+                "advaita_vedanta": "Soma poured into the storm becomes rain — the soul's vehicle descends another step toward earth.",
+                "vishishtadvaita": "The lunar soul-substance is released as rain by the Lord's storm-priests.",
+                "dvaita_vedanta": "The second oblation: divine hands pass the soul from moon to rain."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 6,
+          "title": "The Third Fire — The Earth",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "पृथिवी वाव गौतमाग्निस्तस्याः संवत्सर एव समिदाकाशो धूमो रात्रिरर्चिर्दिशोऽङ्गारा अवान्तरदिशो विस्फुलिङ्गाः ॥ १ ॥",
+              "iast": "pṛthivī vāva gautamāgnis tasyāḥ saṃvatsara eva samid ākāśo dhūmo rātrir arcir diśo 'ṅgārā avāntaradiśo visphuliṅgāḥ || 1 ||",
+              "english_translation": "'The earth, O Gautama, is a fire: the year is its fuel, space its smoke, the night its flame, the quarters its embers, the intermediate quarters its sparks.",
+              "commentaries": {
+                "advaita_vedanta": "The third altar: earth, fed by the year. The rain-borne soul is now offered into the soil of time and place.",
+                "vishishtadvaita": "Earth, the Lord's footstool, is also His hearth; the seasons stoke it.",
+                "dvaita_vedanta": "The earthly altar receives the rain-oblation in its appointed season."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्मिन्नेतस्मिन्नग्नौ देवा वर्षं जुह्वति तस्या आहुतेरन्नं संभवति ॥ २ ॥",
+              "iast": "tasminn etasminn agnau devā varṣaṃ juhvati tasyā āhuter annaṃ saṃbhavati || 2 ||",
+              "english_translation": "In this fire the gods offer rain; from that oblation food arises.",
+              "commentaries": {
+                "advaita_vedanta": "Rain offered to earth becomes food — the soul's substance now grows in the grain.",
+                "vishishtadvaita": "The Lord clothes the descending soul in the harvest.",
+                "dvaita_vedanta": "Third oblation: rain to food, by divine cultivation."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 7,
+          "title": "The Fourth Fire — Man",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "पुरुषो वाव गौतमाग्निस्तस्य वागेव समित्प्राणो धूमो जिह्वार्चिश्चक्षुरङ्गाराः श्रोत्रं विस्फुलिङ्गाः ॥ १ ॥",
+              "iast": "puruṣo vāva gautamāgnis tasya vāg eva samit prāṇo dhūmo jihvārciś cakṣur aṅgārāḥ śrotraṃ visphuliṅgāḥ || 1 ||",
+              "english_translation": "'Man, O Gautama, is a fire: speech is his fuel, breath his smoke, the tongue his flame, the eye his embers, the ear his sparks.",
+              "commentaries": {
+                "advaita_vedanta": "The fourth altar is the eater himself: man as fire consuming food, his faculties the parts of the blaze.",
+                "vishishtadvaita": "The Lord's altar now wears a human form; eating is oblation.",
+                "dvaita_vedanta": "The soul-bearing food enters man, the fourth fire in the Lord's sequence."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्मिन्नेतस्मिन्नग्नौ देवा अन्नं जुह्वति तस्या आहुते रेतः संभवति ॥ २ ॥",
+              "iast": "tasminn etasminn agnau devā annaṃ juhvati tasyā āhute retaḥ saṃbhavati || 2 ||",
+              "english_translation": "In this fire the gods offer food; from that oblation seed arises.",
+              "commentaries": {
+                "advaita_vedanta": "Food refined to seed: the soul's vehicle approaches its final transformation.",
+                "vishishtadvaita": "Within man the Lord's alchemy prepares the seed of new embodiment.",
+                "dvaita_vedanta": "Fourth oblation: food to seed, under the indwelling Lord's direction."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 8,
+          "title": "The Fifth Fire — Woman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "योषा वाव गौतमाग्निस्तस्या उपस्थ एव समिद्यदुपमन्त्रयते स धूमो योनिरर्चिर्यदन्तः करोति तेऽङ्गारा अभिनन्दा विस्फुलिङ्गाः ॥ १ ॥",
+              "iast": "yoṣā vāva gautamāgnis tasyā upastha eva samid yad upamantrayate sa dhūmo yonir arcir yad antaḥ karoti te 'ṅgārā abhinandā visphuliṅgāḥ || 1 ||",
+              "english_translation": "'Woman, O Gautama, is a fire (her aspects are its fuel, smoke, flame, embers, and sparks).",
+              "commentaries": {
+                "advaita_vedanta": "The fifth altar completes the chain: generation itself is sacrificial, no profane act but a station of the cosmic rite.",
+                "vishishtadvaita": "The Lord sanctifies procreation as the last altar of the soul's descent.",
+                "dvaita_vedanta": "The fifth fire receives the fourth's oblation as ordained from the beginning."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्मिन्नेतस्मिन्नग्नौ देवा रेतो जुह्वति तस्या आहुतेर्गर्भः संभवति ॥ २ ॥",
+              "iast": "tasminn etasminn agnau devā reto juhvati tasyā āhuter garbhaḥ saṃbhavati || 2 ||",
+              "english_translation": "In this fire the gods offer seed; from that oblation the embryo arises.",
+              "commentaries": {
+                "advaita_vedanta": "The fifth oblation: seed becomes embryo — the 'waters' first offered as faith in heaven now stand on the threshold of human speech.",
+                "vishishtadvaita": "The riddle resolves: through five offerings the Lord shepherds the subtle waters into a person.",
+                "dvaita_vedanta": "The soul's vehicle, five times offered, is shaped into the womb-borne body by divine priests."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 9,
+          "title": "The Waters Speak — Birth and Death of the Person",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "इति तु पञ्चम्यामाहुतावापः पुरुषवचसो भवन्तीति स उल्बावृतो गर्भो दश वा नव वा मासानन्तः शयित्वा यावद्वाथ जायते ॥ १ ॥",
+              "iast": "iti tu pañcamyām āhutāv āpaḥ puruṣavacaso bhavantīti sa ulbāvṛto garbho daśa vā nava vā māsān antaḥ śayitvā yāvad vātha jāyate || 1 ||",
+              "english_translation": "Thus it is that at the fifth oblation the waters come to speak with a human voice. The embryo, wrapped in its membrane, having lain inside for ten or nine months or thereabouts, is then born.",
+              "commentaries": {
+                "advaita_vedanta": "The king's riddle is answered: the subtle 'waters' have passed through heaven, storm, earth, man, and woman to emerge as a speaking child. Śaṅkara: such is saṃsāra's machinery — seen clearly, it breeds the dispassion that seeks the unborn Self.",
+                "vishishtadvaita": "The five-staged descent shows the Lord's meticulous governance of rebirth; no step is chance, all is His ordination.",
+                "dvaita_vedanta": "The soul's embodiment follows the Lord's exact sequence of oblations — birth is divine administration, not accident."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स जातो यावदायुषं जीवति तं प्रेतं दिष्टमितोऽग्नय एव हरन्ति यत एवेतो यतः संभूतो भवति ॥ २ ॥",
+              "iast": "sa jāto yāvad āyuṣaṃ jīvati taṃ pretaṃ diṣṭam ito 'gnaya eva haranti yata eveto yataḥ saṃbhūto bhavati || 2 ||",
+              "english_translation": "Born, he lives whatever his length of life may be. When he has departed, they carry him hence to the appointed place — to the fire itself from which he came, from which he arose.",
+              "commentaries": {
+                "advaita_vedanta": "From fire to fire: the body, born of the five fires, returns at death to fire. The cycle closes — and the next khaṇḍa will open the two roads out of it.",
+                "vishishtadvaita": "The funeral fire receives back the Lord's loan; the soul now takes one of the two paths He has laid.",
+                "dvaita_vedanta": "Death returns the elements to their altar; the soul proceeds as the Lord's justice and the soul's nature determine."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

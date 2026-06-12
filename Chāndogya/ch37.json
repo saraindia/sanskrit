@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 37: Chapter 3, Section 1. The Madhu-Vidyā (The Honey Doctrine), Part 1. This section introduces the Sun as the 'Honey' of the gods—a meditation on the solar center as the receptacle of all cosmic essences and the gateway to immortality.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_3": {
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "The Sun as the Honey of the Gods",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "असौ वा आदित्यो देवमधु तस्य द्यौरेव तिरश्चीनवंशोऽन्तरिक्षमपूपो मरीचयः पुत्राः ॥ १ ॥",
+              "iast": "asau vā ādityo devamadhu tasya dyaureva tiraścīnavaṃśo'ntarikṣamapūpo marīcayaḥ putrāḥ || 1 ||",
+              "english_translation": "Verily, yonder Sun is the honey of the gods. The heavenly realm (Dyaus) is the cross-beam that holds the hive; the intermediate space (Antarikṣa) is the honeycomb; and the light-rays (Marīcayaḥ) are the bees that produce the honey.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that this is a highly symbolic meditation (*upāsanā*) designed to elevate the seeker’s perspective from seeing the sun as a mere ball of burning gas to seeing it as a divine storehouse of nectar (*madhu*). The sun represents the concentration of all cosmic merit. The rays are the 'bees' because they gather the nectar of human actions (sacrifices and prayers) and bring them back to the solar center. By meditating on the sun as a 'honeycomb' of divine rewards, the seeker prepares the mind to eventually see past the sun to the Source of light itself.",
+                "vishishtadvaita": "Raṅgarāmānuja highlights the majesty of the Sun as the *Vibhūti* (glory) of the Lord. The gods 'gather' the nectar of our ritual offerings to the Sun, which acts as the divine administrator. This illustrates the beautiful, reciprocal relationship between humanity's righteous actions and the cosmic order managed by the Supreme.",
+                "dvaita_vedanta": "Madhvācārya points out that the Sun is not only the honey but the primary administrator of all ritual outcomes (*Phala-pradātā*) under the Lord's command. This meditation serves to align the mind with the celestial hierarchy, recognizing that every drop of 'nectar'—every positive result of our lives—is being collected and organized by solar deities who operate directly under Viṣṇu's will."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्य यानि पूर्वानीतराणि रश्मयस्ता एव अस्य प्राच्यो मधुनाड्यस्तद्यदृच एव मधुकृत ऋग्वेद एव पुष्पं ता आपोऽमृतं दुहन्ति ॥ २ ॥",
+              "iast": "tasya yāni pūrvānītarāṇi raśmayastā eva asya prācyo madhunāḍyastadyadṛca eva madhukṛta ṛgveda eva puṣpaṃ tā āpo'mṛtaṃ duhanti || 2 ||",
+              "english_translation": "The rays of the sun that extend to the East are its eastern honey-cells. The Ṛg verses are the bees; the Ṛgveda is the flower; and those waters (the rays) produce the nectar of immortality (Amṛta).",
+              "commentaries": {
+                "advaita_vedanta": "Shankara clarifies that the Ṛgveda is called the 'flower' because it provides the essential knowledge and praise that the 'bees' (rays/meditators) convert into the honey of immortality. This verse teaches that the Vedas are the source of spiritual sustenance. The nectar produced is not physical honey, but the *Amṛta*—the deathless realization of Brahman—which the seeker gathers by performing Vedic duties with enlightened awareness.",
+                "vishishtadvaita": "The school emphasizes that the Vedas are the perfect 'blossom' of divine wisdom. By 'extracting' the meaning of these verses, the seeker gains access to the divine grace that sustains the universe. The honey is the result of applying Vedic knowledge to one's life, creating a continuous supply of spiritual nourishment.",
+                "dvaita_vedanta": "Madhva explains that the rays specifically directed to the East are the channels for wisdom and new beginnings. By connecting the Ṛgveda to these eastern rays, the text shows that the path of knowledge is the primary way to gather divine grace. The nectar produced is the knowledge of Viṣṇu, which is the only true source of immortality."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 61: Chapter 8, Sections 1–6. The Dahara-vidyā: the small lotus-dwelling in the city of Brahman, the Self free of evil whose desires are true, the bridge that holds the worlds apart, brahmacarya, and the channels of the heart.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_8": {
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "The Small Space Within the Heart",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ यदिदमस्मिन्ब्रह्मपुरे दहरं पुण्डरीकं वेश्म दहरोऽस्मिन्नन्तराकाशस्तस्मिन्यदन्तस्तदन्वेष्टव्यं तद्वाव विजिज्ञासितव्यमिति ॥ १ ॥",
+              "iast": "atha yad idam asmin brahmapure daharaṃ puṇḍarīkaṃ veśma daharo 'sminn antarākāśas tasmin yad antas tad anveṣṭavyaṃ tad vāva vijijñāsitavyam iti || 1 ||",
+              "english_translation": "Now, in this city of Brahman (the body) there is a small lotus-dwelling, and within it a small space. What is within that — that should be sought, that indeed one should desire to understand.",
+              "commentaries": {
+                "advaita_vedanta": "The body is Brahman's city; the heart its lotus-shrine; within it the 'small space' (daharākāśa) — which Śaṅkara identifies as Brahman itself, called small only by its seat, as the next verse will overturn all smallness.",
+                "vishishtadvaita": "For Rāmānuja the dahara is the Lord dwelling in the heart's lotus — the most intimate object of meditation, enthroned within His own city.",
+                "dvaita_vedanta": "The small space is Viṣṇu seated in the heart, to be sought there by His grace — near beyond all nearness, yet infinitely other."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तं चेद्ब्रूयुर्यदिदमस्मिन्ब्रह्मपुरे दहरं पुण्डरीकं वेश्म दहरोऽस्मिन्नन्तराकाशः किं तदत्र विद्यते यदन्वेष्टव्यं यद्वाव विजिज्ञासितव्यमिति स ब्रूयात् ॥ २ ॥",
+              "iast": "taṃ ced brūyur yad idam asmin brahmapure daharaṃ puṇḍarīkaṃ veśma daharo 'sminn antarākāśaḥ kiṃ tad atra vidyate yad anveṣṭavyaṃ yad vāva vijijñāsitavyam iti sa brūyāt || 2 ||",
+              "english_translation": "If they should ask him: 'This small lotus-dwelling in the city of Brahman, and the small space within it — what is there in it that should be sought, that one should desire to understand?' — he should reply:",
+              "commentaries": {
+                "advaita_vedanta": "The objector's doubt — what could so small a space contain? — sets up the great reversal.",
+                "vishishtadvaita": "The question of the heart's content invites the disclosure of the Lord's fullness within.",
+                "dvaita_vedanta": "Honest inquiry into the indweller precedes the revelation."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "यावान्वा अयमाकाशस्तावानेषोऽन्तर्हृदय आकाश उभे अस्मिन्द्यावापृथिवी अन्तरेव समाहिते उभावग्निश्च वायुश्च सूर्याचन्द्रमसावुभौ विद्युन्नक्षत्राणि यच्चास्येहास्ति यच्च नास्ति सर्वं तदस्मिन्समाहितमिति ॥ ३ ॥",
+              "iast": "yāvān vā ayam ākāśas tāvān eṣo 'ntarhṛdaya ākāśa ubhe asmin dyāvāpṛthivī antar eva samāhite ubhāv agniś ca vāyuś ca sūryācandramasāv ubhau vidyun nakṣatrāṇi yac cāsyehāsti yac ca nāsti sarvaṃ tad asmin samāhitam iti || 3 ||",
+              "english_translation": "'As wide as this (outer) space is, so wide is this space within the heart. In it both heaven and earth are contained, both fire and wind, both sun and moon, lightning and stars — whatever of this world is his here and whatever is not, all that is contained in it.'",
+              "commentaries": {
+                "advaita_vedanta": "The reversal: the 'small' space equals all space — the heart's Brahman contains heaven and earth. Inside and outside are one expanse; smallness was only the doorway.",
+                "vishishtadvaita": "The Lord in the heart is no fragment: the whole cosmos rests in Him there, for He is everywhere whole.",
+                "dvaita_vedanta": "The Lord within is as infinite as the Lord without; His seat is small, His being measureless."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तं चेद्ब्रूयुरस्मिंश्चेदिदं ब्रह्मपुरे सर्वं समाहितं सर्वाणि च भूतानि सर्वे च कामा यदैतज्जरा वाप्नोति प्रध्वंसते वा किं ततोऽतिशिष्यत इति ॥ ४ ॥",
+              "iast": "taṃ ced brūyur asmiṃś ced idaṃ brahmapure sarvaṃ samāhitaṃ sarvāṇi ca bhūtāni sarve ca kāmā yadaitaj jarā vāpnoti pradhvaṃsate vā kiṃ tato 'tiśiṣyata iti || 4 ||",
+              "english_translation": "If they should ask him: 'If in this city of Brahman all this is contained — all beings and all desires — then when old age overtakes it or it perishes, what remains?'",
+              "commentaries": {
+                "advaita_vedanta": "The mortal city raises the mortal question: does the treasure die with the vault?",
+                "vishishtadvaita": "The body's decay tests the doctrine of the indweller.",
+                "dvaita_vedanta": "What survives the city's fall? The answer separates Self from house."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "स ब्रूयान्नास्य जरयैतज्जीर्यति न वधेनास्य हन्यत एतत्सत्यं ब्रह्मपुरमस्मिन्कामाः समाहिताः एष आत्मापहतपाप्मा विजरो विमृत्युर्विशोको विजिघत्सोऽपिपासः सत्यकामः सत्यसंकल्पो यथा ह्येवेह प्रजा अन्वाविशन्ति यथानुशासनं यं यमन्तमभिकामा भवन्ति यं जनपदं यं क्षेत्रभागं तं तमेवोपजीवन्ति ॥ ५ ॥",
+              "iast": "sa brūyān nāsya jarayaitaj jīryati na vadhenāsya hanyata etat satyaṃ brahmapuram asmin kāmāḥ samāhitāḥ eṣa ātmāpahatapāpmā vijaro vimṛtyur viśoko vijighatso 'pipāsaḥ satyakāmaḥ satyasaṃkalpo yathā hy eveha prajā anvāviśanti yathānuśāsanaṃ yaṃ yam antam abhikāmā bhavanti yaṃ janapadaṃ yaṃ kṣetrabhāgaṃ taṃ tam evopajīvanti || 5 ||",
+              "english_translation": "He should reply: 'It does not age with the body's aging, nor is it slain when the body is slain. This is the true city of Brahman; in it the desires are contained. This is the Self — free from evil, free from old age, free from death, free from sorrow, free from hunger and thirst, whose desires are true, whose will is true. For just as people here follow command and live dependent on whatever goal they crave — a country or a piece of land —',",
+              "commentaries": {
+                "advaita_vedanta": "The eight epithets — apahatapāpmā through satyasaṃkalpa — define the Self sought in the heart: untouched by evil, age, death, sorrow, want. Śaṅkara: this is the same Self misknown daily; the chapter will trace its recovery through Prajāpati's teaching.",
+                "vishishtadvaita": "These eight attributes are Rāmānuja's charter of the Lord's nature (and of the freed soul's likeness to Him): blemishless, deathless, true-willed. The dahara is the Lord so described.",
+                "dvaita_vedanta": "The epithets belong to Viṣṇu in the heart — sinless, unaging, of infallible will; the soul that knows Him gains, by His gift, freedom in His likeness."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "तद्यथेह कर्मजितो लोकः क्षीयत एवमेवामुत्र पुण्यजितो लोकः क्षीयते तद्य इहात्मानमननुविद्य व्रजन्त्येतांश्च सत्यान्कामांस्तेषां सर्वेषु लोकेष्वकामचारो भवत्यथ य इहात्मानमनुविद्य व्रजन्त्येतांश्च सत्यान्कामांस्तेषां सर्वेषु लोकेषु कामचारो भवति ॥ ६ ॥",
+              "iast": "tad yatheha karmajito lokaḥ kṣīyata evam evāmutra puṇyajito lokaḥ kṣīyate tad ya ihātmānam ananuvidya vrajanty etāṃś ca satyān kāmāṃs teṣāṃ sarveṣu lokeṣv akāmacāro bhavaty atha ya ihātmānam anuvidya vrajanty etāṃś ca satyān kāmāṃs teṣāṃ sarveṣu lokeṣu kāmacāro bhavati || 6 ||",
+              "english_translation": "'— and as here a world won by work perishes, so there a world won by merit perishes. Those who depart from here without having found the Self and these true desires — for them there is no freedom of movement in any world. But those who depart from here having found the Self and these true desires — for them there is freedom of movement in all worlds.'",
+              "commentaries": {
+                "advaita_vedanta": "Merit's worlds wear out like wages spent; only finding the Self yields unconditioned freedom. The refrain divides all destinies in two.",
+                "vishishtadvaita": "Perishable rewards versus the imperishable Lord: the soul that finds Him within moves free in His domains forever.",
+                "dvaita_vedanta": "Earned heavens expire; knowing the indwelling Lord earns inexhaustible liberty by His grace."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 2,
+          "title": "The True Desires — Worlds Rise at the Knower's Will",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "स यदि पितृलोककामो भवति संकल्पादेवास्य पितरः समुत्तिष्ठन्ति तेन पितृलोकेन संपन्नो महीयते ॥ १ ॥",
+              "iast": "sa yadi pitṛlokakāmo bhavati saṃkalpād evāsya pitaraḥ samuttiṣṭhanti tena pitṛlokena saṃpanno mahīyate || 1 ||",
+              "english_translation": "If he desires the world of the fathers, by his mere will the fathers rise to meet him; possessed of that world of the fathers, he is exalted.",
+              "commentaries": {
+                "advaita_vedanta": "For the knower, will and fact coincide — satyasaṃkalpa demonstrated: desire no longer begs, it creates.",
+                "vishishtadvaita": "The freed soul's wishes flower instantly by the Lord's true-willed nature shared with it.",
+                "dvaita_vedanta": "The released enjoy fulfilment at a thought, by the Lord's standing grant."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अथ यदि मातृलोककामो भवति संकल्पादेवास्य मातरः समुत्तिष्ठन्ति तेन मातृलोकेन संपन्नो महीयते ॥ २ ॥",
+              "iast": "atha yadi mātṛlokakāmo bhavati saṃkalpād evāsya mātaraḥ samuttiṣṭhanti tena mātṛlokena saṃpanno mahīyate || 2 ||",
+              "english_translation": "And if he desires the world of the mothers, by his mere will the mothers rise to meet him; possessed of that world of the mothers, he is exalted.",
+              "commentaries": {
+                "advaita_vedanta": "Each cherished bond reappears at will — none lost, all transfigured.",
+                "vishishtadvaita": "Holy affections are restored in the Lord's realm at a wish.",
+                "dvaita_vedanta": "The mothers' world answers the mere resolve of the freed."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अथ यदि भ्रातृलोककामो भवति संकल्पादेवास्य भ्रातरः समुत्तिष्ठन्ति तेन भ्रातृलोकेन संपन्नो महीयते ॥ ३ ॥",
+              "iast": "atha yadi bhrātṛlokakāmo bhavati saṃkalpād evāsya bhrātaraḥ samuttiṣṭhanti tena bhrātṛlokena saṃpanno mahīyate || 3 ||",
+              "english_translation": "And if he desires the world of brothers, by his mere will the brothers rise to meet him; possessed of that world of brothers, he is exalted.",
+              "commentaries": {
+                "advaita_vedanta": "Brotherhood at will — the catalogue continues.",
+                "vishishtadvaita": "Companionship blooms by resolve in His world.",
+                "dvaita_vedanta": "Each relation is granted as wished."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ यदि स्वसृलोककामो भवति संकल्पादेवास्य स्वसारः समुत्तिष्ठन्ति तेन स्वसृलोकेन संपन्नो महीयते ॥ ४ ॥",
+              "iast": "atha yadi svasṛlokakāmo bhavati saṃkalpād evāsya svasāraḥ samuttiṣṭhanti tena svasṛlokena saṃpanno mahīyate || 4 ||",
+              "english_translation": "And if he desires the world of sisters, by his mere will the sisters rise to meet him; possessed of that world of sisters, he is exalted.",
+              "commentaries": {
+                "advaita_vedanta": "Sisters likewise — will is now world.",
+                "vishishtadvaita": "Every dear form returns at a thought.",
+                "dvaita_vedanta": "Wishes are honoured in His presence."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अथ यदि सखिलोककामो भवति संकल्पादेवास्य सखायः समुत्तिष्ठन्ति तेन सखिलोकेन संपन्नो महीयते ॥ ५ ॥",
+              "iast": "atha yadi sakhilokakāmo bhavati saṃkalpād evāsya sakhāyaḥ samuttiṣṭhanti tena sakhilokena saṃpanno mahīyate || 5 ||",
+              "english_translation": "And if he desires the world of friends, by his mere will the friends rise to meet him; possessed of that world of friends, he is exalted.",
+              "commentaries": {
+                "advaita_vedanta": "Friendship springs up at resolve.",
+                "vishishtadvaita": "The fellowship of the freed is wish-woven.",
+                "dvaita_vedanta": "Companions arise as desired."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "अथ यदि गन्धमाल्यलोककामो भवति संकल्पादेवास्य गन्धमाल्ये समुत्तिष्ठतस्तेन गन्धमाल्यलोकेन संपन्नो महीयते ॥ ६ ॥",
+              "iast": "atha yadi gandhamālyalokakāmo bhavati saṃkalpād evāsya gandhamālye samuttiṣṭhatas tena gandhamālyalokena saṃpanno mahīyate || 6 ||",
+              "english_translation": "And if he desires the world of perfumes and garlands, by his mere will perfumes and garlands rise; possessed of that world of perfumes and garlands, he is exalted.",
+              "commentaries": {
+                "advaita_vedanta": "Even fragrance obeys — matter answers the knower's mind.",
+                "vishishtadvaita": "Delights of sense, purified, attend the freed in His garden.",
+                "dvaita_vedanta": "Pleasures rise sanctified at the will of the released."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "अथ यद्यन्नपानलोककामो भवति संकल्पादेवास्यान्नपाने समुत्तिष्ठतस्तेनान्नपानलोकेन संपन्नो महीयते ॥ ७ ॥",
+              "iast": "atha yady annapānalokakāmo bhavati saṃkalpād evāsyānnapāne samuttiṣṭhatas tenānnapānalokena saṃpanno mahīyate || 7 ||",
+              "english_translation": "And if he desires the world of food and drink, by his mere will food and drink rise; possessed of that world of food and drink, he is exalted.",
+              "commentaries": {
+                "advaita_vedanta": "Sustenance without seeking — the table of the true-willed.",
+                "vishishtadvaita": "The Lord's plenty serves the wish of His own.",
+                "dvaita_vedanta": "Nourishment springs at resolve in His realm."
+              }
+            },
+            {
+              "verse_number": 8,
+              "devanagari": "अथ यदि गीतवादित्रलोककामो भवति संकल्पादेवास्य गीतवादित्रे समुत्तिष्ठतस्तेन गीतवादित्रलोकेन संपन्नो महीयते ॥ ८ ॥",
+              "iast": "atha yadi gītavāditralokakāmo bhavati saṃkalpād evāsya gītavāditre samuttiṣṭhatas tena gītavāditralokena saṃpanno mahīyate || 8 ||",
+              "english_translation": "And if he desires the world of song and music, by his mere will song and music rise; possessed of that world of song and music, he is exalted.",
+              "commentaries": {
+                "advaita_vedanta": "Music at a thought — joy unmediated by effort.",
+                "vishishtadvaita": "The freed sing with the Lord's minstrels at will.",
+                "dvaita_vedanta": "Celestial music attends the wish of the blessed."
+              }
+            },
+            {
+              "verse_number": 9,
+              "devanagari": "अथ यदि स्त्रीलोककामो भवति संकल्पादेवास्य स्त्रियः समुत्तिष्ठन्ति तेन स्त्रीलोकेन संपन्नो महीयते ॥ ९ ॥",
+              "iast": "atha yadi strīlokakāmo bhavati saṃkalpād evāsya striyaḥ samuttiṣṭhanti tena strīlokena saṃpanno mahīyate || 9 ||",
+              "english_translation": "And if he desires the world of women, by his mere will women rise to meet him; possessed of that world of women, he is exalted.",
+              "commentaries": {
+                "advaita_vedanta": "Scripture withholds nothing from the list: all worlds of desire stand open — and, being satisfied at will, lose their tyranny.",
+                "vishishtadvaita": "All chaste delights are granted; nothing binds where the Lord's will and the soul's are one.",
+                "dvaita_vedanta": "Enjoyments befitting the soul's grade arise sinless in liberation."
+              }
+            },
+            {
+              "verse_number": 10,
+              "devanagari": "यं यमन्तमभिकामो भवति यं कामं कामयते सोऽस्य संकल्पादेव समुत्तिष्ठति तेन संपन्नो महीयते ॥ १० ॥",
+              "iast": "yaṃ yam antam abhikāmo bhavati yaṃ kāmaṃ kāmayate so 'sya saṃkalpād eva samuttiṣṭhati tena saṃpanno mahīyate || 10 ||",
+              "english_translation": "Whatever goal he longs for, whatever desire he desires, it rises by his mere will; possessed of it, he is exalted.",
+              "commentaries": {
+                "advaita_vedanta": "The general law closes the list: for the Self-knower, will is fulfilment — because the Self is the source of every world desired.",
+                "vishishtadvaita": "Satyasaṃkalpatva, shared from the Lord, crowns the freed soul's state.",
+                "dvaita_vedanta": "All wishes are met by the Lord for His own, each to its capacity."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 3,
+          "title": "The Hidden Treasure — Satyam, the Name of Brahman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "त इमे सत्याः कामा अनृतापिधानास्तेषां सत्यानां सतामनृतमपिधानं यो यो ह्यस्येतः प्रैति न तमिह दर्शनाय लभते ॥ १ ॥",
+              "iast": "ta ime satyāḥ kāmā anṛtāpidhānās teṣāṃ satyānāṃ satām anṛtam apidhānaṃ yo yo hy asyetaḥ praiti na tam iha darśanāya labhate || 1 ||",
+              "english_translation": "These true desires are covered over by the untrue. Though they are true, the untrue is their covering. For whoever of one's own departs from here, one can no longer see him here.",
+              "commentaries": {
+                "advaita_vedanta": "The true desires lie in the heart, hidden by the untrue — by ignorance and outward craving. The dead are not gone but unseen, veiled from eyes turned outward.",
+                "vishishtadvaita": "The Lord and His treasures dwell within, curtained by the soul's untruth — karma and forgetfulness.",
+                "dvaita_vedanta": "Truth within, falsehood atop: the Lord's gifts await the removal of the veil He alone can lift."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अथ ये चास्येह जीवा ये च प्रेता यच्चान्यदिच्छन्न लभते सर्वं तदत्र गत्वा विन्दतेऽत्र ह्यस्यैते सत्याः कामा अनृतापिधानास्तद्यथापि हिरण्यनिधिं निहितमक्षेत्रज्ञा उपर्युपरि सञ्चरन्तो न विन्देयुरेवमेवेमाः सर्वाः प्रजा अहरहर्गच्छन्त्य एतं ब्रह्मलोकं न विन्दन्त्यनृतेन हि प्रत्यूढाः ॥ २ ॥",
+              "iast": "atha ye cāsyeha jīvā ye ca pretā yac cānyad icchan na labhate sarvaṃ tad atra gatvā vindate 'tra hy asyaite satyāḥ kāmā anṛtāpidhānās tad yathāpi hiraṇyanidhiṃ nihitam akṣetrajñā upary upari saṃcaranto na vindeyur evam evemāḥ sarvāḥ prajā ahar ahar gacchantya etaṃ brahmalokaṃ na vindanty anṛtena hi pratyūḍhāḥ || 2 ||",
+              "english_translation": "Both the living who belong to him and the departed, and whatever else one desires and does not obtain — all that one finds by going there (within); for there indeed are these true desires of his, covered by the untrue. As people ignorant of the field might walk again and again over a buried treasure of gold and never find it, even so all these creatures go day after day into this Brahman-world (in deep sleep) and do not find it, for they are carried astray by the untrue.",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara's most poignant image: we walk daily over buried gold — entering Brahman in every deep sleep, never finding what we tread upon, deflected by untruth. The treasure is not far; the map is the vidyā.",
+                "vishishtadvaita": "Nightly the soul rests on the Lord and wakes unknowing; the untruth of saṃsāra hides the gold beneath its feet until the ācārya marks the spot.",
+                "dvaita_vedanta": "Daily we pass over the indwelling Lord like the ignorant over treasure; revelation alone discloses the field."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स वा एष आत्मा हृदि तस्यैतदेव निरुक्तं हृद्ययमिति तस्माद्धृदयमहरहर्वा एवंवित्स्वर्गं लोकमेति ॥ ३ ॥",
+              "iast": "sa vā eṣa ātmā hṛdi tasyaitad eva niruktaṃ hṛdy ayam iti tasmād dhṛdayam ahar ahar vā evaṃvit svargaṃ lokam eti || 3 ||",
+              "english_translation": "This Self is in the heart. Its very etymology is this: 'It is in the heart' (hṛdi ayam), hence 'heart' (hṛdayam). He who knows thus goes day by day into the heavenly world (in deep sleep, into Brahman).",
+              "commentaries": {
+                "advaita_vedanta": "The word 'heart' itself preserves the secret: hṛdi-ayam — 'this one is in the heart'. The knower's nightly entry becomes conscious homecoming.",
+                "vishishtadvaita": "Language enshrines the Lord's address; the knower visits Him daily within.",
+                "dvaita_vedanta": "Etymology testifies to the indweller; the wise enter His presence each night knowingly."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ य एष संप्रसादोऽस्माच्छरीरात्समुत्थाय परं ज्योतिरुपसंपद्य स्वेन रूपेणाभिनिष्पद्यत एष आत्मेति होवाचैतदमृतमभयमेतद्ब्रह्मेति तस्य ह वा एतस्य ब्रह्मणो नाम सत्यमिति ॥ ४ ॥",
+              "iast": "atha ya eṣa saṃprasādo 'smāc charīrāt samutthāya paraṃ jyotir upasaṃpadya svena rūpeṇābhiniṣpadyata eṣa ātmeti hovācaitad amṛtam abhayam etad brahmeti tasya ha vā etasya brahmaṇo nāma satyam iti || 4 ||",
+              "english_translation": "Now, that serene one (the soul in deep peace) who, rising out of this body and reaching the highest light, appears in its own true form — that is the Self,' he said; 'that is the immortal, the fearless; that is Brahman. And the name of this Brahman is the True (Satyam).",
+              "commentaries": {
+                "advaita_vedanta": "The saṃprasāda — the soul serene in deep sleep — rising to the supreme Light and standing forth in its own form: Śaṅkara reads liberation itself, the Self appearing as what it always was. Its name: Satyam, the Real.",
+                "vishishtadvaita": "The freed soul, leaving the body, reaches the supreme Light — the Lord — and blossoms into its own pure form in His presence: the school's classic account of mukti.",
+                "dvaita_vedanta": "Rising to the highest Light (Viṣṇu), the soul gains its own true form of bliss — distinct, dependent, fulfilled. Brahman's name 'Satyam' marks His absolute reality."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "तानि ह वा एतानि त्रीण्यक्षराणि सतीयमिति तद्यत्सत्तदमृतमथ यत्ति तन्मर्त्यमथ यद्यं तेनोभे यच्छति यदनेनोभे यच्छति तस्माद्यमहरहर्वा एवंवित्स्वर्गं लोकमेति ॥ ५ ॥",
+              "iast": "tāni ha vā etāni trīṇy akṣarāṇi satīyam iti tad yat sat tad amṛtam atha yat ti tan martyam atha yad yaṃ tenobhe yacchati yad anenobhe yacchati tasmād yam ahar ahar vā evaṃvit svargaṃ lokam eti || 5 ||",
+              "english_translation": "This name has three syllables: sat-ī-yam. The 'sat' is the immortal; the 'ti' is the mortal; the 'yam' is what holds the two together — because by it the two are held (yam), it is 'yam'. He who knows thus goes day by day into the heavenly world.",
+              "commentaries": {
+                "advaita_vedanta": "Even the name dissected teaches: immortal, mortal, and the binder of both — Brahman as the Real embracing and transcending the perishable.",
+                "vishishtadvaita": "Satyam parsed reveals the Lord holding spirit and matter together as His body — the school's cosmology in a word.",
+                "dvaita_vedanta": "The syllables map the hierarchy: the immortal Lord, mortal world, and His controlling bond between them."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 4,
+          "title": "The Self as the Bridge (Setu)",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ य आत्मा स सेतुर्विधृतिरेषां लोकानामसंभेदाय नैतं सेतुमहोरात्रे तरतो न जरा न मृत्युर्न शोको न सुकृतं न दुष्कृतं सर्वे पाप्मानोऽतो निवर्तन्तेऽपहतपाप्मा ह्येष ब्रह्मलोकः ॥ १ ॥",
+              "iast": "atha ya ātmā sa setur vidhṛtir eṣāṃ lokānām asaṃbhedāya naitaṃ setum ahorātre tarato na jarā na mṛtyur na śoko na sukṛtaṃ na duṣkṛtaṃ sarve pāpmāno 'to nivartante 'pahatapāpmā hy eṣa brahmalokaḥ || 1 ||",
+              "english_translation": "Now, the Self is the bridge (setu), the upholder, that these worlds may not fall into confusion. Day and night do not cross that bridge, nor old age, nor death, nor sorrow, nor good deeds, nor evil deeds. All evils turn back from it, for this Brahman-world is free of evil.",
+              "commentaries": {
+                "advaita_vedanta": "The Self is the dam that keeps the worlds distinct and the flood of time out: night and day, age, death — even merit — stop at its edge. Beyond the bridge nothing dual survives.",
+                "vishishtadvaita": "The Lord is the setu upholding cosmic order; crossing to Him, the soul leaves time, death, and karma's pairs behind.",
+                "dvaita_vedanta": "The Lord bridges and bounds the worlds; evils cannot approach Him, and His realm is stainless."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तस्माद्वा एतं सेतुं तीर्त्वान्धः सन्ननन्धो भवति विद्धः सन्नविद्धो भवत्युपतापी सन्ननुपतापी भवति तस्माद्वा एतं सेतुं तीर्त्वापि नक्तमहरेवाभिनिष्पद्यते सकृद्विभातो ह्येवैष ब्रह्मलोकः ॥ २ ॥",
+              "iast": "tasmād vā etaṃ setuṃ tīrtvāndhaḥ sann anandho bhavati viddhaḥ sann aviddho bhavaty upatāpī sann anupatāpī bhavati tasmād vā etaṃ setuṃ tīrtvāpi naktam ahar evābhiniṣpadyate sakṛd vibhāto hy evaiṣa brahmalokaḥ || 2 ||",
+              "english_translation": "Therefore, having crossed that bridge, the blind man is blind no more, the wounded is wounded no more, the afflicted is afflicted no more. Having crossed that bridge, even night appears as day, for this Brahman-world is luminous once and for all.",
+              "commentaries": {
+                "advaita_vedanta": "Crossing heals all conditions: blindness, wounds, grief — adjuncts of the body left on the near shore. 'Once luminous' — sakṛd vibhāta — the world of Brahman knows no alternation of light.",
+                "vishishtadvaita": "In the Lord's realm every infirmity falls away and unsetting light reigns — the eternal day of His presence.",
+                "dvaita_vedanta": "Beyond the bridge the soul stands whole in Viṣṇu's never-dimming light."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तद्य एवैतं ब्रह्मलोकं ब्रह्मचर्येणानुविन्दन्ति तेषामेवैष ब्रह्मलोकस्तेषां सर्वेषु लोकेषु कामचारो भवति ॥ ३ ॥",
+              "iast": "tad ya evaitaṃ brahmalokaṃ brahmacaryeṇānuvindanti teṣām evaiṣa brahmalokas teṣāṃ sarveṣu lokeṣu kāmacāro bhavati || 3 ||",
+              "english_translation": "Now, those who find this Brahman-world by brahmacarya (the disciplined life of a student of the sacred) — theirs is this Brahman-world, and theirs is freedom of movement in all worlds.",
+              "commentaries": {
+                "advaita_vedanta": "The toll of the bridge is brahmacarya — the gathered, continent life turned wholly toward Brahman.",
+                "vishishtadvaita": "Disciplined devotion is the road by which the Lord's world is found.",
+                "dvaita_vedanta": "Holy discipline, ordained by the Lord, wins entry to His realm."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 5,
+          "title": "Brahmacarya — The One Discipline Under Many Names",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ यद्यज्ञ इत्याचक्षते ब्रह्मचर्यमेव तद्ब्रह्मचर्येण ह्येव यो ज्ञाता तं विन्दतेऽथ यदिष्टमित्याचक्षते ब्रह्मचर्यमेव तद्ब्रह्मचर्येण ह्येवेष्ट्वात्मानमनुविन्दते ॥ १ ॥",
+              "iast": "atha yad yajña ity ācakṣate brahmacaryam eva tad brahmacaryeṇa hy eva yo jñātā taṃ vindate 'tha yad iṣṭam ity ācakṣate brahmacaryam eva tad brahmacaryeṇa hy eveṣṭvātmānam anuvindate || 1 ||",
+              "english_translation": "Now, what people call sacrifice (yajña) is really brahmacarya, for only by brahmacarya does the knower find That. And what people call the offering (iṣṭa) is really brahmacarya, for only having sought (iṣṭvā) by brahmacarya does one find the Self.",
+              "commentaries": {
+                "advaita_vedanta": "All ritual vocabulary is reinterpreted: the true sacrifice is the disciplined search; etymologies (yajña/jñātā, iṣṭa/iṣṭvā) baptise the old rites into the new quest.",
+                "vishishtadvaita": "Every sacred act finds its essence in devoted discipline aimed at the Lord.",
+                "dvaita_vedanta": "Rites are fulfilled in the discipline that seeks their inner object — the Lord."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अथ यत्सत्त्रायणमित्याचक्षते ब्रह्मचर्यमेव तद्ब्रह्मचर्येण ह्येव सत आत्मनस्त्राणं विन्दतेऽथ यन्मौनमित्याचक्षते ब्रह्मचर्यमेव तद्ब्रह्मचर्येण ह्येवात्मानमनुविद्य मनुते ॥ २ ॥",
+              "iast": "atha yat sattrāyaṇam ity ācakṣate brahmacaryam eva tad brahmacaryeṇa hy eva sata ātmanas trāṇaṃ vindate 'tha yan maunam ity ācakṣate brahmacaryam eva tad brahmacaryeṇa hy evātmānam anuvidya manute || 2 ||",
+              "english_translation": "And what people call the long sacrificial session (sattrāyaṇa) is really brahmacarya, for by brahmacarya one finds the protection (trāṇa) of the real (sat) Self. And what people call the vow of silence (mauna) is really brahmacarya, for only having found the Self by brahmacarya does one (truly) think.",
+              "commentaries": {
+                "advaita_vedanta": "Sattra and mauna too dissolve into the one discipline; true silence is the stillness of one who has found.",
+                "vishishtadvaita": "Session and silence alike are modes of dwelling on the Lord.",
+                "dvaita_vedanta": "All observances converge in the quest of the Self's Protector."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अथ यदनाशकायनमित्याचक्षते ब्रह्मचर्यमेव तदेष ह्यात्मा न नश्यति यं ब्रह्मचर्येणानुविन्दतेऽथ यदरण्यायनमित्याचक्षते ब्रह्मचर्यमेव तदरश्च ह वै ण्यश्चार्णवौ ब्रह्मलोके तृतीयस्यामितो दिवि तदैरं मदीयं सरस्तदश्वत्थः सोमसवनस्तदपराजिता पूर्ब्रह्मणः प्रभुविमितं हिरण्मयम् ॥ ३ ॥",
+              "iast": "atha yad anāśakāyanam ity ācakṣate brahmacaryam eva tad eṣa hy ātmā na naśyati yaṃ brahmacaryeṇānuvindate 'tha yad araṇyāyanam ity ācakṣate brahmacaryam eva tad araś ca ha vai ṇyaś cārṇavau brahmaloke tṛtīyasyām ito divi tad airaṃ madīyaṃ saras tad aśvatthaḥ somasavanas tad aparājitā pūr brahmaṇaḥ prabhuvimitaṃ hiraṇmayam || 3 ||",
+              "english_translation": "And what people call the course of fasting (anāśakāyana) is really brahmacarya, for the Self one finds by brahmacarya does not perish (na naśyati). And what people call the way to the forest (araṇyāyana) is really brahmacarya: Ara and Ṇya are two seas in the Brahman-world, in the third heaven from here; there is the lake Airammadīya, there the fig-tree Somasavana, there Aparājitā, the unconquered city of Brahman, and the golden hall built by the Lord.",
+              "commentaries": {
+                "advaita_vedanta": "Fasting and forest-dwelling are likewise the one discipline; the celestial geography — the two seas hidden in 'araṇya' — paints the goal in the colours of paradise for the meditator on the qualified Brahman.",
+                "vishishtadvaita": "The wondrous landscape of brahmaloka — seas, lake, tree, unconquered city, golden hall — describes the Lord's realm awaiting the disciplined soul.",
+                "dvaita_vedanta": "The detailed splendours of the Lord's world reward the ascetic path; the unconquered city is His alone."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तद्य एवैतावरं च ण्यं चार्णवौ ब्रह्मलोके ब्रह्मचर्येणानुविन्दन्ति तेषामेवैष ब्रह्मलोकस्तेषां सर्वेषु लोकेषु कामचारो भवति ॥ ४ ॥",
+              "iast": "tad ya evaitāv araṃ ca ṇyaṃ cārṇavau brahmaloke brahmacaryeṇānuvindanti teṣām evaiṣa brahmalokas teṣāṃ sarveṣu lokeṣu kāmacāro bhavati || 4 ||",
+              "english_translation": "Those who find these two seas, Ara and Ṇya, in the Brahman-world by brahmacarya — theirs is this Brahman-world, and theirs is freedom of movement in all worlds.",
+              "commentaries": {
+                "advaita_vedanta": "The promise repeats: discipline finds the world that is freedom itself.",
+                "vishishtadvaita": "The Lord's realm and roaming-freedom crown the brahmacārin.",
+                "dvaita_vedanta": "Entry and liberty are granted to the disciplined seeker."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 6,
+          "title": "The Channels of the Heart and the Way Upward",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ या एता हृदयस्य नाड्यस्ताः पिङ्गलस्याणिम्नस्तिष्ठन्ति शुक्लस्य नीलस्य पीतस्य लोहितस्येत्यसौ वा आदित्यः पिङ्गल एष शुक्ल एष नील एष पीत एष लोहितः ॥ १ ॥",
+              "iast": "atha yā etā hṛdayasya nāḍyas tāḥ piṅgalasyāṇimnas tiṣṭhanti śuklasya nīlasya pītasya lohitasyety asau vā ādityaḥ piṅgala eṣa śukla eṣa nīla eṣa pīta eṣa lohitaḥ || 1 ||",
+              "english_translation": "Now, these channels (nāḍīs) of the heart are filled with the subtle essence of tawny, white, blue, yellow, and red — and yonder sun is tawny, white, blue, yellow, and red.",
+              "commentaries": {
+                "advaita_vedanta": "The heart's channels share the sun's colours: inner and outer light are continuous, vein and ray one system.",
+                "vishishtadvaita": "The Lord strings heart and sun with the same coloured threads — His pathways for the soul.",
+                "dvaita_vedanta": "The correspondence of nāḍī and ray is the Lord's built highway between body and heaven."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तद्यथा महापथ आतत उभौ ग्रामौ गच्छतीमं चामुं चैवमेवैता आदित्यस्य रश्मय उभौ लोकौ गच्छन्तीमं चामुं चामुष्मादादित्यात्प्रतायन्ते ता आसु नाडीषु सृप्ता आभ्यो नाडीभ्यः प्रतायन्ते तेऽमुष्मिन्नादित्ये सृप्ताः ॥ २ ॥",
+              "iast": "tad yathā mahāpatha ātata ubhau grāmau gacchatīmaṃ cāmuṃ caivam evaitā ādityasya raśmaya ubhau lokau gacchantīmaṃ cāmuṃ cāmuṣmād ādityāt pratāyante tā āsu nāḍīṣu sṛptā ābhyo nāḍībhyaḥ pratāyante te 'muṣminn āditye sṛptāḥ || 2 ||",
+              "english_translation": "As a great highway runs to two villages, this one and that one, so the sun's rays go to both worlds, this one and that one. They stretch from yonder sun and slip into these channels; and stretching from these channels, they slip into yonder sun.",
+              "commentaries": {
+                "advaita_vedanta": "A two-way royal road: rays into veins, veins into rays — the soul's commute between body and the world of light.",
+                "vishishtadvaita": "The Lord keeps the road open in both directions until the final one-way journey.",
+                "dvaita_vedanta": "The linked system serves the soul's traffic as the Lord ordains."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तद्यत्रैतत्सुप्तः समस्तः संप्रसन्नः स्वप्नं न विजानात्यासु तदा नाडीषु सृप्तो भवति तं न कश्चन पाप्मा स्पृशति तेजसा हि तदा संपन्नो भवति ॥ ३ ॥",
+              "iast": "tad yatraitat suptaḥ samastaḥ saṃprasannaḥ svapnaṃ na vijānāty āsu tadā nāḍīṣu sṛpto bhavati taṃ na kaścana pāpmā spṛśati tejasā hi tadā saṃpanno bhavati || 3 ||",
+              "english_translation": "When one is asleep, composed, serene, and knows no dream, he has slipped into these channels; no evil touches him then, for he is then filled with light.",
+              "commentaries": {
+                "advaita_vedanta": "In dreamless sleep the soul rests in radiance beyond sin's reach — the nightly preview of the sinless state.",
+                "vishishtadvaita": "Sleep's serenity is the Lord's embrace within the luminous channels.",
+                "dvaita_vedanta": "The sleeper kept in light untouched by evil rests in the Lord's keeping."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ यत्रैतदबलिमानं नीतो भवति तमभित आसीना आहुर्जानासि मां जानासि मामिति स यावदस्माच्छरीरादनुत्क्रान्तो भवति तावज्जानाति ॥ ४ ॥",
+              "iast": "atha yatraitad abalimānaṃ nīto bhavati tam abhita āsīnā āhur jānāsi māṃ jānāsi mām iti sa yāvad asmāc charīrād anutkrānto bhavati tāvaj jānāti || 4 ||",
+              "english_translation": "And when one is brought to weakness (in dying), those sitting around him say: 'Do you know me? Do you know me?' As long as he has not departed from this body, he knows them.",
+              "commentaries": {
+                "advaita_vedanta": "The deathbed scene returns from Chapter 6: recognition lingers at the threshold.",
+                "vishishtadvaita": "The indweller attends the soul to the last moment of embodied knowing.",
+                "dvaita_vedanta": "Cognition holds while the Lord retains the soul in its house."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अथ यत्रैतदस्माच्छरीरादुत्क्रामत्यथैतैरेव रश्मिभिरूर्ध्वमाक्रमते स ओमिति वा होद्वा मीयते स यावत्क्षिप्येन्मनस्तावदादित्यं गच्छत्येतद्वै खलु लोकद्वारं विदुषां प्रपदनं निरोधोऽविदुषाम् ॥ ५ ॥",
+              "iast": "atha yatraitad asmāc charīrād utkrāmaty athaitair eva raśmibhir ūrdhvam ākramate sa om iti vā hodvā mīyate sa yāvat kṣipyen manas tāvad ādityaṃ gacchaty etad vai khalu lokadvāraṃ viduṣāṃ prapadanaṃ nirodho 'viduṣām || 5 ||",
+              "english_translation": "But when he departs from this body, he ascends by these very rays. He goes up with the syllable OM (or as he utters it, his mind is borne up); in the time the mind takes to flash, he reaches the sun. That, verily, is the door of the worlds — an entrance for the knowers, a barrier for the ignorant.",
+              "commentaries": {
+                "advaita_vedanta": "The knower exits by the heart's ray, OM as his vehicle, swift as thought to the sun — the door that admits knowledge and refuses ignorance.",
+                "vishishtadvaita": "Death's gate opens to the meditator borne on praṇava; the sun-door is the Lord's threshold, shut to the unprepared.",
+                "dvaita_vedanta": "OM, the Lord's name, lifts the qualified through the solar gate; the ignorant find it barred."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "तदेष श्लोकः । शतं चैका च हृदयस्य नाड्यस्तासां मूर्धानमभिनिःसृतैका । तयोर्ध्वमायन्नमृतत्वमेति विष्वङ्ङन्या उत्क्रमणे भवन्त्युत्क्रमणे भवन्ति ॥ ६ ॥",
+              "iast": "tad eṣa ślokaḥ | śataṃ caikā ca hṛdayasya nāḍyas tāsāṃ mūrdhānam abhiniḥsṛtaikā | tayordhvam āyann amṛtatvam eti viṣvaṅṅ anyā utkramaṇe bhavanty utkramaṇe bhavanti || 6 ||",
+              "english_translation": "On this there is this verse: 'A hundred and one are the channels of the heart; one of them rises up to the crown of the head. Going upward by that one, a man reaches immortality; the others serve for departing in various directions — for departing in various directions.'",
+              "commentaries": {
+                "advaita_vedanta": "The celebrated śloka (shared with the Kaṭha): one channel of the hundred-and-one leads through the crown to deathlessness; the rest scatter the unknowing into many births. The repetition closes the khaṇḍa.",
+                "vishishtadvaita": "The suṣumnā to the crown is the Lord's private stair for His meditator — the start of the arcirādi ascent.",
+                "dvaita_vedanta": "One channel, by the Lord's design, bears the worthy to immortality; the many disperse the rest as their karma directs."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

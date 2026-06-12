@@ -1,0 +1,52 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 36: Chapter 2, Section 24. The Ritual Rectification and Cosmic Offering (Prāyaścitta-homa). This final section of Chapter 2 provides the specific sacrificial formulas and liturgical adjustments used to correct errors in the morning, midday, and evening ritual offerings, ensuring the integrity of the cosmic connection.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 24,
+          "title": "The Ritual Rectification and Cosmic Offering",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "ब्रह्मवादिनो वदन्ति यत्साम्नां हृदयानि तानि देवेष्विाथ यत्साम्नां हृदयं तदस्मिन्प्रतिष्ठितमिति कथमत्र प्रतितिष्ठेत्कथमुत्तरस्मिन्प्रतितिष्ठेदिति ॥ १ ॥",
+              "iast": "brahmavādino vadanti yatsāmnāṃ hṛdayāni tāni deveṣviātha yatsāmnāṃ hṛdayaṃ tadasminpratiṣṭhitamiti kathamatra pratiṣṭhetkathamuttarasminpratiṣṭhediti || 1 ||",
+              "english_translation": "The knowers of Brahman (Brahmavādins) ask: 'The hearts of the Sāman chants reside in the gods; but where does the heart of the Sāman itself rest when it is offered here? How should the chanter be established in this world, and how should he be established in the higher world?'",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara notes that the question posed here is the pivot of ritual responsibility. If the Sāman chants are structurally linked to the cosmic gods, how does the fallible human ritualist, standing in the mundane world, maintain an unbroken connection to that higher reality? The question seeks the 'anchor' of the sacrificial act: what grounds the human performance so that it reaches the Divine?",
+                "vishishtadvaita": "Raṅgarāmānuja explains that this is a query about the mediation of sacrifice. The ritual is a bridge. To be established (*pratiṣṭhita*) is to ensure that one's offerings are correctly received and that the fruit of the action is realized, both here in the physical realm and later in the divine realm.",
+                "dvaita_vedanta": "Madhvācārya points out that the question highlights the dependency of human action. The ritualist cannot sustain the Sāman on their own; they need a solid foundation—a divine support system—to ensure their sacrifice achieves its goal without suffering the defects of human imperfection."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अथ यत्प्रार्थितं तद्धुत्वा यद्धुत्वा तदूर्ध्वमथ यत्प्रार्थितं तद्धुत्वा यद्धुत्वा तदूर्ध्वं यद्विज्ञानं तद्धुत्वा यद्विज्ञानं तदूर्ध्वमित्यग्निं च पृथिवीं च चक्षुश्चेति वदन्ति ॥ २ ॥",
+              "iast": "atha yatprārthitaṃ taddhutvā yaddhutvā tadūrdhvamatha yatprārthitaṃ taddhutvā yaddhutvā tadūrdhvaṃ yadvijñānaṃ taddhutvā yadvijñānaṃ tadūrdhvamityagniṃ ca pṛthivīṃ ca cakṣuśceti vadanti || 2 ||",
+              "english_translation": "Having offered into the morning light, one offers into the fire, the earth, and the eye—for they say that the dawn offering rises to these. Having offered into the midday light, one offers into the wind, the atmosphere, and the life-breath (Prāṇa). Having offered into the evening light, one offers into the sun, the heaven, and the ear.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara interprets this as a highly sophisticated method of 'offering into the Self.' The ritualist does not merely drop ghee into fire; they identify the ritual act with the cosmic elements. The morning offering is linked to the Earth-Fire-Eye triad; the midday to the Atmosphere-Wind-Breath triad; the evening to the Heaven-Sun-Ear triad. This total synchronization of sense-organs with cosmic elements ensures that the ritualist is never disconnected from the Absolute.",
+                "vishishtadvaita": "The school views these rectifications as an integration of the ritualist's daily life into the body of the Lord. By anchoring the offerings to the senses and the elements, the householder ensures that every moment of the day is a continuous sacrifice (*Yajña*), keeping the soul perpetually in touch with the Divine.",
+                "dvaita_vedanta": "Madhvācārya emphasizes that these specific offerings serve as *Prāyaścitta* (atonement/rectification). If any error is made during the day, these formulas at the dawn, noon, and twilight junctures bridge the gap. They essentially align the ritualist's errors with the corrective power of the deities, ensuring the sacrifice remains acceptable to Viṣṇu."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स य एवं वेद स ब्रह्मविद्भवति तदेतद्ब्रह्म प्राह प्रजापतिः प्रजापतये मनुर्मनवे प्रजाः ॥ ३ ॥",
+              "iast": "sa ya evaṃ veda sa brahmavidbhavati tadetadbrahma prāha prajāpatiḥ prajāpataye manurmanave prajāḥ || 3 ||",
+              "english_translation": "He who knows this becomes a knower of Brahman (Brahmavit). This sacred knowledge, Prajāpati proclaimed to Manu, Manu to his descendants, and so the lineage continues.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara concludes that the one who understands these rituals not as hollow actions but as cosmic integrations is a *Brahmavit*. The ritual becomes a path to Brahman because the ritualist sees through the symbols to the underlying reality. The lineage of teaching (*Paramparā*) is mentioned to show the authority and timelessness of this knowledge.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that the preservation of this knowledge through Manu emphasizes the tradition's role in guiding humanity. It is not just information; it is a transformative legacy that enables every generation to live a life anchored in devotion and ritual purity.",
+                "dvaita_vedanta": "Madhvācārya observes that the descent of this knowledge from Prajāpati to Manu establishes the *Āgama* (scriptural) validity of these ritual rectifications. It confirms that these are not human inventions but divinely revealed truths provided for the soul's success in the material world."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

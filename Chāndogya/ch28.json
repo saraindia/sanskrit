@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 28: Chapter 2, Section 16. The Meditation on the Vairāja Sāman (Vairāja Sāmopāsanā). This section outlines the meditation on the Vairāja melody, mapping its five structural phases onto the cyclical turning of the five seasons of the year.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 16,
+          "title": "The Meditation on the Vairāja Sāman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "वसन्तो हिंकारो ग्रीष्मः प्रस्तावो वर्षा उद्गीथः शरत्प्रतिहारो हेमन्तो निधनमेतद्वैराजमृतुषु प्रोतम् ॥ १ ॥",
+              "iast": "vasanto hiṃkāro grīṣmaḥ prastāvo varṣā udgīthaḥ śaratpratihāro hemanto nidhanametadvairājamṛtuṣu protam || 1 ||",
+              "english_translation": "Spring (Vasanta) is the syllable 'Hiṃ'; Summer (Grīṣma) is the introductory praise (Prastāva); the Rainy Season (Varṣā) is the loud chant (Udgītha); Autumn (Śarat) is the response (Pratihāra); and Winter (Hemanta) is the finale (Nidhana). This is the Vairāja Sāman as woven into the seasons.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that *Vairāja* comes from *Virāj*, which represents the radiant macrocosmic physical universe and the principle of rhythmic sovereignty. In this section, the Vairāja melody is mapped directly onto the wheel of seasons (*ṛtus*). Spring, the season of rebirth, budding flora, and natural quickening, acts as *Hiṃkāra*. Summer, with its ripening heat and preparatory dry spell, is *Prastāva*. The Rainy Season, bringing the vital downpour that directly yields food and sustains life, is the central *Udgītha*. Autumn, bringing golden harvests and clear post-storm skies, acts as the balancing *Pratihāra*. Winter, where nature gathers its sap, draws inward, and enters a quiet chill, serves as *Nidhana*, the final rest. By internalizing this progression, the seeker ceases to look at weather changes as personal inconveniences, experiencing them instead as the breathing patterns of the cosmic Virāj.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that the word *Vairāja* highlights how the Supreme Lord shines in unique splendor through the changing seasons. The year is a beautifully arranged liturgy. The rainy season as *Udgītha* demonstrates that the peak of cosmic song is always centered on nourishment and life-giving grace. The entire seasonal wheel is a rhythmic, predictable manifestation of the indwelling Lord's creative care for His devotees.",
+                "dvaita_vedanta": "Madhvācārya explains that the *Vairāja-Sāman* is overseen by specialized solar and temporal deities who report directly to Lord Viṣṇu. The term *protam* demonstrates that time is not an unguided, chaotic sequence of months. Each season has a specific, immutable duty to fulfill under divine decree, proving that the physical planet functions within a rigid, dependable layout engineered by the Supreme Ruler."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एवमेतद्वैराजमृतुषु प्रोतं वेद विराजति प्रजया पशुभिर्ब्रह्मवर्चसेन सर्वमायुरेति ज्योग्जीवति महान्प्रजया पशुभिर्भवति महान्कीर्त्या ऋतूंस्तपन्तं न निन्देत्तद्व्रतम् ॥ २ ॥",
+              "iast": "sa ya evametadvairājamṛtuṣu protaṃ veda virājati prajayā paśubhirbrahmavarcasena sarvamāyureti jyogjīvati mahān prajayā paśubhirbhavati mahān kīrtyā ṛtūṃstapantaṃ na nindettadvratam || 2 ||",
+              "english_translation": "He who knows this Vairāja Sāman as woven into the seasons shines with sovereign luster through his children, cattle, and spiritual aura (Brahmavarcas); he attains a full, radiant lifespan, and grows great in progeny, livestock, and renown. His sacred vow should be never to speak ill of the seasons.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the psychological and behavioral vow (*Vrata*) unique to this practice: *ṛtūn na nindet* (one must never criticize the seasons). People frequently complain when it is too cold in winter or too dry in summer, wishing the weather would adapt to their comfort. Shankara notes that finding fault with a season is a direct insult to the Vairāja melody. The vow forces an inner shift toward non-dual equanimity—accepting the natural extremes of frost and heat as essential phases of a singular global balance that clears out the old to make way for the new.",
+                "vishishtadvaita": "The school notes that honoring the turning seasons means understanding that both the harsh winters and burning summers of our lives are designed to mature the soul. Complaining about the time or season indicates an unresigned ego. Keeping this vow allows the seeker to tap into *Brahmavarcas* (spiritual radiance), ensuring that their character remains steady and bright regardless of external cycles.",
+                "dvaita_vedanta": "According to Madva, speaking ill of the seasons is an act of disrespect toward the structural time-controllers (*Kāla-devatās*) appointed by Viṣṇu. Embracing each season with a calm, cooperative attitude purifies the mind, stabilizes the household, and brings the material rewards of health, lineage stability, and lasting spiritual reputation (*kīrti*)."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 56: Chapter 6, Sections 8–10. The great refrain begins — sleep, hunger, and thirst traced to Being; the bees and honey; the rivers and the sea: 'That thou art, Śvetaketu.'",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_6": {
+      "sections": [
+        {
+          "section_number": 8,
+          "title": "Sleep, Hunger, Thirst — and the First 'Tat Tvam Asi'",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "उद्दालको हारुणिः श्वेतकेतुं पुत्रमुवाच स्वप्नान्तं मे सोम्य विजानीहीति यत्रैतत्पुरुषः स्वपिति नाम सता सोम्य तदा संपन्नो भवति स्वमपीतो भवति तस्मादेनं स्वपितीत्याचक्षते स्वं ह्यपीतो भवति ॥ १ ॥",
+              "iast": "uddālako hāruṇiḥ śvetaketuṃ putram uvāca svapnāntaṃ me somya vijānīhīti yatraitat puruṣaḥ svapiti nāma satā somya tadā saṃpanno bhavati svam apīto bhavati tasmād enaṃ svapitīty ācakṣate svaṃ hy apīto bhavati || 1 ||",
+              "english_translation": "Uddālaka Āruṇi said to his son Śvetaketu: 'Learn from me, gentle one, the state of sleep. When a person sleeps, as it is called, then, gentle one, he has become united with Being; he has gone to his own (svam apīta). Therefore they say of him \"he sleeps\" (svapiti), for he has gone to his own.",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara's treasured etymology: in deep sleep the soul retires into Being itself — its own true nature. Nightly we touch Brahman without knowing it; liberation is to know it.",
+                "vishishtadvaita": "In sleep the soul rests in the Lord, its 'own' as the body rests in its soul; sleep is nightly refuge in Him, not loss of selfhood.",
+                "dvaita_vedanta": "Madhva: the soul in sleep reposes in the Lord ('its own' — its master and home), remaining distinct while embraced; sleep proves dependence, not identity."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स यथा शकुनिः सूत्रेण प्रबद्धो दिशं दिशं पतित्वान्यत्रायतनमलब्ध्वा बन्धनमेवोपश्रयत एवमेव खलु सोम्य तन्मनो दिशं दिशं पतित्वान्यत्रायतनमलब्ध्वा प्राणमेवोपश्रयते प्राणबन्धनं हि सोम्य मन इति ॥ २ ॥",
+              "iast": "sa yathā śakuniḥ sūtreṇa prabaddho diśaṃ diśaṃ patitvānyatrāyatanam alabdhvā bandhanam evopaśrayata evam eva khalu somya tan mano diśaṃ diśaṃ patitvānyatrāyatanam alabdhvā prāṇam evopaśrayate prāṇabandhanaṃ hi somya mana iti || 2 ||",
+              "english_translation": "'As a bird tied by a string flies in every direction and, finding no resting place elsewhere, settles on its tether — even so, gentle one, the mind flies in every direction and, finding no resting place elsewhere, settles on the breath; for the mind, gentle one, is tethered to the breath (to Being as life).",
+              "commentaries": {
+                "advaita_vedanta": "The tethered bird is the wandering mind; its string is the living Being. All experience circles and returns to the one perch — daily evidence of the Self as ground.",
+                "vishishtadvaita": "The soul's faculties range abroad but rest only in the Lord, their tether and perch.",
+                "dvaita_vedanta": "The mind's tether is prāṇa, and prāṇa's master is the Lord — a chain of dependence ending in Him."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अशनापिपासे मे सोम्य विजानीहीति यत्रैतत्पुरुषोऽशिशिषति नामाप एव तदशितं नयन्ते तद्यथा गोनायोऽश्वनायः पुरुषनाय इत्येवं तदप आचक्षतेऽशनायेति तत्रैतच्छुङ्गमुत्पतितं सोम्य विजानीहि नेदममूलं भविष्यतीति ॥ ३ ॥",
+              "iast": "aśanāpipāse me somya vijānīhīti yatraitat puruṣo 'śiśiṣati nāmāpa eva tad aśitaṃ nayante tad yathā gonāyo 'śvanāyaḥ puruṣanāya ity evaṃ tad apa ācakṣate 'śanāyeti tatraitac chuṅgam utpatitaṃ somya vijānīhi nedam amūlaṃ bhaviṣyatīti || 3 ||",
+              "english_translation": "'Learn from me, gentle one, hunger and thirst. When a person hungers, as it is called, it is water that leads away what was eaten (digests it); and as one speaks of a cow-leader, a horse-leader, a man-leader, so water is called \"food-leader\" (aśanāyā, hunger). There — know, gentle one, that this (body) has sprouted up; it cannot be without a root.",
+              "commentaries": {
+                "advaita_vedanta": "Hunger itself is analysed into the elements' interplay, and the body is declared a sprout — driving the question rootward: nothing stands without a root in Being.",
+                "vishishtadvaita": "Even appetite obeys the Lord's chemistry; the sprout-image points to Him as the root of the body-plant.",
+                "dvaita_vedanta": "The naming shows scripture's precision; the sprout demands a root — dependence is built into existence."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तस्य क्व मूलं स्यादन्यत्रान्नादेवमेव खलु सोम्यान्नेन शुङ्गेनापो मूलमन्विच्छाद्भिः सोम्य शुङ्गेन तेजो मूलमन्विच्छ तेजसा सोम्य शुङ्गेन सन्मूलमन्विच्छ सन्मूलाः सोम्येमाः सर्वाः प्रजाः सदायतनाः सत्प्रतिष्ठाः ॥ ४ ॥",
+              "iast": "tasya kva mūlaṃ syād anyatrānnād evam eva khalu somyānnena śuṅgenāpo mūlam anvicchādbhiḥ somya śuṅgena tejo mūlam anviccha tejasā somya śuṅgena sanmūlam anviccha sanmūlāḥ somyemāḥ sarvāḥ prajāḥ sadāyatanāḥ satpratiṣṭhāḥ || 4 ||",
+              "english_translation": "'And where could its root be but in food? Even so, gentle one, with food as the sprout, seek water as the root; with water as the sprout, seek fire as the root; with fire as the sprout, seek Being as the root. All these creatures, gentle one, have Being as their root, Being as their abode, Being as their support.",
+              "commentaries": {
+                "advaita_vedanta": "The regress runs home: body → food → water → fire → SAT. Root, abode, support — the threefold dependence of all creatures on Being is the metaphysical heart of the chapter.",
+                "vishishtadvaita": "The Lord is the root from which, the home in which, and the ground on which all beings live — the body-of-God doctrine in seed.",
+                "dvaita_vedanta": "All creatures are rooted in, housed by, and stood upon the independent Lord — three modes of utter dependence."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "अथ यत्रैतत्पुरुषः पिपासति नाम तेज एव तत्पीतं नयते तद्यथा गोनायोऽश्वनायः पुरुषनाय इत्येवं तत्तेज आचष्ट उदन्येति तत्रैतदेव शुङ्गमुत्पतितं सोम्य विजानीहि नेदममूलं भविष्यतीति ॥ ५ ॥",
+              "iast": "atha yatraitat puruṣaḥ pipāsati nāma teja eva tat pītaṃ nayate tad yathā gonāyo 'śvanāyaḥ puruṣanāya ity evaṃ tat teja ācaṣṭa udanyeti tatraitad eva śuṅgam utpatitaṃ somya vijānīhi nedam amūlaṃ bhaviṣyatīti || 5 ||",
+              "english_translation": "'And when a person thirsts, as it is called, it is fire that leads away what was drunk; and as one speaks of a cow-leader, a horse-leader, a man-leader, so that fire is called \"water-leader\" (udanyā, thirst). There — know, gentle one, that this (body) has sprouted up; it cannot be without a root.",
+              "commentaries": {
+                "advaita_vedanta": "Thirst, like hunger, is elemental traffic; again the sprout, again the call to the root.",
+                "vishishtadvaita": "The Lord's fire draws the waters within; every pang of thirst preaches dependence.",
+                "dvaita_vedanta": "The parallel analysis reinforces the rootward search."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "तस्य क्व मूलं स्यादन्यत्राद्भ्योऽद्भिः सोम्य शुङ्गेन तेजो मूलमन्विच्छ तेजसा सोम्य शुङ्गेन सन्मूलमन्विच्छ सन्मूलाः सोम्येमाः सर्वाः प्रजाः सदायतनाः सत्प्रतिष्ठा यथा तु खलु सोम्येमास्तिस्रो देवताः पुरुषं प्राप्य त्रिवृत्त्रिवृदेकैका भवति तदुक्तं पुरस्तादेव भवत्यस्य सोम्य पुरुषस्य प्रयतो वाङ्मनसि संपद्यते मनः प्राणे प्राणस्तेजसि तेजः परस्यां देवतायाम् ॥ ६ ॥",
+              "iast": "tasya kva mūlaṃ syād anyatrādbhyo 'dbhiḥ somya śuṅgena tejo mūlam anviccha tejasā somya śuṅgena sanmūlam anviccha sanmūlāḥ somyemāḥ sarvāḥ prajāḥ sadāyatanāḥ satpratiṣṭhā yathā tu khalu somyemās tisro devatāḥ puruṣaṃ prāpya trivṛt trivṛd ekaikā bhavati tad uktaṃ purastād eva bhavaty asya somya puruṣasya prayato vāṅ manasi saṃpadyate manaḥ prāṇe prāṇas tejasi tejaḥ parasyāṃ devatāyām || 6 ||",
+              "english_translation": "'And where could its root be but in water? With water as the sprout, seek fire as the root; with fire as the sprout, seek Being as the root. All these creatures have Being as their root, Being as their abode, Being as their support. How each of the three deities becomes threefold on reaching man has been told before. When a person departs, gentle one, his speech merges in the mind, the mind in the breath, the breath in fire, and fire in the highest deity.",
+              "commentaries": {
+                "advaita_vedanta": "The order of death reverses the order of creation: speech → mind → breath → fire → the supreme Being. Dying is the daily sleep written large — return to the root.",
+                "vishishtadvaita": "At death the faculties fold inward stage by stage until the soul rests in the supreme Lord — the journey home through His own layers.",
+                "dvaita_vedanta": "The dissolution sequence shows every power returning to the Lord's keeping; He receives what He lent."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो इति भूय एव मा भगवान्विज्ञापयत्विति तथा सोम्येति होवाच ॥ ७ ॥",
+              "iast": "sa ya eṣo 'ṇimaitadātmyam idaṃ sarvaṃ tat satyaṃ sa ātmā tat tvam asi śvetaketo iti bhūya eva mā bhagavān vijñāpayatv iti tathā somyeti hovāca || 7 ||",
+              "english_translation": "'That which is this subtlest essence — this whole world has it as its self. That is the Real. That is the Self. That thou art (tat tvam asi), Śvetaketu.' — 'Revered sir, instruct me still further.' — 'So be it, gentle one,' he said.",
+              "commentaries": {
+                "advaita_vedanta": "The mahāvākya itself. Śaṅkara: 'tat' is the pure Being just taught, 'tvam' the innermost consciousness of the hearer; their identity, freed of incompatible adjuncts by implication (lakṣaṇā), is the literal truth — the soul IS Brahman. This sentence, heard rightly, liberates.",
+                "vishishtadvaita": "Rāmānuja: the identity is read through the body–soul relation. 'That' — Brahman ensouling all — and 'thou' — Brahman ensouling this soul — are one Lord in two modes; the sentence teaches that the inner Self of Śvetaketu is Brahman as his indweller, not that the finite soul is simply God.",
+                "dvaita_vedanta": "Madhva famously reads the phrase with the preceding 'sa ātmā' as 'ātmā tat tvam asi' or as 'a-tat tvam asi' — 'thou art not That' in the sense of not independent — or as 'thou art His': the soul belongs to and resembles the Lord, ever distinct yet utterly dependent. The ninefold repetition hammers dependence, not identity."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 9,
+          "title": "The Bees and the Honey — Second 'Tat Tvam Asi'",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "यथा सोम्य मधु मधुकृतो निस्तिष्ठन्ति नानात्ययानां वृक्षाणां रसान्समवहारमेकतां रसं गमयन्ति ॥ १ ॥",
+              "iast": "yathā somya madhu madhukṛto nistiṣṭhanti nānātyayānāṃ vṛkṣāṇāṃ rasān samavahāram ekatāṃ rasaṃ gamayanti || 1 ||",
+              "english_translation": "'As bees, gentle one, make honey by gathering the juices of many different trees and reducing them to one essence,",
+              "commentaries": {
+                "advaita_vedanta": "Many juices, one honey: diversity merges in Being where individual histories dissolve.",
+                "vishishtadvaita": "The Lord gathers all souls into Himself in sleep and dissolution, as honey holds many nectars.",
+                "dvaita_vedanta": "Souls gathered in the Lord remain themselves, as drops in honey — undetected, not destroyed."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "ते यथा तत्र न विवेकं लभन्तेऽमुष्याहं वृक्षस्य रसोऽस्म्यमुष्याहं वृक्षस्य रसोऽस्मीत्येवमेव खलु सोम्येमाः सर्वाः प्रजाः सति संपद्य न विदुः सति संपद्यामह इति ॥ २ ॥",
+              "iast": "te yathā tatra na vivekaṃ labhante 'muṣyāhaṃ vṛkṣasya raso 'smy amuṣyāhaṃ vṛkṣasya raso 'smīty evam eva khalu somyemāḥ sarvāḥ prajāḥ sati saṃpadya na viduḥ sati saṃpadyāmaha iti || 2 ||",
+              "english_translation": "'and as those juices there have no discrimination — \"I am the juice of this tree\", \"I am the juice of that tree\" — even so, gentle one, all these creatures, though they merge into Being (in sleep and death), do not know: \"We are merging into Being.\"',",
+              "commentaries": {
+                "advaita_vedanta": "We return to Brahman nightly yet emerge ignorant — because we merge without knowledge. Śaṅkara: knowledge makes the same merging liberation.",
+                "vishishtadvaita": "Souls rest in the Lord unknowing; the vidyā's purpose is to make that rest conscious communion.",
+                "dvaita_vedanta": "Unawareness in merging shows the soul's smallness, not its non-existence; the wise enter His rest knowingly."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "त इह व्याघ्रो वा सिंहो वा वृको वा वराहो वा कीटो वा पतङ्गो वा दंशो वा मशको वा यद्यद्भवन्ति तदाभवन्ति ॥ ३ ॥",
+              "iast": "ta iha vyāghro vā siṃho vā vṛko vā varāho vā kīṭo vā pataṅgo vā daṃśo vā maśako vā yad yad bhavanti tad ābhavanti || 3 ||",
+              "english_translation": "'Here — whether tiger or lion, wolf or boar, worm or moth, gnat or mosquito — whatever they are, that they become again.",
+              "commentaries": {
+                "advaita_vedanta": "Emerging from Being without knowledge, each resumes its old shape, steered by its karmic seed — the wheel persists for the ignorant.",
+                "vishishtadvaita": "Re-emergence follows each soul's deeds under the Lord's just direction.",
+                "dvaita_vedanta": "Latent individual differences persist through merging — Madhva's proof that souls are never abolished in the Lord."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो इति भूय एव मा भगवान्विज्ञापयत्विति तथा सोम्येति होवाच ॥ ४ ॥",
+              "iast": "sa ya eṣo 'ṇimaitadātmyam idaṃ sarvaṃ tat satyaṃ sa ātmā tat tvam asi śvetaketo iti bhūya eva mā bhagavān vijñāpayatv iti tathā somyeti hovāca || 4 ||",
+              "english_translation": "'That which is this subtlest essence — this whole world has it as its self. That is the Real. That is the Self. That thou art, Śvetaketu.' — 'Revered sir, instruct me still further.' — 'So be it, gentle one,' he said.",
+              "commentaries": {
+                "advaita_vedanta": "The refrain returns after each image: the one essence behind merging and emerging is the hearer's own Self.",
+                "vishishtadvaita": "Again the indweller is named: the soul's Self-of-self is the Lord of all.",
+                "dvaita_vedanta": "The repetition re-affirms the soul's belonging to the Lord through every cycle."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 10,
+          "title": "The Rivers and the Sea — Third 'Tat Tvam Asi'",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "इमाः सोम्य नद्यः पुरस्तात्प्राच्यः स्यन्दन्ते पश्चात्प्रतीच्यस्ताः समुद्रात्समुद्रमेवापियन्ति स समुद्र एव भवति ता यथा तत्र न विदुरियमहमस्मीयमहमस्मीति ॥ १ ॥",
+              "iast": "imāḥ somya nadyaḥ purastāt prācyaḥ syandante paścāt pratīcyas tāḥ samudrāt samudram evāpiyanti sa samudra eva bhavati tā yathā tatra na vidur iyam aham asmīyam aham asmīti || 1 ||",
+              "english_translation": "'These rivers, gentle one, flow east toward the east and west toward the west; from the sea they rise and into the sea they return — they become the sea itself. And as there they do not know \"I am this river\", \"I am that river\",",
+              "commentaries": {
+                "advaita_vedanta": "Rivers from sea to sea: individuality is a passage between two oceans of Being. The names 'Gaṅgā' and 'Yamunā' belong to the journey, not the water.",
+                "vishishtadvaita": "Souls flow from and to the Lord, their sea; their river-names mark stages of His one life in them.",
+                "dvaita_vedanta": "Rivers in the sea are still river-waters by subtle difference; souls in the Lord remain souls — unknowing of their names, not bereft of being."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "एवमेव खलु सोम्येमाः सर्वाः प्रजाः सत आगम्य न विदुः सत आगच्छामह इति त इह व्याघ्रो वा सिंहो वा वृको वा वराहो वा कीटो वा पतङ्गो वा दंशो वा मशको वा यद्यद्भवन्ति तदाभवन्ति ॥ २ ॥",
+              "iast": "evam eva khalu somyemāḥ sarvāḥ prajāḥ sata āgamya na viduḥ sata āgacchāmaha iti ta iha vyāghro vā siṃho vā vṛko vā varāho vā kīṭo vā pataṅgo vā daṃśo vā maśako vā yad yad bhavanti tad ābhavanti || 2 ||",
+              "english_translation": "'even so, gentle one, all these creatures, though they come from Being, do not know: \"We have come from Being.\" Here — whether tiger or lion, wolf or boar, worm or moth, gnat or mosquito — whatever they are, that they become again.",
+              "commentaries": {
+                "advaita_vedanta": "Birth too is unconscious emergence from the One; ignorance brackets life at both ends until knowledge dawns.",
+                "vishishtadvaita": "Creatures issue from the Lord unknowing; revelation exists to tell them their source.",
+                "dvaita_vedanta": "Form follows karmic seed at each emergence, under the Lord's administration."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो इति भूय एव मा भगवान्विज्ञापयत्विति तथा सोम्येति होवाच ॥ ३ ॥",
+              "iast": "sa ya eṣo 'ṇimaitadātmyam idaṃ sarvaṃ tat satyaṃ sa ātmā tat tvam asi śvetaketo iti bhūya eva mā bhagavān vijñāpayatv iti tathā somyeti hovāca || 3 ||",
+              "english_translation": "'That which is this subtlest essence — this whole world has it as its self. That is the Real. That is the Self. That thou art, Śvetaketu.' — 'Revered sir, instruct me still further.' — 'So be it, gentle one,' he said.",
+              "commentaries": {
+                "advaita_vedanta": "Third declaration: the sea into which the rivers vanish is the hearer's own Self — 'thou art That' which receives and sends forth all streams.",
+                "vishishtadvaita": "The ocean-Lord is the soul's source and home; the refrain renews the call to know Him within.",
+                "dvaita_vedanta": "The soul, river of the Lord's sea, is His and for Him — so the refrain teaches dependence again."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

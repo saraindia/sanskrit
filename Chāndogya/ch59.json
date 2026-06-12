@@ -1,0 +1,259 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 59: Chapter 7, Sections 8–15. The ladder continues — Strength, Food, Water, Fire, Space, Memory, Hope — and culminates in Prāṇa, the hub on which all is fixed.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_7": {
+      "sections": [
+        {
+          "section_number": 8,
+          "title": "Strength (Bala) — Greater than Understanding",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "बलं वाव विज्ञानाद्भूयोऽपि ह शतं विज्ञानवतामेको बलवानाकम्पयते स यदा बली भवत्यथोत्थाता भवत्युत्तिष्ठन्परिचरिता भवति परिचरन्नुपसत्ता भवत्युपसीदन्द्रष्टा भवति श्रोता भवति मन्ता भवति बोद्धा भवति कर्ता भवति विज्ञाता भवति बलेन वै पृथिवी तिष्ठति बलेनान्तरिक्षं बलेन द्यौर्बलेन पर्वता बलेन देवमनुष्या बलेन पशवश्च वयांसि च तृणवनस्पतयः श्वापदान्याकीटपतङ्गपिपीलकं बलेन लोकस्तिष्ठति बलमुपास्स्वेति ॥ १ ॥",
+              "iast": "balaṃ vāva vijñānād bhūyo 'pi ha śataṃ vijñānavatām eko balavān ākampayate sa yadā balī bhavaty athotthātā bhavaty uttiṣṭhan paricaritā bhavati paricarann upasattā bhavaty upasīdan draṣṭā bhavati śrotā bhavati mantā bhavati boddhā bhavati kartā bhavati vijñātā bhavati balena vai pṛthivī tiṣṭhati balenāntarikṣaṃ balena dyaur balena parvatā balena devamanuṣyā balena paśavaś ca vayāṃsi ca tṛṇavanaspatayaḥ śvāpadāny ākīṭapataṅgapipīlakaṃ balena lokas tiṣṭhati balam upāssveti || 1 ||",
+              "english_translation": "'Strength, verily, is greater than understanding. One strong man makes a hundred men of understanding tremble. When a man becomes strong, he rises; rising, he serves; serving, he draws near (the teacher); drawing near, he becomes a seer, a hearer, a thinker, a perceiver, a doer, an understander. By strength the earth stands, by strength the mid-region, by strength heaven, by strength the mountains, by strength gods and men, by strength beasts and birds, grasses and trees, animals down to worms, insects, and ants; by strength the world stands. Meditate on strength.'",
+              "commentaries": {
+                "advaita_vedanta": "Strength here is vigour of body and spirit — without it even understanding cannot rise, serve, and sit at the teacher's feet. Śaṅkara notes the sequence: vitality underlies all discipleship.",
+                "vishishtadvaita": "Capacity to serve is the Lord's enabling gift; the world itself rests on His sustaining strength.",
+                "dvaita_vedanta": "Bala is the Lord's power lent to creatures — Madhva sees in it the energy of Vāyu upholding all under Viṣṇu."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स यो बलं ब्रह्मेत्युपास्ते यावद्बलस्य गतं तत्रास्य यथाकामचारो भवति यो बलं ब्रह्मेत्युपास्तेऽस्ति भगवो बलाद्भूय इति बलाद्वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ २ ॥",
+              "iast": "sa yo balaṃ brahmety upāste yāvad balasya gataṃ tatrāsya yathākāmacāro bhavati yo balaṃ brahmety upāste 'sti bhagavo balād bhūya iti balād vāva bhūyo 'stīti tan me bhagavān bravītv iti || 2 ||",
+              "english_translation": "'He who meditates on strength as Brahman gains free movement as far as strength reaches — he who meditates on strength as Brahman.' — 'Is there, revered sir, anything greater than strength?' — 'There is indeed something greater than strength.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "Strength itself is fed — by what? The ascent continues.",
+                "vishishtadvaita": "Power points to its nourisher.",
+                "dvaita_vedanta": "Each power confesses its source."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 9,
+          "title": "Food (Anna) — Greater than Strength",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अन्नं वाव बलाद्भूयस्तस्माद्यद्यपि दश रात्रीर्नाश्नीयाद्यद्यु ह जीवेदथवाद्रष्टाश्रोतामन्ताबोद्धाकर्ताविज्ञाता भवत्यथान्नस्यायै द्रष्टा भवति श्रोता भवति मन्ता भवति बोद्धा भवति कर्ता भवति विज्ञाता भवत्यन्नमुपास्स्वेति ॥ १ ॥",
+              "iast": "annaṃ vāva balād bhūyas tasmād yady api daśa rātrīr nāśnīyād yady u ha jīved athavādraṣṭāśrotāmantāboddhākartāvijñātā bhavaty athānnasyāyai draṣṭā bhavati śrotā bhavati mantā bhavati boddhā bhavati kartā bhavati vijñātā bhavaty annam upāssveti || 1 ||",
+              "english_translation": "'Food, verily, is greater than strength. Therefore, if a man abstains from food for ten nights, even though he might live, he becomes a non-seer, a non-hearer, a non-thinker, a non-perceiver, a non-doer, a non-understander. But on the coming of food he becomes a seer, a hearer, a thinker, a perceiver, a doer, an understander. Meditate on food.'",
+              "commentaries": {
+                "advaita_vedanta": "The lesson of Śvetaketu's fast restated on the ladder: all faculties are food-funded.",
+                "vishishtadvaita": "The Lord as anna sustains every power of the soul's instruments.",
+                "dvaita_vedanta": "Food's primacy over strength shows the chain of dependence the Lord has built."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स योऽन्नं ब्रह्मेत्युपास्तेऽन्नवतो वै स लोकान्पानवतोऽभिसिध्यति यावदन्नस्य गतं तत्रास्य यथाकामचारो भवति योऽन्नं ब्रह्मेत्युपास्तेऽस्ति भगवोऽन्नाद्भूय इत्यन्नाद्वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ २ ॥",
+              "iast": "sa yo 'nnaṃ brahmety upāste 'nnavato vai sa lokān pānavato 'bhisidhyati yāvad annasya gataṃ tatrāsya yathākāmacāro bhavati yo 'nnaṃ brahmety upāste 'sti bhagavo 'nnād bhūya ity annād vāva bhūyo 'stīti tan me bhagavān bravītv iti || 2 ||",
+              "english_translation": "'He who meditates on food as Brahman attains worlds rich in food and drink. He gains free movement as far as food reaches — he who meditates on food as Brahman.' — 'Is there, revered sir, anything greater than food?' — 'There is indeed something greater than food.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "Food in turn is born — of water.",
+                "vishishtadvaita": "The chain of sustenance climbs on.",
+                "dvaita_vedanta": "Each material cause yields to its prior."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 10,
+          "title": "Water (Āpas) — Greater than Food",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "आपो वावान्नाद्भूयस्यस्तस्माद्यदा सुवृष्टिर्न भवति व्याधीयन्ते प्राणा अन्नं कनीयो भविष्यतीत्यथ यदा सुवृष्टिर्भवत्यानन्दिनः प्राणा भवन्त्यन्नं बहु भविष्यतीत्याप एवेमा मूर्ता येयं पृथिवी यदन्तरिक्षं यद्द्यौर्यत्पर्वता यद्देवमनुष्या यत्पशवश्च वयांसि च तृणवनस्पतयः श्वापदान्याकीटपतङ्गपिपीलकमाप एवेमा मूर्ता अप उपास्स्वेति ॥ १ ॥",
+              "iast": "āpo vāvānnād bhūyasyas tasmād yadā suvṛṣṭir na bhavati vyādhīyante prāṇā annaṃ kanīyo bhaviṣyatīty atha yadā suvṛṣṭir bhavaty ānandinaḥ prāṇā bhavanty annaṃ bahu bhaviṣyatīty āpa evemā mūrtā yeyaṃ pṛthivī yad antarikṣaṃ yad dyaur yat parvatā yad devamanuṣyā yat paśavaś ca vayāṃsi ca tṛṇavanaspatayaḥ śvāpadāny ākīṭapataṅgapipīlakam āpa evemā mūrtā apa upāssveti || 1 ||",
+              "english_translation": "'Water, verily, is greater than food. Therefore when good rain does not fall, living beings sicken, thinking \"food will grow scarce\"; but when good rain falls, living beings rejoice, thinking \"food will be plentiful\". Water indeed, taking solid form, is this earth, the mid-region, heaven, the mountains, gods and men, beasts and birds, grasses and trees, animals down to worms, insects, and ants — water indeed is all these forms. Meditate on water.'",
+              "commentaries": {
+                "advaita_vedanta": "All solidity is condensed water — the moods of all creatures swing with the rains; the ladder is also a meditation on dependence.",
+                "vishishtadvaita": "The Lord's waters take all these shapes; joy and famine hang on His pouring.",
+                "dvaita_vedanta": "Water's shaping power operates under the Rain-giver's command."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स योऽपो ब्रह्मेत्युपास्त आप्नोति सर्वान्कामांस्तृप्तिमान्भवति यावदपां गतं तत्रास्य यथाकामचारो भवति योऽपो ब्रह्मेत्युपास्तेऽस्ति भगवोऽद्भ्यो भूय इत्यद्भ्यो वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ २ ॥",
+              "iast": "sa yo 'po brahmety upāsta āpnoti sarvān kāmāṃs tṛptimān bhavati yāvad apāṃ gataṃ tatrāsya yathākāmacāro bhavati yo 'po brahmety upāste 'sti bhagavo 'dbhyo bhūya ity adbhyo vāva bhūyo 'stīti tan me bhagavān bravītv iti || 2 ||",
+              "english_translation": "'He who meditates on water as Brahman obtains all his desires and becomes satisfied. He gains free movement as far as water reaches — he who meditates on water as Brahman.' — 'Is there, revered sir, anything greater than water?' — 'There is indeed something greater than water.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "Water itself is first shown — by fire.",
+                "vishishtadvaita": "The chain rises toward the luminous.",
+                "dvaita_vedanta": "Higher causes beckon."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 11,
+          "title": "Fire (Tejas) — Greater than Water",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "तेजो वावाद्भ्यो भूयस्तद्वा एतद्वायुमागृह्याकाशमभितपति तदाहुर्निशोचति निदाघति वर्षिष्यति वा इति तेज एव तत्पूर्वं दर्शयित्वाथापः सृजते तदेतदूर्ध्वाभिश्च तिरश्चीभिश्च विद्युद्भिराह्रादाश्चरन्ति तस्मादाहुर्विद्योतते स्तनयति वर्षिष्यति वा इति तेज एव तत्पूर्वं दर्शयित्वाथापः सृजते तेज उपास्स्वेति ॥ १ ॥",
+              "iast": "tejo vāvādbhyo bhūyas tad vā etad vāyum āgṛhyākāśam abhitapati tad āhur niśocati nidāghati varṣiṣyati vā iti teja eva tat pūrvaṃ darśayitvāthāpaḥ sṛjate tad etad ūrdhvābhiś ca tiraścībhiś ca vidyudbhir āhrādāś caranti tasmād āhur vidyotate stanayati varṣiṣyati vā iti teja eva tat pūrvaṃ darśayitvāthāpaḥ sṛjate teja upāssveti || 1 ||",
+              "english_translation": "'Fire, verily, is greater than water. Seizing the wind, it heats the air; then people say: \"It is sultry, it is scorching hot — it will rain!\" Fire thus shows itself first and then creates the waters. Then with lightnings flashing upward and across, thunders roll; therefore people say: \"It lightens, it thunders — it will rain!\" Fire shows itself first and then creates the waters. Meditate on fire.'",
+              "commentaries": {
+                "advaita_vedanta": "Heat precedes and produces rain: fire fathers the waters, as in the creation sequence of Chapter 6.",
+                "vishishtadvaita": "The Lord's fire heralds and births His rains — weather as His visible liturgy.",
+                "dvaita_vedanta": "Fire's precedence over water reflects the created order's fixed ranks."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स यस्तेजो ब्रह्मेत्युपास्ते तेजस्वी वै स तेजस्वतो लोकान्भास्वतोऽपहततमस्कानभिसिध्यति यावत्तेजसो गतं तत्रास्य यथाकामचारो भवति यस्तेजो ब्रह्मेत्युपास्तेऽस्ति भगवस्तेजसो भूय इति तेजसो वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ २ ॥",
+              "iast": "sa yas tejo brahmety upāste tejasvī vai sa tejasvato lokān bhāsvato 'pahatatamaskān abhisidhyati yāvat tejaso gataṃ tatrāsya yathākāmacāro bhavati yas tejo brahmety upāste 'sti bhagavas tejaso bhūya iti tejaso vāva bhūyo 'stīti tan me bhagavān bravītv iti || 2 ||",
+              "english_translation": "'He who meditates on fire as Brahman, becoming radiant himself, attains radiant, shining worlds free of darkness. He gains free movement as far as fire reaches — he who meditates on fire as Brahman.' — 'Is there, revered sir, anything greater than fire?' — 'There is indeed something greater than fire.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "Beyond fire, its field: space.",
+                "vishishtadvaita": "Radiance leads to the expanse that holds it.",
+                "dvaita_vedanta": "Fire too has its greater."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 12,
+          "title": "Space (Ākāśa) — Greater than Fire",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "आकाशो वाव तेजसो भूयानाकाशे वै सूर्याचन्द्रमसावुभौ विद्युन्नक्षत्राण्यग्निराकाशेनाह्वयत्याकाशेन शृणोत्याकाशेन प्रतिशृणोत्याकाशे रमत आकाशे न रमत आकाशे जायत आकाशमभिजायत आकाशमुपास्स्वेति ॥ १ ॥",
+              "iast": "ākāśo vāva tejaso bhūyān ākāśe vai sūryācandramasāv ubhau vidyun nakṣatrāṇy agnir ākāśenāhvayaty ākāśena śṛṇoty ākāśena pratiśṛṇoty ākāśe ramata ākāśe na ramata ākāśe jāyata ākāśam abhijāyata ākāśam upāssveti || 1 ||",
+              "english_translation": "'Space, verily, is greater than fire. In space are both sun and moon, lightning, stars, and fire. Through space one calls, through space one hears, through space one answers; in space one rejoices, in space one sorrows; in space one is born, and toward space all things grow. Meditate on space.'",
+              "commentaries": {
+                "advaita_vedanta": "Space holds the luminaries and all converse, joy, and birth — the subtlest element, last veil before the inner powers.",
+                "vishishtadvaita": "The Lord's pervasive expanse cradles all lights and all lives.",
+                "dvaita_vedanta": "Space's containing greatness still serves a greater within."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य आकाशं ब्रह्मेत्युपास्त आकाशवतो वै स लोकान्प्रकाशवतोऽसंबाधानुरुगायवतोऽभिसिध्यति यावदाकाशस्य गतं तत्रास्य यथाकामचारो भवति य आकाशं ब्रह्मेत्युपास्तेऽस्ति भगव आकाशाद्भूय इत्याकाशाद्वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ २ ॥",
+              "iast": "sa ya ākāśaṃ brahmety upāsta ākāśavato vai sa lokān prakāśavato 'saṃbādhān urugāyavato 'bhisidhyati yāvad ākāśasya gataṃ tatrāsya yathākāmacāro bhavati ya ākāśaṃ brahmety upāste 'sti bhagava ākāśād bhūya ity ākāśād vāva bhūyo 'stīti tan me bhagavān bravītv iti || 2 ||",
+              "english_translation": "'He who meditates on space as Brahman attains spacious, luminous, unconfined, wide-ranging worlds. He gains free movement as far as space reaches — he who meditates on space as Brahman.' — 'Is there, revered sir, anything greater than space?' — 'There is indeed something greater than space.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "Now the ladder turns inward — from the outer elements to memory, the inner light on the past.",
+                "vishishtadvaita": "From the outermost expanse to the soul's own faculties — the Lord nearer with each step.",
+                "dvaita_vedanta": "The exterior exhausted, the interior ascent begins."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 13,
+          "title": "Memory (Smara) — Greater than Space",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "स्मरो वावाकाशाद्भूयस्तस्माद्यद्यपि बहव आसीरन्न स्मरन्तो नैव ते कंचन शृणुयुर्न मन्वीरन्न विजानीरन्यदा वाव ते स्मरेयुरथ शृणुयुरथ मन्वीरन्नथ विजानीरन्स्मरेण वै पुत्रान्विजानाति स्मरेण पशून्स्मरमुपास्स्वेति ॥ १ ॥",
+              "iast": "smaro vāvākāśād bhūyas tasmād yady api bahava āsīran na smaranto naiva te kaṃcana śṛṇuyur na manvīran na vijānīran yadā vāva te smareyur atha śṛṇuyur atha manvīrann atha vijānīran smareṇa vai putrān vijānāti smareṇa paśūn smaram upāssveti || 1 ||",
+              "english_translation": "'Memory, verily, is greater than space. Therefore, even if many were assembled, if they had no memory they would hear no one, think of no one, understand no one. But when they remember, then they hear, then they think, then they understand. By memory one knows one's sons, by memory one's cattle. Meditate on memory.'",
+              "commentaries": {
+                "advaita_vedanta": "Without memory the vast outer world is as nothing: recognition is the thread of all experience. The inner outranks the outer however immense.",
+                "vishishtadvaita": "Memory binds life into meaning; remembrance of the Lord (smaraṇa) is its highest use.",
+                "dvaita_vedanta": "Smara's superiority to space exalts the inner faculties the Lord directly superintends."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स यः स्मरं ब्रह्मेत्युपास्ते यावत्स्मरस्य गतं तत्रास्य यथाकामचारो भवति यः स्मरं ब्रह्मेत्युपास्तेऽस्ति भगवः स्मराद्भूय इति स्मराद्वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ २ ॥",
+              "iast": "sa yaḥ smaraṃ brahmety upāste yāvat smarasya gataṃ tatrāsya yathākāmacāro bhavati yaḥ smaraṃ brahmety upāste 'sti bhagavaḥ smarād bhūya iti smarād vāva bhūyo 'stīti tan me bhagavān bravītv iti || 2 ||",
+              "english_translation": "'He who meditates on memory as Brahman gains free movement as far as memory reaches — he who meditates on memory as Brahman.' — 'Is there, revered sir, anything greater than memory?' — 'There is indeed something greater than memory.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "Memory looks back; hope looks forward — and kindles memory itself.",
+                "vishishtadvaita": "Beyond recall stands aspiration.",
+                "dvaita_vedanta": "The ladder mounts to hope."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 14,
+          "title": "Hope (Āśā) — Greater than Memory",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "आशा वाव स्मराद्भूयस्याशेद्धो वै स्मरो मन्त्रानधीते कर्माणि कुरुते पुत्रांश्च पशूंश्चेच्छत इमं च लोकममुं चेच्छत आशामुपास्स्वेति ॥ १ ॥",
+              "iast": "āśā vāva smarād bhūyasy āśeddho vai smaro mantrān adhīte karmāṇi kurute putrāṃś ca paśūṃś cecchata imaṃ ca lokam amuṃ cecchata āśām upāssveti || 1 ||",
+              "english_translation": "'Hope, verily, is greater than memory. Kindled by hope, memory studies the mantras, performs rites, desires sons and cattle, desires this world and that. Meditate on hope.'",
+              "commentaries": {
+                "advaita_vedanta": "Hope is the fire under every effort — memory itself works only when hope lights it. Desire-for-the-beyond, purified, becomes the desire for liberation (mumukṣutva).",
+                "vishishtadvaita": "Aspiration moves all endeavour; directed to the Lord it becomes the longing that He rewards with Himself.",
+                "dvaita_vedanta": "Right hope — fixed on the Lord — animates study and rite alike."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य आशां ब्रह्मेत्युपास्त आशयास्य सर्वे कामाः समृध्यन्त्यमोघा हास्याशिषो भवन्ति यावदाशाया गतं तत्रास्य यथाकामचारो भवति य आशां ब्रह्मेत्युपास्तेऽस्ति भगव आशाया भूय इत्याशाया वाव भूयोऽस्तीति तन्मे भगवान्ब्रवीत्विति ॥ २ ॥",
+              "iast": "sa ya āśāṃ brahmety upāsta āśayāsya sarve kāmāḥ samṛdhyanty amoghā hāsyāśiṣo bhavanti yāvad āśāyā gataṃ tatrāsya yathākāmacāro bhavati ya āśāṃ brahmety upāste 'sti bhagava āśāyā bhūya ity āśāyā vāva bhūyo 'stīti tan me bhagavān bravītv iti || 2 ||",
+              "english_translation": "'He who meditates on hope as Brahman — by hope all his desires prosper, and his prayers are never vain. He gains free movement as far as hope reaches — he who meditates on hope as Brahman.' — 'Is there, revered sir, anything greater than hope?' — 'There is indeed something greater than hope.' — 'Tell it to me, revered sir.'",
+              "commentaries": {
+                "advaita_vedanta": "One rung remains before the summit-question: what is hope's own life?",
+                "vishishtadvaita": "Aspiration lives by the life within — prāṇa, and prāṇa's Lord.",
+                "dvaita_vedanta": "Hope hangs on life; life on its Giver."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 15,
+          "title": "Prāṇa — The Hub of All; the Ativādin",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "प्राणो वा आशाया भूयान्यथा वा अरा नाभौ समर्पिता एवमस्मिन्प्राणे सर्वं समर्पितं प्राणः प्राणेन याति प्राणः प्राणं ददाति प्राणाय ददाति प्राणो ह पिता प्राणो माता प्राणो भ्राता प्राणः स्वसा प्राण आचार्यः प्राणो ब्राह्मणः ॥ १ ॥",
+              "iast": "prāṇo vā āśāyā bhūyān yathā vā arā nābhau samarpitā evam asmin prāṇe sarvaṃ samarpitaṃ prāṇaḥ prāṇena yāti prāṇaḥ prāṇaṃ dadāti prāṇāya dadāti prāṇo ha pitā prāṇo mātā prāṇo bhrātā prāṇaḥ svasā prāṇa ācāryaḥ prāṇo brāhmaṇaḥ || 1 ||",
+              "english_translation": "'The life-breath, verily, is greater than hope. As the spokes are fastened to the hub, so is everything fastened to this life-breath. Life moves by life; life gives life; it gives to life. Life is the father, life the mother, life the brother, life the sister, life the teacher, life the brāhmaṇa.",
+              "commentaries": {
+                "advaita_vedanta": "The wheel image crowns the ladder's first ascent: all sixteen spokes are fixed in prāṇa, the hub. For Śaṅkara, prāṇa here verges on the Self whose mere presence animates every relation — father and mother are such only while life dwells in them.",
+                "vishishtadvaita": "All relations are relations to the life within them — and that life is the Lord's immediate vesture; honouring prāṇa, one honours the indwelling sustainer of every kin.",
+                "dvaita_vedanta": "Madhva: Mukhya-prāṇa is the hub of created existence, the Lord's vicegerent in every body; all family and station subsist by him under Viṣṇu."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स यदि पितरं वा मातरं वा भ्रातरं वा स्वसारं वाचार्यं वा ब्राह्मणं वा किंचिद्भृशमिव प्रत्याह धिक्त्वास्त्वित्येवैनमाहुः पितृहा वै त्वमसि मातृहा वै त्वमसि भ्रातृहा वै त्वमसि स्वसृहा वै त्वमस्याचार्यहा वै त्वमसि ब्राह्मणहा वै त्वमसीति ॥ २ ॥",
+              "iast": "sa yadi pitaraṃ vā mātaraṃ vā bhrātaraṃ vā svasāraṃ vācāryaṃ vā brāhmaṇaṃ vā kiṃcid bhṛśam iva pratyāha dhik tvāstv ity evainam āhuḥ pitṛhā vai tvam asi mātṛhā vai tvam asi bhrātṛhā vai tvam asi svasṛhā vai tvam asy ācāryahā vai tvam asi brāhmaṇahā vai tvam asīti || 2 ||",
+              "english_translation": "'If one answers harshly, as it were, a father or mother, a brother or sister, a teacher or a brāhmaṇa, people say to him: \"Shame on you! You are a slayer of your father, a slayer of your mother, a slayer of your brother, a slayer of your sister, a slayer of your teacher, a slayer of a brāhmaṇa!\"',",
+              "commentaries": {
+                "advaita_vedanta": "While life informs them, persons are sacred — offence against the living is offence against life itself.",
+                "vishishtadvaita": "Reverence is owed to the indwelling life; harshness wounds the Lord's residence.",
+                "dvaita_vedanta": "The living temple commands respect for the sake of its inhabitant."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अथ यद्यप्येनानुत्क्रान्तप्राणाञ्छूलेन समासं व्यतिषंदहेन्नैवैनं ब्रूयुः पितृहासीति न मातृहासीति न भ्रातृहासीति न स्वसृहासीति नाचार्यहासीति न ब्राह्मणहासीति ॥ ३ ॥",
+              "iast": "atha yady apy enān utkrāntaprāṇāñ chūlena samāsaṃ vyatiṣaṃdahen naivainaṃ brūyuḥ pitṛhāsīti na mātṛhāsīti na bhrātṛhāsīti na svasṛhāsīti nācāryahāsīti na brāhmaṇahāsīti || 3 ||",
+              "english_translation": "'But if, after the life-breath has departed from them, one should heap their bodies on a pyre with a poker and burn them up, no one would say: \"You are a slayer of your father... or a slayer of a brāhmaṇa.\"',",
+              "commentaries": {
+                "advaita_vedanta": "The corpse proves the point: the father was never the body but the life in it. Personhood resides in prāṇa, not flesh.",
+                "vishishtadvaita": "Departed of its indweller, the frame is mere matter; the sacredness travelled with the life.",
+                "dvaita_vedanta": "All honour belonged to the inhabitant — vivid proof of the soul's primacy over its house."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "प्राणो ह्येवैतानि सर्वाणि भवति स वा एष एवं पश्यन्नेवं मन्वान एवं विजानन्नतिवादी भवति तं चेद्ब्रूयुरतिवाद्यसीत्यतिवाद्यस्मीति ब्रूयान्नापह्नुवीत ॥ ४ ॥",
+              "iast": "prāṇo hy evaitāni sarvāṇi bhavati sa vā eṣa evaṃ paśyann evaṃ manvāna evaṃ vijānann ativādī bhavati taṃ ced brūyur ativādy asīty ativādy asmīti brūyān nāpahnuvīta || 4 ||",
+              "english_translation": "'For the life-breath alone is all these. He who sees thus, thinks thus, understands thus becomes a surpassing speaker (ativādin). If people say to him, \"You are a surpassing speaker,\" let him say, \"I am a surpassing speaker\" — let him not deny it.",
+              "commentaries": {
+                "advaita_vedanta": "He who knows the hub may speak beyond all partial speakers. Yet Śaṅkara flags the sequel: the true ativādin is the one who surpasses even this — by truth. The ladder's first summit opens onto a higher stair.",
+                "vishishtadvaita": "Knowledge of the universal life licenses great speech; greater still is speech grounded in the Truth above life — the Lord.",
+                "dvaita_vedanta": "The knower of prāṇa outspeaks all; but the next khaṇḍas point past the minister to the Master."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

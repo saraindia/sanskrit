@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 19: Chapter 2, Section 7. The Fivefold Sāman Meditation on the Vital Breaths (Prāṇeṣu Pañcavidha Sāmopāsanam). This section moves the locus of meditation from external nature to the internal physiological macrocosm, mapping the five vital breaths or life-forces onto the five structural components of the Sāman chant.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 7,
+          "title": "The Fivefold Sāman Meditation on the Vital Breaths",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "प्राणेषु पञ्चविधं सामोपासीत प्राणो हिंकारो वाक्प्रस्तावश्चक्षुरुद्गीथः श्रोत्रं प्रतिहारोऽपानो निधनम् ॥ १ ॥",
+              "iast": "prāṇeṣu pañcavidaṃ sāmopāsieta prāṇo hiṃkāro vākprastāvaścakṣurudgīthaḥ śrotraṃ pratihāro'pāno nidhanam || 1 ||",
+              "english_translation": "One should meditate on the fivefold Sāman in the vital breaths. The breath that moves outward (Prāṇa) is the introductory syllable 'Hiṃ'; speech (Vāk) is the introductory praise (Prastāva); the eye (Cakṣus) is the loud chant (Udgītha); the ear (Śrotram) is the response (Pratihāra); and the downward breath (Apāna) is the finale (Nidhana).",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that having purified the external senses by finding the Sāman in the worlds, rain, waters, seasons, and animals, the Upanishad now turns inward to the bodily life-forces (*prāṇas*). The primary forward breath (*prāṇaḥ*) is mapped to *Hiṃkāra* because it is the initial gateway and first indicator of organic life. Speech (*vāk*) is the *Prastāva* because all formal introductions, praises, and ritual announcements are brought forth by speech. The eye (*cakṣus*) is identified with the *Udgītha* because of its supreme, dominant position among the senses—it reveals the light of the sun and commands the highest informational value, matching the pre-eminent status of *Udgītha*. The ear (*śrotram*) represents the *Pratihāra* because it collects sound waves coming from all directions and holds them in check. Finally, the downward, anchoring breath (*apānaḥ*) acts as the *Nidhana* because it serves as the bodily repository and lower stabilizing center where waste and energy are safely returned and collected.",
+                "vishishtadvaita": "Raṅgarāmānuja structuralizes this somatic mapping to show that the human body is a functioning temple of the Divine Engine (*antaryāmin*). The organs of sense and action do not belong to the ego; they are functional instruments vibrating in a coordinated, sacred hymn. Recognizing the Sāman inside the vital breaths transforms ordinary biological maintenance into a profound, continuous act of silent liturgical worship.",
+                "dvaita_vedanta": "Madhvācārya explains that the internal physiological functions are administered by specific *Devatās* operating under the supreme authority of the principal life-force, Prāṇa, who itself acts as the prime minister to Lord Viṣṇu. The division of breaths and senses highlights the dependent nature of the individual self (*jīva*). Meditating on this fivefold setup destroys the false pride of 'I-ness' and 'my-ness' relative to the body, keeping the devotee anchored in the reality that God is the ultimate animator of human life."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "सर्वं हास्यैतदायुर्भवति ज्योग्जीवति महान्प्रजया पशुभिर्भवति महान्कीर्त्या प्राणान्प्रति मुञ्चेत् ॥ २ ॥",
+              "iast": "sarvaṃ hāsyaitadāyurbhavati jyogjīvati mahān prajayā paśubhirbhavati mahān kīrtyā prāṇānprati muñcet || 2 ||",
+              "english_translation": "He who knows this truth and meditates on the fivefold Sāman in the vital breaths attains a full lifespan, lives resplendently, becomes great with progeny and cattle, and grows magnificent in spiritual renown. One should never look down upon or deprecate the vital breaths; that is the sacred vow.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the precise somatic reward (*Phala*). To live *sarvaṃ āyuḥ* means completing a healthy, unimpeded human life (traditionally one hundred years), free from premature decay. Because the mind is synchronized with the natural flow of bodily vitality, the practitioner lives radiantly (*jyok*). Furthermore, the verse institutes a life-long behavioral vow: *prāṇān na nindet* (one should never deprecate or curse the biological processes or systems of life). Rejecting, hating, or insulting the body's natural mechanics is a violation of the cosmic Sāman layout.",
+                "vishishtadvaita": "The school emphasizes that the spiritual reputation (*kīrti*) mentioned here is the fragrance of a holy life, entirely dedicated to the Lord. The vow to never despise the vital forces ensures that the devotee maintains deep gratitude for the physical frame. They do not abuse it through extreme asceticism or careless indulgence, treating it instead as an essential, sanctified vehicle given by God to achieve liberation.",
+                "dvaita_vedanta": "According to Madva, the physical and lineage blessings (children, livestock, fame) are manifestations of the grace of Mukhyaprāṇa (the chief life-force) and Lord Viṣṇu. The strict vow to avoid insulting the vital breaths means recognizing that every intake of breath is an act of divine mercy. This constant awareness protects the seeker from depression, despair, and spiritual negligence, granting them full vitality to serve God through their entire allotted time on earth."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

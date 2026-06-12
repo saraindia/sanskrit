@@ -1,0 +1,74 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 3: Chapter 1, Section 4. Focusing on the esoteric meaning of the syllables of Udgītha and taking refuge in immortality.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_1": {
+      "sections": [
+        {
+          "section_number": 4,
+          "title": "Taking Refuge in the Syllable OM for Immortality",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "ओमित्येतदक्षरमुद्गीथमुपासीतोमिति ह्युद्गायति तस्योपव्याख्यानम् ॥ १ ॥",
+              "iast": "omityetadakṣaramudgīthamupāsīta | omiti hyudgāyati tasyopavyākhyānam || 1 ||",
+              "english_translation": "One should meditate on the syllable 'OM' as the Udgītha, for one sings the loud chant beginning with OM. Of this syllable, the close explanation continues.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that this repetition from the very first verse of the Upanishad is not redundant; it serves to introduce a completely new layer of meditation (*upāsanā-antara*). Having previously established OM through its cosmic relations (the Sun) and physiological properties (Vyāna), the text now shifts to explaining how the meditation on OM grants absolute fearlessness and immortality by detaching the seeker from the domain of ritual action.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that the re-introduction emphasizes the absolute centrality of this name of God. It ensures that while the student learns various secondary properties of meditation, their primary focus remains anchored on the syllable OM as the direct vehicle for connecting with the Supreme Person (*Purūṣottamā*).",
+                "dvaita_vedanta": "Madhvācārya explains that the repetition signals a shift in the hierarchy of meditation. The text is moving from the worship of the external limbs of ritual toward a deeper structural understanding of the immutable Lord (*Akṣara*) who lives within the phonetic sound of the Udgītha."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "देवा वै मृत्योर्बिभ्यतस्त्रयीं विद्यां प्राविशंस्ते छन्दोभिरच्छादयन्यदेभिरच्छादयंस्तच्छन्दसां छन्दस्त्वम् ॥ २ ॥",
+              "iast": "devā vai mṛtyorbibhyatastrayīṃ vidyāṃ prāviśaṃste chandobhiracchādayanyadebhiracchādayanstacchandasāṃ chandastvam || 2 ||",
+              "english_translation": "The Devas (gods), fearing death, entered upon the threefold knowledge (the three Vedas). They covered themselves with the sacred meters (Chandas). Because they covered themselves with these, the meters are called 'Chandas'.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara unpacks the profound etymology of *Chandas* (meters) from the root *chad*, meaning 'to cover' or 'to shield'. The Devas represents souls who are afraid of mortality and change. They took refuge in the mechanical performance of Vedic sacrifices (*Trayī Vidyā*), wrapping themselves in the technical perfection of poetic meters to escape death. However, Shankara points out that ritual action can only provide temporary protection; it masks mortality but does not cure it.",
+                "vishishtadvaita": "The school explains that the Devas sought shelter in the liturgical actions ordained by the Lord in the early portions of the Vedas. The sacred meters act as a defensive armor against the karmic forces of decay, showing that scriptural discipline is the first, necessary layer of defense against spiritual degradation.",
+                "dvaita_vedanta": "Madhva interprets the 'covering' as a layer of divine protection granted by the specific deities who reside over the Vedic meters. The Devas sought refuge in these subordinate cosmic structures to escape the influence of the death-deity, but this protection remains relative and conditional within the material universe."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "तानु तिथे मृत्युर्मत्स्यमिवोदके परिपश्येदेवमृचि साम्नि यजुषि परिपश्यत्युत्थाय ते त्रय्या विद्यायाः स्वरमेव प्राविशन् ॥ ३ ॥",
+              "iast": "tānu tithe mṛtyurmatsyamivodake paripaśyedevamṛci sāmni yajuṣi paripaśyatyutthāya te trayyā vidyāyāḥ svarameva prāviṣan || 3 ||",
+              "english_translation": "Just as a fisherman might spot a fish in shallow water, Death saw the Devas hidden within the Rigveda, the Sāmaveda, and the Yajurveda. Discovering this, the Devas rose above the threefold knowledge and entered straight into Sound (Svara) — into OM itself.",
+              "commentaries": {
+                "advaita_vedanta": "A dramatic metaphor. Shankara writes that Death can easily catch anyone whose spiritual practice is limited to external rituals, just like a fisherman nets a fish through clear water. Rituals (*Karma*) belong to the world of names, forms, and results — which means they are inherently finite. Realizing that the three Vedas could not save them from cosmic time, the Devas dropped the external mechanics and entered *Svara* (OM). In Advaita, moving from the three Vedas to OM means transitioning from transactional ritualism to non-dual, meditative absorption.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that external works without deep internal devotion are transparent to the forces of worldly bondage. The Devas had to shift their awareness from the external, sacrificial formulas (*Karma-Kāṇḍa*) directly into the inner sonic nucleus of the scriptures — the sacred name OM — which connects the soul directly to the immortal protection of Nārāyaṇa.",
+                "dvaita_vedanta": "Madhva explains that Death (*Mṛtyu*) has authority over all entities bound to material actions and outer forms. When the Devas rose above the external text and entered *Svara*, they were taking refuge in the Supreme Controller who commands Death. OM is the innermost chamber of divine power where the limitations of time and matter cannot enter."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "यदा वा ऋचमाप्नोत्योमित्येवातिस्वरत्येवं सामैवं यजुरेष उ स्वरो यदेतदक्षरमेतदमृतमभयं तत्प्रविश्य देवा अमृता अभया अभवन् ॥ ४ ॥",
+              "iast": "yadā vā ṛcamāpnotyōmityevātisvaratyevaṃ sāmaivaṃ yajureṣa u svaro yadetadakṣarametadamṛtamabhayaṃ tatpraviśya devā amṛtā abhayā abhavan || 4 ||",
+              "english_translation": "When a person recites a verse of the Rigveda, they finish by sounding 'OM'; so do they with the Sāmaveda and the Yajurveda. This OM is that Sound; it is the Imperishable, the Immortal, the Fearless. By entering into it, the Devas became immortal and fearless.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara highlights that OM is the common seal and termination of all scriptural speech. The words 'entering into it' (*tat-praviśya*) are critical for Advaita: it means the complete dissolution of individual identity into the sound-less reality behind OM. By meditating on OM as the unshakeable substrate of the universe, the seeker loses their egoic vulnerability. Since fear only arises from a sense of separate duality, realizing oneness with this imperishable syllable brings absolute fearlessness (*Abhayam*).",
+                "vishishtadvaita": "To enter OM means to align the soul's total will with the divine name, achieving close communion with the Lord. Raṅgarāmānuja explains that immortality (*Amṛtatvam*) and fearlessness are qualities belonging to the divine realm (*Vaikuṇṭha*), which are granted to the soul the moment it abandons reliance on its own egoic efforts and surrenders completely to the divine name.",
+                "dvaita_vedanta": "Madhva maintains that 'entering' means obtaining deep conceptual knowledge of and steady devotion to the Lord within OM. The Devas did not blend into or dissolve their individual identities; rather, they found an unshakeable safe haven. By recognizing Lord Viṣṇu as the source of all Vedic sounds, they were saved from the cycle of birth and death by His absolute, independent grace."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "स य एतदेवं विद्वानक्षरं प्रणौत्येतदेवाक्षरममृतमभयं प्रविशति तत्प्रविश्य यदमृता देवास्तदमृतो भवति ॥ ५ ॥",
+              "iast": "sa ya etadevaṃ vidvānakṣaraṃ praṇōtyetadēvākṣaramamṛtamabhayaṃ praviśati tatpraviśya yadamṛtā devāstadamṛto bhavati || 5 ||",
+              "english_translation": "He who, knowing this thus, praises this Imperishable Syllable, enters this very same Immortal and Fearless sound. Entering it, he becomes immortal, just as the Devas became immortal.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara concludes by showing that spiritual liberation is completely democratic: it is not reserved for ancient cosmic gods. Anyone who possesses the exact same internal realization (*etad evaṃ vidvān*) can achieve the exact same state of immortality. The knowledge of the real nature of OM acts as the flame that burns away the illusion of death, turning a mortal human being into the deathless Brahman here and now.",
+                "vishishtadvaita": "The verse guarantees that the path of divine meditation is open to any sincere seeker. True knowledge is not book learning; it is the deep, experiential realization that the sacred syllable is the home of the Lord. The reward of this continuous meditation is eternal service in the divine presence, free from the anxieties of the material world.",
+                "dvaita_vedanta": "Madhva notes that the phrase 'knowing this thus' proves that mere mechanical chanting of OM yields limited results. True spiritual efficacy requires a clear, systematic understanding of the cosmic hierarchies and the supreme independence of Viṣṇu. When a human soul gains this insight, they are granted the same status of liberation (*Mukti*) enjoyed by the higher Devas."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

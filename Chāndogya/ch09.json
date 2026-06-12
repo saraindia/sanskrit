@@ -1,0 +1,107 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 9: Chapter 1, Section 10. The narrative of Sage Uṣasti Cākrāyaṇa; a severe famine forces him to migrate, highlighting the principles of emergency duties (Āpaddharma) and the deep validation of ritual chanting elements.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_1": {
+      "sections": [
+        {
+          "section_number": 10,
+          "title": "The Story of Uṣasti Cākrāyaṇa and the Emergency Consumption of Scraps",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "मटचीहतेषु कुरुषु आटक्या सह जायया उषस्तिर्ह चाक्रायण इभ्यग्रामे प्रद्राणक उवास ॥ १ ॥",
+              "iast": "maṭacīhateṣu kuruṣu āṭakyā saha jāyayā uṣastirha cākrāyaṇa ibhyagrāme pradrāṇaka uvāsa || 1 ||",
+              "english_translation": "When the crops in the Kuru country were destroyed by locusts (or a severe hailstorm), Uṣasti Cākrāyaṇa, living in a state of extreme poverty, lived in the village of a wealthy elephant-owner with his very young wife.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara notes that the text switches to a historical narrative (*Ākhyāyikā*) to make the difficult doctrine of meditation accessible and to illustrate a crucial moral exception: *Āpaddharma* (righteous action during times of extreme emergency). The term *maṭacī* refers to locusts or a devastating frost that wiped out the food supply. Even a highly realized sage like Uṣasti is subject to the physical biological pressures of the material world, showing that until the body drops, the physical vehicle must be kept alive, even under humbling social conditions.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that this narrative shows that external circumstances do not change the internal spiritual wealth of a true sage. Although Uṣasti was reduced to living as a wanderer in a wealthy village (*ibhyagrāme*), his spiritual status remained untouched. It highlights that the material world fluctuates, but the devotion of a knower of God remains steady.",
+                "dvaita_vedanta": "Madhvācārya points out that this famine was an expression of divine cosmic adjustments. The suffering of the Kurus serves as a background to show how a true representative of God preserves his life and maintains his spiritual focus even when traditional, clean options are completely unavailable."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स हेभ्यं कुल्माषान्खादन्तं बिभिक्षे तं होवाच नेतोऽन्ये विद्यन्ते य इम एवेम उपनिहिता इति ॥ २ ॥",
+              "iast": "sa hebhyaṃ kulmāṣānkhādantaṃ bibhikṣe taṃ hovāca neto'nye vidyante ya ima evema upanihitā iti || 2 ||",
+              "english_translation": "Seeing the elephant-owner eating some low-grade boiled beans (kulmāṣa), Uṣasti begged him for food. The elephant-owner said, 'I have no other food left except these which are placed here before me in my bowl.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the raw reality of the situation. *Kulmāṣa* are cheap, poor-man's beans, flatulent and split. The wealthy elephant-owner himself is down to his last scrap due to the famine. The master of spiritual truths is begging from a wealthy worldly person, showing that the physical body levels all social hierarchies when survival is on the line.",
+                "vishishtadvaita": "The school highlights the compassion and honesty of the householder. Even though he had very little, he did not hide it. He openly showed his bowl, indicating that sharing whatever little one has with a holy person is a path of cleansing, even if the food is humble and half-eaten.",
+                "dvaita_vedanta": "Madhva explains that the elephant-owner's answer was guided by Providence to test Uṣasti's understanding of the cosmic laws of survival. The dialogue sets up a fundamental lesson in spiritual flexibility over external, rigid ritualism."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "एतेषां मे देहीति होवाच तानस्मै प्रददौ हन्तानुपानमित्युच्छिष्टं वै मे पीतँ स्यादिति होवाच ॥ ३ ॥",
+              "iast": "eteṣāṃ me dehīti hovāca tānasmai pradadau hantānupānamityucchṣṭaṃ vai me pītaṃ syāditi hovāca || 3 ||",
+              "english_translation": "Uṣasti said, 'Give me some of those.' The man gave them to him and then said, 'Here is some water in this cup for you to drink.' Uṣasti replied, 'If I drank that, I would be drinking your leftover, defiled water (ucchṣṭa).'",
+              "commentaries": {
+                "advaita_vedanta": "A profound logical tension emerges here. Shankara explains that Uṣasti gladly accepted the defiled, half-eaten beans (*ucchṣṭa*), but flatly refused the water. The elephant-owner is confused and challenges him. This action prepares the student for the next verse, which reveals the exact boundary line between rational self-preservation and unnecessary ritual rule-breaking.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that the sage acts with careful discrimination. He accepts the food because it is a life-or-death situation, but his refusal of the water demonstrates that a spiritual person does not abandon all discipline or cleanliness. They only compromise on what is absolutely necessary to stay alive.",
+                "dvaita_vedanta": "According to Madva, the sage's behavior shows that even during emergencies, a devotee respects the cosmic purity scales. Water was widely available elsewhere, but the unique food energy needed to keep his vital breath (*Prāṇa*) from failing was completely unavailable. Therefore, his choice is based on real biological necessity, not casual laziness."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "न स्विदेतेऽप्युच्छिष्टा इति न वा अजीविष्यमिमानखादन्निति होवाच कामो म उदपानमिति ॥ ४ ॥",
+              "iast": "na svidete'pyucchṣṭā iti na vā ajīviṣyamimānakhādanniti hovāca kāmo ma udapānamiti || 4 ||",
+              "english_translation": "The elephant-owner said, 'But are these beans not also leftovers and defiled?' Uṣasti replied, 'Without eating these beans, I would have died of starvation. But as for drinking water, I can find clean water whenever I wish.'",
+              "commentaries": {
+                "advaita_vedanta": "This is the core pillar of the *Āpaddharma* doctrine in Advaita. Shankara notes that eating defiled food to save your life is not a sin (*Pāpa*), because life is the foundation for all future spiritual practice. If you die of artificial pride, you cannot meditate. However, breaking rules when an easy, clean alternative exists (like finding clean water elsewhere) is driven by sensory craving, which directly damages the clarity of the intellect.",
+                "vishishtadvaita": "The school emphasizes that the preservation of the physical body is sacred because the body is the temple of the indwelling Lord. Uṣasti balances common sense with spiritual rules. He eats the beans to protect his vital energies, but protects his spiritual boundaries by refusing the water because clean water was still accessible.",
+                "dvaita_vedanta": "Madhva delivers a sharp distinction: rules are created to support life and spiritual growth, not to cause destruction. The vital air (*Prāṇa*) belongs to the Lord, and letting it collapse over an external food rule is an insult to the life force inside. The sage's answer sets a clear standard for analyzing priorities during crises."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "स ह खादित्वा अतिशेषाञ्जायाया आजहार सा अग्रत एव सुभिक्षा बभूव सा तान्प्रतिगृह्य निदधौ ॥ ५ ॥",
+              "iast": "sa ha khāditvā atiśeṣāñjāyāyā ājahāra sā agrata eva subhikṣā babhūva sā tānpratigṛhya nidadhau || 5 ||",
+              "english_translation": "Having eaten, Uṣasti took the remaining beans home to his wife. She had already received some food through alms earlier, so she took her husband's gifts and carefully put them away.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara comments on the behavior of the young wife. Being naturally modest and having already satisfied her hunger elsewhere, she does not greedily consume the scraps. Instead, she saves them, showing the domestic harmony and careful planning required to navigate a crisis without losing your dignity.",
+                "vishishtadvaita": "The wife's actions show deep respect for her husband's offering. Even though she wasn't hungry, she recognized the food as a blessing gathered through hardship and stored it safely, illustrating a family lifestyle centered on contentment and resourcefulness.",
+                "dvaita_vedanta": "Madhva treats this moment as a demonstration of family care. The sage’s first instinct after saving his own life is to protect his partner. The storage of the remaining food acts as a bridge for the next day's events, showing how simple actions can set up major spiritual turning points."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "स ह प्रातः संजिहान उवाच यद्वतेदमन्नस्य लभेमहि लभेमहि धनमात्रां राजासौ यक्ष्यते स मा सर्वैर्आर्त्विज्यैर्वृणीतेति ॥ ६ ॥",
+              "iast": "sa ha prātaḥ saṃjihāna uvāca yadvatedamannasya labhemahi labhemahi dhanamātrāṃ rājāsau yakṣyate sa mā sarvairārtvijyairvṛṇīteti || 6 ||",
+              "english_translation": "The next morning, on waking up from sleep, Uṣasti said, 'Alas! If we could only get a small portion of food, we might obtain some wealth. The king nearby is about to perform a great sacrifice; he would surely choose me to direct all the sacrificial duties.'",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the human side of the sage. He needs a burst of physical energy to walk to the sacrifice and claim his rightful place as a top teacher. His focus is not on hoarding money, but on using the king's grand ritual platform to reveal the ultimate essence of the chanting elements, which the local court priests are chanting without real understanding.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that the sage seeks involvement in the sacrifice because it is a natural opportunity to perform service and spread spiritual clarity. His desire for wealth is purely practical—intended to restore his household so he can continue his spiritual duties without being dependent on others.",
+                "dvaita_vedanta": "Madhva highlights that the sage knows his inner value. He doesn't go to the sacrifice as an ordinary beggar; he goes as an authority who can correct structural errors in the ritual, showing that true spiritual expertise remains authoritative even after sleeping on famine scraps."
+              }
+            },
+            {
+              "verse_number": 7,
+              "devanagari": "तं जायोवाच हन्तेम एव कुल्माषा इति तान्खादित्वा अमुं यज्ञं विततमेयाय ॥ ७ ॥",
+              "iast": "taṃ jāyovāca hantema eva kulmāṣā iti tānkhāditvā amuṃ yajñaṃ vitatameyāya || 7 ||",
+              "english_translation": "His wife said to him, 'Well, sir, here are the leftover beans you gave me yesterday.' He ate them and immediately walked over to the grand sacrificial assembly.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara shows the beautiful closing of this loop. The very scraps he saved out of compassion the day before now provide him with the physical energy to walk to the palace. This loop demonstrates that compassionate actions return to protect you, turning simple emergency food into the fuel needed for an ultimate spiritual mission.",
+                "vishishtadvaita": "The preservation of the food by the wife becomes the catalyst for the sage's journey. Eating these simple beans out of deep gratitude, the sage goes forth to illuminate the king’s sacrifice, showing that great spiritual works are often built on quiet, humble moments at home.",
+                "dvaita_vedanta": "Madhva notes that the leftover food satisfies his hunger, showing that the Lord uses the simplest means to sustain his devotees. Energized by the beans, Uṣasti approaches the sacrifice ready to challenge the superficial ritualists and establish the correct divine order."
+              }
+            },
+            {
+              "verse_number": 8,
+              "devanagari": "तत्रोद्गातॄनस्तावे स्तोष्यमाणानुपोपविवेश स ह प्रस्तोतारमुवाच ॥ ८ ॥",
+              "iast": "tatrodgātṝnastāve stoṣyamāṇānupopaviveśa sa ha prastotāramuvāca || 8 ||",
+              "english_translation": "There he found the Prastotṛ priests sitting together in the place of chanting, about to sing their hymns. He walked up, sat close beside the Prastotṛ, and addressed him directly:",
+              "commentaries": {
+                "advaita_vedanta": "Shankara sets up the dramatic entry. Uṣasti doesn't make a loud, angry scene; he quietly sits next to the head chanter (*Prastotṛ*). This close positioning signifies that a true teacher addresses the student exactly where they are working, ready to insert ultimate awareness right into the middle of their mechanical, everyday actions.",
+                "vishishtadvaita": "The school views this as the arrival of an emissary of truth. The priests are preparing to sing without fully understanding the inner cosmic ruler of the hymn. Uṣasti’s arrival represents the descent of grace, offering the chanters an immediate chance to upgrade their dry performance into a living act of devotion.",
+                "dvaita_vedanta": "Madhva notes that sitting close signifies an immediate intellectual challenge. By targeting the lead chanters, Uṣasti prepares to expose the missing link in their training, laying the groundwork for the next section to reveal the specific deities who govern the parts of the sacred sound."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

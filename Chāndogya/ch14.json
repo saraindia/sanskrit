@@ -1,0 +1,52 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 14: Chapter 2, Section 2. The Fivefold Sāman Meditation on the Worlds (Lokeṣu Pañcavidha Sāmopāsanam). This section outlines the structural mapping of the five divisions of the Sāman chant to the vertical layers of the cosmos.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 2,
+          "title": "The Fivefold Sāman Meditation on the Cosmic Worlds",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "लोकेषु पञ्चविधं सामोपासीत पृथिवी हिंकारोऽग्निः प्रस्तावोऽन्तरिक्षमुद्गीथ आदित्यः प्रतिहारो द्यौर्निधनमित्यूर्ध्वेषु ॥ १ ॥",
+              "iast": "lokeṣu pañcavidaṃ sāmopāsīta pṛthivī hiṃkāro'gniḥ prastāvo'ntarikṣamudgītha ādityaḥ pratihāro dyaurnidhanamityūrdhveṣu || 1 ||",
+              "english_translation": "One should meditate on the fivefold Sāman as manifest in the worlds. The earth is the introductory syllable 'Hiṃ'; the fire is the introductory praise (Prastāva); the intermediate space is the loud chant (Udgītha); the sun is the response (Pratihāra); and the sky/heaven is the finale (Nidhana). This is the meditation on the worlds in an ascending order.",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara explains that the text now initiates the practical method of cosmic expansion through the fivefold (*pañcavidha*) schema of the Sāman chant. The five parts are the *Hiṃkāra* (vocal initialization), *Prastāva* (introductory body), *Udgītha* (the principal core), *Pratihāra* (the holding back or response), and *Nidhana* (the concluding shelter). This physical universe is mapped from the ground up: the solid earth matches the foundational *Hiṃkāra*. Fire, which blazes upon the earth, matches *Prastāva*. The vast intermediate space (*Antarikṣa*) matches the high, hollow resonance of the *Udgītha*. The sun acts as the *Pratihāra* because it draws human eyes and collects waters, and heaven (*Dyaus*) acts as the *Nidhana* because it serves as the final upper boundary where everything seems to find its ultimate rest.",
+                "vishishtadvaita": "Raṅgarāmānuja writes that this vertical mapping (*ūrdhveṣu*) shows that the material universes are not chaotic spaces but are organized as a structured temple of the Supreme Creator. By aligning the parts of the song with the layers of the worlds, the devotee is trained to view the entire physical creation as a living, singing instrument entirely dependent on the Divine Will.",
+                "dvaita_vedanta": "Madhvācārya points out that each cosmic layer is governed by a specific administrator working directly under the orders of Lord Viṣṇu. Meditating on the fivefold Sāman creates an inner understanding of how the divine administrative order runs from the lowest earthly elements to the highest heavenly fields, establishing the complete dependency of all worlds on the Supreme Lord."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "अथावृत्तेषु द्यौर्हिंकार आदित्यः प्रस्तावोऽन्तरिक्षमुद्गीथोऽग्निः प्रतिहारः पृथिवी निधनम् ॥ २ ॥",
+              "iast": "athāvṛtteṣu dyaurhiṃkāra ādityaḥ prastāvo'ntarikṣamudgītho'gniḥ pratihāraḥ pṛthivī nidhanam || 2 ||",
+              "english_translation": "Now follows the meditation on the worlds in a descending, returning order. The sky/heaven is the syllable 'Hiṃ'; the sun is the introductory praise (Prastāva); the intermediate space is the loud chant (Udgītha); the fire is the response (Pratihāra); and the earth is the finale (Nidhana).",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the reversal of the meditation (*āvṛtteṣu*). Having expanded the mind upward to the heavens, the seeker must now trace the energy back down to earth. This ensures that the lower world is not dismissed as false or dirty; instead, it is integrated into the same spiritual vibration. Heaven becomes the starting point (*Hiṃkāra*), and the solid earth acts as the ultimate resting place and shelter (*Nidhana*), proving that the non-dual consciousness is equally present in both the source and the manifestation.",
+                "vishishtadvaita": "The school explains that the returning order represents the downpouring of divine grace and cosmic energy from the higher realms back to the earthly plane. Tracing the Sāman downwards reminds the seeker that the Lord descends to meet the soul, making the physical earth a sacred vessel for divine activity.",
+                "dvaita_vedanta": "Madhva explains that the descending order represents the cosmic cycle of dissolution and material creation. It highlights the dual nature of the Lord's control: He rules the ascent of spiritual evolution and the descent of material manifestation. Seeing the earth as the final shelter (*Nidhana*) reminds the devotee that all physical bodies are ultimately returned to their elemental building blocks by divine command."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "कल्पन्ते हास्मै लोका ऊर्ध्वाश्चावृत्ताश्च य एतदेवं विद्वाँल्लोकेषु पञ्चविधं सामोपास्ते ॥ ३ ॥",
+              "iast": "kalpante hāsmai lokā ūrdhvāścāvṛttāśca ya etadevaṃ vidvāँllokeṣu pañcavidaṃ sāmopāste || 3 ||",
+              "english_translation": "The worlds—both ascending and descending—become supportive and fully available to him who, knowing this truth, meditates on the fivefold Sāman across the cosmic worlds.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara explains the phrase *kalpante hāsmai* (they serve or become available to him). For an ordinary person, the physical worlds are obstacles, limitations, and sources of fear. But for a sage whose consciousness flows equally through the ascending and descending paths of the Sāman, the environment ceases to be a limitation. The worlds conform to his expanded awareness, losing their capacity to restrict or bind his inner freedom.",
+                "vishishtadvaita": "Raṅgarāmānuja highlights that when a devotee recognizes the Lord as the underlying thread of all dimensions, those worlds naturally welcome and support him. The seeker experiences no hostility from any aspect of nature, as both the spiritual paths and the physical world yield their best fruits to one who honors the indwelling master.",
+                "dvaita_vedanta": "According to Madva, this final declaration confirms the mastery over material nature granted to a true servant of God. By knowing how the independent Lord coordinates the ascending and descending channels of cosmic power, the devotee gains unshakeable protection, ensuring success across both worldly and afterlife states."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

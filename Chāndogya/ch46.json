@@ -1,0 +1,302 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 46: Chapter 4, Sections 4–9. The story of Satyakāma Jābāla: truth as lineage, and the four feet of Brahman taught by the bull, the fire, the swan, and the diver-bird.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_4": {
+      "sections": [
+        {
+          "section_number": 4,
+          "title": "Satyakāma's Truth and His Initiation",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "सत्यकामो ह जाबालो जबालां मातरमामन्त्रयांचक्रे ब्रह्मचर्यं भवति विवत्स्यामि किंगोत्रो न्वहमस्मीति ॥ १ ॥",
+              "iast": "satyakāmo ha jābālo jabālāṃ mātaram āmantrayāṃ cakre brahmacaryaṃ bhavati vivatsyāmi kiṃgotro nv aham asmīti || 1 ||",
+              "english_translation": "Satyakāma Jābāla addressed his mother Jabālā: 'Revered mother, I wish to live as a student of sacred knowledge. Of what lineage (gotra) am I?'",
+              "commentaries": {
+                "advaita_vedanta": "The boy's first act is a question of truth about himself — fitting for one whose name means 'lover of truth' and whose path will be the knowledge of the true Self.",
+                "vishishtadvaita": "Desire for brahmacarya is the stirring of the Lord's grace in the young soul; honest inquiry into one's state begins the journey.",
+                "dvaita_vedanta": "The will to study arises from prior merit and divine favour; the boy seeks proper entry through truthful credentials."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "सा हैनमुवाच नाहमेतद्वेद तात यद्गोत्रस्त्वमसि बह्वहं चरन्ती परिचारिणी यौवने त्वामलभे साहमेतन्न वेद यद्गोत्रस्त्वमसि जबाला तु नामाहमस्मि सत्यकामो नाम त्वमसि स सत्यकाम एव जाबालो ब्रवीथा इति ॥ २ ॥",
+              "iast": "sā hainam uvāca nāham etad veda tāta yadgotras tvam asi bahv ahaṃ carantī paricāriṇī yauvane tvām alabhe sāham etan na veda yadgotras tvam asi jabālā tu nāmāham asmi satyakāmo nāma tvam asi sa satyakāma eva jābālo bravīthā iti || 2 ||",
+              "english_translation": "She said to him: 'I do not know, dear one, of what lineage you are. Serving in many places in my youth, I conceived you; so I do not know your lineage. But my name is Jabālā and your name is Satyakāma. Call yourself, then, Satyakāma Jābāla.'",
+              "commentaries": {
+                "advaita_vedanta": "The mother's unflinching honesty is the story's moral hinge: she hides nothing, and her truth becomes the son's credential. Śaṅkara: truthfulness, not birth, is the brāhmaṇa's mark.",
+                "vishishtadvaita": "Jabālā's candour sanctifies her son; the Lord values the heart's transparency above pedigree.",
+                "dvaita_vedanta": "Truth spoken at cost reveals inner worth; the boy's qualification is being forged in his mother's honesty."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स ह हारिद्रुमतं गौतममेत्योवाच ब्रह्मचर्यं भगवति वत्स्याम्युपेयां भगवन्तमिति ॥ ३ ॥",
+              "iast": "sa ha hāridrumataṃ gautamam etyovāca brahmacaryaṃ bhagavati vatsyāmy upeyāṃ bhagavantam iti || 3 ||",
+              "english_translation": "He came to Hāridrumata Gautama and said: 'I wish to live with you, revered sir, as a student of sacred knowledge. May I approach you?'",
+              "commentaries": {
+                "advaita_vedanta": "Approach to a teacher (upasadana) is the prescribed door to knowledge; the boy follows the eternal protocol.",
+                "vishishtadvaita": "Seeking the ācārya is itself worship; the Lord receives the seeker through His representative.",
+                "dvaita_vedanta": "Instruction flows only through the rightful channel of a qualified guru."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "तं होवाच किंगोत्रो नु सोम्यासीति स होवाच नाहमेतद्वेद भो यद्गोत्रोऽहमस्म्यपृच्छं मातरं सा मा प्रत्यब्रवीद्बह्वहं चरन्ती परिचारिणी यौवने त्वामलभे साहमेतन्न वेद यद्गोत्रस्त्वमसि जबाला तु नामाहमस्मि सत्यकामो नाम त्वमसीति सोऽहं सत्यकामो जाबालोऽस्मि भो इति ॥ ४ ॥",
+              "iast": "taṃ hovāca kiṃgotro nu somyāsīti sa hovāca nāham etad veda bho yadgotro 'ham asmy apṛcchaṃ mātaraṃ sā mā pratyabravīd bahv ahaṃ carantī paricāriṇī yauvane tvām alabhe sāham etan na veda yadgotras tvam asi jabālā tu nāmāham asmi satyakāmo nāma tvam asīti so 'haṃ satyakāmo jābālo 'smi bho iti || 4 ||",
+              "english_translation": "He said to him: 'Of what lineage are you, gentle one?' He replied: 'I do not know, sir, of what lineage I am. I asked my mother, and she answered: \"Serving in many places in my youth, I conceived you; so I do not know your lineage. But my name is Jabālā and your name is Satyakāma.\" So I am Satyakāma Jābāla, sir.'",
+              "commentaries": {
+                "advaita_vedanta": "The boy repeats the painful truth without gloss — the conduct of one fit for the highest teaching. Truth-telling under trial is the supreme entrance examination.",
+                "vishishtadvaita": "His fearless honesty before the teacher mirrors his mother's; such a soul the Lord swiftly draws near.",
+                "dvaita_vedanta": "Unvarnished truth marks the inner brāhmaṇa; Madhva sees fitness shining through circumstance."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "तं होवाच नैतदब्राह्मणो विवक्तुमर्हति समिधं सोम्याहरोप त्वा नेष्ये न सत्यादगा इति तमुपनीय कृशानामबलानां चतुःशता गा निराकृत्योवाचेमाः सोम्यानुसंव्रजेति ता अभिप्रस्थापयन्नुवाच नासहस्रेणावर्तेयेति स ह वर्षगणं प्रोवास ता यदा सहस्रं संपेदुः ॥ ५ ॥",
+              "iast": "taṃ hovāca naitad abrāhmaṇo vivaktum arhati samidhaṃ somyāharopa tvā neṣye na satyād agā iti tam upanīya kṛśānām abalānāṃ catuḥśatā gā nirākṛtyovācemāḥ somyānusaṃvrajeti tā abhiprasthāpayann uvāca nāsahasreṇāvarteyeti sa ha varṣagaṇaṃ provāsa tā yadā sahasraṃ saṃpeduḥ || 5 ||",
+              "english_translation": "The teacher said: 'No one not a brāhmaṇa could speak out thus. Fetch the fuel, gentle one; I will initiate you — you have not departed from truth.' Having initiated him, he set apart four hundred lean and weak cows and said: 'Follow these, gentle one.' Driving them off, Satyakāma said: 'I shall not return without a thousand.' He lived away a number of years, until they had become a thousand.",
+              "commentaries": {
+                "advaita_vedanta": "Gautama's verdict is the Upaniṣad's: truthfulness itself is brāhmaṇa-hood. The cow-herding exile is the teacher's method — solitude, service, and patience ripen the student for the gods' instruction.",
+                "vishishtadvaita": "Initiation rewards truth; the long service of herding is purificatory discipline under the guru's command, during which grace matures.",
+                "dvaita_vedanta": "The teacher recognises God-given fitness and assigns tapas befitting it; the vow of the thousand shows the student's resolve."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 5,
+          "title": "The Bull Teaches — The Shining Quarter",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अथ हैनमृषभोऽभ्युवाद सत्यकाम३ इति भगव इति ह प्रतिशुश्राव प्राप्ताः सोम्य सहस्रं स्मः प्रापय न आचार्यकुलम् ॥ १ ॥",
+              "iast": "atha hainam ṛṣabho 'bhyuvāda satyakāma3 iti bhagava iti ha pratiśuśrāva prāptāḥ somya sahasraṃ smaḥ prāpaya na ācāryakulam || 1 ||",
+              "english_translation": "Then the bull (of the herd) addressed him: 'Satyakāma!' — 'Revered sir!' he answered. 'Gentle one, we have reached a thousand; lead us to the teacher's house.'",
+              "commentaries": {
+                "advaita_vedanta": "Nature itself begins to teach the purified student: the bull is the deity Vāyu speaking through the herd, says Śaṅkara. When the vessel is ready, instruction comes from every side.",
+                "vishishtadvaita": "The Lord, pleased with service, speaks through His creatures; the cosmos becomes the devotee's classroom.",
+                "dvaita_vedanta": "Gods assume creaturely voices at Viṣṇu's bidding to instruct the deserving."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "ब्रह्मणश्च ते पादं ब्रवाणीति ब्रवीतु मे भगवानिति तस्मै होवाच प्राची दिक्कला प्रतीची दिक्कला दक्षिणा दिक्कलोदीची दिक्कलैष वै सोम्य चतुष्कलः पादो ब्रह्मणः प्रकाशवान्नाम ॥ २ ॥",
+              "iast": "brahmaṇaś ca te pādaṃ bravāṇīti bravītu me bhagavān iti tasmai hovāca prācī dik kalā pratīcī dik kalā dakṣiṇā dik kalodīcī dik kalaiṣa vai somya catuṣkalaḥ pādo brahmaṇaḥ prakāśavān nāma || 2 ||",
+              "english_translation": "'And let me tell you one foot of Brahman.' — 'Tell me, revered sir.' He said to him: 'The eastern quarter is one sixteenth, the western quarter is one sixteenth, the southern quarter is one sixteenth, the northern quarter is one sixteenth. This, gentle one, is one foot of Brahman, consisting of four sixteenths, named the Shining (Prakāśavān).',",
+              "commentaries": {
+                "advaita_vedanta": "Brahman is taught in measured feet — first as the all-pervading quarters. The finite mind climbs by fractions toward the infinite whole.",
+                "vishishtadvaita": "The quarters are the Lord's pervasive presence; meditating on them as His 'shining foot' trains the soul in His omnipresence.",
+                "dvaita_vedanta": "The directions manifest the Lord's governance; the graded teaching respects the student's capacity."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स य एतमेवं विद्वांश्चतुष्कलं पादं ब्रह्मणः प्रकाशवानित्युपास्ते प्रकाशवानस्मिँल्लोके भवति प्रकाशवतो ह लोकाञ्जयति य एतमेवं विद्वांश्चतुष्कलं पादं ब्रह्मणः प्रकाशवानित्युपास्ते ॥ ३ ॥",
+              "iast": "sa ya etam evaṃ vidvāṃś catuṣkalaṃ pādaṃ brahmaṇaḥ prakāśavān ity upāste prakāśavān asmiṁl loke bhavati prakāśavato ha lokāñ jayati ya etam evaṃ vidvāṃś catuṣkalaṃ pādaṃ brahmaṇaḥ prakāśavān ity upāste || 3 ||",
+              "english_translation": "He who, knowing thus, meditates on this four-sixteenth foot of Brahman as the Shining, becomes shining in this world and conquers shining worlds — he who, knowing thus, meditates on this four-sixteenth foot of Brahman as the Shining.",
+              "commentaries": {
+                "advaita_vedanta": "The meditator partakes of what he meditates upon: contemplating Brahman's radiance, he becomes radiant here and hereafter.",
+                "vishishtadvaita": "The Lord rewards each meditation in kind — His shining foot confers shining worlds.",
+                "dvaita_vedanta": "Fruits exactly match the worship; the Lord is precise in His grace."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 6,
+          "title": "The Fire Teaches — The Endless Quarter",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अग्निष्टे पादं वक्तेति स ह श्वोभूते गा अभिप्रस्थापयांचकार ता यत्राभि सायं बभूवुस्तत्राग्निमुपसमाधाय गा उपरुध्य समिधमाधाय पश्चादग्नेः प्राङुपोपविवेश ॥ १ ॥",
+              "iast": "agniṣ ṭe pādaṃ vakteti sa ha śvobhūte gā abhiprasthāpayāṃ cakāra tā yatrābhi sāyaṃ babhūvus tatrāgnim upasamādhāya gā uparudhya samidham ādhāya paścād agneḥ prāṅ upopaviveśa || 1 ||",
+              "english_translation": "(The bull said:) 'The fire will tell you another foot.' The next morning he drove the cows onward, and where they came toward evening he kindled a fire, penned the cows, laid on fuel, and sat down behind the fire, facing east.",
+              "commentaries": {
+                "advaita_vedanta": "Each teacher hands the student to the next; the seeker's nightly fire-tending is itself the invocation that summons instruction.",
+                "vishishtadvaita": "Devout routine — fire, fuel, watchfulness — keeps the channel of grace open.",
+                "dvaita_vedanta": "Agni, the Lord's priest, will speak to the one who serves the sacred fire."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तमग्निरभ्युवाद सत्यकाम३ इति भगव इति ह प्रतिशुश्राव ॥ २ ॥",
+              "iast": "tam agnir abhyuvāda satyakāma3 iti bhagava iti ha pratiśuśrāva || 2 ||",
+              "english_translation": "The fire addressed him: 'Satyakāma!' — 'Revered sir!' he answered.",
+              "commentaries": {
+                "advaita_vedanta": "The element itself speaks: to the purified, all nature is articulate with Brahman.",
+                "vishishtadvaita": "The Lord within fire calls His servant by name.",
+                "dvaita_vedanta": "Agni instructs by Viṣṇu's commission."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "ब्रह्मणः सोम्य ते पादं ब्रवाणीति ब्रवीतु मे भगवानिति तस्मै होवाच पृथिवी कलान्तरिक्षं कला द्यौः कला समुद्रः कलैष वै सोम्य चतुष्कलः पादो ब्रह्मणोऽनन्तवान्नाम ॥ ३ ॥",
+              "iast": "brahmaṇaḥ somya te pādaṃ bravāṇīti bravītu me bhagavān iti tasmai hovāca pṛthivī kalāntarikṣaṃ kalā dyauḥ kalā samudraḥ kalaiṣa vai somya catuṣkalaḥ pādo brahmaṇo 'nantavān nāma || 3 ||",
+              "english_translation": "'Gentle one, let me tell you one foot of Brahman.' — 'Tell me, revered sir.' He said to him: 'The earth is one sixteenth, the mid-region is one sixteenth, the sky is one sixteenth, the ocean is one sixteenth. This, gentle one, is one foot of Brahman, consisting of four sixteenths, named the Endless (Anantavān).'",
+              "commentaries": {
+                "advaita_vedanta": "The second foot gathers the world's vast expanses — Brahman as the limitless field of all regions.",
+                "vishishtadvaita": "Earth, air, sky, and sea are the Lord's endless body, taught as one foot of His immensity.",
+                "dvaita_vedanta": "The Lord's infinity is mirrored in the unbounded regions He upholds."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "स य एतमेवं विद्वांश्चतुष्कलं पादं ब्रह्मणोऽनन्तवानित्युपास्तेऽनन्तवानस्मिँल्लोके भवत्यनन्तवतो ह लोकाञ्जयति य एतमेवं विद्वांश्चतुष्कलं पादं ब्रह्मणोऽनन्तवानित्युपास्ते ॥ ४ ॥",
+              "iast": "sa ya etam evaṃ vidvāṃś catuṣkalaṃ pādaṃ brahmaṇo 'nantavān ity upāste 'nantavān asmiṁl loke bhavaty anantavato ha lokāñ jayati ya etam evaṃ vidvāṃś catuṣkalaṃ pādaṃ brahmaṇo 'nantavān ity upāste || 4 ||",
+              "english_translation": "He who, knowing thus, meditates on this four-sixteenth foot of Brahman as the Endless, becomes endless in this world and conquers endless worlds — he who, knowing thus, meditates on this four-sixteenth foot of Brahman as the Endless.",
+              "commentaries": {
+                "advaita_vedanta": "Contemplating limitlessness, the meditator outgrows his limits.",
+                "vishishtadvaita": "The Endless foot bestows unending attainments by the Lord's measure.",
+                "dvaita_vedanta": "The fruit of endlessness is granted within the soul's own infinite capacity for bliss."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 7,
+          "title": "The Swan Teaches — The Luminous Quarter",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "हंसस्ते पादं वक्तेति स ह श्वोभूते गा अभिप्रस्थापयांचकार ता यत्राभि सायं बभूवुस्तत्राग्निमुपसमाधाय गा उपरुध्य समिधमाधाय पश्चादग्नेः प्राङुपोपविवेश ॥ १ ॥",
+              "iast": "haṃsas te pādaṃ vakteti sa ha śvobhūte gā abhiprasthāpayāṃ cakāra tā yatrābhi sāyaṃ babhūvus tatrāgnim upasamādhāya gā uparudhya samidham ādhāya paścād agneḥ prāṅ upopaviveśa || 1 ||",
+              "english_translation": "(The fire said:) 'The swan will tell you another foot.' The next morning he drove the cows onward, and where they came toward evening he kindled a fire, penned the cows, laid on fuel, and sat down behind the fire, facing east.",
+              "commentaries": {
+                "advaita_vedanta": "The relay of teachers continues; Śaṅkara identifies the swan as the sun in bird form.",
+                "vishishtadvaita": "Each evening's discipline invites the next messenger of the Lord.",
+                "dvaita_vedanta": "The sun-deity will teach in swan's guise, by divine arrangement."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तं हंस उपनिपत्याभ्युवाद सत्यकाम३ इति भगव इति ह प्रतिशुश्राव ॥ २ ॥",
+              "iast": "taṃ haṃsa upanipatyābhyuvāda satyakāma3 iti bhagava iti ha pratiśuśrāva || 2 ||",
+              "english_translation": "A swan flew down to him and addressed him: 'Satyakāma!' — 'Revered sir!' he answered.",
+              "commentaries": {
+                "advaita_vedanta": "The white swan, emblem of the discerning self, brings the doctrine of light.",
+                "vishishtadvaita": "The Lord's messenger descends to the watchful disciple.",
+                "dvaita_vedanta": "Sūrya, servant of the Lord, alights to instruct."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "ब्रह्मणः सोम्य ते पादं ब्रवाणीति ब्रवीतु मे भगवानिति तस्मै होवाचाग्निः कला सूर्यः कला चन्द्रः कला विद्युत्कलैष वै सोम्य चतुष्कलः पादो ब्रह्मणो ज्योतिष्मान्नाम ॥ ३ ॥",
+              "iast": "brahmaṇaḥ somya te pādaṃ bravāṇīti bravītu me bhagavān iti tasmai hovācāgniḥ kalā sūryaḥ kalā candraḥ kalā vidyut kalaiṣa vai somya catuṣkalaḥ pādo brahmaṇo jyotiṣmān nāma || 3 ||",
+              "english_translation": "'Gentle one, let me tell you one foot of Brahman.' — 'Tell me, revered sir.' He said to him: 'Fire is one sixteenth, the sun is one sixteenth, the moon is one sixteenth, lightning is one sixteenth. This, gentle one, is one foot of Brahman, consisting of four sixteenths, named the Luminous (Jyotiṣmān).'",
+              "commentaries": {
+                "advaita_vedanta": "The third foot collects the world's lights — Brahman as the source whose reflection all luminaries are.",
+                "vishishtadvaita": "The four lights are rays of the Lord's own splendour, taught as His luminous foot.",
+                "dvaita_vedanta": "All lights borrow from the Light of lights, Viṣṇu, whom this foot intimates."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "स य एतमेवं विद्वांश्चतुष्कलं पादं ब्रह्मणो ज्योतिष्मानित्युपास्ते ज्योतिष्मानस्मिँल्लोके भवति ज्योतिष्मतो ह लोकाञ्जयति य एतमेवं विद्वांश्चतुष्कलं पादं ब्रह्मणो ज्योतिष्मानित्युपास्ते ॥ ४ ॥",
+              "iast": "sa ya etam evaṃ vidvāṃś catuṣkalaṃ pādaṃ brahmaṇo jyotiṣmān ity upāste jyotiṣmān asmiṁl loke bhavati jyotiṣmato ha lokāñ jayati ya etam evaṃ vidvāṃś catuṣkalaṃ pādaṃ brahmaṇo jyotiṣmān ity upāste || 4 ||",
+              "english_translation": "He who, knowing thus, meditates on this four-sixteenth foot of Brahman as the Luminous, becomes luminous in this world and conquers luminous worlds — he who, knowing thus, meditates on this four-sixteenth foot of Brahman as the Luminous.",
+              "commentaries": {
+                "advaita_vedanta": "Light meditated becomes light possessed.",
+                "vishishtadvaita": "The Lord's radiance illumines His meditator within and without.",
+                "dvaita_vedanta": "Luminous worlds reward luminous worship, by the Lord's exact justice."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 8,
+          "title": "The Diver-Bird Teaches — The Abode-Possessing Quarter",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "मद्गुष्टे पादं वक्तेति स ह श्वोभूते गा अभिप्रस्थापयांचकार ता यत्राभि सायं बभूवुस्तत्राग्निमुपसमाधाय गा उपरुध्य समिधमाधाय पश्चादग्नेः प्राङुपोपविवेश ॥ १ ॥",
+              "iast": "madgus te pādaṃ vakteti sa ha śvobhūte gā abhiprasthāpayāṃ cakāra tā yatrābhi sāyaṃ babhūvus tatrāgnim upasamādhāya gā uparudhya samidham ādhāya paścād agneḥ prāṅ upopaviveśa || 1 ||",
+              "english_translation": "(The swan said:) 'The diver-bird (madgu) will tell you another foot.' The next morning he drove the cows onward, and where they came toward evening he kindled a fire, penned the cows, laid on fuel, and sat down behind the fire, facing east.",
+              "commentaries": {
+                "advaita_vedanta": "The last messenger is the water-bird — Śaṅkara identifies it with prāṇa, lord of the inner waters.",
+                "vishishtadvaita": "The fourth night of patient service brings the final cosmic tutor.",
+                "dvaita_vedanta": "Vāyu-prāṇa in bird form completes the fourfold instruction."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तं मद्गुरुपनिपत्याभ्युवाद सत्यकाम३ इति भगव इति ह प्रतिशुश्राव ॥ २ ॥",
+              "iast": "taṃ madgur upanipatyābhyuvāda satyakāma3 iti bhagava iti ha pratiśuśrāva || 2 ||",
+              "english_translation": "A diver-bird flew down to him and addressed him: 'Satyakāma!' — 'Revered sir!' he answered.",
+              "commentaries": {
+                "advaita_vedanta": "The humble water-bird carries the inmost teaching — the senses and their home.",
+                "vishishtadvaita": "No messenger of the Lord is small; the diver brings the foot nearest the soul.",
+                "dvaita_vedanta": "The breath-deity speaks through the least imposing of forms."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "ब्रह्मणः सोम्य ते पादं ब्रवाणीति ब्रवीतु मे भगवानिति तस्मै होवाच प्राणः कला चक्षुः कला श्रोत्रं कला मनः कलैष वै सोम्य चतुष्कलः पादो ब्रह्मण आयतनवान्नाम ॥ ३ ॥",
+              "iast": "brahmaṇaḥ somya te pādaṃ bravāṇīti bravītu me bhagavān iti tasmai hovāca prāṇaḥ kalā cakṣuḥ kalā śrotraṃ kalā manaḥ kalaiṣa vai somya catuṣkalaḥ pādo brahmaṇa āyatanavān nāma || 3 ||",
+              "english_translation": "'Gentle one, let me tell you one foot of Brahman.' — 'Tell me, revered sir.' He said to him: 'The breath is one sixteenth, the eye is one sixteenth, the ear is one sixteenth, the mind is one sixteenth. This, gentle one, is one foot of Brahman, consisting of four sixteenths, named the Abode-possessing (Āyatanavān).'",
+              "commentaries": {
+                "advaita_vedanta": "The final foot turns inward: breath, eye, ear, mind — the faculties in which Brahman has its nearest 'abode'. The teaching has travelled from the quarters of space to the centre of the person.",
+                "vishishtadvaita": "The Lord's most intimate foot is His indwelling in the soul's instruments; He is the abode of all and abides in all.",
+                "dvaita_vedanta": "The Lord dwells in the faculties as their controller; this foot teaches His inner rulership."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "स य एतमेवं विद्वांश्चतुष्कलं पादं ब्रह्मण आयतनवानित्युपास्त आयतनवानस्मिँल्लोके भवत्यायतनवतो ह लोकाञ्जयति य एतमेवं विद्वांश्चतुष्कलं पादं ब्रह्मण आयतनवानित्युपास्ते ॥ ४ ॥",
+              "iast": "sa ya etam evaṃ vidvāṃś catuṣkalaṃ pādaṃ brahmaṇa āyatanavān ity upāsta āyatanavān asmiṁl loke bhavaty āyatanavato ha lokāñ jayati ya etam evaṃ vidvāṃś catuṣkalaṃ pādaṃ brahmaṇa āyatanavān ity upāste || 4 ||",
+              "english_translation": "He who, knowing thus, meditates on this four-sixteenth foot of Brahman as the Abode-possessing, becomes possessed of an abode in this world and conquers worlds with abodes — he who, knowing thus, meditates on this four-sixteenth foot of Brahman as the Abode-possessing.",
+              "commentaries": {
+                "advaita_vedanta": "The sixteen sixteenths are now complete: radiance, endlessness, light, and inner abode — Brahman taught whole through four cosmic teachers.",
+                "vishishtadvaita": "The fourfold vision rounds into fullness: the Lord pervading directions, regions, lights, and the inner person.",
+                "dvaita_vedanta": "The graded curriculum is finished; the student now needs only the human teacher's seal."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 9,
+          "title": "The Teacher's Seal — Knowledge from the Ācārya",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "प्राप हाचार्यकुलं तमाचार्योऽभ्युवाद सत्यकाम३ इति भगव इति ह प्रतिशुश्राव ॥ १ ॥",
+              "iast": "prāpa hācāryakulaṃ tam ācāryo 'bhyuvāda satyakāma3 iti bhagava iti ha pratiśuśrāva || 1 ||",
+              "english_translation": "He reached the teacher's house. The teacher addressed him: 'Satyakāma!' — 'Revered sir!' he answered.",
+              "commentaries": {
+                "advaita_vedanta": "The circle closes at the ācārya's door: cosmic instruction must still be ratified by the human teacher of the lineage.",
+                "vishishtadvaita": "Return to the guru completes obedience; grace honours the established channel.",
+                "dvaita_vedanta": "However exalted the interim teachers, the sampradāya's ācārya confirms the knowledge."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "ब्रह्मविदिव वै सोम्य भासि को नु त्वानुशशासेत्यन्ये मनुष्येभ्य इति ह प्रतिजज्ञे भगवांस्त्वेव मे कामे ब्रूयात् ॥ २ ॥",
+              "iast": "brahmavid iva vai somya bhāsi ko nu tvānuśaśāsety anye manuṣyebhya iti ha pratijajñe bhagavāṃs tv eva me kāme brūyāt || 2 ||",
+              "english_translation": "'Gentle one, you shine like a knower of Brahman. Who, then, has taught you?' — 'Others than men,' he confessed. 'But may it please you, revered sir, to teach me yourself —'",
+              "commentaries": {
+                "advaita_vedanta": "Knowledge transfigures the face; the teacher reads it at a glance. Yet the student, truthful as ever, still asks for the master's own word — the wish of the rightly humble.",
+                "vishishtadvaita": "Even taught by gods, the disciple seeks his ācārya's teaching: the human guru is the Lord's chosen face for the disciple.",
+                "dvaita_vedanta": "Divine instruction does not dispense with the guru; the student's deference models right order."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "श्रुतं ह्येव मे भगवद्दृशेभ्य आचार्याद्धैव विद्या विदिता साधिष्ठं प्रापतीति तस्मै हैतदेवोवाचात्र ह न किञ्चन वीयायेति वीयायेति ॥ ३ ॥",
+              "iast": "śrutaṃ hy eva me bhagavaddṛśebhya ācāryād dhaiva vidyā viditā sādhiṣṭhaṃ prāpatīti tasmai haitad evovācātra ha na kiñcana vīyāyeti vīyāyeti || 3 ||",
+              "english_translation": "'— for I have heard from men like you, revered sir, that knowledge learned from the teacher best reaches its goal.' Then he taught him that very same knowledge, and nothing whatever was left out — nothing was left out.",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara cherishes this maxim: ācāryād dhaiva vidyā viditā sādhiṣṭhaṃ prāpati — knowledge from the teacher's lips attains its end most surely. The guru's teaching added nothing new in content, yet completed everything in efficacy.",
+                "vishishtadvaita": "The school's whole theology of the ācārya rests here: the teacher's grace makes knowledge fruitful; without it, even divine instruction remains a seed unsown.",
+                "dvaita_vedanta": "Madhva affirms: the paramparā's confirmation perfects knowledge. The repetition 'nothing was left out' certifies the transmission whole and entire."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

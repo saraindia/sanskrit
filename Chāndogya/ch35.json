@@ -1,0 +1,85 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 35: Chapter 2, Section 23. The Three Branches of Duty and the State of Resting in Brahman (Dharmaskandha-vibhāga). This section is one of the philosophical peaks of the Chandogya Upanishad, introducing the classification of the paths of life (Dharma) and contrasting their finite rewards with the ultimate, immortal state of being firmly anchored in Brahman.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 23,
+          "title": "The Three Branches of Duty and the Realization of Brahman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "त्रयो धर्मस्कन्धा यज्ञोऽध्ययनं दानमिति प्रथमस्तप एव द्वितीयो ब्रह्मचार्याचार्यकुलवासी तृतीयोऽत्यन्तमात्मानमाचार्यकुलेऽवसादयन्सर्व एते पुण्यलोका भवन्ति ब्रह्मसंस्थोऽमृतत्वमेति ॥ १ ॥",
+              "iast": "trayo dharmaskandhā yajño'dhyayanaṃ dānamiti prathamastapa eva dvitīyo brahmacāryācāryakulavāsī tṛtīyo'tyantamātmānamācāryakule'vasādayansarva ete puṇyalokā bhavanti brahmasaṃstho'mṛtatvameti || 1 ||",
+              "english_translation": "There are three branches of duty (Dharma-skandhas). Sacrifice, study, and charity form the first. Austerity or asceticism (Tapas) is the second. Dwelling as a lifelong student in the house of the teacher, completely mortifying the body, is the third. All of these attain meritorious worlds, but the one who stands firmly grounded in Brahman (Brahmasaṃstha) attains immortality (Amṛtatvam).",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara builds a foundational pillar of Advaita philosophy upon this verse, using it to define the clear boundary between ritual actions (*Karma*) and absolute Knowledge (*Jñāna*). He explains that the *dharmaskandhas* represent the structured lifestyle stages (*Āśramas*). The first branch covers the householder (*Gṛhastha*), focusing on sacrifice, study, and giving. The second is the forest-hermit (*Vānaprastha*), defined by deep introspection and austerity (*Tapas*). The third is the lifelong celibate student (*Naiṣṭhika Brahmacārī*). Shankara strongly emphasizes that while all three lifestyles generate immense structural merit (*puṇyalokāḥ*), their rewards are strictly bound by time and space. In stark contrast, the phrase *Brahmasaṃsthaḥ amṛtatvam eti* introduces an entirely different category. A *Brahmasaṃstha* is someone whose mind has completely ceased to wander among material objects, remaining permanently anchored, settled, and dissolved in the non-dual reality of Brahman. Shankara argues that this state belongs exclusively to the formal renunciate (*Sannyāsī*), who has dropped all social duties to merge entirely into pure Consciousness, thereby claiming true, unchangeable immortality.",
+                "vishishtadvaita": "Raṅgarāmānuja structuralizes this passage differently, arguing that the state of resting firmly in Brahman (*Brahmasaṃsthā*) is not restricted to a single external stage of life like formal renunciation. Instead, it represents an internal quality of deep devotion that can—and should—be perfected within any rightful stage of life. Whether one is a householder practicing charity or a student practicing self-discipline, if every single action is consciously surrendered to the Supreme Lord as an act of loving worship, that person is truly a *Brahmasaṃstha*. Immortality is not achieved by merely dropping social roles, but by recognizing that the soul is eternally dependent on, and filled by, the indwelling Godhead.",
+                "dvaita_vedanta": "Madhvācārya points out that the classification of duties proves that the cosmic layout established by Lord Viṣṇu requires distinct human paths to maintain social and spiritual balance. No one should foolishly abandon their designated *Dharma*. However, performing duties mechanically only grants temporary, celestial rewards (*puṇyalokāḥ*). Real liberation and immortality are granted exclusively to the *Brahmasaṃstha*—the soul who possesses clear, unshakeable theological knowledge of Viṣṇu's absolute independence and who remains completely anchored in that truth while executing their worldly duties."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "प्रजापतिर्लोकानभ्यतपत्तेषां अभितप्तानां रसान्प्रावृहदग्निं पृथिव्या वायुमन्तरिक्षादादित्यं दिवः ॥ २ ॥",
+              "iast": "prajāpatirlokānabhyatapatteṣāṃ abhitaptānāṃ rasānprāvṛhadagniṃ pṛthivyā vāyumantarīkṣādādityaṃ divaḥ || 2 ||",
+              "english_translation": "Prajāpati brooded over the worlds. From them, thus brooded over, he extracted their essential essences: Fire (Agni) from the Earth, Wind (Vāyu) from the atmosphere, and the Sun (Āditya) from Heaven.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara explains that this narrative shows the orderly distillation of cosmic layers, demonstrating how gross matter leads back to subtle energy. Prajāpati's 'brooding' (*Abhitaptānāṃ*) is not emotional anxiety, but the intense focus of cosmic intelligence. By distilling the planetary fields, he extracts their radiant cores. This teaches the seeker that beneath the solid surface of everyday objects lies a vibrant, energetic matrix that can be accessed through disciplined meditation.",
+                "vishishtadvaita": "The school views this distillation as a demonstration of the Lord's flawless blueprint. Creation is organized like a nested series of rooms. The Supreme Lord, operating through Prajāpati, highlights Fire, Wind, and Sun as the vital controllers of their respective spheres, showing the devotee that every layer of physical space is carefully managed by a divine representative.",
+                "dvaita_vedanta": "According to Madva, this verse confirms that the material universe operates under a strict, governed hierarchy. Material elements do not exist independently; they are supervised by specific elemental deities who answer directly to the sovereign command of Viṣṇu, who guides the entire evolutionary process from behind the scenes."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "स एतास्तिस्रो देवता अभ्यतपत्तासां अभितप्तानां रसान्प्रावृहदग्नेर्ऋचो वायोर्यजूंषि आदित्यात्सामानि ॥ ३ ॥",
+              "iast": "sa etāstisro devatā abhyatapattāsāṃ abhitaptānāṃ rasānprāvṛhadagnerṛco vāyoryajūṃṣi ādityātsāmāni || 3 ||",
+              "english_translation": "He brooded over those three deities. From them, thus brooded over, he extracted their essences: the Ṛg verses from Fire, the Yajus formulas from Wind, and the Sāman chants from the Sun.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks this deeper distillation into the realm of sacred sound and knowledge. Cosmic light-forces are revealed to be identical to internal spiritual vibrations. The physical fire contains the seed of articulation (*Ṛg*); the invisible movement of the wind contains the dynamic action-formulas (*Yajus*); and the brilliant majesty of the sun contains the ultimate harmony (*Sāma*). This non-dual connection shows that scriptural revelation is not an arbitrary human invention, but an intrinsic, sonic property of the cosmos itself.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that the extraction of the three Vedas from the primary deities confirms the sacred nature of scriptural sound. The Vedas are the breath of the Lord. By anchoring the chants to the Sun, the text reminds the seeker that the ultimate purpose of all liturgy is to illuminate the dark corners of the mind and guide the soul back to the supreme source of light.",
+                "dvaita_vedanta": "Madhva explains that this step demonstrates the divine origin and structural purity of the Vedas. The sacred sound-vibrations are managed by the highest administrative gods under Viṣṇu's authority. This systematic extraction ensures that the liturgical layout remains completely uncorrupted, serving as a reliable map for humanity's spiritual return."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "स एतां त्रयीं विद्यामभ्यतपत्तस्या अभितप्ताया रसान्प्रावृहद्भूरिति ऋग्भ्यो भुव इत्यजुर्भ्यः स्वरिति सामभ्यः ॥ ४ ॥",
+              "iast": "sa etāṃ trayīṃ vidyāmabhyatapattasyā abhitaptāyā rasānprāvṛhadbhūriti ṛgbhyo bhuva ityajurbhyaḥ svariti sāmabhyaḥ || 4 ||",
+              "english_translation": "He brooded over this triple knowledge. From it, thus brooded over, he extracted its essential essences: the syllable 'Bhūḥ' from the Ṛg verses, the syllable 'Bhuvaḥ' from the Yajus formulas, and the syllable 'Svaḥ' from the Sāman chants.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara details the final distillation of all text into the three great mystical utterances (*Mahāvyāhṛtis*): *Bhūḥ*, *Bhuvaḥ*, and *Svaḥ*. Thousands of verses are condensed into three simple seed-sounds. This is a critical lesson in non-dual concentration: it shows the mind how to fold vast, complex outer information back into simple, powerful interior anchors, preparing the consciousness for silent meditation.",
+                "vishishtadvaita": "The school highlights that the *Vyāhṛtis* contain the concentrated potency of all scriptural wisdom. They are not mere words, but sonic seeds representing the entire body of the Lord. Chanting them with deep devotion invokes the protective presence of the Almighty across all three spheres of existence.",
+                "dvaita_vedanta": "Madhva clarifies that these three utterances are directly supervised by the primary forms of the Lord. They hold the structural keys to the cosmic layout. Mastering these sounds under the guidance of a qualified teacher connects the seeker directly to the divine laws that govern the physical, atmospheric, and celestial planes."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "तद्भूरेवर्चोऽभ्यौहद्भुव इति यजूंष्यभ्यौहत्स्वरिति सामान्यभ्यौहत् ॥ ५ ॥",
+              "iast": "tadbhūrevarco'bhyauhaddhuva iti yajūṃṣyabhyauhatsvariti sāmānyabhyauhat || 5 ||",
+              "english_translation": "He condensed the Ṛg verses into 'Bhūḥ'; he condensed the Yajus formulas into 'Bhuvaḥ'; and he condensed the Sāman chants into 'Svaḥ'.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara explains that this explicit reinforcement locks the distillation process in reverse, creating an absolute sonic bridge. The entire material universe and all scriptural knowledge are now firmly anchored to these three syllables. They act as a spiritual doorway, allowing the meditator to dissolve the diversity of the world into a unified point of focus.",
+                "vishishtadvaita": "Raṅgarāmānuja notes that this compression reveals how the Lord makes vast cosmic truths accessible to the individual soul. One does not need to memorize endless texts; by resting mindfully in these concentrated sacred seeds, the devotee aligns perfectly with the entire divine order.",
+                "dvaita_vedanta": "According to Madva, this verse underscores the precise, mathematical design of the liturgy. The compression is a deliberate functional layout engineered by the Supreme Person, providing a streamlined, highly effective path for the soul to focus its intent without getting lost in endless textual variations."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "तद्यथा शङ्कुना सर्वाणि पर्णानि संतृण्णान्येवमोङ्कारेण सर्वा वाक्संतृण्णोङ्कार एवेदं सर्वमोङ्कार एवेदं सर्वम् ॥ ६ ॥",
+              "iast": "tadyathā śaṅkunā sarvāṇi parṇāni saṃtṛṇṇānyevamoṅkāreṇa sarvā vāksaṃtṛṇṇoṅkāra evedaṃ sarvamoṅkāra evedaṃ sarvam || 6 ||",
+              "english_translation": "Just as all leaves are held together by a rib or stalk, even so is all speech held together by the syllable Om (Oṃkāra). Verily, the syllable Om is all this; yea, the syllable Om is all this.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara delivers a magnificent concluding commentary on this verse, using the vivid analogy of a leaf's veins held together by a central stalk (*śaṅkunā*). He explains that *Oṃkāra* (Om) is the absolute primordial matrix of all sound and existence. If you trace any word or sound back to its root, it emerges from the throat and mouth as 'A', rolls over the tongue as 'U', and seals at the lips as 'M'. Therefore, all speech (*sarvā vāk*), and by extension all objects named by speech, are woven around Om. By stating *oṅkāra evedaṃ sarvam* (Om is indeed everything), the Upanishad delivers its final non-dual punch: the entire universe is nothing but a manifestation of Om. When the seeker meditates on Om, they are not repeating a random chant; they are resting directly in the pure, undivided reality of Brahman, completing the journey from ritual action to absolute liberation.",
+                "vishishtadvaita": "The school views Om as the primary, unshakeable name of the Supreme Lord (*Praṇava*). Just as a central stalk sustains a leaf, the power and presence of God holds all created worlds together, preventing them from falling into non-existence. Repeating Om is an act of total surrender to the indwelling Master who coordinates every breath and atom in creation.",
+                "dvaita_vedanta": "Madhva explains that Om is the supreme acoustic signature of Lord Viṣṇu, containing within its three structural sounds the primary operations of creation, maintenance, and dissolution. It is the core anchor of the entire cosmic layout. Every prayer, sacrifice, and action must be marked by Om to show total submission to the independent will of the Sovereign Ruler, who remains the ultimate source and protector of everything."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

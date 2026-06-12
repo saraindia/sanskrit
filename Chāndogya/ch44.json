@@ -1,0 +1,135 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 44: Chapter 3, Sections 18–19. The mind as Brahman with its four feet, and the sun as Brahman born of the cosmic egg. Completes Chapter 3.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_3": {
+      "sections": [
+        {
+          "section_number": 18,
+          "title": "Mind as Brahman — The Four-Footed Meditation",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "मनो ब्रह्मेत्युपासीतेत्यध्यात्ममथाधिदैवतमाकाशो ब्रह्मेत्युभयमादिष्टं भवत्यध्यात्मं चाधिदैवतं च ॥ १ ॥",
+              "iast": "mano brahmety upāsītety adhyātmam athādhidaivatam ākāśo brahmety ubhayam ādiṣṭaṃ bhavaty adhyātmaṃ cādhidaivataṃ ca || 1 ||",
+              "english_translation": "One should meditate on the mind as Brahman — this with reference to the self. And with reference to the gods: space is Brahman. Thus both are taught — that relating to the self and that relating to the gods.",
+              "commentaries": {
+                "advaita_vedanta": "Mind within and space without are the subtlest representatives of Brahman on either plane; meditating on both trains the seeker to find the One in the inner and the outer alike.",
+                "vishishtadvaita": "Mind and space are the Lord's most pervasive instruments; honouring Him in both, the worshipper learns His double presence — within the soul and throughout the cosmos.",
+                "dvaita_vedanta": "Mind and space symbolise Viṣṇu's inner and outer rule; the symbols are exalted, but the Lord remains distinct from and master of both."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तदेतच्चतुष्पाद्ब्रह्म वाक्पादः प्राणः पादश्चक्षुः पादः श्रोत्रं पाद इत्यध्यात्ममथाधिदैवतमग्निः पादो वायुः पाद आदित्यः पादो दिशः पाद इत्युभयमेवादिष्टं भवत्यध्यात्मं चैवाधिदैवतं च ॥ २ ॥",
+              "iast": "tad etac catuṣpād brahma vāk pādaḥ prāṇaḥ pādaś cakṣuḥ pādaḥ śrotraṃ pāda ity adhyātmam athādhidaivatam agniḥ pādo vāyuḥ pāda ādityaḥ pādo diśaḥ pāda ity ubhayam evādiṣṭaṃ bhavaty adhyātmaṃ caivādhidaivataṃ ca || 2 ||",
+              "english_translation": "This Brahman has four feet: speech is one foot, breath is one foot, the eye is one foot, the ear is one foot — this with reference to the self. With reference to the gods: fire is one foot, wind is one foot, the sun is one foot, the quarters are one foot. Thus both are taught — that relating to the self and that relating to the gods.",
+              "commentaries": {
+                "advaita_vedanta": "The mind-Brahman walks on four feet — the faculties within, the deities without; each inner power has its cosmic counterpart, all limbs of the one Reality.",
+                "vishishtadvaita": "The four faculties and four deities are the Lord's coordinated servants, His 'feet' by which He moves in the person and the world.",
+                "dvaita_vedanta": "The pairing of organs and gods shows the Lord's administration: each sense is ruled by its presiding deity, each deity by Viṣṇu."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "वागेव ब्रह्मणश्चतुर्थः पादः सोऽग्निना ज्योतिषा भाति च तपति च भाति च तपति च कीर्त्या यशसा ब्रह्मवर्चसेन य एवं वेद ॥ ३ ॥",
+              "iast": "vāg eva brahmaṇaś caturthaḥ pādaḥ so 'gninā jyotiṣā bhāti ca tapati ca bhāti ca tapati ca kīrtyā yaśasā brahmavarcasena ya evaṃ veda || 3 ||",
+              "english_translation": "Speech is one of the four feet of Brahman. With the light of fire it shines and warms. He who knows thus shines and warms with renown, with fame, and with the lustre of sacred knowledge.",
+              "commentaries": {
+                "advaita_vedanta": "Speech kindled by fire images the word kindled by insight; the knower radiates what he contemplates.",
+                "vishishtadvaita": "Agni empowers the devotee's speech; meditation returns as eloquence and holy lustre.",
+                "dvaita_vedanta": "Fire's gift of shining speech comes through the Lord's appointment."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "प्राण एव ब्रह्मणश्चतुर्थः पादः स वायुना ज्योतिषा भाति च तपति च भाति च तपति च कीर्त्या यशसा ब्रह्मवर्चसेन य एवं वेद ॥ ४ ॥",
+              "iast": "prāṇa eva brahmaṇaś caturthaḥ pādaḥ sa vāyunā jyotiṣā bhāti ca tapati ca bhāti ca tapati ca kīrtyā yaśasā brahmavarcasena ya evaṃ veda || 4 ||",
+              "english_translation": "Breath is one of the four feet of Brahman. With the light of the wind it shines and warms. He who knows thus shines and warms with renown, with fame, and with the lustre of sacred knowledge.",
+              "commentaries": {
+                "advaita_vedanta": "Breath and wind, one life within and without — the meditation knits the person into the cosmos.",
+                "vishishtadvaita": "Vāyu invigorates the worshipper's life-breath with divine vitality.",
+                "dvaita_vedanta": "Vāyu, the Lord's prime minister, lends his light to the knower's breath."
+              }
+            },
+            {
+              "verse_number": 5,
+              "devanagari": "चक्षुरेव ब्रह्मणश्चतुर्थः पादः स आदित्येन ज्योतिषा भाति च तपति च भाति च तपति च कीर्त्या यशसा ब्रह्मवर्चसेन य एवं वेद ॥ ५ ॥",
+              "iast": "cakṣur eva brahmaṇaś caturthaḥ pādaḥ sa ādityena jyotiṣā bhāti ca tapati ca bhāti ca tapati ca kīrtyā yaśasā brahmavarcasena ya evaṃ veda || 5 ||",
+              "english_translation": "The eye is one of the four feet of Brahman. With the light of the sun it shines and warms. He who knows thus shines and warms with renown, with fame, and with the lustre of sacred knowledge.",
+              "commentaries": {
+                "advaita_vedanta": "Sight and sun: the seer within and the illuminator without are functions of one light.",
+                "vishishtadvaita": "The sun lends the eye its power as the Lord's gift of vision.",
+                "dvaita_vedanta": "Sūrya serves the Lord by lighting the creature's eye."
+              }
+            },
+            {
+              "verse_number": 6,
+              "devanagari": "श्रोत्रमेव ब्रह्मणश्चतुर्थः पादः स दिग्भिर्ज्योतिषा भाति च तपति च भाति च तपति च कीर्त्या यशसा ब्रह्मवर्चसेन य एवं वेद ॥ ६ ॥",
+              "iast": "śrotram eva brahmaṇaś caturthaḥ pādaḥ sa digbhir jyotiṣā bhāti ca tapati ca bhāti ca tapati ca kīrtyā yaśasā brahmavarcasena ya evaṃ veda || 6 ||",
+              "english_translation": "The ear is one of the four feet of Brahman. With the light of the quarters it shines and warms. He who knows thus shines and warms with renown, with fame, and with the lustre of sacred knowledge.",
+              "commentaries": {
+                "advaita_vedanta": "Hearing and the encompassing quarters complete the four feet; the meditation ends with the knower radiant on every side.",
+                "vishishtadvaita": "The quarters carry sound to the devotee's ear by the Lord's pervading order.",
+                "dvaita_vedanta": "The directional deities serve hearing under Viṣṇu's rule; the fourfold meditation honours His whole administration."
+              }
+            }
+          ]
+        },
+        {
+          "section_number": 19,
+          "title": "The Sun as Brahman — The Cosmic Egg",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "आदित्यो ब्रह्मेत्यादेशस्तस्योपव्याख्यानमसदेवेदमग्र आसीत् । तत्सदासीत्तत्समभवत्तदाण्डं निरवर्तत तत्संवत्सरस्य मात्रामशयत तन्निरभिद्यत ते आण्डकपाले रजतं च सुवर्णं चाभवताम् ॥ १ ॥",
+              "iast": "ādityo brahmety ādeśas tasyopavyākhyānam asad evedam agra āsīt | tat sad āsīt tat samabhavat tad āṇḍaṃ niravartata tat saṃvatsarasya mātrām aśayata tan nirabhidyata te āṇḍakapāle rajataṃ ca suvarṇaṃ cābhavatām || 1 ||",
+              "english_translation": "'The sun is Brahman' — this is the teaching. Its explanation: in the beginning this was non-existent (unmanifest). It became existent; it grew; it turned into an egg. It lay for the period of a year; then it split open. The two halves of the eggshell became silver and gold.",
+              "commentaries": {
+                "advaita_vedanta": "Śaṅkara is careful: 'asat' means not absolute non-being but the unmanifest state of name-and-form; from the One the cosmic egg evolves. The sun, first-born of the egg, is honoured as Brahman's most visible symbol.",
+                "vishishtadvaita": "The 'non-existent' is Brahman with souls and matter in their subtle, undifferentiated state; creation is the Lord's body unfolding from subtlety into the cosmic egg.",
+                "dvaita_vedanta": "Madhva denies any literal non-being: the world's seed-state pre-exists under Viṣṇu's will, who alone causes the egg's formation and bursting."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "तद्यद्रजतं सेयं पृथिवी यत्सुवर्णं सा द्यौर्यज्जरायु ते पर्वता यदुल्बं समेघो नीहारो या धमनयस्ता नद्यो यद्वास्तेयमुदकं स समुद्रः ॥ २ ॥",
+              "iast": "tad yad rajataṃ seyaṃ pṛthivī yat suvarṇaṃ sā dyaur yaj jarāyu te parvatā yad ulbaṃ sameghо nīhāro yā dhamanayas tā nadyo yad vāsteyam udakaṃ sa samudraḥ || 2 ||",
+              "english_translation": "What was silver is this earth; what was gold is the sky; what was the outer membrane is the mountains; what was the inner membrane is cloud and mist; what were the veins are the rivers; what was the fluid within is the ocean.",
+              "commentaries": {
+                "advaita_vedanta": "The egg's anatomy becomes the world's geography — a vision of the cosmos as one living birth, preparing the mind to see unity beneath multiplicity.",
+                "vishishtadvaita": "Every feature of the world is a transformed limb of the Lord's primal manifestation; nothing is alien to His body.",
+                "dvaita_vedanta": "The detailed correspondence exhibits the Lord's artistry; each part is His deliberate fashioning, not chance."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "अथ यत्तदजायत सोऽसावादित्यस्तं जायमानं घोषा उलूलवोऽनूदतिष्ठन्त्सर्वाणि च भूतानि सर्वे च कामास्तस्मात्तस्योदयं प्रति प्रत्यायनं प्रति घोषा उलूलवोऽनूत्तिष्ठन्ति सर्वाणि च भूतानि सर्वे च कामाः ॥ ३ ॥",
+              "iast": "atha yat tad ajāyata so 'sāv ādityas taṃ jāyamānaṃ ghoṣā ulūlavo 'nūdatiṣṭhant sarvāṇi ca bhūtāni sarve ca kāmās tasmāt tasyodayaṃ prati pratyāyanaṃ prati ghoṣā ulūlavo 'nūttiṣṭhanti sarvāṇi ca bhūtāni sarve ca kāmāḥ || 3 ||",
+              "english_translation": "And what was born of it is yonder sun. As it was being born, shouts of jubilation rose up after it, and all beings and all desires. Therefore at its rising and at its every return, shouts of jubilation rise up, and all beings and all desires.",
+              "commentaries": {
+                "advaita_vedanta": "The sun's birth is greeted by the world's joy — for light is life and the visible face of the Real; every dawn repeats the first creation.",
+                "vishishtadvaita": "Creation rejoices at the Lord's luminous emergence; daily sunrise renews the world's thanksgiving to Him.",
+                "dvaita_vedanta": "The jubilation honours the Lord present in the sun; beings and their fulfilments depend on his rising."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "स य एतमेवं विद्वानादित्यं ब्रह्मेत्युपास्तेऽभ्याशो ह यदेनं साधवो घोषा आ च गच्छेयुरुप च निम्रेडेरन्निम्रेडेरन् ॥ ४ ॥",
+              "iast": "sa ya etam evaṃ vidvān ādityaṃ brahmety upāste 'bhyāśo ha yad enaṃ sādhavo ghoṣā ā ca gaccheyur upa ca nimreḍerann nimreḍeran || 4 ||",
+              "english_translation": "He who, knowing thus, meditates on the sun as Brahman — pleasant sounds will quickly come to him and delight him — yes, delight him.",
+              "commentaries": {
+                "advaita_vedanta": "The fruit fits the meditation: he who reveres the world-gladdening light is himself surrounded by gladness. The repetition closes the chapter's final vidyā.",
+                "vishishtadvaita": "The Lord in the sun rewards His meditator with joy on every side.",
+                "dvaita_vedanta": "Viṣṇu, worshipped through His solar presence, grants the devotee a life attended by auspicious delight."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

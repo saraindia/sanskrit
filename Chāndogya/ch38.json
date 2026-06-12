@@ -1,0 +1,63 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 38: Chapter 3, Section 2. The Madhu-Vidyā (The Honey Doctrine), Part 2. This section continues the mapping of the solar rays to the four cardinal directions and the zenith, identifying the specific Vedic essences and the nectar they yield.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_3": {
+      "sections": [
+        {
+          "section_number": 2,
+          "title": "The Solar Rays and the Nectar of the Vedas",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "ता वा एता दक्षिणान्या रश्मयस्त एव अस्य दक्षिण मधुकृतो यजुर्वेद एव पुष्पं ता आपोऽमृतं दुहन्ति ॥ १ ॥",
+              "iast": "tā vā etā dakṣiṇānyā raśmayastā eva asya dakṣiṇa madhukṛto yajurveda eva puṣpaṃ tā āpo'mṛtaṃ duhanti || 1 ||",
+              "english_translation": "Now, those rays of the sun that extend to the South are its southern honey-cells. The Yajus formulas are the bees; the Yajurveda is the flower; and those waters (the rays) produce the nectar of immortality (Amṛta).",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara notes the systematic nature of this meditation. Just as the eastern rays are associated with the Ṛgveda (Praise), the southern rays are associated with the Yajurveda (Action/Ritual). In the symbolic language of the Upanishad, the South is the direction of the Pitṛs (ancestors) and ritual duty. Therefore, the Yajurveda, which governs the precise performance of sacrifice, acts as the flower. The nectar produced here is the spiritual refinement resulting from disciplined, karma-based service, which eventually leads the seeker toward the higher realization of Brahman.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that this verse anchors ritual action (*Karma*) in the grace of the Sun. By performing the Yajus-based sacrifices with the Sun as the witness and receptacle, the householder’s actions are purified and elevated. The southern direction represents the domain of maintenance and ancestral continuity, sustained by the divine light.",
+                "dvaita_vedanta": "Madhvācārya points out that the southern rays specifically channel the energy required for the maintenance of the world. The Yajurveda provides the rules for sacrifice, which keeps the cosmic engine running. The 'nectar' produced here is the divine order (*Ṛta*) that allows the soul to perform its duties in harmony with the Lord's administrative plan."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "ता वा एताः प्रतीच्या रश्मयस्त एव अस्य प्रतीच्यौ मधुनाड्यः सामवेद एव मधुकृतः सामवेद एव पुष्पं ता आपोऽमृतं दुहन्ति ॥ २ ॥",
+              "iast": "tā vā etāḥ pratīcyā raśmayastā eva asya pratīcyau madhunāḍyaḥ sāmaveda eva madhukṛtaḥ sāmaveda eva puṣpaṃ tā āpo'mṛtaṃ duhanti || 2 ||",
+              "english_translation": "Those rays of the sun that extend to the West are its western honey-cells. The Sāman melodies are the bees; the Sāmaveda is the flower; and those waters (the rays) produce the nectar of immortality (Amṛta).",
+              "commentaries": {
+                "advaita_vedanta": "Shankara observes that the West is the direction of setting—the transition toward the inward, meditative state. Here, the Sāmaveda (the Veda of music and ecstasy) acts as the flower. This signifies that as the day ends and the Sun moves West, the seeker should move from external ritual (East/South) to internal harmony and deep, meditative absorption (West). The nectar gathered here is the bliss of realization.",
+                "vishishtadvaita": "Raṅgarāmānuja highlights that the Sāman chants are the most direct expressions of joy and praise. When the soul meditates upon the Sun through the Sāman rays, they gather the 'honey' of direct experience—the ecstatic realization of the Lord's beauty, which prepares the heart for complete surrender.",
+                "dvaita_vedanta": "Madhva explains that the western rays represent the culmination of spiritual practice. The Sāman melodies harmonize the soul's relationship with Viṣṇu. Gathering this 'honey' leads to the final, peaceful state of the devotee, where their understanding of the divine glory is fully mature."
+              }
+            },
+            {
+              "verse_number": 3,
+              "devanagari": "ता वा एता उदीच्या रश्मयस्त एव अस्य उदञ्चो मधुनाड्योऽथर्वान्गिरस एव मधुकृत इतिहासापुराणमेव पुष्पं ता आपोऽमृतं दुहन्ति ॥ ३ ॥",
+              "iast": "tā vā etā udīcyā raśmayastā eva asya udañco madhunāḍyo'tharvāṅgirasa eva madhukṛta itihāsapurānameva puṣpaṃ tā āpo'mṛtaṃ duhanti || 3 ||",
+              "english_translation": "Those rays of the sun that extend to the North are its northern honey-cells. The Atharvan and Aṅgirasa (Atharvaveda) are the bees; the Itihāsa-Purāṇas (epics and histories) are the flower; and those waters produce the nectar of immortality (Amṛta).",
+              "commentaries": {
+                "advaita_vedanta": "Shankara notes that the North is the direction of illumination and transcendence. The inclusion of Atharvaveda and Itihāsa-Purāṇas shows that even the practical, historical, and mythological aspects of the tradition contain the essence of the Divine. All aspects of human story and tradition are 'bees' that can extract the nectar of truth if viewed through the lens of the Sun's light.",
+                "vishishtadvaita": "Raṅgarāmānuja emphasizes that history (*Itihāsa*) and tradition (*Purāṇa*) are essential for the devotee, as they provide the narrative evidence of the Lord's *Avatāras* and mercy. These stories are the 'blossoms' that teach the soul how to love and serve God effectively in the world.",
+                "dvaita_vedanta": "Madhva adds that the Atharvaveda and the historical traditions contain the deeper mysteries and specific techniques for overcoming the obstacles of material life. By meditating on these as northern rays, the devotee gains the clarity needed to navigate the final stages of the path toward the Lord."
+              }
+            },
+            {
+              "verse_number": 4,
+              "devanagari": "अथ वा एत ऊर्ध्वा रश्मयस्त एव अस्योर्ध्वा मधुनाड्यो गुह्या आदेशा एव मधुकृतो ब्रह्मैव पुष्पं ता आपोऽमृतं दुहन्ति ॥ ४ ॥",
+              "iast": "atha vā eta ūrdhvā raśmayastā eva asyordhvā madhunāḍyo guhyā ādeśā eva madhukṛta brahmaiva puṣpaṃ tā āpo'mṛtaṃ duhanti || 4 ||",
+              "english_translation": "Now, those rays of the sun that extend Upward are its upper honey-cells. The hidden, secret teachings (Guhyā-ādeśāḥ) are the bees; Brahman itself is the flower; and those waters produce the nectar of immortality (Amṛta).",
+              "commentaries": {
+                "advaita_vedanta": "Shankara reaches the climax of this meditation: the zenith. Here, the 'bee' is not a Veda, but the *Guhyā-ādeśāḥ*—the secret, direct instructions of the Upanishads—and the 'flower' is Brahman itself. This signifies that the highest meditation transcends all scriptural texts and arrives at the non-dual realization of the Infinite. The nectar is pure, unadulterated Mokṣa.",
+                "vishishtadvaita": "Raṅgarāmānuja explains that the upward rays signify the soul's final ascent toward Vaikuṇṭha. The 'hidden instructions' are the teachings of the Guru that guide the soul to look beyond the material rays to the Supreme Lord, who is the true source of all light and grace.",
+                "dvaita_vedanta": "Madhva explains that the upward direction represents the state of liberation (*Mukti*). Brahman is the flower of all flowers, the source of all nectar. To meditate on the upward rays is to focus the mind entirely on the Supreme Lord, seeking the final, eternal joy that only the realization of Viṣṇu can grant."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

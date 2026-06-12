@@ -1,0 +1,41 @@
+{
+  "chandogya_upanishad": {
+    "info": {
+      "veda": "Sāmaveda",
+      "structure": "Part 27: Chapter 2, Section 15. The Meditation on the Vairūpya Sāman (Vairūpya Sāmopāsanā). This section outlines the meditation on the Vairūpya melody, mapping its structural phases onto the dynamic meteorological progression of clouds, wind, lightning, and rain.",
+      "format": "Devanagari, IAST, English translation, and philosophical commentaries."
+    },
+    "chapter_2": {
+      "sections": [
+        {
+          "section_number": 15,
+          "title": "The Meditation on the Vairūpya Sāman",
+          "verses": [
+            {
+              "verse_number": 1,
+              "devanagari": "अभ्रं जायते स हिंकारो मेघो भवति स प्रस्तावो वर्षति स उद्गीथो विद्योतते स्तनयति स प्रतिहार उद्गृह्णाति तन्निधनमेतद्वैरूप्यं पर्जन्ये प्रोतम् ॥ १ ॥",
+              "iast": "abhraṃ jāyate sa hiṃkāro megho bhavati sa prastāvo varṣati sa udgītho vidyotate stanayati sa pratihāro udgṛhṇāti tannidhanametadvairūpyaṃ parjanye protam || 1 ||",
+              "english_translation": "The gathering of thin mists or vapors is the syllable 'Hiṃ'; the formation of thick, dark clouds is the introductory praise (Prastāva); the falling of rain is the loud chant (Udgītha); the flashing of lightning and rolling of thunder represent the response (Pratihāra); and the clearing or cessation of the storm is the finale (Nidhana). This is the Vairūpya Sāman as woven into the rain-god (Parjanya).",
+              "commentaries": {
+                "advaita_vedanta": "Adi Śaṅkara notes that *Vairūpya* literally means 'having diverse, multiform shapes.' This name perfectly suits the atmospheric theater of rain (*Parjanya*). The text maps this weather cycle step-by-step. The initial rising of transparent vapor (*abhram*) is the *Hiṃkāra*. As these vapors pack tightly into dark, heavy rain-clouds (*meghaḥ*), it reaches the *Prastāva*. The downpour itself (*varṣati*) is the crowning *Udgītha*—the high point that directly nourishes the Earth. The dramatic, striking flash of lightning and thunder (*vidyotate stanayati*) forms the *Pratihāra*. Finally, the clearing up of the skies and withholding of water (*udgṛhṇāti*) is the *Nidhana*. Shankara states that by meditating on these shifting clouds as the Vairūpya song, the sage stays unmoved by external chaos, recognizing it as a passing phase of one universal harmony.",
+                "vishishtadvaita": "Raṅgarāmānuja writes that the multi-shaped clouds reveal the endless creative imagination (*vaicitrya*) of the Supreme Lord. Rain is an act of sheer divine mercy (*kṛpā*). By mapping the downpour onto the *Udgītha*, the text shows that God's grace falls generously on everyone. The thunder and lightning serve as a reminder of His absolute power, guiding the devotee to view a storm not with fear, but as a grand display of divine majesty.",
+                "dvaita_vedanta": "Madhvācārya points out that the *Vairūpya-Sāman* is managed by the deity Parjanya under the direct sovereign authority of Lord Viṣṇu. The changing shapes of clouds are not random accidents of weather. They are carefully organized layers of cosmic energy designed to sustain life on earth, proving that everything operates under a flawless, independent divine blueprint."
+              }
+            },
+            {
+              "verse_number": 2,
+              "devanagari": "स य एवमेतद्वैरूप्यं पर्जन्ये प्रोतं वेद विरूपांश्च सुरूपांश्च पशून्अवरुन्धे सर्वमायुरेति ज्योग्जीवति महान्प्रजया पशुभिर्भवति महान्कीर्त्या वर्षन्तं न निन्देत्तद्व्रतम् ॥ २ ॥",
+              "iast": "sa ya evametadvairūpyaṃ parjanye protaṃ veda virūpāṃśca surūpāṃśca paśūnavarundhe sarvamāyureti jyogjīvati mahān prajayā paśubhirbhavati mahān kīrtyā varṣantaṃ na nindettadvratam || 2 ||",
+              "english_translation": "He who knows this Vairūpya Sāman as woven into the rain-god acquires livestock of all forms—both uniquely shaped and beautifully formed; he enjoys a full and glorious lifespan, and grows great in children, cattle, and renown. His sacred vow should be never to speak ill of the pouring rain.",
+              "commentaries": {
+                "advaita_vedanta": "Shankara tracks the specific psychological vow (*Vrata*) assigned here: *varṣantaṃ na nindet* (one must never complain about the rain). People naturally grumble when downpours disrupt their daily plans or travel. Shankara explains that complaining about rain shows a deep separation from nature; it means you are insulting the *Udgītha* phase of the Vairūpya melody. The vow forces an inner shift from self-centered annoyance to non-dual acceptance, honoring the very water cycle that prevents global famine.",
+                "vishishtadvaita": "The school notes that honoring the pouring rain means recognizing that even when life feels damp, cloudy, or inconvenient, it is all part of the Lord's nurturing plan. Complaining about the weather breaks our harmony with His creation. Keeping this vow preserves the seeker's inner peace and keeps them grounded in gratitude, no matter how stormy life gets.",
+                "dvaita_vedanta": "According to Madva, the rain is a direct blessing from the corporate administrators appointed by Viṣṇu. Speaking ill of rain displays an ungrateful heart and invites negative karma. Observing this vow with care aligns the seeker with the cosmic hierarchy, granting long life, family stability, and an excellent spiritual reputation (*kīrti*)."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

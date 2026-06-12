@@ -91,11 +91,14 @@
 .option-wrong   { border-color: var(--terracotta); background: rgba(184,92,56,0.1); color: var(--terracotta); }
 
 .fb-feedback {
-  padding: 0.9rem 1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+  padding: 0.5rem 0.8rem;
   border-radius: var(--radius-sm);
-  font-family: var(--font-display);
-  font-size: 0.9rem;
-  letter-spacing: 0.04em;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
 }
 .feedback-correct { background: rgba(58,158,138,0.1); border: 1px solid rgba(58,158,138,0.3); color: var(--teal); }
 .feedback-wrong   { background: rgba(184,92,56,0.1);  border: 1px solid rgba(184,92,56,0.3);  color: var(--terracotta); }
@@ -125,6 +128,13 @@
   padding-left: 0.1rem;
 }
 
+/* Hint blank filled with the answer's English word after reveal */
+.fb-hint-filled {
+  color: var(--gold);
+  font-weight: 600;
+  font-style: normal;
+}
+
 /* Full English translation shown after the answer is revealed */
 .fb-english {
   font-size: 0.92rem;
@@ -135,27 +145,20 @@
   line-height: 1.5;
 }
 
-/* Answer word + meaning inside the feedback box */
-.fb-answer-word {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  margin-top: 0.5rem;
-  font-family: var(--font-body);
-}
-.fb-answer-word .devanagari {
-  font-size: 1.2rem;
+/* Compact answer strip inside the feedback box */
+.fb-feedback-mark { font-size: 1rem; font-weight: 700; }
+.fb-answer-deva {
+  font-size: 1.15rem;
   color: var(--gold);
 }
 .fb-answer-iast {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   color: var(--text-secondary);
   letter-spacing: 0.04em;
 }
 .fb-answer-meaning {
-  font-size: 0.88rem;
+  font-size: 0.85rem;
   color: var(--text-primary);
 }
 
@@ -169,6 +172,12 @@
   color: var(--text-secondary);
   letter-spacing: 0.03em;
   opacity: 0.85;
+}
+.fb-option-eng {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.2;
 }
 .option-correct .fb-option-iast { color: var(--teal); opacity: 0.8; }
 .option-wrong   .fb-option-iast { color: var(--terracotta); opacity: 0.8; }
