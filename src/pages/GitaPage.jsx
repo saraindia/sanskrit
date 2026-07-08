@@ -6,6 +6,7 @@ import HubBack from '../components/HubBack'
 import { ClickableVerse } from '../components/ClickableSentence'
 import { useVocabularyData } from '../hooks/useData'
 import { usePurchase } from '../context/PurchaseContext'
+import { getGitaAudioUrl } from '../utils/gitaAudio'
 import './GitaPage.css'
 
 // Chapter JSON is fetched on demand and kept for the session
@@ -34,14 +35,26 @@ export default function GitaPage() {
   const [commOpen, setCommOpen]     = useSessionStorage('gita_comm_open', false)
   const [commAuthor, setCommAuthor] = useSessionStorage('gita_comm_author', 'sivananda')
   const [commentary, setCommentary] = useState(null)
-  const { speak, speakLines, stop, isPlaying } = useSpeech()
+  const { speak, speakLines, playUrl, stop, isPlaying } = useSpeech()
   const [activeLine, setActiveLine] = useState(-1)
+  const [audioLoading, setAudioLoading] = useState(false)
   const vocabData = useVocabularyData()
 
-  const handleVerseSpeak = useCallback((dev) => {
-    if (isPlaying) { stop(); setActiveLine(-1); return }
-    speakLines(dev, { onLine: setActiveLine, onDone: () => setActiveLine(-1) })
-  }, [isPlaying, stop, speakLines])
+  const handleVerseSpeak = useCallback(async (dev, chapter, verse) => {
+    if (isPlaying || audioLoading) { stop(); setActiveLine(-1); return }
+    setAudioLoading(true)
+    try {
+      const url = await Promise.race([
+        getGitaAudioUrl(chapter, verse),
+        new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 4000)),
+      ])
+      setAudioLoading(false)
+      await playUrl(url)
+    } catch {
+      setAudioLoading(false)
+      speakLines(dev, { onLine: setActiveLine, onDone: () => setActiveLine(-1) })
+    }
+  }, [isPlaying, audioLoading, stop, playUrl, speakLines])
 
   useEffect(() => {
     loadJson('manifest.json').then(setManifest).catch(e => setError(e.message))
@@ -196,9 +209,10 @@ export default function GitaPage() {
         <div className="gita-verse-tags">
           <span className="pill pill-sacred">BG {chapter.chapter}.{verse.v}</span>
           <button
-            className={`speak-btn gita-speak${isPlaying ? ' playing' : ''}`}
-            title={isPlaying ? 'Stop' : 'Hear verse'}
-            onClick={() => handleVerseSpeak(verse.dev)}
+            className={`speak-btn gita-speak${isPlaying ? ' playing' : ''}${audioLoading ? ' loading' : ''}`}
+            title={isPlaying ? 'Stop' : audioLoading ? 'Loading…' : 'Hear verse'}
+            disabled={audioLoading}
+            onClick={() => handleVerseSpeak(verse.dev, chapter.chapter, verse.v)}
           >
             <SpeakIcon />
           </button>

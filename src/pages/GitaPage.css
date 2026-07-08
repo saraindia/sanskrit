@@ -183,6 +183,11 @@
   animation: speak-pulse 1.2s ease-in-out infinite;
 }
 
+.speak-btn.loading {
+  opacity: 0.5;
+  cursor: wait;
+}
+
 .gita-iast {
   font-size: 0.95rem;
   color: var(--text-primary);

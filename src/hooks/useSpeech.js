@@ -118,6 +118,26 @@ export function useSpeech() {
     })
   }, [])
 
+  // ── Play any audio URL (e.g. pre-recorded chant from HuggingFace) ─────────
+  const playUrl = useCallback(async (url) => {
+    stop()
+    stoppedRef.current = false
+    setIsPlaying(true)
+    try {
+      await new Promise((resolve, reject) => {
+        const audio = new Audio()
+        audioRef.current = audio
+        audio.src = url
+        audio.onended = resolve
+        audio.onerror = reject
+        audio.onabort = reject
+        audio.play().catch(reject)
+      })
+    } finally {
+      setIsPlaying(false)
+    }
+  }, [stop])
+
   // ── Speak one text (single word / phrase) ─────────────────────────────────
   const speak = useCallback(async (text) => {
     if (!text) return
@@ -135,7 +155,7 @@ export function useSpeech() {
     finally { setIsPlaying(false) }
   }, [stop, playGTTS, webSpeak, useGoogle])
 
-  // ── Verse playback: split on daṇḍa, speak pāda by pāda ───────────────────
+  // ── Verse playback: word-by-word with pause between each ─────────────────
   const speakLines = useCallback(async (text, { onLine, onDone } = {}) => {
     const lines = text.split(/[।॥\n]+/).map(s => s.trim()).filter(Boolean)
     if (!lines.length) return
@@ -145,15 +165,22 @@ export function useSpeech() {
     for (let i = 0; i < lines.length; i++) {
       if (stoppedRef.current) break
       onLine?.(i)
-      try {
-        if (useGoogle) {
-          try   { await playGTTS(lines[i]) }
-          catch { await webSpeak(lines[i], 0.55) }
-        } else {
-          await webSpeak(lines[i], 0.55)
-        }
-      } catch { /* skip */ }
-      if (!stoppedRef.current) await new Promise(r => setTimeout(r, 450))
+      const words = lines[i].split(/\s+/).filter(Boolean)
+      for (let j = 0; j < words.length; j++) {
+        if (stoppedRef.current) break
+        try {
+          if (useGoogle) {
+            try   { await playGTTS(words[j]) }
+            catch { await webSpeak(words[j], 0.5) }
+          } else {
+            await webSpeak(words[j], 0.5)
+          }
+        } catch { /* skip */ }
+        if (!stoppedRef.current) await new Promise(r => setTimeout(r, 350))
+      }
+      // longer pause between pādas
+      if (!stoppedRef.current && i < lines.length - 1)
+        await new Promise(r => setTimeout(r, 700))
     }
     if (!stoppedRef.current) { onDone?.(); onLine?.(-1) }
     setIsPlaying(false)
@@ -204,7 +231,7 @@ export function useSpeech() {
   const toggleEngine = useCallback(() => { stop(); setUseGoogle(v => !v) }, [stop])
 
   return {
-    speak, speakLines, speakSequence, stop, pause, resume,
+    speak, speakLines, speakSequence, playUrl, stop, pause, resume,
     isPlaying, activeIdx,
     useGoogle, toggleEngine,
   }
