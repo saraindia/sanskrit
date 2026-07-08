@@ -34,8 +34,14 @@ export default function GitaPage() {
   const [commOpen, setCommOpen]     = useSessionStorage('gita_comm_open', false)
   const [commAuthor, setCommAuthor] = useSessionStorage('gita_comm_author', 'sivananda')
   const [commentary, setCommentary] = useState(null)
-  const { speak } = useSpeech()
+  const { speak, speakLines, stop, isPlaying } = useSpeech()
+  const [activeLine, setActiveLine] = useState(-1)
   const vocabData = useVocabularyData()
+
+  const handleVerseSpeak = useCallback((dev) => {
+    if (isPlaying) { stop(); setActiveLine(-1); return }
+    speakLines(dev, { onLine: setActiveLine, onDone: () => setActiveLine(-1) })
+  }, [isPlaying, stop, speakLines])
 
   useEffect(() => {
     loadJson('manifest.json').then(setManifest).catch(e => setError(e.message))
@@ -50,8 +56,8 @@ export default function GitaPage() {
     return () => { live = false }
   }, [chapterNum])
 
-  // Hide the answer again whenever the verse changes
-  useEffect(() => { setRevealed(false) }, [chapterNum, verseNum])
+  // Hide the answer and stop playback when the verse changes
+  useEffect(() => { setRevealed(false); stop(); setActiveLine(-1) }, [chapterNum, verseNum]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Commentary loads per chapter, only once the panel has been opened
   useEffect(() => {
@@ -189,10 +195,18 @@ export default function GitaPage() {
       <div className="card gita-verse-card">
         <div className="gita-verse-tags">
           <span className="pill pill-sacred">BG {chapter.chapter}.{verse.v}</span>
-          <button className="speak-btn gita-speak" title="Hear verse" onClick={() => speak(verse.dev)}><SpeakIcon /></button>
+          <button
+            className={`speak-btn gita-speak${isPlaying ? ' playing' : ''}`}
+            title={isPlaying ? 'Stop' : 'Hear verse'}
+            onClick={() => handleVerseSpeak(verse.dev)}
+          >
+            <SpeakIcon />
+          </button>
         </div>
 
-        <div className="gita-deva devanagari"><ClickableVerse text={verse.dev} vocabulary={vocabData?.vocabulary} /></div>
+        <div className={`gita-deva devanagari${isPlaying ? ' verse-playing' : ''}`}>
+          <ClickableVerse text={verse.dev} vocabulary={vocabData?.vocabulary} />
+        </div>
         <div className="gita-iast">{verse.iast}</div>
 
         {showAnswer ? (

@@ -66,8 +66,14 @@ export default function UpanishadsPage() {
   const [revealed, setRevealed]   = useState(false)
   const [text, setText]           = useState(null)
   const [error, setError]         = useState(null)
-  const { speak }                 = useSpeech()
+  const { speak, speakLines, stop, isPlaying } = useSpeech()
+  const [activeLine, setActiveLine] = useState(-1)
   const vocabData                 = useVocabularyData()
+
+  const handleVerseSpeak = useCallback((dev) => {
+    if (isPlaying) { stop(); setActiveLine(-1); return }
+    speakLines(dev, { onLine: setActiveLine, onDone: () => setActiveLine(-1) })
+  }, [isPlaying, stop, speakLines])
 
   useEffect(() => {
     loadJson('manifest.json').then(setManifest).catch(e => setError(e.message))
@@ -82,7 +88,7 @@ export default function UpanishadsPage() {
     return () => { live = false }
   }, [textId])
 
-  useEffect(() => { setRevealed(false) }, [textId, sectionId, verseIdx])
+  useEffect(() => { setRevealed(false); stop(); setActiveLine(-1) }, [textId, sectionId, verseIdx]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Unique adhyāyas (top level, only for texts that have them) in document order
   const adhyayas = useMemo(() => {
@@ -321,10 +327,18 @@ export default function UpanishadsPage() {
         <div className="gita-verse-tags">
           <span className="pill pill-sacred">{text.title}</span>
           <span className="pill pill-sacred" style={{marginLeft:'0.4rem'}}>Verse {verse.ref}</span>
-          <button className="speak-btn gita-speak" title="Hear verse" onClick={() => speak(verse.dev)}><SpeakIcon /></button>
+          <button
+            className={`speak-btn gita-speak${isPlaying ? ' playing' : ''}`}
+            title={isPlaying ? 'Stop' : 'Hear verse'}
+            onClick={() => handleVerseSpeak(verse.dev)}
+          >
+            <SpeakIcon />
+          </button>
         </div>
 
-        <div className="gita-deva devanagari"><ClickableVerse text={verse.dev} vocabulary={vocabData?.vocabulary} /></div>
+        <div className={`gita-deva devanagari${isPlaying ? ' verse-playing' : ''}`}>
+          <ClickableVerse text={verse.dev} vocabulary={vocabData?.vocabulary} />
+        </div>
         <div className="gita-iast">{verse.iast}</div>
 
         {showAnswer ? (

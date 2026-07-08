@@ -135,6 +135,30 @@ export function useSpeech() {
     finally { setIsPlaying(false) }
   }, [stop, playGTTS, webSpeak, useGoogle])
 
+  // ── Verse playback: split on daṇḍa, speak pāda by pāda ───────────────────
+  const speakLines = useCallback(async (text, { onLine, onDone } = {}) => {
+    const lines = text.split(/[।॥\n]+/).map(s => s.trim()).filter(Boolean)
+    if (!lines.length) return
+    stop()
+    stoppedRef.current = false
+    setIsPlaying(true)
+    for (let i = 0; i < lines.length; i++) {
+      if (stoppedRef.current) break
+      onLine?.(i)
+      try {
+        if (useGoogle) {
+          try   { await playGTTS(lines[i]) }
+          catch { await webSpeak(lines[i], 0.55) }
+        } else {
+          await webSpeak(lines[i], 0.55)
+        }
+      } catch { /* skip */ }
+      if (!stoppedRef.current) await new Promise(r => setTimeout(r, 450))
+    }
+    if (!stoppedRef.current) { onDone?.(); onLine?.(-1) }
+    setIsPlaying(false)
+  }, [stop, playGTTS, webSpeak, useGoogle])
+
   // ── Sequence playback ──────────────────────────────────────────────────────
   const speakSequence = useCallback(async (texts, { onProgress, onDone } = {}) => {
     if (!texts?.length) return
@@ -180,7 +204,7 @@ export function useSpeech() {
   const toggleEngine = useCallback(() => { stop(); setUseGoogle(v => !v) }, [stop])
 
   return {
-    speak, speakSequence, stop, pause, resume,
+    speak, speakLines, speakSequence, stop, pause, resume,
     isPlaying, activeIdx,
     useGoogle, toggleEngine,
   }
