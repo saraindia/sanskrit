@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback, useRef } from 'react'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
@@ -38,10 +38,12 @@ export default function GitaPage() {
   const { speak, speakLines, playUrl, stop, isPlaying } = useSpeech()
   const [activeLine, setActiveLine] = useState(-1)
   const [audioLoading, setAudioLoading] = useState(false)
+  const cancelRef = useRef(false)
   const vocabData = useVocabularyData()
 
   const handleVerseSpeak = useCallback(async (dev, chapter, verse) => {
     if (isPlaying || audioLoading) { stop(); setActiveLine(-1); return }
+    cancelRef.current = false
     setAudioLoading(true)
     try {
       const url = await Promise.race([
@@ -49,10 +51,11 @@ export default function GitaPage() {
         new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 4000)),
       ])
       setAudioLoading(false)
-      await playUrl(url)
+      if (!cancelRef.current) await playUrl(url)
     } catch {
       setAudioLoading(false)
-      speakLines(dev, { onLine: setActiveLine, onDone: () => setActiveLine(-1) })
+      if (!cancelRef.current)
+        speakLines(dev, { onLine: setActiveLine, onDone: () => setActiveLine(-1) })
     }
   }, [isPlaying, audioLoading, stop, playUrl, speakLines])
 
@@ -69,8 +72,14 @@ export default function GitaPage() {
     return () => { live = false }
   }, [chapterNum])
 
-  // Hide the answer and stop playback when the verse changes
-  useEffect(() => { setRevealed(false); stop(); setActiveLine(-1) }, [chapterNum, verseNum]) // eslint-disable-line react-hooks/exhaustive-deps
+  // Cancel in-flight fetches and stop playback when the verse or chapter changes
+  useEffect(() => {
+    cancelRef.current = true
+    setAudioLoading(false)
+    setRevealed(false)
+    stop()
+    setActiveLine(-1)
+  }, [chapterNum, verseNum]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Prefetch audio URL for current verse (and next) so listen tap is instant
   useEffect(() => {
