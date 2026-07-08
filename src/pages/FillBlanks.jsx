@@ -4,13 +4,17 @@ import { useSpeech } from '../hooks/useSpeech'
 import { useSoundEffects } from '../hooks/useSoundEffects'
 import { useVocabularyData, useSentenceData } from '../hooks/useData'
 import { toIAST } from '../utils/transliterate.js'
-import { freshOrder } from '../utils/freshOrder.js'
+import { freshOrder, freeOrder } from '../utils/freshOrder.js'
+import FreeBanner from '../components/FreeBanner'
 import ClickableSentence from '../components/ClickableSentence'
 import SpeakIcon from '../components/SpeakIcon'
 import HubBack from '../components/HubBack'
+import { usePurchase } from '../context/PurchaseContext'
 import './FillBlanks.css'
 
 export default function FillBlanks() {
+  const { isPro: _isPro, isChecking, showPaywall, FREE_LIMITS } = usePurchase()
+  const isPro = _isPro || isChecking
   const vocabData = useVocabularyData()
   const sentData  = useSentenceData()
   const fillBlanks      = sentData?.fill_blanks       || []
@@ -26,8 +30,9 @@ export default function FillBlanks() {
   // Unseen questions first, then least-recently-seen; recomputed each round
   const questions = useMemo(() => {
     const list = levelFilter === 'all' ? fillBlanks : fillBlanks.filter(q => q.level === levelFilter)
-    return freshOrder(list, progress.srs)
-  }, [fillBlanks, levelFilter, round]) // eslint-disable-line react-hooks/exhaustive-deps
+    // Free users always see the same fixed set; pro users get SRS-aware ordering
+    return isPro ? freshOrder(list, progress.srs) : freeOrder(list)
+  }, [fillBlanks, levelFilter, round, isPro]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Devanagari → English lookup for option meanings (with stem fallbacks
   // so inflected forms like बालः / फलम् still match the vocab entry)
@@ -71,9 +76,11 @@ export default function FillBlanks() {
   const handleNext = useCallback(() => {
     setSelected(null)
     setConfirmed(false)
-    if (currentIdx + 1 >= questions.length) setDone(true)
+    const nextIdx = currentIdx + 1
+    const hitFreeLimit = !isPro && nextIdx >= FREE_LIMITS.FILL_QUESTIONS
+    if (hitFreeLimit || nextIdx >= questions.length) setDone(true)
     else setCurrentIdx(i => i + 1)
-  }, [currentIdx, questions.length])
+  }, [currentIdx, questions.length, isPro, FREE_LIMITS])
 
   const restart = () => { setCurrentIdx(0); setSelected(null); setConfirmed(false); setDone(false); setSessionStats({ correct: 0, total: 0 }); setRound(r => r + 1) }
 
@@ -97,7 +104,15 @@ export default function FillBlanks() {
       <div className="card" style={{textAlign:'center',padding:'3rem',maxWidth:'400px',margin:'0 auto'}}>
         <div style={{fontFamily:'var(--font-display)',fontSize:'2.5rem',color:'var(--gold)'}}>{sessionStats.correct}/{sessionStats.total}</div>
         <p style={{color:'var(--text-secondary)',margin:'0.5rem 0 1.5rem'}}>Correct answers</p>
-        <button className="btn-primary" onClick={restart}>Try again</button>
+        {!isPro && (
+          <div className="paywall-gate">
+            <div className="paywall-gate-icon">🔓</div>
+            <p className="paywall-gate-title">Free preview complete</p>
+            <p className="paywall-gate-sub">Unlock all {fillBlanks.length} exercises</p>
+            <button className="paywall-gate-btn" onClick={showPaywall}>Unlock Full App</button>
+          </div>
+        )}
+        <button className="btn-primary" style={{marginTop:'0.75rem'}} onClick={restart}>Try again</button>
       </div>
     </div>
   )
@@ -134,6 +149,8 @@ export default function FillBlanks() {
           <button key={l} className={`filter-btn ${levelFilter===l?'active':''}`} onClick={()=>{setLevelFilter(l);restart()}}>{l}</button>
         ))}
       </div>
+
+      <FreeBanner limit={FREE_LIMITS.FILL_QUESTIONS} total={fillBlanks.length} noun="exercises" />
 
       {/* Progress */}
       <div className="progress-bar-track" style={{marginBottom:'1.5rem'}}>

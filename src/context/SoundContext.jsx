@@ -1,30 +1,19 @@
-// SoundContext — manages sound effects enabled/disabled preference per user
-import React, { createContext, useContext, useState, useCallback, useEffect } from 'react'
-import { useAuth } from './AuthContext'
+import React, { createContext, useContext, useState, useCallback } from 'react'
 import { setItem, getItem } from '../utils/storage'
 
 const SoundContext = createContext(null)
-
-function soundKey(userId) { return `sl_sounds_${userId || 'guest'}` }
+const SOUND_KEY = 'sl_sounds_v1'
 
 export function SoundProvider({ children }) {
-  const { user } = useAuth()
-
   const [soundEnabled, setSoundEnabledState] = useState(() => {
-    const saved = getItem(soundKey(user?.id))
-    return saved === null ? true : saved === 'true'   // default ON
+    const saved = getItem(SOUND_KEY)
+    return saved === null ? true : saved === 'true'
   })
-
-  // Re-read when user changes (login/logout)
-  useEffect(() => {
-    const saved = getItem(soundKey(user?.id))
-    setSoundEnabledState(saved === null ? true : saved === 'true')
-  }, [user?.id])
 
   const setSoundEnabled = useCallback((v) => {
     setSoundEnabledState(v)
-    setItem(soundKey(user?.id), String(v))
-  }, [user?.id])
+    setItem(SOUND_KEY, String(v))
+  }, [])
 
   return (
     <SoundContext.Provider value={{ soundEnabled, setSoundEnabled }}>

@@ -27,27 +27,134 @@
   color: var(--text-muted);
   margin-top: 0.2rem;
 }
-.dash-hero-xp {
+.dash-hero-level {
   text-align: center;
-  background: rgba(201,148,42,0.08);
-  border: 1px solid rgba(201,148,42,0.18);
+  background: color-mix(in srgb, var(--level-color) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--level-color) 30%, transparent);
   border-radius: var(--radius-md);
   padding: 0.5rem 0.9rem;
   flex-shrink: 0;
+  min-width: 5.5rem;
 }
-.dash-xp-val {
+.dash-level-deva {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-size: 1.1rem;
+  color: var(--level-color);
+  line-height: 1.1;
+}
+.dash-level-title {
   font-family: var(--font-display);
-  font-size: 1.4rem;
-  color: var(--gold);
-  line-height: 1;
+  font-size: 0.75rem;
+  color: var(--level-color);
+  font-style: italic;
+  margin-top: 1px;
 }
-.dash-xp-label {
-  font-size: 0.62rem;
+.dash-level-sub {
+  font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--text-muted);
   font-family: var(--font-display);
   margin-top: 2px;
+}
+
+/* ── XP progress bar ─────────────────────────────────────────────────────── */
+.dash-xp-bar-wrap {
+  padding: 0.6rem 1.1rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-deep);
+}
+.dash-xp-bar-labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.35rem;
+}
+.dash-xp-cur {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  color: var(--gold);
+}
+.dash-xp-next {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+.dash-xp-track {
+  height: 5px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.dash-xp-fill {
+  height: 100%;
+  background: var(--level-color);
+  border-radius: 3px;
+  transition: width 0.6s ease;
+}
+
+/* ── Badges row ──────────────────────────────────────────────────────────── */
+.dash-badges-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.55rem 1.1rem;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+.dash-badges-toggle:hover { color: var(--text-secondary); }
+.dash-badges-arrow { font-size: 0.8rem; }
+
+.dash-badge-count {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  margin-left: 0.3rem;
+}
+.dash-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0 1.1rem 0.25rem;
+}
+.dash-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  width: 4rem;
+  padding: 0.45rem 0.3rem 0.4rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  cursor: default;
+  transition: transform 0.15s;
+}
+.dash-badge--earned {
+  border-color: rgba(201,148,42,0.35);
+  background: rgba(201,148,42,0.06);
+}
+.dash-badge--locked {
+  opacity: 0.35;
+  filter: grayscale(1);
+}
+.dash-badge--earned:hover { transform: scale(1.07); }
+.dash-badge-icon { font-size: 1.3rem; line-height: 1; }
+.dash-badge-label {
+  font-size: 0.55rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
 }
 
 /* ── Stat strip ─────────────────────────────────────────────────────────────── */

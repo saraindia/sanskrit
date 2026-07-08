@@ -1,6 +1,12 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import './PodcastPage.css'
 
+// In Capacitor native builds, relative URLs like /api/akashvani resolve to a
+// local device path and fail. Use the full Vercel URL when running natively.
+const API_BASE = (typeof window !== 'undefined' && window.Capacitor?.isNativePlatform?.())
+  ? 'https://sanskritly.vercel.app'
+  : ''
+
 // ─── Module-level singletons — survive tab navigation ───────────────────────
 // Audio element persists so playback continues / pauses across unmount/remount
 const _audio = typeof window !== 'undefined' ? new Audio() : null
@@ -73,7 +79,7 @@ export default function PodcastPage() {
   // ── Fetch episodes ──────────────────────────────────────────────────────────
   const fetchEpisodes = useCallback(async () => {
     try {
-      const res  = await fetch('/api/akashvani')
+      const res  = await fetch(`${API_BASE}/api/akashvani`)
       if (!res.ok) throw new Error(`HTTP ${res.status}`)
       const data = await res.json()
       if (data.error) throw new Error(data.error)

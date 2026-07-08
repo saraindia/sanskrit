@@ -5,6 +5,7 @@ import SpeakIcon from '../components/SpeakIcon'
 import HubBack from '../components/HubBack'
 import { ClickableVerse } from '../components/ClickableSentence'
 import { useVocabularyData } from '../hooks/useData'
+import { usePurchase } from '../context/PurchaseContext'
 import './GitaPage.css'
 
 // Chapter JSON is fetched on demand and kept for the session
@@ -21,6 +22,8 @@ async function loadJson(file) {
 const chapterFile = n => `ch${String(n).padStart(2, '0')}.json`
 
 export default function GitaPage() {
+  const { isPro: _isPro, isChecking, showPaywall, FREE_LIMITS } = usePurchase()
+  const isPro = _isPro || isChecking
   const [manifest, setManifest]     = useState(() => cache.get('manifest.json') || null)
   const [chapterNum, setChapterNum] = useSessionStorage('gita_chapter', 0)  // 0 = chapter list
   const [verseNum, setVerseNum]     = useSessionStorage('gita_verse', 1)
@@ -60,15 +63,20 @@ export default function GitaPage() {
     return () => { live = false }
   }, [commOpen, chapterNum])
 
-  const openChapter = (n) => { setChapterNum(n); setVerseNum(1) }
+  const openChapter = (n) => {
+    if (!isPro && n > FREE_LIMITS.GITA_FREE_CHAPTER) { showPaywall(); return }
+    setChapterNum(n); setVerseNum(1)
+  }
 
   const goTo = useCallback((ch, v) => { setChapterNum(ch); setVerseNum(v) }, [setChapterNum, setVerseNum])
 
   const next = useCallback(() => {
     if (!chapter || !manifest) return
     if (verseNum < chapter.verses.length) return setVerseNum(verseNum + 1)
+    // End of chapter — block free users from advancing beyond the free chapter
+    if (!isPro && chapterNum >= FREE_LIMITS.GITA_FREE_CHAPTER) { showPaywall(); return }
     if (chapterNum < manifest.chapters.length) goTo(chapterNum + 1, 1)
-  }, [chapter, manifest, chapterNum, verseNum, goTo, setVerseNum])
+  }, [chapter, manifest, chapterNum, verseNum, goTo, setVerseNum, isPro, showPaywall, FREE_LIMITS])
 
   const prev = useCallback(() => {
     if (!manifest) return
@@ -81,13 +89,16 @@ export default function GitaPage() {
 
   const randomVerse = useCallback(() => {
     if (!manifest) return
-    const total = manifest.chapters.reduce((s, c) => s + c.verses, 0)
+    const chapters = isPro
+      ? manifest.chapters
+      : manifest.chapters.slice(0, FREE_LIMITS.GITA_FREE_CHAPTER)
+    const total = chapters.reduce((s, c) => s + c.verses, 0)
     let n = Math.floor(Math.random() * total)
-    for (const c of manifest.chapters) {
+    for (const c of chapters) {
       if (n < c.verses) return goTo(c.chapter, n + 1)
       n -= c.verses
     }
-  }, [manifest, goTo])
+  }, [manifest, goTo, isPro, FREE_LIMITS])
 
   if (error) return (
     <div className="gita anim-fade-up">
@@ -121,14 +132,21 @@ export default function GitaPage() {
         </label>
       </div>
       <div className="gita-chapters">
-        {manifest.chapters.map(c => (
-          <button key={c.chapter} className="gita-ch-card card" onClick={() => openChapter(c.chapter)}>
-            <span className="gita-ch-num">{c.chapter}</span>
-            <span className="gita-ch-name devanagari">{c.name}</span>
-            <span className="gita-ch-eng">{c.nameEnglish}</span>
-            <span className="gita-ch-count">{c.verses} verses</span>
-          </button>
-        ))}
+        {manifest.chapters.map(c => {
+          const locked = !isPro && c.chapter > FREE_LIMITS.GITA_FREE_CHAPTER
+          return (
+            <button key={c.chapter}
+              className={`gita-ch-card card ${locked ? 'gita-ch-locked' : ''}`}
+              onClick={() => openChapter(c.chapter)}
+              style={locked ? { opacity: 0.55 } : undefined}
+            >
+              <span className="gita-ch-num">{c.chapter}</span>
+              <span className="gita-ch-name devanagari">{c.name}</span>
+              <span className="gita-ch-eng">{c.nameEnglish}</span>
+              <span className="gita-ch-count">{locked ? '🔒' : `${c.verses} verses`}</span>
+            </button>
+          )
+        })}
       </div>
     </div>
   )
@@ -171,10 +189,10 @@ export default function GitaPage() {
       <div className="card gita-verse-card">
         <div className="gita-verse-tags">
           <span className="pill pill-sacred">BG {chapter.chapter}.{verse.v}</span>
+          <button className="speak-btn gita-speak" title="Hear verse" onClick={() => speak(verse.dev)}><SpeakIcon /></button>
         </div>
 
         <div className="gita-deva devanagari"><ClickableVerse text={verse.dev} vocabulary={vocabData?.vocabulary} /></div>
-        <button className="speak-btn gita-speak" title="Hear verse" onClick={() => speak(verse.dev)}><SpeakIcon /></button>
         <div className="gita-iast">{verse.iast}</div>
 
         {showAnswer ? (

@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { useAuth } from '../context/AuthContext'
 import { useUserProgress as useProgress } from '../hooks/useUserProgress'
+import { usePurchase } from '../context/PurchaseContext'
 import { useSpeech } from '../hooks/useSpeech'
 import { useSoundEffects } from '../hooks/useSoundEffects'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import WellDoneToast from '../components/WellDoneToast'
 import { useVocabularyData } from '../hooks/useData'
-import { freshOrder } from '../utils/freshOrder.js'
+import { freshOrder, freeOrder } from '../utils/freshOrder.js'
+import FreeBanner from '../components/FreeBanner'
 import { setItem, getItem } from '../utils/storage'
 import HubBack from '../components/HubBack'
 import './MatchPairs.css'
@@ -16,17 +17,16 @@ const ROUND_SIZE = 5
 const shuffle = (arr) => [...arr].sort(() => Math.random() - 0.5)
 
 export default function MatchPairs() {
+  const { isPro: _isPro, isChecking, showPaywall, FREE_LIMITS } = usePurchase()
+  const isPro = _isPro || isChecking
   const vocabData = useVocabularyData()
   const vocabulary = vocabData?.vocabulary || []
   const wordById   = React.useMemo(() => Object.fromEntries(vocabulary.map(w => [w.id, w])), [vocabulary])
-  const { user } = useAuth()
   const { recordAnswer, progress } = useProgress()
   const { speak } = useSpeech()
   const { play } = useSoundEffects()
 
-  // The whole round (cards, order, matches) persists per user, so an
-  // unfinished round is resumed exactly as left — even after signing out.
-  const storeKey = user ? `sl_match_${user.id}` : 'sl_match_guest'
+  const storeKey = 'sl_match_v1'
 
   const [game, setGame]             = useState(null)  // { sa: [ids], en: [ids], matched: [ids], round }
   const [selected, setSelected]     = useState(null)  // { side, id }
@@ -40,7 +40,11 @@ export default function MatchPairs() {
   }, [storeKey])
 
   const dealRound = useCallback((roundNum) => {
-    const words = freshOrder(vocabulary, progress.srs).slice(0, ROUND_SIZE)
+    // Free users: fixed pool so the same words appear each session
+    const pool = isPro ? freshOrder(vocabulary, progress.srs) : freeOrder(vocabulary)
+    const words = pool.slice(roundNum * ROUND_SIZE, roundNum * ROUND_SIZE + ROUND_SIZE).length === ROUND_SIZE
+      ? pool.slice(roundNum * ROUND_SIZE, roundNum * ROUND_SIZE + ROUND_SIZE)
+      : pool.slice(0, ROUND_SIZE)  // fallback to first chunk if pool is small
     const g = {
       sa: shuffle(words).map(w => w.id),
       en: shuffle(words).map(w => w.id),
@@ -49,7 +53,7 @@ export default function MatchPairs() {
     }
     setGame(g)
     persist(g)
-  }, [vocabulary, progress.srs, persist]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [vocabulary, progress.srs, persist, isPro]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Restore an unfinished round, otherwise deal a fresh one — wait for vocab to load
   useEffect(() => {
@@ -101,7 +105,11 @@ export default function MatchPairs() {
         if (completesRound) {
           play('success')
           setShowToast(true)
-          setTimeout(() => dealRound(next.round + 1), 900)
+          const hitFreeLimit = !isPro && next.round + 1 >= FREE_LIMITS.MATCH_ROUNDS
+          setTimeout(() => {
+            if (hitFreeLimit) showPaywall()
+            else dealRound(next.round + 1)
+          }, 900)
         }
       }, 550)
     } else {
@@ -148,6 +156,8 @@ export default function MatchPairs() {
           {accuracy !== null && <> · {stats.pairs} matched · {accuracy}% accuracy</>}
         </p>
       </div>
+
+      <FreeBanner limit={FREE_LIMITS.MATCH_ROUNDS} total={Math.ceil(vocabulary.length / ROUND_SIZE)} noun="rounds" />
 
       <div className="progress-bar-track" style={{ marginBottom: '1.5rem' }}>
         <div className="progress-bar-fill" style={{ width: `${(matchedCount / ROUND_SIZE) * 100}%` }} />

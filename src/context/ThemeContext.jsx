@@ -3,7 +3,6 @@
 // Stored per-user in localStorage so each account has its own preference.
 
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react'
-import { useAuth } from './AuthContext'
 import { setItem, getItem } from '../utils/storage'
 
 export const THEMES = [
@@ -39,62 +38,44 @@ export const THEMES = [
 
 const ThemeContext = createContext(null)
 
-function themeKey(userId)  { return userId ? `sl_theme_${userId}`   : 'sl_theme_guest' }
-function a11yKey(userId)   { return userId ? `sl_a11y_${userId}`    : 'sl_a11y_guest'  }
+const THEME_KEY = 'sl_theme_v1'
+const A11Y_KEY  = 'sl_a11y_v1'
 
 function applyTheme(themeId, largeText) {
   const html = document.documentElement
-  // Remove all theme classes
   THEMES.forEach(t => html.classList.remove(`theme-${t.id}`))
   html.classList.remove('large-text')
-  // Apply new
   html.classList.add(`theme-${themeId}`)
   if (largeText) html.classList.add('large-text')
 }
 
 export function ThemeProvider({ children }) {
-  const { user } = useAuth()
-
   const VALID_IDS = new Set(THEMES.map(t => t.id))
   const [themeId, setThemeId] = useState(() => {
-    const uid = user?.id
-    const saved = getItem(themeKey(uid))
+    const saved = getItem(THEME_KEY)
     return (saved && VALID_IDS.has(saved)) ? saved : 'dark-gold'
   })
   const [largeText, setLargeText] = useState(() => {
-    const uid = user?.id
-    const saved = getItem(a11yKey(uid))
-    return saved === null ? true : saved === 'true'  // default ON
+    const saved = getItem(A11Y_KEY)
+    return saved === null ? true : saved === 'true'
   })
 
-  // Re-read prefs when user changes
-  useEffect(() => {
-    const uid = user?.id
-    const rawTheme = getItem(themeKey(uid))
-    const saved = (rawTheme && VALID_IDS.has(rawTheme)) ? rawTheme : 'dark-gold'
-    const ltRaw = getItem(a11yKey(uid))
-    const lt    = ltRaw === null ? true : ltRaw === 'true'  // default ON
-    setThemeId(saved)
-    setLargeText(lt)
-  }, [user?.id])
-
-  // Apply whenever either pref changes
   useEffect(() => {
     applyTheme(themeId, largeText)
   }, [themeId, largeText])
 
   const setTheme = useCallback((id) => {
     setThemeId(id)
-    setItem(themeKey(user?.id), id)
-  }, [user?.id])
+    setItem(THEME_KEY, id)
+  }, [])
 
   const toggleLargeText = useCallback(() => {
     setLargeText(v => {
       const next = !v
-      setItem(a11yKey(user?.id), String(next))
+      setItem(A11Y_KEY, String(next))
       return next
     })
-  }, [user?.id])
+  }, [])
 
   return (
     <ThemeContext.Provider value={{ themeId, setTheme, largeText, toggleLargeText }}>

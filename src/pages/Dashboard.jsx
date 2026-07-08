@@ -6,6 +6,7 @@ import { MODULES } from '../data/modules.js'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
 import { toIAST } from '../utils/transliterate.js'
+import { getLevel, getNextLevel, getLevelProgress, getEarnedBadges, BADGES } from '../utils/levels.js'
 import './Dashboard.css'
 
 
@@ -231,6 +232,12 @@ export default function Dashboard() {
     return Math.round(items.reduce((s, d) => s + d.correctAttempts / d.totalAttempts, 0) / items.length * 100)
   }, [progress.srs])
 
+  const level      = useMemo(() => getLevel(progress.xp || 0), [progress.xp])
+  const nextLevel  = useMemo(() => getNextLevel(progress.xp || 0), [progress.xp])
+  const lvlProg    = useMemo(() => getLevelProgress(progress.xp || 0), [progress.xp])
+  const earnedBadges   = useMemo(() => getEarnedBadges(progress), [progress])
+  const [badgesOpen, setBadgesOpen] = useState(false)
+
   return (
     <div className="dash-page anim-fade-up">
 
@@ -240,12 +247,46 @@ export default function Dashboard() {
           <span className="greeting-deva">नमस्ते</span>
           <div className="greeting-sub">Your Sanskrit journey continues</div>
         </div>
-        <div className="dash-hero-xp">
-          <div className="dash-xp-val">{progress.xp}</div>
-          <div className="dash-xp-label">Total XP</div>
+        <div className="dash-hero-level" style={{ '--level-color': level.color }}>
+          <div className="dash-level-deva">{level.titleDeva}</div>
+          <div className="dash-level-title">{level.title}</div>
+          <div className="dash-level-sub">{level.sub}</div>
         </div>
       </div>
 
+      {/* ── XP progress bar ────────────────────────────────────────────── */}
+      <div className="dash-xp-bar-wrap">
+        <div className="dash-xp-bar-labels">
+          <span className="dash-xp-cur">{progress.xp || 0} XP</span>
+          {nextLevel
+            ? <span className="dash-xp-next">Next: {nextLevel.title} at {nextLevel.min} XP</span>
+            : <span className="dash-xp-next">Max level reached</span>
+          }
+        </div>
+        <div className="dash-xp-track">
+          <div className="dash-xp-fill" style={{ width: `${lvlProg.pct}%`, '--level-color': level.color }} />
+        </div>
+      </div>
+
+
+      {/* ── Badges ─────────────────────────────────────────────────────── */}
+      <button className="dash-badges-toggle" onClick={() => setBadgesOpen(o => !o)}>
+        <span>Badges <span className="dash-badge-count">{earnedBadges.length}/{BADGES.length}</span></span>
+        <span className="dash-badges-arrow">{badgesOpen ? '▾' : '▸'}</span>
+      </button>
+      {badgesOpen && (
+        <div className="dash-badges-row">
+          {BADGES.map(b => {
+            const earned = earnedBadges.some(e => e.id === b.id)
+            return (
+              <div key={b.id} className={`dash-badge ${earned ? 'dash-badge--earned' : 'dash-badge--locked'}`} title={`${b.label} — ${b.desc}`}>
+                <span className="dash-badge-icon">{b.icon}</span>
+                <span className="dash-badge-label">{b.label}</span>
+              </div>
+            )
+          })}
+        </div>
+      )}
 
       {/* ── Dictionary search ──────────────────────────────────────────── */}
       <div className="dash-section-label" style={{ marginTop: '0.25rem' }}>

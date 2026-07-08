@@ -120,5 +120,6 @@ function akashvaniDevPlugin() {
 
 export default defineConfig({
   plugins: [react(), swTimestampPlugin(), akashvaniDevPlugin()],
+  base: "./",   // required for Capacitor native builds
   server: { port: 3000 }
 })

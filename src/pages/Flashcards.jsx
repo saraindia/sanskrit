@@ -6,11 +6,13 @@ import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useVirtualizer } from '@tanstack/react-virtual'
 import WellDoneToast from '../components/WellDoneToast'
 import { useVocabularyData } from '../hooks/useData'
-import { freshOrder } from '../utils/freshOrder.js'
+import { freshOrder, freeOrder } from '../utils/freshOrder.js'
+import FreeBanner from '../components/FreeBanner'
 import ClickableSentence from '../components/ClickableSentence'
 import SpeakIcon from '../components/SpeakIcon'
 import HubBack from '../components/HubBack'
 import { toIAST } from '../utils/transliterate.js'
+import { usePurchase } from '../context/PurchaseContext'
 import './Flashcards.css'
 
 
@@ -97,6 +99,8 @@ function BrowseList({ cards, onStudy }) {
 }
 
 export default function Flashcards() {
+  const { isPro: _isPro, isChecking, showPaywall, FREE_LIMITS } = usePurchase()
+  const isPro = _isPro || isChecking
   const vocabData     = useVocabularyData()
   const alphabetCards = vocabData?.alphabet_cards || []
   const vocabulary    = vocabData?.vocabulary     || []
@@ -125,22 +129,29 @@ export default function Flashcards() {
 
   // Build the deck; for 'all' re-use the saved shuffle so the card doesn't jump
   const deck = useMemo(() => {
-    if (filter === 'due')  return getDueItems(sourceCards)
-    if (filter === 'weak') return sourceCards.filter(c => {
-      const acc = getItemAccuracy(c.id)
-      return acc !== null && acc < 70
-    })
-    // filter === 'all' — try to restore the saved shuffle
-    if (shuffledIds.length > 0) {
-      const restored = shuffledIds.map(id => cardById[id]).filter(Boolean)
-      // If the restored deck matches the current source, use it
-      if (restored.length === Math.min(sourceCards.length, 30)) return restored
+    let cards
+    if (filter === 'due')  { cards = getDueItems(sourceCards) }
+    else if (filter === 'weak') {
+      cards = sourceCards.filter(c => {
+        const acc = getItemAccuracy(c.id)
+        return acc !== null && acc < 70
+      })
+    } else {
+      // filter === 'all'
+      if (shuffledIds.length > 0) {
+        const restored = shuffledIds.map(id => cardById[id]).filter(Boolean)
+        if (restored.length === Math.min(sourceCards.length, 30)) { cards = restored }
+      }
+      if (!cards) {
+        const fresh = freshOrder(sourceCards, progress.srs).slice(0, 30)
+        setShuffledIds(fresh.map(c => c.id))
+        cards = fresh
+      }
     }
-    // Fresh deck — unseen cards first, then least-recently-seen
-    const fresh = freshOrder(sourceCards, progress.srs).slice(0, 30)
-    setShuffledIds(fresh.map(c => c.id))
-    return fresh
-  }, [allCards, filter, deckType, round]) // eslint-disable-line react-hooks/exhaustive-deps
+    // Free-tier: fixed deterministic set so the same words always appear
+    if (!isPro) return freeOrder(sourceCards).slice(0, FREE_LIMITS.FLASHCARD_DECK)
+    return cards
+  }, [allCards, filter, deckType, round, isPro]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const card = deck[currentIdx]
   const { speak, useGoogle, toggleEngine } = useSpeech()
@@ -221,9 +232,17 @@ export default function Flashcards() {
         <div className="result-score">{sessionStats.correct}/{sessionStats.total}</div>
         <div className="result-label">Correct answers</div>
         <div className="result-pct">{Math.round(sessionStats.correct/sessionStats.total*100)}% accuracy</div>
+        {!isPro && (
+          <div className="paywall-gate" style={{marginTop:'1.25rem'}}>
+            <div className="paywall-gate-icon">🔓</div>
+            <p className="paywall-gate-title">You've completed the free preview</p>
+            <p className="paywall-gate-sub">Unlock all {sourceCards.length} cards to keep studying</p>
+            <button className="paywall-gate-btn" onClick={showPaywall}>Unlock Full App</button>
+          </div>
+        )}
         <div style={{display:'flex',gap:'0.75rem',justifyContent:'center',marginTop:'1.5rem'}}>
           <button className="btn-primary" onClick={restart}>Study again</button>
-          <button className="btn-ghost" onClick={() => { setFilter('weak'); restart() }}>Review weak only</button>
+          {isPro && <button className="btn-ghost" onClick={() => { setFilter('weak'); restart() }}>Review weak only</button>}
         </div>
       </div>
     </div>
@@ -254,6 +273,8 @@ export default function Flashcards() {
           Browse all
         </button>
       </div>
+
+      <FreeBanner limit={FREE_LIMITS.FLASHCARD_DECK} total={sourceCards.length} noun="cards" />
 
       {/* Progress bar */}
       <div className="progress-bar-track" style={{marginBottom:'1.5rem'}}>

@@ -10,3 +10,10 @@ export function freshOrder(items, srs = {}) {
     .sort((a, b) => (srs[a.id].lastSeen || 0) - (srs[b.id].lastSeen || 0))
   return [...unseen, ...seen]
 }
+
+// freeOrder — stable, deterministic order for free-tier previews.
+// Always returns the same items in the same sequence so free users
+// see a consistent sample every session rather than a random shuffle.
+export function freeOrder(items) {
+  return [...items].sort((a, b) => String(a.id).localeCompare(String(b.id)))
+}

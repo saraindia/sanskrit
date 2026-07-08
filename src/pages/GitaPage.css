@@ -146,7 +146,14 @@
 
 .gita-verse-card { padding: 2rem; position: relative; }
 
-.gita-verse-tags { margin-bottom: 1.25rem; }
+.gita-verse-tags {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.gita-verse-tags .gita-speak { margin: 0; }
 
 .gita-deva {
   font-size: 1.6rem;

@@ -5,6 +5,7 @@ import SpeakIcon from '../components/SpeakIcon'
 import HubBack from '../components/HubBack'
 import { ClickableVerse } from '../components/ClickableSentence'
 import { useVocabularyData } from '../hooks/useData'
+import { usePurchase } from '../context/PurchaseContext'
 import './GitaPage.css'
 
 const COMMENTARY_LABELS = {
@@ -54,6 +55,8 @@ async function loadJson(file) {
 }
 
 export default function UpanishadsPage() {
+  const { isPro: _isPro, isChecking, showPaywall, FREE_LIMITS } = usePurchase()
+  const isPro = _isPro || isChecking
   const [manifest, setManifest]   = useState(null)
   const [textId, setTextId]       = useSessionStorage('upan_text', '')
   const [adhId, setAdhId]         = useSessionStorage('upan_adh', '')
@@ -117,36 +120,39 @@ export default function UpanishadsPage() {
     return text.verses.filter(v => v.sec === sectionId)
   }, [text, sectionId])
 
-  const openText = (id) => { setTextId(id); setAdhId(''); setSectionId(''); setVerseIdx(0) }
-  const openAdhyaya = (adh) => { setAdhId(adh); setSectionId(''); setVerseIdx(0) }
-  const openSection = (sec) => { setSectionId(sec); setVerseIdx(0) }
+  const openText = (id, textIdx) => {
+    if (!isPro && textIdx >= FREE_LIMITS.UPAN_FREE_TEXT) { showPaywall(); return }
+    setTextId(id); setAdhId(''); setSectionId(''); setVerseIdx(0)
+  }
+  const openAdhyaya = (adh, adhIdx) => {
+    if (!isPro && adhIdx >= FREE_LIMITS.UPAN_FREE_ADHYAYA) { showPaywall(); return }
+    setAdhId(adh); setSectionId(''); setVerseIdx(0)
+  }
+  const openSection = (sec, secIdx) => {
+    // For texts without adhyāyas, lock sections beyond the first for free users
+    if (!isPro && !hasAdhyayas && secIdx >= FREE_LIMITS.UPAN_FREE_ADHYAYA) { showPaywall(); return }
+    setSectionId(sec); setVerseIdx(0)
+  }
 
   const randomVerse = useCallback(() => {
-    if (!manifest) return
-    const total = manifest.texts.reduce((s, t) => s + t.verses, 0)
-    let n = Math.floor(Math.random() * total)
-    for (const t of manifest.texts) {
-      if (n < t.verses) {
-        loadJson(`${t.id}.json`).then(data => {
-          const secs = [...new Set(data.verses.map(v => v.sec))]
-          let rem = n
-          for (const sec of secs) {
-            const secV = data.verses.filter(v => v.sec === sec)
-            if (rem < secV.length) {
-              setTextId(t.id)
-              setAdhId(secV[rem].adh || '')
-              setSectionId(sec)
-              setVerseIdx(rem)
-              return
-            }
-            rem -= secV.length
+    if (!manifest || !text) return
+    // Free users: restrict to the currently-open text, free adhyāya/sections only
+    const freeVerses = isPro
+      ? text.verses
+      : text.verses.filter(v => {
+          if (hasAdhyayas) {
+            const adhIdx = adhyayas.indexOf(v.adh)
+            return adhIdx < FREE_LIMITS.UPAN_FREE_ADHYAYA
           }
+          const secIdx = sections.indexOf(v.sec)
+          return secIdx < FREE_LIMITS.UPAN_FREE_ADHYAYA
         })
-        return
-      }
-      n -= t.verses
-    }
-  }, [manifest, setTextId, setAdhId, setSectionId, setVerseIdx])
+    if (!freeVerses.length) return
+    const v = freeVerses[Math.floor(Math.random() * freeVerses.length)]
+    setAdhId(v.adh || '')
+    setSectionId(v.sec)
+    setVerseIdx(text.verses.filter(x => x.sec === v.sec).indexOf(v))
+  }, [manifest, text, isPro, hasAdhyayas, adhyayas, sections, FREE_LIMITS, setAdhId, setSectionId, setVerseIdx])
 
   if (error) return (
     <div className="gita anim-fade-up">
@@ -180,14 +186,21 @@ export default function UpanishadsPage() {
         </label>
       </div>
       <div className="gita-chapters">
-        {manifest.texts.map(t => (
-          <button key={t.id} className="gita-ch-card card" onClick={() => openText(t.id)}>
-            <span className="gita-ch-num">{t.veda}</span>
-            <span className="gita-ch-name devanagari">{t.titleDeva}</span>
-            <span className="gita-ch-eng">{t.title} — {t.titleEnglish}</span>
-            <span className="gita-ch-count">{t.verses} verses</span>
-          </button>
-        ))}
+        {manifest.texts.map((t, i) => {
+          const locked = !isPro && i >= FREE_LIMITS.UPAN_FREE_TEXT
+          return (
+            <button key={t.id}
+              className={`gita-ch-card card ${locked ? 'gita-ch-locked' : ''}`}
+              onClick={() => openText(t.id, i)}
+              style={locked ? { opacity: 0.55 } : undefined}
+            >
+              <span className="gita-ch-num">{t.veda}</span>
+              <span className="gita-ch-name devanagari">{t.titleDeva}</span>
+              <span className="gita-ch-eng">{t.title} — {t.titleEnglish}</span>
+              <span className="gita-ch-count">{locked ? '🔒' : `${t.verses} verses`}</span>
+            </button>
+          )
+        })}
       </div>
     </div>
   )
@@ -218,9 +231,14 @@ export default function UpanishadsPage() {
         {adhyayas.map((adh, i) => {
           const av = text.verses.filter(v => v.adh === adh)
           const nSecs = new Set(av.map(v => v.sec)).size
+          const locked = !isPro && i >= FREE_LIMITS.UPAN_FREE_ADHYAYA
           return (
-            <button key={adh} className="gita-ch-card card" onClick={() => openAdhyaya(adh)}>
-              <span className="gita-ch-num">{nSecs} khaṇḍas · {av.length} verses</span>
+            <button key={adh}
+              className={`gita-ch-card card ${locked ? 'gita-ch-locked' : ''}`}
+              onClick={() => openAdhyaya(adh, i)}
+              style={locked ? { opacity: 0.55 } : undefined}
+            >
+              <span className="gita-ch-num">{locked ? '🔒' : `${nSecs} khaṇḍas · ${av.length} verses`}</span>
               <span className="gita-ch-eng">{adh}</span>
             </button>
           )
@@ -249,9 +267,14 @@ export default function UpanishadsPage() {
       <div className="gita-chapters">
         {sections.map((sec, i) => {
           const count = text.verses.filter(v => v.sec === sec).length
+          const locked = !isPro && !hasAdhyayas && i >= FREE_LIMITS.UPAN_FREE_ADHYAYA
           return (
-            <button key={sec} className="gita-ch-card card" onClick={() => openSection(sec)}>
-              <span className="gita-ch-num">{hasAdhyayas ? 'Khaṇḍa' : 'Section'} {i + 1} · {count} verses</span>
+            <button key={sec}
+              className={`gita-ch-card card ${locked ? 'gita-ch-locked' : ''}`}
+              onClick={() => openSection(sec, i)}
+              style={locked ? { opacity: 0.55 } : undefined}
+            >
+              <span className="gita-ch-num">{locked ? '🔒' : `${hasAdhyayas ? 'Khaṇḍa' : 'Section'} ${i + 1} · ${count} verses`}</span>
               <span className="gita-ch-eng">{sec}</span>
             </button>
           )
@@ -298,10 +321,10 @@ export default function UpanishadsPage() {
         <div className="gita-verse-tags">
           <span className="pill pill-sacred">{text.title}</span>
           <span className="pill pill-sacred" style={{marginLeft:'0.4rem'}}>Verse {verse.ref}</span>
+          <button className="speak-btn gita-speak" title="Hear verse" onClick={() => speak(verse.dev)}><SpeakIcon /></button>
         </div>
 
         <div className="gita-deva devanagari"><ClickableVerse text={verse.dev} vocabulary={vocabData?.vocabulary} /></div>
-        <button className="speak-btn gita-speak" title="Hear verse" onClick={() => speak(verse.dev)}><SpeakIcon /></button>
         <div className="gita-iast">{verse.iast}</div>
 
         {showAnswer ? (

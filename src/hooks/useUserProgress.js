@@ -1,10 +1,9 @@
-// useUserProgress — thin wrapper that auto-injects the current user's storage key
-// Use this everywhere instead of useProgress() directly, so all pages automatically
-// get the right per-user data without needing to pass the key explicitly.
-import { useAuth } from '../context/AuthContext'
+// useUserProgress — anonymous progress stored under a single device key.
+// No user account required.
 import { useProgress } from './useProgress'
 
+const PROGRESS_KEY = 'sl_progress_v1'
+
 export function useUserProgress() {
-  const { progressKey } = useAuth()
-  return useProgress(progressKey)
+  return useProgress(PROGRESS_KEY)
 }

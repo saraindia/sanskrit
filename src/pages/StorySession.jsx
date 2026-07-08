@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react'
+import { usePurchase } from '../context/PurchaseContext'
 import { STORIES } from '../data/stories.js'
 import { useVocabularyData } from '../hooks/useData'
 import { useSpeech } from '../hooks/useSpeech'
@@ -548,10 +549,9 @@ function StoryReader({ story, onBack }) {
 // ── Paginated section helper ─────────────────────────────────────────────────
 const PAGE_SIZE = 3
 
-function StorySection({ label, icon, subtitle, items, query, onSelect, totalCount }) {
+function StorySection({ label, icon, subtitle, items, query, onSelect, totalCount, freeCount, onLocked }) {
   const [visible, setVisible] = useState(PAGE_SIZE)
 
-  // Reset page when search query changes
   useEffect(() => { setVisible(PAGE_SIZE) }, [query])
 
   const shown    = items.slice(0, visible)
@@ -568,7 +568,13 @@ function StorySection({ label, icon, subtitle, items, query, onSelect, totalCoun
       </div>
       {subtitle && <div className="story-section-sub">{subtitle}</div>}
       <div className="story-list">
-        {shown.map(s => <StoryCard key={s.id} story={s} query={query} onSelect={onSelect} />)}
+        {shown.map((s, i) => (
+          <StoryCard
+            key={s.id} story={s} query={query} onSelect={onSelect}
+            locked={freeCount !== undefined && i >= freeCount}
+            onLocked={onLocked}
+          />
+        ))}
       </div>
       {hasMore && (
         <button className="story-load-more" onClick={loadMore}>
@@ -581,6 +587,8 @@ function StorySection({ label, icon, subtitle, items, query, onSelect, totalCoun
 
 // ── Story list ───────────────────────────────────────────────────────────────
 function StoryList({ onSelect }) {
+  const { isPro: _isPro, isChecking, showPaywall, FREE_LIMITS } = usePurchase()
+  const isPro = _isPro || isChecking
   const [query, setQuery] = useState('')
   const q = query.trim()
 
@@ -590,8 +598,29 @@ function StoryList({ onSelect }) {
   const morals       = applyFilter(STORIES.filter(s => s.category === 'moral'))
   const panchatantra = applyFilter(STORIES.filter(s => s.category === 'panchatantra'))
   const dialogues    = applyFilter(STORIES.filter(s => s.type === 'dialogue'))
+  // Distribute the global free-story budget across sections in order so that
+  // FREE_STORIES=1 means exactly 1 story total is free, not 1 per section.
+  const budget = isPro ? Infinity : FREE_LIMITS.FREE_STORIES
+  let rem = budget
+  const allSections = [
+    { key: 'stories',      items: stories,      label: 'Stories',        icon: null,  subtitle: null },
+    { key: 'morals',       items: morals,        label: 'Moral Stories',  icon: '📜',  subtitle: 'Hitopadesha — values & character in Sanskrit' },
+    { key: 'panchatantra', items: panchatantra,  label: 'Panchatantra',   icon: '🐘',  subtitle: 'Classic fables by Viṣṇuśarman — statecraft & wisdom' },
+    { key: 'dialogues',    items: dialogues,     label: 'Conversations',  icon: null,  subtitle: null },
+  ].map(sec => {
+    const sectionFree = isPro ? undefined : Math.min(rem, sec.items.length)
+    if (!isPro) rem = Math.max(0, rem - sec.items.length)
+    return { ...sec, freeCount: sectionFree }
+  })
 
   const totalResults = stories.length + morals.length + panchatantra.length + dialogues.length
+
+  const totalCounts = {
+    stories:      STORIES.filter(s => s.type === 'story' && !s.category).length,
+    morals:       STORIES.filter(s => s.category === 'moral').length,
+    panchatantra: STORIES.filter(s => s.category === 'panchatantra').length,
+    dialogues:    STORIES.filter(s => s.type === 'dialogue').length,
+  }
 
   return (
     <div>
@@ -624,44 +653,26 @@ function StoryList({ onSelect }) {
       )}
 
       {/* ── Sections — hidden when empty under search ── */}
-      {stories.length > 0 && (
+      {allSections.map(sec => sec.items.length > 0 && (
         <StorySection
-          label="Stories" items={stories} query={q} onSelect={onSelect}
-          totalCount={STORIES.filter(s => s.type === 'story' && !s.category).length}
+          key={sec.key}
+          label={sec.label} icon={sec.icon} subtitle={sec.subtitle}
+          items={sec.items} query={q} onSelect={onSelect}
+          totalCount={totalCounts[sec.key]}
+          freeCount={sec.freeCount} onLocked={showPaywall}
         />
-      )}
-      {morals.length > 0 && (
-        <StorySection
-          label="Moral Stories" icon="📜"
-          subtitle="Hitopadesha — values & character in Sanskrit"
-          items={morals} query={q} onSelect={onSelect}
-          totalCount={STORIES.filter(s => s.category === 'moral').length}
-        />
-      )}
-      {panchatantra.length > 0 && (
-        <StorySection
-          label="Panchatantra" icon="🐘"
-          subtitle="Classic fables by Viṣṇuśarman — statecraft & wisdom"
-          items={panchatantra} query={q} onSelect={onSelect}
-          totalCount={STORIES.filter(s => s.category === 'panchatantra').length}
-        />
-      )}
-      {dialogues.length > 0 && (
-        <StorySection
-          label="Conversations" items={dialogues} query={q} onSelect={onSelect}
-          totalCount={STORIES.filter(s => s.type === 'dialogue').length}
-        />
-      )}
+      ))}
     </div>
   )
 }
 
-function StoryCard({ story, query, onSelect }) {
+function StoryCard({ story, query, onSelect, locked, onLocked }) {
   const isDialogue = story.type === 'dialogue'
   const matches = query ? getMatchingSentences(story, query) : []
 
   return (
-    <div className="story-card" onClick={() => onSelect(story)}>
+    <div className="story-card" onClick={() => locked ? onLocked() : onSelect(story)}
+      style={locked ? { opacity: 0.55, position: 'relative' } : undefined}>
       <div className="story-card-deva">{story.title.split(' ')[0]}</div>
       <div className="story-card-info">
         <div className="story-card-title">{story.title} — {story.titleEnglish}</div>
@@ -694,7 +705,10 @@ function StoryCard({ story, query, onSelect }) {
           </div>
         )}
       </div>
-      <span className="story-card-arrow">›</span>
+      {locked
+        ? <span className="story-card-arrow" style={{fontSize:'1rem'}}>🔒</span>
+        : <span className="story-card-arrow">›</span>
+      }
     </div>
   )
 }

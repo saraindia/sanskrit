@@ -1,8 +1,6 @@
 import React, { useEffect, useCallback, Suspense, lazy } from 'react'
 import { Routes, Route, NavLink, useLocation, useNavigate } from 'react-router-dom'
-// Dashboard loads eagerly — it's the first screen everyone sees
 import Dashboard from './pages/Dashboard'
-// All other pages load lazily — their JS + data only downloads when first visited
 const Flashcards    = lazy(() => import('./pages/Flashcards'))
 const DrillSentences= lazy(() => import('./pages/DrillSentences'))
 const FillBlanks    = lazy(() => import('./pages/FillBlanks'))
@@ -16,39 +14,37 @@ const UpanishadsPage= lazy(() => import('./pages/UpanishadsPage'))
 const MatchPairs    = lazy(() => import('./pages/MatchPairs'))
 const StudyHub      = lazy(() => import('./pages/StudyHub'))
 const TextsHub      = lazy(() => import('./pages/TextsHub'))
-import AuthPage from './pages/AuthPage'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
-import { AuthProvider, useAuth } from './context/AuthContext'
+import { PurchaseProvider, usePurchase } from './context/PurchaseContext'
 import { ThemeProvider } from './context/ThemeContext'
 import { SoundProvider } from './context/SoundContext'
 import { useSoundEffects } from './hooks/useSoundEffects'
-import { useProgress } from './hooks/useProgress'
+import { useUserProgress as useProgress } from './hooks/useUserProgress'
 import { usePWAUpdate } from './hooks/usePWAUpdate'
 import { useInstallPrompt } from './hooks/useInstallPrompt'
 import InstallPrompt from './components/InstallPrompt'
+import PaywallModal from './components/PaywallModal'
 import ScrollToTop from './components/ScrollToTop'
 import './styles/app.css'
 
-// Routes grouped for mobile "Study" and "Texts" tabs
 const STUDY_ROUTES = ['/study', '/flashcards', '/drill', '/fill', '/match']
 const TEXTS_ROUTES = ['/texts', '/gita', '/upanishads']
 const MORE_ROUTES  = ['/progress', '/podcast']
 
-// Desktop sidebar: full grouped list
 const SIDEBAR_GROUPS = [
   { label: null, items: [{ to: '/', label: 'Home', icon: '🏠', end: true }] },
   { label: 'Study', items: [
-    { to: '/study',      label: 'Study Hub',     icon: '📚' },
-    { to: '/flashcards', label: 'Flashcards',    icon: '🗂️' },
-    { to: '/drill',      label: 'Sentence Drill',icon: '⚡' },
-    { to: '/fill',       label: 'Fill Blanks',   icon: '✏️' },
-    { to: '/match',      label: 'Match Pairs',   icon: '🔡' },
+    { to: '/study',      label: 'Study Hub',      icon: '📚' },
+    { to: '/flashcards', label: 'Flashcards',     icon: '🗂️' },
+    { to: '/drill',      label: 'Sentence Drill', icon: '⚡' },
+    { to: '/fill',       label: 'Fill Blanks',    icon: '✏️' },
+    { to: '/match',      label: 'Match Pairs',    icon: '🔡' },
   ]},
   { label: 'Sacred Texts', items: [
-    { to: '/texts',      label: 'Texts Hub',  icon: '📜' },
-    { to: '/gita',       label: 'Gītā',       icon: '🪷' },
-    { to: '/upanishads', label: 'Upaniṣad',   icon: '🕉️' },
+    { to: '/texts',      label: 'Texts Hub', icon: '📜' },
+    { to: '/gita',       label: 'Gītā',      icon: '🪷' },
+    { to: '/upanishads', label: 'Upaniṣad',  icon: '🕉️' },
   ]},
   { label: null, items: [
     { to: '/story',    label: 'Stories',  icon: '📖' },
@@ -57,17 +53,15 @@ const SIDEBAR_GROUPS = [
   ]},
 ]
 
-// ── Logged-in app shell ───────────────────────────────────────────────────────
 function AppShell() {
-  const { user, logout, progressKey } = useAuth()
   const navigate  = useNavigate()
   const location  = useLocation()
-  const { progress } = useProgress(progressKey)
+  const { progress } = useProgress()
+  const { isPro, showPaywall } = usePurchase()
   const [moreOpen, setMoreOpen] = React.useState(false)
   const lastStudy = React.useRef('/study')
   const lastTexts = React.useRef('/texts')
 
-  // Track last visited route in each group; close More sheet on any navigation
   React.useEffect(() => {
     const p = location.pathname
     if (STUDY_ROUTES.includes(p)) lastStudy.current = p
@@ -80,37 +74,15 @@ function AppShell() {
   const isMoreActive  = MORE_ROUTES.includes(location.pathname)
   const { updateReady, updateApp, dismiss: dismissUpdate } = usePWAUpdate()
 
-  // Profile hint — shown on login, then randomly every 45–120s
-  const [showHint, setShowHint] = React.useState(true)
-  const dismissHint = React.useCallback(() => setShowHint(false), [])
-
-  React.useEffect(() => {
-    if (!showHint) return
-    const t = setTimeout(dismissHint, 4000)
-    return () => clearTimeout(t)
-  }, [showHint, dismissHint])
-
-  React.useEffect(() => {
-    let timer
-    const scheduleNext = () => {
-      const delay = (45 + Math.random() * 75) * 1000  // 45–120s
-      timer = setTimeout(() => { setShowHint(true); scheduleNext() }, delay)
-    }
-    scheduleNext()
-    return () => clearTimeout(timer)
-  }, [])
   const { play } = useSoundEffects()
 
-  // Scroll to top of the content area on every route change
   useEffect(() => {
     document.querySelector('.main-content')?.scrollTo({ top: 0, behavior: 'instant' })
   }, [location.pathname])
 
-  const streak    = progress?.streakDays || 0
+  const streak   = progress?.streakDays || 0
   const onProfile = location.pathname === '/profile'
 
-  // Global tap sound — fires for every button/link/interactive element click
-  // Excludes speak-btn (TTS) to avoid collision with voice playback
   useEffect(() => {
     const onDown = (e) => {
       const el = e.target.closest(
@@ -126,7 +98,6 @@ function AppShell() {
     }
   }, [play])
 
-  // Nav sound on route change
   const prevPath = React.useRef(location.pathname)
   useEffect(() => {
     if (location.pathname !== prevPath.current) {
@@ -145,21 +116,21 @@ function AppShell() {
         </div>
         <div className="app-header-right">
           {streak > 0 && <div className="app-header-streak">🔥 {streak}</div>}
-          <div className="avatar-hint-wrap" onClick={dismissHint}>
+          {!isPro && (
             <button
-              className={`app-header-avatar ${onProfile ? 'active' : ''}`}
-              onClick={() => navigate(onProfile ? '/' : '/profile')}
-              aria-label="Profile & Settings"
+              className="app-header-unlock"
+              onClick={showPaywall}
+              aria-label="Unlock full app"
             >
-              {user.initial}
+              ✦ Unlock
             </button>
-            <div className={`avatar-hint ${showHint ? 'avatar-hint-visible' : ''}`}>
-              <span className="avatar-hint-text">Profile</span>
-              <span className="avatar-hint-finger">👆</span>
-            </div>
-          </div>
-          <button className="app-header-logout" onClick={logout} aria-label="Sign out" title="Sign out">
-            ⎋
+          )}
+          <button
+            className={`app-header-avatar ${onProfile ? 'active' : ''}`}
+            onClick={() => navigate(onProfile ? '/' : '/profile')}
+            aria-label="Settings"
+          >
+            ⚙
           </button>
         </div>
       </header>
@@ -190,7 +161,6 @@ function AppShell() {
 
       {/* ── Bottom tab bar (mobile) / Left sidebar (desktop) ────────── */}
       <nav className="bottom-nav">
-        {/* Desktop-only brand block */}
         <div className="sidebar-brand" onClick={() => navigate('/')} role="button" tabIndex={0}>
           <span className="sidebar-brand-om">ॐ</span>
           <div className="sidebar-brand-text">
@@ -199,34 +169,44 @@ function AppShell() {
           </div>
         </div>
 
-        {/* ── Mobile: 5 primary tabs ── */}
+        {/* Mobile: 5 primary tabs */}
         <div className="mobile-tabs">
           <NavLink to="/" end className={({ isActive }) => `tab-item ${isActive ? 'active' : ''}`}>
-            <div className="tab-icon-wrap"><span className="tab-icon">🏠</span></div>
+            <div className="tab-icon-wrap">
+              <svg className="tab-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+            </div>
             <span className="tab-label">Home</span>
           </NavLink>
           <button className={`tab-item ${isStudyActive ? 'active' : ''}`}
             onClick={() => navigate(lastStudy.current)}>
-            <div className="tab-icon-wrap"><span className="tab-icon">📚</span></div>
+            <div className="tab-icon-wrap">
+              <svg className="tab-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+            </div>
             <span className="tab-label">Study</span>
           </button>
           <button className={`tab-item ${isTextsActive ? 'active' : ''}`}
             onClick={() => navigate(lastTexts.current)}>
-            <div className="tab-icon-wrap"><span className="tab-icon">📜</span></div>
+            <div className="tab-icon-wrap">
+              <svg className="tab-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16v12a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"/><path d="M8 4V2M16 4V2"/><path d="M8 11h8M8 8h5"/></svg>
+            </div>
             <span className="tab-label">Texts</span>
           </button>
           <NavLink to="/story" className={({ isActive }) => `tab-item ${isActive ? 'active' : ''}`}>
-            <div className="tab-icon-wrap"><span className="tab-icon">📖</span></div>
+            <div className="tab-icon-wrap">
+              <svg className="tab-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+            </div>
             <span className="tab-label">Stories</span>
           </NavLink>
           <button className={`tab-item ${isMoreActive || moreOpen ? 'active' : ''}`}
             onClick={() => setMoreOpen(v => !v)}>
-            <div className="tab-icon-wrap"><span className="tab-icon" style={{fontSize:'0.95rem',letterSpacing:'-0.05em'}}>•••</span></div>
+            <div className="tab-icon-wrap">
+              <svg className="tab-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="5" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="19" cy="12" r="1.2" fill="currentColor" stroke="none"/></svg>
+            </div>
             <span className="tab-label">More</span>
           </button>
         </div>
 
-        {/* ── Desktop: full grouped sidebar links ── */}
+        {/* Desktop: full grouped sidebar links */}
         <div className="sidebar-links">
           {SIDEBAR_GROUPS.map((group, gi) => (
             <React.Fragment key={gi}>
@@ -242,24 +222,29 @@ function AppShell() {
           ))}
         </div>
 
-        {/* Desktop-only user footer */}
+        {/* Desktop footer */}
         <div className="sidebar-foot">
           <button
             className={`sidebar-avatar-btn ${onProfile ? 'active' : ''}`}
             onClick={() => navigate(onProfile ? '/' : '/profile')}
-            aria-label="Profile & Settings"
+            aria-label="Settings"
           >
-            {user.initial}
+            ⚙
           </button>
           <div className="sidebar-user-info">
-            <div className="sidebar-user-name">{user.displayName}</div>
-            {streak > 0 && <div className="sidebar-user-streak">🔥 {streak} day streak</div>}
+            <div className="sidebar-user-name">Sanskritly</div>
+            {isPro
+              ? <div className="sidebar-user-streak">✦ Full Access</div>
+              : <button className="sidebar-unlock-btn" onClick={showPaywall}>✦ Unlock</button>
+            }
           </div>
-          <button className="sidebar-logout-btn" onClick={logout} aria-label="Sign out" title="Sign out">⎋</button>
+          {streak > 0 && (
+            <div className="sidebar-streak-badge">🔥 {streak}</div>
+          )}
         </div>
       </nav>
 
-      {/* ── More sheet (mobile) ──────────────────────────────────────── */}
+      {/* More sheet (mobile) */}
       {moreOpen && (
         <>
           <div className="more-overlay" onClick={() => setMoreOpen(false)} />
@@ -279,7 +264,7 @@ function AppShell() {
         </>
       )}
 
-      {/* ── App update banner ────────────────────────────────────────── */}
+      {/* App update banner */}
       {updateReady && (
         <div className="update-banner">
           <span className="update-banner-icon">🕉️</span>
@@ -295,25 +280,19 @@ function AppShell() {
   )
 }
 
-// ── Root — login gate + single install prompt ─────────────────────────────────
 function AppRoot() {
-  const { user } = useAuth()
   const { showPrompt, platform, nativePrompt, install, dismiss } = useInstallPrompt()
 
   return (
     <>
-      {user
-        ? <ThemeProvider><SoundProvider><AppShell /></SoundProvider></ThemeProvider>
-        : (
-          <ThemeProvider>
-            <div className="app-shell">
-              <main className="main-content"><AuthPage /></main>
-            </div>
-          </ThemeProvider>
-        )
-      }
+      <ThemeProvider>
+        <SoundProvider>
+          <AppShell />
+        </SoundProvider>
+      </ThemeProvider>
 
-      {/* Install prompt shown on both login screen and inside app */}
+      <PaywallModal />
+
       {showPrompt && (
         <InstallPrompt
           platform={platform}
@@ -328,10 +307,10 @@ function AppRoot() {
 
 export default function App() {
   return (
-    <AuthProvider>
+    <PurchaseProvider>
       <AppRoot />
       <SpeedInsights />
       <Analytics />
-    </AuthProvider>
+    </PurchaseProvider>
   )
 }

@@ -1,0 +1,41 @@
+.free-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: calc(100% - 2.2rem);
+  margin: 0 1.1rem 1.1rem;
+  padding: 0.6rem 0.9rem;
+  background: color-mix(in srgb, var(--gold) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--gold) 35%, transparent);
+  border-radius: var(--radius-md, 10px);
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--font-body);
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.15s;
+}
+.free-banner:active {
+  background: color-mix(in srgb, var(--gold) 18%, transparent);
+}
+.free-banner-lock {
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+.free-banner-text {
+  flex: 1;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.3;
+}
+.free-banner-text strong {
+  color: var(--gold);
+  font-weight: 600;
+}
+.free-banner-cta {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gold);
+  font-family: var(--font-display);
+  letter-spacing: 0.03em;
+  flex-shrink: 0;
+}

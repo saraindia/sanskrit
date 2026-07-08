@@ -41,6 +41,88 @@
   margin-top: 0.15rem;
 }
 
+/* ── Pro badge & upgrade card ───────────────────────────────────────────────── */
+.profile-pro-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  background: linear-gradient(135deg, rgba(201,148,42,0.12), rgba(201,148,42,0.05));
+  border: 1px solid rgba(201,148,42,0.25);
+  border-radius: 14px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.profile-pro-icon {
+  font-size: 1.5rem;
+  color: var(--gold);
+}
+.profile-pro-title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gold);
+}
+.profile-pro-sub {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin-top: 0.1rem;
+}
+
+.profile-upgrade-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.5rem 1.2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.profile-upgrade-om {
+  font-size: 2rem;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+.profile-upgrade-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+.profile-upgrade-sub {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+.profile-upgrade-btn {
+  display: block;
+  width: 100%;
+  padding: 0.85rem;
+  background: var(--gold);
+  color: #0e0b08;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 0.6rem;
+}
+.profile-upgrade-btn:disabled { opacity: 0.6; cursor: default; }
+.profile-restore-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  padding: 0.25rem;
+}
+.profile-restore-btn:disabled { opacity: 0.5; cursor: default; }
+.profile-restore-msg {
+  font-size: 0.82rem;
+  color: var(--gold);
+  margin-top: 0.5rem;
+}
+
 /* ── Section labels ──────────────────────────────────────────────────────────── */
 .profile-section-label {
   font-family: var(--font-display);

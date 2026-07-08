@@ -5,11 +5,13 @@ import { useSoundEffects } from '../hooks/useSoundEffects'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import WellDoneToast from '../components/WellDoneToast'
 import { useVocabularyData, useSentenceData } from '../hooks/useData'
-import { freshOrder } from '../utils/freshOrder.js'
+import { freshOrder, freeOrder } from '../utils/freshOrder.js'
+import FreeBanner from '../components/FreeBanner'
 import { toIAST } from '../utils/transliterate.js'
 import ClickableSentence from '../components/ClickableSentence'
 import SpeakIcon from '../components/SpeakIcon'
 import HubBack from '../components/HubBack'
+import { usePurchase } from '../context/PurchaseContext'
 import './DrillSentences.css'
 
 
@@ -120,6 +122,8 @@ const MODES = [
 ]
 
 export default function DrillSentences() {
+  const { isPro: _isPro, isChecking, showPaywall, FREE_LIMITS } = usePurchase()
+  const isPro = _isPro || isChecking
   const vocabData  = useVocabularyData()
   const sentData   = useSentenceData()
   const grammarConcepts = vocabData?.grammar_concepts || {}
@@ -166,6 +170,9 @@ export default function DrillSentences() {
     if (pattern !== 'all') list = list.filter(s => s.pattern === pattern)
     if (weakOnly) list = list.filter(s => s.concepts?.some(c => weakConcepts.includes(c)))
 
+    // Free users always see the same fixed set so the sample is consistent
+    if (!isPro) return freeOrder(list)
+
     // Try to restore previously-saved shuffle for this exact filter set
     if (shuffledIds.length > 0) {
       const restored = shuffledIds.map(id => sentById[id]).filter(Boolean)
@@ -179,7 +186,7 @@ export default function DrillSentences() {
     const fresh = freshOrder(list, progress.srs)
     setShuffledIds(fresh.map(s => s.id))
     return fresh
-  }, [allSentences, pattern, weakOnly, weakConcepts, round]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [allSentences, pattern, weakOnly, weakConcepts, round, isPro]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const sentence = sentences[currentIdx]
   const { speak } = useSpeech()
@@ -199,11 +206,13 @@ export default function DrillSentences() {
     play('success')
     setShowToast(true)
     setRevealed(false)
+    const nextIdx = currentIdx + 1
     setTimeout(() => {
-      if (currentIdx + 1 >= sentences.length) setDone(true)
+      const hitFreeLimit = !isPro && nextIdx >= FREE_LIMITS.DRILL_QUESTIONS
+      if (hitFreeLimit || nextIdx >= sentences.length) setDone(true)
       else setCurrentIdx(i => i + 1)
     }, 150)
-  }, [sentence, currentIdx, sentences.length, recordAnswer, play])
+  }, [sentence, currentIdx, sentences.length, recordAnswer, play, isPro, FREE_LIMITS])
 
   const restart = () => {
     setCurrentIdx(0)
@@ -252,9 +261,17 @@ export default function DrillSentences() {
       <div className="card" style={{textAlign:'center',padding:'3rem',maxWidth:'400px',margin:'0 auto'}}>
         <div style={{fontFamily:'var(--font-display)',fontSize:'2.5rem',color:'var(--gold)'}}>{sessionStats.correct}/{sessionStats.total}</div>
         <p style={{color:'var(--text-secondary)',margin:'0.5rem 0 1.5rem'}}>Sentences correct</p>
-        <div style={{display:'flex',gap:'0.75rem',justifyContent:'center'}}>
+        {!isPro && (
+          <div className="paywall-gate">
+            <div className="paywall-gate-icon">🔓</div>
+            <p className="paywall-gate-title">Free preview complete</p>
+            <p className="paywall-gate-sub">Unlock unlimited drilling across all {sentences.length} sentences</p>
+            <button className="paywall-gate-btn" onClick={showPaywall}>Unlock Full App</button>
+          </div>
+        )}
+        <div style={{display:'flex',gap:'0.75rem',justifyContent:'center',marginTop:'1rem'}}>
           <button className="btn-primary" onClick={restart}>Drill again</button>
-          <button className="btn-ghost" onClick={() => { setWeakOnly(true); restart() }}>Weak areas only</button>
+          {isPro && <button className="btn-ghost" onClick={() => { setWeakOnly(true); restart() }}>Weak areas only</button>}
         </div>
       </div>
     </div>
@@ -299,6 +316,8 @@ export default function DrillSentences() {
           <span>Weak areas only</span>
         </label>
       </div>
+
+      <FreeBanner limit={FREE_LIMITS.DRILL_QUESTIONS} total={allSentences.length} noun="sentences" />
 
       {/* Progress */}
       <div className="drill-meta">

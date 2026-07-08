@@ -19,21 +19,25 @@ if (typeof window !== 'undefined' && window.speechSynthesis) {
 function getBestVoice() {
   const voices = loadVoices()
   return (
-    voices.find(v => v.name === 'Lekha' && v.lang === 'hi-IN') ||   // macOS/iOS — best for Devanagari
-    voices.find(v => v.name.includes('Lekha'))                     ||
-    voices.find(v => v.lang === 'hi-IN')                           ||
-    voices.find(v => v.lang.startsWith('hi'))                      ||
-    voices.find(v => v.lang.startsWith('sa'))                      ||
-    voices.find(v => v.lang === 'en-IN')                           ||  // Indian English as last resort
+    voices.find(v => v.name === 'Lekha' && v.lang === 'hi-IN') ||
+    voices.find(v => v.name.includes('Lekha'))                  ||
+    voices.find(v => v.lang === 'hi-IN' && v.localService)      ||  // prefer on-device hi-IN (less robotic)
+    voices.find(v => v.lang === 'hi-IN')                        ||
+    voices.find(v => v.lang.startsWith('hi'))                   ||
+    voices.find(v => v.lang.startsWith('sa'))                   ||
+    voices.find(v => v.lang === 'en-IN' && v.localService)      ||
+    voices.find(v => v.lang === 'en-IN')                        ||
     null
   )
 }
 
 // ── Web Speech utterance ──────────────────────────────────────────────────────
-function makeUtterance(text, rate = 0.72) {
+// rate 0.65: slower feels more deliberate; pitch 0.92: slightly warmer/less synthetic
+function makeUtterance(text, rate = 0.65) {
   const u = new SpeechSynthesisUtterance(text)
   u.rate  = rate
-  u.pitch = 1
+  u.pitch = 0.92
+  u.volume = 1
   const voice = getBestVoice()
   if (voice) { u.voice = voice; u.lang = voice.lang }
   else        { u.lang = 'hi-IN' }

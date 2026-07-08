@@ -3,6 +3,14 @@
    Top header bar  +  scrollable content area  +  bottom tab bar
    ═══════════════════════════════════════════════════════════════════════════ */
 
+/* ── Root height lock — required for WKWebView scroll to work ──────────────── */
+/* Without height: 100% here, iOS WKWebView captures touch events at the        */
+/* document level and the inner overflow-y: scroll container never scrolls.     */
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
 /* ── Full-screen app shell ─────────────────────────────────────────────────── */
 .app-shell {
   display: flex;
@@ -58,6 +66,35 @@
   align-items: center;
   gap: 0.5rem;
 }
+.app-header-unlock {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: var(--gold);
+  border: none;
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #0e0b08;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+}
+.sidebar-unlock-btn {
+  background: none;
+  border: none;
+  color: var(--gold);
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+}
+.sidebar-streak-badge {
+  font-size: 0.78rem;
+  color: var(--gold);
+  margin-left: auto;
+}
 .app-header-streak {
   display: flex;
   align-items: center;
@@ -76,53 +113,33 @@
 /* ── Scrollable content area ────────────────────────────────────────────────── */
 .main-content {
   flex: 1;
-  overflow-y: auto;
+  overflow-y: scroll;   /* scroll (not auto) — iOS WKWebView requires this */
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior-y: contain;
+  touch-action: pan-y;  /* let vertical swipes scroll, not be swallowed */
 }
 
-/* Padding inside each page — clears the tab bar (60px) + safe-area + extra
-   breathing room.  The 24px extra ensures the last card is never hidden behind
-   the bar in PWA standalone mode where safe-area-inset-bottom is non-zero.   */
+/* Padding inside each page — clears the tab bar (~50px) + safe-area */
 .main-content > * {
-  padding-bottom: calc(60px + env(safe-area-inset-bottom, 0px) + 24px);
+  padding-bottom: calc(52px + env(safe-area-inset-bottom, 0px) + 8px);
 }
 
-/* ── Bottom tab bar ──────────────────────────────────────────────────────────── */
 /* ── Bottom tab bar ──────────────────────────────────────────────────────────── */
 .bottom-nav {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 60px;
-  padding: 0;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
   background: var(--bg-card);
-  border-top: 1px solid var(--border);
+  box-shadow: 0 -1px 0 var(--border);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   z-index: 100;
 }
 
-/* Gold glow line at the top */
-.bottom-nav::before {
-  content: '';
-  position: absolute;
-  top: -1px;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg,
-    transparent 0%,
-    var(--gold-dim) 30%,
-    var(--gold) 50%,
-    var(--gold-dim) 70%,
-    transparent 100%
-  );
-  opacity: 0.6;
-}
-
+.bottom-nav::before,
 .bottom-nav::after { display: none; }
 
 /* Sidebar elements hidden on mobile */
@@ -135,7 +152,6 @@
 .mobile-tabs {
   display: flex;
   flex: 1;
-  height: 100%;
   align-items: stretch;
 }
 
@@ -148,7 +164,7 @@
 }
 .more-sheet {
   position: fixed;
-  bottom: 60px;
+  bottom: calc(52px + env(safe-area-inset-bottom, 0px));
   left: 0;
   right: 0;
   z-index: 99;
@@ -206,67 +222,63 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 4px;
+  justify-content: flex-start;
+  padding: 6px 2px 4px;
+  gap: 2px;
   text-decoration: none;
   color: var(--text-muted);
-  height: 60px;
   position: relative;
-  transition: color 0.18s;
+  transition: color 0.15s;
   -webkit-tap-highlight-color: transparent;
   cursor: pointer;
   background: none;
   border: none;
   outline: none;
-  padding: 0 4px;
 }
 
-.tab-item:active { transform: scale(0.92); }
-
+.tab-item::before { display: none; }
+.tab-item:active { opacity: 0.6; }
 .tab-item.active { color: var(--gold); }
 
-/* Pill indicator behind active icon */
+/* Pill capsule — solid visible background behind active icon */
 .tab-icon-wrap {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 28px;
+  width: 52px;
+  height: 26px;
   border-radius: 999px;
-  transition: background 0.2s, transform 0.18s;
+  transition: background 0.2s;
 }
 .tab-item.active .tab-icon-wrap {
-  background: color-mix(in srgb, var(--gold) 16%, transparent);
-}
-.tab-item:not(.active):hover .tab-icon-wrap {
-  background: rgba(255,255,255,0.05);
+  background: rgba(201, 148, 42, 0.22);
 }
 
-.tab-icon {
-  font-size: 1.2rem;
-  line-height: 1;
-  transition: transform 0.18s;
+.tab-svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  transition: stroke-width 0.15s;
 }
-.tab-item.active .tab-icon {
-  transform: scale(1.1);
+.tab-item.active .tab-svg {
+  stroke-width: 2.2;
 }
 
 .tab-label {
-  font-family: var(--font-display);
-  font-size: 0.58rem;
-  letter-spacing: 0.06em;
-  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
   line-height: 1;
-  text-transform: uppercase;
-  opacity: 0.55;
-  transition: opacity 0.2s, color 0.18s;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  color: var(--text-muted);
+  transition: color 0.15s, font-weight 0.15s;
   white-space: nowrap;
 }
 
 .tab-item.active .tab-label {
-  opacity: 1;
   color: var(--gold);
+  font-weight: 600;
 }
 
 /* ── Page layout ─────────────────────────────────────────────────────────────── */
@@ -334,7 +346,7 @@
 /* ── Install banner (shown when PWA installable) ─────────────────────────────── */
 .install-banner {
   position: fixed;
-  bottom: calc(60px + env(safe-area-inset-bottom, 0px) + 8px);
+  bottom: calc(52px + env(safe-area-inset-bottom, 0px) + 8px);
   left: 1rem;
   right: 1rem;
   background: var(--bg-elevated);
@@ -385,7 +397,7 @@
 /* ── App update banner ───────────────────────────────────────────────────────── */
 .update-banner {
   position: fixed;
-  bottom: calc(60px + env(safe-area-inset-bottom, 0px) + 16px);
+  bottom: calc(52px + env(safe-area-inset-bottom, 0px) + 16px);
   left: 1rem;
   right: 1rem;
   background: linear-gradient(135deg, var(--bg-elevated), var(--bg-subtle));
