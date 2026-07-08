@@ -72,6 +72,14 @@ export default function GitaPage() {
   // Hide the answer and stop playback when the verse changes
   useEffect(() => { setRevealed(false); stop(); setActiveLine(-1) }, [chapterNum, verseNum]) // eslint-disable-line react-hooks/exhaustive-deps
 
+  // Prefetch audio URL for current verse (and next) so listen tap is instant
+  useEffect(() => {
+    if (!chapterNum || !verseNum) return
+    getGitaAudioUrl(chapterNum, verseNum).catch(() => {})
+    if (chapter && verseNum < chapter.verses.length)
+      getGitaAudioUrl(chapterNum, verseNum + 1).catch(() => {})
+  }, [chapterNum, verseNum, chapter])
+
   // Commentary loads per chapter, only once the panel has been opened
   useEffect(() => {
     if (!commOpen || !chapterNum) return
