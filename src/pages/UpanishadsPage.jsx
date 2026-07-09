@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useMemo } from 'react'
+import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
@@ -77,11 +77,27 @@ export default function UpanishadsPage() {
     speakLines(dev, { onLine: setActiveLine, onDone: () => setActiveLine(-1) })
   }, [isPlaying, stop, speakLines])
 
+  // Track whether we should auto-jump to the first verse after loading
+  const autoJumpRef = useRef(false)
+
   // If URL has ?text=X, override session storage and clear the param
   useEffect(() => {
     const t = searchParams.get('text')
-    if (t) { setTextId(t); setAdhId(''); setSectionId(''); setVerseIdx(0); setSearchParams({}, { replace: true }) }
+    if (t) {
+      autoJumpRef.current = true
+      setTextId(t); setAdhId(''); setSectionId(''); setVerseIdx(0)
+      setSearchParams({}, { replace: true })
+    }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Auto-jump to first adhyāya + section when coming from a direct link
+  useEffect(() => {
+    if (!autoJumpRef.current || !text || adhId || sectionId) return
+    autoJumpRef.current = false
+    const firstAdh = text.verses.find(v => v.adh)?.adh || ''
+    const firstSec = text.verses.find(v => !firstAdh || v.adh === firstAdh)?.sec || ''
+    if (firstSec) { setAdhId(firstAdh); setSectionId(firstSec); setVerseIdx(0) }
+  }, [text, adhId, sectionId]) // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     loadJson('manifest.json').then(setManifest).catch(e => setError(e.message))
@@ -133,6 +149,17 @@ export default function UpanishadsPage() {
     if (!text || !sectionId) return []
     return text.verses.filter(v => v.sec === sectionId)
   }, [text, sectionId])
+
+  // Flat ordered list of all sections across all adhyāyas (for cross-section navigation)
+  const allSections = useMemo(() => {
+    if (!text) return []
+    const seen = new Set(); const result = []
+    for (const v of text.verses) {
+      const key = v.adh ? `${v.adh}||${v.sec}` : v.sec
+      if (!seen.has(key)) { seen.add(key); result.push({ adh: v.adh || '', sec: v.sec, key }) }
+    }
+    return result
+  }, [text])
 
   const openText = (id, textIdx) => {
     if (!isPro && textIdx >= FREE_LIMITS.UPAN_FREE_TEXT) { showPaywall(); return }
@@ -302,28 +329,50 @@ export default function UpanishadsPage() {
   const verse    = sectionVerses[idx]
   if (!verse) return null
   const showAnswer = !drill || revealed
-  const atStart    = idx === 0
-  const atEnd      = idx === sectionVerses.length - 1
+
+  const currentSecKey = verse.adh ? `${verse.adh}||${verse.sec}` : verse.sec
+
+  const goToPrev = () => {
+    if (idx > 0) { setVerseIdx(idx - 1); return }
+    const ci = allSections.findIndex(s => s.key === currentSecKey)
+    if (ci > 0) { const ps = allSections[ci - 1]; setAdhId(ps.adh); setSectionId(ps.sec); setVerseIdx(9999) }
+  }
+  const goToNext = () => {
+    if (idx < sectionVerses.length - 1) { setVerseIdx(idx + 1); return }
+    const ci = allSections.findIndex(s => s.key === currentSecKey)
+    if (ci < allSections.length - 1) { const ns = allSections[ci + 1]; setAdhId(ns.adh); setSectionId(ns.sec); setVerseIdx(0) }
+  }
+  const atVeryStart = idx === 0 && allSections.findIndex(s => s.key === currentSecKey) === 0
+  const atVeryEnd   = idx === sectionVerses.length - 1 && allSections.findIndex(s => s.key === currentSecKey) === allSections.length - 1
 
   return (
     <div className="gita anim-fade-up">
-      <button className="gita-back" onClick={() => setSectionId('')}>
-        ← {hasAdhyayas ? `${adhId} khaṇḍas` : `${text.title} chapters`}
+      <button className="gita-back" onClick={() => hasAdhyayas ? setAdhId('') : setTextId('')}>
+        ← {hasAdhyayas ? `${text.title} adhyāyas` : 'All Upaniṣads'}
       </button>
       <div className="page-header">
         <h1 className="page-title devanagari">{text.titleDeva}</h1>
-        <p className="page-subtitle">{sectionId}</p>
+        <p className="page-subtitle">{verse.adh ? `${verse.adh} · ` : ''}{sectionId}</p>
       </div>
 
       <div className="gita-toolbar">
-        <button className="gita-nav-btn" onClick={() => setVerseIdx(idx - 1)} disabled={atStart} aria-label="Previous verse">←</button>
-        <select className="gita-verse-select" value={idx}
-          onChange={e => setVerseIdx(Number(e.target.value))}>
-          {sectionVerses.map((v, i) => (
-            <option key={i} value={i}>Verse {v.ref}</option>
+        <button className="gita-nav-btn" onClick={goToPrev} disabled={atVeryStart} aria-label="Previous verse">←</button>
+        <select className="gita-verse-select" value={currentSecKey}
+          onChange={e => {
+            const s = allSections.find(x => x.key === e.target.value)
+            if (s) { setAdhId(s.adh); setSectionId(s.sec); setVerseIdx(0) }
+          }}>
+          {allSections.map(s => (
+            <option key={s.key} value={s.key}>{s.adh ? `${s.adh} · ` : ''}{s.sec}</option>
           ))}
         </select>
-        <button className="gita-nav-btn" onClick={() => setVerseIdx(idx + 1)} disabled={atEnd} aria-label="Next verse">→</button>
+        <select className="gita-verse-select" style={{maxWidth:'120px'}} value={idx}
+          onChange={e => setVerseIdx(Number(e.target.value))}>
+          {sectionVerses.map((v, i) => (
+            <option key={i} value={i}>Sūtra {v.ref}</option>
+          ))}
+        </select>
+        <button className="gita-nav-btn" onClick={goToNext} disabled={atVeryEnd} aria-label="Next verse">→</button>
         <button className="gita-nav-btn" onClick={randomVerse} title="Random verse">🎲</button>
         <label className="weak-toggle">
           <input type="checkbox" checked={drill} onChange={e => setDrill(e.target.checked)} />
@@ -334,7 +383,7 @@ export default function UpanishadsPage() {
       <div className="card gita-verse-card">
         <div className="gita-verse-tags">
           <span className="pill pill-sacred">{text.title}</span>
-          <span className="pill pill-sacred" style={{marginLeft:'0.4rem'}}>Verse {verse.ref}</span>
+          <span className="pill pill-sacred" style={{marginLeft:'0.4rem'}}>Sūtra {verse.ref}</span>
           <button
             className={`speak-btn gita-speak${isPlaying ? ' playing' : ''}`}
             title={isPlaying ? 'Stop' : 'Hear verse'}
@@ -359,11 +408,8 @@ export default function UpanishadsPage() {
         )}
 
         <div className="gita-footer-nav">
-          <button className="btn-ghost" onClick={() => setVerseIdx(idx - 1)} disabled={atStart}>← Previous</button>
-          {atEnd
-            ? <button className="btn-primary" onClick={() => setSectionId('')}>Back to chapters →</button>
-            : <button className="btn-primary" onClick={() => setVerseIdx(idx + 1)}>Next verse →</button>
-          }
+          <button className="btn-ghost" onClick={goToPrev} disabled={atVeryStart}>← Previous</button>
+          <button className="btn-primary" onClick={goToNext} disabled={atVeryEnd}>Next →</button>
         </div>
       </div>
     </div>
