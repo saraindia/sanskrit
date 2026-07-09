@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
@@ -57,6 +58,7 @@ async function loadJson(file) {
 export default function UpanishadsPage() {
   const { isPro: _isPro, isChecking, showPaywall, FREE_LIMITS } = usePurchase()
   const isPro = _isPro || isChecking
+  const [searchParams, setSearchParams] = useSearchParams()
   const [manifest, setManifest]   = useState(null)
   const [textId, setTextId]       = useSessionStorage('upan_text', '')
   const [adhId, setAdhId]         = useSessionStorage('upan_adh', '')
@@ -74,6 +76,12 @@ export default function UpanishadsPage() {
     if (isPlaying) { stop(); setActiveLine(-1); return }
     speakLines(dev, { onLine: setActiveLine, onDone: () => setActiveLine(-1) })
   }, [isPlaying, stop, speakLines])
+
+  // If URL has ?text=X, override session storage and clear the param
+  useEffect(() => {
+    const t = searchParams.get('text')
+    if (t) { setTextId(t); setAdhId(''); setSectionId(''); setVerseIdx(0); setSearchParams({}, { replace: true }) }
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     loadJson('manifest.json').then(setManifest).catch(e => setError(e.message))

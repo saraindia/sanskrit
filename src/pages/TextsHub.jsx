@@ -20,6 +20,14 @@ const ITEMS = [
     meta:  'Īśa · Kena · Kaṭha · Muṇḍaka and more',
     level: 'advanced',
   },
+  {
+    to:    '/upanishads?text=brahmasutra',
+    icon:  '📿',
+    label: 'Brahmasūtras',
+    sub:   'Vedānta Sūtras of Bādarāyaṇa — systematising the Upaniṣads',
+    meta:  '4 adhyāyas · 510 sūtras · Thibaut translation',
+    level: 'advanced',
+  },
 ]
 
 export default function TextsHub() {

@@ -73,6 +73,15 @@
    "veda": "Sāmaveda",
    "verses": 599,
    "file": "chandogya.json"
+  },
+  {
+   "id": "brahmasutra",
+   "title": "Brahmasūtras",
+   "titleDeva": "ब्रह्मसूत्राणि",
+   "titleEnglish": "The Vedānta Sūtras of Bādarāyaṇa",
+   "veda": "Vedānta",
+   "verses": 510,
+   "file": "brahmasutra.json"
   }
  ]
 }
