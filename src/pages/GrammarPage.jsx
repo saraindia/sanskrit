@@ -2581,7 +2581,7 @@ function VibhaktiLesson() {
   const [tab,        setTab]        = useState('learn')   // 'learn' | 'table'
   const [activeV,    setActiveV]    = useState(0)         // index into VIBHAKTI_LIST
   const [activeNoun, setActiveNoun] = useState('rama')
-  const [nounCat,    setNounCat]    = useState('all')
+  const [nounCat,    setNounCat]    = useState('names')
 
   const vib  = VIBHAKTI_LIST[activeV]
   const noun = VIBHAKTI_NOUNS.find(n => n.id === activeNoun)
@@ -2725,8 +2725,6 @@ function VibhaktiLesson() {
           <div className="gr-example-title" style={{marginBottom:'0.6rem'}}>Select a Noun · नाम चिनोतु</div>
           <div className="gr-gender-lookup">
             <div className="gr-gender-filter-row">
-              <button className={`gr-gender-cat-btn${nounCat === 'all' ? ' active' : ''}`}
-                onClick={() => { play('tap'); setNounCat('all'); setActiveNoun('rama') }}>All</button>
               {VIBHAKTI_NOUN_CATEGORIES.map(cat => (
                 <button key={cat.id}
                   className={`gr-gender-cat-btn${nounCat === cat.id ? ' active' : ''}`}
@@ -2743,7 +2741,7 @@ function VibhaktiLesson() {
             <select className="gr-verb-select" value={activeNoun}
               onChange={e => { play('tap'); setActiveNoun(e.target.value) }}>
               {VIBHAKTI_NOUNS
-                .filter(n => nounCat === 'all' || n.category === nounCat)
+                .filter(n => n.category === nounCat)
                 .map(n => (
                   <option key={n.id} value={n.id}>
                     {n.dev}  {n.iast}  —  {n.en}  ·  {n.stem}
