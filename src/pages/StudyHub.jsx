@@ -1,9 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useVocabularyData, useSentenceData } from '../hooks/useData'
+import { LESSONS } from '../data/grammar.js'
 import './Hub.css'
 
 const ITEMS = [
+  {
+    to:    '/grammar',
+    icon:  '🔠',
+    label: 'Grammar',
+    sub:   'Present tense · pronouns · sentences · Q&A',
+    level: 'beginner',
+  },
   {
     to:    '/flashcards',
     icon:  '🗂️',
@@ -42,6 +50,7 @@ export default function StudyHub() {
   const fillCount  = sentData?.fill_blanks?.length ?? '…'
 
   const counts = {
+    '/grammar':    `${LESSONS.length} lessons · verbs, negatives, Q&A`,
     '/flashcards': `${vocabData?.alphabet_cards?.length ?? 31} script + ${vocabCount} words`,
     '/drill':      `${sentCount} sentences`,
     '/fill':       `${fillCount} exercises`,

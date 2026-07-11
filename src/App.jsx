@@ -14,6 +14,7 @@ const UpanishadsPage= lazy(() => import('./pages/UpanishadsPage'))
 const MatchPairs    = lazy(() => import('./pages/MatchPairs'))
 const StudyHub      = lazy(() => import('./pages/StudyHub'))
 const TextsHub      = lazy(() => import('./pages/TextsHub'))
+const GrammarPage   = lazy(() => import('./pages/GrammarPage'))
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
 import { PurchaseProvider, usePurchase } from './context/PurchaseContext'
@@ -28,7 +29,7 @@ import PaywallModal from './components/PaywallModal'
 import ScrollToTop from './components/ScrollToTop'
 import './styles/app.css'
 
-const STUDY_ROUTES = ['/study', '/flashcards', '/drill', '/fill', '/match']
+const STUDY_ROUTES = ['/study', '/flashcards', '/drill', '/fill', '/match', '/grammar']
 const TEXTS_ROUTES = ['/texts', '/gita', '/upanishads']
 const MORE_ROUTES  = ['/progress', '/podcast']
 
@@ -36,6 +37,7 @@ const SIDEBAR_GROUPS = [
   { label: null, items: [{ to: '/', label: 'Home', icon: '🏠', end: true }] },
   { label: 'Study', items: [
     { to: '/study',      label: 'Study Hub',      icon: '📚' },
+    { to: '/grammar',    label: 'Grammar',        icon: '🔠' },
     { to: '/flashcards', label: 'Flashcards',     icon: '🗂️' },
     { to: '/drill',      label: 'Sentence Drill', icon: '⚡' },
     { to: '/fill',       label: 'Fill Blanks',    icon: '✏️' },
@@ -141,6 +143,7 @@ function AppShell() {
         <Routes>
           <Route path="/"           element={<Dashboard />} />
           <Route path="/study"      element={<StudyHub />} />
+          <Route path="/grammar"    element={<GrammarPage />} />
           <Route path="/texts"      element={<TextsHub />} />
           <Route path="/flashcards" element={<Flashcards />} />
           <Route path="/drill"      element={<DrillSentences />} />
