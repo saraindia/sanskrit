@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams, Navigate } from 'react-router-dom'
 import { LESSONS, PRONOUNS, ENDINGS, VERBS, QA_PAIRS, OBJ_VERB_SENTENCES,
-         VERB_EXAMPLES, TENSES, PURUSHAS, VACHANAMS, LINGAS, PRONOUN_TABLE,
+         VERB_EXAMPLES, TENSE_EXAMPLES, TENSES, PURUSHAS, VACHANAMS, LINGAS, PRONOUN_TABLE,
          GENDER_DATA, GENDER_NOUNS_100 } from '../data/grammar.js'
 import HubBack from '../components/HubBack.jsx'
 import { useSoundEffects } from '../hooks/useSoundEffects.js'
@@ -525,7 +525,28 @@ function NounsLesson() {
   )
 }
 
+const PERSON_GROUPS = [
+  { label: '3rd Person', person: '3rd', keys: ['p3sg','p3du','p3pl'], endings: ['-ti','-taḥ','-nti'] },
+  { label: '2nd Person', person: '2nd', keys: ['p2sg','p2du','p2pl'], endings: ['-si','-thaḥ','-tha'] },
+  { label: '1st Person', person: '1st', keys: ['p1sg','p1du','p1pl'], endings: ['-mi','-vaḥ','-maḥ'] },
+]
+const NUM_COLORS = [
+  { label: 'Singular', color: 'var(--gold)',    bg: 'rgba(232,184,75,0.10)'  },
+  { label: 'Dual',     color: 'var(--teal)',    bg: 'rgba(58,158,138,0.10)'  },
+  { label: 'Plural',   color: 'var(--saffron)', bg: 'rgba(232,130,26,0.10)'  },
+]
+
 function EndingsLesson() {
+  const { play } = useSoundEffects()
+  const [activeEx,   setActiveEx]   = useState(null)
+  const [activeVerb, setActiveVerb] = useState(VERBS[0].id)
+
+  const verb     = VERBS.find(v => v.id === activeVerb)
+  const verbExs  = VERB_EXAMPLES[activeVerb] || {}
+  // Build p3sg and p1sg forms for the formula examples
+  const p3sg = verb.forms?.p3sg
+  const p1sg = verb.forms?.p1sg
+
   return (
     <div className="gr-lesson">
       <div className="gr-rule-box">
@@ -547,23 +568,122 @@ function EndingsLesson() {
           ))}
         </tbody>
       </table>
-      <div className="gr-example-box">
-        <div className="gr-example-title">Example with √पठ् (paṭh) — stem: पठ</div>
-        <div className="gr-formula">
-          <span className="gr-pill">पठ <em>paṭha</em></span>
-          <span className="gr-plus">+</span>
-          <span className="gr-pill">ति <em>ti</em></span>
-          <span className="gr-eq">=</span>
-          <span className="gr-pill gr-pill-gold">पठति <em>paṭhati</em> — he reads</span>
-        </div>
-        <div className="gr-formula">
-          <span className="gr-pill">पठ <em>paṭha</em></span>
-          <span className="gr-plus">+</span>
-          <span className="gr-pill">मि <em>mi</em></span>
-          <span className="gr-eq">=</span>
-          <span className="gr-pill gr-pill-gold">पठामि <em>paṭhāmi</em> — I read</span>
-        </div>
+
+      {/* Verb selector */}
+      <div className="gr-sel-group" style={{marginTop:'1.25rem'}}>
+        <div className="gr-sel-label">Verb · धातु</div>
+        <select className="gr-verb-select" value={activeVerb}
+          onChange={e => { play('tap'); setActiveVerb(e.target.value); setActiveEx(null) }}>
+          {VERBS.map(v => (
+            <option key={v.id} value={v.id}>{v.root} — {v.meaning}</option>
+          ))}
+        </select>
       </div>
+
+      {/* Dynamic formation example */}
+      <div className="gr-example-box">
+        <div className="gr-example-title">Formation — {verb.root} ({verb.rootIast}) — stem: {verb.stemIast}</div>
+        {p3sg && (
+          <div className="gr-formula">
+            <span className="gr-pill"><span className="gr-dev">{verb.stemDev || verb.root.replace('√','')}</span> <em>{verb.stemIast}</em></span>
+            <span className="gr-plus">+</span>
+            <span className="gr-pill"><span className="gr-dev">ति</span> <em>ti</em></span>
+            <span className="gr-eq">=</span>
+            <span className="gr-pill gr-pill-gold"><span className="gr-spk-row"><span className="gr-dev">{p3sg[0]}</span><Spk text={p3sg[0]} small /></span> <em>{p3sg[1]}</em> — {p3sg[2]}</span>
+          </div>
+        )}
+        {p1sg && (
+          <div className="gr-formula">
+            <span className="gr-pill"><span className="gr-dev">{verb.stemDev || verb.root.replace('√','')}</span> <em>{verb.stemIast}</em></span>
+            <span className="gr-plus">+</span>
+            <span className="gr-pill"><span className="gr-dev">मि</span> <em>mi</em></span>
+            <span className="gr-eq">=</span>
+            <span className="gr-pill gr-pill-gold"><span className="gr-spk-row"><span className="gr-dev">{p1sg[0]}</span><Spk text={p1sg[0]} small /></span> <em>{p1sg[1]}</em> — {p1sg[2]}</span>
+          </div>
+        )}
+      </div>
+
+      {/* Conjugation table for selected verb */}
+      <div className="gr-verb-header">
+        <span className="gr-spk-row"><span className="gr-dev gr-verb-root">{verb.root}</span><Spk text={verb.root} small /></span>
+        <span className="gr-iast">{verb.rootIast}</span>
+        <span className="gr-verb-meaning">{verb.meaning}</span>
+        <span className="gr-iast">stem: {verb.stemIast}</span>
+      </div>
+      {verb.note && <div className="gr-tip">⚠️ {verb.note}</div>}
+      <table className="gr-table">
+        <thead><tr><th>Person</th><th>Singular</th><th>Dual</th><th>Plural</th></tr></thead>
+        <tbody>
+          {VERB_FORM_ROWS.map(row => (
+            <tr key={row.label}>
+              <td className="gr-person">{row.label}</td>
+              {row.keys.map(key => (
+                <td key={key}>
+                  <div className="gr-spk-row"><span className="gr-dev">{verb.forms[key][0]}</span><Spk text={verb.forms[key][0]} small /></div>
+                  <span className="gr-iast">{verb.forms[key][1]}</span><br/>
+                  <span className="gr-en">{verb.forms[key][2]}</span>
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      <div className="gr-example-title" style={{marginTop:'1rem'}}>See every ending in use — {verb.root}</div>
+      <div className="gr-ex-accordion">
+        {PERSON_GROUPS.map(group => {
+          const open = activeEx === group.person
+          return (
+            <div key={group.person} className={`gr-ex-acc-item${open ? ' open' : ''}`}>
+              <button className="gr-ex-acc-hd" onClick={() => setActiveEx(open ? null : group.person)}>
+                <div className="gr-ex-acc-hd-left">
+                  <span className="gr-ex-acc-label">{group.label}</span>
+                  <span className="gr-ex-acc-num-pills">
+                    {NUM_COLORS.map((nc, i) => (
+                      <span key={nc.label} className="gr-ex-acc-pill" style={{color: nc.color, borderColor: nc.color}}>{nc.label} <em>{group.endings[i]}</em></span>
+                    ))}
+                  </span>
+                </div>
+                <span className="gr-ex-acc-chevron">{open ? '▲' : '▼'}</span>
+              </button>
+              {open && (
+                <div className="gr-ex-acc-body anim-fade-up">
+                  {group.keys.map((key, ki) => {
+                    const ex = verbExs[key]
+                    const form = verb.forms[key]
+                    const { color, bg, label } = NUM_COLORS[ki]
+                    return (
+                      <div key={key} className="gr-ex-num-card" style={{borderLeftColor: color, background: bg}}>
+                        <div className="gr-ex-num-card-hd">
+                          <span className="gr-ex-num-badge" style={{color, borderColor: color}}>{label}</span>
+                          <span className="gr-ex-acc-ending" style={{color}}>{group.endings[ki]}</span>
+                          {form && <span className="gr-dev" style={{color, fontWeight:700}}>{form[0]}</span>}
+                        </div>
+                        {ex ? (
+                          <>
+                            <div className="gr-spk-row"><span className="gr-dev gr-ex-acc-sent" style={{color}}>{ex.dev}</span><Spk text={ex.dev} small /></div>
+                            <div className="gr-iast">{ex.iast}</div>
+                            <div className="gr-en">{ex.en}</div>
+                          </>
+                        ) : form ? (
+                          <>
+                            <div className="gr-spk-row"><span className="gr-dev gr-ex-acc-sent" style={{color}}>{form[0]}</span><Spk text={form[0]} small /></div>
+                            <div className="gr-iast">{form[1]}</div>
+                            <div className="gr-en">{form[2]}</div>
+                          </>
+                        ) : (
+                          <span className="gr-iast" style={{color:'var(--text-muted)',fontSize:'0.8rem'}}>No example available.</span>
+                        )}
+                      </div>
+                    )
+                  })}
+                </div>
+              )}
+            </div>
+          )
+        })}
+      </div>
+
       <div className="gr-tip">
         💡 <strong>Pattern:</strong> 3rd person ends in <em>-ti / -taḥ / -nti</em>.
         2nd in <em>-si / -thaḥ / -tha</em>. 1st in <em>-mi / -vaḥ / -maḥ</em>.
@@ -572,20 +692,25 @@ function EndingsLesson() {
   )
 }
 
+const VERB_FORM_ROWS = [
+  { label: '3rd', keys: ['p3sg','p3du','p3pl'], nums: ['Singular','Dual','Plural'] },
+  { label: '2nd', keys: ['p2sg','p2du','p2pl'], nums: ['Singular','Dual','Plural'] },
+  { label: '1st', keys: ['p1sg','p1du','p1pl'], nums: ['Singular','Dual','Plural'] },
+]
+
 function VerbsLesson() {
   const [activeVerb, setActiveVerb] = useState(VERBS[0].id)
+  const [activeEx,   setActiveEx]   = useState(null)
   const verb = VERBS.find(v => v.id === activeVerb)
-  const rows = [
-    { label: '3rd', sg: 'p3sg', du: 'p3du', pl: 'p3pl' },
-    { label: '2nd', sg: 'p2sg', du: 'p2du', pl: 'p2pl' },
-    { label: '1st', sg: 'p1sg', du: 'p1du', pl: 'p1pl' },
-  ]
+  const verbExamples = VERB_EXAMPLES[activeVerb] || {}
+
+  function handleVerbChange(id) { setActiveVerb(id); setActiveEx(null) }
 
   return (
     <div className="gr-lesson">
       <div className="gr-sel-group">
         <div className="gr-sel-label">Verb · धातु</div>
-        <select className="gr-verb-select" value={activeVerb} onChange={e => setActiveVerb(e.target.value)}>
+        <select className="gr-verb-select" value={activeVerb} onChange={e => handleVerbChange(e.target.value)}>
           {VERBS.map(v => (
             <option key={v.id} value={v.id}>{v.root} — {v.meaning}</option>
           ))}
@@ -605,10 +730,10 @@ function VerbsLesson() {
           <tr><th>Person</th><th>Singular</th><th>Dual</th><th>Plural</th></tr>
         </thead>
         <tbody>
-          {rows.map(row => (
+          {VERB_FORM_ROWS.map(row => (
             <tr key={row.label}>
               <td className="gr-person">{row.label}</td>
-              {[row.sg, row.du, row.pl].map(key => (
+              {row.keys.map(key => (
                 <td key={key}>
                   <div className="gr-spk-row"><span className="gr-dev">{verb.forms[key][0]}</span><Spk text={verb.forms[key][0]} small /></div>
                   <span className="gr-iast">{verb.forms[key][1]}</span><br/>
@@ -619,6 +744,55 @@ function VerbsLesson() {
           ))}
         </tbody>
       </table>
+
+      {/* Example sentences accordion — grouped by person */}
+      <div className="gr-example-title" style={{marginTop:'1.25rem'}}>Example sentences</div>
+      <div className="gr-ex-accordion">
+        {PERSON_GROUPS.map(group => {
+          const open = activeEx === group.person
+          return (
+            <div key={group.person} className={`gr-ex-acc-item${open ? ' open' : ''}`}>
+              <button className="gr-ex-acc-hd" onClick={() => setActiveEx(open ? null : group.person)}>
+                <div className="gr-ex-acc-hd-left">
+                  <span className="gr-ex-acc-label">{group.label}</span>
+                  <span className="gr-ex-acc-num-pills">
+                    {NUM_COLORS.map((nc, i) => (
+                      <span key={nc.label} className="gr-ex-acc-pill" style={{color: nc.color, borderColor: nc.color}}>{nc.label}</span>
+                    ))}
+                  </span>
+                </div>
+                <span className="gr-ex-acc-chevron">{open ? '▲' : '▼'}</span>
+              </button>
+              {open && (
+                <div className="gr-ex-acc-body anim-fade-up">
+                  {group.keys.map((key, ki) => {
+                    const ex = verbExamples[key]
+                    const { color, bg, label } = NUM_COLORS[ki]
+                    return (
+                      <div key={key} className="gr-ex-num-card" style={{borderLeftColor: color, background: bg}}>
+                        <div className="gr-ex-num-card-hd">
+                          <span className="gr-ex-num-badge" style={{color, borderColor: color}}>{label}</span>
+                          <span className="gr-dev" style={{color, fontWeight:700}}>{verb.forms[key][0]}</span>
+                          <span className="gr-iast" style={{fontSize:'0.78rem',color:'var(--text-muted)'}}>{verb.forms[key][1]}</span>
+                        </div>
+                        {ex ? (
+                          <>
+                            <div className="gr-spk-row"><span className="gr-dev gr-ex-acc-sent" style={{color}}>{ex.dev}</span><Spk text={ex.dev} small /></div>
+                            <div className="gr-iast">{ex.iast}</div>
+                            <div className="gr-en">{ex.en}</div>
+                          </>
+                        ) : (
+                          <span className="gr-iast" style={{color:'var(--text-muted)',fontSize:'0.8rem'}}>No example available.</span>
+                        )}
+                      </div>
+                    )
+                  })}
+                </div>
+              )}
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }
@@ -800,6 +974,50 @@ function QALesson() {
   )
 }
 
+const SUBJECT_NOUNS = [
+  // Masculine पुंलिङ्गम्
+  { id:'balaka',  linga:'m', en:'boy',      enPl:'boys',
+    forms:{ sg:{dev:'बालकः', iast:'bālakaḥ'}, du:{dev:'बालकौ',  iast:'bālakau'},  pl:{dev:'बालकाः', iast:'bālakāḥ'} } },
+  { id:'nara',    linga:'m', en:'man',      enPl:'men',
+    forms:{ sg:{dev:'नरः',   iast:'naraḥ'},   du:{dev:'नरौ',    iast:'narau'},    pl:{dev:'नराः',   iast:'narāḥ'} } },
+  { id:'guru',    linga:'m', en:'teacher',  enPl:'teachers',
+    forms:{ sg:{dev:'गुरुः', iast:'guruḥ'},   du:{dev:'गुरू',   iast:'gurū'},     pl:{dev:'गुरवः',  iast:'guravaḥ'} } },
+  { id:'deva',    linga:'m', en:'god',      enPl:'gods',
+    forms:{ sg:{dev:'देवः',  iast:'devaḥ'},   du:{dev:'देवौ',   iast:'devau'},    pl:{dev:'देवाः',  iast:'devāḥ'} } },
+  { id:'raja',    linga:'m', en:'king',     enPl:'kings',
+    forms:{ sg:{dev:'राजा',  iast:'rājā'},    du:{dev:'राजानौ', iast:'rājānau'},  pl:{dev:'राजानः', iast:'rājānaḥ'} } },
+  { id:'muni',    linga:'m', en:'sage',     enPl:'sages',
+    forms:{ sg:{dev:'मुनिः', iast:'muniḥ'},   du:{dev:'मुनी',   iast:'munī'},     pl:{dev:'मुनयः',  iast:'munayaḥ'} } },
+  { id:'shishya', linga:'m', en:'student',  enPl:'students',
+    forms:{ sg:{dev:'शिष्यः',iast:'śiṣyaḥ'},  du:{dev:'शिष्यौ', iast:'śiṣyau'},   pl:{dev:'शिष्याः',iast:'śiṣyāḥ'} } },
+  { id:'gaja',    linga:'m', en:'elephant', enPl:'elephants',
+    forms:{ sg:{dev:'गजः',   iast:'gajaḥ'},   du:{dev:'गजौ',    iast:'gajau'},    pl:{dev:'गजाः',   iast:'gajāḥ'} } },
+  // Feminine स्त्रीलिङ्गम्
+  { id:'balika',  linga:'f', en:'girl',     enPl:'girls',
+    forms:{ sg:{dev:'बालिका',iast:'bālikā'},  du:{dev:'बालिके', iast:'bālike'},   pl:{dev:'बालिकाः',iast:'bālikāḥ'} } },
+  { id:'mata',    linga:'f', en:'mother',   enPl:'mothers',
+    forms:{ sg:{dev:'माता',  iast:'mātā'},    du:{dev:'मातरौ',  iast:'mātarau'},  pl:{dev:'मातरः',  iast:'mātaraḥ'} } },
+  { id:'nadi',    linga:'f', en:'river',    enPl:'rivers',
+    forms:{ sg:{dev:'नदी',   iast:'nadī'},    du:{dev:'नद्यौ',  iast:'nadyau'},   pl:{dev:'नद्यः',  iast:'nadyaḥ'} } },
+  { id:'sita',    linga:'f', en:'Sītā',     enPl:'Sītā',
+    forms:{ sg:{dev:'सीता',  iast:'sītā'},    du:{dev:'सीते',   iast:'sīte'},     pl:{dev:'सीताः',  iast:'sītāḥ'} } },
+  { id:'kanya',   linga:'f', en:'maiden',   enPl:'maidens',
+    forms:{ sg:{dev:'कन्या', iast:'kanyā'},   du:{dev:'कन्ये',  iast:'kanye'},    pl:{dev:'कन्याः', iast:'kanyāḥ'} } },
+  { id:'devi',    linga:'f', en:'goddess',  enPl:'goddesses',
+    forms:{ sg:{dev:'देवी',  iast:'devī'},    du:{dev:'देव्यौ', iast:'devyau'},   pl:{dev:'देव्यः', iast:'devyaḥ'} } },
+  // Neuter नपुंसकलिङ्गम्
+  { id:'pustaka', linga:'n', en:'book',     enPl:'books',
+    forms:{ sg:{dev:'पुस्तकम्',iast:'pustakam'}, du:{dev:'पुस्तके', iast:'pustake'},  pl:{dev:'पुस्तकानि',iast:'pustakāni'} } },
+  { id:'phala',   linga:'n', en:'fruit',    enPl:'fruits',
+    forms:{ sg:{dev:'फलम्',  iast:'phalam'},  du:{dev:'फले',    iast:'phale'},    pl:{dev:'फलानि',  iast:'phalāni'} } },
+  { id:'vana',    linga:'n', en:'forest',   enPl:'forests',
+    forms:{ sg:{dev:'वनम्',  iast:'vanam'},   du:{dev:'वने',    iast:'vane'},     pl:{dev:'वनानि',  iast:'vanāni'} } },
+  { id:'jala',    linga:'n', en:'water',    enPl:'water',
+    forms:{ sg:{dev:'जलम्',  iast:'jalam'},   du:{dev:'जले',    iast:'jale'},     pl:{dev:'जलानि',  iast:'jalāni'} } },
+  { id:'karma',   linga:'n', en:'deed',     enPl:'deeds',
+    forms:{ sg:{dev:'कर्म',  iast:'karma'},   du:{dev:'कर्मणी', iast:'karmaṇī'},  pl:{dev:'कर्माणि',iast:'karmāṇi'} } },
+]
+
 function ExplorerLesson() {
   const { play } = useSoundEffects()
   const { speak } = useSpeech()
@@ -808,6 +1026,7 @@ function ExplorerLesson() {
   const [linga,      setLinga]      = useState('m')
   const [vachanam,   setVachanam]   = useState('sg')
   const [verbFilter, setVerbFilter] = useState(VERBS[0].id)
+  const [subject,    setSubject]    = useState('pronoun')
 
   // Build the form key, e.g. p3sg, p2du, p1pl
   const formKey   = `p${purusha}${vachanam}`
@@ -819,18 +1038,73 @@ function ExplorerLesson() {
   // Pick the right forms for the selected tense
   const getTenseForms = (verb) => tense === 'present' ? verb.forms : verb[tense]
 
-  // Build an example sentence for the selected tense by swapping the verb form
-  // into the existing present-tense sentence (if one exists for this formKey).
+  const selectedNoun = subject !== 'pronoun' ? SUBJECT_NOUNS.find(n => n.id === subject) : null
+
+  // Build an example sentence: swap verb for non-present tenses,
+  // swap subject pronoun/noun when 3rd-person gender or selected subject changes.
   const getExample = (verbId, formKey, form) => {
     const presentEx = VERB_EXAMPLES[verbId]?.[formKey]
     if (!presentEx) return null
-    if (tense === 'present') return presentEx
-    if (!form) return null
+    // Present tense, masculine, pronoun subject — return stored sentence unchanged
+    if (tense === 'present' && (purusha !== '3' || linga === 'm') && !selectedNoun) return presentEx
+    if (tense !== 'present' && !form) return null
+
     const devWords  = presentEx.dev.replace('।', '').split(' ')
     const iastWords = presentEx.iast.replace(/[.?!]$/, '').split(' ')
-    devWords[devWords.length - 1]   = form[0]
-    iastWords[iastWords.length - 1] = form[1]
-    return { dev: devWords.join(' ') + '।', iast: iastWords.join(' ') + '.', en: form[2] }
+
+    // Swap verb (last word) for non-present tenses
+    if (tense !== 'present') {
+      devWords[devWords.length - 1]   = form[0]
+      iastWords[iastWords.length - 1] = form[1]
+    }
+
+    // Swap subject for 3rd person: pronoun gender change OR noun selection
+    if (purusha === '3') {
+      if (selectedNoun) {
+        // Replace first word with selected noun in correct vachanam form
+        const nf = selectedNoun.forms[vachanam]
+        devWords[0]   = nf.dev
+        iastWords[0]  = nf.iast
+      } else if (linga !== 'm') {
+        // Replace masculine pronoun with gendered pronoun
+        const mascPron = PRONOUN_TABLE['3']['m'][vachanam]
+        const newPron  = PRONOUN_TABLE['3'][linga][vachanam]
+        if (devWords[0]   === mascPron.dev)  devWords[0]   = newPron.dev
+        if (iastWords[0]  === mascPron.iast) iastWords[0]  = newPron.iast
+      }
+    }
+
+    const punct = presentEx.iast.match(/[?!]$/) ? presentEx.iast.slice(-1) : '.'
+    let en = tense === 'present' ? presentEx.en : form[2]
+
+    if (purusha === '3') {
+      if (selectedNoun) {
+        // Build English subject phrase
+        const subEn = vachanam === 'sg' ? `The ${selectedNoun.en}`
+                    : vachanam === 'du' ? `The two ${selectedNoun.enPl}`
+                    : `The ${selectedNoun.enPl}`
+        // Replace known pronoun patterns at start of English sentence
+        en = en
+          .replace(/^He /, `${subEn} `)
+          .replace(/^She /, `${subEn} `)
+          .replace(/^It /, `${subEn} `)
+          .replace(/^They two /, `${subEn} `)
+          .replace(/^They /, `${subEn} `)
+          .replace(/^he\/she /, `${subEn} `)
+          .replace(/^they two /, `${subEn} `)
+          .replace(/^they /, `${subEn} `)
+        // If none matched (sentence starts with "The boy..." etc.), replace after "The "
+        if (!en.startsWith(subEn) && en.startsWith('The ')) {
+          const rest = en.split(' ').slice(2).join(' ')
+          en = `${subEn} ${rest}`
+        }
+      } else if (linga !== 'm' && tense === 'present') {
+        if (linga === 'f') en = en.replace(/^He /, 'She ')
+        if (linga === 'n') en = en.replace(/^He /, 'It ')
+      }
+    }
+
+    return { dev: devWords.join(' ') + '।', iast: iastWords.join(' ') + punct, en }
   }
 
   // Ending highlight for this cell
@@ -866,7 +1140,7 @@ function ExplorerLesson() {
             {PURUSHAS.map(p => (
               <button key={p.id}
                 className={`gr-sel-pill ${purusha === p.id ? 'active' : ''}`}
-                onClick={() => { play('tap'); setPurusha(p.id) }}>
+                onClick={() => { play('tap'); setPurusha(p.id); setSubject('pronoun') }}>
                 <span className="gr-dev">{p.labelDev}</span>
                 <span className="gr-sel-pill-sub">{p.en}</span>
               </button>
@@ -884,7 +1158,7 @@ function ExplorerLesson() {
             {LINGAS.map(l => (
               <button key={l.id}
                 className={`gr-sel-pill ${linga === l.id ? 'active' : ''} ${purusha !== '3' ? 'gr-sel-pill-dim' : ''}`}
-                onClick={() => { play('tap'); setLinga(l.id) }}>
+                onClick={() => { play('tap'); setLinga(l.id); setSubject('pronoun') }}>
                 <span className="gr-dev" style={{fontSize:'0.8rem'}}>{l.labelDev}</span>
                 <span className="gr-sel-pill-sub">{l.label} — {l.en}</span>
               </button>
@@ -899,7 +1173,7 @@ function ExplorerLesson() {
             {VACHANAMS.map(v => (
               <button key={v.id}
                 className={`gr-sel-pill ${vachanam === v.id ? 'active' : ''}`}
-                onClick={() => { play('tap'); setVachanam(v.id) }}>
+                onClick={() => { play('tap'); setVachanam(v.id); setSubject('pronoun') }}>
                 <span className="gr-dev">{v.labelDev}</span>
                 <span className="gr-sel-pill-sub">{v.label} — {v.en}</span>
               </button>
@@ -910,11 +1184,37 @@ function ExplorerLesson() {
         {/* Verb filter */}
         <div className="gr-sel-group">
           <div className="gr-sel-label">Verb · धातु</div>
-          <select className="gr-verb-select" value={verbFilter} onChange={e => setVerbFilter(e.target.value)}>
+          <select className="gr-verb-select" value={verbFilter} onChange={e => { play('tap'); setVerbFilter(e.target.value) }}>
             <option value="all">All verbs ({VERBS.length})</option>
             {VERBS.map(v => (
               <option key={v.id} value={v.id}>{v.root} — {v.meaning}</option>
             ))}
+          </select>
+        </div>
+
+        {/* Subject selector — only meaningful for 3rd person */}
+        <div className="gr-sel-group">
+          <div className="gr-sel-label">
+            Subject · कर्ता
+            {purusha !== '3' && <span className="gr-sel-label-note"> — not applicable for {purusha === '2' ? '2nd' : '1st'} person</span>}
+          </div>
+          <select
+            className={`gr-verb-select ${purusha !== '3' ? 'gr-select-dim' : ''}`}
+            value={subject}
+            disabled={purusha !== '3'}
+            onChange={e => { play('tap'); setSubject(e.target.value) }}>
+            <option value="pronoun">Pronoun — {pronoun} ({linga === 'm' ? 'he' : linga === 'f' ? 'she' : 'it'}/{vachanam === 'sg' ? 'singular' : vachanam === 'du' ? 'dual' : 'plural'})</option>
+            {SUBJECT_NOUNS
+              .filter(n => n.linga === linga)
+              .map(n => {
+                const f = n.forms[vachanam]
+                return (
+                  <option key={n.id} value={n.id}>
+                    {f.dev} / {f.iast} — {n.en}
+                  </option>
+                )
+              })
+            }
           </select>
         </div>
       </div>
@@ -1022,21 +1322,21 @@ function GenderLesson() {
           <tr>
             <td><span className="gr-gbadge gr-gbadge-m" style={{fontSize:'0.75rem'}}>पुंलिङ्गम्</span><div className="gr-en" style={{fontSize:'0.75rem', marginTop:'0.2rem'}}>masculine</div></td>
             <td><span className="gr-dev">पुंलिङ्गम्</span></td>
-            <td><em>-aḥ, -a</em></td>
+            <td><em style={{color:'#7aaeff', fontWeight:700, fontSize:'1.05rem'}}>-aḥ, -a</em></td>
             <td><span className="gr-dev">सः</span> <span className="gr-iast">saḥ</span></td>
             <td><span className="gr-dev">रामः</span> <span className="gr-iast">rāmaḥ</span></td>
           </tr>
           <tr>
             <td><span className="gr-gbadge gr-gbadge-f" style={{fontSize:'0.75rem'}}>स्त्रीलिङ्गम्</span><div className="gr-en" style={{fontSize:'0.75rem', marginTop:'0.2rem'}}>feminine</div></td>
             <td><span className="gr-dev">स्त्रीलिङ्गम्</span></td>
-            <td><em>-ā, -ī</em></td>
+            <td><em style={{color:'#ff9fc8', fontWeight:700, fontSize:'1.05rem'}}>-ā, -ī</em></td>
             <td><span className="gr-dev">सा</span> <span className="gr-iast">sā</span></td>
             <td><span className="gr-dev">सीता</span> <span className="gr-iast">sītā</span></td>
           </tr>
           <tr>
             <td><span className="gr-gbadge gr-gbadge-n" style={{fontSize:'0.75rem'}}>नपुंसकलिङ्गम्</span><div className="gr-en" style={{fontSize:'0.75rem', marginTop:'0.2rem'}}>neuter</div></td>
             <td><span className="gr-dev">नपुंसकलिङ्गम्</span></td>
-            <td><em>-am, -a</em></td>
+            <td><em style={{color:'#88d888', fontWeight:700, fontSize:'1.05rem'}}>-am, -a</em></td>
             <td><span className="gr-dev">तत्</span> <span className="gr-iast">tat</span></td>
             <td><span className="gr-dev">फलम्</span> <span className="gr-iast">phalam</span></td>
           </tr>
@@ -1202,16 +1502,20 @@ const TENSE_INFO = {
 function TenseLesson({ tenseId }) {
   const { play } = useSoundEffects()
   const [activeVerb, setActiveVerb] = useState(VERBS[0].id)
+  const [activeEx,   setActiveEx]   = useState(null)
   const verb = VERBS.find(v => v.id === activeVerb)
   const info  = TENSE_INFO[tenseId]
   const endings = ENDINGS[tenseId]
   const forms = verb[tenseId]
+  const tenseExamples = TENSE_EXAMPLES[tenseId]?.[activeVerb] || {}
   const rows = [
     { label: '3rd', sg: 'p3sg', du: 'p3du', pl: 'p3pl' },
     { label: '2nd', sg: 'p2sg', du: 'p2du', pl: 'p2pl' },
     { label: '1st', sg: 'p1sg', du: 'p1du', pl: 'p1pl' },
   ]
   const { stemDev, stemIast, endDev, endIast, resultDev, resultIast, resultEn } = info.formula
+
+  function handleVerbChange(id) { setActiveVerb(id); setActiveEx(null) }
 
   return (
     <div className="gr-lesson">
@@ -1248,7 +1552,7 @@ function TenseLesson({ tenseId }) {
       <div className="gr-sel-group">
         <div className="gr-sel-label">Verb · धातु</div>
         <select className="gr-verb-select" value={activeVerb}
-          onChange={e => { play('tap'); setActiveVerb(e.target.value) }}>
+          onChange={e => { play('tap'); handleVerbChange(e.target.value) }}>
           {VERBS.map(v => (
             <option key={v.id} value={v.id}>{v.root} — {v.meaning}</option>
           ))}
@@ -1285,7 +1589,956 @@ function TenseLesson({ tenseId }) {
         <div className="gr-tip">Forms for this verb are not yet available for this tense.</div>
       )}
 
+      {/* Example sentences accordion — grouped by person */}
+      <div className="gr-example-title" style={{marginTop:'1.25rem'}}>Example sentences</div>
+      <div className="gr-ex-accordion">
+        {PERSON_GROUPS.map(group => {
+          const open = activeEx === group.person
+          const hasAny = group.keys.some(k => tenseExamples[k])
+          return (
+            <div key={group.person} className={`gr-ex-acc-item${open ? ' open' : ''}`}>
+              <button className="gr-ex-acc-hd" onClick={() => setActiveEx(open ? null : group.person)}>
+                <div className="gr-ex-acc-hd-left">
+                  <span className="gr-ex-acc-label">{group.label}</span>
+                  <span className="gr-ex-acc-num-pills">
+                    {NUM_COLORS.map(nc => (
+                      <span key={nc.label} className="gr-ex-acc-pill" style={{color: nc.color, borderColor: nc.color}}>{nc.label}</span>
+                    ))}
+                  </span>
+                </div>
+                <span className="gr-ex-acc-chevron">{open ? '▲' : '▼'}</span>
+              </button>
+              {open && (
+                <div className="gr-ex-acc-body anim-fade-up">
+                  {hasAny ? group.keys.map((key, ki) => {
+                    const ex = tenseExamples[key]
+                    const { color, bg, label } = NUM_COLORS[ki]
+                    return (
+                      <div key={key} className="gr-ex-num-card" style={{borderLeftColor: color, background: bg}}>
+                        <div className="gr-ex-num-card-hd">
+                          <span className="gr-ex-num-badge" style={{color, borderColor: color}}>{label}</span>
+                          {forms && <span className="gr-dev" style={{color, fontWeight:700}}>{forms[key][0]}</span>}
+                          {forms && <span className="gr-iast" style={{fontSize:'0.78rem',color:'var(--text-muted)'}}>{forms[key][1]}</span>}
+                        </div>
+                        {ex ? (
+                          <>
+                            <div className="gr-spk-row"><span className="gr-dev gr-ex-acc-sent" style={{color}}>{ex.dev}</span><Spk text={ex.dev} small /></div>
+                            <div className="gr-iast">{ex.iast}</div>
+                            <div className="gr-en">{ex.en}</div>
+                          </>
+                        ) : (
+                          <span className="gr-iast" style={{color:'var(--text-muted)',fontSize:'0.8rem'}}>No example available.</span>
+                        )}
+                      </div>
+                    )
+                  }) : (
+                    <div style={{padding:'0.5rem 0', color:'var(--text-muted)', fontSize:'0.85rem', fontStyle:'italic'}}>
+                      Example sentences for this verb are coming soon.
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          )
+        })}
+      </div>
+
       <div className="gr-tip">{info.tip}</div>
+    </div>
+  )
+}
+
+// ── Question Explorer data ───────────────────────────────────────────────
+
+const QUESTION_TYPES = [
+  { id:'yesno',    dev:'किम्',     iast:'kim',      label:'Yes / No',  desc:'Does / did / will...?'  },
+  { id:'va',       dev:'वा',       iast:'vā',       label:'Or / वा',   desc:'...or? (disjunctive)'   },
+  { id:'what',     dev:'किम्',     iast:'kim',      label:'What',      desc:'What does / did...?'    },
+  { id:'who',      dev:'कः/का',    iast:'kaḥ/kā',   label:'Who',       desc:'Who does / did...?'     },
+  { id:'where',    dev:'कुत्र',    iast:'kutra',    label:'Where',     desc:'Where does / did...?'   },
+  { id:'when',     dev:'कदा',      iast:'kadā',     label:'When',      desc:'When does / did...?'    },
+  { id:'how',      dev:'कथम्',     iast:'katham',   label:'How',       desc:'How does / is...?'      },
+  { id:'why',      dev:'किमर्थम्', iast:'kimartham',label:'Why',       desc:'Why does / did...?'     },
+  { id:'whose',    dev:'कस्य',     iast:'kasya',    label:'Whose',     desc:'Whose...? (possession)' },
+]
+
+const QE_OBJECTS = [
+  { id:'pustaka',    dev:'पुस्तकम्',    iast:'pustakam',    en:'a book'       },
+  { id:'vedam',      dev:'वेदम्',        iast:'vedam',       en:'the Veda'     },
+  { id:'slokam',     dev:'श्लोकम्',     iast:'ślokam',      en:'a verse'      },
+  { id:'jalam',      dev:'जलम्',         iast:'jalam',       en:'water'        },
+  { id:'phalam',     dev:'फलम्',         iast:'phalam',      en:'a fruit'      },
+  { id:'annam',      dev:'अन्नम्',       iast:'annam',       en:'food'         },
+  { id:'patram',     dev:'पत्रम्',       iast:'patram',      en:'a letter'     },
+  { id:'satyam',     dev:'सत्यम्',       iast:'satyam',      en:'the truth'    },
+  { id:'jnanam',     dev:'ज्ञानम्',      iast:'jñānam',      en:'knowledge'    },
+  { id:'nagaram',    dev:'नगरम्',         iast:'nagaram',     en:'the city'     },
+  { id:'gramam',     dev:'ग्रामम्',       iast:'grāmam',      en:'the village'  },
+  { id:'vidyalayam', dev:'विद्यालयम्',   iast:'vidyālayam',  en:'the school'   },
+  { id:'vanam',      dev:'वनम्',          iast:'vanam',       en:'the forest'   },
+  { id:'dharmam',    dev:'धर्मम्',        iast:'dharmam',     en:'dharma'       },
+  { id:'karma',      dev:'कर्म',          iast:'karma',       en:'work / karma' },
+]
+
+const QE_LOCATIONS = [
+  { id:'atra',       dev:'अत्र',          iast:'atra',        en:'here'            },
+  { id:'tatra',      dev:'तत्र',          iast:'tatra',       en:'there'           },
+  { id:'iha',        dev:'इह',            iast:'iha',         en:'here (now)'      },
+  { id:'grihe',      dev:'गृहे',          iast:'gṛhe',        en:'at home'         },
+  { id:'vidyalaye',  dev:'विद्यालये',     iast:'vidyālaye',   en:'at school'       },
+  { id:'vane',       dev:'वने',           iast:'vane',        en:'in the forest'   },
+  { id:'nagare',     dev:'नगरे',          iast:'nagare',      en:'in the city'     },
+  { id:'nadyam',     dev:'नद्याम्',       iast:'nadyām',      en:'at the river'    },
+  { id:'kasim',      dev:'काश्यां',       iast:'kāśyām',      en:'in Kāśī'         },
+  { id:'ksetre',     dev:'क्षेत्रे',      iast:'kṣetre',      en:'in the field'    },
+  { id:'ashrame',   dev:'आश्रमे',        iast:'āśrame',      en:'in the hermitage'},
+  { id:'itah',      dev:'इतः',           iast:'itaḥ',        en:'from here'       },
+  { id:'sarvatra',  dev:'सर्वत्र',       iast:'sarvatra',    en:'everywhere'      },
+  { id:'kutah',     dev:'कुतः',          iast:'kutaḥ',       en:'from where'      },
+]
+
+const QE_ADVERBS = [
+  { id:'shighram',   dev:'शीघ्रम्',       iast:'śīghram',     en:'quickly'         },
+  { id:'mandam',     dev:'मन्दम्',         iast:'mandam',      en:'slowly'          },
+  { id:'sukham',     dev:'सुखम्',          iast:'sukham',      en:'happily / well'  },
+  { id:'sundar',     dev:'सुन्दरम्',       iast:'sundaram',    en:'beautifully'     },
+  { id:'shantam',    dev:'शान्तम्',        iast:'śāntam',      en:'peacefully'      },
+  { id:'dridham',    dev:'दृढम्',          iast:'dṛḍham',      en:'steadily'        },
+  { id:'nityam',     dev:'नित्यम्',        iast:'nityam',      en:'regularly'       },
+  { id:'shuddham',   dev:'शुद्धम्',        iast:'śuddham',     en:'purely'          },
+]
+
+const QE_TIMES = [
+  { id:'pratah',   dev:'प्रातः',    iast:'prātaḥ',    en:'in the morning' },
+  { id:'sayam',    dev:'सायम्',     iast:'sāyam',     en:'in the evening' },
+  { id:'ratrau',   dev:'रात्रौ',    iast:'rātrau',    en:'at night'       },
+  { id:'dine',     dev:'दिने',      iast:'dine',      en:'during the day' },
+  { id:'sarvada',  dev:'सर्वदा',    iast:'sarvadā',   en:'always'         },
+  { id:'adhuna',   dev:'अधुना',     iast:'adhunā',    en:'now'            },
+  { id:'nityam',   dev:'नित्यम्',   iast:'nityam',    en:'daily'          },
+  { id:'kadacit',  dev:'कदाचित्',   iast:'kadācit',   en:'sometimes'      },
+]
+
+const QE_PURPOSES = [
+  { id:'jnanaya',    dev:'ज्ञानाय',     iast:'jñānāya',    en:'for knowledge'    },
+  { id:'sukhaya',    dev:'सुखाय',       iast:'sukhāya',    en:'for happiness'    },
+  { id:'dharmaya',   dev:'धर्माय',      iast:'dharmāya',   en:'for dharma'       },
+  { id:'shikshaya',  dev:'शिक्षायै',    iast:'śikṣāyai',   en:'for learning'     },
+  { id:'sevaaya',    dev:'सेवायै',      iast:'sevāyai',    en:'for service'      },
+  { id:'shantaya',   dev:'शान्तये',     iast:'śāntaye',    en:'for peace'        },
+  { id:'arogaya',    dev:'आरोग्याय',    iast:'ārogyāya',   en:'for health'       },
+  { id:'bhojanaya',  dev:'भोजनाय',      iast:'bhojanāya',  en:'for food'         },
+]
+
+// Possessive pronouns (genitive) for 'whose' question
+// en = predicate ("It is ___"), adj = attributive ("___ book")
+const QE_POSSESSIVES = [
+  { id:'mama',    dev:'मम',       iast:'mama',    en:'mine',           adj:'my'            },
+  { id:'tasya',   dev:'तस्य',     iast:'tasya',   en:'his',            adj:'his'           },
+  { id:'tasyah',  dev:'तस्याः',   iast:'tasyāḥ',  en:'hers',           adj:'her'           },
+  { id:'asmakam', dev:'अस्माकम्', iast:'asmākam', en:'ours',           adj:'our'           },
+  { id:'tava',    dev:'तव',       iast:'tava',    en:'yours',          adj:'your'          },
+  { id:'guroh',   dev:'गुरोः',    iast:'guroḥ',   en:"the teacher's",  adj:"the teacher's" },
+  { id:'devasya', dev:'देवस्य',   iast:'devasya', en:"god's",          adj:"god's"         },
+  { id:'putrasya',dev:'पुत्रस्य', iast:'putrasya',en:"the son's",      adj:"the son's"     },
+]
+
+// English base-verb lookup (infinitive without pronoun)
+const VERB_EN_BASE = {
+  as:'be', path:'read / study', gam:'go', agam:'come', vad:'speak / say',
+  pashya:'see', shru:'hear / listen', jna:'know', stha:'stand / stay',
+  pa:'drink', sna:'bathe', da:'give', kr:'do / make',
+  bhav:'become', nam:'bow', puj:'worship', likh:'write',
+}
+
+// English auxiliary by tense and person for questions / answers
+function qeAux(tense, purusha, vachanam) {
+  if (tense === 'present') return (purusha === '3' && vachanam === 'sg') ? 'does' : 'do'
+  if (tense === 'imperfect') return 'did'
+  if (tense === 'future')    return 'will'
+  if (tense === 'optative')  return 'should'
+  if (tense === 'imperative')return ''
+  return 'does'
+}
+
+// English subject for pronouns
+function qeSubjEn(purusha, linga, vachanam, noun) {
+  if (noun) {
+    if (vachanam === 'sg') return `The ${noun.en}`
+    if (vachanam === 'du') return `The two ${noun.enPl}`
+    return `The ${noun.enPl}`
+  }
+  const map = {
+    '3':{ m:{ sg:'he',   du:'they two', pl:'they' },
+          f:{ sg:'she',  du:'they two', pl:'they' },
+          n:{ sg:'it',   du:'they two', pl:'they' } },
+    '2':{   sg:'you',    du:'you two',  pl:'you all' },
+    '1':{   sg:'I',      du:'we two',   pl:'we' },
+  }
+  return purusha === '3' ? map['3'][linga][vachanam] : map[purusha][vachanam]
+}
+
+// Build a sentence triple {dev, iast, en} from parts
+function qeSentence(parts) {
+  const dev  = parts.map(p => p.dev).filter(Boolean).join(' ')
+  const iast = parts.map(p => p.iast).filter(Boolean).join(' ')
+  const en   = parts.map(p => p.en).filter(Boolean).join(' ')
+  return { dev, iast, en }
+}
+
+function QuestionExplorerLesson() {
+  const { play } = useSoundEffects()
+  const { speak } = useSpeech()
+  const [qtype,      setQtype]      = useState('yesno')
+  const [tense,      setTense]      = useState('present')
+  const [purusha,    setPurusha]    = useState('3')
+  const [followOpen, setFollowOpen] = useState(false)
+  const [linga,    setLinga]    = useState('m')
+  const [vachanam, setVachanam] = useState('sg')
+  const [verbId,   setVerbId]   = useState(VERBS[0].id)
+  const [subject,  setSubject]  = useState('pronoun')
+  const [objectId, setObjectId] = useState('pustaka')
+
+  const formKey = `p${purusha}${vachanam}`
+  const verb    = VERBS.find(v => v.id === verbId) || VERBS[0]
+  const tenseForms = tense === 'present' ? verb.forms : verb[tense]
+  const form    = tenseForms?.[formKey]  // [dev, iast, en]
+
+  const pronObj = PRONOUN_TABLE[purusha][linga][vachanam]
+  const subjectNoun = subject !== 'pronoun' ? SUBJECT_NOUNS.find(n => n.id === subject) : null
+  const subjectForm = subjectNoun
+    ? { dev: subjectNoun.forms[vachanam].dev, iast: subjectNoun.forms[vachanam].iast }
+    : { dev: pronObj.dev, iast: pronObj.iast }
+  const subjectEn   = qeSubjEn(purusha, linga, vachanam, subjectNoun)
+
+  // Pick object/location/time/adverb/purpose based on qtype
+  const auxObject = qtype === 'where'  ? QE_LOCATIONS.find(l => l.id === objectId)   || QE_LOCATIONS[0]
+                  : qtype === 'when'   ? QE_TIMES.find(t => t.id === objectId)        || QE_TIMES[0]
+                  : qtype === 'how'    ? QE_ADVERBS.find(a => a.id === objectId)      || QE_ADVERBS[0]
+                  : qtype === 'why'    ? QE_PURPOSES.find(p => p.id === objectId)     || QE_PURPOSES[0]
+                  : qtype === 'whose'  ? QE_OBJECTS.find(o => o.id === objectId)      || QE_OBJECTS[0]
+                  : QE_OBJECTS.find(o => o.id === objectId) || QE_OBJECTS[0]
+  // For 'whose', we also need the possessive answer
+  const possessive = qtype === 'whose' ? QE_POSSESSIVES.find(p => p.id === objectId) || QE_POSSESSIVES[0] : null
+
+  // The question word for 'who' depends on linga
+  const whoWord = { m:{dev:'कः',iast:'kaḥ'}, f:{dev:'का',iast:'kā'}, n:{dev:'किम्',iast:'kim'} }[linga]
+
+  const verbBase = VERB_EN_BASE[verbId] || verb.meaning.replace(/^to /,'')
+  const aux      = qeAux(tense, purusha, vachanam)
+
+  // ── Sentence builders ──────────────────────────────────────────────────
+
+  const verbDev  = form?.[0] || '—'
+  const verbIast = form?.[1] || '—'
+
+  // Extract the conjugated verb directly from form[2] (handles irregular "to be": is/are/am)
+  const enVerbConj = form ? form[2]
+    .replace(/^(he\/she\/it|he\/she|she\/he|they two|they all|they|you two|you all|you|we two|we|I)\s+/, '')
+    .trim()
+    : verbBase.split(' / ')[0]
+  // For building yes/no questions with "to be": "is" → "Is he...?"
+  const enVerbConj3 = tense === 'present' && purusha === '3' && vachanam === 'sg'
+    ? verbBase.split(' / ')[0] + 's'
+    : verbBase.split(' / ')[0]
+  const enVerb3    = verbId === 'as' ? enVerbConj : enVerbConj3
+  const enVerbBase = verbBase.split(' / ')[0]
+  const isCopula   = verbId === 'as'
+
+  // Build the affirmative statement (Sanskrit SOV; English SVO)
+  const buildStatement = () => {
+    if (!form) return null
+    if (qtype === 'why') {
+      // S V purpose: "सः ज्ञानाय पठति।" / "He reads for knowledge."
+      const cap = s => s.charAt(0).toUpperCase() + s.slice(1)
+      return {
+        dev:  `${subjectForm.dev} ${auxObject.dev} ${verbDev}।`,
+        iast: `${subjectForm.iast} ${auxObject.iast} ${verbIast}.`,
+        en:   `${cap(subjectEn)} ${enVerb3} ${auxObject.en}.`,
+      }
+    }
+    if (qtype === 'whose') {
+      // "possessive + object + अस्ति": "तस्य पुस्तकम् अस्ति।"
+      const asVerb = VERBS.find(v => v.id === 'as')
+      const asti = asVerb?.forms?.['p3sg']
+      const pos = possessive || QE_POSSESSIVES[0]
+      return {
+        dev:  `${pos.dev} ${auxObject.dev}${asti ? ` ${asti[0]}` : ''}।`,
+        iast: `${pos.iast} ${auxObject.iast}${asti ? ` ${asti[1]}` : ''}.`,
+        en:   `It is ${pos.adj} ${auxObject.en.replace(/^(a|the) /,'')}.`,
+      }
+    }
+    return {
+      dev:  `${subjectForm.dev} ${auxObject.dev} ${verbDev}।`,
+      iast: `${subjectForm.iast} ${auxObject.iast} ${verbIast}.`,
+      en:   `${subjectEn} ${enVerb3} ${auxObject.en}.`,
+    }
+  }
+
+  // Negative verb form: use negVerbs from verb data (handles sandhi like नास्ति) or fallback to न + verb
+  const negVerbDev  = verb.negVerbs?.[formKey]?.[0] || `न ${verbDev}`
+  const negVerbIast = verb.negVerbs?.[formKey]?.[1] || `na ${verbIast}`
+
+  // Build the negative statement (Sanskrit: S O negV; English: S does not V O)
+  const buildNegStatement = () => {
+    if (!form) return null
+    const negAux = tense === 'imperfect' ? 'did not'
+                 : tense === 'future'    ? 'will not'
+                 : tense === 'optative'  ? 'should not'
+                 : tense === 'imperative'? 'do not'
+                 : (purusha === '3' && vachanam === 'sg') ? 'does not' : 'do not'
+    // For 'how': no object in the negative — just subject + neg-verb + adverb
+    if (qtype === 'how') {
+      return {
+        dev:  `${subjectForm.dev} ${negVerbDev}।`,
+        iast: `${subjectForm.iast} ${negVerbIast}.`,
+        en:   isCopula ? `${subjectEn} ${enVerbConj} not ${auxObject.en}.` : `${subjectEn} ${negAux} ${enVerbBase} ${auxObject.en}.`,
+      }
+    }
+    if (qtype === 'why') {
+      return {
+        dev:  `${subjectForm.dev} ${auxObject.dev} ${negVerbDev}।`,
+        iast: `${subjectForm.iast} ${auxObject.iast} ${negVerbIast}.`,
+        en:   `${subjectEn} ${negAux} ${enVerbBase} ${auxObject.en}.`,
+      }
+    }
+    if (qtype === 'whose') {
+      // "It is not his book."
+      const asVerb = VERBS.find(v => v.id === 'as')
+      const nasti  = asVerb?.negVerbs?.['p3sg']
+      const asti   = asVerb?.forms?.['p3sg']
+      const pos = possessive || QE_POSSESSIVES[0]
+      return {
+        dev:  `${pos.dev} ${auxObject.dev} ${nasti?.[0] || (asti ? `न ${asti[0]}` : negVerbDev)}।`,
+        iast: `${pos.iast} ${auxObject.iast} ${nasti?.[1] || (asti ? `na ${asti[1]}` : negVerbIast)}.`,
+        en:   `It is not ${pos.adj} ${auxObject.en.replace(/^(a|the) /,'')}.`,
+      }
+    }
+    return {
+      dev:  `${subjectForm.dev} ${auxObject.dev} ${negVerbDev}।`,
+      iast: `${subjectForm.iast} ${auxObject.iast} ${negVerbIast}.`,
+      en:   isCopula ? `${subjectEn} ${enVerbConj} not ${auxObject.en}.` : `${subjectEn} ${negAux} ${enVerbBase} ${auxObject.en}.`,
+    }
+  }
+
+  // Build the question
+  const buildQuestion = () => {
+    if (!form) return null
+    if (qtype === 'va') {
+      // Disjunctive question: S O V वा? — "he reads a book, or?"
+      const enQ = isCopula
+        ? `${enVerbConj.charAt(0).toUpperCase() + enVerbConj.slice(1)} ${subjectEn} ${auxObject.en}, or not?`
+        : `Does ${subjectEn} ${enVerbBase} ${auxObject.en}, or not?`
+      return {
+        dev:  `${subjectForm.dev} ${auxObject.dev} ${verbDev} वा?`,
+        iast: `${subjectForm.iast} ${auxObject.iast} ${verbIast} vā?`,
+        en:   enQ,
+      }
+    }
+    if (qtype === 'yesno') {
+      const enQ = isCopula
+        ? `${enVerbConj.charAt(0).toUpperCase() + enVerbConj.slice(1)} ${subjectEn} ${auxObject.en}?`
+        : aux
+          ? `${aux.charAt(0).toUpperCase() + aux.slice(1)} ${subjectEn} ${enVerbBase} ${auxObject.en}?`
+          : `${subjectEn.charAt(0).toUpperCase() + subjectEn.slice(1)}, ${enVerbBase}!`
+      return {
+        dev:  `किम् ${subjectForm.dev} ${auxObject.dev} ${verbDev}?`,
+        iast: `kim ${subjectForm.iast} ${auxObject.iast} ${verbIast}?`,
+        en:   enQ,
+      }
+    }
+    if (qtype === 'what') {
+      const enQ = aux
+        ? `${aux.charAt(0).toUpperCase() + aux.slice(1)} ${subjectEn} ${verbBase.split(' / ')[0]}?`
+        : `What does ${subjectEn} ${verbBase.split(' / ')[0]}?`
+      return {
+        dev:  `${subjectForm.dev} किम् ${verbDev}?`,
+        iast: `${subjectForm.iast} kim ${verbIast}?`,
+        en:   `What does ${subjectEn} ${verbBase.split(' / ')[0]}?`,
+      }
+    }
+    if (qtype === 'who') {
+      return {
+        dev:  `${whoWord.dev} ${auxObject.dev} ${verbDev}?`,
+        iast: `${whoWord.iast} ${auxObject.iast} ${verbIast}?`,
+        en:   `Who ${verbBase.split(' / ')[0]}s ${auxObject.en}?`,
+      }
+    }
+    if (qtype === 'where') {
+      return {
+        dev:  `${subjectForm.dev} कुत्र ${verbDev}?`,
+        iast: `${subjectForm.iast} kutra ${verbIast}?`,
+        en:   isCopula ? `Where ${enVerbConj} ${subjectEn}?` : `Where does ${subjectEn} ${enVerbBase}?`,
+      }
+    }
+    if (qtype === 'when') {
+      return {
+        dev:  `${subjectForm.dev} कदा ${verbDev}?`,
+        iast: `${subjectForm.iast} kadā ${verbIast}?`,
+        en:   isCopula ? `When ${enVerbConj} ${subjectEn}?` : `When does ${subjectEn} ${enVerbBase}?`,
+      }
+    }
+    if (qtype === 'how') {
+      return {
+        dev:  `${subjectForm.dev} कथम् ${verbDev}?`,
+        iast: `${subjectForm.iast} katham ${verbIast}?`,
+        en:   isCopula ? `How ${enVerbConj} ${subjectEn}?` : `How does ${subjectEn} ${enVerbBase}?`,
+      }
+    }
+    if (qtype === 'why') {
+      return {
+        dev:  `${subjectForm.dev} किमर्थम् ${verbDev}?`,
+        iast: `${subjectForm.iast} kimartham ${verbIast}?`,
+        en:   isCopula ? `Why ${enVerbConj} ${subjectEn}?` : `Why does ${subjectEn} ${enVerbBase}?`,
+      }
+    }
+    if (qtype === 'whose') {
+      // "Whose book is this?" — कस्य पुस्तकम् अस्ति?
+      const astiForm = VERBS.find(v => v.id === 'as')?.forms?.['p3sg']
+      return {
+        dev:  `कस्य ${auxObject.dev} ${astiForm?.[0] || 'अस्ति'}?`,
+        iast: `kasya ${auxObject.iast} ${astiForm?.[1] || 'asti'}?`,
+        en:   `Whose ${auxObject.en.replace(/^(a|the) /,'')} is this?`,
+      }
+    }
+    return null
+  }
+
+  // For 'how': sentence is S + adverb + V (adverb precedes verb in Sanskrit)
+  // Override buildStatement to place adverb before verb for 'how'
+  const buildHowStatement = () => {
+    if (!form) return null
+    return {
+      dev:  `${subjectForm.dev} ${auxObject.dev} ${verbDev}।`,
+      iast: `${subjectForm.iast} ${auxObject.iast} ${verbIast}.`,
+      en:   `${subjectEn} ${enVerb3} ${auxObject.en}.`,
+    }
+  }
+
+  // Follow-up dialogue — returns array of {q, a} exchange pairs
+  const buildFollowUp = () => {
+    if (!form) return []
+    const pronSg  = PRONOUN_TABLE['3'][linga]['sg']
+    const pronEn  = linga === 'm' ? 'he' : linga === 'f' ? 'she' : 'it'
+    const pronEnC = pronEn.charAt(0).toUpperCase() + pronEn.slice(1)
+    const p3sg    = verb.forms?.['p3sg']
+    const asVerb  = VERBS.find(v => v.id === 'as')
+    const asti    = asVerb?.forms?.['p3sg']       // ['अस्ति','asti','he/she/it is']
+    const nasti   = asVerb?.negVerbs?.['p3sg']     // ['नास्ति','nāsti']
+
+    // Helper: strip pronoun prefix from form[2] to get the bare conjugated verb
+    const cleanConj = f => f[2]
+      .replace(/^(he\/she\/it|he\/she|she\/he|they two|they all|they|you two|you all|you|we two|we|I)\s+/, '')
+      .trim()
+    // Possessive form of pronoun (his/her/its/their/your/my)
+    const pronPoss = linga === 'm' ? 'his' : linga === 'f' ? 'her' : 'its'
+    const subjPoss = subjectNoun ? `the ${subjectNoun.en}'s` : pronPoss
+
+    // Helper: अस्ति/नास्ति exchange — "Is [subj] here?" / "Is [obj] here?"
+    const astiExchange = (devSubj, iastSubj, enSubj, loc = {dev:'अत्र',iast:'atra',en:'here'}) => asti ? {
+      q: { dev:`${devSubj} ${loc.dev} ${asti[0]} वा?`, iast:`${iastSubj} ${loc.iast} ${asti[1]} vā?`, en:`Is ${enSubj} ${loc.en}?` },
+      a: { dev:`आम्, ${devSubj} ${loc.dev} ${asti[0]}।`, iast:`ām, ${iastSubj} ${loc.iast} ${asti[1]}.`, en:`Yes, ${enSubj} is ${loc.en}.` },
+      na:{ dev:`न, ${devSubj} ${loc.dev} ${nasti?.[0] || `न ${asti[0]}`}।`, iast:`na, ${iastSubj} ${loc.iast} ${nasti?.[1] || `na ${asti[1]}`}.`, en:`No, ${enSubj} is not ${loc.en}.` },
+    } : null
+
+    if (qtype === 'yesno' || qtype === 'va') {
+      if (!p3sg) return []
+      const p3c = cleanConj(p3sg)
+      const ex = []
+      // 1. What does he V? → He Vs object.
+      ex.push({
+        q: { dev:`${pronSg.dev} किम् ${p3sg[0]}?`, iast:`${pronSg.iast} kim ${p3sg[1]}?`, en: isCopula ? `What is ${pronEn}?` : `What does ${pronEn} ${enVerbBase}?` },
+        a: { dev:`${pronSg.dev} ${auxObject.dev} ${p3sg[0]}।`, iast:`${pronSg.iast} ${auxObject.iast} ${p3sg[1]}.`, en: isCopula ? `${pronEnC} ${p3c} ${auxObject.en}.` : `${pronEnC} ${p3c} ${auxObject.en}.` },
+      })
+      // 2. Is he/she here? — अस्ति/नास्ति
+      const ae = astiExchange(pronSg.dev, pronSg.iast, pronEn)
+      if (ae) ex.push(ae)
+      // 3. Where is the object? (only for non-copula with a concrete object)
+      if (!isCopula && asti) {
+        ex.push({
+          q: { dev:`${subjectForm.dev} ${auxObject.dev} कुत्र ${asti[0]}?`, iast:`${subjectForm.iast} ${auxObject.iast} kutra ${asti[1]}?`, en:`Where is ${subjPoss} ${auxObject.en.replace(/^(a|the) /,'')}?` },
+          a: { dev:`${subjectForm.dev} ${auxObject.dev} गृहे ${asti[0]}।`, iast:`${subjectForm.iast} ${auxObject.iast} gṛhe ${asti[1]}.`, en:`${subjPoss.charAt(0).toUpperCase()+subjPoss.slice(1)} ${auxObject.en.replace(/^(a|the) /,'')} is at home.` },
+        })
+      }
+      return ex
+    }
+
+    if (qtype === 'what') {
+      const ex = []
+      // 1. Confirm with yes/no
+      ex.push({
+        q: { dev:`किम् ${subjectForm.dev} ${auxObject.dev} ${verbDev}?`, iast:`kim ${subjectForm.iast} ${auxObject.iast} ${verbIast}?`, en: isCopula ? `${enVerbConj.charAt(0).toUpperCase()+enVerbConj.slice(1)} ${subjectEn} ${auxObject.en}?` : `Does ${subjectEn} ${enVerbBase} ${auxObject.en}?` },
+        a: { dev:`आम्, ${subjectForm.dev} ${auxObject.dev} ${verbDev}।`, iast:`ām, ${subjectForm.iast} ${auxObject.iast} ${verbIast}.`, en:`Yes, ${subjectEn} ${enVerb3} ${auxObject.en}.` },
+      })
+      // 2. Where does he V? — कुत्र
+      if (!isCopula) {
+        ex.push({
+          q: { dev:`${subjectForm.dev} कुत्र ${verbDev}?`, iast:`${subjectForm.iast} kutra ${verbIast}?`, en:`Where does ${subjectEn} ${enVerbBase}?` },
+          a: { dev:`${subjectForm.dev} गृहे ${verbDev}।`, iast:`${subjectForm.iast} gṛhe ${verbIast}.`, en:`${subjectEn.charAt(0).toUpperCase()+subjectEn.slice(1)} ${enVerb3} at home.` },
+        })
+      }
+      // 3. Is subject here? — अस्ति/नास्ति
+      const ae = astiExchange(subjectForm.dev, subjectForm.iast, subjectEn)
+      if (ae) ex.push(ae)
+      return ex
+    }
+
+    if (qtype === 'who') {
+      if (!p3sg) return []
+      const p3c = cleanConj(p3sg)
+      const ex = []
+      // 1. Does he V object?
+      ex.push({
+        q: { dev:`किम् ${subjectForm.dev} ${auxObject.dev} ${p3sg[0]}?`, iast:`kim ${subjectForm.iast} ${auxObject.iast} ${p3sg[1]}?`, en: `Does ${subjectEn} ${enVerbBase} ${auxObject.en}?` },
+        a: { dev:`आम्, ${subjectForm.dev} ${auxObject.dev} ${p3sg[0]}।`, iast:`ām, ${subjectForm.iast} ${auxObject.iast} ${p3sg[1]}.`, en:`Yes, ${subjectEn} ${p3c} ${auxObject.en}.` },
+      })
+      // 2. Is he here? — अस्ति/नास्ति
+      const ae = astiExchange(subjectForm.dev, subjectForm.iast, subjectEn)
+      if (ae) ex.push(ae)
+      // 3. When does he V?
+      ex.push({
+        q: { dev:`${subjectForm.dev} कदा ${p3sg[0]}?`, iast:`${subjectForm.iast} kadā ${p3sg[1]}?`, en:`When does ${subjectEn} ${enVerbBase}?` },
+        a: { dev:`${subjectForm.dev} प्रातः ${p3sg[0]}।`, iast:`${subjectForm.iast} prātaḥ ${p3sg[1]}.`, en:`${subjectEn.charAt(0).toUpperCase()+subjectEn.slice(1)} ${p3c} in the morning.` },
+      })
+      return ex
+    }
+
+    if (qtype === 'where') {
+      const ex = []
+      // 1. Does he go there? (confirm)
+      ex.push({
+        q: { dev:`किम् ${subjectForm.dev} ${auxObject.dev} ${verbDev}?`, iast:`kim ${subjectForm.iast} ${auxObject.iast} ${verbIast}?`, en: isCopula ? `${enVerbConj.charAt(0).toUpperCase()+enVerbConj.slice(1)} ${subjectEn} ${auxObject.en}?` : `Does ${subjectEn} ${enVerbBase} ${auxObject.en}?` },
+        a: { dev:`आम्, ${subjectForm.dev} ${auxObject.dev} ${verbDev}।`, iast:`ām, ${subjectForm.iast} ${auxObject.iast} ${verbIast}.`, en: isCopula ? `Yes, ${subjectEn} ${enVerb3} ${auxObject.en}.` : `Yes, ${subjectEn} ${enVerb3} ${auxObject.en}.` },
+      })
+      // 2. Is he there now? — अस्ति/नास्ति
+      const ae = astiExchange(subjectForm.dev, subjectForm.iast, subjectEn, auxObject)
+      if (ae) ex.push(ae)
+      // 3. When does he go there?
+      if (!isCopula) {
+        ex.push({
+          q: { dev:`${subjectForm.dev} ${auxObject.dev} कदा ${verbDev}?`, iast:`${subjectForm.iast} ${auxObject.iast} kadā ${verbIast}?`, en:`When does ${subjectEn} ${enVerbBase} ${auxObject.en}?` },
+          a: { dev:`${subjectForm.dev} ${auxObject.dev} प्रातः ${verbDev}।`, iast:`${subjectForm.iast} ${auxObject.iast} prātaḥ ${verbIast}.`, en:`${subjectEn.charAt(0).toUpperCase()+subjectEn.slice(1)} ${enVerb3} ${auxObject.en} in the morning.` },
+        })
+      }
+      return ex
+    }
+
+    if (qtype === 'when') {
+      const ex = []
+      // 1. Does he V then? (confirm)
+      ex.push({
+        q: { dev:`किम् ${subjectForm.dev} ${auxObject.dev} ${verbDev}?`, iast:`kim ${subjectForm.iast} ${auxObject.iast} ${verbIast}?`, en: isCopula ? `${enVerbConj.charAt(0).toUpperCase()+enVerbConj.slice(1)} ${subjectEn} ${auxObject.en}?` : `Does ${subjectEn} ${enVerbBase} ${auxObject.en}?` },
+        a: { dev:`आम्, ${subjectForm.dev} ${auxObject.dev} ${verbDev}।`, iast:`ām, ${subjectForm.iast} ${auxObject.iast} ${verbIast}.`, en:`Yes, ${subjectEn} ${enVerb3} ${auxObject.en}.` },
+      })
+      // 2. Where does he V? — कुत्र
+      if (!isCopula) {
+        ex.push({
+          q: { dev:`${subjectForm.dev} कुत्र ${verbDev}?`, iast:`${subjectForm.iast} kutra ${verbIast}?`, en:`Where does ${subjectEn} ${enVerbBase}?` },
+          a: { dev:`${subjectForm.dev} गृहे ${verbDev}।`, iast:`${subjectForm.iast} gṛhe ${verbIast}.`, en:`${subjectEn.charAt(0).toUpperCase()+subjectEn.slice(1)} ${enVerb3} at home.` },
+        })
+      }
+      // 3. Is he/she here? — अस्ति/नास्ति
+      const ae = astiExchange(subjectForm.dev, subjectForm.iast, subjectEn)
+      if (ae) ex.push(ae)
+      return ex
+    }
+
+    if (qtype === 'how') {
+      const ex = []
+      // 1. Confirm with yes/no
+      ex.push({
+        q: { dev:`किम् ${subjectForm.dev} ${auxObject.dev} ${verbDev}?`, iast:`kim ${subjectForm.iast} ${auxObject.iast} ${verbIast}?`, en: isCopula ? `${enVerbConj.charAt(0).toUpperCase()+enVerbConj.slice(1)} ${subjectEn} ${auxObject.en}?` : `Does ${subjectEn} ${enVerbBase} ${auxObject.en}?` },
+        a: { dev:`आम्, ${subjectForm.dev} ${auxObject.dev} ${verbDev}।`, iast:`ām, ${subjectForm.iast} ${auxObject.iast} ${verbIast}.`, en:`Yes, ${subjectEn} ${enVerb3} ${auxObject.en}.` },
+      })
+      // 2. Is he/she here? — अस्ति/नास्ति
+      const ae = astiExchange(subjectForm.dev, subjectForm.iast, subjectEn)
+      if (ae) ex.push(ae)
+      // 3. When does he V?
+      if (!isCopula) {
+        ex.push({
+          q: { dev:`${subjectForm.dev} कदा ${verbDev}?`, iast:`${subjectForm.iast} kadā ${verbIast}?`, en:`When does ${subjectEn} ${enVerbBase}?` },
+          a: { dev:`${subjectForm.dev} नित्यम् ${verbDev}।`, iast:`${subjectForm.iast} nityam ${verbIast}.`, en:`${subjectEn.charAt(0).toUpperCase()+subjectEn.slice(1)} ${enVerb3} daily.` },
+        })
+      }
+      return ex
+    }
+
+    if (qtype === 'why') {
+      const ex = []
+      // 1. Does he V? (yes/no confirm)
+      ex.push({
+        q: { dev:`किम् ${subjectForm.dev} ${verbDev}?`, iast:`kim ${subjectForm.iast} ${verbIast}?`, en: isCopula ? `${enVerbConj.charAt(0).toUpperCase()+enVerbConj.slice(1)} ${subjectEn}?` : `Does ${subjectEn} ${enVerbBase}?` },
+        a: { dev:`आम्, ${subjectForm.dev} ${verbDev}।`, iast:`ām, ${subjectForm.iast} ${verbIast}.`, en:`Yes, ${subjectEn} ${enVerb3}.` },
+      })
+      // 2. He Vs because of purpose — already shown in statement; add "Is it useful?" with अस्ति
+      if (asti) {
+        ex.push({
+          q: { dev:`किम् तत् उपयुक्तम् ${asti[0]}?`, iast:`kim tat upayuktam ${asti[1]}?`, en:`Is it useful?` },
+          a: { dev:`आम्, तत् उपयुक्तम् ${asti[0]}।`, iast:`ām, tat upayuktam ${asti[1]}.`, en:`Yes, it is useful.` },
+          na:{ dev:`न, तत् उपयुक्तम् ${nasti?.[0] || `न ${asti[0]}`}।`, iast:`na, tat upayuktam ${nasti?.[1] || `na ${asti[1]}`}.`, en:`No, it is not useful.` },
+        })
+      }
+      // 3. How does he V? — कथम्
+      ex.push({
+        q: { dev:`${subjectForm.dev} कथम् ${verbDev}?`, iast:`${subjectForm.iast} katham ${verbIast}?`, en: isCopula ? `How ${enVerbConj} ${subjectEn}?` : `How does ${subjectEn} ${enVerbBase}?` },
+        a: { dev:`${subjectForm.dev} नित्यम् ${verbDev}।`, iast:`${subjectForm.iast} nityam ${verbIast}.`, en:`${subjectEn.charAt(0).toUpperCase()+subjectEn.slice(1)} ${enVerb3} regularly.` },
+      })
+      return ex
+    }
+
+    if (qtype === 'whose') {
+      const ex = []
+      // possessive answer object
+      const pos = possessive || QE_POSSESSIVES[0]
+      // 1. Is this [object] here? — अस्ति/नास्ति
+      const ae = astiExchange(auxObject.dev, auxObject.iast, auxObject.en)
+      if (ae) ex.push(ae)
+      // 2. Is it good? / is it useful?
+      if (asti) {
+        ex.push({
+          q: { dev:`किम् ${pos.dev} ${auxObject.dev} ${asti[0]}?`, iast:`kim ${pos.iast} ${auxObject.iast} ${asti[1]}?`, en:`Is this ${pos.adj} ${auxObject.en.replace(/^(a|the) /,'')}?` },
+          a: { dev:`आम्, ${pos.dev} ${auxObject.dev} ${asti[0]}।`, iast:`ām, ${pos.iast} ${auxObject.iast} ${asti[1]}.`, en:`Yes, it is ${pos.en}.` },
+          na:{ dev:`न, ${pos.dev} ${auxObject.dev} ${nasti?.[0] || `न ${asti[0]}`}।`, iast:`na, ${pos.iast} ${auxObject.iast} ${nasti?.[1] || `na ${asti[1]}`}.`, en:`No, it is not ${pos.en}.` },
+        })
+      }
+      // 3. Where is it? — कुत्र
+      if (asti) {
+        ex.push({
+          q: { dev:`${pos.dev} ${auxObject.dev} कुत्र ${asti[0]}?`, iast:`${pos.iast} ${auxObject.iast} kutra ${asti[1]}?`, en:`Where is ${pos.adj} ${auxObject.en.replace(/^(a|the) /,'')}?` },
+          a: { dev:`${pos.dev} ${auxObject.dev} अत्र ${asti[0]}।`, iast:`${pos.iast} ${auxObject.iast} atra ${asti[1]}.`, en:`${(pos.adj.charAt(0).toUpperCase()+pos.adj.slice(1))} ${auxObject.en.replace(/^(a|the) /,'')} is here.` },
+        })
+      }
+      return ex
+    }
+
+    return []
+  }
+
+  const question   = buildQuestion()
+  const statement  = qtype === 'how' ? buildHowStatement() : buildStatement()
+  const negation   = buildNegStatement()
+  const followUp   = buildFollowUp()
+
+  // Object/location/time/adverb selector options
+  const auxList  = qtype === 'where'  ? QE_LOCATIONS
+                 : qtype === 'when'  ? QE_TIMES
+                 : qtype === 'how'   ? QE_ADVERBS
+                 : qtype === 'why'   ? QE_PURPOSES
+                 : qtype === 'whose' ? QE_POSSESSIVES
+                 : QE_OBJECTS
+  const auxLabel = qtype === 'where'  ? 'Location · स्थान'
+                 : qtype === 'when'   ? 'Time · काल'
+                 : qtype === 'how'    ? 'Manner · प्रकार'
+                 : qtype === 'why'    ? 'Purpose · प्रयोजन'
+                 : qtype === 'whose'  ? 'Object · कर्म (for "whose" question)'
+                 : qtype === 'va'     ? 'Object · कर्म (वा question)'
+                 : 'Object · कर्म'
+
+  const Spk = ({ text }) => (
+    <button className="speak-btn gr-speak-sm" onClick={() => speak(text)} title="Hear"><SpeakIcon /></button>
+  )
+
+  return (
+    <div className="gr-lesson">
+      {/* ── Selectors ── */}
+      <div className="gr-explorer-selectors">
+
+        {/* Question type */}
+        <div className="gr-sel-group">
+          <div className="gr-sel-label">Question Type · प्रश्नप्रकार</div>
+          <div className="gr-sel-pills">
+            {QUESTION_TYPES.map(qt => (
+              <button key={qt.id}
+                className={`gr-sel-pill ${qtype === qt.id ? 'active' : ''}`}
+                onClick={() => { play('tap'); setQtype(qt.id); setObjectId(qt.id === 'where' ? 'atra' : qt.id === 'when' ? 'pratah' : qt.id === 'how' ? 'shighram' : qt.id === 'why' ? 'jnanaya' : qt.id === 'whose' ? 'mama' : 'pustaka') }}>
+                <span className="gr-dev" style={{fontSize:'0.85rem'}}>{qt.dev}</span>
+                <span className="gr-sel-pill-sub">{qt.label} — {qt.desc}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Tense */}
+        <div className="gr-sel-group">
+          <div className="gr-sel-label">Tense · काल</div>
+          <div className="gr-sel-pills">
+            {TENSES.map(t => (
+              <button key={t.id}
+                className={`gr-sel-pill ${tense === t.id ? 'active' : ''}`}
+                onClick={() => { play('tap'); setTense(t.id) }}>
+                <span className="gr-dev">{t.labelDev}</span>
+                <span className="gr-sel-pill-sub">{t.label} — {t.desc}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Person */}
+        <div className="gr-sel-group">
+          <div className="gr-sel-label">Person · पुरुष</div>
+          <div className="gr-sel-pills">
+            {PURUSHAS.map(p => (
+              <button key={p.id}
+                className={`gr-sel-pill ${purusha === p.id ? 'active' : ''}`}
+                onClick={() => { play('tap'); setPurusha(p.id); setSubject('pronoun') }}>
+                <span className="gr-dev">{p.labelDev}</span>
+                <span className="gr-sel-pill-sub">{p.en}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Gender */}
+        <div className="gr-sel-group">
+          <div className="gr-sel-label">
+            Gender · लिङ्गम्
+            {purusha !== '3' && <span className="gr-sel-label-note"> — not applicable for {purusha === '2' ? '2nd' : '1st'} person</span>}
+          </div>
+          <div className="gr-sel-pills">
+            {LINGAS.map(l => (
+              <button key={l.id}
+                className={`gr-sel-pill ${linga === l.id ? 'active' : ''} ${purusha !== '3' ? 'gr-sel-pill-dim' : ''}`}
+                onClick={() => { play('tap'); setLinga(l.id); setSubject('pronoun') }}>
+                <span className="gr-dev" style={{fontSize:'0.8rem'}}>{l.labelDev}</span>
+                <span className="gr-sel-pill-sub">{l.label} — {l.en}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Number */}
+        <div className="gr-sel-group">
+          <div className="gr-sel-label">Number · वचनम्</div>
+          <div className="gr-sel-pills">
+            {VACHANAMS.map(v => (
+              <button key={v.id}
+                className={`gr-sel-pill ${vachanam === v.id ? 'active' : ''}`}
+                onClick={() => { play('tap'); setVachanam(v.id); setSubject('pronoun') }}>
+                <span className="gr-dev">{v.labelDev}</span>
+                <span className="gr-sel-pill-sub">{v.label} — {v.en}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Verb */}
+        <div className="gr-sel-group">
+          <div className="gr-sel-label">Verb · धातु</div>
+          <select className="gr-verb-select" value={verbId} onChange={e => { play('tap'); setVerbId(e.target.value) }}>
+            {VERBS.map(v => (
+              <option key={v.id} value={v.id}>{v.root} — {v.meaning}</option>
+            ))}
+          </select>
+        </div>
+
+        {/* Subject (hidden for 'who' since subject is the answer) */}
+        {qtype !== 'who' && (
+          <div className="gr-sel-group">
+            <div className="gr-sel-label">
+              Subject · कर्ता
+              {purusha !== '3' && <span className="gr-sel-label-note"> — not applicable for {purusha === '2' ? '2nd' : '1st'} person</span>}
+            </div>
+            <select
+              className={`gr-verb-select ${purusha !== '3' ? 'gr-select-dim' : ''}`}
+              value={subject}
+              disabled={purusha !== '3'}
+              onChange={e => { play('tap'); setSubject(e.target.value) }}>
+              <option value="pronoun">Pronoun — {pronObj.dev} ({pronObj.iast})</option>
+              {SUBJECT_NOUNS.filter(n => n.linga === linga).map(n => {
+                const f = n.forms[vachanam]
+                return <option key={n.id} value={n.id}>{f.dev} / {f.iast} — {n.en}</option>
+              })}
+            </select>
+          </div>
+        )}
+
+        {/* Object / Location / Time */}
+        <div className="gr-sel-group">
+          <div className="gr-sel-label">{auxLabel}</div>
+          <select className="gr-verb-select" value={objectId} onChange={e => { play('tap'); setObjectId(e.target.value) }}>
+            {auxList.map(item => (
+              <option key={item.id} value={item.id}>{item.dev} / {item.iast} — {item.en}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      {/* ── Dialogue panel ── */}
+      {question && statement ? (
+        <div className="qe-dialogue">
+
+          {/* Question */}
+          <div className="qe-bubble qe-bubble-q">
+            <div className="qe-bubble-label">
+              <span className="qe-badge qe-badge-q">Q प्रश्नः</span>
+            </div>
+            <div className="qe-bubble-body">
+              <div className="qe-sent-row">
+                <span className="gr-dev qe-dev">{question.dev}</span>
+                <Spk text={question.dev} />
+              </div>
+              <div className="gr-iast qe-iast">{question.iast}</div>
+              <div className="gr-en qe-en">{question.en}</div>
+              <a className="gr-verify-link" href={`https://translate.google.com/?sl=sa&tl=en&text=${encodeURIComponent(question.dev)}&op=translate`} target="_blank" rel="noopener noreferrer">🔍 Verify translation</a>
+            </div>
+          </div>
+
+          {/* Affirmative answer */}
+          <div className="qe-bubble qe-bubble-yes">
+            <div className="qe-bubble-label">
+              <span className="qe-badge qe-badge-yes">आम् ✓ Yes</span>
+            </div>
+            <div className="qe-bubble-body">
+              {(qtype === 'yesno' || qtype === 'va') ? (
+                <>
+                  <div className="qe-sent-row">
+                    <span className="gr-dev qe-dev" style={{color:'var(--teal)'}}>आम्, {statement.dev}</span>
+                    <Spk text={`आम्, ${statement.dev}`} />
+                  </div>
+                  <div className="gr-iast qe-iast">ām, {statement.iast}</div>
+                  <div className="gr-en qe-en">Yes, {statement.en}</div>
+                </>
+              ) : (
+                <>
+                  <div className="qe-sent-row">
+                    <span className="gr-dev qe-dev" style={{color:'var(--teal)'}}>{statement.dev}</span>
+                    <Spk text={statement.dev} />
+                  </div>
+                  <div className="gr-iast qe-iast">{statement.iast}</div>
+                  <div className="gr-en qe-en">{statement.en}</div>
+                </>
+              )}
+              <a className="gr-verify-link" href={`https://translate.google.com/?sl=sa&tl=en&text=${encodeURIComponent(statement.dev)}&op=translate`} target="_blank" rel="noopener noreferrer">🔍 Verify translation</a>
+            </div>
+          </div>
+
+          {/* Negative answer (mainly for yes/no; also shown as alternative) */}
+          {negation && (
+            <div className="qe-bubble qe-bubble-no">
+              <div className="qe-bubble-label">
+                <span className="qe-badge qe-badge-no">न ✗ No</span>
+              </div>
+              <div className="qe-bubble-body">
+                {(qtype === 'yesno' || qtype === 'va') ? (
+                  <>
+                    <div className="qe-sent-row">
+                      <span className="gr-dev qe-dev" style={{color:'var(--saffron)'}}>न, {negation.dev}</span>
+                      <Spk text={`न, ${negation.dev}`} />
+                    </div>
+                    <div className="gr-iast qe-iast">na, {negation.iast}</div>
+                    <div className="gr-en qe-en">No, {negation.en}</div>
+                  </>
+                ) : (
+                  <>
+                    <div className="qe-sent-row">
+                      <span className="gr-dev qe-dev" style={{color:'var(--saffron)'}}>न, {negation.dev}</span>
+                      <Spk text={`न, ${negation.dev}`} />
+                    </div>
+                    <div className="gr-iast qe-iast">na, {negation.iast}</div>
+                    <div className="gr-en qe-en">No — {negation.en}</div>
+                  </>
+                )}
+                <a className="gr-verify-link" href={`https://translate.google.com/?sl=sa&tl=en&text=${encodeURIComponent(negation.dev)}&op=translate`} target="_blank" rel="noopener noreferrer">🔍 Verify translation</a>
+              </div>
+            </div>
+          )}
+
+          {/* Follow-up dialogue — collapsible accordion */}
+          {followUp.length > 0 && (
+            <div className="qe-followup">
+              <button
+                className="qe-followup-toggle"
+                onClick={() => { play('tap'); setFollowOpen(o => !o) }}
+              >
+                <span className="qe-followup-toggle-label">
+                  💬 Follow-up conversation · संवादः
+                  <span className="qe-followup-count">({followUp.length} exchanges)</span>
+                </span>
+                <span className="qe-followup-toggle-chevron">{followOpen ? '▲' : '▼'}</span>
+              </button>
+
+              {followOpen && (
+                <div className="qe-followup-body anim-fade-up">
+                  {followUp.map((ex, i) => (
+                    <div key={i} className="qe-followup-exchange">
+                      {/* Q */}
+                      <div className="qe-bubble qe-bubble-q">
+                        <div className="qe-bubble-label">
+                          <span className="qe-badge qe-badge-q">Q {i + 1}</span>
+                        </div>
+                        <div className="qe-bubble-body">
+                          <div className="qe-sent-row">
+                            <span className="gr-dev qe-dev">{ex.q.dev}</span>
+                            <Spk text={ex.q.dev} />
+                          </div>
+                          <div className="gr-iast qe-iast">{ex.q.iast}</div>
+                          <div className="gr-en qe-en">{ex.q.en}</div>
+                          <a className="gr-verify-link" href={`https://translate.google.com/?sl=sa&tl=en&text=${encodeURIComponent(ex.q.dev)}&op=translate`} target="_blank" rel="noopener noreferrer">🔍 Verify translation</a>
+                        </div>
+                      </div>
+                      {/* Yes / affirmative answer */}
+                      <div className="qe-bubble qe-bubble-yes">
+                        <div className="qe-bubble-label">
+                          <span className="qe-badge qe-badge-yes">आम् A</span>
+                        </div>
+                        <div className="qe-bubble-body">
+                          <div className="qe-sent-row">
+                            <span className="gr-dev qe-dev" style={{color:'var(--teal)'}}>{ex.a.dev}</span>
+                            <Spk text={ex.a.dev} />
+                          </div>
+                          <div className="gr-iast qe-iast">{ex.a.iast}</div>
+                          <div className="gr-en qe-en">{ex.a.en}</div>
+                          <a className="gr-verify-link" href={`https://translate.google.com/?sl=sa&tl=en&text=${encodeURIComponent(ex.a.dev)}&op=translate`} target="_blank" rel="noopener noreferrer">🔍 Verify translation</a>
+                        </div>
+                      </div>
+                      {/* Optional नास्ति / negative answer */}
+                      {ex.na && (
+                        <div className="qe-bubble qe-bubble-no">
+                          <div className="qe-bubble-label">
+                            <span className="qe-badge qe-badge-no">न A</span>
+                          </div>
+                          <div className="qe-bubble-body">
+                            <div className="qe-sent-row">
+                              <span className="gr-dev qe-dev" style={{color:'var(--saffron)'}}>{ex.na.dev}</span>
+                              <Spk text={ex.na.dev} />
+                            </div>
+                            <div className="gr-iast qe-iast">{ex.na.iast}</div>
+                            <div className="gr-en qe-en">{ex.na.en}</div>
+                            <a className="gr-verify-link" href={`https://translate.google.com/?sl=sa&tl=en&text=${encodeURIComponent(ex.na.dev)}&op=translate`} target="_blank" rel="noopener noreferrer">🔍 Verify translation</a>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Verb form reference */}
+          {form && (
+            <div className="qe-verb-ref">
+              <span className="qe-verb-ref-label">Verb form used:</span>
+              <span className="gr-dev" style={{color:'var(--gold)',fontWeight:700}}>{form[0]}</span>
+              <span className="gr-iast" style={{fontSize:'0.8rem',color:'var(--text-muted)'}}>{form[1]}</span>
+              <span className="gr-en" style={{fontSize:'0.8rem',color:'var(--text-muted)'}}>{form[2]}</span>
+            </div>
+          )}
+          {!form && (
+            <div className="qe-verb-ref" style={{color:'var(--text-muted)',fontStyle:'italic'}}>
+              No conjugated form available for {verb.root} in this tense / person / number.
+            </div>
+          )}
+        </div>
+      ) : (
+        <div style={{padding:'2rem',textAlign:'center',color:'var(--text-muted)',fontStyle:'italic'}}>
+          No verb form available for this combination.
+        </div>
+      )}
+
+      <div className="gr-tip">
+        💡 <strong>Tip:</strong> Change the verb, subject, or object above to generate a completely new question and dialogue. Each combination produces a grammatically correct Sanskrit sentence.
+      </div>
     </div>
   )
 }
@@ -1298,6 +2551,7 @@ const LESSON_VIEWS = {
   objects:    ObjectsLesson,
   qa:         QALesson,
   explorer:   ExplorerLesson,
+  questions:  QuestionExplorerLesson,
   gender:     GenderLesson,
   vachanam:   VachanamLesson,
   nouns:      NounsLesson,
@@ -1308,7 +2562,7 @@ const LESSON_VIEWS = {
 }
 
 // Lessons shown inside the TENSES sub-section
-const TENSES_LESSON_IDS = ['endings','verbs','imperfect','future','imperative','optative','explorer']
+const TENSES_LESSON_IDS = ['endings','verbs','imperfect','future','imperative','optative','explorer','questions']
 
 // Lessons shown directly on the Grammar home page
 const HOME_LESSON_IDS = ['nouns','gender','vachanam','pronouns','negative','objects','qa']
@@ -1336,7 +2590,7 @@ export default function GrammarPage() {
   // ── Lesson view ────────────────────────────────────────────────────────
   if (activeLesson) {
     const lesson = LESSONS.find(l => l.id === activeLesson)
-    if (!lesson) { navigate('/grammar', { replace: true }); return null }
+    if (!lesson) return <Navigate to="/grammar" replace />
     const View   = LESSON_VIEWS[lesson.type]
     const listIds = isTenses ? TENSES_LESSON_IDS : HOME_LESSON_IDS
     const listIdx = listIds.indexOf(activeLesson)
