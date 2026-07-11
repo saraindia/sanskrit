@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate, useParams, Navigate } from 'react-router-dom'
 import { LESSONS, PRONOUNS, ENDINGS, VERBS, QA_PAIRS, OBJ_VERB_SENTENCES,
          VERB_EXAMPLES, TENSE_EXAMPLES, TENSES, PURUSHAS, VACHANAMS, LINGAS, PRONOUN_TABLE,
-         GENDER_DATA, GENDER_NOUNS_100, VIBHAKTI_LIST, VIBHAKTI_NOUNS } from '../data/grammar.js'
+         GENDER_DATA, GENDER_NOUNS_100, VIBHAKTI_LIST, VIBHAKTI_NOUNS, VIBHAKTI_NOUN_CATEGORIES } from '../data/grammar.js'
 import HubBack from '../components/HubBack.jsx'
 import { useSoundEffects } from '../hooks/useSoundEffects.js'
 import { useSpeech } from '../hooks/useSpeech.js'
@@ -2727,11 +2727,19 @@ function VibhaktiLesson() {
             <div className="gr-select-wrap">
               <select className="gr-select" value={activeNoun}
                 onChange={e => { play('tap'); setActiveNoun(e.target.value) }}>
-                {VIBHAKTI_NOUNS.map(n => (
-                  <option key={n.id} value={n.id}>
-                    {n.dev} ({n.iast}) — {n.en} · {n.stem}
-                  </option>
-                ))}
+                {VIBHAKTI_NOUN_CATEGORIES.map(cat => {
+                  const nouns = VIBHAKTI_NOUNS.filter(n => n.category === cat.id)
+                  if (!nouns.length) return null
+                  return (
+                    <optgroup key={cat.id} label={`${cat.label} · ${cat.labelDev}`}>
+                      {nouns.map(n => (
+                        <option key={n.id} value={n.id}>
+                          {n.dev} ({n.iast}) — {n.en}
+                        </option>
+                      ))}
+                    </optgroup>
+                  )
+                })}
               </select>
               <span className="gr-select-arrow">⌄</span>
             </div>
