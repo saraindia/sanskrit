@@ -1534,15 +1534,20 @@ function TenseLesson({ tenseId }) {
 
       <div>
         <div className="gr-example-title">Endings · विभक्ति</div>
-        <table className="gr-table">
-          <thead><tr><th>Person</th><th>Singular</th><th>Dual</th><th>Plural</th></tr></thead>
+        <table className="gr-table gr-table-vac">
+          <thead><tr>
+            <th>Person</th>
+            <th className="vac-sg">Singular · एक</th>
+            <th className="vac-du">Dual · द्वि</th>
+            <th className="vac-pl">Plural · बहु</th>
+          </tr></thead>
           <tbody>
             {endings.map(row => (
               <tr key={row.person}>
                 <td className="gr-person">{row.person}</td>
-                <td><span className="gr-iast">{row.sg}</span></td>
-                <td><span className="gr-iast">{row.du}</span></td>
-                <td><span className="gr-iast">{row.pl}</span></td>
+                <td className="vac-sg"><span className="gr-iast vac-iast-sg">{row.sg}</span></td>
+                <td className="vac-du"><span className="gr-iast vac-iast-du">{row.du}</span></td>
+                <td className="vac-pl"><span className="gr-iast vac-iast-pl">{row.pl}</span></td>
               </tr>
             ))}
           </tbody>
@@ -1568,14 +1573,19 @@ function TenseLesson({ tenseId }) {
       {verb.note && <div className="gr-tip">⚠️ {verb.note}</div>}
 
       {forms ? (
-        <table className="gr-table">
-          <thead><tr><th>Person</th><th>Singular</th><th>Dual</th><th>Plural</th></tr></thead>
+        <table className="gr-table gr-table-vac">
+          <thead><tr>
+            <th>Person</th>
+            <th className="vac-sg">Singular · एक</th>
+            <th className="vac-du">Dual · द्वि</th>
+            <th className="vac-pl">Plural · बहु</th>
+          </tr></thead>
           <tbody>
             {rows.map(row => (
               <tr key={row.label}>
                 <td className="gr-person">{row.label}</td>
-                {[row.sg, row.du, row.pl].map(key => (
-                  <td key={key}>
+                {[row.sg, row.du, row.pl].map((key, ci) => (
+                  <td key={key} className={['vac-sg','vac-du','vac-pl'][ci]}>
                     <div className="gr-spk-row"><span className="gr-dev">{forms[key][0]}</span><Spk text={forms[key][0]} small /></div>
                     <span className="gr-iast">{forms[key][1]}</span>
                     <span className="gr-en">{forms[key][2]}</span>

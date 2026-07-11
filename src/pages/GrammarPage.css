@@ -1588,3 +1588,23 @@
   text-align: center;
   margin-top: 0.85rem;
 }
+
+/* ── Vachanam (number) colour-coding in tense tables ─────────────────────── */
+.gr-table-vac th.vac-sg { color: var(--gold);    font-weight: 700; font-size: 0.82rem; }
+.gr-table-vac th.vac-du { color: var(--teal);    font-weight: 700; font-size: 0.82rem; }
+.gr-table-vac th.vac-pl { color: var(--saffron); font-weight: 700; font-size: 0.82rem; }
+
+.gr-table-vac td.vac-sg { border-left: 2px solid rgba(232,184,75,0.25); }
+.gr-table-vac td.vac-du { border-left: 2px solid rgba(58,158,138,0.25); }
+.gr-table-vac td.vac-pl { border-left: 2px solid rgba(232,130,26,0.25); }
+
+.gr-table-vac td.vac-sg .gr-dev,
+.gr-table-vac td.vac-sg .gr-iast { color: var(--gold); }
+.gr-table-vac td.vac-du .gr-dev,
+.gr-table-vac td.vac-du .gr-iast { color: var(--teal); }
+.gr-table-vac td.vac-pl .gr-dev,
+.gr-table-vac td.vac-pl .gr-iast { color: var(--saffron); }
+
+.gr-table-vac td.vac-sg .gr-en,
+.gr-table-vac td.vac-du .gr-en,
+.gr-table-vac td.vac-pl .gr-en { color: var(--text-muted); }
