@@ -1590,13 +1590,21 @@
 }
 
 /* ── Vachanam (number) colour-coding in tense tables ─────────────────────── */
-.gr-table-vac th.vac-sg { color: #9b8dd4;         font-weight: 700; font-size: 0.82rem; }
-.gr-table-vac th.vac-du { color: var(--teal);    font-weight: 700; font-size: 0.82rem; }
-.gr-table-vac th.vac-pl { color: var(--saffron); font-weight: 700; font-size: 0.82rem; }
+.gr-table-vac { font-size: 1rem; }
+.gr-table-vac th { font-size: 0.88rem; padding: 0.7rem 0.85rem; }
+.gr-table-vac td { padding: 0.85rem 0.85rem; }
+
+.gr-table-vac th.vac-sg { color: #9b8dd4;         font-weight: 700; }
+.gr-table-vac th.vac-du { color: var(--teal);    font-weight: 700; }
+.gr-table-vac th.vac-pl { color: var(--saffron); font-weight: 700; }
 
 .gr-table-vac td.vac-sg { border-left: 2px solid rgba(155,141,212,0.30); }
 .gr-table-vac td.vac-du { border-left: 2px solid rgba(58,158,138,0.25); }
 .gr-table-vac td.vac-pl { border-left: 2px solid rgba(232,130,26,0.25); }
+
+.gr-table-vac td .gr-dev  { font-size: 1.15rem; }
+.gr-table-vac td .gr-iast { font-size: 0.96rem; }
+.gr-table-vac td .gr-en   { font-size: 0.88rem; }
 
 .gr-table-vac td.vac-sg .gr-dev,
 .gr-table-vac td.vac-sg .gr-iast { color: #9b8dd4; }
