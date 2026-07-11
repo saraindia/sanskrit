@@ -531,7 +531,7 @@ const PERSON_GROUPS = [
   { label: '1st Person', person: '1st', keys: ['p1sg','p1du','p1pl'], endings: ['-mi','-vaḥ','-maḥ'] },
 ]
 const NUM_COLORS = [
-  { label: 'Singular', color: 'var(--gold)',    bg: 'rgba(232,184,75,0.10)'  },
+  { label: 'Singular', color: '#9b8dd4',        bg: 'rgba(155,141,212,0.10)' },
   { label: 'Dual',     color: 'var(--teal)',    bg: 'rgba(58,158,138,0.10)'  },
   { label: 'Plural',   color: 'var(--saffron)', bg: 'rgba(232,130,26,0.10)'  },
 ]
