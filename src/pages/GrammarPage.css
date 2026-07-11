@@ -330,6 +330,126 @@
 .gr-qa-row .gr-iast { font-size: 0.78rem; }
 .gr-qa-row .gr-en   { font-size: 0.8rem; color: var(--text-primary); }
 
+/* ── Conjugation Explorer ─────────────────────────────────────────────── */
+.gr-explorer-selectors {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.gr-sel-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.gr-sel-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--gold);
+  font-weight: 600;
+}
+.gr-sel-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.gr-sel-pill {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.55rem 1rem;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  transition: border-color 0.15s, background 0.15s;
+  min-width: 150px;
+  flex: 1;
+}
+.gr-sel-pill .gr-dev { font-size: 0.95rem; color: var(--cream); display: block; }
+.gr-sel-pill-sub { font-size: 0.72rem; color: var(--text-secondary); display: block; }
+.gr-sel-pill.active {
+  border-color: var(--gold);
+  background: color-mix(in srgb, var(--gold) 10%, var(--bg-elevated));
+}
+.gr-sel-pill.active .gr-dev { color: var(--gold); }
+.gr-sel-pill.active .gr-sel-pill-sub { color: var(--cream-dim); }
+
+/* Summary bar */
+.gr-explorer-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--gold-dim);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1.1rem;
+  flex-wrap: wrap;
+}
+.gr-exp-pronoun, .gr-exp-ending, .gr-exp-key {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.gr-exp-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+}
+.gr-exp-arrow {
+  color: var(--gold-dim);
+  font-size: 1rem;
+  padding: 0 0.15rem;
+}
+.gr-exp-pronoun .gr-dev { font-size: 1.1rem; }
+
+/* Verb result cards */
+.gr-exp-verb-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.gr-exp-verb-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.9rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 0.5rem 1rem;
+}
+.gr-exp-verb-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  grid-column: 1;
+  grid-row: 1;
+}
+.gr-exp-verb-meaning {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+.gr-exp-form {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  text-align: right;
+}
+.gr-exp-example {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  border-top: 1px solid var(--border);
+  padding-top: 0.55rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
 /* ── Bottom lesson nav ────────────────────────────────────────────────── */
 .gr-lesson-nav {
   display: flex;

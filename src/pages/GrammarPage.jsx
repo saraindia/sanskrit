@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { LESSONS, PRONOUNS, ENDINGS, VERBS, QA_PAIRS, OBJ_VERB_SENTENCES } from '../data/grammar.js'
+import { LESSONS, PRONOUNS, ENDINGS, VERBS, QA_PAIRS, OBJ_VERB_SENTENCES,
+         VERB_EXAMPLES, TENSES, PURUSHAS, VACHANAMS } from '../data/grammar.js'
 import HubBack from '../components/HubBack.jsx'
 import './Hub.css'
 import './GrammarPage.css'
@@ -315,6 +316,134 @@ function QALesson() {
   )
 }
 
+function ExplorerLesson() {
+  const [tense,   setTense]   = useState('present')
+  const [purusha, setPurusha] = useState('3')
+  const [vachanam,setVachanam]= useState('sg')
+
+  // Build the form key, e.g. p3sg, p2du, p1pl
+  const formKey = `p${purusha}${vachanam}`
+  const purObj  = PURUSHAS.find(p => p.id === purusha)
+  const vacObj  = VACHANAMS.find(v => v.id === vachanam)
+
+  // Pronoun for selected person + number
+  const pronoun = vachanam === 'sg' ? purObj.pronSg
+                : vachanam === 'du' ? purObj.pronDu
+                : purObj.pronPl
+
+  // Ending highlight for this cell
+  const endingRow = ENDINGS.present.find(r =>
+    r.person === (purusha === '3' ? '3rd' : purusha === '2' ? '2nd' : '1st')
+  )
+  const endingStr = endingRow?.[vachanam] ?? ''
+
+  return (
+    <div className="gr-lesson">
+      {/* ── Selectors ── */}
+      <div className="gr-explorer-selectors">
+        {/* Tense */}
+        <div className="gr-sel-group">
+          <div className="gr-sel-label">Tense · काल</div>
+          <div className="gr-sel-pills">
+            {TENSES.map(t => (
+              <button key={t.id}
+                className={`gr-sel-pill ${tense === t.id ? 'active' : ''}`}
+                onClick={() => setTense(t.id)}>
+                <span className="gr-dev">{t.labelDev}</span>
+                <span className="gr-sel-pill-sub">{t.label} — {t.desc}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Person */}
+        <div className="gr-sel-group">
+          <div className="gr-sel-label">Person · पुरुष</div>
+          <div className="gr-sel-pills">
+            {PURUSHAS.map(p => (
+              <button key={p.id}
+                className={`gr-sel-pill ${purusha === p.id ? 'active' : ''}`}
+                onClick={() => setPurusha(p.id)}>
+                <span className="gr-dev">{p.labelDev}</span>
+                <span className="gr-sel-pill-sub">{p.en}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Number */}
+        <div className="gr-sel-group">
+          <div className="gr-sel-label">Number · वचनम्</div>
+          <div className="gr-sel-pills">
+            {VACHANAMS.map(v => (
+              <button key={v.id}
+                className={`gr-sel-pill ${vachanam === v.id ? 'active' : ''}`}
+                onClick={() => setVachanam(v.id)}>
+                <span className="gr-dev">{v.labelDev}</span>
+                <span className="gr-sel-pill-sub">{v.label} — {v.en}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* ── Selection summary ── */}
+      <div className="gr-explorer-summary">
+        <div className="gr-exp-pronoun">
+          <span className="gr-exp-label">Pronoun</span>
+          <span className="gr-dev">{pronoun}</span>
+        </div>
+        <div className="gr-exp-arrow">→</div>
+        <div className="gr-exp-ending">
+          <span className="gr-exp-label">Ending</span>
+          <span className="gr-iast" style={{fontSize:'1rem', color:'var(--gold)'}}>{endingStr}</span>
+        </div>
+        <div className="gr-exp-arrow">→</div>
+        <div className="gr-exp-key">
+          <span className="gr-exp-label">Stem + ending</span>
+          <span className="gr-iast" style={{fontSize:'0.85rem'}}>
+            {purObj.labelDev} · {vacObj.labelDev}
+          </span>
+        </div>
+      </div>
+
+      {/* ── Verb cards ── */}
+      <div className="gr-exp-verb-list">
+        {VERBS.map(verb => {
+          const form = verb.forms[formKey]
+          const ex   = VERB_EXAMPLES[verb.id]?.[formKey]
+          return (
+            <div key={verb.id} className="gr-exp-verb-card">
+              <div className="gr-exp-verb-head">
+                <span className="gr-dev" style={{color:'var(--gold)', fontSize:'1rem'}}>{verb.root}</span>
+                <span className="gr-iast">{verb.rootIast}</span>
+                <span className="gr-exp-verb-meaning">{verb.meaning}</span>
+              </div>
+              <div className="gr-exp-form">
+                <span className="gr-dev" style={{fontSize:'1.25rem'}}>{form[0]}</span>
+                <span className="gr-iast">{form[1]}</span>
+                <span className="gr-en" style={{color:'var(--text-primary)'}}>{form[2]}</span>
+              </div>
+              {ex && (
+                <div className="gr-exp-example">
+                  <div className="gr-dev" style={{fontSize:'0.95rem'}}>{ex.dev}</div>
+                  <div className="gr-iast">{ex.iast}</div>
+                  <div className="gr-en" style={{color:'var(--text-primary)', fontSize:'0.85rem'}}>{ex.en}</div>
+                </div>
+              )}
+            </div>
+          )
+        })}
+      </div>
+
+      <div className="gr-tip">
+        💡 All 6 verbs use the <strong>same ending</strong> for this person + number.
+        Only the stem changes — master the endings once, read any Class 1 verb.
+      </div>
+    </div>
+  )
+}
+
 const LESSON_VIEWS = {
   pronouns: PronounsLesson,
   endings:  EndingsLesson,
@@ -322,6 +451,7 @@ const LESSON_VIEWS = {
   negative: NegativeLesson,
   objects:  ObjectsLesson,
   qa:       QALesson,
+  explorer: ExplorerLesson,
 }
 
 // ── Main page ──────────────────────────────────────────────────────────────

@@ -177,6 +177,94 @@ export const VERBS = [
   },
 ]
 
+// Example sentences per verb per form key (p3sg, p2sg, etc.)
+export const VERB_EXAMPLES = {
+  path: {
+    p3sg: { dev: 'सः पुस्तकम् पठति।',         iast: 'saḥ pustakam paṭhati.',        en: 'He reads a book.' },
+    p3du: { dev: 'तौ वेदं पठतः।',              iast: 'tau vedaṃ paṭhataḥ.',          en: 'They two read the Veda.' },
+    p3pl: { dev: 'ते श्लोकान् पठन्ति।',          iast: 'te ślokān paṭhanti.',          en: 'They read the verses.' },
+    p2sg: { dev: 'त्वम् संस्कृतम् पठसि।',        iast: 'tvam saṃskṛtam paṭhasi.',      en: 'You read Sanskrit.' },
+    p2du: { dev: 'युवाम् पाठ्यपुस्तकम् पठथः।',   iast: 'yuvām pāṭhyapustakam paṭhathaḥ.', en: 'You two read the textbook.' },
+    p2pl: { dev: 'यूयम् पत्रम् पठथ।',            iast: 'yūyam patram paṭhatha.',       en: 'You all read the letter.' },
+    p1sg: { dev: 'अहम् रामायणम् पठामि।',          iast: 'aham rāmāyaṇam paṭhāmi.',      en: 'I read the Rāmāyaṇa.' },
+    p1du: { dev: 'आवाम् गीतां पठावः।',            iast: 'āvām gītāṃ paṭhāvaḥ.',         en: 'We two read the Gītā.' },
+    p1pl: { dev: 'वयम् उपनिषदम् पठामः।',          iast: 'vayam upaniṣadam paṭhāmaḥ.',   en: 'We read the Upaniṣad.' },
+  },
+  likh: {
+    p3sg: { dev: 'सा पत्रम् लिखति।',             iast: 'sā patram likhati.',            en: 'She writes a letter.' },
+    p3du: { dev: 'तौ पुस्तकम् लिखतः।',           iast: 'tau pustakam likhataḥ.',        en: 'They two write a book.' },
+    p3pl: { dev: 'ते श्लोकान् लिखन्ति।',           iast: 'te ślokān likhanti.',           en: 'They write the verses.' },
+    p2sg: { dev: 'त्वम् नाम लिखसि।',              iast: 'tvam nāma likhasi.',            en: 'You write your name.' },
+    p2du: { dev: 'युवाम् उत्तरम् लिखथः।',          iast: 'yuvām uttaram likhathaḥ.',      en: 'You two write the answer.' },
+    p2pl: { dev: 'यूयम् कथां लिखथ।',              iast: 'yūyam kathāṃ likhatha.',        en: 'You all write the story.' },
+    p1sg: { dev: 'अहम् पुस्तकम् लिखामि।',          iast: 'aham pustakam likhāmi.',        en: 'I write a book.' },
+    p1du: { dev: 'आवाम् पत्रम् लिखावः।',           iast: 'āvām patram likhāvaḥ.',         en: 'We two write a letter.' },
+    p1pl: { dev: 'वयम् इतिहासम् लिखामः।',          iast: 'vayam itihāsam likhāmaḥ.',      en: 'We write history.' },
+  },
+  vad: {
+    p3sg: { dev: 'गुरुः सत्यम् वदति।',            iast: 'guruḥ satyam vadati.',          en: 'The teacher speaks truth.' },
+    p3du: { dev: 'तौ संस्कृतम् वदतः।',            iast: 'tau saṃskṛtam vadataḥ.',        en: 'They two speak Sanskrit.' },
+    p3pl: { dev: 'ते मधुरम् वदन्ति।',              iast: 'te madhuram vadanti.',           en: 'They speak sweetly.' },
+    p2sg: { dev: 'त्वम् सत्यम् वदसि।',             iast: 'tvam satyam vadasi.',           en: 'You speak the truth.' },
+    p2du: { dev: 'युवाम् किम् वदथः?',              iast: 'yuvām kim vadathaḥ?',           en: 'What do you two say?' },
+    p2pl: { dev: 'यूयम् शनैः वदथ।',               iast: 'yūyam śanaiḥ vadatha.',         en: 'You all speak slowly.' },
+    p1sg: { dev: 'अहम् हिन्दीम् वदामि।',            iast: 'aham hindīm vadāmi.',           en: 'I speak Hindi.' },
+    p1du: { dev: 'आवाम् संस्कृतम् वदावः।',          iast: 'āvām saṃskṛtam vadāvaḥ.',       en: 'We two speak Sanskrit.' },
+    p1pl: { dev: 'वयम् सत्यम् एव वदामः।',           iast: 'vayam satyam eva vadāmaḥ.',     en: 'We speak only the truth.' },
+  },
+  gam: {
+    p3sg: { dev: 'बालकः विद्यालयम् गच्छति।',       iast: 'bālakaḥ vidyālayam gacchati.',  en: 'The boy goes to school.' },
+    p3du: { dev: 'तौ वनम् गच्छतः।',               iast: 'tau vanam gacchataḥ.',          en: 'They two go to the forest.' },
+    p3pl: { dev: 'ते गृहम् गच्छन्ति।',              iast: 'te gṛham gacchanti.',           en: 'They go home.' },
+    p2sg: { dev: 'त्वम् कुत्र गच्छसि?',             iast: 'tvam kutra gacchasi?',          en: 'Where do you go?' },
+    p2du: { dev: 'युवाम् बाजारम् गच्छथः।',          iast: 'yuvām bājāram gacchathaḥ.',     en: 'You two go to the market.' },
+    p2pl: { dev: 'यूयम् मन्दिरम् गच्छथ।',           iast: 'yūyam mandiram gacchatha.',     en: 'You all go to the temple.' },
+    p1sg: { dev: 'अहम् नद्यां गच्छामि।',            iast: 'aham nadyāṃ gacchāmi.',         en: 'I go to the river.' },
+    p1du: { dev: 'आवाम् उद्यानम् गच्छावः।',          iast: 'āvām udyānam gacchāvaḥ.',       en: 'We two go to the garden.' },
+    p1pl: { dev: 'वयम् काशीम् गच्छामः।',            iast: 'vayam kāśīm gacchāmaḥ.',        en: 'We go to Kāśī.' },
+  },
+  khad: {
+    p3sg: { dev: 'सा आम्रम् खादति।',              iast: 'sā āmram khādati.',             en: 'She eats a mango.' },
+    p3du: { dev: 'तौ मोदकम् खादतः।',              iast: 'tau modakam khādataḥ.',         en: 'They two eat sweets.' },
+    p3pl: { dev: 'ते भोजनम् खादन्ति।',             iast: 'te bhojanam khādanti.',         en: 'They eat the meal.' },
+    p2sg: { dev: 'त्वम् किम् खादसि?',              iast: 'tvam kim khādasi?',             en: 'What do you eat?' },
+    p2du: { dev: 'युवाम् फलानि खादथः।',            iast: 'yuvām phalāni khādathaḥ.',      en: 'You two eat fruits.' },
+    p2pl: { dev: 'यूयम् मोदकानि खादथ।',            iast: 'yūyam modakāni khādatha.',      en: 'You all eat sweets.' },
+    p1sg: { dev: 'अहम् कदलीफलम् खादामि।',          iast: 'aham kadalīphalam khādāmi.',     en: 'I eat a banana.' },
+    p1du: { dev: 'आवाम् आम्रम् खादावः।',           iast: 'āvām āmram khādāvaḥ.',          en: 'We two eat a mango.' },
+    p1pl: { dev: 'वयम् भोजनम् खादामः।',            iast: 'vayam bhojanam khādāmaḥ.',      en: 'We eat the meal.' },
+  },
+  pashya: {
+    p3sg: { dev: 'बालकः चित्रम् पश्यति।',          iast: 'bālakaḥ citram paśyati.',       en: 'The boy sees a picture.' },
+    p3du: { dev: 'तौ सूर्यम् पश्यतः।',             iast: 'tau sūryam paśyataḥ.',          en: 'They two see the sun.' },
+    p3pl: { dev: 'ते हिमालयम् पश्यन्ति।',           iast: 'te himālayam paśyanti.',        en: 'They see the Himalayas.' },
+    p2sg: { dev: 'त्वम् किम् पश्यसि?',             iast: 'tvam kim paśyasi?',             en: 'What do you see?' },
+    p2du: { dev: 'युवाम् तारान् पश्यथः।',           iast: 'yuvām tārān paśyathaḥ.',        en: 'You two see the stars.' },
+    p2pl: { dev: 'यूयम् नदीम् पश्यथ।',             iast: 'yūyam nadīm paśyatha.',         en: 'You all see the river.' },
+    p1sg: { dev: 'अहम् पुष्पम् पश्यामि।',           iast: 'aham puṣpam paśyāmi.',          en: 'I see a flower.' },
+    p1du: { dev: 'आवाम् चन्द्रम् पश्यावः।',         iast: 'āvām candram paśyāvaḥ.',        en: 'We two see the moon.' },
+    p1pl: { dev: 'वयम् सूर्योदयम् पश्यामः।',        iast: 'vayam sūryodayam paśyāmaḥ.',    en: 'We see the sunrise.' },
+  },
+}
+
+// Tenses available in the explorer
+export const TENSES = [
+  { id: 'present', label: 'Present', labelDev: 'लट्', desc: 'happening now' },
+]
+
+// Person options (Sanskrit grammar order: prathama=3rd, madhyama=2nd, uttama=1st)
+export const PURUSHAS = [
+  { id: '3', label: 'Prathamapuruṣa', labelDev: 'प्रथमपुरुष', en: '3rd person — he / she / they', pronSg: 'सः / सा', pronDu: 'तौ / ते', pronPl: 'ते / ताः' },
+  { id: '2', label: 'Madhyamapuruṣa', labelDev: 'मध्यमपुरुष', en: '2nd person — you',             pronSg: 'त्वम्',     pronDu: 'युवाम्',   pronPl: 'यूयम्'   },
+  { id: '1', label: 'Uttamapuruṣa',   labelDev: 'उत्तमपुरुष',  en: '1st person — I / we',         pronSg: 'अहम्',      pronDu: 'आवाम्',    pronPl: 'वयम्'    },
+]
+
+export const VACHANAMS = [
+  { id: 'sg', label: 'Ekavachanam',   labelDev: 'एकवचनम्',   en: 'Singular — one',    suffix: 'sg' },
+  { id: 'du', label: 'Dvivachanam',   labelDev: 'द्विवचनम्',  en: 'Dual — exactly two', suffix: 'du' },
+  { id: 'pl', label: 'Bahuvachanam',  labelDev: 'बहुवचनम्',  en: 'Plural — three or more', suffix: 'pl' },
+]
+
 // Common nouns (with accusative for object sentences)
 export const NOUNS = [
   { dev: 'पुस्तकम्', iast: 'pustakam', en: 'book',   acc: { dev: 'पुस्तकम्', iast: 'pustakam' } },
@@ -240,6 +328,14 @@ export const LESSONS = [
     icon: '❓',
     summary: 'Asking and answering using किम् (kim), कुत्र (kutra), कः (kaḥ)',
     type: 'qa',
+  },
+  {
+    id: 'explorer',
+    title: 'Conjugation Explorer',
+    titleDev: 'धातु अन्वेषणम्',
+    icon: '🔭',
+    summary: 'Pick tense · person · number — see all 6 verbs with example sentences',
+    type: 'explorer',
   },
 ]
 
