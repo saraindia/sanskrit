@@ -53,7 +53,7 @@ export function ThemeProvider({ children }) {
   const VALID_IDS = new Set(THEMES.map(t => t.id))
   const [themeId, setThemeId] = useState(() => {
     const saved = getItem(THEME_KEY)
-    return (saved && VALID_IDS.has(saved)) ? saved : 'dark-gold'
+    return (saved && VALID_IDS.has(saved)) ? saved : 'high-contrast'
   })
   const [largeText, setLargeText] = useState(() => {
     const saved = getItem(A11Y_KEY)

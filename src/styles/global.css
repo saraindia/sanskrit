@@ -103,6 +103,16 @@ button {
   transition: all 0.2s ease;
 }
 
+/* Intercept ASCII digits before Noto Sans Devanagari can substitute them
+   with Devanagari-script numerals (a macOS font behaviour). The browser
+   uses this @font-face entry for U+0030–0039 and falls back to the next
+   font in any stack that names 'Noto Sans Devanagari'. */
+@font-face {
+  font-family: 'Noto Sans Devanagari';
+  src: local('Helvetica Neue'), local('Arial'), local('sans-serif');
+  unicode-range: U+0030-0039; /* 0–9 */
+}
+
 .devanagari {
   font-family: 'Noto Sans Devanagari', 'Arial Unicode MS', sans-serif;
   font-size: 1.4rem;

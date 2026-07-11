@@ -1,5 +1,40 @@
 /* ── Grammar Page ─────────────────────────────────────────────────────── */
 
+/* Inline row that pairs Devanagari text with a small speak button */
+.gr-spk-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.gr-lesson-group {
+  margin-bottom: 0.5rem;
+}
+.gr-lesson-group-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.6rem 1.1rem 0.3rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0.25rem;
+}
+.gr-lesson-group-label {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 600;
+}
+.gr-lesson-group-dev {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  display: inline;
+}
+.gr-group-hub-list {
+  margin-top: 0;
+}
+
 .hub-list .gr-hub-item {
   width: 100%;
   text-align: left;
@@ -26,6 +61,23 @@
   letter-spacing: 0.04em;
 }
 
+/* ── Lesson page: compact header on mobile ────────────────────────────── */
+.gr-lesson-page .page-header { padding: 0.5rem 0 0.35rem; }
+.gr-lesson-page .page-title  { font-size: 1rem; margin: 0; }
+.gr-lesson-page .page-subtitle { font-size: 0.78rem; margin-top: 0.15rem; }
+
+/* Icon + title on the same line */
+.gr-lesson-header-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.gr-lesson-icon-inline {
+  font-size: 1.25rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
 /* ── Lesson container ─────────────────────────────────────────────────── */
 .gr-lesson {
   display: flex;
@@ -34,10 +86,7 @@
   padding-bottom: 1rem;
 }
 
-.gr-lesson-icon {
-  font-size: 2rem;
-  margin-bottom: 0.25rem;
-}
+/* .gr-lesson-icon removed — replaced by inline .gr-lesson-icon-inline */
 
 /* ── Rule / tip boxes ─────────────────────────────────────────────────── */
 .gr-rule-box {
@@ -97,6 +146,7 @@
 .gr-dev {
   font-family: 'Noto Sans Devanagari', sans-serif;
   font-size: 1rem;
+  font-weight: 500;
   color: var(--cream);
   display: block;
 }
@@ -164,7 +214,34 @@
   margin-bottom: 0.35rem;
 }
 
-/* ── Verb selector tabs ───────────────────────────────────────────────── */
+/* ── Verb dropdown ────────────────────────────────────────────────────── */
+.gr-verb-select {
+  width: 100%;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.65rem 0.85rem;
+  color: var(--text-primary);
+  font-size: 0.92rem;
+  font-family: inherit;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23a0906c' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.85rem center;
+  padding-right: 2.2rem;
+}
+.gr-verb-select:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+.gr-verb-select option {
+  background: var(--bg-deep, #1a1610);
+  color: var(--text-primary);
+}
+
+/* ── Verb selector tabs (legacy, kept for reference) ──────────────────── */
 .gr-verb-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -367,7 +444,7 @@
   min-width: 150px;
   flex: 1;
 }
-.gr-sel-pill .gr-dev { font-size: 0.95rem; color: var(--cream); display: block; }
+.gr-sel-pill .gr-dev { font-size: 1.05rem; font-weight: 600; color: var(--cream); display: block; }
 .gr-sel-pill-sub { font-size: 0.72rem; color: var(--text-secondary); display: block; }
 .gr-sel-pill.active {
   border-color: var(--gold);
@@ -375,6 +452,15 @@
 }
 .gr-sel-pill.active .gr-dev { color: var(--gold); }
 .gr-sel-pill.active .gr-sel-pill-sub { color: var(--cream-dim); }
+.gr-sel-pill-dim { opacity: 0.45; }
+.gr-sel-label-note {
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  margin-left: 0.4rem;
+}
 
 /* Summary bar */
 .gr-explorer-summary {
@@ -444,10 +530,267 @@
   grid-column: 1 / -1;
   grid-row: 2;
   border-top: 1px solid var(--border);
-  padding-top: 0.55rem;
+  padding-top: 0.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.gr-exp-example-spoken {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.gr-ex-dev  { font-size: 1.6rem; color: var(--gold-light); }
+.gr-ex-iast { font-size: 1.25rem; font-style: italic; color: var(--teal); }
+.gr-ex-en   { font-size: 1.15rem; color: var(--cream); }
+
+.gr-exp-form-spoken {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  justify-content: flex-end;
+}
+.gr-speak-sm { width: 1.6rem; height: 1.6rem; flex-shrink: 0; }
+.gr-speak-sm svg { width: 0.8rem; height: 0.8rem; }
+
+/* ── Lesson page wrapper (when a lesson is open) ──────────────────────── */
+.gr-lesson-page {
+  max-width: 720px;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+@media (max-width: 480px) {
+  .gr-lesson-page {
+    padding-left: env(safe-area-inset-left, 0.75rem);
+    padding-right: env(safe-area-inset-right, 0.75rem);
+    padding-left: max(0.75rem, env(safe-area-inset-left));
+    padding-right: max(0.75rem, env(safe-area-inset-right));
+  }
+}
+
+/* ── Back button (lesson view) ────────────────────────────────────────── */
+.gr-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 0.38rem 0.9rem 0.38rem 0.65rem;
+  margin: 0 0 0.4rem 0;
+  background: color-mix(in srgb, var(--bg-elevated) 85%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--border-bright);
+  border-radius: 999px;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  position: sticky;
+  top: 0.5rem;
+  z-index: 50;
+  align-self: flex-start;
+}
+.gr-back:hover {
+  color: var(--gold);
+  border-color: var(--gold-dim);
+  background: rgba(201,148,42,0.08);
+}
+.gr-back:active { opacity: 0.75; transform: scale(0.97); }
+.gr-back-arrow { font-size: 1.1rem; line-height: 1; color: var(--gold-dim); }
+
+/* ── Verify translation link ──────────────────────────────────────────── */
+.gr-verify-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--gold);
+  text-decoration: none;
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.75rem;
+  border: 1.5px solid var(--gold-dim);
+  border-radius: 999px;
+  background: rgba(201,148,42,0.08);
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  align-self: flex-start;
+}
+.gr-verify-link:hover {
+  color: var(--bg-deep);
+  background: var(--gold);
+  border-color: var(--gold);
+}
+
+/* Active row highlight in tables */
+.gr-table-row-active td { background: color-mix(in srgb, var(--gold) 8%, transparent); }
+
+/* ── Gender badges ─────────────────────────────────────────────────────── */
+.gr-gbadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.gr-gbadge-m { background: rgba(99,155,255,0.15); color: #7aaeff; border: 1px solid rgba(99,155,255,0.3); }
+.gr-gbadge-f { background: rgba(255,130,180,0.15); color: #ff9fc8; border: 1px solid rgba(255,130,180,0.3); }
+.gr-gbadge-n { background: rgba(130,210,130,0.15); color: #88d888; border: 1px solid rgba(130,210,130,0.3); }
+
+/* ── Gender lesson: noun lookup ────────────────────────────────────────── */
+.gr-gender-lookup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+.gr-gender-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.gr-gender-cat-btn {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.gr-gender-cat-btn.active, .gr-gender-cat-btn:hover {
+  color: var(--gold);
+  border-color: var(--gold-dim);
+  background: rgba(201,148,42,0.08);
+}
+.gr-gender-result {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-bright);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  animation: fadeIn 0.18s ease;
+}
+@keyframes fadeIn { from { opacity:0; transform:translateY(4px) } to { opacity:1; transform:translateY(0) } }
+.gr-gender-result-noun {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 0.75rem;
+}
+.gr-gender-result-pron {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+.gr-gender-result-hint {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* ── Gender examples: 3-column structure ──────────────────────────────── */
+/* old grid kept for reference but replaced by accordion */
+.gr-gender-examples { display: none; }
+
+/* ── Gender accordion ─────────────────────────────────────────────────── */
+.gr-gender-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+.gr-gac-panel {
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+.gr-gac-panel-m       { border-color: rgba(99,155,255,0.35); }
+.gr-gac-panel-m.open  { border-color: rgba(99,155,255,0.8); }
+.gr-gac-panel-f       { border-color: rgba(255,130,180,0.35); }
+.gr-gac-panel-f.open  { border-color: rgba(255,130,180,0.8); }
+.gr-gac-panel-n       { border-color: rgba(130,210,130,0.35); }
+.gr-gac-panel-n.open  { border-color: rgba(130,210,130,0.8); }
+
+.gr-gac-hd {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  gap: 0.75rem;
+}
+.gr-gac-panel-m .gr-gac-hd:hover { background: rgba(99,155,255,0.06); }
+.gr-gac-panel-f .gr-gac-hd:hover { background: rgba(255,130,180,0.06); }
+.gr-gac-panel-n .gr-gac-hd:hover { background: rgba(130,210,130,0.06); }
+.gr-gac-panel-m.open .gr-gac-hd  { background: rgba(99,155,255,0.08); }
+.gr-gac-panel-f.open .gr-gac-hd  { background: rgba(255,130,180,0.08); }
+.gr-gac-panel-n.open .gr-gac-hd  { background: rgba(130,210,130,0.08); }
+
+.gr-gac-hd-left {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+.gr-gac-badge { font-size: 0.85rem; padding: 0.2rem 0.7rem; }
+.gr-gac-en {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.gr-gac-iast {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
+.gr-gac-chevron {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+.gr-gac-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 0.85rem 0.85rem;
+}
+.gr-gender-ex-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.65rem 0.75rem;
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
+}
+.gr-gender-ex-num {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-secondary);
+  margin-bottom: 0.2rem;
+  font-family: var(--font-display);
+  font-weight: 600;
 }
 
 /* ── Bottom lesson nav ────────────────────────────────────────────────── */
@@ -457,3 +800,295 @@
   padding: 1.5rem 0 0.5rem;
   justify-content: space-between;
 }
+
+/* ── Vachanam lesson ──────────────────────────────────────────────────── */
+.gr-vacha-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.75rem 0;
+}
+.gr-vacha-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+.gr-vacha-cat-dot {
+  display: inline-block;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+  flex-shrink: 0;
+}
+.gr-vacha-table td { vertical-align: middle; }
+.gr-vacha-intro-table td { padding: 0.5rem 0.75rem; }
+
+.gr-vacha-cat-label {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+.gr-vacha-cat-dev {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-size: 0.82rem;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+.gr-vacha-select {
+  background: var(--bg-elevated);
+  border: 1px solid;
+  border-radius: var(--radius-sm);
+  padding: 0.3rem 0.5rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  max-width: 9rem;
+  transition: background 0.15s;
+}
+.gr-vacha-select:hover { background: var(--bg-subtle); }
+.gr-vacha-select option { background: var(--bg-elevated); color: var(--text-primary); }
+
+/* ── Vachanam explorer ────────────────────────────────────────────────── */
+.gr-vacha-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0.75rem;
+}
+.gr-vacha-cat-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  border: 1.5px solid;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, transform 0.1s;
+  font-family: var(--font-display);
+  line-height: 1.2;
+}
+.gr-vacha-cat-btn:active { transform: scale(0.96); }
+.gr-vacha-cat-btn-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+.gr-vacha-cat-btn-dev {
+  font-size: 0.8rem;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+.gr-vacha-picker {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.gr-vacha-picker-label {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+.gr-vacha-forms {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  border: 1px solid;
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  background: var(--bg-elevated);
+  margin-bottom: 1rem;
+}
+.gr-vacha-form-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  text-align: center;
+  padding-top: 0.6rem;
+  border-top: 3px solid;
+}
+.gr-vacha-form-num {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.gr-vacha-form-numdev {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.3rem;
+}
+.gr-vacha-form-dev  { font-size: 1.5rem; line-height: 1.4; }
+.gr-vacha-form-iast { font-size: 0.95rem; font-style: italic; color: var(--text-secondary); }
+
+/* ── Vachanam example sentences ─────────────────────────────────────── */
+.gr-vacha-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1.25rem 0 0.5rem;
+}
+.gr-vacha-ex-group {
+  border: 1.5px solid;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: background 0.2s;
+}
+.gr-vacha-ex-group-hd {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+.gr-vacha-ex-body {
+  padding: 0 1rem 0.85rem;
+}
+.gr-vacha-ex-numdev { font-size: 0.92rem; letter-spacing: 0; text-transform: none; opacity: 0.8; }
+.gr-vacha-ex-sent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.gr-vacha-ex-sent:last-child { border-bottom: none; padding-bottom: 0; }
+.gr-vacha-ex-dev  { font-size: 1.1rem; }
+.gr-vacha-ex-iast { font-size: 0.85rem; font-style: italic; color: var(--text-secondary); }
+.gr-vacha-ex-en   { font-size: 0.82rem; color: var(--text-primary); margin-top: 0.1rem; }
+
+/* ── Nouns lesson ─────────────────────────────────────────────────────── */
+.gr-noun-types { display: flex; flex-direction: column; gap: 0.6rem; margin: 1rem 0; }
+
+.gr-noun-card {
+  border: 1.5px solid;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: background 0.2s;
+}
+
+.gr-noun-card-hd {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  cursor: pointer;
+  gap: 0.75rem;
+  text-align: left;
+}
+
+.gr-noun-card-title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.gr-noun-type-badge {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+}
+
+.gr-noun-dev  { font-size: 0.95rem; }
+.gr-noun-iast { font-size: 0.82rem; color: var(--text-secondary); }
+.gr-noun-chevron { font-size: 0.7rem; flex-shrink: 0; }
+
+.gr-noun-body {
+  padding: 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.gr-noun-def {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  padding-top: 0.25rem;
+}
+
+.gr-noun-section-label {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: -0.25rem;
+}
+
+.gr-noun-words {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  gap: 0.5rem;
+}
+
+.gr-noun-word {
+  border: 1px solid;
+  border-radius: var(--radius-sm);
+  padding: 0.45rem 0.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  background: var(--bg-elevated);
+}
+
+.gr-noun-word-dev  { font-size: 1.1rem; }
+.gr-noun-word-iast { font-size: 0.78rem; font-style: italic; color: var(--text-secondary); }
+.gr-noun-word-en   { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.1rem; }
+
+.gr-noun-sentences { display: flex; flex-direction: column; gap: 0.5rem; }
+
+.gr-noun-sentence {
+  border-left: 3px solid;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-elevated);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.gr-noun-sent-dev  { font-size: 1.2rem; }
+.gr-noun-sent-iast { font-size: 0.88rem; font-style: italic; color: var(--text-secondary); }
+.gr-noun-sent-en   { font-size: 0.88rem; color: var(--text-muted); }

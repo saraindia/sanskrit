@@ -143,7 +143,10 @@ function AppShell() {
         <Routes>
           <Route path="/"           element={<Dashboard />} />
           <Route path="/study"      element={<StudyHub />} />
-          <Route path="/grammar"    element={<GrammarPage />} />
+          <Route path="/grammar"                    element={<GrammarPage />} />
+          <Route path="/grammar/tenses"             element={<GrammarPage />} />
+          <Route path="/grammar/tenses/:lessonId"   element={<GrammarPage />} />
+          <Route path="/grammar/:lessonId"           element={<GrammarPage />} />
           <Route path="/texts"      element={<TextsHub />} />
           <Route path="/flashcards" element={<Flashcards />} />
           <Route path="/drill"      element={<DrillSentences />} />
@@ -296,7 +299,7 @@ function AppRoot() {
 
       <PaywallModal />
 
-      {showPrompt && (
+      {false && showPrompt && (
         <InstallPrompt
           platform={platform}
           nativePrompt={nativePrompt}
