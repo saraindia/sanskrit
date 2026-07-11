@@ -1333,3 +1333,258 @@
   text-transform: uppercase;
   color: var(--text-muted);
 }
+
+/* ── Vibhakti Lesson ─────────────────────────────────────────────────────── */
+
+/* Mnemonic banner */
+.vib-mnemonic-bar {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+.vib-mnemonic-title {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.6rem;
+}
+.vib-mnemonic-chain {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.vib-mnemonic-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  font-family: inherit;
+  background: transparent;
+}
+.vib-chip-num { font-size: 0.65rem; color: var(--text-muted); }
+.vib-chip-marker { font-size: 0.88rem; color: var(--text); font-weight: 600; }
+.vib-mnemonic-hint {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-style: italic;
+  letter-spacing: 0.04em;
+}
+
+/* Tab nav — reuse gr-tab-bar, already styled */
+
+/* Learn tab */
+.vib-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+.vib-nav-btn {
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.vib-nav-btn:hover { color: var(--text); border-color: var(--text-muted); }
+.vib-nav-num { font-size: 0.7rem; opacity: 0.7; }
+
+/* Card */
+.vib-card {
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 1.1rem 1.2rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.25s, background 0.25s;
+}
+.vib-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  margin-bottom: 0.8rem;
+}
+.vib-badge-emoji { font-size: 2rem; line-height: 1; margin-top: 0.1rem; }
+.vib-card-title-group { flex: 1; }
+.vib-card-num  { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; opacity: 0.8; }
+.vib-card-name { font-size: 1.25rem; font-weight: 700; line-height: 1.2; }
+.vib-card-role { font-size: 0.9rem; color: var(--text-muted); margin-top: 0.15rem; }
+.vib-hindi-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 0.3rem 0.6rem;
+  min-width: 4.5rem;
+  text-align: center;
+}
+.vib-hindi-label { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.7; }
+.vib-hindi-word  { font-size: 1.1rem; font-weight: 700; }
+
+.vib-card-desc     { font-size: 0.95rem; color: var(--text); margin-bottom: 0.5rem; line-height: 1.5; }
+.vib-card-question { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.4rem; }
+.vib-card-tip      { font-size: 0.88rem; color: var(--text-muted); font-style: italic; margin-bottom: 0.6rem; }
+.vib-prep-row      { display: flex; align-items: center; gap: 0.5rem; font-size: 0.88rem; }
+.vib-prep-label    { color: var(--text-muted); }
+.vib-prep-value    { font-weight: 600; }
+
+/* Examples */
+.vib-examples-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+}
+.vib-examples { display: flex; flex-direction: column; gap: 0.65rem; margin-bottom: 1rem; }
+.vib-example-card {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  background: rgba(255,255,255,0.02);
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+.vib-ex-num {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding-top: 0.1rem;
+  min-width: 2rem;
+}
+.vib-ex-body { flex: 1; }
+.vib-ex-sa-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+.vib-ex-sa   { font-size: 1.2rem; }
+.vib-ex-iast { font-size: 0.85rem; color: var(--text-muted); font-style: italic; margin-bottom: 0.15rem; }
+.vib-ex-en   { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.4rem; }
+.vib-ex-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.vib-ex-hl-label { font-size: 0.78rem; color: var(--text-muted); }
+.vib-hl {
+  background: rgba(255,200,0,0.22);
+  color: var(--gold);
+  border-radius: 3px;
+  padding: 0 2px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Prev / Next */
+.vib-prev-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+}
+.vib-nav-arrow {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--text);
+  transition: background 0.15s;
+}
+.vib-nav-arrow:hover:not(:disabled) { background: rgba(255,255,255,0.06); }
+.vib-nav-arrow:disabled { opacity: 0.3; cursor: default; }
+.vib-pager { font-size: 0.85rem; color: var(--text-muted); }
+
+/* Table tab */
+.vib-table-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.75rem;
+}
+.vib-iast-toggle {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  transition: background 0.15s, color 0.15s;
+}
+.vib-iast-toggle.active { background: rgba(255,255,255,0.07); color: var(--text); }
+
+.vib-table-scroll { overflow-x: auto; }
+.vib-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.vib-table th {
+  text-align: left;
+  padding: 0.55rem 0.75rem;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+.vib-th-case { width: 11rem; }
+.vib-tr { transition: background 0.12s; }
+.vib-tr:hover { background: rgba(255,255,255,0.03); }
+.vib-tr-active { background: rgba(255,255,255,0.05) !important; }
+.vib-td-case {
+  padding: 0.55rem 0.75rem;
+  border-left: 3px solid transparent;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.vib-td-badge { font-size: 1rem; }
+.vib-td-num   { font-size: 0.7rem; font-weight: 700; }
+.vib-td-name  { font-size: 0.82rem; font-weight: 600; }
+.vib-td-hint  { font-size: 0.75rem; color: var(--text-muted); margin-left: auto; }
+.vib-td-form  {
+  padding: 0.55rem 0.75rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  vertical-align: middle;
+}
+.vib-form-dev  { display: block; font-size: 1.05rem; }
+.vib-form-iast { display: block; font-size: 0.78rem; color: var(--text-muted); font-style: italic; }
+.vib-spk { font-size: 0.75rem !important; padding: 0.1rem 0.25rem !important; opacity: 0.6; }
+.vib-spk:hover { opacity: 1; }
+
+.vib-table-tip {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.85rem;
+}

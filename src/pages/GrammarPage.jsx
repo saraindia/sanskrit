@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate, useParams, Navigate } from 'react-router-dom'
 import { LESSONS, PRONOUNS, ENDINGS, VERBS, QA_PAIRS, OBJ_VERB_SENTENCES,
          VERB_EXAMPLES, TENSE_EXAMPLES, TENSES, PURUSHAS, VACHANAMS, LINGAS, PRONOUN_TABLE,
-         GENDER_DATA, GENDER_NOUNS_100 } from '../data/grammar.js'
+         GENDER_DATA, GENDER_NOUNS_100, VIBHAKTI_LIST, VIBHAKTI_NOUNS } from '../data/grammar.js'
 import HubBack from '../components/HubBack.jsx'
 import { useSoundEffects } from '../hooks/useSoundEffects.js'
 import { useSpeech } from '../hooks/useSpeech.js'
@@ -2543,6 +2543,241 @@ function QuestionExplorerLesson() {
   )
 }
 
+// ── VibhaktiLesson ───────────────────────────────────────────────────────────
+const VIB_COLOR = {
+  teal:   { bg:'rgba(0,200,180,0.10)', border:'rgba(0,200,180,0.35)', text:'var(--teal)'    },
+  saffron:{ bg:'rgba(255,153,0,0.10)', border:'rgba(255,153,0,0.35)', text:'var(--saffron)' },
+  gold:   { bg:'rgba(212,175,55,0.10)',border:'rgba(212,175,55,0.35)',text:'var(--gold)'    },
+  purple: { bg:'rgba(160,90,220,0.10)',border:'rgba(160,90,220,0.35)',text:'#b07de0'        },
+  blue:   { bg:'rgba(80,140,255,0.10)',border:'rgba(80,140,255,0.35)',text:'#7aaeff'        },
+  green:  { bg:'rgba(80,200,100,0.10)',border:'rgba(80,200,100,0.35)',text:'#6dcf7f'        },
+  orange: { bg:'rgba(255,120,50,0.10)',border:'rgba(255,120,50,0.35)',text:'#ff8c42'        },
+  red:    { bg:'rgba(220,60,60,0.10)', border:'rgba(220,60,60,0.35)', text:'#e06060'        },
+}
+
+function VibhaktiLesson() {
+  const { play } = useSoundEffects()
+  const { speak } = useSpeech()
+  const [tab,        setTab]        = useState('learn')   // 'learn' | 'table'
+  const [activeV,    setActiveV]    = useState(0)         // index into VIBHAKTI_LIST
+  const [activeNoun, setActiveNoun] = useState('rama')
+  const [showIast,   setShowIast]   = useState(false)
+
+  const vib  = VIBHAKTI_LIST[activeV]
+  const noun = VIBHAKTI_NOUNS.find(n => n.id === activeNoun)
+  const c    = VIB_COLOR[vib.color]
+
+  const vacLabels = { sg: 'Singular · एकवचन', du: 'Dual · द्विवचन', pl: 'Plural · बहुवचन' }
+
+  const highlightSa = (sentence, hl) => {
+    if (!hl || !sentence.includes(hl)) return <span>{sentence}</span>
+    const parts = sentence.split(hl)
+    return <span>{parts[0]}<mark className="vib-hl">{hl}</mark>{parts[1]}</span>
+  }
+
+  const verifyUrl = (sa) =>
+    `https://translate.google.com/?sl=sa&tl=en&text=${encodeURIComponent(sa)}&op=translate`
+
+  return (
+    <div className="gr-lesson vib-lesson">
+      {/* Mnemonic banner */}
+      <div className="vib-mnemonic-bar">
+        <div className="vib-mnemonic-title">🧠 Mnemonic — chant this to remember all 8:</div>
+        <div className="vib-mnemonic-chain">
+          {VIBHAKTI_LIST.map((v, i) => {
+            const cv = VIB_COLOR[v.color]
+            return (
+              <button key={v.id}
+                className={`vib-mnemonic-chip${activeV === i && tab === 'learn' ? ' active' : ''}`}
+                style={{ borderColor: cv.border, color: cv.text, background: activeV === i && tab === 'learn' ? cv.bg : 'transparent' }}
+                onClick={() => { play('tap'); setTab('learn'); setActiveV(i) }}
+              >
+                <span className="vib-chip-num">{v.num}</span>
+                <span className="vib-chip-marker">{v.hindiMarker}</span>
+              </button>
+            )
+          })}
+        </div>
+        <div className="vib-mnemonic-hint">ने · को · से · के-लिए · से · का/की/के · में · हे</div>
+      </div>
+
+      {/* Tab bar */}
+      <div className="gr-tab-bar" style={{marginBottom:'1.25rem'}}>
+        {[['learn','📖 Learn Cases'],['table','📊 Declension Table']].map(([t, label]) => (
+          <button key={t} className={`gr-tab-btn${tab === t ? ' active' : ''}`}
+            onClick={() => { play('tap'); setTab(t) }}>{label}</button>
+        ))}
+      </div>
+
+      {/* ── LEARN TAB ── */}
+      {tab === 'learn' && (
+        <div className="vib-learn">
+          {/* Vibhakti nav pills */}
+          <div className="vib-nav">
+            {VIBHAKTI_LIST.map((v, i) => {
+              const cv = VIB_COLOR[v.color]
+              return (
+                <button key={v.id}
+                  className={`vib-nav-btn${activeV === i ? ' active' : ''}`}
+                  style={activeV === i ? { background: cv.bg, borderColor: cv.border, color: cv.text } : {}}
+                  onClick={() => { play('tap'); setActiveV(i) }}
+                >
+                  <span className="vib-nav-num">{v.num}</span>
+                  <span className="vib-nav-name">{v.iast}</span>
+                </button>
+              )
+            })}
+          </div>
+
+          {/* Main card */}
+          <div className="vib-card" style={{ borderColor: c.border, background: c.bg }}>
+            {/* Header */}
+            <div className="vib-card-header">
+              <span className="vib-badge-emoji">{vib.badge}</span>
+              <div className="vib-card-title-group">
+                <div className="vib-card-num" style={{ color: c.text }}>Vibhakti {vib.num}</div>
+                <div className="vib-card-name" style={{ color: c.text }}>{vib.dev} · {vib.iast}</div>
+                <div className="vib-card-role">{vib.karakaEn}</div>
+              </div>
+              <div className="vib-hindi-chip" style={{ borderColor: c.border, color: c.text }}>
+                <span className="vib-hindi-label">Hindi marker</span>
+                <span className="vib-hindi-word">{vib.hindiMarker}</span>
+              </div>
+            </div>
+
+            {/* Question + description */}
+            <div className="vib-card-desc">{vib.desc}</div>
+            <div className="vib-card-question">❓ {vib.question}</div>
+            <div className="vib-card-tip">💡 {vib.tip}</div>
+
+            {/* Prep tag */}
+            {vib.prep !== '—' && (
+              <div className="vib-prep-row">
+                <span className="vib-prep-label">English equivalent:</span>
+                <span className="vib-prep-value" style={{ color: c.text }}>{vib.prep}</span>
+              </div>
+            )}
+          </div>
+
+          {/* Example sentences */}
+          <div className="vib-examples-label">Example Sentences · उदाहरणानि</div>
+          <div className="vib-examples">
+            {vib.examples.map((ex, i) => (
+              <div key={i} className="vib-example-card" style={{ borderColor: c.border }}>
+                <div className="vib-ex-num" style={{ color: c.text }}>Ex {i + 1}</div>
+                <div className="vib-ex-body">
+                  <div className="vib-ex-sa-row">
+                    <span className="gr-dev vib-ex-sa">{highlightSa(ex.sa, ex.hl)}</span>
+                    <button className="gr-spk-btn" onClick={() => { play('tap'); speak(ex.sa) }} title="Listen">🔊</button>
+                  </div>
+                  <div className="gr-iast vib-ex-iast">{ex.iast}</div>
+                  <div className="gr-en vib-ex-en">{ex.en}</div>
+                  <div className="vib-ex-footer">
+                    <span className="vib-ex-hl-label">
+                      Highlighted form: <span style={{ color: c.text }}>{ex.hl}</span>
+                      {' '}(vibhakti {vib.num} singular)
+                    </span>
+                    <a className="gr-verify-link"
+                      href={verifyUrl(ex.sa)} target="_blank" rel="noopener noreferrer">
+                      🔍 Verify translation
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Prev / Next */}
+          <div className="vib-prev-next">
+            <button className="vib-nav-arrow" disabled={activeV === 0}
+              onClick={() => { play('tap'); setActiveV(v => v - 1) }}>‹ Prev</button>
+            <span className="vib-pager">{activeV + 1} / {VIBHAKTI_LIST.length}</span>
+            <button className="vib-nav-arrow" disabled={activeV === VIBHAKTI_LIST.length - 1}
+              onClick={() => { play('tap'); setActiveV(v => v + 1) }}>Next ›</button>
+          </div>
+        </div>
+      )}
+
+      {/* ── TABLE TAB ── */}
+      {tab === 'table' && (
+        <div className="vib-table-view">
+          {/* Noun picker */}
+          <div className="gr-select-row">
+            <label className="gr-select-label">NOUN · नाम</label>
+            <div className="gr-select-wrap">
+              <select className="gr-select" value={activeNoun}
+                onChange={e => { play('tap'); setActiveNoun(e.target.value) }}>
+                {VIBHAKTI_NOUNS.map(n => (
+                  <option key={n.id} value={n.id}>
+                    {n.dev} ({n.iast}) — {n.en} · {n.stem}
+                  </option>
+                ))}
+              </select>
+              <span className="gr-select-arrow">⌄</span>
+            </div>
+          </div>
+
+          {/* IAST toggle */}
+          <div className="vib-table-controls">
+            <button className={`vib-iast-toggle${showIast ? ' active' : ''}`}
+              onClick={() => { play('tap'); setShowIast(v => !v) }}>
+              {showIast ? 'Hide' : 'Show'} IAST
+            </button>
+          </div>
+
+          {/* Declension table */}
+          <div className="vib-table-scroll">
+            <table className="vib-table">
+              <thead>
+                <tr>
+                  <th className="vib-th-case">Case</th>
+                  <th>Singular · एकवचन</th>
+                  <th>Dual · द्विवचन</th>
+                  <th>Plural · बहुवचन</th>
+                </tr>
+              </thead>
+              <tbody>
+                {VIBHAKTI_LIST.map((v, i) => {
+                  const cv   = VIB_COLOR[v.color]
+                  const vkey = `v${v.num}`
+                  const forms  = noun.forms[vkey]
+                  const iforms = noun.iast_forms[vkey]
+                  return (
+                    <tr key={v.id}
+                      className={`vib-tr${activeV === i && tab === 'table' ? ' vib-tr-active' : ''}`}
+                      onClick={() => { play('tap'); setActiveV(i) }}
+                      style={{ cursor: 'pointer' }}
+                    >
+                      <td className="vib-td-case" style={{ borderLeftColor: cv.text }}>
+                        <span className="vib-td-badge">{v.badge}</span>
+                        <span className="vib-td-num" style={{ color: cv.text }}>{v.num}</span>
+                        <span className="vib-td-name" style={{ color: cv.text }}>{v.iast}</span>
+                        <span className="vib-td-hint">{v.hindiMarker}</span>
+                      </td>
+                      {['sg','du','pl'].map(vac => (
+                        <td key={vac} className="vib-td-form">
+                          <span className="vib-form-dev">{forms[vac]}</span>
+                          {showIast && <span className="vib-form-iast">{iforms[vac]}</span>}
+                          <button className="gr-spk-btn vib-spk" title="Listen"
+                            onClick={e => { e.stopPropagation(); play('tap'); speak(forms[vac]) }}>🔊</button>
+                        </td>
+                      ))}
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+          </div>
+          <div className="vib-table-tip">
+            💡 Tap any row to see its examples in the Learn tab.
+            The highlighted row is the currently selected case.
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
 const LESSON_VIEWS = {
   pronouns:   PronounsLesson,
   endings:    EndingsLesson,
@@ -2552,6 +2787,7 @@ const LESSON_VIEWS = {
   qa:         QALesson,
   explorer:   ExplorerLesson,
   questions:  QuestionExplorerLesson,
+  vibhakti:   VibhaktiLesson,
   gender:     GenderLesson,
   vachanam:   VachanamLesson,
   nouns:      NounsLesson,
@@ -2565,7 +2801,7 @@ const LESSON_VIEWS = {
 const TENSES_LESSON_IDS = ['endings','verbs','imperfect','future','imperative','optative','explorer','questions']
 
 // Lessons shown directly on the Grammar home page
-const HOME_LESSON_IDS = ['nouns','gender','vachanam','pronouns','negative','objects','qa']
+const HOME_LESSON_IDS = ['nouns','gender','vachanam','pronouns','vibhakti','negative','objects','qa']
 
 const TENSES_GROUPS = [
   { label: 'Present Tense', labelDev: 'लट् लकार', ids: ['verbs'] },
