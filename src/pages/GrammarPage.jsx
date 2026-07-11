@@ -2581,7 +2581,6 @@ function VibhaktiLesson() {
   const [tab,        setTab]        = useState('learn')   // 'learn' | 'table'
   const [activeV,    setActiveV]    = useState(0)         // index into VIBHAKTI_LIST
   const [activeNoun, setActiveNoun] = useState('rama')
-  const [showIast,   setShowIast]   = useState(false)
   const [nounCat,    setNounCat]    = useState('all')
 
   const vib  = VIBHAKTI_LIST[activeV]
@@ -2753,14 +2752,6 @@ function VibhaktiLesson() {
             </select>
           </div>
 
-          {/* IAST toggle */}
-          <div className="vib-table-controls">
-            <button className={`vib-iast-toggle${showIast ? ' active' : ''}`}
-              onClick={() => { play('tap'); setShowIast(v => !v) }}>
-              {showIast ? 'Hide' : 'Show'} IAST
-            </button>
-          </div>
-
           {/* Declension table */}
           <div className="vib-table-scroll">
             <table className="vib-table">
@@ -2792,10 +2783,11 @@ function VibhaktiLesson() {
                       </td>
                       {['sg','du','pl'].map(vac => (
                         <td key={vac} className="vib-td-form">
-                          <span className="vib-form-dev">{forms[vac]}</span>
-                          {showIast && <span className="vib-form-iast">{iforms[vac]}</span>}
-                          <button className="gr-spk-btn vib-spk" title="Listen"
-                            onClick={e => { e.stopPropagation(); play('tap'); speak(forms[vac]) }}>🔊</button>
+                          <div className="gr-spk-row">
+                            <span className="vib-form-dev">{forms[vac]}</span>
+                            <Spk text={forms[vac]} small />
+                          </div>
+                          <span className="vib-form-iast">{iforms[vac]}</span>
                         </td>
                       ))}
                     </tr>
