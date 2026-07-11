@@ -2582,6 +2582,7 @@ function VibhaktiLesson() {
   const [activeV,    setActiveV]    = useState(0)         // index into VIBHAKTI_LIST
   const [activeNoun, setActiveNoun] = useState('rama')
   const [showIast,   setShowIast]   = useState(false)
+  const [nounCat,    setNounCat]    = useState('all')
 
   const vib  = VIBHAKTI_LIST[activeV]
   const noun = VIBHAKTI_NOUNS.find(n => n.id === activeNoun)
@@ -2721,28 +2722,35 @@ function VibhaktiLesson() {
       {/* ── TABLE TAB ── */}
       {tab === 'table' && (
         <div className="vib-table-view">
-          {/* Noun picker */}
-          <div className="gr-select-row">
-            <label className="gr-select-label">NOUN · नाम</label>
-            <div className="gr-select-wrap">
-              <select className="gr-select" value={activeNoun}
-                onChange={e => { play('tap'); setActiveNoun(e.target.value) }}>
-                {VIBHAKTI_NOUN_CATEGORIES.map(cat => {
-                  const nouns = VIBHAKTI_NOUNS.filter(n => n.category === cat.id)
-                  if (!nouns.length) return null
-                  return (
-                    <optgroup key={cat.id} label={`${cat.label} · ${cat.labelDev}`}>
-                      {nouns.map(n => (
-                        <option key={n.id} value={n.id}>
-                          {n.dev} ({n.iast}) — {n.en}
-                        </option>
-                      ))}
-                    </optgroup>
-                  )
-                })}
-              </select>
-              <span className="gr-select-arrow">⌄</span>
+          {/* Noun picker — category pills + styled dropdown (same as Gender Explorer) */}
+          <div className="gr-example-title" style={{marginBottom:'0.6rem'}}>Select a Noun · नाम चिनोतु</div>
+          <div className="gr-gender-lookup">
+            <div className="gr-gender-filter-row">
+              <button className={`gr-gender-cat-btn${nounCat === 'all' ? ' active' : ''}`}
+                onClick={() => { play('tap'); setNounCat('all'); setActiveNoun('rama') }}>All</button>
+              {VIBHAKTI_NOUN_CATEGORIES.map(cat => (
+                <button key={cat.id}
+                  className={`gr-gender-cat-btn${nounCat === cat.id ? ' active' : ''}`}
+                  onClick={() => {
+                    play('tap')
+                    setNounCat(cat.id)
+                    const first = VIBHAKTI_NOUNS.find(n => n.category === cat.id)
+                    if (first) setActiveNoun(first.id)
+                  }}>
+                  {cat.label}
+                </button>
+              ))}
             </div>
+            <select className="gr-verb-select" value={activeNoun}
+              onChange={e => { play('tap'); setActiveNoun(e.target.value) }}>
+              {VIBHAKTI_NOUNS
+                .filter(n => nounCat === 'all' || n.category === nounCat)
+                .map(n => (
+                  <option key={n.id} value={n.id}>
+                    {n.dev}  {n.iast}  —  {n.en}  ·  {n.stem}
+                  </option>
+                ))}
+            </select>
           </div>
 
           {/* IAST toggle */}
