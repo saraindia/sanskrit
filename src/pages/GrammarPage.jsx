@@ -2582,6 +2582,7 @@ function VibhaktiLesson() {
   const [activeV,    setActiveV]    = useState(0)         // index into VIBHAKTI_LIST
   const [activeNoun, setActiveNoun] = useState('rama')
   const [nounCat,    setNounCat]    = useState('names')
+  const [vachanam,   setVachanam]   = useState('sg')      // 'sg' | 'du' | 'pl'
 
   const vib  = VIBHAKTI_LIST[activeV]
   const noun = VIBHAKTI_NOUNS.find(n => n.id === activeNoun)
@@ -2600,6 +2601,17 @@ function VibhaktiLesson() {
 
   return (
     <div className="gr-lesson vib-lesson">
+      {/* Brief description */}
+      <div className="vib-intro">
+        <p>
+          In Sanskrit, a noun <strong>changes its ending</strong> depending on its role in the sentence —
+          whether it is the <em>subject</em>, <em>object</em>, <em>tool</em>, <em>recipient</em>, <em>source</em>,
+          <em> possessor</em>, <em>location</em>, or <em>someone being addressed</em>.
+          These endings are called <strong>Vibhakti · विभक्ति</strong> (cases), and there are <strong>8 of them</strong>,
+          each applying in three numbers: Singular · Dual · Plural.
+        </p>
+      </div>
+
       {/* Mnemonic banner */}
       <div className="vib-mnemonic-bar">
         <div className="vib-mnemonic-title">🧠 Mnemonic — chant this to remember all 8:</div>
@@ -2681,8 +2693,19 @@ function VibhaktiLesson() {
 
           {/* Example sentences */}
           <div className="vib-examples-label">Example Sentences · उदाहरणानि</div>
+          {/* Singular / Dual / Plural toggle */}
+          <div className="vib-vac-toggle">
+            {[['sg','Singular · एक'],['du','Dual · द्वि'],['pl','Plural · बहु']].map(([v, label]) => (
+              <button key={v}
+                className={`vib-vac-btn${vachanam === v ? ' active' : ''}`}
+                style={vachanam === v ? { borderColor: c.border, color: c.text, background: c.bg } : {}}
+                onClick={() => { play('tap'); setVachanam(v) }}>
+                {label}
+              </button>
+            ))}
+          </div>
           <div className="vib-examples">
-            {vib.examples.map((ex, i) => (
+            {(vachanam === 'sg' ? vib.examples : vachanam === 'du' ? vib.examples_du : vib.examples_pl).map((ex, i) => (
               <div key={i} className="vib-example-card" style={{ borderColor: c.border }}>
                 <div className="vib-ex-num" style={{ color: c.text }}>Ex {i + 1}</div>
                 <div className="vib-ex-body">
@@ -2695,7 +2718,7 @@ function VibhaktiLesson() {
                   <div className="vib-ex-footer">
                     <span className="vib-ex-hl-label">
                       Highlighted form: <span style={{ color: c.text }}>{ex.hl}</span>
-                      {' '}(vibhakti {vib.num} singular)
+                      {' '}(vibhakti {vib.num} · {vachanam === 'sg' ? 'singular' : vachanam === 'du' ? 'dual' : 'plural'})
                     </span>
                     <a className="gr-verify-link"
                       href={verifyUrl(ex.sa)} target="_blank" rel="noopener noreferrer">

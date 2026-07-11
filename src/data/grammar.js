@@ -1373,6 +1373,16 @@ export const VIBHAKTI_LIST = [
       { sa: 'बालकः खेलति।',      iast: 'bālakaḥ khelati.',       en: 'The boy plays.',            hl: 'बालकः' },
       { sa: 'सीता गायति।',       iast: 'sītā gāyati.',           en: 'Sītā sings.',               hl: 'सीता' },
     ],
+    examples_du: [
+      { sa: 'रामौ पठतः।',        iast: 'rāmau paṭhataḥ.',        en: 'The two Rāmas read.',       hl: 'रामौ' },
+      { sa: 'बालकौ खेलतः।',      iast: 'bālakau khelataḥ.',      en: 'The two boys play.',        hl: 'बालकौ' },
+      { sa: 'सीते गायतः।',       iast: 'sīte gāyataḥ.',          en: 'The two Sītās sing.',       hl: 'सीते' },
+    ],
+    examples_pl: [
+      { sa: 'रामाः पठन्ति।',     iast: 'rāmāḥ paṭhanti.',        en: 'The Rāmas read.',           hl: 'रामाः' },
+      { sa: 'बालकाः खेलन्ति।',   iast: 'bālakāḥ khelanti.',      en: 'The boys play.',            hl: 'बालकाः' },
+      { sa: 'सीताः गायन्ति।',    iast: 'sītāḥ gāyanti.',         en: 'The women sing.',           hl: 'सीताः' },
+    ],
   },
   {
     num: 2, id: 'v2',
@@ -1387,6 +1397,16 @@ export const VIBHAKTI_LIST = [
       { sa: 'रामः पुस्तकम् पठति।',   iast: 'rāmaḥ pustakam paṭhati.',    en: 'Rāma reads a book.',          hl: 'पुस्तकम्' },
       { sa: 'बालकः फलम् खादति।',     iast: 'bālakaḥ phalam khādati.',     en: 'The boy eats a fruit.',       hl: 'फलम्' },
       { sa: 'सा गुरुम् नमति।',        iast: 'sā gurum namati.',            en: 'She bows to the teacher.',    hl: 'गुरुम्' },
+    ],
+    examples_du: [
+      { sa: 'रामः पुस्तके पठति।',    iast: 'rāmaḥ pustake paṭhati.',     en: 'Rāma reads two books.',       hl: 'पुस्तके' },
+      { sa: 'बालकः फले खादति।',      iast: 'bālakaḥ phale khādati.',      en: 'The boy eats two fruits.',    hl: 'फले' },
+      { sa: 'सा गुरू नमति।',         iast: 'sā gurū namati.',             en: 'She bows to the two teachers.',hl: 'गुरू' },
+    ],
+    examples_pl: [
+      { sa: 'रामः पुस्तकानि पठति।',  iast: 'rāmaḥ pustakāni paṭhati.',   en: 'Rāma reads books.',           hl: 'पुस्तकानि' },
+      { sa: 'बालकाः फलानि खादन्ति।', iast: 'bālakāḥ phalāni khādanti.',   en: 'The boys eat fruits.',        hl: 'फलानि' },
+      { sa: 'ते गुरून् नमन्ति।',     iast: 'te gurūn namanti.',           en: 'They bow to the teachers.',   hl: 'गुरून्' },
     ],
   },
   {
@@ -1403,6 +1423,16 @@ export const VIBHAKTI_LIST = [
       { sa: 'सः मित्रेण सह गच्छति।', iast: 'saḥ mitreṇa saha gacchati.',  en: 'He goes with a friend.',      hl: 'मित्रेण' },
       { sa: 'बालकः हस्तेन खादति।',   iast: 'bālakaḥ hastena khādati.',    en: 'The boy eats with his hand.', hl: 'हस्तेन' },
     ],
+    examples_du: [
+      { sa: 'रामः कलमाभ्याम् लिखति।',    iast: 'rāmaḥ kalamābhyām likhati.',    en: 'Rāma writes with two pens.',      hl: 'कलमाभ्याम्' },
+      { sa: 'सः मित्राभ्याम् सह गच्छति।', iast: 'saḥ mitrābhyām saha gacchati.', en: 'He goes with two friends.',       hl: 'मित्राभ्याम्' },
+      { sa: 'बालकः हस्ताभ्याम् खादति।',  iast: 'bālakaḥ hastābhyām khādati.',   en: 'The boy eats with both hands.',   hl: 'हस्ताभ्याम्' },
+    ],
+    examples_pl: [
+      { sa: 'रामः कलमैः लिखति।',     iast: 'rāmaḥ kalamaiḥ likhati.',     en: 'Rāma writes with pens.',      hl: 'कलमैः' },
+      { sa: 'ते मित्रैः सह गच्छन्ति।',iast: 'te mitraiḥ saha gacchanti.',  en: 'They go with friends.',       hl: 'मित्रैः' },
+      { sa: 'बालकाः हस्तैः खादन्ति।', iast: 'bālakāḥ hastaiḥ khādanti.',   en: 'The boys eat with their hands.',hl: 'हस्तैः' },
+    ],
   },
   {
     num: 4, id: 'v4',
@@ -1417,6 +1447,16 @@ export const VIBHAKTI_LIST = [
       { sa: 'माता बालकाय फलम् ददाति।', iast: 'mātā bālakāya phalam dadāti.',   en: 'Mother gives fruit to the child.', hl: 'बालकाय' },
       { sa: 'रामः गुरवे नमति।',         iast: 'rāmaḥ gurave namati.',            en: 'Rāma bows to the teacher.',        hl: 'गुरवे' },
       { sa: 'सः देवाय पुष्पम् अर्पयति।',iast: 'saḥ devāya puṣpam arpayati.',   en: 'He offers a flower to the god.',   hl: 'देवाय' },
+    ],
+    examples_du: [
+      { sa: 'माता बालकाभ्याम् फलम् ददाति।', iast: 'mātā bālakābhyām phalam dadāti.',  en: 'Mother gives fruit to the two children.', hl: 'बालकाभ्याम्' },
+      { sa: 'रामः गुरुभ्याम् नमति।',          iast: 'rāmaḥ gurubhyām namati.',           en: 'Rāma bows to the two teachers.',          hl: 'गुरुभ्याम्' },
+      { sa: 'सः देवाभ्याम् पुष्पम् अर्पयति।', iast: 'saḥ devābhyām puṣpam arpayati.',   en: 'He offers flowers to the two gods.',      hl: 'देवाभ्याम्' },
+    ],
+    examples_pl: [
+      { sa: 'माता बालकेभ्यः फलम् ददाति।', iast: 'mātā bālakebhyaḥ phalam dadāti.',  en: 'Mother gives fruit to the children.', hl: 'बालकेभ्यः' },
+      { sa: 'रामः गुरुभ्यः नमति।',          iast: 'rāmaḥ gurubhyaḥ namati.',           en: 'Rāma bows to the teachers.',          hl: 'गुरुभ्यः' },
+      { sa: 'सः देवेभ्यः पुष्पम् अर्पयति।', iast: 'saḥ devebhyaḥ puṣpam arpayati.',   en: 'He offers flowers to the gods.',      hl: 'देवेभ्यः' },
     ],
   },
   {
@@ -1433,6 +1473,16 @@ export const VIBHAKTI_LIST = [
       { sa: 'फलम् वृक्षात् पतति।',     iast: 'phalam vṛkṣāt patati.',         en: 'The fruit falls from the tree.', hl: 'वृक्षात्' },
       { sa: 'जलम् नद्याः वहति।',       iast: 'jalam nadyāḥ vahati.',           en: 'Water flows from the river.',   hl: 'नद्याः' },
     ],
+    examples_du: [
+      { sa: 'रामः ग्रामाभ्याम् आगच्छति।', iast: 'rāmaḥ grāmābhyām āgacchati.',   en: 'Rāma comes from the two villages.', hl: 'ग्रामाभ्याम्' },
+      { sa: 'फले वृक्षाभ्याम् पततः।',    iast: 'phale vṛkṣābhyām patataḥ.',     en: 'Two fruits fall from the two trees.', hl: 'वृक्षाभ्याम्' },
+      { sa: 'जलम् नदीभ्याम् वहति।',      iast: 'jalam nadībhyām vahati.',        en: 'Water flows from the two rivers.',  hl: 'नदीभ्याम्' },
+    ],
+    examples_pl: [
+      { sa: 'ते ग्रामेभ्यः आगच्छन्ति।',  iast: 'te grāmebhyaḥ āgacchanti.',     en: 'They come from the villages.',      hl: 'ग्रामेभ्यः' },
+      { sa: 'फलानि वृक्षेभ्यः पतन्ति।',  iast: 'phalāni vṛkṣebhyaḥ patanti.',   en: 'Fruits fall from the trees.',       hl: 'वृक्षेभ्यः' },
+      { sa: 'जलम् नदीभ्यः वहति।',        iast: 'jalam nadībhyaḥ vahati.',        en: 'Water flows from the rivers.',      hl: 'नदीभ्यः' },
+    ],
   },
   {
     num: 6, id: 'v6',
@@ -1447,6 +1497,16 @@ export const VIBHAKTI_LIST = [
       { sa: 'रामस्य पुस्तकम्।',        iast: 'rāmasya pustakam.',             en: 'Rāma\'s book.',             hl: 'रामस्य' },
       { sa: 'बालकस्य माता गायति।',     iast: 'bālakasya mātā gāyati.',        en: 'The boy\'s mother sings.',  hl: 'बालकस्य' },
       { sa: 'देवस्य मन्दिरम् अत्र अस्ति।', iast: 'devasya mandiram atra asti.', en: 'The god\'s temple is here.', hl: 'देवस्य' },
+    ],
+    examples_du: [
+      { sa: 'रामयोः पुस्तकम्।',        iast: 'rāmayoḥ pustakam.',             en: 'The book of the two Rāmas.',       hl: 'रामयोः' },
+      { sa: 'बालकयोः माता गायति।',     iast: 'bālakayoḥ mātā gāyati.',        en: 'The mother of the two boys sings.', hl: 'बालकयोः' },
+      { sa: 'देवयोः मन्दिरे अत्र स्तः।', iast: 'devayoḥ mandire atra staḥ.',  en: 'The two gods\' temples are here.', hl: 'देवयोः' },
+    ],
+    examples_pl: [
+      { sa: 'रामाणाम् पुस्तकानि।',     iast: 'rāmāṇām pustakāni.',            en: 'The books of the Rāmas.',         hl: 'रामाणाम्' },
+      { sa: 'बालकानाम् माता गायति।',   iast: 'bālakānām mātā gāyati.',        en: 'The mother of the boys sings.',   hl: 'बालकानाम्' },
+      { sa: 'देवानाम् मन्दिराणि सन्ति।', iast: 'devānām mandirāṇi santi.',    en: 'The temples of the gods exist.',  hl: 'देवानाम्' },
     ],
   },
   {
@@ -1463,6 +1523,16 @@ export const VIBHAKTI_LIST = [
       { sa: 'बालकः वने क्रीडति।',      iast: 'bālakaḥ vane krīḍati.',          en: 'The boy plays in the forest.',  hl: 'वने' },
       { sa: 'पुस्तकम् पेटिकायाम् अस्ति।', iast: 'pustakam peṭikāyām asti.',   en: 'The book is in the box.',       hl: 'पेटिकायाम्' },
     ],
+    examples_du: [
+      { sa: 'रामः गृहयोः मध्ये तिष्ठति।', iast: 'rāmaḥ gṛhayoḥ madhye tiṣṭhati.', en: 'Rāma stands between the two houses.', hl: 'गृहयोः' },
+      { sa: 'बालकः वनयोः क्रीडति।',        iast: 'bālakaḥ vanayoḥ krīḍati.',        en: 'The boy plays between the two forests.', hl: 'वनयोः' },
+      { sa: 'पुस्तके पेटिकयोः स्तः।',      iast: 'pustake peṭikayoḥ staḥ.',          en: 'Two books are in the two boxes.',     hl: 'पेटिकयोः' },
+    ],
+    examples_pl: [
+      { sa: 'रामः गृहेषु भ्रमति।',     iast: 'rāmaḥ gṛheṣu bhramati.',        en: 'Rāma wanders through the houses.', hl: 'गृहेषु' },
+      { sa: 'बालकाः वनेषु क्रीडन्ति।', iast: 'bālakāḥ vaneṣu krīḍanti.',      en: 'The boys play in the forests.',    hl: 'वनेषु' },
+      { sa: 'पुस्तकानि पेटिकासु सन्ति।', iast: 'pustakāni peṭikāsu santi.',    en: 'Books are in the boxes.',          hl: 'पेटिकासु' },
+    ],
   },
   {
     num: 8, id: 'v8',
@@ -1477,6 +1547,16 @@ export const VIBHAKTI_LIST = [
       { sa: 'हे राम! इह आगच्छ।',       iast: 'he rāma! iha āgaccha.',          en: 'O Rāma! Come here.',        hl: 'राम' },
       { sa: 'हे देव! त्वम् रक्ष।',     iast: 'he deva! tvam rakṣa.',           en: 'O God! You protect.',       hl: 'देव' },
       { sa: 'हे बालक! पठ।',            iast: 'he bālaka! paṭha.',              en: 'O boy! Read.',              hl: 'बालक' },
+    ],
+    examples_du: [
+      { sa: 'हे रामौ! इह आगच्छतम्।',   iast: 'he rāmau! iha āgacchatam.',     en: 'O two Rāmas! Come here (both)!', hl: 'रामौ' },
+      { sa: 'हे देवौ! युवाम् रक्षतम्।', iast: 'he devau! yuvām rakṣatam.',     en: 'O two Gods! Both of you protect!', hl: 'देवौ' },
+      { sa: 'हे बालकौ! पठतम्।',        iast: 'he bālakau! paṭhatam.',          en: 'O two boys! Read (both)!',      hl: 'बालकौ' },
+    ],
+    examples_pl: [
+      { sa: 'हे रामाः! इह आगच्छत।',    iast: 'he rāmāḥ! iha āgacchata.',      en: 'O Rāmas! Come here (all)!',     hl: 'रामाः' },
+      { sa: 'हे देवाः! यूयम् रक्षत।',  iast: 'he devāḥ! yūyam rakṣata.',      en: 'O Gods! All of you protect!',   hl: 'देवाः' },
+      { sa: 'हे बालकाः! पठत।',         iast: 'he bālakāḥ! paṭhata.',           en: 'O boys! Read (all)!',           hl: 'बालकाः' },
     ],
   },
 ]
