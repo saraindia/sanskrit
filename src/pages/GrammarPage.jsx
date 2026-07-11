@@ -553,17 +553,22 @@ function EndingsLesson() {
         Every Class 1 present tense verb = <strong>stem + a + ending</strong>.
         Memorise these 9 endings and you can conjugate any Class 1 verb.
       </div>
-      <table className="gr-table">
+      <table className="gr-table gr-table-vac">
         <thead>
-          <tr><th>Person</th><th>Singular</th><th>Dual</th><th>Plural</th></tr>
+          <tr>
+            <th>Person</th>
+            <th className="vac-sg">Singular · एक</th>
+            <th className="vac-du">Dual · द्वि</th>
+            <th className="vac-pl">Plural · बहु</th>
+          </tr>
         </thead>
         <tbody>
           {ENDINGS.present.map(row => (
             <tr key={row.person}>
               <td className="gr-person">{row.person}</td>
-              <td><span className="gr-iast">{row.sg}</span></td>
-              <td><span className="gr-iast">{row.du}</span></td>
-              <td><span className="gr-iast">{row.pl}</span></td>
+              <td className="vac-sg"><span className="gr-iast vac-iast-sg">{row.sg}</span></td>
+              <td className="vac-du"><span className="gr-iast vac-iast-du">{row.du}</span></td>
+              <td className="vac-pl"><span className="gr-iast vac-iast-pl">{row.pl}</span></td>
             </tr>
           ))}
         </tbody>
@@ -611,14 +616,19 @@ function EndingsLesson() {
         <span className="gr-iast">stem: {verb.stemIast}</span>
       </div>
       {verb.note && <div className="gr-tip">⚠️ {verb.note}</div>}
-      <table className="gr-table">
-        <thead><tr><th>Person</th><th>Singular</th><th>Dual</th><th>Plural</th></tr></thead>
+      <table className="gr-table gr-table-vac">
+        <thead><tr>
+          <th>Person</th>
+          <th className="vac-sg">Singular · एक</th>
+          <th className="vac-du">Dual · द्वि</th>
+          <th className="vac-pl">Plural · बहु</th>
+        </tr></thead>
         <tbody>
           {VERB_FORM_ROWS.map(row => (
             <tr key={row.label}>
               <td className="gr-person">{row.label}</td>
-              {row.keys.map(key => (
-                <td key={key}>
+              {row.keys.map((key, ci) => (
+                <td key={key} className={['vac-sg','vac-du','vac-pl'][ci]}>
                   <div className="gr-spk-row"><span className="gr-dev">{verb.forms[key][0]}</span><Spk text={verb.forms[key][0]} small /></div>
                   <span className="gr-iast">{verb.forms[key][1]}</span><br/>
                   <span className="gr-en">{verb.forms[key][2]}</span>
