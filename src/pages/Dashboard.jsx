@@ -233,10 +233,6 @@ export default function Dashboard() {
   }, [progress.srs])
 
   const level      = useMemo(() => getLevel(progress.xp || 0), [progress.xp])
-  const nextLevel  = useMemo(() => getNextLevel(progress.xp || 0), [progress.xp])
-  const lvlProg    = useMemo(() => getLevelProgress(progress.xp || 0), [progress.xp])
-  const earnedBadges   = useMemo(() => getEarnedBadges(progress), [progress])
-  const [badgesOpen, setBadgesOpen] = useState(false)
 
   return (
     <div className="dash-page anim-fade-up">
@@ -253,40 +249,6 @@ export default function Dashboard() {
           <div className="dash-level-sub">{level.sub}</div>
         </div>
       </div>
-
-      {/* ── XP progress bar ────────────────────────────────────────────── */}
-      <div className="dash-xp-bar-wrap">
-        <div className="dash-xp-bar-labels">
-          <span className="dash-xp-cur">{progress.xp || 0} XP</span>
-          {nextLevel
-            ? <span className="dash-xp-next">Next: {nextLevel.title} at {nextLevel.min} XP</span>
-            : <span className="dash-xp-next">Max level reached</span>
-          }
-        </div>
-        <div className="dash-xp-track">
-          <div className="dash-xp-fill" style={{ width: `${lvlProg.pct}%`, '--level-color': level.color }} />
-        </div>
-      </div>
-
-
-      {/* ── Badges ─────────────────────────────────────────────────────── */}
-      <button className="dash-badges-toggle" onClick={() => setBadgesOpen(o => !o)}>
-        <span>Badges <span className="dash-badge-count">{earnedBadges.length}/{BADGES.length}</span></span>
-        <span className="dash-badges-arrow">{badgesOpen ? '▾' : '▸'}</span>
-      </button>
-      {badgesOpen && (
-        <div className="dash-badges-row">
-          {BADGES.map(b => {
-            const earned = earnedBadges.some(e => e.id === b.id)
-            return (
-              <div key={b.id} className={`dash-badge ${earned ? 'dash-badge--earned' : 'dash-badge--locked'}`} title={`${b.label} — ${b.desc}`}>
-                <span className="dash-badge-icon">{b.icon}</span>
-                <span className="dash-badge-label">{b.label}</span>
-              </div>
-            )
-          })}
-        </div>
-      )}
 
       {/* ── Dictionary search ──────────────────────────────────────────── */}
       <div className="dash-section-label" style={{ marginTop: '0.25rem' }}>
@@ -310,8 +272,21 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* ── Study ──────────────────────────────────────────────────────── */}
-      <div className="dash-section-label">Study</div>
+      {/* ── Grammar path ───────────────────────────────────────────────── */}
+      <div className="dash-section-label">Grammar</div>
+      <div className="quick-actions">
+        <Link to="/grammar/pronouns" className="action-btn action-primary">
+          <span className="action-icon">🔠</span>
+          <div className="action-text">
+            <div className="action-label">Learn Grammar</div>
+            <div className="action-sub">Sequential path · Pronouns → Cases → Tenses</div>
+          </div>
+          <span className="action-chevron">›</span>
+        </Link>
+      </div>
+
+      {/* ── Practice ───────────────────────────────────────────────────── */}
+      <div className="dash-section-label">Practice</div>
       <div className="quick-actions">
         <Link to="/flashcards" className="action-btn action-primary">
           <span className="action-icon">🗂️</span>
@@ -381,17 +356,9 @@ export default function Dashboard() {
         </Link>
       </div>
 
-      {/* ── More ────────────────────────────────────────────────────────── */}
-      <div className="dash-section-label">More</div>
+      {/* ── Read & Listen ──────────────────────────────────────────────── */}
+      <div className="dash-section-label">Read & Listen</div>
       <div className="quick-actions">
-        <Link to="/progress" className="action-btn">
-          <span className="action-icon">📈</span>
-          <div className="action-text">
-            <div className="action-label">Progress</div>
-            <div className="action-sub">Track your learning streak & stats</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
         <Link to="/podcast" className="action-btn">
           <span className="action-icon">🎧</span>
           <div className="action-text">
@@ -400,53 +367,15 @@ export default function Dashboard() {
           </div>
           <span className="action-chevron">›</span>
         </Link>
-      </div>
-
-      {/* ── Curriculum modules ─────────────────────────────────────────── */}
-      <div className="dash-section-label">Curriculum</div>
-      <div className="modules-grid">
-        {MODULES.map(m => {
-          const hasRoute = m.route && m.route.startsWith('/module/')
-          const inner = (
-            <>
-              <div className="module-card-top">
-                <span className="module-icon">{m.icon || '📖'}</span>
-                <span className={`pill pill-${m.level}`}>{m.level}</span>
-              </div>
-              <div className="module-name">{m.label}</div>
-              {m.description && <div className="module-desc">{m.description}</div>}
-              <div className="module-items">{m.items} items</div>
-              {hasRoute && <div className="module-arrow">›</div>}
-            </>
-          )
-          return hasRoute
-            ? <Link key={m.id} to={m.route} className="module-card clickable">{inner}</Link>
-            : <div key={m.id} className="module-card">{inner}</div>
-        })}
-      </div>
-
-      {/* ── Weak areas ─────────────────────────────────────────────────── */}
-      {weakConcepts.length > 0 && (
-        <>
-          <div className="dash-section-label">Needs Work</div>
-          <div className="weak-list">
-            {weakConcepts.slice(0,5).map(c => (
-              <div key={c.id} className="weak-item">
-                <div className="weak-label">{c.id}</div>
-                <div className="weak-bar">
-                  <div className="progress-bar-track" style={{flex:1}}>
-                    <div className="progress-bar-fill" style={{
-                      width:`${c.accuracy}%`,
-                      background: c.accuracy < 50 ? 'var(--terracotta)' : 'var(--gold-dim)'
-                    }} />
-                  </div>
-                  <span className="weak-pct">{c.accuracy}%</span>
-                </div>
-              </div>
-            ))}
+        <Link to="/ddnews" className="action-btn">
+          <span className="action-icon">📺</span>
+          <div className="action-text">
+            <div className="action-label">Sanskrit Vārtā</div>
+            <div className="action-sub">Daily news in Sanskrit</div>
           </div>
-        </>
-      )}
+          <span className="action-chevron">›</span>
+        </Link>
+      </div>
 
     </div>
   )

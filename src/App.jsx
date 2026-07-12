@@ -15,6 +15,7 @@ const MatchPairs    = lazy(() => import('./pages/MatchPairs'))
 const StudyHub      = lazy(() => import('./pages/StudyHub'))
 const TextsHub      = lazy(() => import('./pages/TextsHub'))
 const GrammarPage   = lazy(() => import('./pages/GrammarPage'))
+const DDNewsPage    = lazy(() => import('./pages/DDNewsPage'))
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
 import { PurchaseProvider, usePurchase } from './context/PurchaseContext'
@@ -29,29 +30,36 @@ import PaywallModal from './components/PaywallModal'
 import ScrollToTop from './components/ScrollToTop'
 import './styles/app.css'
 
-const STUDY_ROUTES = ['/study', '/flashcards', '/drill', '/fill', '/match', '/grammar']
+const STUDY_ROUTES = ['/study', '/flashcards', '/drill', '/fill', '/match', '/grammar', '/grammar/pronouns', '/grammar/endings', '/grammar/verbs', '/grammar/nouns', '/grammar/vibhakti', '/grammar/tenses', '/grammar/explorer', '/grammar/questions', '/grammar/gender']
 const TEXTS_ROUTES = ['/texts', '/gita', '/upanishads']
-const MORE_ROUTES  = ['/progress', '/podcast']
+const MORE_ROUTES  = ['/podcast', '/ddnews']
 
 const SIDEBAR_GROUPS = [
   { label: null, items: [{ to: '/', label: 'Home', icon: '🏠', end: true }] },
-  { label: 'Study', items: [
-    { to: '/study',      label: 'Study Hub',      icon: '📚' },
-    { to: '/grammar',    label: 'Grammar',        icon: '🔠' },
+  { label: 'Grammar Path', items: [
+    { to: '/grammar/pronouns',   label: '1 · Pronouns',         icon: '👤' },
+    { to: '/grammar/endings',    label: '2 · Verb Endings',     icon: '🔤' },
+    { to: '/grammar/verbs',      label: '3 · Conjugation',      icon: '📋' },
+    { to: '/grammar/nouns',      label: '4 · Nouns & Gender',   icon: '📝' },
+    { to: '/grammar/vibhakti',   label: '5 · Vibhakti · Cases', icon: '🏷️' },
+    { to: '/grammar/tenses',     label: '6 · Tenses',           icon: '⏱️' },
+    { to: '/grammar/explorer',   label: '↳ Conjugation Explorer', icon: '🔭' },
+    { to: '/grammar/questions',  label: '↳ Question Explorer',  icon: '💬' },
+    { to: '/grammar/gender',     label: '↳ Gender Explorer',    icon: '⚥'  },
+  ]},
+  { label: 'Practice', items: [
     { to: '/flashcards', label: 'Flashcards',     icon: '🗂️' },
     { to: '/drill',      label: 'Sentence Drill', icon: '⚡' },
     { to: '/fill',       label: 'Fill Blanks',    icon: '✏️' },
     { to: '/match',      label: 'Match Pairs',    icon: '🔡' },
   ]},
-  { label: 'Sacred Texts', items: [
-    { to: '/texts',      label: 'Texts Hub', icon: '📜' },
-    { to: '/gita',       label: 'Gītā',      icon: '🪷' },
-    { to: '/upanishads', label: 'Upaniṣad',  icon: '🕉️' },
-  ]},
-  { label: null, items: [
-    { to: '/story',    label: 'Stories',  icon: '📖' },
-    { to: '/progress', label: 'Progress', icon: '📈' },
-    { to: '/podcast',  label: 'Listen',   icon: '🎧' },
+  { label: 'Read & Listen', items: [
+    { to: '/texts',      label: 'Texts Hub',  icon: '📜' },
+    { to: '/gita',       label: 'Gītā',       icon: '🪷' },
+    { to: '/upanishads', label: 'Upaniṣad',   icon: '🕉️' },
+    { to: '/story',      label: 'Stories',    icon: '📖' },
+    { to: '/podcast',    label: 'Listen',     icon: '🎧' },
+    { to: '/ddnews',     label: 'Skt Vārtā',  icon: '📺' },
   ]},
 ]
 
@@ -159,6 +167,7 @@ function AppShell() {
           <Route path="/module/:id" element={<ModulePage />} />
           <Route path="/profile"    element={<ProfilePage />} />
           <Route path="/podcast"    element={<PodcastPage />} />
+          <Route path="/ddnews"    element={<DDNewsPage />} />
         </Routes>
         </Suspense>
       </main>
@@ -257,13 +266,13 @@ function AppShell() {
           <div className="more-sheet">
             <div className="more-sheet-title">More</div>
             <div className="more-sheet-grid">
-              <NavLink to="/progress" className="more-sheet-item" onClick={() => setMoreOpen(false)}>
-                <span className="more-sheet-icon">📈</span>
-                <span className="more-sheet-label">Progress</span>
-              </NavLink>
               <NavLink to="/podcast" className="more-sheet-item" onClick={() => setMoreOpen(false)}>
                 <span className="more-sheet-icon">🎧</span>
                 <span className="more-sheet-label">Listen</span>
+              </NavLink>
+              <NavLink to="/ddnews" className="more-sheet-item" onClick={() => setMoreOpen(false)}>
+                <span className="more-sheet-icon">📺</span>
+                <span className="more-sheet-label">Skt Vārtā</span>
               </NavLink>
             </div>
           </div>
