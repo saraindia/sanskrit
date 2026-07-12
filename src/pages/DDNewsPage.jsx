@@ -1,16 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import './DDNewsPage.css'
 
-const API_KEY      = import.meta.env.VITE_YT_API_KEY
-const CHANNEL_ID   = 'UCYOv0QZr2B70Rkx_ZqIA84w' // News on Air Official
-const MAX_RESULTS  = 20
-const DAYS_BACK    = 5
-
-function daysAgo(n) {
-  const d = new Date()
-  d.setDate(d.getDate() - n)
-  return d.toISOString()
-}
+const API_BASE = (typeof window !== 'undefined' && window.Capacitor?.isNativePlatform?.())
+  ? 'https://sanskritly.vercel.app'
+  : ''
 
 function fmtDate(iso) {
   return new Date(iso).toLocaleDateString('en-IN', {
@@ -19,22 +12,20 @@ function fmtDate(iso) {
 }
 
 export default function DDNewsPage() {
-  const [videos,   setVideos]   = useState([])
-  const [loading,  setLoading]  = useState(true)
-  const [error,    setError]    = useState(null)
-  const [active,   setActive]   = useState(null) // currently playing video id
+  const [videos,  setVideos]  = useState([])
+  const [loading, setLoading] = useState(true)
+  const [error,   setError]   = useState(null)
+  const [active,  setActive]  = useState(null)
 
   const fetchNews = useCallback(async () => {
     setLoading(true)
     setError(null)
     try {
-      const published = daysAgo(DAYS_BACK)
-      const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${CHANNEL_ID}&q=Sanskrit&type=video&order=date&publishedAfter=${published}&maxResults=${MAX_RESULTS}&key=${API_KEY}`
-      const res  = await fetch(url)
+      const res  = await fetch(`${API_BASE}/api/ddnews`)
       const data = await res.json()
-      if (data.error) throw new Error(data.error.message)
-      setVideos(data.items || [])
-      if (data.items?.length) setActive(data.items[0].id.videoId)
+      if (data.error) throw new Error(data.error)
+      setVideos(data.videos || [])
+      if (data.videos?.length) setActive(data.videos[0].videoId)
     } catch (e) {
       setError(e.message)
     } finally {
@@ -56,7 +47,6 @@ export default function DDNewsPage() {
               <a href="https://www.youtube.com/@NEWSONAIROFFICIAL" target="_blank" rel="noreferrer" className="ddnews-channel-link">
                 News on Air Official ↗
               </a>
-              {' '}· Last {DAYS_BACK} days
             </p>
           </div>
         </div>
@@ -68,47 +58,40 @@ export default function DDNewsPage() {
 
       {!loading && !error && (
         <div className="ddnews-body">
-          {/* Player */}
           {active && (
             <div className="ddnews-player-wrap">
               <iframe
                 className="ddnews-player"
                 src={`https://www.youtube.com/embed/${active}?autoplay=1`}
-                title="DD News"
+                title="Sanskrit Vārtā"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
             </div>
           )}
 
-          {/* Video list */}
           <div className="ddnews-list">
             {videos.length === 0 && (
-              <div className="ddnews-state">No videos found in the last {DAYS_BACK} days.</div>
+              <div className="ddnews-state">No Sanskrit videos found recently.</div>
             )}
-            {videos.map(v => {
-              const id    = v.id.videoId
-              const snap  = v.snippet
-              const isAct = id === active
-              return (
-                <button
-                  key={id}
-                  className={`ddnews-item${isAct ? ' active' : ''}`}
-                  onClick={() => setActive(id)}
-                >
-                  <img
-                    className="ddnews-thumb"
-                    src={snap.thumbnails?.medium?.url}
-                    alt={snap.title}
-                    loading="lazy"
-                  />
-                  <div className="ddnews-item-info">
-                    <p className="ddnews-item-title">{snap.title}</p>
-                    <p className="ddnews-item-date">{fmtDate(snap.publishedAt)}</p>
-                  </div>
-                </button>
-              )
-            })}
+            {videos.map(v => (
+              <button
+                key={v.videoId}
+                className={`ddnews-item${v.videoId === active ? ' active' : ''}`}
+                onClick={() => setActive(v.videoId)}
+              >
+                <img
+                  className="ddnews-thumb"
+                  src={`https://i.ytimg.com/vi/${v.videoId}/mqdefault.jpg`}
+                  alt={v.title}
+                  loading="lazy"
+                />
+                <div className="ddnews-item-info">
+                  <p className="ddnews-item-title">{v.title}</p>
+                  <p className="ddnews-item-date">{fmtDate(v.date)}</p>
+                </div>
+              </button>
+            ))}
           </div>
         </div>
       )}
