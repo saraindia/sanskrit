@@ -22,6 +22,8 @@ export default function DDNewsPage() {
     setError(null)
     try {
       const res  = await fetch(`${API_BASE}/api/ddnews`)
+      if (!res.ok || !res.headers.get('content-type')?.includes('application/json'))
+        throw new Error('Feed unavailable — deploy to Vercel to load Sanskrit Vārtā')
       const data = await res.json()
       if (data.error) throw new Error(data.error)
       setVideos(data.videos || [])

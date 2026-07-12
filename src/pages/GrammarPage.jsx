@@ -3138,7 +3138,7 @@ function VibhaktiLesson() {
                   All Forms · सर्वविभक्तिः
                   <span style={{opacity:0.6, fontWeight:400}}>— {sNoun.dev} · 8 cases × 3 numbers</span>
                 </button>
-                {paradigmOpen && <div className="vib-builder-paradigm-grid">
+                {paradigmOpen && <div className="vib-builder-paradigm-scroll"><div className="vib-builder-paradigm-grid">
                   {/* Header */}
                   <div />
                   {['Singular · एक','Dual · द्वि','Plural · बहु'].map(h => (
@@ -3175,7 +3175,7 @@ function VibhaktiLesson() {
                       </React.Fragment>
                     )
                   })}
-                </div>}
+                </div></div>}
               </div>
             )}
           </div>
@@ -3205,10 +3205,26 @@ const LESSON_VIEWS = {
 }
 
 // Lessons shown inside the TENSES sub-section
-const TENSES_LESSON_IDS = ['endings','verbs','imperfect','future','imperative','optative','explorer','questions']
+const TENSES_LESSON_IDS = ['endings','imperfect','future','imperative','optative']
 
-// Lessons shown directly on the Grammar home page
-const HOME_LESSON_IDS = ['nouns','gender','vachanam','pronouns','vibhakti','negative','objects','qa']
+// Sequential learning path — grouped for the Grammar home page
+const GRAMMAR_PATH = [
+  { label: 'Nouns', labelDev: 'नामपदम्', icon: '📝', color: '#f59e0b',
+    ids: ['nouns','pronouns'] },
+  { label: 'Number & Gender', labelDev: 'वचनम् / लिङ्गम्', icon: '🔢', color: '#60a5fa',
+    ids: ['vachanam','gender'] },
+  { label: 'Verbs', labelDev: 'क्रियापदम्', icon: '📋', color: '#34d399',
+    ids: ['verbs','negative','objects','qa'] },
+  { label: 'Tenses', labelDev: 'लकाराः', icon: '⏱️', color: '#a78bfa', tensesSub: true,
+    ids: [] },
+  { label: 'Cases', labelDev: 'विभक्तिः', icon: '🏷️', color: '#fb923c',
+    ids: ['vibhakti'] },
+  { label: 'Explorers', labelDev: 'दर्शनम्', icon: '🔭', color: '#e879f9',
+    ids: ['explorer','questions'] },
+]
+
+// flat ordered list for prev/next navigation
+const HOME_LESSON_IDS = ['nouns','pronouns','vachanam','gender','verbs','negative','objects','qa','vibhakti','explorer','questions']
 
 const TENSES_GROUPS = [
   { label: 'Present Tense', labelDev: 'लट् लकार', ids: ['verbs'] },
@@ -3225,10 +3241,16 @@ export default function GrammarPage() {
   const { play } = useSoundEffects()
   const navigate = useNavigate()
   const { lessonId } = useParams()
+  const [openGroup, setOpenGroup] = useState(null)
 
   // Detect section from URL path
   const isTenses  = window.location.pathname.startsWith('/grammar/tenses')
   const activeLesson  = lessonId || null
+
+  // Collapse all groups whenever returning to grammar home
+  useEffect(() => {
+    if (!activeLesson && !isTenses) setOpenGroup(null)
+  }, [activeLesson, isTenses])
 
   // ── Lesson view ────────────────────────────────────────────────────────
   if (activeLesson) {
@@ -3283,26 +3305,21 @@ export default function GrammarPage() {
         </button>
         <div className="page-header">
           <h1 className="page-title">Tenses</h1>
-          <p className="page-subtitle">लकाराः · 5 tenses + conjugation explorer</p>
+          <p className="page-subtitle">लकाराः · verb tenses in Sanskrit</p>
         </div>
 
-        <div className="hub-list">
+        <div className="gr-tense-grid">
           {TENSES_LESSON_IDS.map((id, i) => {
             const lesson = LESSONS.find(l => l.id === id)
             if (!lesson) return null
             return (
               <button key={lesson.id}
-                className="hub-item gr-hub-item"
+                className="gr-tense-card"
                 onClick={() => { play('tap'); navigate(`/grammar/tenses/${lesson.id}`) }}>
-                <span className="hub-item-icon">{lesson.icon}</span>
-                <div className="hub-item-text">
-                  <div className="hub-item-label">{lesson.title}
-                    <span className="gr-dev gr-title-dev"> — {lesson.titleDev}</span>
-                  </div>
-                  <div className="hub-item-sub">{lesson.summary}</div>
-                </div>
-                <span className="pill pill-beginner">lesson {i + 1}</span>
-                <span className="hub-item-chevron">›</span>
+                <span className="gr-tense-num">{i + 1}</span>
+                <span className="gr-tense-icon">{lesson.icon}</span>
+                <div className="gr-tense-label">{lesson.title}</div>
+                <div className="gr-tense-dev">{lesson.titleDev}</div>
               </button>
             )
           })}
@@ -3317,41 +3334,55 @@ export default function GrammarPage() {
       <HubBack to="/study" label="Study" />
       <div className="page-header">
         <h1 className="page-title">Grammar</h1>
-        <p className="page-subtitle">Sanskrit grammar · structured and progressive</p>
+        <p className="page-subtitle">संस्कृत व्याकरणम् · tap a topic to explore</p>
       </div>
 
-      <div className="hub-list">
-        {/* TENSES card */}
-        <button className="hub-item gr-hub-item"
-          onClick={() => { play('tap'); navigate('/grammar/tenses') }}>
-          <span className="hub-item-icon">📚</span>
-          <div className="hub-item-text">
-            <div className="hub-item-label">Tenses
-              <span className="gr-dev gr-title-dev"> — लकाराः</span>
-            </div>
-            <div className="hub-item-sub">Present · Imperfect · Future · Imperative · Optative · Explorer</div>
-          </div>
-          <span className="hub-item-chevron">›</span>
-        </button>
-
-        {/* All other lessons directly on home */}
-        {HOME_LESSON_IDS.map((id, i) => {
-          const lesson = LESSONS.find(l => l.id === id)
-          if (!lesson) return null
+      <div className="gr-map-grid">
+        {GRAMMAR_PATH.map((group, gi) => {
+          const isOpen = openGroup === gi
+          const lessonCount = group.tensesSub ? 5 : group.ids.length
           return (
-            <button key={lesson.id}
-              className="hub-item gr-hub-item"
-              onClick={() => { play('tap'); navigate(`/grammar/${lesson.id}`) }}>
-              <span className="hub-item-icon">{lesson.icon}</span>
-              <div className="hub-item-text">
-                <div className="hub-item-label">{lesson.title}
-                  <span className="gr-dev gr-title-dev"> — {lesson.titleDev}</span>
+            <div key={gi} className={`gr-map-card ${isOpen ? 'open' : ''}`}>
+              <button
+                className="gr-map-card-hdr"
+                onClick={() => { play('tap'); setOpenGroup(isOpen ? null : gi) }}
+              >
+                <span className="gr-map-card-icon">{group.icon}</span>
+                <div className="gr-map-card-info">
+                  <div className="gr-map-card-label">{group.label}</div>
+                  <div className="gr-map-card-dev">{group.labelDev}</div>
                 </div>
-                <div className="hub-item-sub">{lesson.summary}</div>
-              </div>
-              <span className="pill pill-beginner">lesson {i + 1}</span>
-              <span className="hub-item-chevron">›</span>
-            </button>
+                <span className="gr-map-card-count">{lessonCount}</span>
+                <span className="gr-map-card-chevron">{isOpen ? '▾' : '›'}</span>
+              </button>
+
+              {isOpen && (
+                <div className="gr-map-lessons" style={{ '--group-color': group.color }}>
+                  {group.tensesSub ? (
+                    <button className="gr-map-lesson-item gr-map-lesson-goto"
+                      onClick={() => { play('nav'); navigate('/grammar/tenses') }}>
+                      <span className="gr-map-lesson-goto-text">Present · Past · Future · Imperative · Optative</span>
+                      <span className="gr-map-lesson-chevron">›</span>
+                    </button>
+                  ) : group.ids.map((id, li) => {
+                    const lesson = LESSONS.find(l => l.id === id)
+                    if (!lesson) return null
+                    const stepNum = HOME_LESSON_IDS.indexOf(id) + 1
+                    return (
+                      <button key={id} className="gr-map-lesson-item"
+                        onClick={() => { play('tap'); navigate(`/grammar/${id}`) }}>
+                        <span className="gr-map-lesson-step">{stepNum || '—'}</span>
+                        <div className="gr-map-lesson-text">
+                          <span className="gr-map-lesson-label">{lesson.title}</span>
+                          <span className="gr-map-lesson-sub">{lesson.summary}</span>
+                        </div>
+                        <span className="gr-map-lesson-chevron">›</span>
+                      </button>
+                    )
+                  })}
+                </div>
+              )}
+            </div>
           )
         })}
       </div>

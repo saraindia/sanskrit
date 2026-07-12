@@ -1340,7 +1340,7 @@ export const GENDER_NOUNS_100 = [
 
 export const LESSONS = [
   { id: 'pronouns',   title: 'Pronouns',              titleDev: 'सर्वनामानि',    icon: '👤', summary: 'Sanskrit has 3 persons × 3 numbers = 9 pronoun slots',             type: 'pronouns'   },
-  { id: 'endings',    title: 'Present Tense Endings', titleDev: 'लट् विभक्ति',   icon: '🔤', summary: 'The 9 endings that attach to every Class 1 verb stem',              type: 'endings'    },
+  { id: 'endings',    title: 'Present Tense', titleDev: 'लट् विभक्ति',   icon: '🔤', summary: 'The 9 endings that attach to every Class 1 verb stem',              type: 'endings'    },
   { id: 'verbs',      title: 'Verb Conjugation',      titleDev: 'धातुरूपम्',     icon: '📋', summary: '50 verbs fully conjugated in present tense',                       type: 'verbs'      },
   { id: 'negative',   title: 'Negative Forms',        titleDev: 'निषेधः',        icon: '🚫', summary: 'Add न (na) before any verb to negate it',                          type: 'negative'   },
   { id: 'objects',    title: 'Object + Verb',         titleDev: 'कर्म + क्रिया', icon: '🔗', summary: 'Subject · Object · Verb — the standard Sanskrit word order',       type: 'objects'    },

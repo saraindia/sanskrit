@@ -7,7 +7,71 @@ import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
 import { toIAST } from '../utils/transliterate.js'
 import { getLevel, getNextLevel, getLevelProgress, getEarnedBadges, BADGES } from '../utils/levels.js'
+import { BHAGAVAD_GITA } from '../data/sacred.js'
 import './Dashboard.css'
+
+function getDailyVerse() {
+  const start = new Date('2024-01-01')
+  const today = new Date()
+  const day = Math.floor((today - start) / 86400000)
+  return BHAGAVAD_GITA[day % BHAGAVAD_GITA.length]
+}
+
+function ShlokaOfDay() {
+  const [open, setOpen] = useState(false)
+  const [loading, setLoading] = useState(false)
+  const verse = useMemo(() => getDailyVerse(), [])
+  const { playUrl, stop, isPlaying } = useSpeech()
+
+  const handleListen = useCallback(async (e) => {
+    e.stopPropagation()
+    if (isPlaying) { stop(); return }
+    setLoading(true)
+    try {
+      const { getGitaAudioUrl } = await import('../utils/gitaAudio.js')
+      const url = await getGitaAudioUrl(verse.chapter, verse.verse)
+      await playUrl(url)
+    } catch { /* silently ignore */ }
+    finally { setLoading(false) }
+  }, [isPlaying, stop, playUrl, verse])
+
+  if (!verse) return null
+  return (
+    <div className="shloka-accord">
+      <button className="shloka-accord-hdr" onClick={() => setOpen(o => !o)}>
+        <span className="shloka-accord-flame">🪷</span>
+        <div className="shloka-accord-meta">
+          <span className="shloka-accord-title">Shloka of the Day</span>
+          <span className="shloka-accord-ref">Bhagavad Gītā {verse.chapter}.{verse.verse}</span>
+        </div>
+        <span className="shloka-accord-chevron">{open ? '▾' : '›'}</span>
+      </button>
+      {open && (
+        <div className="shloka-accord-body">
+          <div className="shloka-deva-row">
+            <div className="shloka-deva">{verse.devanagari}</div>
+            <button
+              className={`shloka-listen-icon${isPlaying ? ' playing' : ''}${loading ? ' loading' : ''}`}
+              onClick={handleListen}
+              disabled={loading}
+              title={loading ? 'Loading…' : isPlaying ? 'Stop' : 'Listen'}
+            >
+              {loading ? '…' : isPlaying ? '■' : <SpeakIcon size="16px" />}
+            </button>
+          </div>
+          {verse.iast && <div className="shloka-iast">{verse.iast}</div>}
+          <div className="shloka-translation">{verse.translation}</div>
+          {verse.commentary && (
+            <div className="shloka-commentary">{verse.commentary}</div>
+          )}
+          <Link to={`/gita?chapter=${verse.chapter}&verse=${verse.verse}`} className="shloka-link">
+            Read in Bhagavad Gītā →
+          </Link>
+        </div>
+      )}
+    </div>
+  )
+}
 
 
 function searchDict(q, index) {
@@ -214,6 +278,78 @@ function DictionarySearch({ vocabulary }) {
 }
 
 
+const DASH_SECTIONS = (dueCount) => [
+  { label: 'Grammar', dev: 'व्याकरणम्', icon: '🔠', color: '#f59e0b',
+    items: [
+      { to: '/grammar', icon: '🔠', label: 'Learn Grammar', sub: 'Nouns · Verbs · Cases · Tenses' },
+    ]
+  },
+  { label: 'Practice', dev: 'अभ्यासः', icon: '⚡', color: '#34d399',
+    items: [
+      { to: '/flashcards', icon: '🗂️', label: 'Flashcards',     sub: `${dueCount} due today` },
+      { to: '/drill',      icon: '⚡',  label: 'Sentence Drill', sub: 'Verb · noun · pronoun' },
+      { to: '/fill',       icon: '✏️',  label: 'Fill in Blanks', sub: 'Grammar & vocabulary' },
+      { to: '/match',      icon: '🔡',  label: 'Match Pairs',    sub: 'Sanskrit ↔ English' },
+    ]
+  },
+  { label: 'Texts', dev: 'ग्रन्थाः', icon: '📜', color: '#60a5fa',
+    items: [
+      { to: '/gita',       icon: '🪷', label: 'Bhagavad Gītā', sub: '701 verses' },
+      { to: '/upanishads', icon: '🕉️', label: 'Upaniṣads',     sub: 'Īśā · Kaṭha · Muṇḍaka' },
+      { to: '/story',      icon: '📖', label: 'Stories',        sub: 'Word-by-word translation' },
+    ]
+  },
+  { label: 'Listen', dev: 'श्रवणम्', icon: '🎧', color: '#a78bfa',
+    items: [
+      { to: '/podcast', icon: '🎧', label: 'Podcasts',       sub: 'Sanskrit audio' },
+      { to: '/ddnews',  icon: '📻', label: 'Sanskrit Vārtā', sub: 'Daily news in Sanskrit' },
+    ]
+  },
+]
+
+function DashSections({ dueCount }) {
+  const [open, setOpen] = useState(null)
+  const sections = DASH_SECTIONS(dueCount)
+  return (
+    <div className="dash-accord-grid">
+      {sections.map((sec, si) => {
+        const isOpen = open === si
+        return (
+          <div key={si} className={`dash-accord-card${isOpen ? ' open' : ''}`}>
+            <button
+              className="dash-accord-hdr"
+              onClick={() => setOpen(isOpen ? null : si)}
+            >
+              <span className="dash-accord-icon">{sec.icon}</span>
+              <div className="dash-accord-info">
+                <div className="dash-accord-label">{sec.label}</div>
+                <div className="dash-accord-dev">{sec.dev}</div>
+              </div>
+              <span className="dash-accord-count">{sec.items.length}</span>
+              <span className="dash-accord-chevron">{isOpen ? '▾' : '›'}</span>
+            </button>
+
+            {isOpen && (
+              <div className="dash-accord-body" style={{ '--sec-color': sec.color }}>
+                {sec.items.map(item => (
+                  <Link key={item.to} to={item.to} className="dash-accord-item">
+                    <span className="dash-accord-step">{sec.items.indexOf(item) + 1}</span>
+                    <div className="dash-accord-item-text">
+                      <span className="dash-accord-item-label">{item.label}</span>
+                      <span className="dash-accord-item-sub">{item.sub}</span>
+                    </div>
+                    <span className="dash-accord-item-chevron">›</span>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
 export default function Dashboard() {
   const { progress, getDueItems, getWeakConcepts } = useProgress()
   const vocabData = useVocabularyData()
@@ -245,10 +381,15 @@ export default function Dashboard() {
         </div>
         <div className="dash-hero-level" style={{ '--level-color': level.color }}>
           <div className="dash-level-deva">{level.titleDeva}</div>
-          <div className="dash-level-title">{level.title}</div>
-          <div className="dash-level-sub">{level.sub}</div>
+          <div className="dash-level-text">
+            <div className="dash-level-title">{level.title}</div>
+            <div className="dash-level-sub">{level.sub}</div>
+          </div>
         </div>
       </div>
+
+      {/* ── Shloka of the Day ─────────────────────────────────────────── */}
+      <ShlokaOfDay />
 
       {/* ── Dictionary search ──────────────────────────────────────────── */}
       <div className="dash-section-label" style={{ marginTop: '0.25rem' }}>
@@ -256,126 +397,8 @@ export default function Dashboard() {
       </div>
       <DictionarySearch vocabulary={vocabData?.vocabulary} />
 
-      {/* ── 3-stat strip ───────────────────────────────────────────────── */}
-      <div className="dash-stats">
-        <div className="dash-stat">
-          <div className="dash-stat-val">{progress.streakDays ?? 0}</div>
-          <div className="dash-stat-label">🔥 Streak</div>
-        </div>
-        <div className="dash-stat">
-          <div className="dash-stat-val">{dueItems.length}</div>
-          <div className="dash-stat-label">📋 Due</div>
-        </div>
-        <div className="dash-stat">
-          <div className="dash-stat-val">{avgAccuracy}%</div>
-          <div className="dash-stat-label">🎯 Accuracy</div>
-        </div>
-      </div>
-
-      {/* ── Grammar path ───────────────────────────────────────────────── */}
-      <div className="dash-section-label">Grammar</div>
-      <div className="quick-actions">
-        <Link to="/grammar/pronouns" className="action-btn action-primary">
-          <span className="action-icon">🔠</span>
-          <div className="action-text">
-            <div className="action-label">Learn Grammar</div>
-            <div className="action-sub">Sequential path · Pronouns → Cases → Tenses</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
-      </div>
-
-      {/* ── Practice ───────────────────────────────────────────────────── */}
-      <div className="dash-section-label">Practice</div>
-      <div className="quick-actions">
-        <Link to="/flashcards" className="action-btn action-primary">
-          <span className="action-icon">🗂️</span>
-          <div className="action-text">
-            <div className="action-label">Flashcards</div>
-            <div className="action-sub">{dueItems.length} due today</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
-        <Link to="/drill" className="action-btn">
-          <span className="action-icon">⚡</span>
-          <div className="action-text">
-            <div className="action-label">Sentence Drill</div>
-            <div className="action-sub">Verb · noun · pronoun patterns</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
-        <Link to="/fill" className="action-btn">
-          <span className="action-icon">✏️</span>
-          <div className="action-text">
-            <div className="action-label">Fill in Blanks</div>
-            <div className="action-sub">Grammar & vocabulary practice</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
-        <Link to="/match" className="action-btn">
-          <span className="action-icon">🔡</span>
-          <div className="action-text">
-            <div className="action-label">Match Pairs</div>
-            <div className="action-sub">Sanskrit ↔ English matching</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
-      </div>
-
-      {/* ── Texts ──────────────────────────────────────────────────────── */}
-      <div className="dash-section-label">Texts</div>
-      <div className="quick-actions">
-        <Link to="/gita" className="action-btn">
-          <span className="action-icon">🪷</span>
-          <div className="action-text">
-            <div className="action-label">Bhagavad Gītā</div>
-            <div className="action-sub">701 verses · browse or drill</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
-        <Link to="/upanishads" className="action-btn">
-          <span className="action-icon">🕉️</span>
-          <div className="action-text">
-            <div className="action-label">Upaniṣads</div>
-            <div className="action-sub">Īśā · Kaṭha · Muṇḍaka — 201 verses</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
-      </div>
-
-      {/* ── Stories ─────────────────────────────────────────────────────── */}
-      <div className="dash-section-label">Stories</div>
-      <div className="quick-actions">
-        <Link to="/story" className="action-btn">
-          <span className="action-icon">📖</span>
-          <div className="action-text">
-            <div className="action-label">Sanskrit Stories</div>
-            <div className="action-sub">Read with word-by-word translation</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
-      </div>
-
-      {/* ── Read & Listen ──────────────────────────────────────────────── */}
-      <div className="dash-section-label">Read & Listen</div>
-      <div className="quick-actions">
-        <Link to="/podcast" className="action-btn">
-          <span className="action-icon">🎧</span>
-          <div className="action-text">
-            <div className="action-label">Listen</div>
-            <div className="action-sub">Sanskrit audio & podcasts</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
-        <Link to="/ddnews" className="action-btn">
-          <span className="action-icon">📺</span>
-          <div className="action-text">
-            <div className="action-label">Sanskrit Vārtā</div>
-            <div className="action-sub">Daily news in Sanskrit</div>
-          </div>
-          <span className="action-chevron">›</span>
-        </Link>
-      </div>
+      {/* ── Section accordions ─────────────────────────────────────────── */}
+      <DashSections dueCount={dueItems.length} />
 
     </div>
   )

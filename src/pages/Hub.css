@@ -78,3 +78,64 @@
   flex-shrink: 0;
   margin-left: 0.25rem;
 }
+
+/* ── Study Hub square card grid ─────────────────────────────────────────── */
+.study-sq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.65rem;
+  margin-top: 0.25rem;
+}
+
+.study-sq-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 1.35rem 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  transition: border-color 0.15s, background 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.study-sq-card:hover {
+  border-color: var(--gold);
+  background: color-mix(in srgb, var(--gold) 6%, var(--bg-card));
+}
+.study-sq-card:active { opacity: 0.8; }
+
+.study-sq-num {
+  position: absolute;
+  top: 0.55rem;
+  left: 0.65rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.study-sq-icon { font-size: 1.7rem; line-height: 1; }
+
+.study-sq-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.2;
+  margin-top: 0.1rem;
+}
+
+.study-sq-dev {
+  font-size: 0.7rem;
+  color: var(--gold);
+}
+
+.study-sq-sub {
+  font-size: 0.67rem;
+  color: var(--text-muted);
+  line-height: 1.3;
+}

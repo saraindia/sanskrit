@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react'
+import { useLocation } from 'react-router-dom'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
@@ -25,6 +26,7 @@ const chapterFile = n => `ch${String(n).padStart(2, '0')}.json`
 export default function GitaPage() {
   const { isPro: _isPro, isChecking, showPaywall, FREE_LIMITS } = usePurchase()
   const isPro = _isPro || isChecking
+  const location = useLocation()
   const [manifest, setManifest]     = useState(() => cache.get('manifest.json') || null)
   const [chapterNum, setChapterNum] = useSessionStorage('gita_chapter', 0)  // 0 = chapter list
   const [verseNum, setVerseNum]     = useSessionStorage('gita_verse', 1)
@@ -58,6 +60,15 @@ export default function GitaPage() {
         speakLines(dev, { onLine: setActiveLine, onDone: () => setActiveLine(-1) })
     }
   }, [isPlaying, audioLoading, stop, playUrl, speakLines])
+
+  // Jump to a specific verse when linked from elsewhere (e.g. ?chapter=4&verse=7)
+  useEffect(() => {
+    const p = new URLSearchParams(location.search)
+    const ch = parseInt(p.get('chapter'), 10)
+    const vs = parseInt(p.get('verse'), 10)
+    if (ch > 0) setChapterNum(ch)
+    if (vs > 0) setVerseNum(vs)
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     loadJson('manifest.json').then(setManifest).catch(e => setError(e.message))
@@ -172,14 +183,17 @@ export default function GitaPage() {
           const locked = !isPro && c.chapter > FREE_LIMITS.GITA_FREE_CHAPTER
           return (
             <button key={c.chapter}
-              className={`gita-ch-card card ${locked ? 'gita-ch-locked' : ''}`}
+              className={`gita-ch-card ${locked ? 'gita-ch-locked' : ''}`}
               onClick={() => openChapter(c.chapter)}
-              style={locked ? { opacity: 0.55 } : undefined}
+              style={{
+                '--ch-color': c.chapter <= 6 ? '#f59e0b' : c.chapter <= 12 ? '#a78bfa' : '#34d399',
+                opacity: locked ? 0.55 : 1,
+              }}
             >
-              <span className="gita-ch-num">{c.chapter}</span>
-              <span className="gita-ch-name devanagari">{c.name}</span>
+              <span className="gita-ch-num">Ch {c.chapter}</span>
               <span className="gita-ch-eng">{c.nameEnglish}</span>
-              <span className="gita-ch-count">{locked ? '🔒' : `${c.verses} verses`}</span>
+              <span className="gita-ch-iast">{c.nameIast}</span>
+              <span className="gita-ch-count">{locked ? '🔒 Pro' : `${c.verses} v`}</span>
             </button>
           )
         })}

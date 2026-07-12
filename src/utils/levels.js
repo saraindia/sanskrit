@@ -1,7 +1,7 @@
 // XP levels, badges, and helper functions for the gamification system
 
 export const LEVELS = [
-  { min: 0,    title: 'Śiṣya',      titleDeva: 'शिष्य',     sub: 'Student',          color: '#a0a0a0' },
+  { min: 0,    title: 'Śiṣya',      titleDeva: 'शिष्य',     sub: 'Student',          color: '#6366f1' },
   { min: 100,  title: 'Jijñāsu',    titleDeva: 'जिज्ञासु',  sub: 'Seeker',           color: '#60a5fa' },
   { min: 300,  title: 'Abhyāsin',   titleDeva: 'अभ्यासिन्', sub: 'Practitioner',     color: '#34d399' },
   { min: 600,  title: 'Vidyārthin', titleDeva: 'विद्यार्थिन्', sub: 'Scholar',        color: '#a78bfa' },

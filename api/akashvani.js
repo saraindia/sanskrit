@@ -5,9 +5,9 @@
 // Returns JSON: { episodes: [{ title, date, audioUrl }], hasMore: false }
 
 function guessSlot(url) {
-  if (/065[0-9]|0[67][0-9]{2}/i.test(url)) return { title: 'Morning Bulletin', time: '06:55' }
-  if (/182[0-9]|183[0-9]/i.test(url))       return { title: 'Evening Bulletin', time: '18:20' }
-  return { title: 'News Bulletin', time: '' }
+  if (/065[0-9]|0[67][0-9]{2}/i.test(url)) return { title: 'Morning Bulletin', time: '06:55', duration: '~5 min' }
+  if (/182[0-9]|183[0-9]/i.test(url))       return { title: 'Evening Bulletin', time: '18:20', duration: '~5 min' }
+  return { title: 'Sanskrit Bulletin', time: '', duration: '~5 min' }
 }
 
 export default async function handler(req, res) {
@@ -48,8 +48,8 @@ export default async function handler(req, res) {
       const srcMatch  = li.match(/<source src="([^"]+\.mp3)"/)
       const audioUrl  = srcMatch ? srcMatch[1] : null
       if (audioUrl) {
-        const { title, time } = guessSlot(audioUrl)
-        episodes.push({ title, time, date, audioUrl })
+        const { title, time, duration } = guessSlot(audioUrl)
+        episodes.push({ title, time, duration, date, audioUrl })
       }
     }
 
