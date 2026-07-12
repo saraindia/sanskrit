@@ -8,25 +8,25 @@ const API_BASE = (typeof window !== 'undefined' && window.Capacitor?.isNativePla
 // ─── Module-level singletons — survive tab navigation ───────────────────────
 const _audio = typeof window !== 'undefined' ? new Audio() : null
 
-let _cachedEpisodes    = []
-let _cachedHasMore     = true
-let _cachedCurrentIdx  = null
-let _cachedPlaying     = false
+let _cachedEpisodes   = []
+let _cachedHasMore    = true
+let _cachedCurrentIdx = null
+let _cachedPlaying    = false
 let _cachedCurrentTime = 0
 let _cachedDuration    = 0
 let _cachedProgress    = 0
 
 // ─── SVG icons ───────────────────────────────────────────────────────────────
-function PlayIcon({ size = 14 }) {
+function PlayIcon() {
   return (
-    <svg width={size} height={size} viewBox="0 0 12 12" fill="currentColor" aria-hidden="true">
+    <svg width="14" height="14" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true">
       <polygon points="2,1 11,6 2,11" />
     </svg>
   )
 }
-function PauseIcon({ size = 14 }) {
+function PauseIcon() {
   return (
-    <svg width={size} height={size} viewBox="0 0 12 12" fill="currentColor" aria-hidden="true">
+    <svg width="14" height="14" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true">
       <rect x="2" y="1" width="3" height="10" rx="1" />
       <rect x="7" y="1" width="3" height="10" rx="1" />
     </svg>
@@ -48,14 +48,7 @@ function dayFromDateStr(str) {
   if (!str) return ''
   const d = new Date(str)
   if (isNaN(d)) return ''
-  return d.toLocaleDateString('en-IN', { weekday: 'short' })
-}
-
-function shortDate(str) {
-  if (!str) return ''
-  const d = new Date(str)
-  if (isNaN(d)) return str
-  return d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })
+  return d.toLocaleDateString('en-IN', { weekday: 'long' })
 }
 
 function fmtTime(s) {
@@ -65,39 +58,19 @@ function fmtTime(s) {
   return `${m}:${sec.toString().padStart(2, '0')}`
 }
 
-// ─── Episode card ─────────────────────────────────────────────────────────────
-function EpCard({ ep, idx, active, playing, onPress }) {
-  const day  = dayFromDateStr(ep.date)
-  const date = shortDate(ep.date)
-  return (
-    <button
-      className={`pod-card ${active ? 'pod-card-active' : ''}`}
-      onClick={onPress}
-      aria-label={`${active && playing ? 'Pause' : 'Play'} ${ep.title}`}
-    >
-      <div className={`pod-card-btn ${active && playing ? 'pod-card-btn-playing' : ''}`}>
-        {active && playing ? <PauseIcon size={16} /> : <PlayIcon size={16} />}
-      </div>
-      <div className="pod-card-day">{day || '—'}</div>
-      <div className="pod-card-date">{date}</div>
-      {ep.time && <div className="pod-card-time">{ep.time}</div>}
-      {active && playing && <div className="pod-card-wave"><span/><span/><span/><span/></div>}
-    </button>
-  )
-}
-
 // ─── Main page ────────────────────────────────────────────────────────────────
 export default function PodcastPage() {
-  const [episodes,   setEpisodes]   = useState(_cachedEpisodes)
-  const [loading,    setLoading]    = useState(_cachedEpisodes.length === 0)
-  const [error,      setError]      = useState(null)
+  const [episodes,    setEpisodes]    = useState(_cachedEpisodes)
+  const [loading,     setLoading]     = useState(_cachedEpisodes.length === 0)
+  const [error,       setError]       = useState(null)
 
-  const [currentIdx,  setCurrentIdx]  = useState(_cachedCurrentIdx)
-  const [playing,     setPlaying]     = useState(_cachedPlaying)
-  const [currentTime, setCurrentTime] = useState(_cachedCurrentTime)
-  const [duration,    setDuration]    = useState(_cachedDuration)
-  const [progress,    setProgress]    = useState(_cachedProgress)
+  const [currentIdx,   setCurrentIdx]   = useState(_cachedCurrentIdx)
+  const [playing,      setPlaying]      = useState(_cachedPlaying)
+  const [currentTime,  setCurrentTime]  = useState(_cachedCurrentTime)
+  const [duration,     setDuration]     = useState(_cachedDuration)
+  const [progress,     setProgress]     = useState(_cachedProgress)
 
+  // ── Fetch episodes ──────────────────────────────────────────────────────────
   const fetchEpisodes = useCallback(async () => {
     try {
       const res  = await fetch(`${API_BASE}/api/akashvani`)
@@ -132,7 +105,7 @@ export default function PodcastPage() {
     }
 
     const onTimeUpdate = () => {
-      const ct  = _audio.currentTime
+      const ct = _audio.currentTime
       const dur = _audio.duration || 0
       const prog = dur ? ct / dur : 0
       _cachedCurrentTime = ct
@@ -200,31 +173,56 @@ export default function PodcastPage() {
     _audio.currentTime = ratio * _audio.duration
   }
 
-  const activeEp = currentIdx !== null ? episodes[currentIdx] : null
-
+  // ── Render ──────────────────────────────────────────────────────────────────
   return (
     <div className="podcast-page anim-fade-up">
-      {/* Header */}
+      {/* ── Header ────────────────────────────────────────────────────────── */}
       <div className="page-header podcast-header">
         <div className="podcast-header-title">
           <RadioIcon />
           <div>
             <h1 className="page-title">Sanskrit News</h1>
-            <p className="page-subtitle">संस्कृत वार्ता · AIR / Akashvani</p>
+            <p className="page-subtitle">संस्कृत वार्ता · Daily bulletin · AIR / Akashvani</p>
           </div>
         </div>
       </div>
 
-      {/* States */}
+      {/* ── Source info card ──────────────────────────────────────────────── */}
+      <div className="podcast-source-card">
+        <div className="podcast-source-logo">
+          <img
+            src="https://newsonair.gov.in/wp-content/uploads/2024/01/cropped-logo-192x192.png"
+            alt="Akashvani / AIR logo"
+            className="podcast-source-img"
+          />
+        </div>
+        <div className="podcast-source-info">
+          <div className="podcast-source-name">Akashvani · All India Radio</div>
+          <div className="podcast-source-desc">
+            Official daily Sanskrit news bulletins from Prasar Bharati's News Services Division.
+            Broadcast at <strong>06:55</strong> &amp; <strong>18:20 IST</strong> every day.
+          </div>
+          <a
+            className="podcast-source-link"
+            href="https://newsonair.gov.in"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            newsonair.gov.in ↗
+          </a>
+        </div>
+      </div>
+
+      {/* ── States ────────────────────────────────────────────────────────── */}
       {loading && (
         <div className="podcast-loading">
           <div className="podcast-spinner" />
-          <span>Loading…</span>
+          <span>Loading episodes…</span>
         </div>
       )}
       {error && (
         <div className="podcast-error">
-          <p>Could not load: {error}</p>
+          <p>Could not load episodes: {error}</p>
           <button className="btn-ghost" onClick={() => { setError(null); setLoading(true); fetchEpisodes() }}>Retry</button>
         </div>
       )}
@@ -232,45 +230,47 @@ export default function PodcastPage() {
         <div className="podcast-empty">No episodes found at this time.</div>
       )}
 
-      {/* Bulletins grid */}
-      {episodes.length > 0 && (
-        <div className="pod-section">
-          <div className="pod-section-hdr">
-            <span className="pod-section-title">Daily Bulletins</span>
-            <span className="pod-section-badge pod-section-badge-short">~5 min</span>
-          </div>
-          <div className="pod-grid">
-            {episodes.map((ep, idx) => (
-              <EpCard key={ep.audioUrl} ep={ep} idx={idx}
-                active={idx === currentIdx} playing={playing}
-                onPress={() => idx === currentIdx ? togglePlay() : startEpisode(idx)}
-              />
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Sticky mini-player — appears when something is active */}
-      {activeEp && (
-        <div className="pod-player">
-          <div className="pod-player-info">
-            <div className="pod-player-title">{activeEp.title}</div>
-            <div className="pod-player-sub">
-              {dayFromDateStr(activeEp.date)} · {shortDate(activeEp.date)}
-              {activeEp.time ? ` · ${activeEp.time}` : ''}
+      {/* ── Episode list ──────────────────────────────────────────────────── */}
+      <div className="podcast-list">
+        {episodes.map((ep, idx) => {
+          const active = idx === currentIdx
+          return (
+            <div
+              key={ep.audioUrl}
+              className={`podcast-episode ${active ? 'active' : ''}`}
+              onClick={() => active ? togglePlay() : startEpisode(idx)}
+            >
+              <div className="podcast-ep-play">
+                {active && playing ? <PauseIcon /> : <PlayIcon />}
+              </div>
+              <div className="podcast-ep-body">
+                <div className="podcast-ep-top">
+                  <div className="podcast-ep-info">
+                    <div className="podcast-ep-title">
+                      {ep.title}
+                      {ep.time && <span className="podcast-ep-time">{dayFromDateStr(ep.date)} · {ep.time}</span>}
+                    </div>
+                    <div className="podcast-ep-date">{ep.date}</div>
+                  </div>
+                  {active && (
+                    <div className="podcast-ep-badge">
+                      {playing ? 'Playing' : 'Paused'}
+                    </div>
+                  )}
+                </div>
+                {active && (
+                  <div className="podcast-ep-controls" onClick={e => e.stopPropagation()}>
+                    <div className="podcast-seek" onClick={seek} role="slider" aria-label="Seek" aria-valuenow={Math.round(progress * 100)}>
+                      <div className="podcast-seek-fill" style={{ width: `${progress * 100}%` }} />
+                    </div>
+                    <div className="podcast-time">{fmtTime(currentTime)}<span>/</span>{fmtTime(duration)}</div>
+                  </div>
+                )}
+              </div>
             </div>
-          </div>
-          <div className="pod-player-mid">
-            <div className="pod-player-seek" onClick={seek}>
-              <div className="pod-player-fill" style={{ width: `${progress * 100}%` }} />
-            </div>
-            <div className="pod-player-time">{fmtTime(currentTime)} / {fmtTime(duration)}</div>
-          </div>
-          <button className="pod-player-btn" onClick={togglePlay} aria-label={playing ? 'Pause' : 'Play'}>
-            {playing ? <PauseIcon size={16} /> : <PlayIcon size={16} />}
-          </button>
-        </div>
-      )}
+          )
+        })}
+      </div>
     </div>
   )
 }
