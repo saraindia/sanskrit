@@ -4,27 +4,10 @@ import { BHAGAVAD_GITA } from '../data/sacred.js'
 import './Hub.css'
 
 const ITEMS = [
-  {
-    to:    '/gita',
-    icon:  '🪷',
-    label: 'Bhagavad Gītā',
-    dev:   'भगवद्गीता',
-    sub:   `18 chapters · ${BHAGAVAD_GITA.length} verses`,
-  },
-  {
-    to:    '/upanishads',
-    icon:  '🕉️',
-    label: 'Upaniṣads',
-    dev:   'उपनिषद्',
-    sub:   'Īśa · Kena · Kaṭha · Muṇḍaka',
-  },
-  {
-    to:    '/upanishads?text=brahmasutra',
-    icon:  '📿',
-    label: 'Brahmasūtras',
-    dev:   'ब्रह्मसूत्राणि',
-    sub:   '4 adhyāyas · 510 sūtras',
-  },
+  { to: '/gita',                    icon: '🪷',  label: 'Bhagavad Gītā', dev: 'भगवद्गीता',    sub: `18 chapters · ${BHAGAVAD_GITA.length} verses`, color: '#f59e0b' },
+  { to: '/upanishads',              icon: '🕉️', label: 'Upaniṣads',     dev: 'उपनिषद्',      sub: 'Īśa · Kena · Kaṭha · Muṇḍaka',               color: '#a855f7' },
+  { to: '/brahmasutras',                icon: '📿', label: 'Brahmasūtras', dev: 'ब्रह्मसूत्राणि', sub: '4 adhyāyas · 510 sūtras',               color: '#34d399' },
+  { to: '/yogasutras',                  icon: '🧘', label: 'Yoga Sūtras',   dev: 'योगसूत्राणि',    sub: '4 pādas · 196 sūtras · Patañjali',     color: '#f97316' },
 ]
 
 export default function TextsHub() {
@@ -37,7 +20,7 @@ export default function TextsHub() {
       <div className="study-sq-grid">
         {ITEMS.map((item, i) => (
           <Link key={item.to} to={item.to} className="study-sq-card">
-            <span className="study-sq-num">{i + 1}</span>
+            <span className="study-sq-num" style={{ color: item.color, background: `${item.color}22`, borderColor: `${item.color}44` }}>{i + 1}</span>
             <span className="study-sq-icon">{item.icon}</span>
             <span className="study-sq-label">{item.label}</span>
             <span className="study-sq-dev">{item.dev}</span>

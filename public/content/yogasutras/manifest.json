@@ -1,0 +1,42 @@
+{
+  "sanskritSource": "Patanjali's Yoga Sutras (traditional text, ancient, public domain)",
+  "translator": "Swami Vivekananda — Raja Yoga (1896, public domain); Vyāsa Bhāṣya (classical commentary, public domain)",
+  "texts": [
+    {
+      "id": "yogasutra-pada1",
+      "title": "Samādhi Pāda",
+      "titleDeva": "समाधिपादः",
+      "titleEnglish": "On Contemplation",
+      "veda": "Yoga Darśana",
+      "verses": 51,
+      "file": "yogasutra-pada1.json"
+    },
+    {
+      "id": "yogasutra-pada2",
+      "title": "Sādhana Pāda",
+      "titleDeva": "साधनापादः",
+      "titleEnglish": "On Practice",
+      "veda": "Yoga Darśana",
+      "verses": 55,
+      "file": "yogasutra-pada2.json"
+    },
+    {
+      "id": "yogasutra-pada3",
+      "title": "Vibhūti Pāda",
+      "titleDeva": "विभूतिपादः",
+      "titleEnglish": "On Powers",
+      "veda": "Yoga Darśana",
+      "verses": 56,
+      "file": "yogasutra-pada3.json"
+    },
+    {
+      "id": "yogasutra-pada4",
+      "title": "Kaivalya Pāda",
+      "titleDeva": "कैवल्यपादः",
+      "titleEnglish": "On Liberation",
+      "veda": "Yoga Darśana",
+      "verses": 34,
+      "file": "yogasutra-pada4.json"
+    }
+  ]
+}

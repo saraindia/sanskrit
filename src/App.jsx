@@ -15,7 +15,8 @@ const MatchPairs    = lazy(() => import('./pages/MatchPairs'))
 const StudyHub      = lazy(() => import('./pages/StudyHub'))
 const TextsHub      = lazy(() => import('./pages/TextsHub'))
 const GrammarPage   = lazy(() => import('./pages/GrammarPage'))
-const DDNewsPage    = lazy(() => import('./pages/DDNewsPage'))
+const DDNewsPage        = lazy(() => import('./pages/DDNewsPage'))
+const SanskritCoursePage= lazy(() => import('./pages/SanskritCoursePage'))
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
 import { PurchaseProvider, usePurchase } from './context/PurchaseContext'
@@ -30,8 +31,8 @@ import PaywallModal from './components/PaywallModal'
 import ScrollToTop from './components/ScrollToTop'
 import './styles/app.css'
 
-const STUDY_ROUTES = ['/study', '/flashcards', '/drill', '/fill', '/match', '/grammar', '/grammar/pronouns', '/grammar/endings', '/grammar/verbs', '/grammar/nouns', '/grammar/vibhakti', '/grammar/tenses', '/grammar/explorer', '/grammar/questions', '/grammar/gender']
-const TEXTS_ROUTES = ['/texts', '/gita', '/upanishads']
+const STUDY_ROUTES = ['/study', '/flashcards', '/drill', '/fill', '/match', '/grammar', '/grammar/pronouns', '/grammar/endings', '/grammar/verbs', '/grammar/nouns', '/grammar/vibhakti', '/grammar/tenses', '/grammar/explorer', '/grammar/questions', '/grammar/gender', '/course']
+const TEXTS_ROUTES = ['/texts', '/gita', '/upanishads', '/brahmasutras', '/yogasutras']
 const MORE_ROUTES  = ['/podcast', '/ddnews']
 
 const SIDEBAR_GROUPS = [
@@ -112,6 +113,7 @@ function AppShell() {
     if (location.pathname !== prevPath.current) {
       play('nav')
       prevPath.current = location.pathname
+      document.querySelector('.main-content')?.scrollTo({ top: 0, behavior: 'instant' })
     }
   }, [location.pathname, play])
 
@@ -159,7 +161,9 @@ function AppShell() {
           <Route path="/drill"      element={<DrillSentences />} />
           <Route path="/fill"       element={<FillBlanks />} />
           <Route path="/gita"       element={<GitaPage />} />
-          <Route path="/upanishads" element={<UpanishadsPage />} />
+          <Route path="/upanishads"   element={<UpanishadsPage />} />
+          <Route path="/brahmasutras" element={<UpanishadsPage />} />
+          <Route path="/yogasutras"   element={<UpanishadsPage />} />
           <Route path="/match"      element={<MatchPairs />} />
           <Route path="/story"      element={<StorySession />} />
           <Route path="/progress"   element={<Progress />} />
@@ -167,6 +171,7 @@ function AppShell() {
           <Route path="/profile"    element={<ProfilePage />} />
           <Route path="/podcast"    element={<PodcastPage />} />
           <Route path="/ddnews"    element={<DDNewsPage />} />
+          <Route path="/course"    element={<SanskritCoursePage />} />
         </Routes>
         </Suspense>
       </main>

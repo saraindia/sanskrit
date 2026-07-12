@@ -33,7 +33,7 @@ const LINGA_EN     = { m: 'masc',       f: 'fem',           n: 'neuter'         
 function PronounsLesson() {
   return (
     <div className="gr-lesson">
-      <table className="gr-table gr-pronoun-intro-table">
+      <div className="gr-table-scroll"><table className="gr-table gr-pronoun-intro-table">
         <thead>
           <tr><th>Dimension</th><th>Values</th><th>Note</th></tr>
         </thead>
@@ -54,11 +54,11 @@ function PronounsLesson() {
             <td>Only affects 3rd-person pronouns</td>
           </tr>
         </tbody>
-      </table>
+      </table></div>
 
       {/* 3rd person — show all three genders */}
       <div className="gr-example-title" style={{marginTop:'0.25rem'}}>3rd Person (प्रथमपुरुष) — he / she / it</div>
-      <table className="gr-table">
+      <div className="gr-table-scroll"><table className="gr-table">
         <thead>
           <tr><th>Gender · लिङ्गम्</th><th>Singular</th><th>Dual (×2)</th><th>Plural (×3+)</th></tr>
         </thead>
@@ -78,11 +78,11 @@ function PronounsLesson() {
             )
           })}
         </tbody>
-      </table>
+      </table></div>
 
       {/* 2nd and 1st person — gender-neutral */}
       <div className="gr-example-title" style={{marginTop:'1rem'}}>2nd & 1st Person — gender-neutral</div>
-      <table className="gr-table">
+      <div className="gr-table-scroll"><table className="gr-table">
         <thead>
           <tr><th>Person</th><th>Singular</th><th>Dual (×2)</th><th>Plural (×3+)</th></tr>
         </thead>
@@ -99,7 +99,7 @@ function PronounsLesson() {
             </tr>
           ))}
         </tbody>
-      </table>
+      </table></div>
 
       <div className="gr-tip">
         💡 <strong>Tip:</strong> In Sanskrit, the pronoun is optional — the verb ending already tells you who is acting.
@@ -236,7 +236,7 @@ function VachanamLesson() {
 
   return (
     <div className="gr-lesson">
-      <table className="gr-table gr-vacha-intro-table">
+      <div className="gr-table-scroll"><table className="gr-table gr-vacha-intro-table">
         <thead>
           <tr><th>Number · वचनम्</th><th>Sanskrit</th><th>Meaning</th><th>When to use</th></tr>
         </thead>
@@ -260,7 +260,7 @@ function VachanamLesson() {
             <td>Three or more</td>
           </tr>
         </tbody>
-      </table>
+      </table></div>
 
       {/* Category selector */}
       <div className="gr-vacha-cats">
@@ -740,7 +740,7 @@ function VerbsLesson() {
       </div>
       {verb.note && <div className="gr-tip">⚠️ {verb.note}</div>}
 
-      <table className="gr-table">
+      <div className="gr-table-scroll"><table className="gr-table">
         <thead>
           <tr><th>Person</th><th>Singular</th><th>Dual</th><th>Plural</th></tr>
         </thead>
@@ -758,7 +758,7 @@ function VerbsLesson() {
             </tr>
           ))}
         </tbody>
-      </table>
+      </table></div>
 
       {/* Example sentences accordion — grouped by person */}
       <div className="gr-example-title" style={{marginTop:'1.25rem'}}>Example sentences</div>
@@ -845,7 +845,7 @@ function NegativeLesson() {
         </select>
       </div>
 
-      <table className="gr-table">
+      <div className="gr-table-scroll"><table className="gr-table">
         <thead>
           <tr><th>Positive</th><th>Negative</th></tr>
         </thead>
@@ -868,7 +868,7 @@ function NegativeLesson() {
             )
           })}
         </tbody>
-      </table>
+      </table></div>
       <div className="gr-tip">
         💡 <strong>Remember:</strong> न (na) never changes. Only the verb changes with person/number.
       </div>
@@ -1323,7 +1323,7 @@ function GenderLesson() {
     <div className="gr-lesson">
 
       {/* ── Introduction table ── */}
-      <table className="gr-table gr-gender-intro-table">
+      <div className="gr-table-scroll"><table className="gr-table gr-gender-intro-table">
         <thead>
           <tr>
             <th>Gender · लिङ्गम्</th>
@@ -1356,7 +1356,7 @@ function GenderLesson() {
             <td><span className="gr-dev">फलम्</span> <span className="gr-iast">phalam</span></td>
           </tr>
         </tbody>
-      </table>
+      </table></div>
       <div className="gr-tip" style={{marginTop:'0.5rem'}}>
         💡 These endings are <strong>patterns, not rules</strong> — gender must always be memorized with each noun.
       </div>
@@ -1458,7 +1458,7 @@ function GenderLesson() {
 
       {/* ── Full pronoun reference table ── */}
       <div className="gr-example-title" style={{marginTop:'1rem'}}>3rd-person pronouns by gender &amp; number</div>
-      <table className="gr-table">
+      <div className="gr-table-scroll"><table className="gr-table">
         <thead>
           <tr>
             <th>Gender · लिङ्गम्</th>
@@ -1486,7 +1486,7 @@ function GenderLesson() {
             )
           })}
         </tbody>
-      </table>
+      </table></div>
     </div>
   )
 }
@@ -3206,6 +3206,7 @@ const LESSON_VIEWS = {
 
 // Lessons shown inside the TENSES sub-section
 const TENSES_LESSON_IDS = ['endings','imperfect','future','imperative','optative']
+const TENSES_COLORS = ['#6366f1','#ec4899','#f97316','#eab308','#22c55e']
 
 // Sequential learning path — grouped for the Grammar home page
 const GRAMMAR_PATH = [
@@ -3316,7 +3317,7 @@ export default function GrammarPage() {
               <button key={lesson.id}
                 className="gr-tense-card"
                 onClick={() => { play('tap'); navigate(`/grammar/tenses/${lesson.id}`) }}>
-                <span className="gr-tense-num">{i + 1}</span>
+                <span className="gr-tense-num" style={{ color: TENSES_COLORS[i], background: `${TENSES_COLORS[i]}22`, borderColor: `${TENSES_COLORS[i]}44` }}>{i + 1}</span>
                 <span className="gr-tense-icon">{lesson.icon}</span>
                 <div className="gr-tense-label">{lesson.title}</div>
                 <div className="gr-tense-dev">{lesson.titleDev}</div>
@@ -3352,7 +3353,7 @@ export default function GrammarPage() {
                   <div className="gr-map-card-label">{group.label}</div>
                   <div className="gr-map-card-dev">{group.labelDev}</div>
                 </div>
-                <span className="gr-map-card-count">{lessonCount}</span>
+                <span className="gr-map-card-count" style={{ color: group.color, background: `${group.color}22`, border: `1px solid ${group.color}44` }}>{lessonCount}</span>
                 <span className="gr-map-card-chevron">{isOpen ? '▾' : '›'}</span>
               </button>
 

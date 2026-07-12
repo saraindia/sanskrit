@@ -1,0 +1,614 @@
+{
+  "id": "yogasutra-pada2",
+  "title": "Sādhana Pāda",
+  "titleDeva": "साधनापादः",
+  "titleEnglish": "On Practice",
+  "veda": "Yoga Darśana",
+  "verses": [
+    {
+      "ref": "2.1",
+      "sec": "Sādhana Pāda",
+      "dev": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः ।",
+      "iast": "tapaḥ-svādhyāya-īśvara-praṇidhānāni kriyā-yogaḥ",
+      "trans": "Austerity, self-study, and devotion to Īśvara constitute Kriyā Yoga.",
+      "commentaries": {
+        "vivekananda": "Patanjali opens Sādhana Pāda with Kriyā Yoga as preliminary preparation before the full eightfold path. Tapas (austerity) burns impurities; svādhyāya (self-study through mantra, scripture, and self-inquiry) illuminates the nature of the Self; īśvara-praṇidhāna (surrender to God) removes the ego's grip. Vivekananda: 'These three together form the preliminary discipline that makes the mind fit for deeper concentration. Without this preparation, the higher limbs of Yoga cannot take root.'",
+        "patanjali_vyasa": "Kriyā Yoga addresses the three main obstacles: impurity (tapas), ignorance (svādhyāya), ego (īśvara-praṇidhāna)."
+      }
+    },
+    {
+      "ref": "2.2",
+      "sec": "Sādhana Pāda",
+      "dev": "समाधिभावनार्थः क्लेशतनूकरणार्थश्च ।",
+      "iast": "samādhi-bhāvanārthaḥ kleśa-tanūkaraṇārthaś ca",
+      "trans": "Kriyā Yoga is practiced for the purpose of cultivating samādhi and attenuating the kleśas.",
+      "commentaries": {
+        "vivekananda": "Two explicit goals of Kriyā Yoga: to foster samādhi and to thin out the five kleśas. Vivekananda: 'All practice in Yoga is directed to these two ends. The two go together: as kleśas weaken, samādhi deepens, and as samādhi deepens, kleśas weaken further.'",
+        "patanjali_vyasa": "Tanūkaraṇa means making thin. The kleśas are not immediately destroyed but progressively attenuated through practice until finally eliminated in nirbīja samādhi."
+      }
+    },
+    {
+      "ref": "2.3",
+      "sec": "Sādhana Pāda",
+      "dev": "अविद्यास्मितारागद्वेषाभिनिवेशाः क्लेशाः ।",
+      "iast": "avidyā-asmitā-rāga-dveṣa-abhiniveśāḥ kleśāḥ",
+      "trans": "The kleśas are: ignorance, ego, attraction, aversion, and the will to live / fear of death.",
+      "commentaries": {
+        "vivekananda": "The five kleśas are the root causes of all suffering. Vivekananda: 'Ignorance is the mother of all the rest. From ignorance comes ego. From ego flow attraction and aversion. And these produce the deepest fear: abhiniveśa, the clinging to life even in the wisest.' This is the complete map of human psychological suffering.",
+        "patanjali_vyasa": "The kleśas are hierarchically related: avidyā is the root; the others are branches. Treating symptoms without addressing the root gives only temporary relief."
+      }
+    },
+    {
+      "ref": "2.4",
+      "sec": "Sādhana Pāda",
+      "dev": "अविद्या क्षेत्रमुत्तरेषां प्रसुप्ततनुविच्छिन्नोदाराणाम् ।",
+      "iast": "avidyā kṣetram uttareṣāṁ prasupta-tanu-vicchinna-udārāṇām",
+      "trans": "Ignorance is the field of the others — whether they are dormant, attenuated, interrupted, or active.",
+      "commentaries": {
+        "vivekananda": "Avidyā is the fertile ground in which all four other kleśas grow. They exist in four states: dormant (prasupta), thin (tanu), temporarily suppressed (vicchinna), fully active (udāra). Vivekananda: 'Even when a man seems perfectly calm, the seeds of past desires are lying dormant. Only when the soil of ignorance is destroyed do the seeds themselves die.'",
+        "patanjali_vyasa": "The four-stage model is diagnostically precise. Mere temporary suppression is not liberation — only the fire of jñāna destroys the seeds themselves."
+      }
+    },
+    {
+      "ref": "2.5",
+      "sec": "Sādhana Pāda",
+      "dev": "अनित्याशुचिदुःखानात्मसु नित्यशुचिसुखात्मख्यातिरविद्या ।",
+      "iast": "anitya-aśuci-duḥkha-anātmasu nitya-śuci-sukha-ātma-khyātir avidyā",
+      "trans": "Ignorance is taking the impermanent to be permanent, the impure to be pure, the painful to be pleasurable, and the non-Self to be the Self.",
+      "commentaries": {
+        "vivekananda": "Patanjali's precise definition of avidyā — four inversions. Vivekananda: 'All our trouble comes from this — we mistake the body for the Soul, the world for Reality, pleasure for Bliss. When we reverse these errors, we are free.'",
+        "patanjali_vyasa": "The four inversions map onto the four characteristics of the Self: nitya (eternal), śuci (pure), sukha (blissful), ātman (Self). Liberation is simply seeing what was always true."
+      }
+    },
+    {
+      "ref": "2.6",
+      "sec": "Sādhana Pāda",
+      "dev": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता ।",
+      "iast": "dṛg-darśana-śaktyor ekātmateva asmitā",
+      "trans": "Asmitā (ego-sense) is the error of identifying the power of the Seer with the power of seeing.",
+      "commentaries": {
+        "vivekananda": "Asmitā is the fundamental confusion between witnessing consciousness (Puruṣa) and the instrument of perception (buddhi). They appear to be one but are utterly different. Vivekananda: 'The great mistake is identifying the instrument with the user of the instrument. The eye sees, not the soul — but the soul appears to see through the eye.'",
+        "patanjali_vyasa": "The word iva ('as if') is important: Puruṣa and buddhi do not literally merge; they only seem to. Viveka (discrimination) directly dissolves this apparent identification."
+      }
+    },
+    {
+      "ref": "2.7",
+      "sec": "Sādhana Pāda",
+      "dev": "सुखानुशयी रागः ।",
+      "iast": "sukhānuśayī rāgaḥ",
+      "trans": "Rāga (attraction/desire) follows pleasure.",
+      "commentaries": {
+        "vivekananda": "Rāga is the residual pull that experience of pleasure leaves in the mind. Vivekananda: 'Every time you enjoy something, you dig a groove in the mind that will pull you toward it again and again. This is rāga — the groove of desire.'",
+        "patanjali_vyasa": "The practitioner learns to observe rāga without identifying with it. Non-acting on rāga weakens the groove; deliberately supplying pleasure deepens it."
+      }
+    },
+    {
+      "ref": "2.8",
+      "sec": "Sādhana Pāda",
+      "dev": "दुःखानुशयी द्वेषः ।",
+      "iast": "duḥkhānuśayī dveṣaḥ",
+      "trans": "Dveṣa (aversion/hatred) follows pain.",
+      "commentaries": {
+        "vivekananda": "Mirror-image of rāga: past pain creates a groove of avoidance. Vivekananda: 'Every experience of pain leaves a mark — a tendency to hate, to avoid, to fear. These marks accumulate over many lives and create the personality of aversion.'",
+        "patanjali_vyasa": "Rāga and dveṣa together are the twin engines of saṃsāra. The practice of equanimity directly counters both."
+      }
+    },
+    {
+      "ref": "2.9",
+      "sec": "Sādhana Pāda",
+      "dev": "स्वरसवाही विदुषोऽपि तथारूढोऽभिनिवेशः ।",
+      "iast": "sva-rasa-vāhī viduṣo 'pi tathā-rūḍho 'bhiniveśaḥ",
+      "trans": "Abhiniveśa (fear of death) is self-sustaining and present even in the wise.",
+      "commentaries": {
+        "vivekananda": "The deepest kleśa: even those who intellectually understand the Self as immortal still feel this primal fear. Vivekananda: 'Even the greatest of men tremble at the thought of death. This is because the soul has been so long in the body that it has come to think it IS the body. Yoga is the way to break this identification permanently.'",
+        "patanjali_vyasa": "Abhiniveśa is carried from lifetime to lifetime as residual fear from past deaths. Only the direct realisation of the deathless Puruṣa dissolves it — no intellectual reasoning suffices."
+      }
+    },
+    {
+      "ref": "2.10",
+      "sec": "Sādhana Pāda",
+      "dev": "ते प्रतिप्रसवहेयाः सूक्ष्माः ।",
+      "iast": "te pratiprasava-heyāḥ sūkṣmāḥ",
+      "trans": "When subtle, these kleśas are to be overcome by resolving them back into their cause.",
+      "commentaries": {
+        "vivekananda": "Pratiprasava: tracing kleśas back to their source and dissolving them there — reversing the current of manifestation. Vivekananda: 'In meditation, when you find a subtle desire or fear arising, trace it back to the ignorance at the root — and it dissolves.'",
+        "patanjali_vyasa": "The kleśas manifested from avidyā; they dissolve by being returned to avidyā, and avidyā itself dissolved by the light of viveka-jñāna."
+      }
+    },
+    {
+      "ref": "2.11",
+      "sec": "Sādhana Pāda",
+      "dev": "ध्यानहेयास्तद्वृत्तयः ।",
+      "iast": "dhyāna-heyās tad-vṛttayaḥ",
+      "trans": "The modifications produced by these kleśas are to be overcome by meditation.",
+      "commentaries": {
+        "vivekananda": "When kleśas are active, the remedy is dhyāna — watching the kleśa-driven thought-waves without feeding them. Vivekananda: 'Do not fight desires — just watch them. They arise, they pass. You are the witness, not the desire.'",
+        "patanjali_vyasa": "Pratiprasava for subtle kleśas and dhyāna for active ones are complementary. Together they progressively purify the mind-stuff."
+      }
+    },
+    {
+      "ref": "2.12",
+      "sec": "Sādhana Pāda",
+      "dev": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः ।",
+      "iast": "kleśa-mūlaḥ karma-āśayo dṛṣṭa-adṛṣṭa-janma-vedanīyaḥ",
+      "trans": "The karma-reservoir rooted in the kleśas is experienced in this life or in future lives.",
+      "commentaries": {
+        "vivekananda": "Karma-āśaya is the storehouse of karmic impressions. Without kleśas no new karma is created. Vivekananda: 'Every thought we think, every action we perform leaves a mark. These marks constitute our character and determine our future birth.' The yogin does not create new karma because the kleśas have been uprooted.",
+        "patanjali_vyasa": "This sūtra connects the psychological to the cosmic dimension of suffering. Yoga is not merely therapy — it addresses the very mechanism by which the soul is drawn back into embodiment."
+      }
+    },
+    {
+      "ref": "2.13",
+      "sec": "Sādhana Pāda",
+      "dev": "सति मूले तद्विपाको जात्यायुर्भोगाः ।",
+      "iast": "sati mūle tad-vipāko jāty-āyur-bhogāḥ",
+      "trans": "As long as the root exists, it ripens into species of birth, span of life, and experience.",
+      "commentaries": {
+        "vivekananda": "The karmic storehouse produces three things: jāti (kind of birth), āyu (span of life), and bhoga (quality of experience). Vivekananda: 'Your entire life is the unfolding of your past karma — the body you were born into, the length of your life, every joy and sorrow — all determined by accumulated past actions.' The only way to interrupt this is to uproot the kleśas.",
+        "patanjali_vyasa": "This is the Yoga theory of karma and rebirth in compact form. It explains why lives differ so drastically and why compassion is appropriate — each being lives the precise result of their own karma."
+      }
+    },
+    {
+      "ref": "2.14",
+      "sec": "Sādhana Pāda",
+      "dev": "ते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात् ।",
+      "iast": "te hlāda-paritāpa-phalāḥ puṇya-apuṇya-hetutvāt",
+      "trans": "They bear the fruit of joy and sorrow, according to virtuous or non-virtuous causes.",
+      "commentaries": {
+        "vivekananda": "The fruits of karma: joy (hlāda) from virtue and sorrow (paritāpa) from non-virtue. Vivekananda: 'Sow virtue and reap peace; sow vice and reap suffering. This is not punishment — it is the mathematics of the universe.'",
+        "patanjali_vyasa": "Even the joy of virtuous karma is ultimately impermanent and leads to craving for its continuation. The goal is the joy that has no cause — the ānanda of the Puruṣa itself."
+      }
+    },
+    {
+      "ref": "2.15",
+      "sec": "Sādhana Pāda",
+      "dev": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः ।",
+      "iast": "pariṇāma-tāpa-saṁskāra-duḥkhair guṇa-vṛtti-virodhāc ca duḥkham eva sarvaṁ vivekinaḥ",
+      "trans": "To the discriminating person, all is indeed suffering — due to the suffering of change, anxiety, and impressions, and the conflict of the guṇas.",
+      "commentaries": {
+        "vivekananda": "Three types of duḥkha: pariṇāma-duḥkha (suffering of change), tāpa-duḥkha (anxiety of anticipating loss), saṃskāra-duḥkha (subtle suffering in impressions). Vivekananda: 'The world is not bad — but it is impermanent, and all that is impermanent is a source of suffering for the wise. This is not pessimism — it is the diagnosis before the cure.'",
+        "patanjali_vyasa": "This echoes the First Noble Truth. Patanjali is not saying life is worthless but that its intrinsic suffering motivates the sincere practitioner to seek what is beyond change."
+      }
+    },
+    {
+      "ref": "2.16",
+      "sec": "Sādhana Pāda",
+      "dev": "हेयं दुःखमनागतम् ।",
+      "iast": "heyaṁ duḥkham anāgatam",
+      "trans": "Future suffering is to be avoided.",
+      "commentaries": {
+        "vivekananda": "The entire practical purpose of Yoga in one line: future suffering — not yet arrived — can be avoided. Vivekananda: 'We cannot undo the past, but we can prevent the future. The goal of Yoga is to stop the machine of karma from producing more suffering.'",
+        "patanjali_vyasa": "Heyam (to be avoided) designates what is to be abandoned. The eightfold path serves this one end: preventing the future arising of suffering that has not yet occurred."
+      }
+    },
+    {
+      "ref": "2.17",
+      "sec": "Sādhana Pāda",
+      "dev": "द्रष्टृदृश्ययोः संयोगो हेयहेतुः ।",
+      "iast": "draṣṭṛ-dṛśyayoḥ saṁyogo heya-hetuḥ",
+      "trans": "The cause of what is to be avoided is the conjunction of the Seer and the seen.",
+      "commentaries": {
+        "vivekananda": "The root of all suffering is the apparent union of Puruṣa and Prakṛti. Vivekananda: 'The marriage of the soul to matter — that is the problem. When the soul realises it was never truly united with matter, the problem dissolves of itself.' Liberation is recognition of an ever-present separation.",
+        "patanjali_vyasa": "Saṁyoga is not a real metaphysical union but an apparent one. Viveka-khyāti sees through this conjunction and recognises Puruṣa as eternally untouched."
+      }
+    },
+    {
+      "ref": "2.18",
+      "sec": "Sādhana Pāda",
+      "dev": "प्रकाशक्रियास्थितिशीलं भूतेन्द्रियात्मकं भोगापवर्गार्थं दृश्यम् ।",
+      "iast": "prakāśa-kriyā-sthiti-śīlaṁ bhūta-indriya-ātmakaṁ bhoga-apavarga-arthaṁ dṛśyam",
+      "trans": "The seen, composed of illumination, activity, and inertia, consisting of elements and sense-organs, exists for experience and liberation.",
+      "commentaries": {
+        "vivekananda": "Prakṛti's two-fold purpose: bhoga (experience) and apavarga (liberation). Vivekananda: 'The world is a gymnasium — we come here to work out. Its purpose is our liberation, not our entanglement.'",
+        "patanjali_vyasa": "This positive evaluation of Prakṛti distinguishes Yoga from nihilistic world-rejection. The world is purposeful — it provides experiences needed for the Puruṣa's evolution toward self-recognition."
+      }
+    },
+    {
+      "ref": "2.19",
+      "sec": "Sādhana Pāda",
+      "dev": "विशेषाविशेषलिङ्गमात्रालिङ्गानि गुणपर्वाणि ।",
+      "iast": "viśeṣa-aviśeṣa-liṅgamātra-aliṅgāni guṇa-parvāṇi",
+      "trans": "The levels of the guṇas are: the particularised, the non-particularised, the only-marked, and the unmarked.",
+      "commentaries": {
+        "vivekananda": "Patanjali maps the Sāṃkhya cosmological hierarchy: viśeṣa (specific elements), aviśeṣa (tanmātras, ahaṁkāra), liṅgamātra (buddhi/mahat), aliṅga (unmanifest Prakṛti). Vivekananda: 'The universe is a hierarchy from gross to subtle. The yogi learns to move through these levels in meditation.'",
+        "patanjali_vyasa": "This map corresponds to the samāpattis of Pada 1 — savitarka at viśeṣa level, savicāra at aviśeṣa, sa-ānanda at liṅgamātra, sa-asmitā at aliṅga boundary."
+      }
+    },
+    {
+      "ref": "2.20",
+      "sec": "Sādhana Pāda",
+      "dev": "द्रष्टा दृशिमात्रः शुद्धोऽपि प्रत्ययानुपश्यः ।",
+      "iast": "draṣṭā dṛśi-mātraḥ śuddho 'pi pratyayānupaśyaḥ",
+      "trans": "The Seer is only seeing; though pure, it appears to see through the cognitions of the mind.",
+      "commentaries": {
+        "vivekananda": "The Puruṣa is pure seeing — nothing but consciousness. Though utterly pure, it appears to see through the mind's cognitions. Vivekananda: 'The soul itself is always pure. Through the mind it appears to do things. The work of Yoga is to separate the pure light from the coloured glass.'",
+        "patanjali_vyasa": "Dṛśi-mātra establishes that Puruṣa is absolutely simple — pure witnessing without a witness who could be affected. This understanding, when direct experience, is liberation itself."
+      }
+    },
+    {
+      "ref": "2.21",
+      "sec": "Sādhana Pāda",
+      "dev": "तदर्थ एव दृश्यस्यात्मा ।",
+      "iast": "tad-artha eva dṛśyasya ātmā",
+      "trans": "The very nature of the seen is solely for the purpose of the Seer.",
+      "commentaries": {
+        "vivekananda": "Prakṛti exists solely for Puruṣa — for its experience and liberation. Vivekananda: 'Nature is the servant of the Soul. Every experience, every suffering, every joy — all nature conspires to bring the Soul to the knowledge of itself.'",
+        "patanjali_vyasa": "This is profoundly optimistic metaphysics: nothing in experience is wasted. Every difficulty is meaningful; every experience moves the Puruṣa toward recognition of its own nature."
+      }
+    },
+    {
+      "ref": "2.22",
+      "sec": "Sādhana Pāda",
+      "dev": "कृतार्थं प्रति नष्टमप्यनष्टं तदन्यसाधारणत्वात् ।",
+      "iast": "kṛtārthaṁ prati naṣṭam apy anaṣṭaṁ tad-anya-sādhāraṇatvāt",
+      "trans": "For the liberated, Prakṛti ceases; yet it does not cease for others, since it is common to all.",
+      "commentaries": {
+        "vivekananda": "When Puruṣa attains liberation, its relationship with Prakṛti ends — but Prakṛti continues for other Puruṣas. Vivekananda: 'Liberation is personal — not cosmic. When one man is free, the world does not end. The universe goes on for others still working out their liberation.'",
+        "patanjali_vyasa": "This preserves individual accountability without cosmic nihilism. The liberated person need not be concerned about maintaining the world — Prakṛti, being common and autonomous, continues its work."
+      }
+    },
+    {
+      "ref": "2.23",
+      "sec": "Sādhana Pāda",
+      "dev": "स्वस्वामिशक्त्योः स्वरूपोपलब्धिहेतुः संयोगः ।",
+      "iast": "sva-svāmi-śaktyoḥ svarūpa-upalabdhi-hetuḥ saṁyogaḥ",
+      "trans": "The conjunction is the cause of the recognition of the true nature of both Prakṛti and Puruṣa.",
+      "commentaries": {
+        "vivekananda": "The saṁyoga, though the cause of bondage, is also the instrument through which both are eventually recognised. Vivekananda: 'Nature traps the soul — but nature also teaches the soul. The very suffering that bondage produces drives the soul to seek liberation.'",
+        "patanjali_vyasa": "Sva (Prakṛti) and svāmin (Puruṣa) are recognised through discrimination. The conjunction provides the contrast needed: without Prakṛti's limitations, Puruṣa's freedom would never be fully sought."
+      }
+    },
+    {
+      "ref": "2.24",
+      "sec": "Sādhana Pāda",
+      "dev": "तस्य हेतुरविद्या ।",
+      "iast": "tasya hetur avidyā",
+      "trans": "The cause of this conjunction is ignorance.",
+      "commentaries": {
+        "vivekananda": "Ignorance (avidyā) is the single root cause of the apparent conjunction. Vivekananda: 'Bondage is not a fact — it is a mistake. The soul was never really bound. Remove the ignorance and the bondage never was.'",
+        "patanjali_vyasa": "The cause is avidyā — confirming that removing the root removes the conjunction and with it all suffering. Viveka-khyāti is the direct antidote."
+      }
+    },
+    {
+      "ref": "2.25",
+      "sec": "Sādhana Pāda",
+      "dev": "तदभावात्संयोगाभावो हानं तद्दृशेः कैवल्यम् ।",
+      "iast": "tad-abhāvāt saṁyoga-abhāvo hānaṁ tad-dṛśeḥ kaivalyam",
+      "trans": "With the absence of ignorance, the conjunction ceases — and its removal is the liberation (kaivalya) of the Seer.",
+      "commentaries": {
+        "vivekananda": "Perfect logical sequence: avidyā → saṁyoga → suffering. Remove avidyā → conjunction ceases → liberation. Vivekananda: 'When you know your real nature — pure, eternal, free — the universe has no more power over you. This is Mukti — the birthright of every soul.'",
+        "patanjali_vyasa": "Kaivalya means the Puruṣa's aloneness/independence — standing in its own nature, free from all entanglement. It is not isolation but completeness."
+      }
+    },
+    {
+      "ref": "2.26",
+      "sec": "Sādhana Pāda",
+      "dev": "विवेकख्यातिरविप्लवा हानोपायः ।",
+      "iast": "viveka-khyātir aviplavā hāna-upāyaḥ",
+      "trans": "Uninterrupted discriminative knowledge is the means of removal.",
+      "commentaries": {
+        "vivekananda": "The one means of liberation: viveka-khyāti sustained and uninterrupted. Vivekananda: 'The light of discrimination, once lit, must burn continuously. Do not let it flicker. Every moment of inattention is a return to ignorance.'",
+        "patanjali_vyasa": "Aviplavā means without interruption. A moment of viveka is not enough — it must become a stable, background awareness no experience can disturb."
+      }
+    },
+    {
+      "ref": "2.27",
+      "sec": "Sādhana Pāda",
+      "dev": "तस्य सप्तधा प्रान्तभूमिः प्रज्ञा ।",
+      "iast": "tasya saptadhā prānta-bhūmiḥ prajñā",
+      "trans": "For that practitioner, the wisdom reaches its culmination in seven stages.",
+      "commentaries": {
+        "vivekananda": "The seven stages of liberating wisdom culminate in Puruṣa standing alone in kaivalya. Vivekananda refers to the traditional enumeration in the Yogabhāṣya describing the progressive recognition that the entire process of Yoga has been completed.",
+        "patanjali_vyasa": "These seven stages describe not a future achievement but the understanding that arises when viveka-khyāti is fully stabilised."
+      }
+    },
+    {
+      "ref": "2.28",
+      "sec": "Sādhana Pāda",
+      "dev": "योगाङ्गानुष्ठानादशुद्धिक्षये ज्ञानदीप्तिराविवेकख्यातेः ।",
+      "iast": "yoga-aṅga-anuṣṭhānād aśuddhi-kṣaye jñāna-dīptir ā-viveka-khyāteḥ",
+      "trans": "By the practice of the limbs of Yoga, with the destruction of impurities, the light of knowledge arises up to discriminative knowledge.",
+      "commentaries": {
+        "vivekananda": "The transition to Aṣṭāṅga Yoga: practicing the eight limbs destroys impurities and the inner light grows brighter — culminating in viveka-khyāti. Vivekananda: 'You cannot have Samādhi by sitting down and wishing for it. Body, breath, senses, mind — all must be disciplined. That is what the eight limbs are for.'",
+        "patanjali_vyasa": "The eight limbs address impurities at every level: ethical (yama/niyama), physical (āsana), energetic (prāṇāyāma), sensory (pratyāhāra), mental/spiritual (dhāraṇā/dhyāna/samādhi)."
+      }
+    },
+    {
+      "ref": "2.29",
+      "sec": "Sādhana Pāda",
+      "dev": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि ।",
+      "iast": "yama-niyama-āsana-prāṇāyāma-pratyāhāra-dhāraṇā-dhyāna-samādhayo 'ṣṭāv aṅgāni",
+      "trans": "Restraints, observances, posture, breath-control, withdrawal of the senses, concentration, meditation, and absorption — these are the eight limbs.",
+      "commentaries": {
+        "vivekananda": "The famous Aṣṭāṅga Yoga. Vivekananda: 'These eight steps must all be practiced together, like the eight spokes of a wheel. They are not strictly sequential — you can practice all eight simultaneously. Each supports and deepens the others.'",
+        "patanjali_vyasa": "The eight limbs address the full spectrum of human life: social (yama), personal (niyama), physical (āsana), vital (prāṇāyāma), sensory (pratyāhāra), and three stages of mental absorption."
+      }
+    },
+    {
+      "ref": "2.30",
+      "sec": "Sādhana Pāda",
+      "dev": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहाः यमाः ।",
+      "iast": "ahiṁsā-satya-asteya-brahmacarya-aparigrahāḥ yamāḥ",
+      "trans": "Non-violence, truthfulness, non-stealing, continence, and non-possessiveness — these are the restraints.",
+      "commentaries": {
+        "vivekananda": "The five yamas are the ethical foundation of Yoga. Vivekananda: 'These are universal duties — not invented by Patanjali but discovered by the sages. They are the conditions without which the mind cannot become still enough for concentration.'",
+        "patanjali_vyasa": "The yamas restrain the outflow of energy through harmful action, speech, and thought. Ahiṁsā is supreme; the others support it."
+      }
+    },
+    {
+      "ref": "2.31",
+      "sec": "Sādhana Pāda",
+      "dev": "जातिदेशकालसमयानवच्छिन्नाः सार्वभौमा महाव्रतम् ।",
+      "iast": "jāti-deśa-kāla-samayānavacchinnaḥ sārvabhaumaḥ mahāvratam",
+      "trans": "Not limited by class, place, time, or circumstance — these are universal and called the Great Vow.",
+      "commentaries": {
+        "vivekananda": "The yamas are not relative moral codes but universal. Vivekananda: 'These are not conventions — they are the very laws of the universe. The man who practices them fully will find the universe cooperates with him in extraordinary ways.'",
+        "patanjali_vyasa": "Mahāvrata signals the absolute, unconditional nature of yama. The unconditional commitment itself becomes a powerful purifier of the mind."
+      }
+    },
+    {
+      "ref": "2.32",
+      "sec": "Sādhana Pāda",
+      "dev": "शौचसन्तोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः ।",
+      "iast": "śauca-santoṣa-tapaḥ-svādhyāya-īśvara-praṇidhānāni niyamāḥ",
+      "trans": "Purity, contentment, austerity, self-study, and devotion to Īśvara — these are the observances.",
+      "commentaries": {
+        "vivekananda": "The five niyamas are personal disciplines. Vivekananda: 'These are the five golden keys that open the inner life. Practice them and the mind will become like polished gold — everything will be reflected clearly in it.'",
+        "patanjali_vyasa": "The niyamas create the character of the practitioner — stable, pure, self-aware, and oriented toward liberation."
+      }
+    },
+    {
+      "ref": "2.33",
+      "sec": "Sādhana Pāda",
+      "dev": "वितर्कबाधने प्रतिपक्षभावनम् ।",
+      "iast": "vitarka-bādhane pratipakṣa-bhāvanam",
+      "trans": "When disturbed by negative thoughts, the opposite should be cultivated.",
+      "commentaries": {
+        "vivekananda": "Pratipakṣa-bhāvana is the cognitive antidote to negative mental states. Vivekananda: 'You cannot drive darkness out of a room — you can only bring in light. Similarly, fill the mind with positive thoughts until there is no room for the negative.'",
+        "patanjali_vyasa": "This is proactive, not passive. The practitioner actively replaces negative thoughts. Over time positive saṃskāras grow strong enough to crowd out negative ones naturally."
+      }
+    },
+    {
+      "ref": "2.34",
+      "sec": "Sādhana Pāda",
+      "dev": "वितर्का हिंसादयः कृतकारितानुमोदिताः लोभक्रोधमोहपूर्वका मृदुमध्याधिमात्रा दुःखाज्ञानानन्तफलाः इति प्रतिपक्षभावनम् ।",
+      "iast": "vitarkā hiṁsādayaḥ kṛta-kārita-anumoditāḥ lobha-krodha-moha-pūrvakā mṛdu-madhya-adhimātrāḥ duḥkha-ajñānānanta-phalāḥ iti pratipakṣa-bhāvanam",
+      "trans": "Negative thoughts — done, caused, or approved; from greed, anger, or delusion; mild, moderate, or intense — their result is endless suffering and ignorance. Thus one should cultivate the opposite.",
+      "commentaries": {
+        "vivekananda": "Comprehensive analysis: three modes (done, caused, approved), three roots (greed, anger, delusion), three intensities. The result of any combination: endless suffering and ignorance. Vivekananda: 'Even approving of another violence is violence — the yogi takes responsibility even for what he condones.'",
+        "patanjali_vyasa": "The nine combinations account for virtually every form of moral transgression. Seeing the inevitable fruit of ananta suffering develops genuine vairāgya toward all forms of harm."
+      }
+    },
+    {
+      "ref": "2.35",
+      "sec": "Sādhana Pāda",
+      "dev": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः ।",
+      "iast": "ahiṁsā-pratiṣṭhāyāṁ tat-sannidhau vaira-tyāgaḥ",
+      "trans": "When established in non-violence, in one's presence hostility is abandoned.",
+      "commentaries": {
+        "vivekananda": "When ahiṁsā is fully realised, it radiates outward — even animals and enemies cease hostility. Vivekananda: 'When a man has truly conquered violence within himself, all creation becomes peaceful in his presence. The lion and the lamb lie down together near a perfect sage.'",
+        "patanjali_vyasa": "The mechanism: complete non-violence eliminates the vibration of fear that triggers defensive aggression. All beings sense this safety and relax."
+      }
+    },
+    {
+      "ref": "2.36",
+      "sec": "Sādhana Pāda",
+      "dev": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम् ।",
+      "iast": "satya-pratiṣṭhāyāṁ kriyā-phala-āśrayatvam",
+      "trans": "When established in truth, actions and their results depend on the yogin's word.",
+      "commentaries": {
+        "vivekananda": "Perfect truthfulness makes words self-fulfilling. Vivekananda: 'When a man has never uttered an untruth for years, his every word becomes a prophecy. He says be healed and the person is healed.' This is the result of perfect alignment between thought, word, and reality.",
+        "patanjali_vyasa": "The mind of a perfectly truthful person is so aligned with cosmic truth that its expressions are direct channels of reality, carrying the full weight of being."
+      }
+    },
+    {
+      "ref": "2.37",
+      "sec": "Sādhana Pāda",
+      "dev": "अस्तेयप्रतिष्ठायां सर्वरत्नोपस्थानम् ।",
+      "iast": "asteya-pratiṣṭhāyāṁ sarva-ratnopasthānam",
+      "trans": "When established in non-stealing, all jewels present themselves.",
+      "commentaries": {
+        "vivekananda": "Perfect non-coveting produces a mysterious abundance. Vivekananda: 'The man who has conquered greed finds that the world offers him everything. Nature becomes generous to one who is truly free from the desire to take.'",
+        "patanjali_vyasa": "The covetous person paradoxically never has enough; the non-covetous finds abundance everywhere. The person who truly does not covet becomes a pure channel through which abundance flows freely."
+      }
+    },
+    {
+      "ref": "2.38",
+      "sec": "Sādhana Pāda",
+      "dev": "ब्रह्मचर्यप्रतिष्ठायां वीर्यलाभः ।",
+      "iast": "brahmacarya-pratiṣṭhāyāṁ vīrya-lābhaḥ",
+      "trans": "When established in continence, vigour is gained.",
+      "commentaries": {
+        "vivekananda": "Brahmacarya — conservation and sublimation of creative energy — produces extraordinary vitality. Vivekananda: 'The man who preserves his vital force has tremendous energy. This vital fluid, when sublimated, becomes ojas — spiritual energy — manifesting as the power of will, intellect, and direct perception.'",
+        "patanjali_vyasa": "Vīrya is not just physical strength but the concentrated force of a mind that has stopped dissipating energy through compulsive sensory indulgence. Redirected toward meditation it produces the intensity needed for deep samādhi."
+      }
+    },
+    {
+      "ref": "2.39",
+      "sec": "Sādhana Pāda",
+      "dev": "अपरिग्रहस्थैर्ये जन्मकथन्तासंबोधः ।",
+      "iast": "aparigraha-sthairye janma-kathaṁtā-saṁbodhaḥ",
+      "trans": "When steadfast in non-possessiveness, knowledge of the why and how of birth arises.",
+      "commentaries": {
+        "vivekananda": "Perfect aparigraha produces direct knowledge of the nature and cause of one's own birth and past lives. Vivekananda: 'The man who is truly non-possessive has nothing to protect, nothing to hide. Therefore the veil of past births becomes transparent to him.'",
+        "patanjali_vyasa": "The connection: possessiveness is driven by fear of not having enough, rooted in fear of death. When aparigraha is perfected, that root-fear dissolves and the veil hiding past-life continuity lifts."
+      }
+    },
+    {
+      "ref": "2.40",
+      "sec": "Sādhana Pāda",
+      "dev": "शौचात्स्वाङ्गजुगुप्सा परैरसंसर्गः ।",
+      "iast": "śaucāt svāṅga-jugupsā parair asaṁsargaḥ",
+      "trans": "From purity, one develops aversion to one's own body and non-contact with others.",
+      "commentaries": {
+        "vivekananda": "Deep contemplation of the body's nature — impurities, decay, constant maintenance — naturally produces healthy dis-identification. Vivekananda: 'The yogi does not hate the body — he simply stops identifying with it. He treats it as a vehicle, not as the Self.'",
+        "patanjali_vyasa": "This śauca-result is the psychological correlate of the Sāṃkhyan insight that the body belongs to Prakṛti, not the Puruṣa."
+      }
+    },
+    {
+      "ref": "2.41",
+      "sec": "Sādhana Pāda",
+      "dev": "सत्त्वशुद्धिसौमनस्यैकाग्र्येन्द्रियजयात्मदर्शनयोग्यत्वानि च ।",
+      "iast": "sattva-śuddhi-saumanasya-ekāgrya-indriya-jaya-ātma-darśana-yogyatvāni ca",
+      "trans": "From purity also arise purity of sattva, cheerfulness, one-pointedness, mastery of the senses, and fitness for Self-realisation.",
+      "commentaries": {
+        "vivekananda": "Five positive fruits of śauca. Vivekananda: 'A pure mind is the first prerequisite for Self-realisation. Without purity no amount of meditation will avail.'",
+        "patanjali_vyasa": "These results show that śauca is not merely external cleanliness but comprehensive purification that transforms the entire quality of inner life."
+      }
+    },
+    {
+      "ref": "2.42",
+      "sec": "Sādhana Pāda",
+      "dev": "सन्तोषादनुत्तमः सुखलाभः ।",
+      "iast": "santoṣād anuttamaḥ sukha-lābhaḥ",
+      "trans": "From contentment, unsurpassable happiness is gained.",
+      "commentaries": {
+        "vivekananda": "Santoṣa is the direct door to happiness — not circumstance-dependent but anuttama sukha, needing nothing external. Vivekananda: 'The man who is content with whatever comes has found the secret of happiness. He is happy always.'",
+        "patanjali_vyasa": "The contented mind can engage fully with life without being driven by compulsive need. This psychological freedom makes deep meditation possible."
+      }
+    },
+    {
+      "ref": "2.43",
+      "sec": "Sādhana Pāda",
+      "dev": "कायेन्द्रियसिद्धिरशुद्धिक्षयात्तपसः ।",
+      "iast": "kāya-indriya-siddhir aśuddhi-kṣayāt tapasaḥ",
+      "trans": "From tapas, with the destruction of impurities, perfection of body and sense-organs arises.",
+      "commentaries": {
+        "vivekananda": "Tapas burns physical and mental impurities and produces siddhis. Vivekananda: 'The body and the nervous system can be purified and elevated far beyond what ordinary life achieves. Tapas is the fire that refines the instrument.'",
+        "patanjali_vyasa": "True tapas refines; self-torture merely damages. The criterion is whether discomfort serves purification or merely mortification."
+      }
+    },
+    {
+      "ref": "2.44",
+      "sec": "Sādhana Pāda",
+      "dev": "स्वाध्यायादिष्टदेवतासम्प्रयोगः ।",
+      "iast": "svādhyāyād iṣṭa-devatā-saṁprayogaḥ",
+      "trans": "From self-study, contact with the chosen deity arises.",
+      "commentaries": {
+        "vivekananda": "Long devoted mantra-practice addressed to the iṣṭa-devatā creates resonance that eventually manifests as direct encounter. Vivekananda: 'When a man has repeated a mantra with complete devotion for years, the deity of that mantra appears before him — not as hallucination but as a real spiritual event.'",
+        "patanjali_vyasa": "Svādhyāya — both study of liberating texts and repetition of mantra — ripens into darśana (direct vision/encounter)."
+      }
+    },
+    {
+      "ref": "2.45",
+      "sec": "Sādhana Pāda",
+      "dev": "समाधिसिद्धिरीश्वरप्रणिधानात् ।",
+      "iast": "samādhi-siddhir īśvara-praṇidhānāt",
+      "trans": "From devotion to Īśvara, samādhi is perfected.",
+      "commentaries": {
+        "vivekananda": "The most direct fruit of surrender: samādhi itself is attained. Vivekananda: 'If you completely surrender yourself to God — your body, mind, and soul — nothing stands between you and samādhi. The ego, the only obstacle, is dissolved in the act of total surrender.'",
+        "patanjali_vyasa": "Patanjali honours multiple paths — through effort and through surrender — recognising that human hearts are diverse."
+      }
+    },
+    {
+      "ref": "2.46",
+      "sec": "Sādhana Pāda",
+      "dev": "स्थिरसुखमासनम् ।",
+      "iast": "sthira-sukham āsanam",
+      "trans": "Āsana is that which is steady and comfortable.",
+      "commentaries": {
+        "vivekananda": "The one-line definition of āsana: simultaneously stable and comfortable. Vivekananda: 'The posture must be such that you can forget the body. If the body is in pain, the mind is attached to it and cannot meditate.'",
+        "patanjali_vyasa": "For Patanjali, āsana serves one purpose: establishing the body in a stable, effortless position that allows the mind to turn inward. Any posture that achieves this is āsana."
+      }
+    },
+    {
+      "ref": "2.47",
+      "sec": "Sādhana Pāda",
+      "dev": "प्रयत्नशैथिल्यानन्तसमापत्तिभ्याम् ।",
+      "iast": "prayatna-śaithilya-ananta-samāpattibhyām",
+      "trans": "By relaxation of effort and coalescence with the infinite, āsana is perfected.",
+      "commentaries": {
+        "vivekananda": "Two simultaneous movements: letting go of effort and meditating on the infinite. Vivekananda: 'Stop fighting the body and start identifying with the infinite. As the meditator expands consciousness to match the infinite, the body naturally finds its stillness.'",
+        "patanjali_vyasa": "Effortless steadiness — like a river flowing without strain. The meditation on ananta (infinite) loosens body-identification and allows the body to settle into natural alignment."
+      }
+    },
+    {
+      "ref": "2.48",
+      "sec": "Sādhana Pāda",
+      "dev": "ततो द्वन्द्वानभिघातः ।",
+      "iast": "tato dvandvānabhighātaḥ",
+      "trans": "From that, there is no disturbance by the pairs of opposites.",
+      "commentaries": {
+        "vivekananda": "Mastery of āsana produces immunity to pairs of opposites — heat and cold, pain and pleasure, honour and insult. Vivekananda: 'The yogi who has mastered the body sits in the snow without feeling cold. The body is no longer a tyrant but a fully obedient instrument.'",
+        "patanjali_vyasa": "The practitioner who attains true sthira-sukha has accessed a stillness that transcends opposites — extending naturally into all life circumstances."
+      }
+    },
+    {
+      "ref": "2.49",
+      "sec": "Sādhana Pāda",
+      "dev": "तस्मिन्सति श्वासप्रश्वासयोर्गतिविच्छेदः प्राणायामः ।",
+      "iast": "tasmin sati śvāsa-praśvāsayor gati-vicchedaḥ prāṇāyāmaḥ",
+      "trans": "On that being mastered, prāṇāyāma is the regulation and cessation of the movements of in-breath and out-breath.",
+      "commentaries": {
+        "vivekananda": "Prāṇāyāma is the regulation of inhalation and exhalation on the foundation of āsana. Vivekananda: 'The breath is the grossest manifestation of prāṇa and its control is the most direct lever for controlling the mind. When the breath is completely regulated, the mind becomes controlled of its own accord.'",
+        "patanjali_vyasa": "Āsana must come first — without a stable body, breath-control produces turbulence rather than stillness."
+      }
+    },
+    {
+      "ref": "2.50",
+      "sec": "Sādhana Pāda",
+      "dev": "बाह्याभ्यन्तरस्तम्भवृत्तिर्देशकालसङ्ख्याभिः परिदृष्टो दीर्घसूक्ष्मः ।",
+      "iast": "bāhya-ābhyantara-stambha-vṛttir deśa-kāla-saṁkhyābhiḥ paridṛṣṭo dīrgha-sūkṣmaḥ",
+      "trans": "The movements are external, internal, and stationary — observed by place, time, and number — becoming long and subtle.",
+      "commentaries": {
+        "vivekananda": "Three aspects: exhalation (bāhya), inhalation (ābhyantara), retention (stambha). Modulated by place, duration, and number of cycles. Vivekananda: 'The science of prāṇāyāma is exact and must be learned from a qualified teacher. Correctly practiced, the breath becomes long and subtle — almost imperceptible.'",
+        "patanjali_vyasa": "As prāṇāyāma deepens, the breath naturally becomes longer and subtler — mirroring the quieting of the mind."
+      }
+    },
+    {
+      "ref": "2.51",
+      "sec": "Sādhana Pāda",
+      "dev": "बाह्याभ्यन्तरविषयाक्षेपी चतुर्थः ।",
+      "iast": "bāhya-ābhyantara-viṣayākṣepī caturthaḥ",
+      "trans": "The fourth prāṇāyāma transcends the external and internal domains.",
+      "commentaries": {
+        "vivekananda": "Beyond the three is a fourth transcendent prāṇāyāma that goes beyond distinctions of in-breath, out-breath, and retention — the spontaneous suspension of breath in deep samādhi. Vivekananda: 'In deep meditation the breath may stop for minutes at a time without any effort. This is the highest prāṇāyāma.'",
+        "patanjali_vyasa": "This fourth type is the khevalī kumbhaka of Haṭha Yoga — spontaneous breathlessness in samādhi. When the mind ceases, the breath ceases."
+      }
+    },
+    {
+      "ref": "2.52",
+      "sec": "Sādhana Pāda",
+      "dev": "ततः क्षीयते प्रकाशावरणम् ।",
+      "iast": "tataḥ kṣīyate prakāśa-āvaraṇam",
+      "trans": "From that prāṇāyāma, the veil over the inner light is dissolved.",
+      "commentaries": {
+        "vivekananda": "Prāṇāyāma directly dissolves the covering over the inner light of consciousness. Vivekananda: 'The breath covers the fire of knowledge like smoke covers fire. When the breath is regulated, the smoke clears and the light shines.'",
+        "patanjali_vyasa": "Āvaraṇa is the obscuring power that prāṇāyāma specifically removes, fuelling the inner fire (agni) that burns away dullness."
+      }
+    },
+    {
+      "ref": "2.53",
+      "sec": "Sādhana Pāda",
+      "dev": "धारणासु च योग्यता मनसः ।",
+      "iast": "dhāraṇāsu ca yogyatā manasaḥ",
+      "trans": "And the mind becomes fit for dhāraṇā.",
+      "commentaries": {
+        "vivekananda": "After prāṇāyāma clears the veil, the mind gains fitness for concentration. Vivekananda: 'Without the preliminary work of the outer limbs, dhāraṇā is impossible. The restless mind is like a lamp in the wind. But when the wind of the breath has been calmed, the flame of attention becomes steady.'",
+        "patanjali_vyasa": "The transition from prāṇāyāma to dhāraṇā requires the intervening step of pratyāhāra (2.54–2.55)."
+      }
+    },
+    {
+      "ref": "2.54",
+      "sec": "Sādhana Pāda",
+      "dev": "स्वविषयासम्प्रयोगे चित्तस्वरूपानुकार इवेन्द्रियाणां प्रत्याहारः ।",
+      "iast": "sva-viṣaya-asaṁprayoge citta-svarūpa-anukāra ivendriyāṇāṁ pratyāhāraḥ",
+      "trans": "Pratyāhāra is the withdrawal of the sense-organs from their objects, as if imitating the nature of the mind itself.",
+      "commentaries": {
+        "vivekananda": "When the mind turns inward, the senses follow naturally — as if imitating the mind's inward turn. Vivekananda: 'When you think deeply enough, you cannot hear what is going on around you — you have naturally withdrawn your senses. This is the beginning of pratyāhāra.'",
+        "patanjali_vyasa": "Pratyāhāra is primarily a mind-practice. When the mind's current is strongly inward, the senses ride it inward."
+      }
+    },
+    {
+      "ref": "2.55",
+      "sec": "Sādhana Pāda",
+      "dev": "ततः परमा वश्यतेन्द्रियाणाम् ।",
+      "iast": "tataḥ paramā vaśyata indriyāṇām",
+      "trans": "From that arises the greatest mastery over the senses.",
+      "commentaries": {
+        "vivekananda": "The fruit of pratyāhāra: effortless mastery of the senses — a mind so absorbed in its own light that the senses simply have nothing to chase. Vivekananda: 'The man who has mastered his senses is a king — the man mastered by them is a slave. Pratyāhāra gives this kingship — not by fighting the senses but by finding something infinitely more attractive within.'",
+        "patanjali_vyasa": "This marks the end of the outer limbs and the threshold of the inner limbs. The practitioner who reaches this point has a fundamentally different relationship with sense-experience."
+      }
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "id": "yogasutra-pada3",
+  "title": "Vibhūti Pāda",
+  "titleDeva": "विभूतिपादः",
+  "titleEnglish": "On Powers",
+  "veda": "Yoga Darśana",
+  "verses": [
+    {
+      "ref": "3.1",
+      "sec": "Vibhūti Pāda",
+      "dev": "देशबन्धश्चित्तस्य धारणा ।",
+      "iast": "deśa-bandhaś cittasya dhāraṇā",
+      "trans": "Dhāraṇā is the binding of the mind to a place.",
+      "commentaries": {
+        "vivekananda": "Dhāraṇā (concentration) is the first of the three inner limbs (antaraṅga). Vivekananda: 'Hold the mind on one place — one object, one idea. Just keep bringing it back each time it wanders. That is dhāraṇā — the art of returning.' The word deśa (place) can be internal (heart, brow, navel) or external (flame, image, mantra). The key is fixity — the mind stops wandering and stays.",
+        "patanjali_vyasa": "Dhāraṇā is where deliberate practice gives way to increasing effortlessness. The object must be chosen carefully — something that genuinely draws the mind rather than something forced upon it."
+      }
+    },
+    {
+      "ref": "3.2",
+      "sec": "Vibhūti Pāda",
+      "dev": "तत्र प्रत्ययैकतानता ध्यानम् ।",
+      "iast": "tatra pratyayaikatānatā dhyānam",
+      "trans": "Dhyāna is the continuous flow of similar cognitions (toward that object).",
+      "commentaries": {
+        "vivekananda": "Dhyāna is dhāraṇā made continuous. Vivekananda: 'When you can maintain dhāraṇā without interruption for a long time, it becomes dhyāna. The stream of attention flows without a break — like oil poured in a continuous thread, not like water dripping.' The individual moments of attention blend into an unbroken current.",
+        "patanjali_vyasa": "The word ekatānatā (one-stretchedness) is vivid: the mind is stretched out toward one object continuously, like a bow fully drawn. No counter-current of distraction interrupts the flow."
+      }
+    },
+    {
+      "ref": "3.3",
+      "sec": "Vibhūti Pāda",
+      "dev": "तदेवार्थमात्रनिर्भासं स्वरूपशून्यमिव समाधिः ।",
+      "iast": "tad evārtha-mātra-nirbhāsaṁ svarūpa-śūnyam iva samādhiḥ",
+      "trans": "Samādhi is that same (dhyāna) when the object alone shines forth, as if empty of its own form.",
+      "commentaries": {
+        "vivekananda": "Samādhi completes the triad. Vivekananda: 'When even the meditator vanishes and only the object shines — that is samādhi. There is no more sense of I am meditating. The knower dissolves into the known.' The mind becomes so transparent that it is as if absent — only the object remains in its pure luminosity.",
+        "patanjali_vyasa": "The phrase svarūpa-śūnyam iva ('as if empty of its own form') is precise: the mind does not literally cease to exist but is so perfectly transparent that it seems to have no form of its own. This is the culmination of the purification process begun in Pada 1."
+      }
+    },
+    {
+      "ref": "3.4",
+      "sec": "Vibhūti Pāda",
+      "dev": "त्रयमेकत्र संयमः ।",
+      "iast": "trayam ekatra saṁyamaḥ",
+      "trans": "The three (dhāraṇā, dhyāna, and samādhi) together (on one object) are called saṁyama.",
+      "commentaries": {
+        "vivekananda": "Saṁyama is the technical term for the unified practice of concentration, meditation, and absorption focused on a single object or principle. Vivekananda: 'When you can do all three simultaneously and sustain them, you have the key to the powers described in this chapter. Saṁyama is the master key of Yoga.' This is Patanjali's systematic method for accessing extraordinary knowledge and capacities.",
+        "patanjali_vyasa": "Saṁyama is practiced progressively: first dhāraṇā (gross), then dhyāna (refined), then samādhi (complete). With practice the three happen almost simultaneously, accelerating the revelatory power of concentration."
+      }
+    },
+    {
+      "ref": "3.5",
+      "sec": "Vibhūti Pāda",
+      "dev": "तज्जयात्प्रज्ञालोकः ।",
+      "iast": "taj-jayāt prajñā-lokaḥ",
+      "trans": "By mastery of that (saṁyama) arises the light of wisdom.",
+      "commentaries": {
+        "vivekananda": "Prajñā-loka — the illumination of wisdom — is the direct fruit of mastering saṁyama. Not just intellectual insight but a luminous, direct perception of the nature of the object. Vivekananda: 'By this practice you can know anything. Direct the light of saṁyama on any object — gross or subtle — and it reveals itself completely to you.' This is the basis of all the extraordinary powers (vibhūtis) described in this pāda.",
+        "patanjali_vyasa": "Prajñā-loka means literally the light of prajna — an inner illumination that makes previously hidden aspects of reality visible. It is the same ṛtaṁbharā prajñā of 1.48 applied actively through saṁyama."
+      }
+    },
+    {
+      "ref": "3.6",
+      "sec": "Vibhūti Pāda",
+      "dev": "तस्य भूमिषु विनियोगः ।",
+      "iast": "tasya bhūmiṣu viniyogaḥ",
+      "trans": "Its application is in stages.",
+      "commentaries": {
+        "vivekananda": "Saṁyama is applied progressively — stage by stage, not all at once. Vivekananda: 'You must not try to jump to the highest before you have mastered the lower. The powers come naturally in order. First the gross, then the subtle.' This principle protects the practitioner from attempting advanced saṁyama before the foundation of concentration is solid.",
+        "patanjali_vyasa": "The stages correspond to the hierarchy of objects: first the gross (elements, body, senses), then the subtle (tanmātras, mind), then the subtlest (ego, Puruṣa). Each stage prepares for the next."
+      }
+    },
+    {
+      "ref": "3.7",
+      "sec": "Vibhūti Pāda",
+      "dev": "त्रयमन्तरङ्गं पूर्वेभ्यः ।",
+      "iast": "trayam antaraṅgaṁ pūrvebhyaḥ",
+      "trans": "These three are more interior than the preceding ones.",
+      "commentaries": {
+        "vivekananda": "The triad of dhāraṇā, dhyāna, and samādhi are more interior (antaraṅga) than the five outer limbs. Vivekananda: 'The outer limbs prepare the vessel; the inner limbs fill it. The outer work is preparatory; the inner work is transformative.' This marks a qualitative shift — from discipline to direct perception.",
+        "patanjali_vyasa": "Antaraṅga (inner) contrasts with bahiraṅga (outer). The outer five limbs can be practiced by anyone; the inner three require a degree of purification that only the outer five can establish."
+      }
+    },
+    {
+      "ref": "3.8",
+      "sec": "Vibhūti Pāda",
+      "dev": "तदपि बहिरङ्गं निर्बीजस्य ।",
+      "iast": "tad api bahiraṅgaṁ nirbījasya",
+      "trans": "Even these (the three) are outer in relation to the seedless (samādhi).",
+      "commentaries": {
+        "vivekananda": "Even the inner triad — dhāraṇā, dhyāna, and the sabīja samādhis — are still 'outer' compared to nirbīja (seedless) samādhi. Vivekananda: 'The inner limbs are the anteroom; nirbīja samādhi is the inner sanctum. In all sabīja samādhi there is still an object — still a seed. Only in nirbīja is the last seed gone.' The full hierarchy of practice is thus: outer five → inner three → nirbīja.",
+        "patanjali_vyasa": "This relativises the entire eightfold path: even its highest formal stages are preparatory for the final objectless samādhi. The practitioner must not stop at any stage, however exalted, but continue until the last seed is dissolved."
+      }
+    },
+    {
+      "ref": "3.9",
+      "sec": "Vibhūti Pāda",
+      "dev": "व्युत्थाननिरोधसंस्कारयोरभिभवप्रादुर्भावौ निरोधक्षणश्चित्तान्वयो निरोधपरिणामः ।",
+      "iast": "vyutthāna-nirodha-saṁskārayor abhibhava-prādurbhāvau nirodha-kṣaṇaś cittānvayo nirodha-pariṇāmaḥ",
+      "trans": "The transformation toward cessation (nirodha-pariṇāma) is when the arising of the cessation-saṃskāra suppresses the arising of the agitation-saṃskāra, at the moment of cessation, through the mind.",
+      "commentaries": {
+        "vivekananda": "The mind undergoes three transformations described in sūtras 3.9–3.11. Nirodha-pariṇāma is the first: the progressive replacement of the saṃskāra of agitation (vyutthāna) by the saṃskāra of cessation (nirodha). Vivekananda: 'The mind is always changing — the question is in which direction. The Yogi directs it toward stillness by consistently reinforcing the nirodha-saṃskāra.' Each moment of stillness plants a seed of stillness.",
+        "patanjali_vyasa": "This sūtra explains the mechanism by which practice gradually transforms the mind. It is not a sudden switch but a progressive shift in which which saṃskāra dominates — moment by moment, session by session, year by year."
+      }
+    },
+    {
+      "ref": "3.10",
+      "sec": "Vibhūti Pāda",
+      "dev": "तस्य प्रशान्तवाहिता संस्कारात् ।",
+      "iast": "tasya praśānta-vāhitā saṁskārāt",
+      "trans": "Its (the cessation-state's) flowing peacefully is due to saṃskāra.",
+      "commentaries": {
+        "vivekananda": "When the nirodha-saṃskāra has grown strong enough, the mind flows peacefully (praśānta-vāhitā) without effort — naturally, spontaneously. Vivekananda: 'After long practice the mind naturally becomes still. It does not need to be forced — it flows toward stillness as water flows downhill.' The saṃskāra of stillness has become the dominant channel.",
+        "patanjali_vyasa": "This describes the fruit of long practice: meditation becomes effortless. The practitioner no longer struggles to concentrate — the mind moves naturally toward its object like a well-worn groove."
+      }
+    },
+    {
+      "ref": "3.11",
+      "sec": "Vibhūti Pāda",
+      "dev": "सर्वार्थतैकाग्रतयोः क्षयोदयौ चित्तस्य समाधिपरिणामः ।",
+      "iast": "sarvārthatā-ekāgratayoḥ kṣayodayau cittasya samādhi-pariṇāmaḥ",
+      "trans": "The transformation toward samādhi is the decline of all-pointedness and the rise of one-pointedness in the mind.",
+      "commentaries": {
+        "vivekananda": "The second transformation: the mind shifts from sarvārthatā (attending to many things simultaneously) to ekāgratā (one-pointed attention). Vivekananda: 'Ordinarily the mind is scattered — jumping from one thing to another. In samādhi it gathers itself into one point. This is not suppression but integration — all mental energy directed at one thing.'",
+        "patanjali_vyasa": "The progressive elimination of distractions and the strengthening of single-pointed attention is the direct mechanism of deepening samādhi."
+      }
+    },
+    {
+      "ref": "3.12",
+      "sec": "Vibhūti Pāda",
+      "dev": "ततः पुनः शान्तोदितौ तुल्यप्रत्ययौ चित्तस्यैकाग्रतापरिणामः ।",
+      "iast": "tataḥ punaḥ śāntoditau tulya-pratyayau cittasyaikāgratā-pariṇāmaḥ",
+      "trans": "Then again when the subsided and the arisen (cognitions) are equal, there is the transformation of one-pointedness.",
+      "commentaries": {
+        "vivekananda": "The third transformation: ekāgratā-pariṇāma — when the departing cognition and the arising cognition are identical in quality (both focussed on the same object), the mind has achieved perfect one-pointedness. Vivekananda: 'When every thought that arises is about the same object — when even the moment between thoughts is filled with that object — that is perfect one-pointedness.' There are no longer gaps in the attention.",
+        "patanjali_vyasa": "This is the most refined description of dhyāna approaching samādhi: the object of the preceding moment and the object of the current moment are the same — no deviation, no interpolation of other content."
+      }
+    },
+    {
+      "ref": "3.13",
+      "sec": "Vibhūti Pāda",
+      "dev": "एतेन भूतेन्द्रियेषु धर्मलक्षणावस्थापरिणामा व्याख्याताः ।",
+      "iast": "etena bhūta-indriyeṣu dharma-lakṣaṇa-avasthā-pariṇāmā vyākhyātāḥ",
+      "trans": "By this (account of the three transformations) the transformations of property, character, and condition in the elements and sense-organs are also explained.",
+      "commentaries": {
+        "vivekananda": "The three transformations of the mind (nirodha, samādhi, ekāgratā) also describe transformations in the elements and sense-organs: (1) dharma-pariṇāma (change of property — what a thing is); (2) lakṣaṇa-pariṇāma (change of character — its present state); (3) avasthā-pariṇāma (change of condition — its degree). Vivekananda: 'All change in nature follows these three types. Understanding them gives the yogin mastery over the material world.'",
+        "patanjali_vyasa": "This is the Yoga philosophy of change — applicable to all of Prakṛti. The yogin who understands the three transformations can, through saṁyama, perceive and even influence the state of any object in nature."
+      }
+    },
+    {
+      "ref": "3.14",
+      "sec": "Vibhūti Pāda",
+      "dev": "शान्तोदिताव्यपदेश्यधर्मानुपाती धर्मी ।",
+      "iast": "śāntoditāvyapadeśya-dharmānupātī dharmī",
+      "trans": "The substrate (dharmī) is that which is followed by properties — past, present, or indeterminate.",
+      "commentaries": {
+        "vivekananda": "The dharmī is the underlying substrate (Prakṛti, ultimately) that persists through all three times — past (śānta), present (udita), and yet-to-manifest (avyapadeśya). Properties (dharmas) come and go; the substrate remains. Vivekananda: 'The forms change but the substance does not. The wave changes, the water remains. The yogin learns to see through the forms to the substance.'",
+        "patanjali_vyasa": "This sūtra establishes the philosophical foundation for understanding change without positing absolute nihilism. Something persists; properties vary. This allows the yogin to perceive both the constancy and the flux in any object."
+      }
+    },
+    {
+      "ref": "3.15",
+      "sec": "Vibhūti Pāda",
+      "dev": "क्रमान्यत्वं परिणामान्यत्वे हेतुः ।",
+      "iast": "kramānyatvaṁ pariṇāmānyatve hetuḥ",
+      "trans": "The difference in sequence (krama) is the cause of the difference in transformation.",
+      "commentaries": {
+        "vivekananda": "Different sequences of the same properties produce different transformations. The clay can become a pot or a brick — the difference lies in the sequence of shaping operations. Vivekananda: 'The yogin who masters this principle can perceive why two things that seem similar are actually different — and can directly influence the sequence of transformation in matter and mind.'",
+        "patanjali_vyasa": "This is Patanjali's theory of how diversity arises from unity — through difference in sequential unfolding. It underlies the siddhis that involve perceiving past and future."
+      }
+    },
+    {
+      "ref": "3.16",
+      "sec": "Vibhūti Pāda",
+      "dev": "परिणामत्रयसंयमादतीतानागतज्ञानम् ।",
+      "iast": "pariṇāma-traya-saṁyamād atītānāgata-jñānam",
+      "trans": "By saṁyama on the three transformations comes knowledge of past and future.",
+      "commentaries": {
+        "vivekananda": "The first specific siddhi: by practising saṁyama on the three transformations of any object — its past properties, current state, and future tendencies — the yogin directly perceives its past and future. Vivekananda: 'The great yogins can read the past and predict the future because they perceive the law of transformation in its fullness. They do not guess — they directly perceive the sequence.'",
+        "patanjali_vyasa": "This power arises naturally from mastery of the three transformation types described in 3.13–3.15. The yogin sees the entire arc of an object's existence in the three-fold transformation."
+      }
+    },
+    {
+      "ref": "3.17",
+      "sec": "Vibhūti Pāda",
+      "dev": "शब्दार्थप्रत्ययानामितरेतराध्यासात्संकरस्तत्प्रविभागसंयमात्सर्वभूतरुतज्ञानम् ।",
+      "iast": "śabda-artha-pratyayānām itaretarādhyāsāt saṁkaras tat-pravibhāga-saṁyamāt sarva-bhūta-ruta-jñānam",
+      "trans": "The word, the meaning, and the idea are mixed together due to mutual superimposition; by saṁyama on their distinction comes knowledge of the sounds of all beings.",
+      "commentaries": {
+        "vivekananda": "Three things are normally confused: the word (śabda), the object it refers to (artha), and the mental concept (pratyaya). By saṁyama on their distinction — separating word from meaning from idea — the yogin gains direct knowledge of the language of all beings. Vivekananda: 'The great sages could understand the cries of animals, the sounds of birds, the intent behind all communication — because they had separated the pure consciousness of meaning from the accidents of language.'",
+        "patanjali_vyasa": "This power is the practical application of the linguistic philosophy in 1.9 (vikalpa). When the confusion of word, meaning, and concept is undone in saṁyama, the underlying meaning becomes directly accessible regardless of the external sound-form."
+      }
+    },
+    {
+      "ref": "3.18",
+      "sec": "Vibhūti Pāda",
+      "dev": "संस्कारसाक्षात्करणात्पूर्वजातिज्ञानम् ।",
+      "iast": "saṁskāra-sākṣāt-karaṇāt pūrva-jāti-jñānam",
+      "trans": "By direct perception of saṃskāras comes knowledge of previous births.",
+      "commentaries": {
+        "vivekananda": "By practising saṁyama on the deepest saṃskāras in the mind — perceiving them directly rather than through their effects — the yogin gains direct knowledge of previous births. Vivekananda: 'The impressions of past lives are stored in the deepest layers of the mind. The yogin dives deeper and deeper until these impressions become visible as clearly as objects in daylight.' This is not memory but direct perception.",
+        "patanjali_vyasa": "The saṃskāras of past lives are real traces — like rings in a tree trunk. Saṁyama on them makes the experiences that created them directly knowable."
+      }
+    },
+    {
+      "ref": "3.19",
+      "sec": "Vibhūti Pāda",
+      "dev": "प्रत्ययस्य परचित्तज्ञानम् ।",
+      "iast": "pratyayasya para-citta-jñānam",
+      "trans": "By saṁyama on the cognitions (of another's mind) comes knowledge of another's mind.",
+      "commentaries": {
+        "vivekananda": "By directing saṁyama toward the cognitions of another person's mind, the yogin can directly know what that person is thinking. Vivekananda: 'When the mind becomes pure enough and concentrated enough, it can read other minds as easily as reading a page. This is not speculation — it has been reported by advanced yogins in every tradition.'",
+        "patanjali_vyasa": "This power underlies telepathy in the yogic tradition. The mechanism is the same as other saṁyamas: intense one-pointed attention on the object (the other person's citta) reveals its nature."
+      }
+    },
+    {
+      "ref": "3.20",
+      "sec": "Vibhūti Pāda",
+      "dev": "न च तत्सालम्बनं तस्याविषयीभूतत्वात् ।",
+      "iast": "na ca tat sālambanaṁ tasyāviṣayī-bhūtatvāt",
+      "trans": "But not its supporting object, since that is not the object (of the yogin's saṁyama).",
+      "commentaries": {
+        "vivekananda": "The yogin can know the content of another's mind (the pratyaya) but not what that person is thinking about (the ālambana — the supporting object). Vivekananda: 'You can know that a person is afraid, joyful, or angry — but you cannot necessarily know what they are afraid of. The feeling is accessible; the specific content may not be.' The knowledge is of the mental state, not its external referent.",
+        "patanjali_vyasa": "This qualification is important for keeping the account of the siddhis realistic and limited. The yogin's knowledge has a specific range — not omniscience about everything related to another person."
+      }
+    },
+    {
+      "ref": "3.21",
+      "sec": "Vibhūti Pāda",
+      "dev": "कायरूपसंयमात्तद्ग्राह्यशक्तिस्तम्भे चक्षुःप्रकाशासम्प्रयोगेऽन्तर्धानम् ।",
+      "iast": "kāya-rūpa-saṁyamāt tad-grāhya-śakti-stambhe cakṣuḥ-prakāśa-asaṁprayoge 'ntardhānam",
+      "trans": "By saṁyama on the form of the body, when the power of perception is suspended and the eye's light is disconnected, the yogin becomes invisible.",
+      "commentaries": {
+        "vivekananda": "By saṁyama on one's own body form, the yogin can suspend the body's capacity to be perceived, disconnecting it from the light of the eye — becoming invisible. Vivekananda: 'This is reported in the Upanishads and by later yogins. I am not going to say it is impossible — the universe holds far more than ordinary perception reveals.' He accepted these powers as real but warned against pursuing them.",
+        "patanjali_vyasa": "The mechanism: by withdrawing the visual accessibility of the body (tad-grāhya-śakti-stambha), the body no longer reflects light in a way that stimulates the observer's eye."
+      }
+    },
+    {
+      "ref": "3.22",
+      "sec": "Vibhūti Pāda",
+      "dev": "सोपक्रमं निरुपक्रमं च कर्म तत्संयमादपरान्तज्ञानमरिष्टेभ्यो वा ।",
+      "iast": "sopakramaṁ nirupakramaṁ ca karma tat-saṁyamād aparānta-jñānam ariṣṭebhyo vā",
+      "trans": "Karma is either fast-ripening or slow-ripening; by saṁyama on these — or on the portents of death — comes knowledge of one's time of death.",
+      "commentaries": {
+        "vivekananda": "Two types of karma: sopakrama (active, fast-ripening — already beginning to produce effects) and nirupakrama (slow-ripening — stored for a later time). By saṁyama on their interaction, or on the arisṭas (omens and portents of death), the yogin can know when death will come. Vivekananda: 'The advanced yogi knows his time of death. He has seen through the veil of time — not with fear but with the equanimity of a traveler who knows when the train departs.'",
+        "patanjali_vyasa": "This knowledge is not morbid but liberating — the yogin who knows the time of death can arrange their affairs, intensify practice, and meet death in a state of awareness."
+      }
+    },
+    {
+      "ref": "3.23",
+      "sec": "Vibhūti Pāda",
+      "dev": "मैत्र्यादिषु बलानि ।",
+      "iast": "maitry-ādiṣu balāni",
+      "trans": "By saṁyama on friendliness and other (brahma-vihāras) come (their corresponding) powers.",
+      "commentaries": {
+        "vivekananda": "Saṁyama on the brahma-vihāras (friendliness, compassion, sympathetic joy, equanimity — introduced in 1.33) produces extraordinary powers corresponding to each: irresistible friendliness, overwhelming compassion, uncontainable joy, unshakeable equanimity. Vivekananda: 'The man who has truly realised metta (loving-kindness) cannot be resisted — all hearts open to him. This is not technique but the natural overflow of a purified heart.'",
+        "patanjali_vyasa": "The brahma-vihāra siddhis are perhaps the most important — and least celebrated. Powers of the heart are subtler and more transformative than paranormal physical powers."
+      }
+    },
+    {
+      "ref": "3.24",
+      "sec": "Vibhūti Pāda",
+      "dev": "बलेषु हस्तिबलादीनि ।",
+      "iast": "baleṣu hasti-balādīni",
+      "trans": "By saṁyama on strength, the strength of an elephant etc. is obtained.",
+      "commentaries": {
+        "vivekananda": "Saṁyama on the strength of an elephant (or any great being) produces corresponding physical strength. Vivekananda: 'The yogin can absorb the quality of anything he meditates on — strength, subtlety, speed. This is the logic of all the siddhis: saṁyama on a quality in its pure form transfers that quality to the meditator.' The mechanism is the mind's power to take on the nature of what it thoroughly contemplates.",
+        "patanjali_vyasa": "This sūtra begins a series of specific physical and paranormal powers obtained through saṁyama on specific qualities. They are listed matter-of-factly, without glorification."
+      }
+    },
+    {
+      "ref": "3.25",
+      "sec": "Vibhūti Pāda",
+      "dev": "प्रवृत्त्यालोकन्यासात्सूक्ष्मव्यवहितविप्रकृष्टज्ञानम् ।",
+      "iast": "pravṛtty-āloka-nyāsāt sūkṣma-vyavahita-viprakṛṣṭa-jñānam",
+      "trans": "By directing the light of higher cognition comes knowledge of the subtle, the hidden, and the distant.",
+      "commentaries": {
+        "vivekananda": "By applying the inner light of saṁyama (pravṛtti-āloka — the light of activated consciousness), the yogin can perceive what is normally inaccessible: the subtle (sūkṣma — too fine for ordinary senses), the hidden (vyavahita — concealed by an obstacle), and the distant (viprakṛṣṭa — far away in space). Vivekananda: 'The concentrated mind is like a powerful searchlight — it can illuminate what ordinary perception cannot reach.'",
+        "patanjali_vyasa": "This sūtra describes the general mechanism of clairvoyance: the directed inner light of saṁyama penetrates barriers of subtlety, opacity, and distance."
+      }
+    },
+    {
+      "ref": "3.26",
+      "sec": "Vibhūti Pāda",
+      "dev": "भुवनज्ञानं सूर्ये संयमात् ।",
+      "iast": "bhuvana-jñānaṁ sūrye saṁyamāt",
+      "trans": "By saṁyama on the sun comes knowledge of the worlds.",
+      "commentaries": {
+        "vivekananda": "Saṁyama on the sun — both the physical sun and the solar principle (ādityamaṇḍala) — reveals knowledge of the structure of the worlds (bhuvanas). Vivekananda noted that many advanced yogins report that the cosmological knowledge in the Upanishads and Purāṇas was not speculative but directly perceived through such concentration. The sun is the cosmic axis around which the structure of the manifest world is organised.",
+        "patanjali_vyasa": "The seven bhuvanas or planes of existence (physical, subtle, causal, etc.) become directly accessible through saṁyama on the sun as their source and organiser."
+      }
+    },
+    {
+      "ref": "3.27",
+      "sec": "Vibhūti Pāda",
+      "dev": "चन्द्रे ताराव्यूहज्ञानम् ।",
+      "iast": "candre tārā-vyūha-jñānam",
+      "trans": "By saṁyama on the moon comes knowledge of the arrangement of the stars.",
+      "commentaries": {
+        "vivekananda": "Saṁyama on the moon reveals knowledge of the arrangement (vyūha) and movement of the star-systems. Vivekananda: 'The ancient yogins had precise knowledge of the cosmos — not because they had telescopes but because they had saṁyama. Astronomy and Yoga were not separate sciences.' The moon is the traditional locus of cosmic time-measurement and its relationship to the star-system.",
+        "patanjali_vyasa": "This and the following astronomical saṁyamas suggest that the Yoga tradition possessed genuine astronomical knowledge obtained through concentrated contemplation of celestial bodies."
+      }
+    },
+    {
+      "ref": "3.28",
+      "sec": "Vibhūti Pāda",
+      "dev": "ध्रुवे तद्गतिज्ञानम् ।",
+      "iast": "dhruve tad-gati-jñānam",
+      "trans": "By saṁyama on the Pole Star comes knowledge of (the stars') movements.",
+      "commentaries": {
+        "vivekananda": "Saṁyama on the dhruva (Pole Star — Polaris) reveals the movements of all the stars relative to this fixed point. The Pole Star was the traditional reference point for all astronomical calculation. Vivekananda: 'In the ancient tradition the Pole Star was considered the king of stars — the still point around which all others revolve. Saṁyama on stillness reveals the nature of all movement.'",
+        "patanjali_vyasa": "The dhruva as the unmoving centre of stellar movement is a potent symbol: saṁyama on stillness yields knowledge of all movement — a principle that applies to the Self (Puruṣa) and the mind as well."
+      }
+    },
+    {
+      "ref": "3.29",
+      "sec": "Vibhūti Pāda",
+      "dev": "नाभिचक्रे कायव्यूहज्ञानम् ।",
+      "iast": "nābhi-cakre kāya-vyūha-jñānam",
+      "trans": "By saṁyama on the navel centre comes knowledge of the arrangement of the body.",
+      "commentaries": {
+        "vivekananda": "Saṁyama on the nābhi-cakra (navel centre) reveals the complete structure and arrangement of the body's systems. Vivekananda: 'The navel is the solar plexus — the great nerve-centre of the body. Concentrated attention on it reveals the inner working of the entire physical organism.' This is the basis of traditional yogic knowledge of the body's subtle anatomy.",
+        "patanjali_vyasa": "The nābhi-cakra is the focal point of the prāṇic network that organises the body. Saṁyama on it gives the yogin direct knowledge of the body's blueprint — its healthy structure and how disorders arise."
+      }
+    },
+    {
+      "ref": "3.30",
+      "sec": "Vibhūti Pāda",
+      "dev": "कण्ठकूपे क्षुत्पिपासानिवृत्तिः ।",
+      "iast": "kaṇṭha-kūpe kṣut-pipāsā-nivṛttiḥ",
+      "trans": "By saṁyama on the pit of the throat comes cessation of hunger and thirst.",
+      "commentaries": {
+        "vivekananda": "Saṁyama on the kantha-kūpa (the hollow of the throat — vishuddha region) produces freedom from hunger and thirst. Vivekananda: 'Advanced yogins have been known to fast for extraordinary lengths of time without apparent harm. This is because they control the centres that regulate these sensations — not by suppression but by mastery.' The throat centre governs the vital drives related to food and drink.",
+        "patanjali_vyasa": "This sūtra is among the most practically documented in the tradition — reports of yogins surviving without food or water for extended periods appear across many centuries and cultures."
+      }
+    },
+    {
+      "ref": "3.31",
+      "sec": "Vibhūti Pāda",
+      "dev": "कूर्मनाड्यां स्थैर्यम् ।",
+      "iast": "kūrma-nāḍyāṁ sthairyam",
+      "trans": "By saṁyama on the kūrma-nāḍī comes steadiness.",
+      "commentaries": {
+        "vivekananda": "The kūrma-nāḍī is a subtle channel in the chest region. Saṁyama on it produces extraordinary physical and mental steadiness (sthairya) — the yogin becomes as steady as a tortoise. Vivekananda: 'There are subtle channels of prāṇa throughout the body. Mastery of these channels produces specific qualities. The kūrma-nāḍī gives the quality of the tortoise — patience, groundedness, unshakability.'",
+        "patanjali_vyasa": "The tortoise (kūrma) is a potent Vedic symbol of stability and withdrawal — it can retreat completely into its shell. Saṁyama on this channel gives the yogin the same quality."
+      }
+    },
+    {
+      "ref": "3.32",
+      "sec": "Vibhūti Pāda",
+      "dev": "मूर्धज्योतिषि सिद्धदर्शनम् ।",
+      "iast": "mūrdha-jyotiṣi siddha-darśanam",
+      "trans": "By saṁyama on the light in the crown of the head comes vision of the siddhas.",
+      "commentaries": {
+        "vivekananda": "Saṁyama on the mūrdha-jyotiṣ (the light at the crown of the head — brahmarandhra) produces the ability to see the siddhas — perfected beings and masters. Vivekananda: 'When the meditator opens the crown centre, the beings of higher planes become visible and accessible. Great teachers across traditions report receiving instruction from such beings during meditation.' The crown light is the point of connection between individual and cosmic consciousness.",
+        "patanjali_vyasa": "The brahmarandhra (crown opening) is the traditional exit point of consciousness at death and the point of contact with superconscious states. Saṁyama on the light experienced here opens perception to the subtlest planes."
+      }
+    },
+    {
+      "ref": "3.33",
+      "sec": "Vibhūti Pāda",
+      "dev": "प्रातिभाद्वा सर्वम् ।",
+      "iast": "prātibhād vā sarvam",
+      "trans": "Or, through pratibhā (spontaneous illumination), everything.",
+      "commentaries": {
+        "vivekananda": "Pratibhā is a spontaneous flash of yogic intuition that reveals all the powers described in Pada 3 without the deliberate practice of saṁyama. Vivekananda: 'Sometimes the power comes without deliberate practice — in a flash of pure intuition. This is the grace of the superconscious breaking through without the machinery of saṁyama.' It suggests that the siddhis ultimately arise from the purification of consciousness, not mechanical technique.",
+        "patanjali_vyasa": "The vā ('or') is significant — Patanjali acknowledges that the powers can come either through systematic saṁyama or through spontaneous illumination. Both are valid and neither is higher than the other."
+      }
+    },
+    {
+      "ref": "3.34",
+      "sec": "Vibhūti Pāda",
+      "dev": "हृदये चित्तसंवित् ।",
+      "iast": "hṛdaye citta-saṁvit",
+      "trans": "By saṁyama on the heart comes knowledge of the mind.",
+      "commentaries": {
+        "vivekananda": "Saṁyama on the hṛdaya (heart) — the traditional seat of consciousness — produces direct knowledge of the mind's nature. Vivekananda: 'The heart is where the soul meets the mind. When you meditate on the heart and succeed, you see the whole play of the mind laid out before you — like a map. You see every saṃskāra, every tendency, every desire.' This is the basis of the self-knowledge that leads to liberation.",
+        "patanjali_vyasa": "The heart as the seat of consciousness is a pan-Indian (and pan-human) intuition. Saṁyama on it does not produce paranormal powers about the external world but the most practically important knowledge: the complete map of one's own mental life."
+      }
+    },
+    {
+      "ref": "3.35",
+      "sec": "Vibhūti Pāda",
+      "dev": "सत्त्वपुरुषयोरत्यन्तासंकीर्णयोः प्रत्ययाविशेषो भोगः परार्थत्वात्स्वार्थसंयमात्पुरुषज्ञानम् ।",
+      "iast": "sattva-puruṣayor atyanta-asaṁkīrṇayoḥ pratyayāviśeṣo bhogaḥ parārthatvāt svārtha-saṁyamāt puruṣa-jñānam",
+      "trans": "Experience (bhoga) is due to not distinguishing between sattva and Puruṣa, which are utterly unmixed. By saṁyama on the Self's own purpose comes knowledge of the Puruṣa.",
+      "commentaries": {
+        "vivekananda": "The deepest saṁyama: directing concentration not outward to objects but inward on the Self's own nature (svārtha). Experience (bhoga) arises from confusing sattva (the most refined aspect of mind) with Puruṣa. When the practitioner practises saṁyama on what is truly one's own (svārtha = Puruṣa itself), direct knowledge of the Puruṣa arises. Vivekananda: 'The highest saṁyama is not on any external object but on the Self itself. This is what the Upanishads call Ātma-vicāra — Self-inquiry.'",
+        "patanjali_vyasa": "This sūtra is the Yoga parallel to the Vedantic self-inquiry. The critical distinction: sattva (however pure) is still Prakṛti; Puruṣa is absolutely beyond. Only saṁyama on Puruṣa — which is ultimately just Puruṣa recognising itself — yields complete knowledge."
+      }
+    },
+    {
+      "ref": "3.36",
+      "sec": "Vibhūti Pāda",
+      "dev": "ततः प्रातिभश्रावणवेदनादर्शास्वादवार्ता जायन्ते ।",
+      "iast": "tataḥ prātibha-śrāvaṇa-vedanā-ādarśa-āsvāda-vārtā jāyante",
+      "trans": "From that arise spontaneous illumination, and the powers of (super-)hearing, touch, sight, taste, and smell.",
+      "commentaries": {
+        "vivekananda": "From the saṁyama on Puruṣa described in 3.35, five extraordinary capacities arise: spontaneous illumination (prātibha), super-hearing (śrāvaṇa), super-touch (vedanā), super-sight (ādarśa), super-taste (āsvāda), and super-smell (vārtā). These are the subtlest and most far-reaching of the siddhis. Vivekananda: 'When the Self is directly known, the senses become transformed — they now perceive on the subtlest levels. The enlightened sage does not just perceive gross things but perceives the essence of all sensory experience.'",
+        "patanjali_vyasa": "These supernatural senses operate independently of the physical organs — they are the pure tanmātra-level perceptions that the gross senses normally occlude."
+      }
+    },
+    {
+      "ref": "3.37",
+      "sec": "Vibhūti Pāda",
+      "dev": "ते समाधावुपसर्गा व्युत्थाने सिद्धयः ।",
+      "iast": "te samādhāv upasargā vyutthāne siddhayaḥ",
+      "trans": "These are obstacles to samādhi but powers in the outward-turned state.",
+      "commentaries": {
+        "vivekananda": "A critical warning: the very siddhis produced by saṁyama become obstacles (upasarga) to the deeper samādhi they arose from. Vivekananda was emphatic: 'These powers are temptations — the greatest temptations on the path. The man who is seduced by them stops and builds a house in the middle of his journey. He never reaches the destination.' The powers are real but their pursuit is the greatest trap in Yoga.",
+        "patanjali_vyasa": "Siddhis serve as signposts that practice is progressing. The correct response is to note them, be grateful, and continue — not to cultivate or display them. The practitioner who uses powers for personal gain or ego-satisfaction begins to reverse their spiritual progress."
+      }
+    },
+    {
+      "ref": "3.38",
+      "sec": "Vibhūti Pāda",
+      "dev": "बन्धकारणशैथिल्यात्प्रचारसंवेदनाच्च चित्तस्य परशरीरावेशः ।",
+      "iast": "bandha-kāraṇa-śaithilyāt pracāra-saṁvedanāc ca cittasya para-śarīra-āveśaḥ",
+      "trans": "By loosening the causes of bondage to one's own body and by knowledge of the (mind's) pathways, the mind can enter another body.",
+      "commentaries": {
+        "vivekananda": "By loosening the subtle bonds that tie consciousness to one's own body (through saṁyama on the mechanism of bondage) and knowing the channels of the mind's movement, the yogin can project consciousness into another body. Vivekananda: 'This power was used by the great siddhas to teach students who could not be reached otherwise, or to complete unfinished work.' He cited traditional accounts of such events without endorsing casual use.",
+        "patanjali_vyasa": "The loosening of bandha-kāraṇa (cause of bondage) is the key: the same knowledge that can lead to liberation can, if directed externally, allow consciousness to move to another body. This is the yogic theory of bilocation."
+      }
+    },
+    {
+      "ref": "3.39",
+      "sec": "Vibhūti Pāda",
+      "dev": "उदानजयाज्जलपङ्ककण्टकादिष्वसङ्ग उत्क्रान्तिश्च ।",
+      "iast": "udāna-jayāj jala-paṅka-kaṇṭakādiṣv asaṅga utkrāntiś ca",
+      "trans": "By mastery of udāna-prāṇa comes non-contact with water, mud, thorns, etc., and the ability to rise up (levitation).",
+      "commentaries": {
+        "vivekananda": "Udāna is the upward-moving prāṇa. By saṁyama on and mastery of udāna, the yogin gains: (1) asaṅga — non-contact with (no sinking into) water, mud, or thorns; (2) utkrānti — the ability to rise up / levitate. Vivekananda: 'The control of prāṇa goes far beyond breath-regulation. When the vital forces are truly mastered, the body's relationship with gravity itself changes.' This is the basis of the levitation accounts in yogic literature.",
+        "patanjali_vyasa": "Udāna also governs the process of dying — it carries consciousness out of the body at death. Mastery of udāna gives the yogin control over both levitation and the moment of death."
+      }
+    },
+    {
+      "ref": "3.40",
+      "sec": "Vibhūti Pāda",
+      "dev": "समानजयाज्ज्वलनम् ।",
+      "iast": "samāna-jayāj jvalanam",
+      "trans": "By mastery of samāna-prāṇa comes radiance.",
+      "commentaries": {
+        "vivekananda": "Samāna is the balancing prāṇa in the abdominal region, governing digestion and metabolic processes. Its mastery produces jvalanam — radiance, inner fire, brilliance. Vivekananda: 'Advanced yogins have been observed to glow — literally to radiate light. This is not metaphor. When the vital forces are concentrated and purified, the body becomes luminous.' This is the basis of the traditional descriptions of saints radiating light.",
+        "patanjali_vyasa": "The digestive fire (agni) and the inner light are related. When samāna is fully mastered, the metabolic energy is sublimated into a higher luminous form."
+      }
+    },
+    {
+      "ref": "3.41",
+      "sec": "Vibhūti Pāda",
+      "dev": "श्रोत्राकाशयोः संबन्धसंयमाद्दिव्यं श्रोत्रम् ।",
+      "iast": "śrotra-ākāśayoḥ saṁbandha-saṁyamād divyaṁ śrotram",
+      "trans": "By saṁyama on the relationship between the ear and ākāśa (space) comes the divine ear.",
+      "commentaries": {
+        "vivekananda": "Sound travels through space (ākāśa). By saṁyama on the relationship between the ear-organ and ākāśa, the yogin accesses the full range of sounds carried in space — not just those at ordinary frequencies and distances. Vivekananda: 'The divine ear of the yogin can hear what is happening at any distance, in any plane of existence. This is clairaudience — but of a systematically developed kind, not the confused impressions of an untrained medium.'",
+        "patanjali_vyasa": "The five tanmātras (sound, touch, form, taste, smell) are the subtle essences of the corresponding sense-objects. Saṁyama on the relationship between sense-organ and its corresponding element at the subtle level reveals the full spectrum of that sense."
+      }
+    },
+    {
+      "ref": "3.42",
+      "sec": "Vibhūti Pāda",
+      "dev": "कायाकाशयोः संबन्धसंयमाल्लघुतूलसमापत्तेश्चाकाशगमनम् ।",
+      "iast": "kāya-ākāśayoḥ saṁbandha-saṁyamāl laghu-tūla-samāpatteś cākāśa-gamanam",
+      "trans": "By saṁyama on the relationship between the body and ākāśa, and by coalescence with the lightness of cotton fluff, comes the ability to move through space.",
+      "commentaries": {
+        "vivekananda": "By saṁyama on the body-space relationship and meditating on the lightness of cotton or air, the yogin can move through space — fly. Vivekananda accepted this as a reported phenomenon in the tradition without claiming personal experience. 'The body is not intrinsically heavy — it is our identification with its mass that makes it so. When this identification is dissolved in saṁyama, the body's relationship with space changes.'",
+        "patanjali_vyasa": "This power is widely reported across traditions — from yogins to Christian mystics to shamans. The Yoga account gives a systematic explanation: the body's apparent solidity is a function of identification, not an intrinsic property."
+      }
+    },
+    {
+      "ref": "3.43",
+      "sec": "Vibhūti Pāda",
+      "dev": "बहिरकल्पिता वृत्तिर्महाविदेहा ततः प्रकाशावरणक्षयः ।",
+      "iast": "bahir akalpitā vṛttir mahā-videhā tataḥ prakāśa-āvaraṇa-kṣayaḥ",
+      "trans": "The external, unimagined modification (of the mind) is mahāvidehā; from this comes the dissolution of the veil over the inner light.",
+      "commentaries": {
+        "vivekananda": "Mahāvidehā is the ability of the mind to move outside the body — a real, not imagined, projection of consciousness to an external location. From this advanced capacity comes the dissolution (kṣaya) of the āvaraṇa (veil) over the inner light of consciousness. Vivekananda: 'This is the complete out-of-body state reported by advanced meditators. When consciousness can move freely outside the body, it has demonstrated its independence from matter — and this recognition dissolves the last veil.'",
+        "patanjali_vyasa": "Mahāvidehā is a stage between embodied consciousness and full liberation — consciousness has proven its independence from the body but has not yet permanently transcended it."
+      }
+    },
+    {
+      "ref": "3.44",
+      "sec": "Vibhūti Pāda",
+      "dev": "स्थूलस्वरूपसूक्ष्मान्वयार्थवत्त्वसंयमाद्भूतजयः ।",
+      "iast": "sthūla-svarūpa-sūkṣma-anvaya-arthavattva-saṁyamād bhūta-jayaḥ",
+      "trans": "By saṁyama on the gross form, own-nature, subtlety, inherence, and purposiveness (of the elements) comes mastery over the elements.",
+      "commentaries": {
+        "vivekananda": "Bhūta-jaya — mastery over the five elements — comes from saṁyama on the five aspects of each element: (1) its gross form; (2) its essential nature; (3) its subtle aspect (tanmātra); (4) its inherence in all things (anvaya); (5) its teleological purpose. Vivekananda: 'The yogin who has mastered the five elements can do anything — create, transform, or dissolve matter at will. This is the basis of all reported miracles in every tradition.'",
+        "patanjali_vyasa": "This is the theoretical foundation for all physical siddhis. The five aspects of each element correspond to the five levels of saṁyama through which the element is progressively penetrated from gross to essence."
+      }
+    },
+    {
+      "ref": "3.45",
+      "sec": "Vibhūti Pāda",
+      "dev": "ततोऽणिमादिप्रादुर्भावः कायसम्पत्तद्धर्मानभिघातश्च ।",
+      "iast": "tato 'ṇimādi-prādurbhāvaḥ kāya-sampat tad-dharma-anabhighātaś ca",
+      "trans": "From that come the manifestation of the eight siddhis (beginning with aṇimā) and perfection of the body, and immunity to the qualities of the elements.",
+      "commentaries": {
+        "vivekananda": "The eight classical mahā-siddhis: aṇimā (becoming infinitely small), laghimā (becoming infinitely light), mahimā (becoming infinitely large), prāpti (reaching anywhere), prākāmya (irresistible will), vaśitva (mastery over elements), īśitva (lordship), and kāma-avasāyitva (fulfilment of desires). Plus kāya-sampat (perfection of the body) and immunity to the elements' effects. Vivekananda: 'These are the traditionally enumerated powers. They are real possibilities — but the yogi who seeks them has fallen.'",
+        "patanjali_vyasa": "The eight mahā-siddhis are the classic enumeration from Haṭha Yoga and Tantra traditions. They represent the full range of possible paranormal capacities arising from elemental mastery."
+      }
+    },
+    {
+      "ref": "3.46",
+      "sec": "Vibhūti Pāda",
+      "dev": "रूपलावण्यबलवज्रसंहननत्वानि कायसम्पत् ।",
+      "iast": "rūpa-lāvaṇya-bala-vajra-saṁhananatvāni kāya-sampat",
+      "trans": "Perfection of the body consists in beauty of form, gracefulness, strength, and the hardness of a thunderbolt.",
+      "commentaries": {
+        "vivekananda": "Kāya-sampat (bodily perfection) — the result of yogic practice — consists of four qualities: rūpa (beautiful form), lāvaṇya (gracefulness), bala (strength), vajra-saṁhanana (the compactness and hardness of the thunderbolt — indestructible constitution). Vivekananda: 'The yogi's body, perfected by practice, is extraordinarily beautiful and strong — not through bodybuilding but through the purification of prāṇa.' These are natural results of Yoga, not goals to pursue.",
+        "patanjali_vyasa": "The perfection of the body through Yoga is well-attested: practitioners report increased vitality, improved posture, greater endurance, and a natural luminosity that others notice."
+      }
+    },
+    {
+      "ref": "3.47",
+      "sec": "Vibhūti Pāda",
+      "dev": "ग्रहणस्वरूपास्मितान्वयार्थवत्त्वसंयमादिन्द्रियजयः ।",
+      "iast": "grahaṇa-svarūpa-asmitā-anvaya-arthavattva-saṁyamād indriya-jayaḥ",
+      "trans": "By saṁyama on the perceptive power, own-nature, I-am-ness, inherence, and purposiveness (of the sense-organs) comes mastery over the senses.",
+      "commentaries": {
+        "vivekananda": "Parallel to 3.44 (mastery over elements), saṁyama on the five aspects of the sense-organs produces indriya-jaya — complete mastery over the senses. Vivekananda: 'When the senses are mastered at their very root — not just controlled in their action but understood in their nature — the yogin can direct them to perceive at any level, gross or subtle, near or far.' This is the internal counterpart to elemental mastery.",
+        "patanjali_vyasa": "The five aspects of the sense-organs mirror those of the elements. Saṁyama at the level of asmitā (I-am-ness) — the sense of self that makes sense-experience personal — is the most penetrating."
+      }
+    },
+    {
+      "ref": "3.48",
+      "sec": "Vibhūti Pāda",
+      "dev": "ततो मनोजवित्वं विकरणभावः प्रधानजयश्च ।",
+      "iast": "tato mano-javitvaṁ vikaraṇa-bhāvaḥ pradhāna-jayaś ca",
+      "trans": "From that come swiftness of mind, functioning without instruments, and mastery over the primal matter.",
+      "commentaries": {
+        "vivekananda": "Three fruits of sense-mastery: (1) mano-javitva — the speed of mind (the senses can move with the instantaneous speed of thought); (2) vikaraṇa-bhāva — functioning without the physical instruments (perceiving without the physical eyes, hearing without the ears); (3) pradhāna-jaya — mastery over Pradhāna (primal matter / Prakṛti itself). Vivekananda: 'When the senses are truly mastered, the yogin does not need their physical counterparts. Consciousness directly perceives without mediation.'",
+        "patanjali_vyasa": "Pradhāna-jaya — mastery over Prakṛti itself — is perhaps the most far-reaching of all the siddhis: complete command over the material basis of the universe."
+      }
+    },
+    {
+      "ref": "3.49",
+      "sec": "Vibhūti Pāda",
+      "dev": "सत्त्वपुरुषान्यताख्यातिमात्रस्य सर्वभावाधिष्ठातृत्वं सर्वज्ञातृत्वं च ।",
+      "iast": "sattva-puruṣa-anyatā-khyāti-mātrasya sarva-bhāvā-dhiṣṭhātṛtvaṁ sarva-jñātṛtvaṁ ca",
+      "trans": "For one who has only the awareness of the distinction between sattva and Puruṣa come sovereignty over all states of being and omniscience.",
+      "commentaries": {
+        "vivekananda": "The pinnacle of power: for one whose awareness rests solely on the distinction between sattva (buddhi) and Puruṣa (pure consciousness), two ultimate capacities arise: sarvabhāvādhiṣṭhātṛtva (sovereignty over all states and modes of existence) and sarvajñātṛtva (omniscience). Vivekananda: 'The fully realised sage is master of all states — not because he controls them from outside but because he has gone beyond them. And he knows everything — not because he has information but because he is identified with the knowing itself.'",
+        "patanjali_vyasa": "This is the threshold of liberation. The only remaining step is the complete withdrawal even from the sense of discrimination (viveka-khyāti) — the final seedless samādhi of 1.51."
+      }
+    },
+    {
+      "ref": "3.50",
+      "sec": "Vibhūti Pāda",
+      "dev": "तद्वैराग्यादपि दोषबीजक्षये कैवल्यम् ।",
+      "iast": "tad-vairāgyād api doṣa-bīja-kṣaye kaivalyam",
+      "trans": "By non-attachment even to that (omniscience and sovereignty), with the destruction of the seeds of defect, comes kaivalya.",
+      "commentaries": {
+        "vivekananda": "The ultimate test: non-attachment even to omniscience and cosmic sovereignty. Vivekananda was absolutely clear: 'These are the greatest temptations — omniscience and omnipotence. The man who stops here, even for a moment, to enjoy these powers has not yet reached the goal. He must give up even these.' True liberation requires the complete destruction of the seeds of doṣa (defect, which includes even the subtlest trace of ego) and non-attachment to all that has been attained.",
+        "patanjali_vyasa": "The doṣa-bīja (seed of defect) is the last trace of ego that could be drawn into identification with these extraordinary capacities. When even this seed is burned, kaivalya — absolute liberation — is attained."
+      }
+    },
+    {
+      "ref": "3.51",
+      "sec": "Vibhūti Pāda",
+      "dev": "स्थान्युपनिमन्त्रणे सङ्गस्मयाकरणं पुनरनिष्टप्रसङ्गात् ।",
+      "iast": "sthāny-upanimantraṇe saṅga-smayākaraṇaṁ punar aniṣṭa-prasaṅgāt",
+      "trans": "When invited by the celestial beings, there should be no attachment or pride — since (there is the possibility of) renewed contact with the undesired.",
+      "commentaries": {
+        "vivekananda": "Even advanced yogins may be 'tested' by celestial beings (sthānins) offering sensory delights, heavenly pleasures, or prestigious spiritual positions. If the yogin accepts — even subtly, with pride — they fall back into bondage. Vivekananda: 'The greatest trap near the end of the path is spiritual pride. I have achieved this, I have powers no one else has. This thought — even a whisper of it — is the fall.' The correct response is complete equanimity — neither attracted nor proud.",
+        "patanjali_vyasa": "This sūtra addresses a specific danger unique to advanced practice: the temptations at the highest levels are not gross sensory pleasures but subtle ones — cosmic power, spiritual prestige, divine companionship. The same vairāgya that was applied to ordinary pleasures must be applied here."
+      }
+    },
+    {
+      "ref": "3.52",
+      "sec": "Vibhūti Pāda",
+      "dev": "क्षणतत्क्रमयोः संयमाद्विवेकजं ज्ञानम् ।",
+      "iast": "kṣaṇa-tat-kramayoḥ saṁyamād viveka-jaṁ jñānam",
+      "trans": "By saṁyama on the moment and its sequence comes knowledge born of discrimination.",
+      "commentaries": {
+        "vivekananda": "Saṁyama on the kṣaṇa (the smallest unit of time) and its sequence (krama) produces viveka-ja jñāna — knowledge born of discrimination. By penetrating to the smallest unit of time, the yogin perceives the nature of change itself at its most fundamental level. Vivekananda: 'Time is the key to understanding all change. The yogin who has perceived the atom of time has understood how the universe changes — and stands beyond it.'",
+        "patanjali_vyasa": "Kṣaṇa (moment) is to time what paramāṇu (atom) is to space: the indivisible unit. Saṁyama on it produces the most refined discriminative knowledge, approaching the boundary between time and the timeless Puruṣa."
+      }
+    },
+    {
+      "ref": "3.53",
+      "sec": "Vibhūti Pāda",
+      "dev": "जातिलक्षणदेशैरन्यतानवच्छेदात्तुल्ययोस्ततः प्रतिपत्तिः ।",
+      "iast": "jāti-lakṣaṇa-deśair anyatānavacchedāt tulyayos tataḥ pratipattiḥ",
+      "trans": "From that, the discernment of two similar things not distinguished by species, characteristic, or position.",
+      "commentaries": {
+        "vivekananda": "The fruit of kṣaṇa-saṁyama: the ability to distinguish between two objects that are otherwise identical — same species, same appearance, same position. The only distinction is their separate existence as individual moments of time. Vivekananda: 'The yogin can distinguish two absolutely identical objects — not by their properties but by their unique existence in time. This is the ultimate discernment, beyond all conceptual categories.'",
+        "patanjali_vyasa": "This is the most refined form of discrimination — going beyond all the categories that ordinary thinking uses to distinguish things and perceiving the unique individuality of each moment of existence."
+      }
+    },
+    {
+      "ref": "3.54",
+      "sec": "Vibhūti Pāda",
+      "dev": "तारकं सर्वविषयं सर्वथाविषयमक्रमं चेति विवेकजं ज्ञानम् ।",
+      "iast": "tārakaṁ sarva-viṣayaṁ sarvathā-viṣayam akramaṁ ceti viveka-jaṁ jñānam",
+      "trans": "The knowledge born of discrimination is liberating, encompassing all objects, all times, and (occurring) without sequence.",
+      "commentaries": {
+        "vivekananda": "Tārakaṁ (saving, liberating) jñāna — the final discriminative knowledge — has three characteristics: (1) sarva-viṣaya — it encompasses all objects; (2) sarvathā-viṣaya — it knows all conditions and times; (3) akrama — it occurs without sequence, instantaneously. Vivekananda: 'The knowledge of liberation is not acquired step by step — it arises whole and complete, like a flash of lightning. It sees everything, at all times, at once.' This is the immediate precursor to kaivalya.",
+        "patanjali_vyasa": "This tārakaṁ jñāna is equivalent to the ṛtaṁbharā prajñā of 1.48 seen from the perspective of its final fullness. It is the knowledge that literally 'saves' (tārak) — ferries the Puruṣa across the ocean of saṃsāra."
+      }
+    },
+    {
+      "ref": "3.55",
+      "sec": "Vibhūti Pāda",
+      "dev": "सत्त्वपुरुषयोः शुद्धिसाम्ये कैवल्यम् ।",
+      "iast": "sattva-puruṣayoḥ śuddhi-sāmye kaivalyam",
+      "trans": "When the purity of sattva equals the purity of the Puruṣa — kaivalya.",
+      "commentaries": {
+        "vivekananda": "The culminating statement of Pada 3: when the buddhi (sattva at its purest) has been so completely purified that it perfectly mirrors the Puruṣa — no distortion, no colouring, no residual identification — then the distinction between Puruṣa and sattva becomes fully clear. Puruṣa recognises itself. This is kaivalya — liberation. Vivekananda: 'When the mirror of the mind is so pure that it reflects nothing but the Soul itself, the Soul looks in the mirror and recognises itself — and is free.'",
+        "patanjali_vyasa": "This sūtra connects directly to the Pada 1 definition of samāpatti (1.41): the clear crystal. When the crystal (sattva/buddhi) is perfectly pure, and when Puruṣa looks into it, there is perfect recognition — not of an object but of the Self by the Self."
+      }
+    }
+  ]
+}

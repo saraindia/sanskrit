@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, useLocation, useNavigate } from 'react-router-dom'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
@@ -17,6 +17,8 @@ const COMMENTARY_LABELS = {
   integral_yoga:     { label: 'Integral Yoga',      subtitle: 'Aurobindo' },
   modern_vedanta:    { label: 'Modern Vedānta',     subtitle: 'Vivekānanda / Sarvapriyananda' },
   universalist:      { label: 'Universalist',       subtitle: 'Neo-Vedānta' },
+  vivekananda:       { label: 'Rāja Yoga',          subtitle: 'Swami Vivekananda (1896)' },
+  patanjali_vyasa:   { label: 'Vyāsa Bhāṣya',      subtitle: 'Classical commentary' },
 }
 
 function CommentaryPanel({ commentaries }) {
@@ -45,13 +47,14 @@ function CommentaryPanel({ commentaries }) {
 }
 
 const cache = new Map()
-async function loadJson(file) {
-  if (cache.has(file)) return cache.get(file)
-  const res = await fetch(`/content/upanishads/${file}`, file === 'manifest.json' ? { cache: 'no-store' } : undefined)
+async function loadJson(file, folder = 'upanishads') {
+  const key = `${folder}/${file}`
+  if (cache.has(key)) return cache.get(key)
+  const res = await fetch(`/content/${folder}/${file}`, file === 'manifest.json' ? { cache: 'no-store' } : undefined)
   if (!res.ok) throw new Error(`Could not load ${file}`)
   const raw = await res.text()
   const data = JSON.parse(raw.replace(/,(\s*[}\]])/g, '$1'))
-  if (file !== 'manifest.json') cache.set(file, data)
+  if (file !== 'manifest.json') cache.set(key, data)
   return data
 }
 
@@ -59,6 +62,11 @@ export default function UpanishadsPage() {
   const { isPro: _isPro, isChecking, showPaywall, FREE_LIMITS } = usePurchase()
   const isPro = _isPro || isChecking
   const [searchParams, setSearchParams] = useSearchParams()
+  const location  = useLocation()
+  const navigate  = useNavigate()
+  const isBrahma  = location.pathname === '/brahmasutras'
+  const isYoga    = location.pathname === '/yogasutras'
+  const contentFolder = isYoga ? 'yogasutras' : 'upanishads'
   const [manifest, setManifest]   = useState(null)
   const [textId, setTextId]       = useSessionStorage('upan_text', '')
   const [adhId, setAdhId]         = useSessionStorage('upan_adh', '')
@@ -80,13 +88,26 @@ export default function UpanishadsPage() {
   // Track whether we should auto-jump to the first verse after loading
   const autoJumpRef = useRef(false)
 
-  // If URL has ?text=X, override session storage and clear the param
+  // On /brahmasutras or /yogasutras route, always load the correct single text
   useEffect(() => {
+    if (isBrahma) {
+      setTextId('brahmasutra'); setAdhId(''); setSectionId(''); setVerseIdx(0)
+      return
+    }
+    if (isYoga) {
+      // Always show the pāda picker on arrival — never auto-restore last pāda
+      setTextId(''); setAdhId(''); setSectionId(''); setVerseIdx(0)
+      return
+    }
+    // Clear any leftover brahmasutra/yoga state when arriving at /upanishads
+    if (textId === 'brahmasutra' || textId?.startsWith('yogasutra-')) {
+      setTextId(''); setAdhId(''); setSectionId(''); setVerseIdx(0)
+      return
+    }
     const t = searchParams.get('text')
     if (t) {
       autoJumpRef.current = true
       setTextId(t); setAdhId(''); setSectionId(''); setVerseIdx(0)
-      setSearchParams({}, { replace: true })
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -100,17 +121,20 @@ export default function UpanishadsPage() {
   }, [text, adhId, sectionId]) // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    loadJson('manifest.json').then(setManifest).catch(e => setError(e.message))
-  }, [])
+    loadJson('manifest.json', contentFolder).then(setManifest).catch(e => setError(e.message))
+  }, [contentFolder])
 
   useEffect(() => {
     if (!textId) { setText(null); return }
+    // Guard against stale sessionStorage bleed-through before mount effect clears it
+    if (textId.startsWith('yogasutra-') && !isYoga) { setText(null); return }
+    if (textId === 'brahmasutra' && !isBrahma) { setText(null); return }
     let live = true
-    loadJson(`${textId}.json`)
+    loadJson(`${textId}.json`, contentFolder)
       .then(d => { if (live) setText(d) })
       .catch(e => { if (live) setError(e.message) })
     return () => { live = false }
-  }, [textId])
+  }, [textId, contentFolder, isYoga, isBrahma])
 
   useEffect(() => { setRevealed(false); stop(); setActiveLine(-1) }, [textId, sectionId, verseIdx]) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -163,6 +187,7 @@ export default function UpanishadsPage() {
 
   const openText = (id, textIdx) => {
     if (!isPro && textIdx >= FREE_LIMITS.UPAN_FREE_TEXT) { showPaywall(); return }
+    if (isYoga) autoJumpRef.current = true
     setTextId(id); setAdhId(''); setSectionId(''); setVerseIdx(0)
   }
   const openAdhyaya = (adh, adhIdx) => {
@@ -195,9 +220,11 @@ export default function UpanishadsPage() {
     setVerseIdx(text.verses.filter(x => x.sec === v.sec).indexOf(v))
   }, [manifest, text, isPro, hasAdhyayas, adhyayas, sections, FREE_LIMITS, setAdhId, setSectionId, setVerseIdx])
 
+  const earlyTitle = isBrahma ? 'Brahmasūtras' : isYoga ? 'Yoga Sūtras' : 'Upaniṣads'
+
   if (error) return (
     <div className="gita anim-fade-up">
-      <div className="page-header"><h1 className="page-title">Upaniṣads</h1></div>
+      <div className="page-header"><h1 className="page-title">{earlyTitle}</h1></div>
       <div className="card" style={{padding:'2rem',textAlign:'center'}}>
         <p style={{color:'var(--text-secondary)'}}>{error}</p>
       </div>
@@ -206,28 +233,33 @@ export default function UpanishadsPage() {
 
   if (!manifest) return (
     <div className="gita anim-fade-up">
-      <div className="page-header"><h1 className="page-title">Upaniṣads</h1></div>
+      <div className="page-header"><h1 className="page-title">{earlyTitle}</h1></div>
       <div className="card gita-loading">Loading…</div>
     </div>
   )
 
   // ── Text picker ───────────────────────────────────────────────────────
+  const UPAN_COLORS = ['#f59e0b','#a855f7','#22c55e','#3b82f6','#ec4899','#f97316','#14b8a6','#e11d48','#8b5cf6']
+  const upanTexts = manifest.texts.filter(t => t.id !== 'brahmasutra' && !t.id.startsWith('yogasutra-'))
+  const yogaTexts = manifest.texts.filter(t => t.id.startsWith('yogasutra-'))
+  const pickerTexts = isYoga ? yogaTexts : upanTexts
+  const pageTitle = isYoga ? 'Yoga Sūtras' : 'Upaniṣads'
+  const pageSubtitle = isYoga
+    ? `4 pādas · ${pickerTexts.reduce((s,t)=>s+t.verses,0)} sūtras · Swami Vivekananda · Patañjali`
+    : `${pickerTexts.length} texts · ${pickerTexts.reduce((s,t)=>s+t.verses,0)} verses · Müller translation`
+
   if (!textId) return (
     <div className="gita anim-fade-up">
       <HubBack to="/texts" label="Sacred Texts" />
       <div className="page-header">
-        <h1 className="page-title">Upaniṣads</h1>
-        <p className="page-subtitle">{manifest.texts.length} texts · {manifest.texts.reduce((s,t)=>s+t.verses,0)} verses · Müller translation</p>
+        <h1 className="page-title">{pageTitle}</h1>
+        <p className="page-subtitle">{pageSubtitle}</p>
       </div>
       <div className="gita-toolbar">
         <button className="gita-nav-btn" title="Random verse" onClick={randomVerse}>🎲 Random verse</button>
-        <label className="weak-toggle">
-          <input type="checkbox" checked={drill} onChange={e => setDrill(e.target.checked)} />
-          <span>Drill mode — hide translations</span>
-        </label>
       </div>
-      <div className="gita-chapters">
-        {manifest.texts.map((t, i) => {
+      <div className="gita-chapters" style={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
+        {pickerTexts.map((t, i) => {
           const locked = !isPro && i >= FREE_LIMITS.UPAN_FREE_TEXT
           return (
             <button key={t.id}
@@ -235,10 +267,9 @@ export default function UpanishadsPage() {
               onClick={() => openText(t.id, i)}
               style={locked ? { opacity: 0.55 } : undefined}
             >
-              <span className="gita-ch-num">{t.veda}</span>
               <span className="gita-ch-name devanagari">{t.titleDeva}</span>
-              <span className="gita-ch-eng">{t.title} — {t.titleEnglish}</span>
-              <span className="gita-ch-count">{locked ? '🔒' : `${t.verses} verses`}</span>
+              <span className="gita-ch-eng"><strong style={{ color: UPAN_COLORS[i % UPAN_COLORS.length], fontWeight: 700 }}>{t.title}</strong>{t.titleEnglish ? ` · ${t.titleEnglish}` : ''}</span>
+              <span className="gita-ch-count" style={locked ? undefined : { color: 'var(--gold)', fontWeight: 700 }}>{locked ? '🔒' : `${t.verses} verses`}</span>
             </button>
           )
         })}
@@ -256,7 +287,7 @@ export default function UpanishadsPage() {
   // ── Adhyāya picker (top level, for texts with chapters e.g. Chāndogya) ──
   if (hasAdhyayas && !adhId) return (
     <div className="gita anim-fade-up">
-      <button className="gita-back" onClick={() => setTextId('')}>← All Upaniṣads</button>
+      <button className="gita-back" onClick={() => isBrahma ? navigate('/texts') : setTextId('')}>← {isBrahma ? 'Sacred Texts' : isYoga ? 'Yoga Sūtras' : 'All Upaniṣads'}</button>
       <div className="page-header">
         <h1 className="page-title devanagari">{text.titleDeva}</h1>
         <p className="page-subtitle">{text.title} · {text.titleEnglish}</p>
@@ -291,8 +322,8 @@ export default function UpanishadsPage() {
   // ── Khaṇḍa / section picker ──────────────────────────────────────────
   if (!sectionId) return (
     <div className="gita anim-fade-up">
-      <button className="gita-back" onClick={() => hasAdhyayas ? setAdhId('') : setTextId('')}>
-        ← {hasAdhyayas ? `${text.title} adhyāyas` : 'All Upaniṣads'}
+      <button className="gita-back" onClick={() => hasAdhyayas ? setAdhId('') : (isBrahma ? navigate('/texts') : setTextId(''))}>
+        ← {hasAdhyayas ? `${text.title} adhyāyas` : (isBrahma ? 'Sacred Texts' : isYoga ? 'Yoga Sūtras' : 'All Upaniṣads')}
       </button>
       <div className="page-header">
         <h1 className="page-title devanagari">{text.titleDeva}</h1>
@@ -347,8 +378,8 @@ export default function UpanishadsPage() {
 
   return (
     <div className="gita anim-fade-up">
-      <button className="gita-back" onClick={() => hasAdhyayas ? setAdhId('') : setTextId('')}>
-        ← {hasAdhyayas ? `${text.title} adhyāyas` : 'All Upaniṣads'}
+      <button className="gita-back" onClick={() => hasAdhyayas ? setAdhId('') : (isYoga ? setTextId('') : setSectionId(''))}>
+        ← {hasAdhyayas ? `${text.title} adhyāyas` : (isYoga ? 'Yoga Sūtras' : text.title)}
       </button>
       <div className="page-header">
         <h1 className="page-title devanagari">{text.titleDeva}</h1>

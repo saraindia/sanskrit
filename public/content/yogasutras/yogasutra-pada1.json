@@ -1,0 +1,570 @@
+{
+  "id": "yogasutra-pada1",
+  "title": "Samādhi Pāda",
+  "titleDeva": "समाधिपादः",
+  "titleEnglish": "On Contemplation",
+  "veda": "Yoga Darśana",
+  "verses": [
+    {
+      "ref": "1.1",
+      "sec": "Samādhi Pāda",
+      "dev": "अथ योगानुशासनम् ।",
+      "iast": "atha yogānuśāsanam",
+      "trans": "Now the teachings of Yoga.",
+      "commentaries": {
+        "vivekananda": "The word 'atha' (now) indicates auspiciousness and a new beginning — implying that the student has already developed discrimination and a desire for liberation. Yoga is not an arbitrary set of exercises but a time-honoured science transmitted in a living lineage. Vivekananda says: 'The first step is to understand that there is such a science, and then to try to understand it.'",
+        "patanjali_vyasa": "Patanjali opens with 'atha' — now — indicating the student is ready. This is the beginning of a systematic science of the mind. Yoga here is not physical posture but the complete science of mental control leading to the direct perception of the Self."
+      }
+    },
+    {
+      "ref": "1.2",
+      "sec": "Samādhi Pāda",
+      "dev": "योगश्चित्तवृत्तिनिरोधः ।",
+      "iast": "yogaś citta-vṛtti-nirodhaḥ",
+      "trans": "Yoga is the restraint (nirodha) of the modifications (vṛttis) of the mind-stuff (citta).",
+      "commentaries": {
+        "vivekananda": "This is the central definition of the entire science. Citta is the mind-stuff — the lake of the mind. Vṛttis are its waves and ripples — thoughts, perceptions, memories, imaginations. Nirodha is their restraint and eventual cessation. Vivekananda explains: 'The mind is constantly changing, and those changes are the modifications. When they are all restrained, the real Self shines forth.' This one sūtra contains the whole of Yoga.",
+        "patanjali_vyasa": "Citta (mind-stuff) has three aspects: manas (sense-processing), buddhi (intellect), and ahaṁkāra (ego). Its five vṛttis (1.5–1.11) include valid knowledge, error, imagination, sleep, and memory. All Yoga practice — whether devotion, enquiry, or breath-control — aims at progressively calming these waves."
+      }
+    },
+    {
+      "ref": "1.3",
+      "sec": "Samādhi Pāda",
+      "dev": "तदा द्रष्टुः स्वरूपेऽवस्थानम् ।",
+      "iast": "tadā draṣṭuḥ svarūpe 'vasthānam",
+      "trans": "Then the Seer abides in its own nature.",
+      "commentaries": {
+        "vivekananda": "When the mind-lake is perfectly still, the Puruṣa (the pure Seer, the Self) is no longer distorted by ripples. Vivekananda: 'When the modifications cease, the Purusha realises itself as distinct from the mind. What we call man, the ego, is a combination of the Purusha with the modifications of the mind.' Liberation is not a new gain but the recognition of what was always the case.",
+        "patanjali_vyasa": "The Seer (Draṣṭṛ / Puruṣa) is pure consciousness — unchanging witness. In ordinary life it appears coloured by the mind's modifications (1.4). When vṛttis cease, the Puruṣa recognises itself as utterly distinct from Prakṛti. This is kaivalya — aloneness/liberation."
+      }
+    },
+    {
+      "ref": "1.4",
+      "sec": "Samādhi Pāda",
+      "dev": "वृत्तिसारूप्यमितरत्र ।",
+      "iast": "vṛtti-sārūpyam itaratra",
+      "trans": "At other times (the Seer) takes the form of the modifications.",
+      "commentaries": {
+        "vivekananda": "In the ordinary waking state the Seer appears to take on the form of whatever thought or feeling is arising — fear, love, boredom. Vivekananda compares it to a crystal that seems to take on the colour of whatever is placed near it. This mistaken identification is the root of all suffering. Liberation is simply seeing through this optical illusion of identification.",
+        "patanjali_vyasa": "This is the mechanism of bondage: Puruṣa is pure witness yet through avidyā (ignorance) it appears to 'become' the thought-form. The entire Sādhana Pāda prescribes practices to undo this habitual misidentification step by step."
+      }
+    },
+    {
+      "ref": "1.5",
+      "sec": "Samādhi Pāda",
+      "dev": "वृत्तयः पञ्चतय्यः क्लिष्टाक्लिष्टाः ।",
+      "iast": "vṛttayaḥ pañcatayyaḥ kliṣṭākliṣṭāḥ",
+      "trans": "The modifications of the mind are five-fold; they are either painful or not painful.",
+      "commentaries": {
+        "vivekananda": "All mental activity falls into five categories (sūtras 1.6–1.11). Each type can be either kliṣṭa (afflicted/painful — strengthening the kleśas) or akliṣṭa (non-afflicted — moving toward liberation). Even seemingly pleasant thoughts can be kliṣṭa if they tighten the bonds of saṃsāra. Vivekananda notes that the goal is not to suppress all thought but to discriminate between liberating and binding modifications.",
+        "patanjali_vyasa": "The five vṛttis: (1) pramāṇa — valid cognition; (2) viparyaya — error; (3) vikalpa — imagination/verbal knowledge; (4) nidrā — sleep; (5) smṛti — memory. All five can serve the practitioner when directed toward the Self, or bind when directed toward objects."
+      }
+    },
+    {
+      "ref": "1.6",
+      "sec": "Samādhi Pāda",
+      "dev": "प्रमाणविपर्ययविकल्पनिद्रास्मृतयः ।",
+      "iast": "pramāṇa-viparyaya-vikalpa-nidrā-smṛtayaḥ",
+      "trans": "They are: right knowledge, wrong knowledge, imagination, sleep, and memory.",
+      "commentaries": {
+        "vivekananda": "Patanjali names the five modifications. Pramāṇa includes perception, inference, and testimony. Viparyaya is error — mistaking the rope for a snake. Vikalpa is imagination or verbal knowledge without a corresponding object (e.g. the 'horns of a hare'). Nidrā is the vṛtti of deep sleep — a real modification even though we seem unconscious. Smṛti is the rising again of past impressions (saṃskāras).",
+        "patanjali_vyasa": "Understanding the five vṛttis helps the practitioner observe the mind objectively. When sitting in meditation, each arising thought can be labelled: Is this a memory? An imagination? A wrong perception? This detached observation weakens identification and is itself a form of nirodha."
+      }
+    },
+    {
+      "ref": "1.7",
+      "sec": "Samādhi Pāda",
+      "dev": "प्रत्यक्षानुमानागमाः प्रमाणानि ।",
+      "iast": "pratyakṣānumānāgamāḥ pramāṇāni",
+      "trans": "Right knowledge has three sources: direct perception, inference, and testimony (scriptural authority).",
+      "commentaries": {
+        "vivekananda": "Patanjali is empirical: he accepts three valid means of knowledge (pramāṇas). Direct perception (pratyakṣa) is the most immediate. Inference (anumāna) builds on it — seeing smoke and inferring fire. Testimony (āgama) refers to the words of trustworthy teachers and scriptures. Vivekananda stressed that Yoga is ultimately an experimental science: one must verify these truths in direct experience, not merely accept them on faith.",
+        "patanjali_vyasa": "These three pramāṇas align Yoga with the Nyāya school. The practitioner uses all three: perception in meditation, inference in self-enquiry, and scriptural testimony to orient the journey. But ultimately, the direct perception of the Self (pratyakṣa of Puruṣa) supersedes all others."
+      }
+    },
+    {
+      "ref": "1.8",
+      "sec": "Samādhi Pāda",
+      "dev": "विपर्ययो मिथ्याज्ञानमतद्रूपप्रतिष्ठम् ।",
+      "iast": "viparyayo mithyā-jñānam atad-rūpa-pratiṣṭham",
+      "trans": "Wrong knowledge is false understanding not based on the true form of the object.",
+      "commentaries": {
+        "vivekananda": "Viparyaya is not mere ignorance but active misperception — seeing the Self in the non-Self, the permanent in the impermanent, pleasure in what is actually pain. The root viparyaya is avidyā (ignorance), and from it flow all the other kleśas. Vivekananda: 'All our sufferings are caused by this — we do not know our real nature.' The entire practice of Yoga is the systematic correction of this fundamental error.",
+        "patanjali_vyasa": "The classic example: seeing a rope as a snake in dim light. The 'knowledge' feels certain but is wrong. Avidyā — mistaking the body-mind for the Self — is the primal viparyaya that drives the entire cycle of saṃsāra. Viveka (discrimination) directly corrects it."
+      }
+    },
+    {
+      "ref": "1.9",
+      "sec": "Samādhi Pāda",
+      "dev": "शब्दज्ञानानुपाती वस्तुशून्यो विकल्पः ।",
+      "iast": "śabda-jñānānupātī vastu-śūnyo vikalpaḥ",
+      "trans": "Imagination is cognition following mere words, without any real object.",
+      "commentaries": {
+        "vivekananda": "Vikalpa is the mind's capacity to create concepts that have no corresponding object in reality — such as 'the soul is infinite' or 'liberation is bliss'. These verbal constructs can be useful pointers toward truth, but they are not truth itself. Vivekananda noted that most of what passes for spiritual knowledge is vikalpa — mental elaboration on words. The goal is to move from vikalpa to direct experience (nirvikalpa samādhi).",
+        "patanjali_vyasa": "Much philosophical debate arises from vikalpa — arguing about words and concepts without checking them against direct experience. The yogin learns to recognise when the mind is merely playing with words and to return to direct observation."
+      }
+    },
+    {
+      "ref": "1.10",
+      "sec": "Samādhi Pāda",
+      "dev": "अभावप्रत्ययालम्बना वृत्तिर्निद्रा ।",
+      "iast": "abhāva-pratyayālambanā vṛttir nidrā",
+      "trans": "Sleep is the modification of the mind supported by the notion of non-existence (of waking and dream states).",
+      "commentaries": {
+        "vivekananda": "Patanjali treats deep sleep as a real modification of the mind — not a blank absence but a vṛtti characterised by the feeling of non-existence or blankness. This is why we can remember 'I slept well' — some part of the mind registered the sleep. Vivekananda: 'Sleep is a particular modification of the mind-lake — a wave of tamas.' This is important because samādhi must be distinguished from sleep: samādhi is wide-awake stillness, not tamasic blankness.",
+        "patanjali_vyasa": "The practitioner must become aware of the sleep vṛtti to avoid mistaking tamas for meditation. When the mind sinks into dullness during practice, it may be nidrā masquerading as samādhi. Awareness must remain vivid and alert even as thoughts subside."
+      }
+    },
+    {
+      "ref": "1.11",
+      "sec": "Samādhi Pāda",
+      "dev": "अनुभूतविषयासम्प्रमोषः स्मृतिः ।",
+      "iast": "anubhūta-viṣayāsaṁpramoṣaḥ smṛtiḥ",
+      "trans": "Memory is the not-letting-go of an experienced object.",
+      "commentaries": {
+        "vivekananda": "Smṛti (memory) arises when past impressions (saṃskāras) resurface. Every experience leaves a saṃskāra — a groove or impression in the mind-stuff. Memory is the replaying of these grooves. Vivekananda points out that even the deepest impressions from past lives can resurface as memories in meditative states. The practitioner works to stop creating new compulsive impressions and to purify existing ones through non-attachment (vairāgya).",
+        "patanjali_vyasa": "Smṛti in service of Yoga — remembering the teaching, the goal, the practice — is valuable. Compulsive memory (rumination, regret, fantasy) binds. The Bhagavad Gītā's 'smṛti-bhrāṃśa' (loss of memory of the Self) is the ultimate danger; Yoga restores that essential smṛti."
+      }
+    },
+    {
+      "ref": "1.12",
+      "sec": "Samādhi Pāda",
+      "dev": "अभ्यासवैराग्याभ्यां तन्निरोधः ।",
+      "iast": "abhyāsa-vairāgyābhyāṁ tan-nirodhaḥ",
+      "trans": "Their restraint (is achieved) by practice and non-attachment.",
+      "commentaries": {
+        "vivekananda": "The two wings of Yoga: abhyāsa (sustained practice) and vairāgya (dispassion/non-attachment). Vivekananda calls these the two essentials: 'Without vairāgya, practice will not bear fruit; without abhyāsa, vairāgya becomes dry renunciation.' Practice builds the positive current toward stillness; non-attachment removes the pull of objects that stir the lake. Together they constitute the complete path.",
+        "patanjali_vyasa": "Abhyāsa is not brute repetition but consistent, earnest effort in the right direction. Vairāgya is not indifference or suppression but the natural falling away of compulsive craving when the bliss of the Self is glimpsed. The two reinforce each other — each session of practice deepens dispassion, and deepening dispassion makes practice more effortless."
+      }
+    },
+    {
+      "ref": "1.13",
+      "sec": "Samādhi Pāda",
+      "dev": "तत्र स्थितौ यत्नोऽभ्यासः ।",
+      "iast": "tatra sthitau yatno 'bhyāsaḥ",
+      "trans": "Of these, practice is the effort toward steadiness (in the cessation of modifications).",
+      "commentaries": {
+        "vivekananda": "Abhyāsa is specifically defined as sustained effort to remain in the state of nirodha — not a single burst of effort but a continual return to practice. Vivekananda: 'You must try and try again; every failure is a step toward success.' The Gītā concurs: 'By constant practice, O Arjuna, and by dispassion, the mind is restrained.'",
+        "patanjali_vyasa": "The 'effort toward steadiness' means returning the attention to the chosen object of meditation every time it wanders — without frustration, without collapse. This patient, repetitive returning is the heart of abhyāsa. Each return strengthens the saṃskāra of stillness."
+      }
+    },
+    {
+      "ref": "1.14",
+      "sec": "Samādhi Pāda",
+      "dev": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः ।",
+      "iast": "sa tu dīrgha-kāla-nairantarya-satkāra-āsevito dṛḍha-bhūmiḥ",
+      "trans": "That practice becomes firmly grounded when pursued for a long time, without interruption, with earnestness.",
+      "commentaries": {
+        "vivekananda": "Three conditions for practice to take deep root: (1) dīrgha-kāla — long duration; there are no shortcuts; (2) nairantarya — continuity, without gaps; sporadic practice does not accumulate; (3) satkāra — with devotion, earnestness, and respect for the practice. Vivekananda was blunt: 'Do not expect results in one day. Consistent practice over years is what transforms the mind.'",
+        "patanjali_vyasa": "This sūtra deflates any expectation of quick results. The mind has been conditioned over countless lifetimes. Purification takes sustained, devoted effort. The reassurance is that consistent practice always yields results — the saṃskāra of stillness grows stronger with every session, even when it does not feel so."
+      }
+    },
+    {
+      "ref": "1.15",
+      "sec": "Samādhi Pāda",
+      "dev": "दृष्टानुश्रविकविषयवितृष्णस्य वशीकारसंज्ञा वैराग्यम् ।",
+      "iast": "dṛṣṭānuśravika-viṣaya-vitṛṣṇasya vaśīkāra-saṁjñā vairāgyam",
+      "trans": "Non-attachment is the mastery (of consciousness) in one who is free from craving for objects seen or heard about.",
+      "commentaries": {
+        "vivekananda": "Vairāgya — dispassion — is not the result of losing interest in life but of the mind's mastery over its own cravings. 'Seen objects' include sensory pleasures; 'heard about' includes the celestial pleasures described in Vedic texts. Vivekananda: 'Vairāgya does not mean that you should not enjoy things. It means you should not be controlled by them.' This mastery (vaśīkāra) is the hallmark of genuine non-attachment.",
+        "patanjali_vyasa": "Vairāgya develops in stages: first controlling actions, then thoughts, then even subtle impressions. At its peak (parā vairāgya, 1.16), even the desire for liberation or spiritual powers fades — only the purity of Puruṣa remains."
+      }
+    },
+    {
+      "ref": "1.16",
+      "sec": "Samādhi Pāda",
+      "dev": "तत्परं पुरुषख्यातेर्गुणवैतृष्ण्यम् ।",
+      "iast": "tat paraṁ puruṣa-khyāter guṇa-vaitṛṣṇyam",
+      "trans": "The supreme (non-attachment) is indifference to the guṇas, arising from the direct perception of the Puruṣa.",
+      "commentaries": {
+        "vivekananda": "Para vairāgya — the highest non-attachment — arises when the meditator directly perceives the Puruṣa (pure consciousness) as totally distinct from Prakṛti (matter / the guṇas). At that point even the subtlest attractions — not just sensory but also the pull toward spiritual powers, subtle pleasures, and liberation itself — dissolve. Vivekananda: 'When a man has seen the glory of his own Soul, the universe itself becomes small to him.'",
+        "patanjali_vyasa": "This is the vairāgya that arises spontaneously from direct knowledge (jñāna), not from suppression. The guṇas — sattva, rajas, tamas — are the entire fabric of Prakṛti. When Puruṣa is known as completely separate from them, there is nothing in the field of experience to cling to."
+      }
+    },
+    {
+      "ref": "1.17",
+      "sec": "Samādhi Pāda",
+      "dev": "वितर्कविचारानन्दास्मितारूपानुगमात्संप्रज्ञातः ।",
+      "iast": "vitarka-vicāra-ānanda-asmitā-rūpa-anugamāt saṁprajñātaḥ",
+      "trans": "Samprajñāta (conscious) samādhi is accompanied by examination, reflection, bliss, and I-am-ness.",
+      "commentaries": {
+        "vivekananda": "The first class of samādhi has four progressively subtler levels: (1) vitarka — gross examination of an object; (2) vicāra — subtle reflection beyond gross form; (3) ānanda — a state of bliss when thought subsides; (4) asmitā — pure I-am-ness, the last trace of individuality. Vivekananda describes this as the mind becoming 'as if dead' yet fully conscious — a state of extraordinary lucidity and peace.",
+        "patanjali_vyasa": "These four stages correspond to progressively refined objects of meditation. In savitarka the mind grasps the gross aspect of the object (word, meaning, knowledge mixed). In savicāra it penetrates to subtle aspects (time, space, causality). In sa-ānanda the object dissolves into bliss. In sa-asmitā only the witnessing awareness remains. All four retain the seed (sabīja samādhi)."
+      }
+    },
+    {
+      "ref": "1.18",
+      "sec": "Samādhi Pāda",
+      "dev": "विरामप्रत्ययाभ्यासपूर्वः संस्कारशेषोऽन्यः ।",
+      "iast": "virāma-pratyayābhyāsa-pūrvaḥ saṁskāra-śeṣo 'nyaḥ",
+      "trans": "The other (asamprajñāta samādhi) has as its prior condition the practice of cessation; only latent impressions remain.",
+      "commentaries": {
+        "vivekananda": "Beyond samprajñāta is asamprajñāta (supra-conscious) samādhi — the state where even the most subtle vṛtti (asmitā) ceases. No object whatsoever supports the mind. Only the residual saṃskāras remain, like embers. Vivekananda: 'This is the state that the Vedantins call Nirvikalpa Samādhi. The mind becomes as clear as crystal, and reflects the Pure Soul without distortion.'",
+        "patanjali_vyasa": "This is the threshold of liberation. The 'other' samādhi requires the prior discipline of samprajñāta as a stepping-stone. When even the sense of 'I am meditating' dissolves, what remains is not unconsciousness but the pure luminosity of Puruṣa itself — indescribable, self-evident."
+      }
+    },
+    {
+      "ref": "1.19",
+      "sec": "Samādhi Pāda",
+      "dev": "भवप्रत्ययो विदेहप्रकृतिलयानाम् ।",
+      "iast": "bhava-pratyayo videha-prakṛtilayānām",
+      "trans": "For the disembodied beings and those merged in Prakṛti, (this state arises from) birth alone.",
+      "commentaries": {
+        "vivekananda": "Some beings — gods, celestial entities, and those absorbed in Prakṛti — are born into near-samādhi states without the struggle of practice. But Patanjali notes these are not truly liberated: they are still within the field of Prakṛti and will eventually return to ordinary existence. Vivekananda distinguishes this from true liberation: 'Yoga is not for those who reach a pleasant state and stay there — it is for those who go beyond all states of nature.'",
+        "patanjali_vyasa": "This sūtra warns against mistaking higher birth or cosmic absorption for liberation. Even the gods are under the sway of karma and time. Only the complete cessation of identification with Prakṛti — through the eightfold path — yields genuine kaivalya."
+      }
+    },
+    {
+      "ref": "1.20",
+      "sec": "Samādhi Pāda",
+      "dev": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम् ।",
+      "iast": "śraddhā-vīrya-smṛti-samādhi-prajñā-pūrvaka itareṣām",
+      "trans": "For the others (ordinary practitioners), it is preceded by faith, energy, memory, samādhi, and wisdom.",
+      "commentaries": {
+        "vivekananda": "For the practitioner following the path consciously, five qualities lead to asamprajñāta samādhi: śraddhā (faith — trust in the teaching and the teacher); vīrya (energy/courage); smṛti (memory of the goal and the teaching); samādhi (the concentrated state itself); prajñā (the wisdom that arises in samādhi). Vivekananda stressed śraddhā as the first and most essential: 'Have faith in yourself first; then have faith in God.'",
+        "patanjali_vyasa": "Each quality prepares the ground for the next. Faith gives energy; energy sustains memory of the goal; sustained memory deepens concentration; deepened concentration yields wisdom. Wisdom in turn reinforces faith — completing a virtuous spiral toward liberation."
+      }
+    },
+    {
+      "ref": "1.21",
+      "sec": "Samādhi Pāda",
+      "dev": "तीव्रसंवेगानामासन्नः ।",
+      "iast": "tīvra-saṁvegānām āsannaḥ",
+      "trans": "For those of intense (practice), (samādhi) is near.",
+      "commentaries": {
+        "vivekananda": "Intensity of longing and practice shortens the path. Vivekananda: 'Those who practice with greatest intensity of concentration succeed fastest.' The Sanskrit tīvra (intense) refers not to violence or strain but to the single-pointed urgency of one who knows time is short and liberation is the only goal worth pursuing.",
+        "patanjali_vyasa": "The degree of vairāgya and abhyāsa determines the speed of progress. The classification that follows (1.22) — mild, medium, intense — is practical guidance: practitioners honestly assess their own intensity and pace, then apply themselves accordingly."
+      }
+    },
+    {
+      "ref": "1.22",
+      "sec": "Samādhi Pāda",
+      "dev": "मृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः ।",
+      "iast": "mṛdu-madhya-adhimātratvāt tato 'pi viśeṣaḥ",
+      "trans": "Even among those, there is further distinction due to mildness, mediocrity, or intensity.",
+      "commentaries": {
+        "vivekananda": "Three grades of intensity across all types of practitioners. Vivekananda notes that this is simply observation of how human beings differ in capacity, karma, and circumstance — not judgment. The path is available to all; the pace varies. The message is encouragement: wherever you are, apply yourself fully and progress is certain.",
+        "patanjali_vyasa": "This sūtra opens the possibility of nine categories (mild/medium/intense × three levels) — accounting for the full range of spiritual development across practitioners. The Yoga system is inclusive and graduated, not reserved for an elite few."
+      }
+    },
+    {
+      "ref": "1.23",
+      "sec": "Samādhi Pāda",
+      "dev": "ईश्वरप्रणिधानाद्वा ।",
+      "iast": "īśvara-praṇidhānād vā",
+      "trans": "Or (samādhi may be attained) by devotion to Īśvara.",
+      "commentaries": {
+        "vivekananda": "Patanjali here introduces a parallel fast path: īśvara-praṇidhāna — total self-surrender and devotion to the Lord (Īśvara). The 'vā' (or) is significant: Patanjali the Sāṃkhya-influenced thinker acknowledges that for some practitioners, the path of bhakti — surrender, prayer, love — is the swiftest route to samādhi. Vivekananda: 'Those who cannot practice all the eightfold discipline may take up bhakti — that alone can save them.'",
+        "patanjali_vyasa": "Īśvara is defined in the next sūtras (1.24–1.26) as a special Puruṣa untouched by kleśas, karma, or their fruits — the eternal teacher. Surrender to such a being purifies the mind rapidly, cutting through the knots of ego that other practices loosen more gradually."
+      }
+    },
+    {
+      "ref": "1.24",
+      "sec": "Samādhi Pāda",
+      "dev": "क्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः ।",
+      "iast": "kleśa-karma-vipāka-āśayair aparāmṛṣṭaḥ puruṣa-viśeṣa īśvaraḥ",
+      "trans": "Īśvara is a special Puruṣa, untouched by the afflictions, actions, their results, and latent impressions.",
+      "commentaries": {
+        "vivekananda": "Patanjali's Īśvara is not a Creator God in the theistic sense but a Puruṣa who has never been, and can never be, bound by Prakṛti. He is eternally free — hence a model and magnet for the practitioner. Vivekananda: 'The idea of God is the Highest generalisation of what is good in us. When we contemplate such a being, we naturally lift ourselves toward that ideal.'",
+        "patanjali_vyasa": "This definition carefully avoids the problems of a Creator God who would be implicated in the suffering of creation. Īśvara is pure consciousness in its eternal unconditioned form — useful as an object of meditation precisely because It is beyond all change, affliction, and karma."
+      }
+    },
+    {
+      "ref": "1.25",
+      "sec": "Samādhi Pāda",
+      "dev": "तत्र निरतिशयं सर्वज्ञबीजम् ।",
+      "iast": "tatra niratiśayaṁ sarvajña-bījam",
+      "trans": "In Īśvara is the unsurpassable seed of omniscience.",
+      "commentaries": {
+        "vivekananda": "Omniscience (sarvajñatā) exists in degrees in ordinary beings — the wise know more than the ignorant. Īśvara's omniscience is the limit of this spectrum — it cannot be exceeded. Vivekananda: 'This omniscience is not something added to God — it is His very nature, just as heat is the nature of fire.' Meditating on this unlimited knowing dissolves the sense of the limited, ignorant self.",
+        "patanjali_vyasa": "The 'seed of omniscience' means Īśvara is the very source and ground of all knowing. When the practitioner surrenders the mind to Īśvara in samādhi, that limited knowing expands toward the infinite."
+      }
+    },
+    {
+      "ref": "1.26",
+      "sec": "Samādhi Pāda",
+      "dev": "पूर्वेषामपि गुरुः कालेनानवच्छेदात् ।",
+      "iast": "pūrveṣām api guruḥ kālena anavacchedāt",
+      "trans": "Īśvara is the teacher of the ancients too, for He is not limited by time.",
+      "commentaries": {
+        "vivekananda": "Every great teacher has a teacher — but Īśvara's instruction is not conditioned by time. He is the original Guru, the primordial teacher who has always been available through the silence of the heart. Vivekananda: 'The greatest teacher is the Inner Guide — the Ātman itself — and Yoga is the art of listening to that Inner Teacher.'",
+        "patanjali_vyasa": "This makes the guru-lineage sacred but also points beyond it. Ultimately the student must receive direct instruction from Īśvara / the Inner Self. Outer teachers point toward this inner transmission."
+      }
+    },
+    {
+      "ref": "1.27",
+      "sec": "Samādhi Pāda",
+      "dev": "तस्य वाचकः प्रणवः ।",
+      "iast": "tasya vācakaḥ praṇavaḥ",
+      "trans": "The expression (designator) of Īśvara is the praṇava (Oṃ).",
+      "commentaries": {
+        "vivekananda": "Oṃ (praṇava) is the sound-symbol of Īśvara — not an arbitrary label but a direct sonic expression of the Absolute. Vivekananda: 'The word Oṃ is the most sacred word in the Vedas; it is said that from this word have come all the other names of God in every language.' Oṃ carries the vibration of the unconditioned reality and, when repeated with understanding, aligns the mind with Īśvara.",
+        "patanjali_vyasa": "The three phonemes of Oṃ (A-U-M) represent waking, dream, and deep sleep — all three states subsumed in the transcendent fourth (turīya). Repetition of Oṃ with meaning is therefore a complete meditation in itself."
+      }
+    },
+    {
+      "ref": "1.28",
+      "sec": "Samādhi Pāda",
+      "dev": "तज्जपस्तदर्थभावनम् ।",
+      "iast": "taj-japas tad-artha-bhāvanam",
+      "trans": "The repetition of it (Oṃ) and the contemplation of its meaning (is the practice).",
+      "commentaries": {
+        "vivekananda": "Japa (repetition) of Oṃ is not mere mechanical chanting. Patanjali insists on bhāvana — contemplating the meaning simultaneously. The mind must stay connected to what Oṃ points toward: Īśvara as pure, unlimited consciousness. Vivekananda: 'Repeat Oṃ and think of its meaning while repeating it. Your mind will be calmed and all the obstacles will melt away.'",
+        "patanjali_vyasa": "The combination of sound (mantra) and meaning (artha-bhāvana) is unusually powerful: the vibratory quality of the sound soothes the nervous system while the contemplation of meaning elevates the intellect. Both wings of the mind — the emotional/vibratory and the intellectual — are engaged simultaneously."
+      }
+    },
+    {
+      "ref": "1.29",
+      "sec": "Samādhi Pāda",
+      "dev": "ततः प्रत्यक्चेतनाधिगमोऽप्यन्तरायाभावश्च ।",
+      "iast": "tataḥ pratyak-cetanā-adhigamo 'py antarāya-abhāvaś ca",
+      "trans": "From this (practice of Oṃ) arises inward-turned consciousness and the disappearance of obstacles.",
+      "commentaries": {
+        "vivekananda": "Two fruits of japa of Oṃ with meaning: (1) pratyak-cetanā — the consciousness turns inward, away from the senses, toward the Self; (2) the antarāyas (obstacles, listed in 1.30) diminish and disappear. Vivekananda: 'By repetition of Oṃ all obstacles are removed and the mind turns inward — that is the whole secret.'",
+        "patanjali_vyasa": "Pratyak-cetanā is the reversal of the outward-flowing mind. Ordinarily attention flows outward through the senses to objects; japa with bhāvana gradually reverses this current. This is pratyāhāra (withdrawal of the senses) accomplished through sound and meaning."
+      }
+    },
+    {
+      "ref": "1.30",
+      "sec": "Samādhi Pāda",
+      "dev": "व्याधिस्त्यानसंशयप्रमादालस्याविरतिभ्रान्तिदर्शनालब्धभूमिकत्वानवस्थितत्वानि चित्तविक्षेपास्तेऽन्तरायाः ।",
+      "iast": "vyādhi-styāna-saṁśaya-pramāda-ālasya-avirati-bhrānti-darśana-alabdha-bhūmikatva-anavasthitatvāni citta-vikṣepās te antarāyāḥ",
+      "trans": "Disease, dullness, doubt, carelessness, laziness, craving for sense-pleasure, wrong perception, failure to reach any stage, and instability — these distractions of the mind are the obstacles.",
+      "commentaries": {
+        "vivekananda": "Patanjali names nine antarāyas that disperse the mind's energy and prevent samādhi: (1) vyādhi — disease of body or mind; (2) styāna — dullness, inertia; (3) saṁśaya — doubt about the practice or the teacher; (4) pramāda — carelessness; (5) ālasya — laziness; (6) avirati — craving, non-restraint of senses; (7) bhrānti-darśana — false perception, thinking one has progressed when one has not; (8) alabdha-bhūmikatva — failure to reach any meditative stage; (9) anavasthitatva — inability to stay in a stage once reached. Vivekananda: 'These are our enemies — know them clearly and you can fight them.'",
+        "patanjali_vyasa": "The nine antarāyas map onto the broader kleśas (Pada 2). Disease is overcome by āsana and prāṇāyāma. Doubt by faith in direct experience. Laziness by enthusiasm (utsāha). Each obstacle has a specific antidote — awareness of the obstacle is the first step."
+      }
+    },
+    {
+      "ref": "1.31",
+      "sec": "Samādhi Pāda",
+      "dev": "दुःखदौर्मनस्याङ्गमेजयत्वश्वासप्रश्वासा विक्षेपसहभुवः ।",
+      "iast": "duḥkha-daurmanasya-aṅgamejayatva-śvāsa-praśvāsā vikṣepa-saha-bhuvaḥ",
+      "trans": "Pain, depression, trembling of the body, and disturbed breathing accompany (these) distractions.",
+      "commentaries": {
+        "vivekananda": "The nine obstacles manifest as four symptoms: duḥkha (suffering, pain), daurmanasya (depression, despair), aṅgamejayatva (trembling/unsteadiness of the body), and irregular breathing. Vivekananda noted that the state of the mind is directly reflected in the breath — a distracted, suffering mind breathes irregularly. Conversely, calming the breath is one of the most direct ways to calm the mind.",
+        "patanjali_vyasa": "These four symptoms are diagnostic — the practitioner can observe them to know when the mind is distracted. They also suggest remedies: physical stillness addresses trembling; prāṇāyāma addresses breathing; meditation addresses pain and depression."
+      }
+    },
+    {
+      "ref": "1.32",
+      "sec": "Samādhi Pāda",
+      "dev": "तत्प्रतिषेधार्थमेकतत्त्वाभ्यासः ।",
+      "iast": "tat-pratiṣedhārtham eka-tattva-abhyāsaḥ",
+      "trans": "To counteract these (obstacles), practice of one principle (is prescribed).",
+      "commentaries": {
+        "vivekananda": "The cure for all nine obstacles is single-pointed practice — eka-tattva-abhyāsa. Choose one object, one practice, one path — and stick to it with full commitment. Vivekananda: 'The mind must be made to flow in one current. If you try ten methods at once you will flow in ten directions and reach nowhere.' Concentration itself, when practiced earnestly, dissolves all obstacles.",
+        "patanjali_vyasa": "This is not dogmatic exclusivity but practical psychology: a river with one channel cuts deep; spread across ten channels it is shallow and slow. The practitioner chooses a suitable iṣṭa (chosen form, name, or idea) and keeps returning to it regardless of distractions."
+      }
+    },
+    {
+      "ref": "1.33",
+      "sec": "Samādhi Pāda",
+      "dev": "मैत्रीकरुणामुदितोपेक्षाणां सुखदुःखपुण्यापुण्यविषयाणां भावनातश्चित्तप्रसादनम् ।",
+      "iast": "maitrī-karuṇā-mudita-upekṣāṇāṁ sukha-duḥkha-puṇya-apuṇya-viṣayāṇāṁ bhāvanātaś citta-prasādanam",
+      "trans": "The mind becomes purified by cultivating friendliness toward the happy, compassion toward the suffering, joy toward the virtuous, and equanimity toward the non-virtuous.",
+      "commentaries": {
+        "vivekananda": "Four social attitudes that purify the mind: (1) maitrī (friendliness/loving-kindness) toward those who are happy — no jealousy; (2) karuṇā (compassion) toward those who suffer — no indifference; (3) mudita (sympathetic joy) toward the virtuous — no envy; (4) upekṣā (equanimity) toward the non-virtuous — no contempt or excessive involvement. Vivekananda: 'If you practice these four, the mind will become clear as crystal and perfectly undisturbed.' These are the four brahmavihāras of Buddhism, adopted by Patanjali as ethical cultivation.",
+        "patanjali_vyasa": "These attitudes address the social dimension of mental disturbance. Jealousy of the happy, cruelty to the suffering, envy of the good, and hatred of the wicked all agitate the mind profoundly. Cultivating the opposite qualities does not require sainthood — consistent effort over time produces genuine transformation."
+      }
+    },
+    {
+      "ref": "1.34",
+      "sec": "Samādhi Pāda",
+      "dev": "प्रच्छर्दनविधारणाभ्यां वा प्राणस्य ।",
+      "iast": "pracchardana-vidhāraṇābhyāṁ vā prāṇasya",
+      "trans": "Or by the expulsion and retention of breath (the mind is steadied).",
+      "commentaries": {
+        "vivekananda": "Breath and mind are inseparably linked. Patanjali offers prāṇāyāma — specifically the practice of expulsion (pracchardana / recaka) and retention (vidhāraṇa / kumbhaka) — as a direct means of calming the mind. Vivekananda: 'The control of the vital forces (prāṇa) is the most direct and certain way to control the mind. When the breathing is perfectly regular and deep, the mind becomes calm spontaneously.'",
+        "patanjali_vyasa": "Recaka (complete exhalation) releases accumulated tension and CO₂, while kumbhaka (retention) drives prāṇa deeper into the system. Even a few minutes of slow, deep, rhythmic breathing produces a measurable shift in the mind's quality — a fact as verifiable today as in Patanjali's time."
+      }
+    },
+    {
+      "ref": "1.35",
+      "sec": "Samādhi Pāda",
+      "dev": "विषयवती वा प्रवृत्तिरुत्पन्ना मनसः स्थितिनिबन्धनी ।",
+      "iast": "viṣayavatī vā pravṛttir utpannā manasaḥ sthiti-nibandhanī",
+      "trans": "Or, the arising of higher sense-perception also brings steadiness of the mind.",
+      "commentaries": {
+        "vivekananda": "Advanced concentration on subtle sense-objects (the tip of the nose, the centre of the tongue, subtle sounds, lights, fragrances) produces extraordinary perceptions that themselves stabilise the mind. Vivekananda: 'When you begin to sense things that are not perceptible to the ordinary senses, your faith in the practice deepens enormously, and the mind naturally becomes more concentrated.'",
+        "patanjali_vyasa": "These 'higher perceptions' arise in the early stages of dhyāna — subtle lights, sounds (nāda), fragrances, or tastes. They are not the goal but valuable signposts confirming that concentration is deepening. They should be noted, not pursued, and the meditation continued."
+      }
+    },
+    {
+      "ref": "1.36",
+      "sec": "Samādhi Pāda",
+      "dev": "विशोका वा ज्योतिष्मती ।",
+      "iast": "viśokā vā jyotiṣmatī",
+      "trans": "Or (by the inner light) which is sorrowless and luminous.",
+      "commentaries": {
+        "vivekananda": "The state of viśokā is the arising of an inner light — a spontaneous luminosity in the heart-space — accompanied by freedom from sorrow. This is not imagined but directly experienced in deep meditation. Vivekananda: 'When the mind becomes perfectly calm, a light appears in the heart. This inner light has no external cause and produces a sense of utter peace. Focus on it and you will reach samādhi.'",
+        "patanjali_vyasa": "The heart-space (hṛdaya) or the 'lotus of the heart' is a traditional locus of meditative attention. The inner light experienced here is a manifestation of the Puruṣa's inherent luminosity shining through a purified mind-stuff."
+      }
+    },
+    {
+      "ref": "1.37",
+      "sec": "Samādhi Pāda",
+      "dev": "वीतरागविषयं वा चित्तम् ।",
+      "iast": "vīta-rāga-viṣayaṁ vā cittam",
+      "trans": "Or (the mind becomes steady by) taking as its object a mind free from passion.",
+      "commentaries": {
+        "vivekananda": "Meditating on the mind of a great sage, saint, or liberated being — one who is genuinely free from attachment and aversion — steadies one's own mind. Vivekananda strongly advocated this: 'If you cannot control your own mind, sit in the presence of one who has. Their peace will enter you.' The resonance between minds is real; the company of the wise (satsaṅga) is transformative.",
+        "patanjali_vyasa": "This is the psychological mechanism behind guru-meditation and icon-meditation. The mind takes on the qualities of what it habitually contemplates. Repeatedly meditating on a mind that is vīta-rāga (free from passion) impresses those qualities into one's own citta."
+      }
+    },
+    {
+      "ref": "1.38",
+      "sec": "Samādhi Pāda",
+      "dev": "स्वप्ननिद्राज्ञानालम्बनं वा ।",
+      "iast": "svapna-nidrā-jñāna-ālambanam vā",
+      "trans": "Or (by taking as object) the knowledge that comes in dream or deep sleep.",
+      "commentaries": {
+        "vivekananda": "Some practitioners receive vivid, meaningful guidance in dreams or experience extraordinary clarity upon waking from deep sleep. Patanjali suggests using these as objects of meditation. Vivekananda acknowledged that yogins sometimes receive direct instruction in the dream state, where the veil between the conscious and superconscious mind is thinner.",
+        "patanjali_vyasa": "This sūtra validates the yogic tradition of dream yoga and recognises that the superconscious can express itself through the sleep states. However it is a supplementary practice — not a substitute for waking discipline. The insights received in sleep must be integrated into waking life through regular sādhana."
+      }
+    },
+    {
+      "ref": "1.39",
+      "sec": "Samādhi Pāda",
+      "dev": "यथाभिमतध्यानाद्वा ।",
+      "iast": "yathābhimata-dhyānād vā",
+      "trans": "Or by meditating on whatever is pleasing.",
+      "commentaries": {
+        "vivekananda": "Patanjali is surprisingly generous here: meditate on whatever uplifts and steadies your particular mind. The chosen object may vary — a mantra, a deity, a natural phenomenon, a sacred text. Vivekananda: 'The essence of all religion is: make the mind one-pointed. The form does not matter — the direction does.' What matters is that the chosen focus genuinely draws the mind inward, not outward.",
+        "patanjali_vyasa": "This openness reflects Yoga's pragmatic spirit. The vast array of meditational objects in Hindu, Buddhist, and other traditions all work through the same mechanism: single-pointed attention directed toward a purifying object. The practitioner should choose what genuinely works for them."
+      }
+    },
+    {
+      "ref": "1.40",
+      "sec": "Samādhi Pāda",
+      "dev": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः ।",
+      "iast": "paramāṇu-parama-mahattva-anto 'sya vaśīkāraḥ",
+      "trans": "The yogin's mastery extends from the smallest atom to the greatest magnitude.",
+      "commentaries": {
+        "vivekananda": "The fruit of sustained concentration is complete mastery of the range of the mind. The yogin can focus with equal ease and depth on the most minute (paramāṇu) or the most vast (parama-mahattva). This is not mere intellectual understanding but direct experiential grasp. Vivekananda: 'The concentrated mind is like a microscope and a telescope simultaneously — it can see both the infinitely small and the infinitely large.'",
+        "patanjali_vyasa": "Practically, this means the practitioner is no longer at the mercy of mental size-biases — overwhelmed by the vast or impatient with the minute. Equanimity of attention across all scales is a hallmark of advanced samādhi."
+      }
+    },
+    {
+      "ref": "1.41",
+      "sec": "Samādhi Pāda",
+      "dev": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः ।",
+      "iast": "kṣīṇa-vṛtter abhijātasyeva maṇer grahītṛ-grahaṇa-grāhyeṣu tat-stha-tad-añjanatā samāpattiḥ",
+      "trans": "When the modifications (of the mind) are diminished, the mind becomes like a clear jewel, taking the colour of whatever is near — whether knower, knowing, or known. This is samāpatti.",
+      "commentaries": {
+        "vivekananda": "Samāpatti (coalescence) is the state where the purified mind becomes so transparent that it perfectly 'takes the colour' of its object without distortion. Like a flawless crystal that reflects whatever is placed near it, the mind-stuff reflects the object, the act of knowing, and the knower without adding its own tint. Vivekananda: 'The mind becomes like a calm lake, and in it you see reflected the real image — the Ātman — without any ripple to distort it.'",
+        "patanjali_vyasa": "Samāpatti is the positive description of what nirodha achieves: not a blank void but a transparent fullness. The three — knower (grahītṛ), knowing (grahaṇa), known (grāhya) — are still nominally present but are experienced as a seamless unity."
+      }
+    },
+    {
+      "ref": "1.42",
+      "sec": "Samādhi Pāda",
+      "dev": "तत्र शब्दार्थज्ञानविकल्पैः संकीर्णा सवितर्का समापत्तिः ।",
+      "iast": "tatra śabda-artha-jñāna-vikalpaiḥ saṁkīrṇā savitarkā samāpattiḥ",
+      "trans": "Of these, savitarka samāpatti is intermixed with the concepts of word, meaning, and knowledge.",
+      "commentaries": {
+        "vivekananda": "In savitarka samāpatti (coalescence with gross examination) the mind rests on an object but three layers remain intertwined: the word (śabda), the meaning (artha), and the knowledge or memory associated with it (jñāna). For example, meditating on a cow, one's mind oscillates between the word 'cow,' the image of a cow, and all one's memories and associations about cows. The concentration is real but not yet perfectly pure.",
+        "patanjali_vyasa": "This is where most beginners' meditation lives — useful and valuable, but not yet free of conceptual overlay. The practitioner notices when these three layers separate and begins to refine attention toward the pure object."
+      }
+    },
+    {
+      "ref": "1.43",
+      "sec": "Samādhi Pāda",
+      "dev": "स्मृतिपरिशुद्धौ स्वरूपशून्येवार्थमात्रनिर्भासा निर्वितर्का ।",
+      "iast": "smṛti-pariśuddhau svarūpa-śūnyevārtha-mātra-nirbhāsā nirvitarkā",
+      "trans": "When memory is purified and the mind appears as though empty of its own form, shining with the object alone — that is nirvitarka (samāpatti).",
+      "commentaries": {
+        "vivekananda": "Nirvitarka is the next refinement: word and knowledge drop away, leaving only the pure object itself shining in the mind without any overlay of memory or concept. The mind becomes 'empty of itself' — its own form (svarūpa) is not obtrusive. Vivekananda: 'The object itself becomes luminous — there is no sense of a separate meditator observing it.' This is a profoundly different state from ordinary concentrated thinking.",
+        "patanjali_vyasa": "The shift from savitarka to nirvitarka is from 'thinking about the object' to 'being the object' (in the sense of perfect, unmediated reflection). The word and its associations have been transcended; only the pure quiddity of the object remains."
+      }
+    },
+    {
+      "ref": "1.44",
+      "sec": "Samādhi Pāda",
+      "dev": "एतयैव सविचारा निर्विचारा च सूक्ष्मविषया व्याख्याता ।",
+      "iast": "etayaiva savicārā nirvicārā ca sūkṣma-viṣayā vyākhyātā",
+      "trans": "By this same (explanation), savicāra and nirvicāra samāpattis, which have subtle objects, are also explained.",
+      "commentaries": {
+        "vivekananda": "The same two-stage refinement (sa- and nir-) applies at the subtle level: savicāra (with subtle examination) and nirvicāra (without subtle examination). The subtle objects include tanmātras (subtle elements — sound-as-such, touch-as-such, etc.), space, time, and causality. Vivekananda: 'When you go beyond gross objects and meditate on their subtle essences, you enter savicāra; when even those subtle conceptual overlays dissolve, you reach nirvicāra.'",
+        "patanjali_vyasa": "These four samāpattis (savitarka, nirvitarka, savicāra, nirvicāra) constitute the sabīja (with-seed) samādhis described in 1.17 as samprajñāta. They progressively refine the mind from gross to subtle, preparing it for the seed-free (nirbīja) samādhi."
+      }
+    },
+    {
+      "ref": "1.45",
+      "sec": "Samādhi Pāda",
+      "dev": "सूक्ष्मविषयत्वं चालिङ्गपर्यवसानम् ।",
+      "iast": "sūkṣma-viṣayatvaṁ cāliṅga-paryavasānam",
+      "trans": "The subtle domain of objects extends to the unmanifest (aliṅga — Prakṛti itself).",
+      "commentaries": {
+        "vivekananda": "The chain of subtle objects descends from tanmātras to ahaṁkāra (ego-principle) to mahattattva (buddhi) to the unmanifest Prakṛti (aliṅga — 'without characteristic'). Meditating on progressively subtler levels, the practitioner can arrive at Prakṛti itself — the very root of all manifestation. Vivekananda: 'Go behind the elements to their cause; go behind the cause to its cause — you will arrive at the uncaused.'",
+        "patanjali_vyasa": "Aliṅga (without sign/mark) is Prakṛti in its unmanifest state — pure potential. It is still within the realm of matter, not yet the Puruṣa. The next step beyond it — the realisation of Puruṣa as distinct from even unmanifest Prakṛti — is kaivalya."
+      }
+    },
+    {
+      "ref": "1.46",
+      "sec": "Samādhi Pāda",
+      "dev": "ता एव सबीजः समाधिः ।",
+      "iast": "tā eva sabījaḥ samādhiḥ",
+      "trans": "These (samāpattis) constitute sabīja (with-seed) samādhi.",
+      "commentaries": {
+        "vivekananda": "All the samāpattis described so far — from savitarka to nirvicāra — are sabīja (with-seed) because they still contain a subtle seed-object (bīja) that supports the concentration. They are states of extraordinary peace and insight but not yet the final liberation. Vivekananda: 'In sabīja samādhi the meditator and the meditation are still distinct — the final step is to transcend even this distinction.'",
+        "patanjali_vyasa": "The 'seed' is the last subtle object of concentration — even if that object is as subtle as Puruṣa-reflection or aliṅga. While any object remains, there is the possibility of returning to ordinary consciousness. Nirbīja samādhi (1.51) burns even this last seed."
+      }
+    },
+    {
+      "ref": "1.47",
+      "sec": "Samādhi Pāda",
+      "dev": "निर्विचारवैशारद्येऽध्यात्मप्रसादः ।",
+      "iast": "nirvicāra-vaiśāradye 'dhyātma-prasādaḥ",
+      "trans": "In the mastery of nirvicāra (samāpatti), there is clarity (prasāda) of the inner Self.",
+      "commentaries": {
+        "vivekananda": "When the practitioner becomes fully established in nirvicāra samāpatti — no longer straining to achieve it but resting in it naturally — a profound clarity of the inner Self arises spontaneously. This adhyātma-prasāda (grace/luminosity of the Self) is a direct foretaste of liberation. Vivekananda: 'This inner clarity is not obtained by reasoning — it is a direct perception, as direct as the perception of a mango in your hand.'",
+        "patanjali_vyasa": "Vaiśāradya means mastery or fluency — the stage where nirvicāra is no longer an achievement but a natural abiding. At this point the practice becomes self-sustaining: the very quality of the inner Self supports and deepens the samādhi."
+      }
+    },
+    {
+      "ref": "1.48",
+      "sec": "Samādhi Pāda",
+      "dev": "ऋतम्भरा तत्र प्रज्ञा ।",
+      "iast": "ṛtaṁbharā tatra prajñā",
+      "trans": "There (in that state), the wisdom is called ṛtaṁbharā — truth-bearing.",
+      "commentaries": {
+        "vivekananda": "Ṛtaṁbharā prajñā is wisdom that is filled with truth — not derived from inference or scripture but arising directly from the luminous clarity of nirvicāra samādhi. Vivekananda: 'This is the knowledge that makes a man free. It does not come from books or logic — it comes only from this superconscious state. All the great sages and prophets of the world had this wisdom.'",
+        "patanjali_vyasa": "Ṛta (truth, cosmic order) is the Vedic term for the underlying truthfulness of reality. Prajñā ṛtaṁbharā is wisdom so transparent that it does not distort reality — it carries the very weight and clarity of truth itself. This is the beginning of direct liberation-knowledge."
+      }
+    },
+    {
+      "ref": "1.49",
+      "sec": "Samādhi Pāda",
+      "dev": "श्रुतानुमानप्रज्ञाभ्यामन्यविषया विशेषार्थत्वात् ।",
+      "iast": "śruta-anumāna-prajñābhyām anya-viṣayā viśeṣārthatvāt",
+      "trans": "It (ṛtaṁbharā prajñā) has a different object from the knowledge derived from testimony and inference, because its object is the particular (not the general).",
+      "commentaries": {
+        "vivekananda": "The knowledge from scriptural testimony (śruta) and inference (anumāna) deals with general categories and concepts. Ṛtaṁbharā prajñā perceives the specific, concrete, unique truth of this moment — beyond all generalisation. Vivekananda: 'Books give general knowledge; realisation gives specific, direct knowledge of the particular. The great prophets did not derive their knowledge from books — they saw directly.'",
+        "patanjali_vyasa": "The distinction is between knowledge-about and direct acquaintance. Science and philosophy move in general concepts; samādhi-wisdom penetrates to the living particularity of reality — a knowing that cannot be fully communicated in words."
+      }
+    },
+    {
+      "ref": "1.50",
+      "sec": "Samādhi Pāda",
+      "dev": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी ।",
+      "iast": "taj-jaḥ saṁskāro 'nya-saṁskāra-pratibandī",
+      "trans": "The saṁskāra born of that (wisdom) obstructs other saṁskāras.",
+      "commentaries": {
+        "vivekananda": "The powerful saṃskāra of ṛtaṁbharā prajñā begins to actively suppress all other saṃskāras — the accumulated habitual impressions of countless lives. It is like a flood of clear water washing away sediment. Vivekananda: 'When this truth-bearing wisdom arises, all the past impressions are gradually burned up. The flame of knowledge burns the seed of karma.' This is the mechanism by which samādhi leads to liberation.",
+        "patanjali_vyasa": "Saṃskāras suppress other saṃskāras — this is how Yoga works through positive replacement, not suppression. The saṃskāra of witnessing awareness gradually overwhelms and dissolves the saṃskāras of ego-identification, craving, and aversion."
+      }
+    },
+    {
+      "ref": "1.51",
+      "sec": "Samādhi Pāda",
+      "dev": "तस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः ।",
+      "iast": "tasyāpi nirodhe sarva-nirodhān nirbījaḥ samādhiḥ",
+      "trans": "When even that (saṁskāra) is restrained, all (saṁskāras) being restrained, (there arises) nirbīja (seedless) samādhi.",
+      "commentaries": {
+        "vivekananda": "The final step: when even the liberating saṃskāra of ṛtaṁbharā prajñā is surrendered, all saṃskāras whatsoever are extinguished. No seed remains. This is nirbīja samādhi — seedless, objectless, supportless. Vivekananda: 'There is no object of meditation here — not even the idea of God or the Self. The mind has gone beyond itself. This is the highest state — this is Mukti.'",
+        "patanjali_vyasa": "Nirbīja samādhi is the culmination of Pada 1 and the goal of the entire Yoga science. Unlike sabīja samādhi from which one returns to ordinary consciousness, nirbīja uproots the very possibility of return to ignorance. The Puruṣa stands in its own glory — liberated, alone, free."
+      }
+    }
+  ]
+}
