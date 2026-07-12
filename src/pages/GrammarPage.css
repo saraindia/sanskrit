@@ -1375,10 +1375,11 @@
 .vib-chip-num { font-size: 0.65rem; color: var(--text-muted); }
 .vib-chip-marker { font-size: 0.88rem; color: var(--text); font-weight: 600; }
 .vib-mnemonic-hint {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  font-style: italic;
-  letter-spacing: 0.04em;
+  font-size: 0.92rem;
+  color: #e8698a;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.06em;
 }
 
 /* ── Tab bar (Vibhakti Learn / Declension Table) ─────────────────────────── */
@@ -1523,7 +1524,183 @@
   color: var(--text-muted);
   margin-bottom: 0.6rem;
 }
+/* ── Builder Paradigm Table ── */
+.vib-builder-paradigm {
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+}
+.vib-builder-paradigm-title {
+  font-size: 0.82rem; font-weight: 600;
+  margin-bottom: 0.75rem;
+  display: flex; align-items: baseline; flex-wrap: wrap; gap: 0.4rem;
+}
+.vib-builder-paradigm-sub { font-size: 0.7rem; color: var(--text-muted); font-weight: normal; }
+.vib-builder-paradigm-grid {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  gap: 0.35rem 0.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  min-width: 480px;
+}
+.vib-builder-paradigm-grid-hdr {
+  font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--text-muted); font-weight: 600; padding-bottom: 0.2rem;
+  border-bottom: 1px solid var(--border);
+}
+.vib-builder-paradigm-row-label {
+  font-size: 0.72rem; display: flex; flex-direction: column; gap: 0.05rem;
+  align-self: stretch; justify-content: center; white-space: nowrap;
+  font-weight: 600; padding-right: 0.4rem;
+  border-right: 1px solid var(--border);
+}
+.vib-builder-paradigm-num { font-size: 0.6rem; opacity: 0.55; }
+.vib-builder-paradigm-cell {
+  display: flex; flex-direction: column; gap: 0.15rem;
+  padding: 0.3rem 0.4rem;
+  background: rgba(255,255,255,0.03);
+  border-radius: 6px;
+}
+.vib-builder-paradigm-cell.empty { align-items: center; justify-content: center; color: var(--text-muted); font-size: 0.75rem; }
+.vib-builder-paradigm-cell .gr-dev { font-size: 0.88rem; font-weight: 700; }
+.vib-builder-paradigm-sent { font-size: 0.68rem; color: var(--text-muted); line-height: 1.35; }
+
+/* ── Sentence Builder ── */
+.vib-builder { display: flex; flex-direction: column; gap: 1rem; }
+.vib-builder-intro { font-size: 0.85rem; color: var(--text-muted); margin: 0; }
+.vib-builder-row { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
+.vib-builder-row-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-muted); white-space: nowrap; }
+.vib-builder-slot {
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.vib-builder-slot-hdr { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.vib-builder-slot-label { font-size: 0.82rem; font-weight: 600; }
+.vib-builder-slot-case {
+  font-size: 0.68rem; border: 1px solid; border-radius: 999px;
+  padding: 0.1rem 0.5rem; opacity: 0.85;
+}
+.vib-builder-slot-hdr .vib-adj-pill { margin-left: auto; }
+.vib-builder-cat-row { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.vib-builder-verb-block { display: flex; flex-direction: column; gap: 0.5rem; }
+.vib-builder-verb-label { font-size: 0.78rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.vib-builder-verb-grid { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.vib-builder-verb-btn {
+  display: inline-flex; flex-direction: column; align-items: center; gap: 0.1rem;
+  background: transparent; border: 1.5px solid var(--border); border-radius: 10px;
+  padding: 0.35rem 0.7rem; cursor: pointer; transition: border-color 0.15s, background 0.15s;
+}
+.vib-builder-verb-btn.active { border-color: var(--cream); background: rgba(255,255,255,0.08); }
+.vib-builder-verb-btn .gr-dev { font-size: 0.95rem; color: var(--cream); }
+.vib-builder-verb-btn .vib-adj-en { color: var(--text-muted); }
+.vib-builder-verb-btn:hover:not(.active) { border-color: var(--cream); }
+.vib-builder-output {
+  border: 1.5px solid var(--border); border-radius: 12px;
+  padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.5rem;
+  background: rgba(255,255,255,0.03);
+}
+.vib-builder-output-sentence { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.35rem; font-size: 1.45rem; }
+.vib-builder-word { font-weight: 700; }
+.vib-builder-output-iast { font-size: 0.88rem; display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.vib-builder-output-en { font-size: 0.9rem; color: var(--text-muted); font-style: italic; }
+.vib-builder-output-actions { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.25rem; }
+.vib-builder-breakdown { display: flex; flex-direction: column; gap: 0.4rem; border-top: 1px solid var(--border); padding-top: 0.6rem; margin-top: 0.2rem; }
+.vib-builder-breakdown-row { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; font-size: 0.82rem; }
+.vib-builder-breakdown-arrow { color: var(--text-muted); opacity: 0.5; }
+.vib-builder-breakdown-badge { font-size: 0.65rem; padding: 0.1rem 0.45rem; border-radius: 999px; white-space: nowrap; }
+
+/* ── Adjective picker ── */
+.vib-adj-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+.vib-adj-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  margin-right: 0.2rem;
+  white-space: nowrap;
+}
+.vib-adj-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: transparent;
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  padding: 0.22rem 0.7rem;
+  cursor: pointer;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.vib-adj-pill.active { font-weight: 600; }
+.vib-adj-pill:hover:not(.active) { color: var(--cream); border-color: var(--cream); }
+.vib-adj-en { font-size: 0.68rem; opacity: 0.7; }
+/* Agreement row inside generated example card */
+.vib-adj-agreement-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  margin: 0.3rem 0 0.2rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.05);
+}
+.vib-adj-agreement-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+.vib-adj-agreement-note { font-size: 0.68rem; color: var(--text-muted); }
+.vib-ex-adj-tag { margin-left: 0.3rem; font-size: 0.78rem !important; }
+
+.vib-ex-accordion-hdr {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  border: 1.5px solid currentColor;
+  border-radius: 999px;
+  padding: 0.35rem 1rem;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  transition: opacity 0.15s;
+}
+.vib-ex-accordion-hdr:hover { opacity: 0.75; }
+.vib-ex-accordion-chevron { font-size: 0.6rem; opacity: 0.7; }
 .vib-examples { display: flex; flex-direction: column; gap: 0.65rem; margin-bottom: 1rem; }
+.vib-example-generated { background: rgba(255,255,255,0.04) !important; }
+.vib-ex-noun-tag {
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  font-family: var(--font-dev);
+}
+.vib-examples-sublabel {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin: 0.4rem 0;
+}
 .vib-example-card {
   border: 1px solid;
   border-radius: 10px;
@@ -1589,6 +1766,39 @@
 .vib-nav-arrow:hover:not(:disabled) { background: rgba(255,255,255,0.06); }
 .vib-nav-arrow:disabled { opacity: 0.3; cursor: default; }
 .vib-pager { font-size: 0.85rem; color: var(--text-muted); }
+
+/* Selected noun form panel in Learn Cases */
+.vib-noun-form-panel {
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1rem;
+  margin-bottom: 1rem;
+  background: var(--bg-elevated);
+}
+.vib-noun-form-label {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 0.65rem;
+}
+.vib-noun-form-row {
+  display: flex;
+  gap: 0.5rem;
+}
+.vib-noun-form-cell {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.5rem 0.4rem;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: transparent;
+}
+.vib-noun-form-cell.active { border-width: 2px; }
+.vib-noun-form-vac { font-size: 0.72rem; font-weight: 700; color: var(--text-muted); letter-spacing: 0.04em; }
+.vib-noun-form-dev  { font-size: 1.05rem; }
+.vib-noun-form-iast { font-size: 0.78rem; color: var(--text-secondary); }
 
 /* Table tab */
 .vib-table-controls {
@@ -1659,7 +1869,8 @@
 }
 
 /* ── Vachanam (number) colour-coding in tense tables ─────────────────────── */
-.gr-table-vac { font-size: 1rem; }
+.gr-table-vac-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.gr-table-vac { font-size: 1rem; min-width: 480px; }
 .gr-table-vac th { font-size: 0.88rem; padding: 0.7rem 0.85rem; }
 .gr-table-vac td { padding: 0.85rem 0.85rem; }
 

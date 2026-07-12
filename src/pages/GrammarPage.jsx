@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useNavigate, useParams, Navigate } from 'react-router-dom'
 import { LESSONS, PRONOUNS, ENDINGS, VERBS, QA_PAIRS, OBJ_VERB_SENTENCES,
          VERB_EXAMPLES, TENSE_EXAMPLES, TENSES, PURUSHAS, VACHANAMS, LINGAS, PRONOUN_TABLE,
-         GENDER_DATA, GENDER_NOUNS_100, VIBHAKTI_LIST, VIBHAKTI_NOUNS, VIBHAKTI_NOUN_CATEGORIES } from '../data/grammar.js'
+         GENDER_DATA, GENDER_NOUNS_100, VIBHAKTI_LIST, VIBHAKTI_NOUNS, VIBHAKTI_NOUN_CATEGORIES,
+         VIBHAKTI_ADJECTIVES, getAdjForm, VIBHAKTI_VERBS } from '../data/grammar.js'
 import HubBack from '../components/HubBack.jsx'
 import { useSoundEffects } from '../hooks/useSoundEffects.js'
 import { useSpeech } from '../hooks/useSpeech.js'
@@ -553,6 +554,7 @@ function EndingsLesson() {
         Every Class 1 present tense verb = <strong>stem + a + ending</strong>.
         Memorise these 9 endings and you can conjugate any Class 1 verb.
       </div>
+      <div className="gr-table-vac-wrap">
       <table className="gr-table gr-table-vac">
         <thead>
           <tr>
@@ -573,6 +575,7 @@ function EndingsLesson() {
           ))}
         </tbody>
       </table>
+      </div>
 
       {/* Verb selector */}
       <div className="gr-sel-group" style={{marginTop:'1.25rem'}}>
@@ -616,6 +619,7 @@ function EndingsLesson() {
         <span className="gr-iast">stem: {verb.stemIast}</span>
       </div>
       {verb.note && <div className="gr-tip">⚠️ {verb.note}</div>}
+      <div className="gr-table-vac-wrap">
       <table className="gr-table gr-table-vac">
         <thead><tr>
           <th>Person</th>
@@ -638,6 +642,7 @@ function EndingsLesson() {
           ))}
         </tbody>
       </table>
+      </div>
 
       <div className="gr-example-title" style={{marginTop:'1rem'}}>See every ending in use — {verb.root}</div>
       <div className="gr-ex-accordion">
@@ -1544,6 +1549,7 @@ function TenseLesson({ tenseId }) {
 
       <div>
         <div className="gr-example-title">Endings · विभक्ति</div>
+        <div className="gr-table-vac-wrap">
         <table className="gr-table gr-table-vac">
           <thead><tr>
             <th>Person</th>
@@ -1562,6 +1568,7 @@ function TenseLesson({ tenseId }) {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       <div className="gr-sel-group">
@@ -1583,6 +1590,7 @@ function TenseLesson({ tenseId }) {
       {verb.note && <div className="gr-tip">⚠️ {verb.note}</div>}
 
       {forms ? (
+        <div className="gr-table-vac-wrap">
         <table className="gr-table gr-table-vac">
           <thead><tr>
             <th>Person</th>
@@ -1605,6 +1613,7 @@ function TenseLesson({ tenseId }) {
             ))}
           </tbody>
         </table>
+        </div>
       ) : (
         <div className="gr-tip">Forms for this verb are not yet available for this tense.</div>
       )}
@@ -2575,6 +2584,50 @@ const VIB_COLOR = {
   red:    { bg:'rgba(220,60,60,0.10)', border:'rgba(220,60,60,0.35)', text:'#e06060'        },
 }
 
+// Per-vibhakti sentence templates — (devForm, iastForm, enWord) => {sa, iast, en, hl}
+const VIB_TEMPLATES = [
+  { // V1 — subject
+    sg: (f,fi,e) => ({ sa:`${f} अत्र अस्ति।`,           iast:`${fi} atra asti.`,              en:`${e} is here.`,             hl:f }),
+    du: (f,fi,e) => ({ sa:`${f} अत्र स्तः।`,             iast:`${fi} atra staḥ.`,              en:`Both ${e} are here.`,       hl:f }),
+    pl: (f,fi,e) => ({ sa:`${f} अत्र सन्ति।`,            iast:`${fi} atra santi.`,             en:`${e} are here.`,            hl:f }),
+  },
+  { // V2 — object
+    sg: (f,fi,e) => ({ sa:`अहम् ${f} पश्यामि।`,         iast:`aham ${fi} paśyāmi.`,           en:`I see ${e}.`,               hl:f }),
+    du: (f,fi,e) => ({ sa:`अहम् ${f} पश्यामि।`,         iast:`aham ${fi} paśyāmi.`,           en:`I see both ${e}.`,          hl:f }),
+    pl: (f,fi,e) => ({ sa:`अहम् ${f} पश्यामि।`,         iast:`aham ${fi} paśyāmi.`,           en:`I see ${e}.`,               hl:f }),
+  },
+  { // V3 — by / with
+    sg: (f,fi,e) => ({ sa:`सः ${f} सह गच्छति।`,         iast:`saḥ ${fi} saha gacchati.`,      en:`He goes with ${e}.`,        hl:f }),
+    du: (f,fi,e) => ({ sa:`सः ${f} सह गच्छति।`,         iast:`saḥ ${fi} saha gacchati.`,      en:`He goes with both ${e}.`,   hl:f }),
+    pl: (f,fi,e) => ({ sa:`सः ${f} सह गच्छति।`,         iast:`saḥ ${fi} saha gacchati.`,      en:`He goes with ${e}.`,        hl:f }),
+  },
+  { // V4 — for / to (dative)
+    sg: (f,fi,e) => ({ sa:`सः ${f} पुस्तकं ददाति।`,    iast:`saḥ ${fi} pustakaṃ dadāti.`,    en:`He gives a book to ${e}.`,  hl:f }),
+    du: (f,fi,e) => ({ sa:`सः ${f} पुस्तकं ददाति।`,    iast:`saḥ ${fi} pustakaṃ dadāti.`,    en:`He gives a book to both ${e}.`, hl:f }),
+    pl: (f,fi,e) => ({ sa:`सः ${f} पुस्तकं ददाति।`,    iast:`saḥ ${fi} pustakaṃ dadāti.`,    en:`He gives a book to ${e}.`,  hl:f }),
+  },
+  { // V5 — from (ablative)
+    sg: (f,fi,e) => ({ sa:`सः ${f} आगच्छति।`,           iast:`saḥ ${fi} āgacchati.`,          en:`He comes from ${e}.`,       hl:f }),
+    du: (f,fi,e) => ({ sa:`सः ${f} आगच्छति।`,           iast:`saḥ ${fi} āgacchati.`,          en:`He comes from both ${e}.`,  hl:f }),
+    pl: (f,fi,e) => ({ sa:`सः ${f} आगच्छति।`,           iast:`saḥ ${fi} āgacchati.`,          en:`He comes from ${e}.`,       hl:f }),
+  },
+  { // V6 — of (genitive)
+    sg: (f,fi,e) => ({ sa:`एतत् ${f} गृहम् अस्ति।`,    iast:`etat ${fi} gṛham asti.`,        en:`This is ${e}'s house.`,     hl:f }),
+    du: (f,fi,e) => ({ sa:`एतत् ${f} गृहम् अस्ति।`,    iast:`etat ${fi} gṛham asti.`,        en:`This is both ${e}'s house.`,hl:f }),
+    pl: (f,fi,e) => ({ sa:`एतत् ${f} गृहम् अस्ति।`,    iast:`etat ${fi} gṛham asti.`,        en:`This is ${e}'s house.`,     hl:f }),
+  },
+  { // V7 — in / at (locative)
+    sg: (f,fi,e) => ({ sa:`रामः ${f} अस्ति।`,           iast:`rāmaḥ ${fi} asti.`,             en:`Rāma is in / among ${e}.`,  hl:f }),
+    du: (f,fi,e) => ({ sa:`रामः ${f} अस्ति।`,           iast:`rāmaḥ ${fi} asti.`,             en:`Rāma is among both ${e}.`,  hl:f }),
+    pl: (f,fi,e) => ({ sa:`रामः ${f} अस्ति।`,           iast:`rāmaḥ ${fi} asti.`,             en:`Rāma is among ${e}.`,       hl:f }),
+  },
+  { // V8 — vocative
+    sg: (f,fi,e) => ({ sa:`हे ${f}!`,                   iast:`he ${fi}!`,                      en:`O ${e}!`,                   hl:f }),
+    du: (f,fi,e) => ({ sa:`हे ${f}!`,                   iast:`he ${fi}!`,                      en:`O both ${e}!`,              hl:f }),
+    pl: (f,fi,e) => ({ sa:`हे ${f}!`,                   iast:`he ${fi}!`,                      en:`O ${e}!`,                   hl:f }),
+  },
+]
+
 function VibhaktiLesson() {
   const { play } = useSoundEffects()
   const { speak } = useSpeech()
@@ -2583,6 +2636,19 @@ function VibhaktiLesson() {
   const [activeNoun, setActiveNoun] = useState('rama')
   const [nounCat,    setNounCat]    = useState('names')
   const [vachanam,   setVachanam]   = useState('sg')      // 'sg' | 'du' | 'pl'
+  const [exOpen,     setExOpen]     = useState(false)
+
+  // Sentence Builder state
+  const [bVac,        setBVac]        = useState('sg')
+  const [paradigmOpen, setParadigmOpen] = useState(false)
+  const [bSubject,    setBSubject]    = useState('rama')
+  const [bSubjCat,    setBSubjCat]    = useState('names')
+  const [bObjEnabled, setBObjEnabled] = useState(false)
+  const [bObject,     setBObject]     = useState(null)
+  const [bObjCat,     setBObjCat]     = useState('things')
+  const [bVerb,       setBVerb]       = useState('gacchati')
+
+  useEffect(() => { setExOpen(false) }, [activeV])
 
   const vib  = VIBHAKTI_LIST[activeV]
   const noun = VIBHAKTI_NOUNS.find(n => n.id === activeNoun)
@@ -2635,7 +2701,7 @@ function VibhaktiLesson() {
 
       {/* Tab bar */}
       <div className="gr-tab-bar" style={{marginBottom:'1.25rem'}}>
-        {[['learn','📖 Learn Cases'],['table','📊 Declension Table']].map(([t, label]) => (
+        {[['learn','📖 Learn Cases'],['table','📊 Declension Table'],['build','🔨 Sentence Builder']].map(([t, label]) => (
           <button key={t} className={`gr-tab-btn${tab === t ? ' active' : ''}`}
             onClick={() => { play('tap'); setTab(t) }}>{label}</button>
         ))}
@@ -2691,9 +2757,7 @@ function VibhaktiLesson() {
             )}
           </div>
 
-          {/* Example sentences */}
-          <div className="vib-examples-label">Example Sentences · उदाहरणानि</div>
-          {/* Singular / Dual / Plural toggle */}
+          {/* Vachanam toggle — always visible */}
           <div className="vib-vac-toggle">
             {[['sg','Singular · एक'],['du','Dual · द्वि'],['pl','Plural · बहु']].map(([v, label]) => (
               <button key={v}
@@ -2704,31 +2768,101 @@ function VibhaktiLesson() {
               </button>
             ))}
           </div>
-          <div className="vib-examples">
-            {(vachanam === 'sg' ? vib.examples : vachanam === 'du' ? vib.examples_du : vib.examples_pl).map((ex, i) => (
-              <div key={i} className="vib-example-card" style={{ borderColor: c.border }}>
-                <div className="vib-ex-num" style={{ color: c.text }}>Ex {i + 1}</div>
-                <div className="vib-ex-body">
-                  <div className="vib-ex-sa-row">
-                    <span className="gr-dev vib-ex-sa">{highlightSa(ex.sa, ex.hl)}</span>
-                    <button className="gr-spk-btn" onClick={() => { play('tap'); speak(ex.sa) }} title="Listen">🔊</button>
+
+          {/* Generated sentence — always visible */}
+          {(() => {
+            const tmpl = VIB_TEMPLATES[activeV]
+            const devForm  = noun?.forms[`v${vib.num}`]?.[vachanam]
+            const iastForm = noun?.iast_forms[`v${vib.num}`]?.[vachanam]
+            if (!noun || !tmpl || !devForm || devForm === '—') return null
+            const ex = tmpl[vachanam](devForm, iastForm, noun.en)
+            const vacLabel = vachanam === 'sg' ? 'singular' : vachanam === 'du' ? 'dual' : 'plural'
+            return (
+              <div className="vib-examples">
+                <div className="vib-example-card vib-example-generated" style={{ borderColor: c.border }}>
+                  <div className="vib-ex-num" style={{ color: c.text }}>
+                    <span className="vib-ex-noun-tag" style={{ background: c.bg, color: c.text }}>{noun.dev}</span>
                   </div>
-                  <div className="gr-iast vib-ex-iast">{ex.iast}</div>
-                  <div className="gr-en vib-ex-en">{ex.en}</div>
-                  <div className="vib-ex-footer">
-                    <span className="vib-ex-hl-label">
-                      Highlighted form: <span style={{ color: c.text }}>{ex.hl}</span>
-                      {' '}(vibhakti {vib.num} · {vachanam === 'sg' ? 'singular' : vachanam === 'du' ? 'dual' : 'plural'})
-                    </span>
-                    <a className="gr-verify-link"
-                      href={verifyUrl(ex.sa)} target="_blank" rel="noopener noreferrer">
-                      🔍 Verify translation
-                    </a>
+                  <div className="vib-ex-body">
+                    <div className="vib-ex-sa-row">
+                      <span className="gr-dev vib-ex-sa">{highlightSa(ex.sa, ex.hl)}</span>
+                      <Spk text={ex.sa} small />
+                    </div>
+                    <div className="gr-iast vib-ex-iast">{ex.iast}</div>
+                    <div className="gr-en vib-ex-en">{ex.en}</div>
+                    <div className="vib-ex-footer">
+                      <span className="vib-ex-hl-label">
+                        Highlighted: <span style={{ color: c.text }}>{ex.hl}</span>
+                        {' '}— {noun.en} · vibhakti {vib.num} · {vacLabel}
+                      </span>
+                      <a className="gr-verify-link"
+                        href={verifyUrl(ex.sa)} target="_blank" rel="noopener noreferrer">
+                        🔍 Verify translation
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            ))}
-          </div>
+            )
+          })()}
+
+          {/* More examples accordion */}
+          <button className="vib-ex-accordion-hdr" style={{ color: c.text }} onClick={() => { play('tap'); setExOpen(o => !o) }}>
+            <span>More Examples · सामान्य उदाहरणानि</span>
+            <span className="vib-ex-accordion-chevron">{exOpen ? '▲' : '▼'}</span>
+          </button>
+          {exOpen && (
+            <div className="vib-examples">
+              {(vachanam === 'sg' ? vib.examples : vachanam === 'du' ? vib.examples_du : vib.examples_pl).map((ex, i) => (
+                <div key={i} className="vib-example-card" style={{ borderColor: c.border }}>
+                  <div className="vib-ex-num" style={{ color: c.text }}>Ex {i + 1}</div>
+                  <div className="vib-ex-body">
+                    <div className="vib-ex-sa-row">
+                      <span className="gr-dev vib-ex-sa">{highlightSa(ex.sa, ex.hl)}</span>
+                      <Spk text={ex.sa} small />
+                    </div>
+                    <div className="gr-iast vib-ex-iast">{ex.iast}</div>
+                    <div className="gr-en vib-ex-en">{ex.en}</div>
+                    <div className="vib-ex-footer">
+                      <span className="vib-ex-hl-label">
+                        Highlighted form: <span style={{ color: c.text }}>{ex.hl}</span>
+                        {' '}(vibhakti {vib.num} · {vachanam === 'sg' ? 'singular' : vachanam === 'du' ? 'dual' : 'plural'})
+                      </span>
+                      <a className="gr-verify-link"
+                        href={verifyUrl(ex.sa)} target="_blank" rel="noopener noreferrer">
+                        🔍 Verify translation
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Selected noun form for this case — always visible */}
+          {noun && (
+            <div className="vib-noun-form-panel" style={{ borderColor: c.border }}>
+              <div className="vib-noun-form-label">
+                Form of <span style={{ color: c.text }} className="gr-dev">{noun.dev}</span>
+                {' '}({noun.iast} · {noun.en}) in this case:
+              </div>
+              <div className="vib-noun-form-row">
+                {[['sg','Sg'],['du','Du'],['pl','Pl']].map(([v, shortLabel]) => {
+                  const devForm  = noun.forms[`v${vib.num}`]?.[v]
+                  const iastForm = noun.iast_forms[`v${vib.num}`]?.[v]
+                  const isActive = vachanam === v
+                  return (
+                    <div key={v} className={`vib-noun-form-cell${isActive ? ' active' : ''}`}
+                      style={isActive ? { borderColor: c.border, background: c.bg } : {}}>
+                      <span className="vib-noun-form-vac" style={isActive ? { color: c.text } : {}}>{shortLabel}</span>
+                      <span className="gr-dev vib-noun-form-dev" style={isActive ? { color: c.text } : {}}>{devForm}</span>
+                      <span className="gr-iast vib-noun-form-iast">{iastForm}</span>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          )}
 
           {/* Prev / Next */}
           <div className="vib-prev-next">
@@ -2823,6 +2957,230 @@ function VibhaktiLesson() {
           </div>
         </div>
       )}
+
+      {/* ── BUILD TAB ── */}
+      {tab === 'build' && (() => {
+        const c1 = VIB_COLOR[VIBHAKTI_LIST[0].color]
+        const c2 = VIB_COLOR[VIBHAKTI_LIST[1].color]
+        const sNoun = VIBHAKTI_NOUNS.find(n => n.id === bSubject)
+        const oNoun = bObjEnabled && bObject ? VIBHAKTI_NOUNS.find(n => n.id === bObject) : null
+        const verbData = VIBHAKTI_VERBS.find(v => v.id === bVerb)
+        const sDev   = sNoun?.forms?.v1?.[bVac]
+        const sIast  = sNoun?.iast_forms?.v1?.[bVac]
+        const oDev   = oNoun?.forms?.v2?.[bVac]
+        const oIast  = oNoun?.iast_forms?.v2?.[bVac]
+        const vDev   = verbData?.forms?.[bVac]?.dev
+        const vIast  = verbData?.forms?.[bVac]?.iast
+        const parts = [
+          sDev && { dev: sDev,  iast: sIast,  color: c1.text,        role: 'subj' },
+          oDev && { dev: oDev,  iast: oIast,  color: c2.text,        role: 'obj'  },
+          vDev && { dev: vDev,  iast: vIast,  color: 'var(--cream)', role: 'verb' },
+        ].filter(Boolean)
+        const fullDev  = parts.map(p => p.dev).join(' ') + '।'
+        const fullIast = parts.map(p => p.iast).join(' ') + '.'
+        const enBits   = [sNoun?.en, verbData?.en, oNoun?.en].filter(Boolean)
+        const vacLabel = bVac === 'sg' ? 'singular' : bVac === 'du' ? 'dual' : 'plural'
+        return (
+          <div className="vib-builder">
+            <p className="vib-builder-intro">
+              Build a Sanskrit sentence — every word inflects automatically. Subject + Verb + optional Object.
+            </p>
+
+            {/* Number */}
+            <div className="vib-builder-row">
+              <span className="vib-builder-row-label">Number · वचनम्</span>
+              <div className="vib-vac-toggle" style={{marginBottom:0}}>
+                {[['sg','Singular · एक'],['du','Dual · द्वि'],['pl','Plural · बहु']].map(([v,label]) => (
+                  <button key={v} className={`vib-vac-btn${bVac===v?' active':''}`}
+                    style={bVac===v ? {borderColor:c1.border,color:c1.text,background:c1.bg} : {}}
+                    onClick={() => {play('tap'); setBVac(v)}}>
+                    {label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Subject */}
+            <div className="vib-builder-slot" style={{borderColor:c1.border}}>
+              <div className="vib-builder-slot-hdr">
+                <span className="vib-builder-slot-label" style={{color:c1.text}}>Subject · कर्ता</span>
+                <span className="vib-builder-slot-case" style={{borderColor:c1.border,color:c1.text}}>V1 prathamā</span>
+              </div>
+              <div className="vib-builder-cat-row">
+                {VIBHAKTI_NOUN_CATEGORIES.filter(c => ['names','animals','pronouns'].includes(c.id)).map(cat => (
+                  <button key={cat.id}
+                    className={`gr-gender-cat-btn${bSubjCat===cat.id?' active':''}`}
+                    style={bSubjCat===cat.id ? {background:c1.bg,borderColor:c1.border,color:c1.text} : {}}
+                    onClick={() => {
+                      play('tap'); setBSubjCat(cat.id);
+                      const first = VIBHAKTI_NOUNS.find(n => n.category===cat.id);
+                      if(first) setBSubject(first.id);
+                    }}>{cat.label}</button>
+                ))}
+              </div>
+              <select className="gr-verb-select" value={bSubject}
+                onChange={e => {play('tap'); setBSubject(e.target.value)}}>
+                {VIBHAKTI_NOUNS.filter(n => n.category===bSubjCat).map(n => (
+                  <option key={n.id} value={n.id}>{n.dev} · {n.iast} ({n.en})</option>
+                ))}
+              </select>
+            </div>
+
+            {/* Verb */}
+            <div className="vib-builder-verb-block">
+              <div className="vib-builder-slot-label vib-builder-verb-label">Verb · क्रिया (laṭ 3rd person)</div>
+              <div className="vib-builder-verb-grid">
+                {VIBHAKTI_VERBS.map(v => (
+                  <button key={v.id}
+                    className={`vib-builder-verb-btn${bVerb===v.id?' active':''}`}
+                    onClick={() => {play('tap'); setBVerb(v.id)}}>
+                    <span className="gr-dev">{v.forms[bVac].dev}</span>
+                    <span className="vib-adj-en">{v.en}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Object */}
+            <div className="vib-builder-slot" style={{borderColor:c2.border}}>
+              <div className="vib-builder-slot-hdr">
+                <span className="vib-builder-slot-label" style={{color:c2.text}}>Object · कर्म</span>
+                <span className="vib-builder-slot-case" style={{borderColor:c2.border,color:c2.text}}>V2 dvitīyā</span>
+                <button className={`vib-adj-pill${!bObjEnabled?' active':''}`}
+                  style={!bObjEnabled ? {borderColor:c2.border,color:c2.text,background:c2.bg} : {color:c2.text,borderColor:c2.border}}
+                  onClick={() => {
+                    play('tap');
+                    if(!bObjEnabled) {
+                      setBObjEnabled(true);
+                      if(!bObject) {
+                        const first = VIBHAKTI_NOUNS.find(n => n.category===bObjCat);
+                        if(first) setBObject(first.id);
+                      }
+                    } else {
+                      setBObjEnabled(false);
+                    }
+                  }}>{bObjEnabled ? '× remove' : '+ add'}</button>
+              </div>
+              {bObjEnabled && <>
+                <div className="vib-builder-cat-row">
+                  {VIBHAKTI_NOUN_CATEGORIES.filter(c => ['names','places','things','nature','concepts','animals'].includes(c.id)).map(cat => (
+                    <button key={cat.id}
+                      className={`gr-gender-cat-btn${bObjCat===cat.id?' active':''}`}
+                      style={bObjCat===cat.id ? {background:c2.bg,borderColor:c2.border,color:c2.text} : {}}
+                      onClick={() => {
+                        play('tap'); setBObjCat(cat.id);
+                        const first = VIBHAKTI_NOUNS.find(n => n.category===cat.id);
+                        if(first) setBObject(first.id);
+                      }}>{cat.label}</button>
+                  ))}
+                </div>
+                <select className="gr-verb-select" value={bObject || ''}
+                  onChange={e => {play('tap'); setBObject(e.target.value)}}>
+                  {VIBHAKTI_NOUNS.filter(n => n.category===bObjCat).map(n => (
+                    <option key={n.id} value={n.id}>{n.dev} · {n.iast} ({n.en})</option>
+                  ))}
+                </select>
+              </>}
+            </div>
+
+            {/* Live output */}
+            {parts.length > 0 && (
+              <div className="vib-builder-output">
+                <div className="vib-builder-output-sentence">
+                  {parts.map((p, i) => (
+                    <span key={i} className="gr-dev vib-builder-word" style={{color:p.color}}>{p.dev}</span>
+                  ))}
+                  <span className="gr-dev" style={{opacity:0.4}}>।</span>
+                </div>
+                <div className="vib-builder-output-iast gr-iast">
+                  {parts.map((p,i) => (
+                    <span key={i} style={p.color !== 'var(--cream)' ? {color:p.color} : {}}>{p.iast}</span>
+                  )).reduce((acc,el,i) => i===0 ? [el] : [...acc, ' ', el], [])}.
+                </div>
+                <div className="vib-builder-output-en">{enBits.join(' ')}</div>
+                <div className="vib-builder-output-actions">
+                  <Spk text={fullDev} />
+                  <a className="gr-verify-link" href={verifyUrl(fullDev)} target="_blank" rel="noopener noreferrer">
+                    🔍 Verify translation
+                  </a>
+                </div>
+                <div className="vib-builder-breakdown">
+                  {parts.map((p, i) => {
+                    const isVerb = p.role === 'verb'
+                    const vNum   = p.role.startsWith('subj') ? 1 : p.role.startsWith('obj') ? 2 : null
+                    const vColor = vNum === 1 ? c1 : vNum === 2 ? c2 : null
+                    return (
+                      <div key={i} className="vib-builder-breakdown-row">
+                        <span className="gr-dev" style={{color: p.color}}>{p.dev}</span>
+                        <span className="vib-builder-breakdown-arrow">→</span>
+                        <span className="gr-iast" style={{fontSize:'0.82rem'}}>{p.iast}</span>
+                        {isVerb ? (
+                          <span className="vib-builder-breakdown-badge" style={{background:'rgba(255,255,255,0.08)',color:'var(--cream)',border:'1px solid var(--cream)'}}>
+                            laṭ 3rd · {vacLabel}
+                          </span>
+                        ) : (
+                          <span className="vib-builder-breakdown-badge" style={{background:vColor.bg,color:vColor.text,border:`1px solid ${vColor.border}`}}>
+                            V{vNum} · {vacLabel}
+                          </span>
+                        )}
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Full paradigm table — accordion */}
+            {sNoun && (
+              <div className="vib-builder-paradigm">
+                <button className="vib-ex-accordion-hdr" style={{color:'var(--text-muted)'}} onClick={() => setParadigmOpen(o => !o)}>
+                  <span>{paradigmOpen ? '▾' : '▸'}</span>
+                  All Forms · सर्वविभक्तिः
+                  <span style={{opacity:0.6, fontWeight:400}}>— {sNoun.dev} · 8 cases × 3 numbers</span>
+                </button>
+                {paradigmOpen && <div className="vib-builder-paradigm-grid">
+                  {/* Header */}
+                  <div />
+                  {['Singular · एक','Dual · द्वि','Plural · बहु'].map(h => (
+                    <div key={h} className="vib-builder-paradigm-grid-hdr">{h}</div>
+                  ))}
+                  {/* 8 rows */}
+                  {VIBHAKTI_LIST.map((v, vi) => {
+                    const cv = VIB_COLOR[v.color]
+                    return (
+                      <React.Fragment key={vi}>
+                        <div className="vib-builder-paradigm-row-label" style={{color:cv.text}}>
+                          <span className="vib-builder-paradigm-num">{v.num}</span>
+                          <span>{v.iast}</span>
+                        </div>
+                        {['sg','du','pl'].map(vac => {
+                          const devForm  = sNoun.forms?.[`v${v.num}`]?.[vac]
+                          const iastForm = sNoun.iast_forms?.[`v${v.num}`]?.[vac]
+                          if (!devForm || devForm === '—') return (
+                            <div key={vac} className="vib-builder-paradigm-cell empty">—</div>
+                          )
+                          let sentence
+                          if (vi === 0 && verbData) {
+                            sentence = `${devForm} ${verbData.forms[vac].dev}।`
+                          } else {
+                            sentence = VIB_TEMPLATES[vi]?.[vac]?.(devForm, iastForm, sNoun.en)?.sa || '—'
+                          }
+                          return (
+                            <div key={vac} className="vib-builder-paradigm-cell">
+                              <span className="gr-dev" style={{color:cv.text}}>{devForm}</span>
+                              <span className="vib-builder-paradigm-sent">{sentence}</span>
+                            </div>
+                          )
+                        })}
+                      </React.Fragment>
+                    )
+                  })}
+                </div>}
+              </div>
+            )}
+          </div>
+        )
+      })()}
     </div>
   )
 }
