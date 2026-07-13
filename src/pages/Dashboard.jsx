@@ -282,7 +282,6 @@ const DASH_SECTIONS = (dueCount) => [
   { label: 'Grammar', dev: 'व्याकरणम्', icon: '🔠', color: '#f59e0b',
     items: [
       { to: '/grammar', icon: '🔠', label: 'Learn Grammar', sub: 'Nouns · Verbs · Cases · Tenses' },
-      { to: '/course',  icon: '🎬', label: 'Sanskrit in 33 Days', sub: '5 weeks · 33 video lessons · by Ashok' },
     ]
   },
   { label: 'Practice', dev: 'अभ्यासः', icon: '⚡', color: '#34d399',
@@ -306,9 +305,10 @@ const DASH_SECTIONS = (dueCount) => [
       { to: '/story', icon: '📖', label: 'Stories', sub: 'Word-by-word translation' },
     ]
   },
-  { label: 'Varṇamālā', dev: 'वर्णमाला', icon: '🎬', color: '#06b6d4',
+  { label: 'Learn', dev: 'शिक्षणम्', icon: '🎬', color: '#06b6d4',
     items: [
-      { to: '/varnamala', icon: '🎬', label: 'Varṇamālā Series', sub: '15 episodes · Tattvam · Sanskrit sounds & script' },
+      { to: '/varnamala', icon: '🎬', label: 'Varṇamālā Series', sub: '25 episodes · Tattvam · Sanskrit sounds & script' },
+      { to: '/course',    icon: '🎬', label: 'Sanskrit in 33 Days', sub: '5 weeks · 33 video lessons · by Ashok' },
     ]
   },
   { label: 'Listen', dev: 'श्रवणम्', icon: '🎧', color: '#a78bfa',
