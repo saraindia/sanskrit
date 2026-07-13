@@ -297,8 +297,9 @@ export default function UpanishadsPage() {
     <div className="gita anim-fade-up">
       <button className="gita-back" onClick={() => isBrahma ? navigate('/texts') : setTextId('')}>← {isBrahma ? 'Sacred Texts' : isYoga ? 'Yoga Sūtras' : 'All Upaniṣads'}</button>
       <div className="page-header">
-        <h1 className="page-title devanagari">{text.titleDeva}</h1>
-        <p className="page-subtitle">{text.title} · {text.titleEnglish}</p>
+        <h1 className="page-title">{text.title}</h1>
+        <p className="page-subtitle devanagari" style={{ fontSize: '1rem', marginBottom: '0.25rem' }}>{text.titleDeva}</p>
+        <p className="page-subtitle">{text.titleEnglish} · {adhyayas.length} adhyāyas · {text.verses.length} verses{text.veda ? ` · ${text.veda}` : ''}</p>
       </div>
       <div className="gita-toolbar">
         <button className="gita-nav-btn" title="Random verse" onClick={randomVerse}>🎲 Random verse</button>
@@ -337,8 +338,9 @@ export default function UpanishadsPage() {
         ← {hasAdhyayas ? `${text.title} adhyāyas` : (isBrahma ? 'Sacred Texts' : isYoga ? 'Yoga Sūtras' : 'All Upaniṣads')}
       </button>
       <div className="page-header">
-        <h1 className="page-title devanagari">{text.titleDeva}</h1>
-        <p className="page-subtitle">{text.title}{hasAdhyayas ? ` · ${adhId}` : ` · ${text.titleEnglish}`}</p>
+        <h1 className="page-title">{text.title}</h1>
+        <p className="page-subtitle devanagari" style={{ fontSize: '1rem', marginBottom: '0.25rem' }}>{text.titleDeva}</p>
+        <p className="page-subtitle">{text.titleEnglish} · {text.verses.length} verses{text.veda ? ` · ${text.veda}` : ''}</p>
       </div>
       <div className="gita-toolbar">
         <button className="gita-nav-btn" title="Random verse" onClick={randomVerse}>🎲 Random verse</button>
