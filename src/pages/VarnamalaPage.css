@@ -59,6 +59,107 @@
 }
 .varna-player-close:hover { opacity: 0.85; }
 
+/* ── Group accordion ── */
+.varna-group {
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.varna-group-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: var(--bg-card);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  gap: 0.5rem;
+}
+.varna-group-header:hover { background: var(--bg-hover, rgba(255,255,255,0.04)); }
+.varna-group-info { display: flex; flex-direction: column; gap: 0.15rem; }
+.varna-group-label {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.varna-group-sub {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+.varna-group-chevron {
+  font-size: 1.4rem;
+  color: var(--gold);
+  transform: rotate(90deg);
+  transition: transform 0.2s;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.varna-group-chevron--open { transform: rotate(-90deg); }
+
+.varna-group .varna-grid {
+  padding: 0.6rem;
+  border-top: 1px solid var(--border);
+  background: var(--bg);
+}
+
+/* ── Support & disclaimer ── */
+.varna-support {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg-card);
+}
+.varna-support-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin: 0 0 0.5rem;
+}
+.varna-support-desc {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0 0 0.85rem;
+}
+.varna-support-btns {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 0.85rem;
+  flex-wrap: wrap;
+}
+.varna-donate-btn {
+  flex: 1;
+  min-width: 130px;
+  text-align: center;
+  padding: 0.5rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+.varna-donate-btn:hover { opacity: 0.85; }
+.varna-donate-btn--razorpay {
+  background: #0070ba;
+  color: #fff;
+}
+.varna-donate-btn--paypal {
+  background: #ffc439;
+  color: #111;
+}
+.varna-disclaimer {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+.varna-disclaimer a { color: var(--gold); text-decoration: none; }
+
 /* ── Video grid ── */
 .varna-grid {
   display: grid;
