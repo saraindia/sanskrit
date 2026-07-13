@@ -165,18 +165,9 @@ export default function VarnamalaPage() {
           </a>
         </div>
         <p className="varna-disclaimer">
-          Videos are embedded from the official <a href="https://www.youtube.com/@tattvam" target="_blank" rel="noopener noreferrer">Tattvam YouTube channel</a>. All content belongs to Tattvam · <a href="https://www.tattvam.org" target="_blank" rel="noopener noreferrer">tattvam.org</a>. Sanskritly is not affiliated with Tattvam.
+          Videos are embedded from the official <a href="https://www.youtube.com/@tattvam" target="_blank" rel="noopener noreferrer">Tattvam YouTube channel</a>. All content belongs to Tattvam · <a href="https://www.tattvam.org" target="_blank" rel="noopener noreferrer">tattvam.org</a>. Sanskritly is not affiliated with Tattvam. · <a href={`https://www.youtube.com/playlist?list=${PLAYLIST_ID}`} target="_blank" rel="noopener noreferrer">▶ Open full playlist on YouTube</a>
         </p>
       </div>
-
-      <a
-        className="varna-playlist-link"
-        href={`https://www.youtube.com/playlist?list=${PLAYLIST_ID}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        ▶ Open full playlist on YouTube
-      </a>
     </div>
   )
 }

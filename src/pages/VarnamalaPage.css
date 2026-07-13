@@ -82,13 +82,15 @@
 .varna-group-header:hover { background: var(--bg-hover, rgba(255,255,255,0.04)); }
 .varna-group-info { display: flex; flex-direction: column; gap: 0.15rem; }
 .varna-group-label {
-  font-size: 0.88rem;
-  font-weight: 700;
-  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--gold);
+  letter-spacing: 0.01em;
 }
 .varna-group-sub {
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
+  font-weight: 400;
 }
 .varna-group-chevron {
   font-size: 1.4rem;
@@ -240,17 +242,3 @@
   line-height: 1.2;
 }
 
-.varna-playlist-link {
-  display: block;
-  text-align: center;
-  margin: 1.25rem auto 0;
-  font-size: 0.8rem;
-  color: var(--gold);
-  text-decoration: none;
-  padding: 0.6rem 1.2rem;
-  border: 1px solid var(--gold);
-  border-radius: 20px;
-  width: fit-content;
-  transition: background 0.15s;
-}
-.varna-playlist-link:hover { background: rgba(212,168,67,0.1); }
