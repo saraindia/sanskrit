@@ -65,7 +65,7 @@ const ALL_VIDEOS = GROUPS.flatMap(g => g.videos)
 
 export default function VarnamalaPage() {
   const [active, setActive] = useState(null)
-  const [openGroups, setOpenGroups] = useState({ 0: true })
+  const [openGroup, setOpenGroup] = useState(0)
   const playerRef = useRef(null)
 
   const play = (id) => {
@@ -75,7 +75,7 @@ export default function VarnamalaPage() {
     }, 50)
   }
 
-  const toggleGroup = (i) => setOpenGroups(prev => ({ ...prev, [i]: !prev[i] }))
+  const toggleGroup = (i) => setOpenGroup(prev => prev === i ? null : i)
 
   const activeVideo = ALL_VIDEOS.find(v => v.id === active)
 
@@ -119,9 +119,9 @@ export default function VarnamalaPage() {
               <span className="varna-group-label">{group.label}</span>
               <span className="varna-group-sub">{group.sub}</span>
             </div>
-            <span className={`varna-group-chevron ${openGroups[gi] ? 'varna-group-chevron--open' : ''}`}>›</span>
+            <span className={`varna-group-chevron ${openGroup === gi ? 'varna-group-chevron--open' : ''}`}>›</span>
           </button>
-          {openGroups[gi] && (
+          {openGroup === gi && (
             <div className="varna-grid">
               {group.videos.map(v => (
                 <button
