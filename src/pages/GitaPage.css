@@ -122,41 +122,44 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 0.15rem;
-  padding: 0.55rem 0.6rem 0.5rem;
+  padding: 0.6rem 0.65rem 0.55rem;
   cursor: pointer;
   text-align: left;
-  background: color-mix(in srgb, var(--ch-color, var(--gold)) 8%, var(--bg-card));
-  border: 1px solid color-mix(in srgb, var(--ch-color, var(--gold)) 30%, transparent);
-  border-radius: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
   transition: border-color 0.15s, background 0.15s;
   -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
 }
 .gita-ch-card:hover {
-  border-color: var(--ch-color, var(--gold));
-  background: color-mix(in srgb, var(--ch-color, var(--gold)) 14%, var(--bg-card));
+  border-color: var(--gold-dim);
+  background: color-mix(in srgb, var(--gold) 5%, var(--bg-card));
 }
+.gita-ch-card:active { opacity: 0.8; }
 
 .gita-ch-num {
-  font-size: 0.56rem;
+  font-size: 0.58rem;
   font-weight: 700;
-  color: var(--ch-color, var(--gold));
+  color: var(--text-muted);
   font-family: var(--font-display);
-  opacity: 0.8;
+  letter-spacing: 0.04em;
 }
 
 .gita-ch-name { display: none; }
 
 .gita-ch-eng {
-  font-size: 0.75rem;
+  font-size: 0.76rem;
   font-weight: 600;
-  color: var(--text);
+  color: var(--text-primary);
   line-height: 1.2;
 }
 
 .gita-ch-iast {
   font-size: 0.6rem;
-  color: var(--ch-color, var(--gold));
+  color: var(--gold);
   font-style: italic;
+  opacity: 0.8;
 }
 
 .gita-ch-count {

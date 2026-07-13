@@ -113,10 +113,17 @@
 .study-sq-num {
   position: absolute;
   top: 0.55rem;
-  left: 0.65rem;
-  font-size: 0.62rem;
+  left: 0.6rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
   font-weight: 700;
-  color: var(--text-muted);
+  line-height: 1;
+  border: 1.5px solid transparent;
 }
 
 .study-sq-icon { font-size: 1.7rem; line-height: 1; }

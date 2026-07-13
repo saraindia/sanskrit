@@ -121,7 +121,7 @@ function AppShell() {
     <div className="app-shell">
       {/* ── Top header ───────────────────────────────────────────────── */}
       <header className="app-header">
-        <div className="app-header-logo">
+        <div className="app-header-logo" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
           <span className="app-header-deva">संस्कृतम्</span>
           <span className="app-header-name">SANSKRITLY</span>
         </div>

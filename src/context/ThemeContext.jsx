@@ -15,10 +15,10 @@ export const THEMES = [
   },
   {
     id:      'slate-ink',
-    label:   'Slate Ink',
-    desc:    'Cool dark blue-grey with warm gold — clean and editorial',
-    icon:    '🖋',
-    preview: { bg: '#0c0e14', accent: '#d4a843', text: '#dce5f2', card: '#111520' },
+    label:   'Forest Ember',
+    desc:    'Deep forest green with warm ember gold — earthy, rich, alive',
+    icon:    '🌿',
+    preview: { bg: '#050a06', accent: '#e8901a', text: '#e4f0dc', card: '#0a1410' },
   },
   {
     id:      'high-contrast',

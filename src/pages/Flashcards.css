@@ -70,7 +70,7 @@
 }
 .fc-deva { font-size: 2rem; color: var(--gold); text-align: center; }
 .fc-iast { font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-secondary); letter-spacing: 0.06em; }
-.fc-hint { font-size: 0.7rem; color: var(--text-muted); font-style: italic; margin-top: 0.25rem; }
+.fc-hint { font-size: 0.78rem; color: #22c55e; font-weight: 700; font-style: normal; margin-top: 0.25rem; }
 .fc-english { font-size: 1.1rem; color: var(--cream); font-family: var(--font-body); font-weight: 300; text-align: center; }
 .fc-meta { font-size: 0.72rem; color: var(--text-secondary); font-style: italic; }
 .fc-deva-small { font-size: 1.05rem; color: var(--gold-dim); }

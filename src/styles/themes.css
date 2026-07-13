@@ -1,37 +1,38 @@
 /* ── Theme overrides — applied as class on <html> ───────────────────────────── */
 /* dark-gold is the default (already in :root) — no override needed             */
 
-/* ── Slate Ink ───────────────────────────────────────────────────────────────── */
+/* ── Forest Ember ────────────────────────────────────────────────────────────── */
 html.theme-slate-ink {
-  --bg-deep:        #0c0e14;
-  --bg-card:        #111520;
-  --bg-elevated:    #181d2b;
-  --bg-subtle:      #202636;
+  --bg-deep:        #050a06;
+  --bg-card:        #0a1410;
+  --bg-elevated:    #101e18;
+  --bg-subtle:      #182e22;
 
-  --gold:           #d4a843;
-  --gold-light:     #e8be58;
-  --gold-dim:       #7a6020;
-  --terracotta:     #e07868;
-  --terracotta-dim: #7a3020;
-  --cream:          #dce5f0;
-  --cream-dim:      #7a8faa;
-  --saffron:        #c89a30;
+  --gold:           #e8901a;
+  --gold-light:     #f0b040;
+  --gold-dim:       #7a4a08;
+  --terracotta:     #d05530;
+  --terracotta-dim: #6a2810;
+  --cream:          #e8f2e0;
+  --cream-dim:      #80a070;
+  --saffron:        #f07818;
 
-  --teal:           #4db8c8;
-  --teal-dim:       #1a4a58;
-  --purple:         #a094e0;
-  --purple-dim:     #3a3070;
+  --teal:           #4cd98a;
+  --teal-dim:       #0f5030;
+  --purple:         #a0d860;
+  --purple-dim:     #3a5818;
 
-  --text-primary:   #dce5f2;
-  --text-secondary: #8fa0b8;
-  --text-muted:     #445068;
-  --border:         rgba(100,130,180,0.18);
-  --border-bright:  rgba(100,130,180,0.38);
+  --text-primary:   #e4f0dc;
+  --text-secondary: #7a9e6a;
+  --text-muted:     #2e4828;
+  --border:         rgba(76,217,138,0.10);
+  --border-bright:  rgba(76,217,138,0.25);
 }
 html.theme-slate-ink body::before {
   background:
-    radial-gradient(ellipse 60% 40% at 15% 10%, rgba(60,80,140,0.12) 0%, transparent 60%),
-    radial-gradient(ellipse 50% 60% at 85% 90%, rgba(212,168,67,0.06) 0%, transparent 60%);
+    radial-gradient(ellipse 65% 50% at 5%  5%,  rgba(20,80,30,0.55)  0%, transparent 60%),
+    radial-gradient(ellipse 50% 55% at 95% 90%, rgba(232,144,26,0.12) 0%, transparent 55%),
+    radial-gradient(ellipse 40% 35% at 50% 55%, rgba(76,217,138,0.04) 0%, transparent 60%);
 }
 
 /* ── High Contrast (vision-friendly) ────────────────────────────────────────── */
@@ -71,7 +72,7 @@ html.theme-high-contrast .card,
 html.theme-high-contrast .module-card,
 html.theme-high-contrast .action-btn { border-width: 2px; }
 
-/* ── Light Parchment (vision-friendly) ──────────────────────────────────────── */
+/* ── Light Parchment ─────────────────────────────────────────────────────────── */
 html.theme-light {
   --bg-deep:        #f0e8d8;
   --bg-card:        #ede4d4;

@@ -10,6 +10,14 @@ import { usePurchase } from '../context/PurchaseContext'
 import { getGitaAudioUrl } from '../utils/gitaAudio'
 import './GitaPage.css'
 
+const CH_COLORS = [
+  '#6366f1','#ec4899','#f97316','#eab308',
+  '#22c55e','#06b6d4','#a855f7','#ef4444',
+  '#60a5fa','#34d399','#f59e0b','#e879f9',
+  '#fb923c','#4ade80','#38bdf8','#c084fc',
+  '#f43f5e','#84cc16',
+]
+
 // Chapter JSON is fetched on demand and kept for the session
 const cache = new Map()
 async function loadJson(file) {
@@ -173,24 +181,18 @@ export default function GitaPage() {
       </div>
       <div className="gita-toolbar">
         <button className="gita-nav-btn" title="Random verse" onClick={randomVerse}>🎲 Random verse</button>
-        <label className="weak-toggle">
-          <input type="checkbox" checked={drill} onChange={e => setDrill(e.target.checked)} />
-          <span>Drill mode — hide translations</span>
-        </label>
       </div>
       <div className="gita-chapters">
         {manifest.chapters.map(c => {
           const locked = !isPro && c.chapter > FREE_LIMITS.GITA_FREE_CHAPTER
+          const chColor = CH_COLORS[(c.chapter - 1) % CH_COLORS.length]
           return (
             <button key={c.chapter}
               className={`gita-ch-card ${locked ? 'gita-ch-locked' : ''}`}
               onClick={() => openChapter(c.chapter)}
-              style={{
-                '--ch-color': c.chapter <= 6 ? '#f59e0b' : c.chapter <= 12 ? '#a78bfa' : '#34d399',
-                opacity: locked ? 0.55 : 1,
-              }}
+              style={{ opacity: locked ? 0.55 : 1 }}
             >
-              <span className="gita-ch-num">Ch {c.chapter}</span>
+              <span className="gita-ch-num" style={{ color: chColor }}>Ch {c.chapter}</span>
               <span className="gita-ch-eng">{c.nameEnglish}</span>
               <span className="gita-ch-iast">{c.nameIast}</span>
               <span className="gita-ch-count">{locked ? '🔒 Pro' : `${c.verses} v`}</span>
