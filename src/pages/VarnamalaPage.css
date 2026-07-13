@@ -42,20 +42,22 @@
   margin: 0;
 }
 .varna-player-close {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  color: var(--text-muted);
-  border-radius: 50%;
-  width: 1.8rem;
-  height: 1.8rem;
-  font-size: 0.75rem;
+  background: var(--gold);
+  border: none;
+  color: #1a1a1a;
+  border-radius: 20px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.78rem;
+  font-weight: 700;
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 0.3rem;
   flex-shrink: 0;
+  white-space: nowrap;
+  font-family: inherit;
 }
-.varna-player-close:hover { border-color: var(--gold); color: var(--gold); }
+.varna-player-close:hover { opacity: 0.85; }
 
 /* ── Video grid ── */
 .varna-grid {
