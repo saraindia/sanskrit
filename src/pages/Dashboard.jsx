@@ -206,7 +206,7 @@ function DictionarySearch({ vocabulary }) {
 
   const clear = useCallback(() => {
     setQuery(''); setResults([]); stop(); setPlayingId(null)
-    inputRef.current?.focus()
+    inputRef.current?.blur()
   }, [stop])
 
   return (
@@ -282,6 +282,7 @@ const DASH_SECTIONS = (dueCount) => [
   { label: 'Grammar', dev: 'व्याकरणम्', icon: '🔠', color: '#f59e0b',
     items: [
       { to: '/grammar', icon: '🔠', label: 'Learn Grammar', sub: 'Nouns · Verbs · Cases · Tenses' },
+      { to: '/course',  icon: '🎬', label: 'Sanskrit in 33 Days', sub: '5 weeks · 33 video lessons · by Ashok' },
     ]
   },
   { label: 'Practice', dev: 'अभ्यासः', icon: '⚡', color: '#34d399',
@@ -292,11 +293,17 @@ const DASH_SECTIONS = (dueCount) => [
       { to: '/match',      icon: '🔡',  label: 'Match Pairs',    sub: 'Sanskrit ↔ English' },
     ]
   },
-  { label: 'Texts', dev: 'ग्रन्थाः', icon: '📜', color: '#60a5fa',
+  { label: 'Sacred Texts', dev: 'ग्रन्थाः', icon: '📜', color: '#60a5fa',
     items: [
-      { to: '/gita',       icon: '🪷', label: 'Bhagavad Gītā', sub: '701 verses' },
-      { to: '/upanishads', icon: '🕉️', label: 'Upaniṣads',     sub: 'Īśā · Kaṭha · Muṇḍaka' },
-      { to: '/story',      icon: '📖', label: 'Stories',        sub: 'Word-by-word translation' },
+      { to: '/gita',         icon: '🪷',  label: 'Bhagavad Gītā', sub: '701 verses' },
+      { to: '/upanishads',   icon: '🕉️', label: 'Upaniṣads',     sub: 'Īśā · Kaṭha · Muṇḍaka' },
+      { to: '/brahmasutras', icon: '📿',  label: 'Brahmasūtras',  sub: '4 adhyāyas · 510 sūtras' },
+      { to: '/yogasutras',   icon: '🧘',  label: 'Yoga Sūtras',   sub: '4 pādas · 196 sūtras' },
+    ]
+  },
+  { label: 'Advanced Practice', dev: 'विशेषाभ्यासः', icon: '🌟', color: '#f97316',
+    items: [
+      { to: '/story', icon: '📖', label: 'Stories', sub: 'Word-by-word translation' },
     ]
   },
   { label: 'Listen', dev: 'श्रवणम्', icon: '🎧', color: '#a78bfa',
@@ -325,7 +332,7 @@ function DashSections({ dueCount }) {
                 <div className="dash-accord-label">{sec.label}</div>
                 <div className="dash-accord-dev">{sec.dev}</div>
               </div>
-              <span className="dash-accord-count">{sec.items.length}</span>
+              <span className="dash-accord-count" style={{ color: sec.color, background: `${sec.color}22`, borderColor: `${sec.color}44` }}>{sec.items.length}</span>
               <span className="dash-accord-chevron">{isOpen ? '▾' : '›'}</span>
             </button>
 
