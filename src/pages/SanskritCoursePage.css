@@ -1,0 +1,359 @@
+/* ═══════════════════════════════════════════════════════════════
+   SanskritCoursePage — Sanskrit in 33 Days course
+   ═══════════════════════════════════════════════════════════════ */
+
+.course-page {
+  padding: 0 1rem 4rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ── Header ───────────────────────────────────────────────────── */
+.course-header {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-bottom: 1.25rem;
+  color: var(--gold);
+}
+.course-header-icon {
+  flex-shrink: 0;
+  color: var(--gold);
+}
+.course-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #14b8a6;
+  margin: 0 0 0.15rem;
+  line-height: 1.2;
+}
+.course-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ── Progress card ────────────────────────────────────────────── */
+.course-progress-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.1rem;
+  margin-bottom: 1rem;
+}
+.course-progress-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+.course-progress-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.course-progress-pct {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--gold);
+}
+.course-progress-bar {
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+.course-progress-fill {
+  height: 100%;
+  background: var(--gold);
+  border-radius: 3px;
+  transition: width 0.4s ease;
+}
+
+/* ── Week mini-pips ───────────────────────────────────────────── */
+.course-progress-weeks {
+  display: flex;
+  gap: 0.35rem;
+  margin-bottom: 0.9rem;
+}
+.course-week-pip {
+  flex: 1;
+  height: 28px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+.course-week-pip-fill {
+  width: 100%;
+  transition: height 0.4s ease;
+  border-radius: 2px;
+}
+
+/* ── Continue / complete ──────────────────────────────────────── */
+.course-continue-btn {
+  width: 100%;
+  padding: 0.65rem 1rem;
+  background: color-mix(in srgb, var(--gold) 18%, transparent);
+  color: var(--gold);
+  border: 1.5px solid color-mix(in srgb, var(--gold) 40%, transparent);
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.course-continue-btn:hover {
+  background: color-mix(in srgb, var(--gold) 28%, transparent);
+  border-color: color-mix(in srgb, var(--gold) 60%, transparent);
+}
+.course-complete-badge {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--gold);
+  padding: 0.4rem 0;
+}
+
+/* ── Active video player ──────────────────────────────────────── */
+.course-player-card {
+  background: var(--bg-card);
+  border: 1px solid var(--week-color, var(--gold-dim));
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.course-player-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem 0.3rem;
+}
+.course-player-week {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.course-player-day {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+.course-player-close {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0.1rem 0.3rem;
+  line-height: 1;
+  border-radius: 4px;
+  transition: color 0.15s, background 0.15s;
+}
+.course-player-close:hover { color: var(--text-primary); background: var(--bg-subtle); }
+.course-player-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  padding: 0 1rem 0.75rem;
+  line-height: 1.4;
+}
+.course-video-wrap {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #000;
+}
+.course-video {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+.course-player-actions {
+  display: flex;
+  gap: 0.65rem;
+  padding: 0.75rem 1rem;
+}
+.course-done-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1.5px solid;
+  background: transparent;
+  color: var(--text-primary);
+  transition: background 0.15s, color 0.15s;
+}
+.course-done-btn.done { color: #000; }
+.course-next-btn {
+  margin-left: auto;
+  padding: 0.5rem 0.9rem;
+  background: transparent;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.course-next-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+/* ── Week sections ────────────────────────────────────────────── */
+.course-weeks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.course-week-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.course-week-hdr {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s;
+}
+.course-week-hdr:hover { background: var(--bg-subtle); }
+.course-week-badge {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+.course-week-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+}
+.course-week-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.course-week-dev {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+.course-week-desc {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 0.1rem;
+}
+.course-week-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+  flex-shrink: 0;
+}
+.course-week-count {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.course-week-arrow {
+  font-size: 0.55rem;
+}
+
+/* ── Day rows ─────────────────────────────────────────────────── */
+.course-week-days {
+  border-top: 1px solid var(--border);
+}
+.course-day-row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+  padding: 0.65rem 1rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  border-left: 3px solid transparent;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s;
+}
+.course-day-row:last-child { border-bottom: none; }
+.course-day-row:hover { background: var(--bg-subtle); }
+.course-day-row.done .course-day-title { color: var(--text-muted); }
+
+/* ── Day check circle ─────────────────────────────────────────── */
+.course-day-check {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.course-day-check.checked { }
+
+.course-day-num {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  min-width: 3.2rem;
+}
+.course-day-title {
+  flex: 1;
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  line-height: 1.3;
+  min-width: 0;
+}
+.course-day-dur {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+.course-day-play {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+}
+.course-day-row.playing .course-day-play { font-size: 0.85rem; }
+
+/* ── Footer ───────────────────────────────────────────────────── */
+.course-footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+.course-footer strong { color: var(--text-secondary); }
+.course-footer-link { color: var(--gold-dim); text-decoration: none; }
+.course-footer-link:hover { color: var(--gold); text-decoration: underline; }
