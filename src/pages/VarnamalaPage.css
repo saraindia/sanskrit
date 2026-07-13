@@ -110,17 +110,9 @@
 
 /* ── Support & disclaimer ── */
 .varna-support {
-  margin-top: 1.5rem;
-  padding: 1rem;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  background: var(--bg-card);
-}
-.varna-support-title {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--gold);
-  margin: 0 0 0.5rem;
+  padding: 0.75rem 1rem 1rem;
+  border-top: 1px solid var(--border);
+  background: var(--bg);
 }
 .varna-support-desc {
   font-size: 0.75rem;

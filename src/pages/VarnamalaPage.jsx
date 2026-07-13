@@ -150,23 +150,33 @@ export default function VarnamalaPage() {
         </div>
       ))}
 
-      {/* ── Support & disclaimer ── */}
-      <div className="varna-support">
-        <p className="varna-support-title">🙏 Support Tattvam</p>
-        <p className="varna-support-desc">
-          This series is created by <strong>Shubha</strong>, a native Sanskrit speaker and teacher, through the <strong>Tattvam</strong> channel. If this series has helped your Sanskrit learning journey, consider supporting her work.
-        </p>
-        <div className="varna-support-btns">
-          <a className="varna-donate-btn varna-donate-btn--razorpay" href="https://rzp.io/l/8H3kAnHJZj" target="_blank" rel="noopener noreferrer">
-            🇮🇳 Donate (India)
-          </a>
-          <a className="varna-donate-btn varna-donate-btn--paypal" href="https://www.paypal.com/paypalme/tattvam" target="_blank" rel="noopener noreferrer">
-            🌍 Donate via PayPal
-          </a>
-        </div>
-        <p className="varna-disclaimer">
-          Videos are embedded from the official <a href="https://www.youtube.com/@tattvam" target="_blank" rel="noopener noreferrer">Tattvam YouTube channel</a>. All content belongs to Tattvam · <a href="https://www.tattvam.org" target="_blank" rel="noopener noreferrer">tattvam.org</a>. Sanskritly is not affiliated with Tattvam. · <a href={`https://www.youtube.com/playlist?list=${PLAYLIST_ID}`} target="_blank" rel="noopener noreferrer">▶ Open full playlist on YouTube</a>
-        </p>
+      {/* ── Support accordion ── */}
+      <div className="varna-group">
+        <button className="varna-group-header" onClick={() => toggleGroup('support')}>
+          <div className="varna-group-info">
+            <span className="varna-group-label">🙏 Support Tattvam</span>
+            <span className="varna-group-sub">Help keep this series free · Donate · Attribution</span>
+          </div>
+          <span className={`varna-group-chevron ${openGroup === 'support' ? 'varna-group-chevron--open' : ''}`}>›</span>
+        </button>
+        {openGroup === 'support' && (
+          <div className="varna-support">
+            <p className="varna-support-desc">
+              This series is created by <strong>Shubha</strong>, a native Sanskrit speaker and teacher, through the <strong>Tattvam</strong> channel. If this series has helped your Sanskrit learning journey, consider supporting her work.
+            </p>
+            <div className="varna-support-btns">
+              <a className="varna-donate-btn varna-donate-btn--razorpay" href="https://rzp.io/l/8H3kAnHJZj" target="_blank" rel="noopener noreferrer">
+                🇮🇳 Donate (India)
+              </a>
+              <a className="varna-donate-btn varna-donate-btn--paypal" href="https://www.paypal.com/paypalme/tattvam" target="_blank" rel="noopener noreferrer">
+                🌍 Donate via PayPal
+              </a>
+            </div>
+            <p className="varna-disclaimer">
+              Videos are embedded from the official <a href="https://www.youtube.com/@tattvam" target="_blank" rel="noopener noreferrer">Tattvam YouTube channel</a>. All content belongs to Tattvam · <a href="https://www.tattvam.org" target="_blank" rel="noopener noreferrer">tattvam.org</a>. Sanskritly is not affiliated with Tattvam. · <a href={`https://www.youtube.com/playlist?list=${PLAYLIST_ID}`} target="_blank" rel="noopener noreferrer">▶ Open full playlist on YouTube</a>
+            </p>
+          </div>
+        )}
       </div>
     </div>
   )
