@@ -984,3 +984,141 @@
   from { transform: scaleY(0.5); opacity: 0.7; }
   to   { transform: scaleY(1.2); opacity: 1;   }
 }
+
+/* ── Why Sanskritly button & modal ──────────────────────────────────────────── */
+
+.dash-hero-greeting-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.why-btn {
+  background: linear-gradient(135deg, var(--gold), #b8860b);
+  color: #1a1100;
+  border: none;
+  border-radius: 20px;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  font-family: inherit;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(212,168,67,0.35);
+  transition: opacity 0.15s, transform 0.15s;
+}
+.why-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+.why-btn:active { transform: none; }
+
+/* overlay */
+.why-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.72);
+  z-index: 500;
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+}
+
+/* bottom sheet */
+.why-modal {
+  background: var(--bg-card);
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.why-modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.1rem 1.1rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.why-modal-eyebrow {
+  font-size: 0.65rem;
+  color: var(--gold);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 0.25rem;
+}
+.why-modal-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text);
+  margin: 0;
+}
+.why-modal-close {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: inherit;
+}
+.why-modal-close:hover { border-color: var(--gold); color: var(--gold); }
+
+/* scrollable feature list */
+.why-features {
+  overflow-y: auto;
+  padding: 0.75rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  flex: 1;
+}
+
+.why-feature {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.why-feature:last-child { border-bottom: none; }
+
+.why-feat-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+.why-feat-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin: 0 0 0.25rem;
+}
+.why-feat-desc {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+.why-feat-desc em { color: var(--text); font-style: normal; font-weight: 600; }
+
+.why-modal-footer {
+  padding: 0.75rem 1.1rem calc(0.75rem + env(safe-area-inset-bottom, 0px));
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.why-footer-text {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin: 0;
+}
