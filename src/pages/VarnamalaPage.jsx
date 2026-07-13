@@ -67,6 +67,7 @@ export default function VarnamalaPage() {
   const [active, setActive] = useState(null)
   const [openGroup, setOpenGroup] = useState(0)
   const playerRef = useRef(null)
+  const groupRefs = useRef([])
 
   const play = (id) => {
     setActive(id)
@@ -75,7 +76,15 @@ export default function VarnamalaPage() {
     }, 50)
   }
 
-  const toggleGroup = (i) => setOpenGroup(prev => prev === i ? null : i)
+  const toggleGroup = (i) => {
+    const opening = openGroup !== i
+    setOpenGroup(opening ? i : null)
+    if (opening) {
+      setTimeout(() => {
+        groupRefs.current[i]?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }, 50)
+    }
+  }
 
   const activeVideo = ALL_VIDEOS.find(v => v.id === active)
 
@@ -114,7 +123,7 @@ export default function VarnamalaPage() {
       {/* ── Grouped accordion ── */}
       {GROUPS.map((group, gi) => (
         <div key={gi} className="varna-group">
-          <button className="varna-group-header" onClick={() => toggleGroup(gi)}>
+          <button ref={el => groupRefs.current[gi] = el} className="varna-group-header" onClick={() => toggleGroup(gi)}>
             <div className="varna-group-info">
               <span className="varna-group-label">{group.label}</span>
               <span className="varna-group-sub">{group.sub}</span>
@@ -152,7 +161,7 @@ export default function VarnamalaPage() {
 
       {/* ── Support accordion ── */}
       <div className="varna-group">
-        <button className="varna-group-header" onClick={() => toggleGroup('support')}>
+        <button ref={el => groupRefs.current['support'] = el} className="varna-group-header" onClick={() => toggleGroup('support')}>
           <div className="varna-group-info">
             <span className="varna-group-label">🙏 Support Tattvam</span>
             <span className="varna-group-sub">Help keep this series free · Donate · Attribution</span>

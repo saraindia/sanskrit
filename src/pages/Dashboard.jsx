@@ -322,6 +322,18 @@ const DASH_SECTIONS = (dueCount) => [
 function DashSections({ dueCount }) {
   const [open, setOpen] = useState(null)
   const sections = DASH_SECTIONS(dueCount)
+  const headerRefs = useRef([])
+
+  const toggle = (si) => {
+    const opening = open !== si
+    setOpen(opening ? si : null)
+    if (opening) {
+      setTimeout(() => {
+        headerRefs.current[si]?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }, 50)
+    }
+  }
+
   return (
     <div className="dash-accord-grid">
       {sections.map((sec, si) => {
@@ -329,8 +341,9 @@ function DashSections({ dueCount }) {
         return (
           <div key={si} className={`dash-accord-card${isOpen ? ' open' : ''}`}>
             <button
+              ref={el => headerRefs.current[si] = el}
               className="dash-accord-hdr"
-              onClick={() => setOpen(isOpen ? null : si)}
+              onClick={() => toggle(si)}
             >
               <span className="dash-accord-icon">{sec.icon}</span>
               <div className="dash-accord-info">
