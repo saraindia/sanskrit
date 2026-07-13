@@ -58,6 +58,21 @@ function fmtTime(s) {
   return `${m}:${sec.toString().padStart(2, '0')}`
 }
 
+// ─── Day accordion ───────────────────────────────────────────────────────────
+function DayAccordion({ date, label, color, open, onToggle, children }) {
+  return (
+    <div className="podcast-day-section" style={{ '--day-color': color }}>
+      <button className="podcast-day-hdr" onClick={onToggle}>
+        <span className="podcast-day-dot" style={{ background: color }} />
+        <span className="podcast-day-label" style={{ color }}>{label}</span>
+        <span className="podcast-day-date">{date}</span>
+        <span className="podcast-day-arrow" style={{ color }}>{open ? '▲' : '▼'}</span>
+      </button>
+      {open && <div className="podcast-day-items">{children}</div>}
+    </div>
+  )
+}
+
 // ─── Main page ────────────────────────────────────────────────────────────────
 export default function PodcastPage() {
   const [episodes,    setEpisodes]    = useState(_cachedEpisodes)
@@ -70,6 +85,13 @@ export default function PodcastPage() {
   const [duration,     setDuration]     = useState(_cachedDuration)
   const [progress,     setProgress]     = useState(_cachedProgress)
 
+  const [sourceOpen, setSourceOpen] = useState(false)
+
+  // openDate: which day accordion is expanded — follows the active episode's date
+  const [openDate, setOpenDate] = useState(
+    _cachedCurrentIdx !== null ? (_cachedEpisodes[_cachedCurrentIdx]?.date ?? null) : null
+  )
+
   // ── Fetch episodes ──────────────────────────────────────────────────────────
   const fetchEpisodes = useCallback(async () => {
     try {
@@ -80,6 +102,8 @@ export default function PodcastPage() {
       _cachedEpisodes = data.episodes
       _cachedHasMore  = data.hasMore
       setEpisodes(data.episodes)
+      // default-open today's accordion when nothing is playing
+      setOpenDate(v => v ?? data.episodes[0]?.date ?? null)
     } catch (e) {
       setError(e.message)
     } finally {
@@ -155,6 +179,7 @@ export default function PodcastPage() {
     setCurrentIdx(idx)
     setCurrentTime(0)
     setProgress(0)
+    setOpenDate(ep.date)
     _audio.src = ep.audioUrl
     _audio.load()
     _audio.play().catch(console.error)
@@ -187,31 +212,61 @@ export default function PodcastPage() {
         </div>
       </div>
 
-      {/* ── Source info card ──────────────────────────────────────────────── */}
+      {/* ── Source info card (collapsible) ───────────────────────────────── */}
       <div className="podcast-source-card">
-        <div className="podcast-source-logo">
-          <img
-            src="https://newsonair.gov.in/wp-content/uploads/2024/01/cropped-logo-192x192.png"
-            alt="Akashvani / AIR logo"
-            className="podcast-source-img"
-          />
-        </div>
-        <div className="podcast-source-info">
-          <div className="podcast-source-name">Akashvani · All India Radio</div>
-          <div className="podcast-source-desc">
-            Official daily Sanskrit news bulletins from Prasar Bharati's News Services Division.
-            Broadcast at <strong>06:55</strong> &amp; <strong>18:20 IST</strong> every day.
+        <button className="podcast-source-hdr" onClick={() => setSourceOpen(v => !v)}>
+          <div className="podcast-source-logo">
+            <img
+              src="https://newsonair.gov.in/wp-content/uploads/2024/01/cropped-logo-192x192.png"
+              alt="Akashvani / AIR logo"
+              className="podcast-source-img"
+            />
           </div>
-          <a
-            className="podcast-source-link"
-            href="https://newsonair.gov.in"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            newsonair.gov.in ↗
-          </a>
-        </div>
+          <div className="podcast-source-name">Akashvani · All India Radio</div>
+          <span className="podcast-source-arrow">{sourceOpen ? '▲' : '▼'}</span>
+        </button>
+        {sourceOpen && (
+          <div className="podcast-source-body">
+            <div className="podcast-source-desc">
+              Official daily Sanskrit news bulletins from Prasar Bharati's News Services Division.
+              Broadcast at <strong>06:55</strong> &amp; <strong>18:20 IST</strong> every day.
+            </div>
+            <a
+              className="podcast-source-link"
+              href="https://newsonair.gov.in"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              newsonair.gov.in ↗
+            </a>
+          </div>
+        )}
       </div>
+
+      {/* ── Active episode player ──────────────────────────────────────────── */}
+      {currentIdx !== null && episodes[currentIdx] && (
+        <div className="podcast-player">
+          <div className="podcast-player-top">
+            <button className="podcast-player-btn" onClick={togglePlay} aria-label={playing ? 'Pause' : 'Play'}>
+              {playing ? <PauseIcon size={18} /> : <PlayIcon size={18} />}
+            </button>
+            <div className="podcast-player-info">
+              <div className="podcast-player-title">{episodes[currentIdx].title}</div>
+              <div className="podcast-player-sub">
+                {episodes[currentIdx].date}
+                {episodes[currentIdx].time ? ` · ${episodes[currentIdx].time} IST` : ''}
+              </div>
+            </div>
+          </div>
+          <div className="podcast-player-seek" onClick={seek} role="slider" aria-label="Seek" aria-valuenow={Math.round(progress * 100)}>
+            <div className="podcast-player-fill" style={{ width: `${progress * 100}%` }} />
+          </div>
+          <div className="podcast-player-footer">
+            <div className="podcast-time">{fmtTime(currentTime)}<span>/</span>{fmtTime(duration)}</div>
+            <div className="podcast-ep-badge">{playing ? 'Playing' : 'Paused'}</div>
+          </div>
+        </div>
+      )}
 
       {/* ── States ────────────────────────────────────────────────────────── */}
       {loading && (
@@ -230,47 +285,65 @@ export default function PodcastPage() {
         <div className="podcast-empty">No episodes found at this time.</div>
       )}
 
-      {/* ── Episode list ──────────────────────────────────────────────────── */}
-      <div className="podcast-list">
-        {episodes.map((ep, idx) => {
+      {/* ── Episodes grouped by date — accordion ─────────────────────────── */}
+      {episodes.length > 0 && (() => {
+        const DAY_COLORS = ['#e8901a','#4cd98a','#a78bfa','#f472b6','#38bdf8','#fb923c','#34d399']
+
+        // group by date, preserving order (newest first)
+        const groups = []
+        const seen = {}
+        episodes.forEach((ep, idx) => {
+          if (!seen[ep.date]) { seen[ep.date] = []; groups.push({ date: ep.date, items: seen[ep.date] }) }
+          seen[ep.date].push({ ep, idx })
+        })
+
+        const EpRow = ({ ep, idx, color }) => {
           const active = idx === currentIdx
           return (
-            <div
-              key={ep.audioUrl}
-              className={`podcast-episode ${active ? 'active' : ''}`}
+            <button
+              className={`podcast-ep-row ${active ? 'active' : ''}`}
+              style={active ? { borderColor: color, background: `${color}10` } : undefined}
               onClick={() => active ? togglePlay() : startEpisode(idx)}
+              aria-label={`${active && playing ? 'Pause' : 'Play'} ${ep.title}`}
             >
-              <div className="podcast-ep-play">
+              <div className={`podcast-ep-row-btn ${active && playing ? 'playing' : ''}`}
+                style={active && playing ? { background: color, borderColor: color } : { color }}>
                 {active && playing ? <PauseIcon /> : <PlayIcon />}
               </div>
-              <div className="podcast-ep-body">
-                <div className="podcast-ep-top">
-                  <div className="podcast-ep-info">
-                    <div className="podcast-ep-title">
-                      {ep.title}
-                      {ep.time && <span className="podcast-ep-time">{dayFromDateStr(ep.date)} · {ep.time}</span>}
-                    </div>
-                    <div className="podcast-ep-date">{ep.date}</div>
-                  </div>
-                  {active && (
-                    <div className="podcast-ep-badge">
-                      {playing ? 'Playing' : 'Paused'}
-                    </div>
-                  )}
-                </div>
-                {active && (
-                  <div className="podcast-ep-controls" onClick={e => e.stopPropagation()}>
-                    <div className="podcast-seek" onClick={seek} role="slider" aria-label="Seek" aria-valuenow={Math.round(progress * 100)}>
-                      <div className="podcast-seek-fill" style={{ width: `${progress * 100}%` }} />
-                    </div>
-                    <div className="podcast-time">{fmtTime(currentTime)}<span>/</span>{fmtTime(duration)}</div>
-                  </div>
-                )}
+              <div className="podcast-ep-row-body">
+                <div className="podcast-ep-row-title">{ep.title}</div>
+                {ep.time && <div className="podcast-ep-row-time" style={{ color }}>{ep.time} IST</div>}
               </div>
-            </div>
+              {active && playing && (
+                <div className="podcast-card-wave">
+                  <span style={{ background: color }}/><span style={{ background: color }}/>
+                  <span style={{ background: color }}/><span style={{ background: color }}/>
+                </div>
+              )}
+            </button>
           )
-        })}
-      </div>
+        }
+
+        return groups.map((group, gi) => {
+          const color = DAY_COLORS[gi % DAY_COLORS.length]
+          const isToday = gi === 0
+          return (
+            <DayAccordion
+              key={group.date}
+              date={group.date}
+              label={isToday ? 'Today' : dayFromDateStr(group.date)}
+              color={color}
+              open={openDate === group.date}
+              onToggle={() => setOpenDate(d => d === group.date ? null : group.date)}
+            >
+              {group.items.map(({ ep, idx }) => (
+                <EpRow key={ep.audioUrl} ep={ep} idx={idx} color={color} />
+              ))}
+            </DayAccordion>
+          )
+        })
+      })()}
+
     </div>
   )
 }

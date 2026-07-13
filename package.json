@@ -12,6 +12,7 @@
     "@revenuecat/purchases-capacitor": "^13.0.0",
     "@tanstack/react-virtual": "^3.14.2",
     "@vercel/analytics": "^2.0.1",
+    "@vercel/edge-config": "^1.4.3",
     "@vercel/speed-insights": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

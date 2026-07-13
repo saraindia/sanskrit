@@ -5,8 +5,13 @@
 // Returns JSON: { episodes: [{ title, date, audioUrl }], hasMore: false }
 
 function guessSlot(url) {
-  if (/065[0-9]|0[67][0-9]{2}/i.test(url)) return { title: 'Morning Bulletin', time: '06:55', duration: '~5 min' }
-  if (/182[0-9]|183[0-9]/i.test(url))       return { title: 'Evening Bulletin', time: '18:20', duration: '~5 min' }
+  // Morning: any 06xx or 07xx block (e.g. 0655, _065_, T06, etc.)
+  if (/[_\-T]?0[67]\d{2}/i.test(url)) return { title: 'Morning Bulletin', time: '06:55', duration: '~5 min' }
+  // Evening: any 18xx or 19xx block
+  if (/[_\-T]?1[89]\d{2}/i.test(url)) return { title: 'Evening Bulletin', time: '18:20', duration: '~5 min' }
+  // Try broader morning/evening from path segments
+  if (/morning|am[_\-]|_am/i.test(url))  return { title: 'Morning Bulletin', time: '06:55', duration: '~5 min' }
+  if (/evening|pm[_\-]|_pm/i.test(url))  return { title: 'Evening Bulletin', time: '18:20', duration: '~5 min' }
   return { title: 'Sanskrit Bulletin', time: '', duration: '~5 min' }
 }
 

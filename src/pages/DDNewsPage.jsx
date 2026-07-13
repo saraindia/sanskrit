@@ -5,17 +5,21 @@ const API_BASE = (typeof window !== 'undefined' && window.Capacitor?.isNativePla
   ? 'https://sanskritly.vercel.app'
   : ''
 
+// Module-level cache — survives tab navigation within the same session
+let _cachedVideos = null
+
 function fmtDate(iso) {
-  return new Date(iso).toLocaleDateString('en-IN', {
-    day: 'numeric', month: 'short', year: 'numeric',
-  })
+  const d = new Date(iso)
+  const date = d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })
+  const time = d.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', hour12: true })
+  return `${date} · ${time}`
 }
 
 export default function DDNewsPage() {
-  const [videos,  setVideos]  = useState([])
-  const [loading, setLoading] = useState(true)
+  const [videos,  setVideos]  = useState(_cachedVideos || [])
+  const [loading, setLoading] = useState(_cachedVideos === null)
   const [error,   setError]   = useState(null)
-  const [active,  setActive]  = useState(null)
+  const [active,  setActive]  = useState(_cachedVideos?.[0]?.videoId || null)
 
   const fetchNews = useCallback(async () => {
     setLoading(true)
@@ -23,11 +27,12 @@ export default function DDNewsPage() {
     try {
       const res  = await fetch(`${API_BASE}/api/ddnews`)
       if (!res.ok || !res.headers.get('content-type')?.includes('application/json'))
-        throw new Error('Feed unavailable — deploy to Vercel to load Sanskrit Vārtā')
+        throw new Error('Could not load Sanskrit Vārtā feed')
       const data = await res.json()
       if (data.error) throw new Error(data.error)
-      setVideos(data.videos || [])
-      if (data.videos?.length) setActive(data.videos[0].videoId)
+      _cachedVideos = data.videos || []
+      setVideos(_cachedVideos)
+      setActive(v => v ?? _cachedVideos[0]?.videoId ?? null)
     } catch (e) {
       setError(e.message)
     } finally {
@@ -35,7 +40,9 @@ export default function DDNewsPage() {
     }
   }, [])
 
-  useEffect(() => { fetchNews() }, [fetchNews])
+  useEffect(() => {
+    if (_cachedVideos === null) fetchNews()
+  }, [fetchNews])
 
   return (
     <div className="ddnews-page">
@@ -64,7 +71,7 @@ export default function DDNewsPage() {
             <div className="ddnews-player-wrap">
               <iframe
                 className="ddnews-player"
-                src={`https://www.youtube.com/embed/${active}?autoplay=1`}
+                src={`https://www.youtube.com/embed/${active}`}
                 title="Sanskrit Vārtā"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -89,7 +96,7 @@ export default function DDNewsPage() {
                   loading="lazy"
                 />
                 <div className="ddnews-item-info">
-                  <p className="ddnews-item-title">{v.title}</p>
+                  <p className="ddnews-item-title">{v.title.replace(/\s*[|l]\s*\d{1,2}\s+\w+\s+\d{4}\s*$/i, '').trim()}</p>
                   <p className="ddnews-item-date">{fmtDate(v.date)}</p>
                 </div>
               </button>

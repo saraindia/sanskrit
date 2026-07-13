@@ -118,8 +118,47 @@ function akashvaniDevPlugin() {
   }
 }
 
+function ddNewsDevPlugin() {
+  const RSS_URL = 'https://www.youtube.com/feeds/videos.xml?channel_id=UCYOv0QZr2B70Rkx_ZqIA84w'
+
+  function parseRSS(xml) {
+    const entries = []
+    const entryRe = /<entry>([\s\S]*?)<\/entry>/g
+    let m
+    while ((m = entryRe.exec(xml)) !== null) {
+      const block   = m[1]
+      const videoId = (block.match(/<yt:videoId>(.*?)<\/yt:videoId>/) || [])[1]
+      const title   = (block.match(/<title>(.*?)<\/title>/)           || [])[1]
+      const date    = (block.match(/<published>(.*?)<\/published>/)   || [])[1]
+      if (videoId && title) entries.push({ videoId, title, date: date || '' })
+    }
+    return entries
+  }
+
+  return {
+    name: 'ddnews-dev',
+    configureServer(server) {
+      server.middlewares.use('/api/ddnews', async (req, res) => {
+        res.setHeader('Content-Type', 'application/json')
+        res.setHeader('Access-Control-Allow-Origin', '*')
+        try {
+          const upstream = await fetch(RSS_URL, {
+            headers: { 'User-Agent': 'Mozilla/5.0 (compatible; Sanskritly/1.0)' }
+          })
+          const xml      = await upstream.text()
+          const videos   = parseRSS(xml).filter(v => /sanskrit/i.test(v.title))
+          res.end(JSON.stringify({ videos }))
+        } catch (err) {
+          res.statusCode = 500
+          res.end(JSON.stringify({ error: 'Failed to fetch DD News RSS', detail: err.message }))
+        }
+      })
+    }
+  }
+}
+
 export default defineConfig({
-  plugins: [react(), swTimestampPlugin(), akashvaniDevPlugin()],
+  plugins: [react(), swTimestampPlugin(), akashvaniDevPlugin(), ddNewsDevPlugin()],
   base: "./",   // required for Capacitor native builds
   server: { port: 3000 }
 })
