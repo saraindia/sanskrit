@@ -1,5 +1,63 @@
 .varna-page { padding-bottom: 2rem; }
 
+/* ── Inline player at top ── */
+.varna-player {
+  display: none;
+  margin-bottom: 1rem;
+}
+.varna-player--active {
+  display: block;
+}
+.varna-embed-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.varna-embed-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.varna-player-meta {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.55rem 0.25rem 0;
+}
+.varna-player-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 0.2rem;
+}
+.varna-player-sub {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+.varna-player-close {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.varna-player-close:hover { border-color: var(--gold); color: var(--gold); }
+
+/* ── Video grid ── */
 .varna-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -17,9 +75,13 @@
   transition: border-color 0.15s, transform 0.15s;
   font-family: inherit;
   padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
-.varna-card:hover  { border-color: var(--gold); transform: translateY(-2px); }
-.varna-card:active { opacity: 0.8; transform: none; }
+.varna-card:hover        { border-color: var(--gold); transform: translateY(-2px); }
+.varna-card:active       { opacity: 0.8; transform: none; }
+.varna-card--active      { border-color: var(--gold); }
 
 .varna-thumb-wrap {
   position: relative;
@@ -46,7 +108,8 @@
   opacity: 0;
   transition: opacity 0.15s;
 }
-.varna-card:hover .varna-play { opacity: 1; }
+.varna-card:hover .varna-play,
+.varna-card--active .varna-play { opacity: 1; }
 .varna-ep {
   position: absolute;
   top: 0.35rem;
@@ -88,59 +151,3 @@
   transition: background 0.15s;
 }
 .varna-playlist-link:hover { background: rgba(212,168,67,0.1); }
-
-/* ── Modal ── */
-.varna-modal {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-  padding: 1rem;
-}
-.varna-modal-inner {
-  background: var(--bg-card);
-  border-radius: 14px;
-  width: 100%;
-  max-width: 640px;
-  overflow: hidden;
-  position: relative;
-}
-.varna-modal-close {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.6rem;
-  background: rgba(0,0,0,0.5);
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  font-size: 0.85rem;
-  cursor: pointer;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.varna-embed-wrap {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-}
-.varna-embed-wrap iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-.varna-modal-title {
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--text);
-  padding: 0.75rem 1rem;
-  margin: 0;
-}

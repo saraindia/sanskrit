@@ -303,7 +303,11 @@ const DASH_SECTIONS = (dueCount) => [
   },
   { label: 'Advanced Practice', dev: 'विशेषाभ्यासः', icon: '🌟', color: '#f97316',
     items: [
-      { to: '/story',     icon: '📖', label: 'Stories',           sub: 'Word-by-word translation' },
+      { to: '/story', icon: '📖', label: 'Stories', sub: 'Word-by-word translation' },
+    ]
+  },
+  { label: 'Varṇamālā', dev: 'वर्णमाला', icon: '🎬', color: '#06b6d4',
+    items: [
       { to: '/varnamala', icon: '🎬', label: 'Varṇamālā Series', sub: '15 episodes · Tattvam · Sanskrit sounds & script' },
     ]
   },

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import './VarnamalaPage.css'
 
 const PLAYLIST_ID = 'PLFLFOfuyaIHvExkYbtlMM_mS1m5yRZtO2'
@@ -23,12 +23,44 @@ const VIDEOS = [
 
 export default function VarnamalaPage() {
   const [active, setActive] = useState(null)
+  const playerRef = useRef(null)
 
-  const open  = (id) => setActive(id)
-  const close = () => setActive(null)
+  const play = (id) => {
+    setActive(id)
+    setTimeout(() => {
+      playerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 50)
+  }
+
+  const activeVideo = VIDEOS.find(v => v.id === active)
 
   return (
     <div className="varna-page anim-fade-up">
+
+      {/* ── Inline player — shown at top when a video is selected ── */}
+      <div ref={playerRef} className={`varna-player ${active ? 'varna-player--active' : ''}`}>
+        {active && (
+          <>
+            <div className="varna-embed-wrap">
+              <iframe
+                key={active}
+                src={`https://www.youtube.com/embed/${active}?autoplay=1&rel=0`}
+                title={activeVideo?.title}
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </div>
+            <div className="varna-player-meta">
+              <div>
+                <p className="varna-player-title">{activeVideo?.title}</p>
+                <p className="varna-player-sub">Ep {activeVideo?.ep} · {activeVideo?.sub}</p>
+              </div>
+              <button className="varna-player-close" onClick={() => setActive(null)}>✕</button>
+            </div>
+          </>
+        )}
+      </div>
+
       <div className="page-header">
         <h1 className="page-title">Varṇamālā Series</h1>
         <p className="page-subtitle">वर्णमाला · Sanskrit sounds &amp; script · 15 episodes · Tattvam</p>
@@ -36,7 +68,11 @@ export default function VarnamalaPage() {
 
       <div className="varna-grid">
         {VIDEOS.map(v => (
-          <button key={v.id} className="varna-card" onClick={() => open(v.id)}>
+          <button
+            key={v.id}
+            className={`varna-card ${active === v.id ? 'varna-card--active' : ''}`}
+            onClick={() => play(v.id)}
+          >
             <div className="varna-thumb-wrap">
               <img
                 className="varna-thumb"
@@ -44,7 +80,7 @@ export default function VarnamalaPage() {
                 alt={v.title}
                 loading="lazy"
               />
-              <span className="varna-play">▶</span>
+              <span className="varna-play">{active === v.id ? '◼' : '▶'}</span>
               <span className="varna-ep">Ep {v.ep}</span>
             </div>
             <div className="varna-info">
@@ -63,25 +99,6 @@ export default function VarnamalaPage() {
       >
         ▶ Open full playlist on YouTube
       </a>
-
-      {active && (
-        <div className="varna-modal" onClick={close}>
-          <div className="varna-modal-inner" onClick={e => e.stopPropagation()}>
-            <button className="varna-modal-close" onClick={close}>✕</button>
-            <div className="varna-embed-wrap">
-              <iframe
-                src={`https://www.youtube.com/embed/${active}?autoplay=1&rel=0`}
-                title="Sanskrit video"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-              />
-            </div>
-            <p className="varna-modal-title">
-              {VIDEOS.find(v => v.id === active)?.title}
-            </p>
-          </div>
-        </div>
-      )}
     </div>
   )
 }
