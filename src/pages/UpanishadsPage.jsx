@@ -8,6 +8,7 @@ import { ClickableVerse } from '../components/ClickableSentence'
 import { useVocabularyData } from '../hooks/useData'
 import { usePurchase } from '../context/PurchaseContext'
 import './GitaPage.css'
+import './Hub.css'
 
 const COMMENTARY_LABELS = {
   advaita_vedanta:   { label: 'Advaita Vedānta',   subtitle: 'Śaṅkara' },
@@ -240,6 +241,9 @@ export default function UpanishadsPage() {
 
   // ── Text picker ───────────────────────────────────────────────────────
   const UPAN_COLORS = ['#f59e0b','#a855f7','#22c55e','#3b82f6','#ec4899','#f97316','#14b8a6','#e11d48','#8b5cf6']
+  const UPAN_ICONS  = { aitareya:'🌅', isha:'🕉️', kena:'💫', katha:'⚡', taittiriya:'🌿', mandukya:'🔔', mundaka:'🔥', chandogya:'🎶' }
+  const YOGA_ICONS  = ['🧘', '🌿', '✨', '🕊️']
+
   const upanTexts = manifest.texts.filter(t => t.id !== 'brahmasutra' && !t.id.startsWith('yogasutra-'))
   const yogaTexts = manifest.texts.filter(t => t.id.startsWith('yogasutra-'))
   const pickerTexts = isYoga ? yogaTexts : upanTexts
@@ -255,21 +259,25 @@ export default function UpanishadsPage() {
         <h1 className="page-title">{pageTitle}</h1>
         <p className="page-subtitle">{pageSubtitle}</p>
       </div>
-      <div className="gita-toolbar">
-        <button className="gita-nav-btn" title="Random verse" onClick={randomVerse}>🎲 Random verse</button>
-      </div>
-      <div className="gita-chapters" style={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
+      <div className="study-sq-grid">
         {pickerTexts.map((t, i) => {
           const locked = !isPro && i >= FREE_LIMITS.UPAN_FREE_TEXT
+          const color  = UPAN_COLORS[i % UPAN_COLORS.length]
+          const icon   = isYoga ? YOGA_ICONS[i] : (UPAN_ICONS[t.id] || '📜')
+          const sub    = locked ? '🔒 Pro' : isYoga
+            ? `${t.verses} sūtras · ${t.titleEnglish}`
+            : `${t.verses} verses · ${t.titleEnglish || ''}`
           return (
             <button key={t.id}
-              className={`gita-ch-card card ${locked ? 'gita-ch-locked' : ''}`}
+              className="study-sq-card"
               onClick={() => openText(t.id, i)}
-              style={locked ? { opacity: 0.55 } : undefined}
+              style={{ opacity: locked ? 0.55 : 1, cursor: 'pointer' }}
             >
-              <span className="gita-ch-name devanagari">{t.titleDeva}</span>
-              <span className="gita-ch-eng"><strong style={{ color: UPAN_COLORS[i % UPAN_COLORS.length], fontWeight: 700 }}>{t.title}</strong>{t.titleEnglish ? ` · ${t.titleEnglish}` : ''}</span>
-              <span className="gita-ch-count" style={locked ? undefined : { color: 'var(--gold)', fontWeight: 700 }}>{locked ? '🔒' : `${t.verses} verses`}</span>
+              <span className="study-sq-num" style={{ color, background: `${color}22`, borderColor: `${color}44` }}>{i + 1}</span>
+              <span className="study-sq-icon">{icon}</span>
+              <span className="study-sq-label">{t.title}</span>
+              <span className="study-sq-dev">{t.titleDeva}</span>
+              <span className="study-sq-sub">{sub}</span>
             </button>
           )
         })}
@@ -299,19 +307,22 @@ export default function UpanishadsPage() {
           <span>Drill mode</span>
         </label>
       </div>
-      <div className="gita-chapters">
+      <div className="study-sq-grid">
         {adhyayas.map((adh, i) => {
-          const av = text.verses.filter(v => v.adh === adh)
-          const nSecs = new Set(av.map(v => v.sec)).size
+          const av     = text.verses.filter(v => v.adh === adh)
+          const nSecs  = new Set(av.map(v => v.sec)).size
           const locked = !isPro && i >= FREE_LIMITS.UPAN_FREE_ADHYAYA
+          const color  = UPAN_COLORS[i % UPAN_COLORS.length]
           return (
             <button key={adh}
-              className={`gita-ch-card card ${locked ? 'gita-ch-locked' : ''}`}
+              className="study-sq-card"
               onClick={() => openAdhyaya(adh, i)}
-              style={locked ? { opacity: 0.55 } : undefined}
+              style={{ opacity: locked ? 0.55 : 1, cursor: 'pointer' }}
             >
-              <span className="gita-ch-num">{locked ? '🔒' : `${nSecs} khaṇḍas · ${av.length} verses`}</span>
-              <span className="gita-ch-eng">{adh}</span>
+              <span className="study-sq-num" style={{ color, background: `${color}22`, borderColor: `${color}44` }}>{i + 1}</span>
+              <span className="study-sq-icon">📖</span>
+              <span className="study-sq-label">{adh}</span>
+              <span className="study-sq-sub">{locked ? '🔒 Pro' : `${nSecs} khaṇḍas · ${av.length} verses`}</span>
             </button>
           )
         })}
@@ -336,18 +347,21 @@ export default function UpanishadsPage() {
           <span>Drill mode</span>
         </label>
       </div>
-      <div className="gita-chapters">
+      <div className="study-sq-grid">
         {sections.map((sec, i) => {
-          const count = text.verses.filter(v => v.sec === sec).length
+          const count  = text.verses.filter(v => v.sec === sec).length
           const locked = !isPro && !hasAdhyayas && i >= FREE_LIMITS.UPAN_FREE_ADHYAYA
+          const color  = UPAN_COLORS[i % UPAN_COLORS.length]
           return (
             <button key={sec}
-              className={`gita-ch-card card ${locked ? 'gita-ch-locked' : ''}`}
+              className="study-sq-card"
               onClick={() => openSection(sec, i)}
-              style={locked ? { opacity: 0.55 } : undefined}
+              style={{ opacity: locked ? 0.55 : 1, cursor: 'pointer' }}
             >
-              <span className="gita-ch-num">{locked ? '🔒' : `${hasAdhyayas ? 'Khaṇḍa' : 'Section'} ${i + 1} · ${count} verses`}</span>
-              <span className="gita-ch-eng">{sec}</span>
+              <span className="study-sq-num" style={{ color, background: `${color}22`, borderColor: `${color}44` }}>{i + 1}</span>
+              <span className="study-sq-icon">📜</span>
+              <span className="study-sq-label">{sec}</span>
+              <span className="study-sq-sub">{locked ? '🔒 Pro' : `${hasAdhyayas ? 'Khaṇḍa' : 'Section'} ${i + 1} · ${count} verses`}</span>
             </button>
           )
         })}

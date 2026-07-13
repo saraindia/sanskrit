@@ -104,6 +104,13 @@
   transition: border-color 0.15s, background 0.15s;
   -webkit-tap-highlight-color: transparent;
 }
+button.study-sq-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: inherit;
+}
 .study-sq-card:hover {
   border-color: var(--gold);
   background: color-mix(in srgb, var(--gold) 6%, var(--bg-card));
