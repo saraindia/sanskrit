@@ -301,13 +301,6 @@ export default function UpanishadsPage() {
         <p className="page-subtitle devanagari" style={{ fontSize: '1rem', marginBottom: '0.25rem' }}>{text.titleDeva}</p>
         <p className="page-subtitle">{text.titleEnglish} · {adhyayas.length} adhyāyas · {text.verses.length} verses{text.veda ? ` · ${text.veda}` : ''}</p>
       </div>
-      <div className="gita-toolbar">
-        <button className="gita-nav-btn" title="Random verse" onClick={randomVerse}>🎲 Random verse</button>
-        <label className="weak-toggle">
-          <input type="checkbox" checked={drill} onChange={e => setDrill(e.target.checked)} />
-          <span>Drill mode</span>
-        </label>
-      </div>
       <div className="study-sq-grid">
         {adhyayas.map((adh, i) => {
           const av     = text.verses.filter(v => v.adh === adh)
@@ -341,13 +334,6 @@ export default function UpanishadsPage() {
         <h1 className="page-title">{text.title}</h1>
         <p className="page-subtitle devanagari" style={{ fontSize: '1rem', marginBottom: '0.25rem' }}>{text.titleDeva}</p>
         <p className="page-subtitle">{text.titleEnglish} · {text.verses.length} verses{text.veda ? ` · ${text.veda}` : ''}</p>
-      </div>
-      <div className="gita-toolbar">
-        <button className="gita-nav-btn" title="Random verse" onClick={randomVerse}>🎲 Random verse</button>
-        <label className="weak-toggle">
-          <input type="checkbox" checked={drill} onChange={e => setDrill(e.target.checked)} />
-          <span>Drill mode</span>
-        </label>
       </div>
       <div className="study-sq-grid">
         {sections.map((sec, i) => {
