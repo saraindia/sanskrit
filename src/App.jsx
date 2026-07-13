@@ -17,6 +17,7 @@ const TextsHub      = lazy(() => import('./pages/TextsHub'))
 const GrammarPage   = lazy(() => import('./pages/GrammarPage'))
 const DDNewsPage        = lazy(() => import('./pages/DDNewsPage'))
 const SanskritCoursePage= lazy(() => import('./pages/SanskritCoursePage'))
+const VarnamalaPage     = lazy(() => import('./pages/VarnamalaPage'))
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
 import { PurchaseProvider, usePurchase } from './context/PurchaseContext'
@@ -171,7 +172,8 @@ function AppShell() {
           <Route path="/profile"    element={<ProfilePage />} />
           <Route path="/podcast"    element={<PodcastPage />} />
           <Route path="/ddnews"    element={<DDNewsPage />} />
-          <Route path="/course"    element={<SanskritCoursePage />} />
+          <Route path="/course"      element={<SanskritCoursePage />} />
+          <Route path="/varnamala"  element={<VarnamalaPage />} />
         </Routes>
         </Suspense>
       </main>
