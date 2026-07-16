@@ -363,6 +363,7 @@ export default function DictionaryPage() {
   const [entry, setEntry]           = useState(null)
   const [source, setSource]         = useState('live') // 'device' | 'shared' | 'live'
   const [loading, setLoading]       = useState(false)
+  const [loadingMsg, setLoadingMsg] = useState('')
   const [error, setError]           = useState(null)
   const [history, setHistory]       = useState([])
   const [sharedWords, setSharedWords] = useState([]) // from GitHub _words.json
@@ -486,6 +487,7 @@ export default function DictionaryPage() {
 
     setLoading(true)
     setEntry(null)
+    setLoadingMsg('Checking shared dictionary…')
 
     try {
       // L2: GitHub shared dictionary (no API cost)
@@ -519,6 +521,7 @@ export default function DictionaryPage() {
       }
 
       // L4: Claude API (generates + writes to GitHub)
+      setLoadingMsg('Generating with Claude AI…')
       const res = await fetch('/api/dictionary', {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -699,8 +702,8 @@ export default function DictionaryPage() {
           <div className="dict-loading-badge">
             <span className="dict-loading-icon">✦</span>
             <div>
-              <div className="dict-loading-title">Building live with Claude…</div>
-              <div className="dict-loading-sub">Generating meaning, grammar, and 10 example sentences</div>
+              <div className="dict-loading-title">{loadingMsg || 'Looking up…'}</div>
+              <div className="dict-loading-sub">{loadingMsg?.includes('Claude') ? 'Generating meaning, grammar, and 10 example sentences' : 'Searching the Sanskrit dictionary'}</div>
             </div>
           </div>
           <div className="dict-loading-dots"><span /><span /><span /></div>
