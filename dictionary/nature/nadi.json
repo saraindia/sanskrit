@@ -1,0 +1,117 @@
+{
+  "word": "नदी",
+  "transliteration": "nadī",
+  "slug": "nadi",
+  "meaning": "river",
+  "meaningExtended": "A natural flowing watercourse that moves toward the sea or a larger body of water. In Sanskrit literature and Hindu philosophy, rivers are often personified as goddesses and considered sacred.",
+  "gender": "feminine",
+  "wordType": "noun",
+  "category": "nature",
+  "imageQuery": "river flowing water",
+  "sentences": [
+    {
+      "id": 1,
+      "devanagari": "नदी जलं वहति।",
+      "transliteration": "nadī jalaṃ vahati.",
+      "english": "The river carries water.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 2,
+      "devanagari": "नदी प्रवहित अस्ति।",
+      "transliteration": "nadī pravahit asti.",
+      "english": "The river flowed.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 3,
+      "devanagari": "नदी समुद्रं प्रापस्यति।",
+      "transliteration": "nadī samudraṃ prāpasyati.",
+      "english": "The river will reach the ocean.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhavishy",
+      "type": "statement"
+    },
+    {
+      "id": 4,
+      "devanagari": "किं नदी शीतला अस्ति?",
+      "transliteration": "kiṃ nadī śītalā asti?",
+      "english": "Is the river cold?",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 5,
+      "devanagari": "कस्य नद्या: जलं मधुरं भवति?",
+      "transliteration": "kasya nadyā: jalaṃ madhuraṃ bhavati?",
+      "english": "Which river has sweet water?",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 6,
+      "devanagari": "भो! नदी कति गहना अस्ति इति मत्वा भयं अभवत्।",
+      "transliteration": "bho! nadī kati gahanā asti iti matvā bhayaṃ abhavat.",
+      "english": "Oh! Realizing how deep the river is, I became afraid.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhoota",
+      "type": "conversation"
+    },
+    {
+      "id": 7,
+      "devanagari": "नदी कीदृशी! तव जलं निर्मलं, तव ध्वनिः सुखकरः।",
+      "transliteration": "nadī kīdṛśī! tava jalaṃ nirmalaṃ, tava dhvani: sukhakara:.",
+      "english": "What a river! Your water is pure, your sound is pleasant.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 8,
+      "devanagari": "दोनो नद्यौ संगमे मिलतः।",
+      "transliteration": "dono nadyau saṃgame milata:.",
+      "english": "The two rivers meet at the confluence.",
+      "vachan": "dvi",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 9,
+      "devanagari": "एता: नद्य: भारतस्य प्राणा: सन्ति।",
+      "transliteration": "etā: nadya: bhāratasyā prāṇā: santi.",
+      "english": "These rivers are the lifeblood of India.",
+      "vachan": "bahu",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 10,
+      "devanagari": "यतो नदी प्रवहति सर्वदा, तत: जीवनं भवति।",
+      "transliteration": "yato nadī pravahati sarvadā, tata: jīvanaṃ bhavati.",
+      "english": "Wherever the river flows eternally, there life emerges.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "statement"
+    }
+  ],
+  "generatedAt": "2026-07-16T12:36:23.600Z",
+  "imageUrl": null,
+  "cacheKey": "nadi",
+  "cachedAt": 1784205384036
+}
