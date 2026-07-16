@@ -643,7 +643,7 @@ export default function DictionaryPage() {
             type="text"
             value={query}
             onChange={e => setQuery(e.target.value)}
-            placeholder="Type in Devanagari or Roman…  e.g. गज or gaja"
+            placeholder="Sanskrit or English…  e.g. गज, gaja, or forest"
             autoComplete="off"
             autoCorrect="off"
             spellCheck={false}
