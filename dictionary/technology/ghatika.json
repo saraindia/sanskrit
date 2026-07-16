@@ -1,0 +1,114 @@
+{
+  "word": "घटिका",
+  "transliteration": "ghatika",
+  "slug": "ghatika",
+  "meaning": "clock, timepiece",
+  "meaningExtended": "A mechanical or digital device that measures and displays time, derived from the Sanskrit word for 'pot' or 'vessel' due to ancient water clocks (ghatikas) used to mark time.",
+  "gender": "feminine",
+  "wordType": "noun",
+  "category": "technology",
+  "imageQuery": "clock timepiece",
+  "sentences": [
+    {
+      "id": 1,
+      "devanagari": "घटिका दीवारे लगिता अस्ति।",
+      "transliteration": "ghatika dīvāre lagitā asti.",
+      "english": "The clock is fixed on the wall.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 2,
+      "devanagari": "पूर्वे घटिका तीक्ष्णं ध्वनिम् अकरोत्।",
+      "transliteration": "pūrve ghatikā tīkṣṇaṁ dhvanim akarot.",
+      "english": "The clock made a sharp sound in the past.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 3,
+      "devanagari": "भविष्यति घटिका सुनिर्मिता भविष्यति।",
+      "transliteration": "bhaviṣyati ghatikā sunirmitā bhaviṣyati.",
+      "english": "The clock will become well-crafted in the future.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhavishy",
+      "type": "statement"
+    },
+    {
+      "id": 4,
+      "devanagari": "किम् घटिका सही समयं दर्शयति?",
+      "transliteration": "kim ghatikā sahī samayaṁ darśayati?",
+      "english": "Does the clock show the correct time?",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 5,
+      "devanagari": "कस्य घटिका इयम् अति मूल्यवान्?",
+      "transliteration": "kasya ghatikā iyam ati mūlyavān?",
+      "english": "Whose clock is this very valuable one?",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 6,
+      "devanagari": "भो! घटिका कहाँ विक्रयन्ते?",
+      "transliteration": "bho! ghatikā kahāñ vikrayante?",
+      "english": "Hey! Where are clocks being sold?",
+      "vachan": "bahu",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 7,
+      "devanagari": "नवीनः घटिकानां मूल्यम् उच्चम्।",
+      "transliteration": "navīnaḥ ghatikānāṁ mūlyam uccham.",
+      "english": "New clocks have high price.",
+      "vachan": "bahu",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 8,
+      "devanagari": "एते द्वे घटिके समान कालं दर्शयतः।",
+      "transliteration": "ete dve ghatike samān kālaṁ darśayataḥ.",
+      "english": "These two clocks show the same time.",
+      "vachan": "dvi",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 9,
+      "devanagari": "घटिकाः समयस्य रक्षकाः सन्ति।",
+      "transliteration": "ghatikāḥ samayasya rakṣakāḥ santi.",
+      "english": "Clocks are the guardians of time.",
+      "vachan": "bahu",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "poetic/philosophical"
+    },
+    {
+      "id": 10,
+      "devanagari": "समयः घटिकायाः माध्यमेन गच्छति।",
+      "transliteration": "samayaḥ ghatikāyāḥ mādhyamena gacchati.",
+      "english": "Time flows through the medium of the clock.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "poetic/philosophical"
+    }
+  ],
+  "generatedAt": "2026-07-16T12:51:15.958Z"
+}
