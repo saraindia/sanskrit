@@ -1,0 +1,117 @@
+{
+  "word": "गज",
+  "transliteration": "gaja",
+  "meaning": "Elephant",
+  "meaningExtended": "A large four-legged mammal with a trunk, tusks, and large ears, highly valued in Sanskrit literature and Hindu tradition as a symbol of strength and wisdom.",
+  "gender": "masculine",
+  "wordType": "noun",
+  "imageQuery": "elephant",
+  "sentences": [
+    {
+      "id": 1,
+      "devanagari": "गजः वने गच्छति।",
+      "transliteration": "gajaḥ vane gacchati.",
+      "english": "The elephant walks in the forest.",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 2,
+      "devanagari": "गजो नदीतीरे आसीत्।",
+      "transliteration": "gajo nadītīre āsīt.",
+      "english": "The elephant was at the riverbank.",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 3,
+      "devanagari": "गजः जलं पिबिष्यति।",
+      "transliteration": "gajaḥ jalaṃ pibiṣyati.",
+      "english": "The elephant will drink water.",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "bhavishy",
+      "type": "statement"
+    },
+    {
+      "id": 4,
+      "devanagari": "किं गजो वने निवसति?",
+      "transliteration": "kiṃ gajo vane nivasati?",
+      "english": "Does the elephant live in the forest?",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 5,
+      "devanagari": "कथं गजः इतने महान् भवति?",
+      "transliteration": "kathaṃ gajaḥ itne mahān bhavati?",
+      "english": "How does the elephant become so large?",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 6,
+      "devanagari": "अरे, दृश्यतां गजः तत्र!",
+      "transliteration": "are, dṛśyatāṃ gajaḥ tatra!",
+      "english": "Hey, look at the elephant there!",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 7,
+      "devanagari": "भो सखे, गजः कीदृशः इष्यते?",
+      "transliteration": "bho sakhe, gajaḥ kīdṛśaḥ iṣyate?",
+      "english": "Dear friend, what kind of elephant is preferred?",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 8,
+      "devanagari": "गजौ नदीम् अगच्छताम्।",
+      "transliteration": "gajau nadīm agacchatām.",
+      "english": "The two elephants did not go to the river.",
+      "vachan": "dvi",
+      "linga": "pullinga",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 9,
+      "devanagari": "गजाः राज्यम् रक्षन्ति।",
+      "transliteration": "gajāḥ rājyam rakṣanti.",
+      "english": "The elephants protect the kingdom.",
+      "vachan": "bahu",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 10,
+      "devanagari": "गजः शक्तेः प्रतीकं भूत्वा, सर्वं जगत् शासयति।",
+      "transliteration": "gajaḥ śakteḥ pratīkaṃ bhūtvā, sarvaṃ jagat śāsayati.",
+      "english": "The elephant, being a symbol of power, rules over all the world.",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "statement"
+    }
+  ],
+  "generatedAt": "2026-07-16T12:18:53.154Z",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/330px-African_Bush_Elephant.jpg",
+  "cacheKey": "गज",
+  "cachedAt": 1784204333391,
+  "slug": "gaja",
+  "category": "miscellaneous"
+}
