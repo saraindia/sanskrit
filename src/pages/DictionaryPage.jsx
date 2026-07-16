@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { getCachedWord, setCachedWord, getAllCachedWords } from '../utils/dictCache'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
+import HubBack from '../components/HubBack'
 import './DictionaryPage.css'
 
 // ── Image helpers ─────────────────────────────────────────────────────────────
@@ -249,7 +250,7 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, onWordClick, l
   return (
     <div className="dict-detail">
       {/* Back */}
-      <button className="dict-back-btn" onClick={onBack}>← Back</button>
+      <HubBack to="/dictionary" label="Dictionary" />
 
       {/* Word card */}
       <div className="dict-word-card">
