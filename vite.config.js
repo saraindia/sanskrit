@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 import fs from 'fs'
 import path from 'path'
@@ -157,8 +157,102 @@ function ddNewsDevPlugin() {
   }
 }
 
-export default defineConfig({
-  plugins: [react(), swTimestampPlugin(), akashvaniDevPlugin(), ddNewsDevPlugin()],
-  base: "./",   // required for Capacitor native builds
-  server: { port: 3000 }
+function dictionaryDevPlugin(env) {
+  return {
+    name: 'dictionary-dev',
+    configureServer(server) {
+      server.middlewares.use('/api/dictionary', async (req, res) => {
+        res.setHeader('Content-Type', 'application/json')
+        res.setHeader('Access-Control-Allow-Origin', '*')
+
+        if (req.method === 'OPTIONS') { res.statusCode = 200; return res.end() }
+        if (req.method !== 'POST') { res.statusCode = 405; return res.end(JSON.stringify({ error: 'Method not allowed' })) }
+
+        const chunks = []
+        req.on('data', chunk => chunks.push(chunk))
+        req.on('end', async () => {
+          try {
+            const body = Buffer.concat(chunks).toString('utf8')
+            const { word } = JSON.parse(body || '{}')
+            if (!word?.trim()) { res.statusCode = 400; return res.end(JSON.stringify({ error: 'word is required' })) }
+
+            const apiKey = env.ANTHROPIC_API_KEY
+            if (!apiKey) { res.statusCode = 500; return res.end(JSON.stringify({ error: 'ANTHROPIC_API_KEY not set in .env' })) }
+
+            const prompt = `You are a Sanskrit language expert. Generate structured data for the Sanskrit word or phrase: "${word.trim()}"
+
+Return ONLY a valid JSON object — no markdown, no code fences, no commentary:
+{
+  "word": "<exact devanagari as provided or corrected>",
+  "transliteration": "<IAST romanization>",
+  "meaning": "<concise English meaning, 1-4 words>",
+  "meaningExtended": "<fuller English definition, 1-2 sentences>",
+  "gender": "masculine|feminine|neuter|indeclinable",
+  "wordType": "noun|verb|adjective|adverb|pronoun|indeclinable",
+  "imageQuery": "<1-2 English words best for finding a photo of this concept>",
+  "sentences": [
+    {
+      "id": 1,
+      "devanagari": "<sentence in Devanagari script>",
+      "transliteration": "<full IAST transliteration>",
+      "english": "<natural English translation>",
+      "vachan": "eka|dvi|bahu",
+      "linga": "pullinga|striling|napumsaka",
+      "kaal": "vartaman|bhoota|bhavishy",
+      "type": "statement|question|conversation"
+    }
+  ]
+}
+
+Generate exactly 10 sentences: 3 statements (one per tense), 2 questions, 2 conversational, 1 dual vachan, 1 plural vachan, 1 poetic/philosophical. Use inflected forms naturally.`
+
+            const response = await fetch('https://api.anthropic.com/v1/messages', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'x-api-key': apiKey,
+                'anthropic-version': '2023-06-01',
+              },
+              body: JSON.stringify({
+                model: 'claude-haiku-4-5',
+                max_tokens: 2048,
+                messages: [{ role: 'user', content: prompt }],
+              }),
+            })
+
+            if (!response.ok) {
+              const errText = await response.text()
+              res.statusCode = 502
+              return res.end(JSON.stringify({ error: `Anthropic API error (${response.status}): ${errText}` }))
+            }
+            const data = await response.json()
+            if (data.type === 'error') {
+              res.statusCode = 502
+              return res.end(JSON.stringify({ error: `Anthropic API: ${data.error?.message || 'unknown error'}` }))
+            }
+            const raw = data.content?.[0]?.text || ''
+            if (!raw) {
+              res.statusCode = 502
+              return res.end(JSON.stringify({ error: 'Claude returned an empty response', detail: JSON.stringify(data) }))
+            }
+            const cleaned = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '').trim()
+            const parsed = JSON.parse(cleaned)
+            res.end(JSON.stringify({ ...parsed, generatedAt: new Date().toISOString() }))
+          } catch (err) {
+            res.statusCode = 500
+            res.end(JSON.stringify({ error: err.message }))
+          }
+        })
+      })
+    }
+  }
+}
+
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), '')
+  return {
+    plugins: [react(), swTimestampPlugin(), akashvaniDevPlugin(), ddNewsDevPlugin(), dictionaryDevPlugin(env)],
+    base: "./",   // required for Capacitor native builds
+    server: { port: 3000 }
+  }
 })
