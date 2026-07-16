@@ -43,9 +43,11 @@ async function fetchWikiImage(query) {
 
 const DICT_RAW = 'https://raw.githubusercontent.com/saraindia/sanskrit/main/dictionary'
 
+// For typed searches: fetch index via our API (authenticated, no CDN lag),
+// then fetch the individual word file from raw CDN (immutable once written).
 async function checkSharedDictionary(query) {
   try {
-    const res = await fetch(`${DICT_RAW}/_words.json`)
+    const res = await fetch('/api/dictionary-index')
     if (!res.ok) return null
     const index = await res.json()
     const q    = query.trim()
@@ -64,6 +66,15 @@ async function checkSharedDictionary(query) {
         if (r.ok) return r.json()
       }
     }
+    return null
+  } catch { return null }
+}
+
+// For clicking a shared card: we already know category + slug, go direct.
+async function fetchSharedWord(slug, category) {
+  try {
+    const r = await fetch(`${DICT_RAW}/${category}/${slug}.json`)
+    if (r.ok) return r.json()
     return null
   } catch { return null }
 }
@@ -436,6 +447,42 @@ export default function DictionaryPage() {
     setSource('device')
   }
 
+  async function handleSharedWord(item) {
+    const w = item.word
+    setQuery(w)
+    setError(null)
+    setSuggestions([])
+
+    // L1: device cache
+    const cached = await getCachedWord(w)
+    if (cached) { setEntry(cached); setSource('device'); return }
+
+    // L2: direct fetch using known category + slug (no index lookup needed)
+    setLoading(true)
+    setEntry(null)
+    try {
+      const data = await fetchSharedWord(item.slug, item.category)
+      if (data) {
+        let imageUrl = data.imageUrl || null
+        if (!imageUrl && data.imageQuery) imageUrl = await fetchWikiImage(data.imageQuery)
+        const withImage = { ...data, imageUrl }
+        await setCachedWord(w, withImage)
+        if (item.slug !== w.toLowerCase()) await setCachedWord(item.slug, withImage)
+        setEntry(withImage)
+        setSource('shared')
+        setWordCount(c => c + 1)
+        setHistory(prev => [withImage, ...prev.filter(x => x.word !== withImage.word)].slice(0, 20))
+        return
+      }
+      // Fallback: full lookup (generates via Claude if truly missing)
+      await lookupWord(w)
+    } catch (err) {
+      setError(err.message)
+    } finally {
+      setLoading(false)
+    }
+  }
+
   if (entry) {
     return (
       <div className="dict-page">
@@ -561,7 +608,7 @@ export default function DictionaryPage() {
                 <button
                   key={item.slug}
                   className="dict-history-card shared"
-                  onClick={() => { setQuery(item.word); lookupWord(item.word) }}
+                  onClick={() => handleSharedWord(item)}
                 >
                   <span className="dict-history-deva">{item.word}</span>
                   <span className="dict-history-roman">{item.transliteration}</span>
