@@ -41,6 +41,13 @@
   margin-bottom: 0.75rem;
 }
 
+.dict-word-count-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+
 .dict-word-count {
   display: inline-flex;
   align-items: center;
@@ -53,7 +60,10 @@
   padding: 0.25rem 0.65rem;
 }
 
-.dict-word-count-icon { font-size: 0.85rem; }
+.dict-word-count.shared {
+  border-color: rgba(100,130,200,0.3);
+  color: #8aaaf0;
+}
 
 /* ── Search ──────────────────────────────────────────────────────────── */
 
@@ -276,6 +286,8 @@
   cursor: pointer;
 }
 .dict-history-card:hover { border-color: var(--gold-dim); background: var(--bg-elevated); }
+.dict-history-card.shared { border-color: rgba(100,130,200,0.25); }
+.dict-history-card.shared:hover { border-color: rgba(100,130,200,0.6); background: rgba(100,130,200,0.06); }
 
 .dict-history-deva {
   font-family: 'Noto Sans Devanagari', sans-serif;
@@ -367,6 +379,11 @@
   border-color: var(--border-bright);
 }
 
+.dict-cache-badge.shared {
+  background: rgba(100,130,200,0.08);
+  border-color: rgba(100,130,200,0.3);
+}
+
 .dict-cache-icon {
   font-size: 1.1rem;
   line-height: 1;
@@ -382,6 +399,7 @@
 }
 
 .dict-cache-badge.cached .dict-cache-label { color: var(--teal); }
+.dict-cache-badge.shared .dict-cache-label { color: #8aaaf0; }
 .dict-cache-badge.live   .dict-cache-label { color: var(--gold-light); }
 
 .dict-cache-sub {

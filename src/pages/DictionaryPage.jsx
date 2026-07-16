@@ -39,6 +39,35 @@ async function fetchWikiImage(query) {
   } catch { return null }
 }
 
+// ── GitHub shared dictionary (Layer 2 cache) ──────────────────────────────────
+
+const DICT_RAW = 'https://raw.githubusercontent.com/saraindia/sanskrit/main/dictionary'
+
+async function checkSharedDictionary(query) {
+  try {
+    const res = await fetch(`${DICT_RAW}/_words.json`)
+    if (!res.ok) return null
+    const index = await res.json()
+    const q    = query.trim()
+    const qLow = q.toLowerCase()
+
+    // Direct IAST slug match
+    if (index[qLow]) {
+      const { category } = index[qLow]
+      const r = await fetch(`${DICT_RAW}/${category}/${qLow}.json`)
+      if (r.ok) return r.json()
+    }
+    // Devanagari word or English meaning match
+    for (const [slug, meta] of Object.entries(index)) {
+      if (meta.word === q || meta.meaning?.toLowerCase() === qLow) {
+        const r = await fetch(`${DICT_RAW}/${meta.category}/${slug}.json`)
+        if (r.ok) return r.json()
+      }
+    }
+    return null
+  } catch { return null }
+}
+
 // ── Filter chip component ─────────────────────────────────────────────────────
 
 function FilterGroup({ label, options, selected, onToggle }) {
@@ -97,7 +126,8 @@ function SentenceCard({ sentence, index }) {
 
 // ── Word detail view ──────────────────────────────────────────────────────────
 
-function WordDetail({ entry, fromCache, onBack }) {
+// source: 'device' | 'shared' | 'live'
+function WordDetail({ entry, source, onBack }) {
   const [image, setImage]         = useState(entry.imageUrl || null)
   const [imgLoading, setImgLoading] = useState(!entry.imageUrl)
   const [vachan, setVachan]       = useState(new Set())
@@ -138,22 +168,32 @@ function WordDetail({ entry, fromCache, onBack }) {
       {/* Back */}
       <button className="dict-back-btn" onClick={onBack}>← Back</button>
 
-      {/* Cache status badge */}
-      <div className={`dict-cache-badge ${fromCache ? 'cached' : 'live'}`}>
-        {fromCache ? (
+      {/* Source badge */}
+      <div className={`dict-cache-badge ${source === 'device' ? 'cached' : source === 'shared' ? 'shared' : 'live'}`}>
+        {source === 'device' && (
           <>
             <span className="dict-cache-icon">📦</span>
             <div className="dict-cache-text">
-              <span className="dict-cache-label">Cached result</span>
-              <span className="dict-cache-sub">Saved from a previous Claude lookup — instant, no API call</span>
+              <span className="dict-cache-label">Cached on your device</span>
+              <span className="dict-cache-sub">Saved from a previous lookup — instant, no API call</span>
             </div>
           </>
-        ) : (
+        )}
+        {source === 'shared' && (
+          <>
+            <span className="dict-cache-icon">🌐</span>
+            <div className="dict-cache-text">
+              <span className="dict-cache-label">From shared dictionary</span>
+              <span className="dict-cache-sub">Another user already looked this up — served from the community dictionary</span>
+            </div>
+          </>
+        )}
+        {source === 'live' && (
           <>
             <span className="dict-cache-icon">✦</span>
             <div className="dict-cache-text">
               <span className="dict-cache-label">Built live with Claude</span>
-              <span className="dict-cache-sub">First-time lookup — now saved to your dictionary forever</span>
+              <span className="dict-cache-sub">First-ever lookup — now in the shared dictionary for everyone</span>
             </div>
           </>
         )}
@@ -232,19 +272,72 @@ function WordDetail({ entry, fromCache, onBack }) {
 export default function DictionaryPage() {
   const [query, setQuery]           = useState('')
   const [entry, setEntry]           = useState(null)
-  const [fromCache, setFromCache]   = useState(false)
+  const [source, setSource]         = useState('live') // 'device' | 'shared' | 'live'
   const [loading, setLoading]       = useState(false)
   const [error, setError]           = useState(null)
   const [history, setHistory]       = useState([])
+  const [sharedWords, setSharedWords] = useState([]) // from GitHub _words.json
   const [wordCount, setWordCount]   = useState(0)
   const [suggestions, setSuggestions] = useState([])
-  const inputRef = useRef(null)
+  const inputRef      = useRef(null)
+  const inFlightRef   = useRef(null)
+  const localWordsRef = useRef([])   // raw IndexedDB words (for sync logic)
+  const sharedSlugsRef = useRef(null) // Set of slugs already in GitHub
+
+  function syncLocalToGitHub() {
+    const local = localWordsRef.current
+    const sharedSlugs = sharedSlugsRef.current
+    if (!local.length || !sharedSlugs) return
+
+    // Find unique words in IndexedDB not yet in GitHub (by IAST slug)
+    const toSync = new Map()
+    for (const w of local) {
+      const slug = w.slug || w.transliteration
+      if (slug && !sharedSlugs.has(slug) && !toSync.has(slug) && w.sentences?.length) {
+        toSync.set(slug, w)
+      }
+    }
+
+    // Fire-and-forget — runs in background, doesn't block UI
+    for (const wordData of toSync.values()) {
+      fetch('/api/dictionary-sync', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ wordData }),
+      }).catch(() => {})
+    }
+  }
 
   useEffect(() => {
     getCachedWordCount().then(setWordCount)
     getAllCachedWords().then(words => {
-      setHistory(words.sort((a, b) => (b.cachedAt || 0) - (a.cachedAt || 0)).slice(0, 20))
+      localWordsRef.current = words
+      // Deduplicate by word (Devanagari) — keep most recently cached entry per word
+      const seen = new Map()
+      for (const w of words.sort((a, b) => (b.cachedAt || 0) - (a.cachedAt || 0))) {
+        const key = w.word || w.cacheKey
+        if (!seen.has(key)) seen.set(key, w)
+      }
+      setHistory([...seen.values()].slice(0, 20))
+      syncLocalToGitHub()
     })
+    // Load shared dictionary index via our API (uses authenticated GitHub API — no CDN lag)
+    fetch('/api/dictionary-index')
+      .then(r => r.ok ? r.json() : null)
+      .then(index => {
+        if (!index) return
+        sharedSlugsRef.current = new Set(Object.keys(index))
+        const words = Object.entries(index).map(([slug, meta]) => ({
+          slug,
+          word: meta.word,
+          transliteration: meta.transliteration || slug,
+          meaning: meta.meaning,
+          category: meta.category,
+        }))
+        setSharedWords(words)
+        syncLocalToGitHub()
+      })
+      .catch(() => {})
   }, [])
 
   useEffect(() => {
@@ -264,23 +357,46 @@ export default function DictionaryPage() {
   const lookupWord = useCallback(async (searchWord) => {
     const w = (searchWord || query).trim()
     if (!w) return
+    // Prevent duplicate in-flight calls for the same word
+    if (inFlightRef.current === w) return
+    inFlightRef.current = w
+
     setError(null)
     setSuggestions([])
 
-    // Check cache first
+    // L1: IndexedDB device cache (instant)
     const cached = await getCachedWord(w)
     if (cached) {
       setEntry(cached)
-      setFromCache(true)
+      setSource('device')
       setLoading(false)
+      inFlightRef.current = null
       return
     }
 
-    // Live fetch
     setLoading(true)
     setEntry(null)
+
     try {
-      const res  = await fetch('/api/dictionary', {
+      // L2: GitHub shared dictionary (no API cost)
+      const shared = await checkSharedDictionary(w)
+      if (shared) {
+        let imageUrl = shared.imageUrl || null
+        if (!imageUrl && shared.imageQuery) imageUrl = await fetchWikiImage(shared.imageQuery)
+        const withImage = { ...shared, imageUrl }
+        // Save to L1 under both the typed query and the IAST slug
+        await setCachedWord(w, withImage)
+        if (shared.slug && shared.slug !== w.toLowerCase()) await setCachedWord(shared.slug, withImage)
+        setEntry(withImage)
+        setSource('shared')
+        setWordCount(c => c + 1)
+        setHistory(prev => [withImage, ...prev.filter(x => x.word !== withImage.word)].slice(0, 20))
+        setLoading(false)
+        return
+      }
+
+      // L3: Claude API (generates + writes to GitHub)
+      const res = await fetch('/api/dictionary', {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify({ word: w }),
@@ -291,22 +407,21 @@ export default function DictionaryPage() {
       }
       const data = await res.json()
 
-      // Fetch Wikipedia image and store URL with entry so it's cached too
-      let imageUrl = null
-      if (data.imageQuery) {
-        imageUrl = await fetchWikiImage(data.imageQuery)
-      }
+      let imageUrl = data.imageUrl || null
+      if (!imageUrl && data.imageQuery) imageUrl = await fetchWikiImage(data.imageQuery)
       const withImage = { ...data, imageUrl }
 
       await setCachedWord(w, withImage)
+      if (data.slug && data.slug !== w.toLowerCase()) await setCachedWord(data.slug, withImage)
       setEntry(withImage)
-      setFromCache(false)
+      setSource('live')
       setWordCount(c => c + 1)
-      setHistory(prev => [withImage, ...prev.filter(x => x.cacheKey !== withImage.cacheKey)].slice(0, 20))
+      setHistory(prev => [withImage, ...prev.filter(x => x.word !== withImage.word)].slice(0, 20))
     } catch (err) {
       setError(err.message || 'Something went wrong. Please try again.')
     } finally {
       setLoading(false)
+      inFlightRef.current = null
     }
   }, [query])
 
@@ -318,13 +433,13 @@ export default function DictionaryPage() {
   function handleHistory(item) {
     setQuery(item.word || item.cacheKey)
     setEntry(item)
-    setFromCache(true)
+    setSource('device')
   }
 
   if (entry) {
     return (
       <div className="dict-page">
-        <WordDetail entry={entry} fromCache={fromCache} onBack={() => { setEntry(null); setQuery('') }} />
+        <WordDetail entry={entry} source={source} onBack={() => { setEntry(null); setQuery('') }} />
       </div>
     )
   }
@@ -340,12 +455,14 @@ export default function DictionaryPage() {
         <p className="dict-page-sub">
           Look up any Sanskrit word to see its meaning, grammar, and 10 example sentences — questions, conversations, tenses, and more.
         </p>
-        {wordCount > 0 && (
-          <div className="dict-word-count">
-            <span className="dict-word-count-icon">📦</span>
-            {wordCount} word{wordCount !== 1 ? 's' : ''} cached in your dictionary
-          </div>
-        )}
+        <div className="dict-word-count-row">
+          {wordCount > 0 && (
+            <span className="dict-word-count"><span>📦</span> {wordCount} on your device</span>
+          )}
+          {sharedWords.length > 0 && (
+            <span className="dict-word-count shared"><span>🌐</span> {sharedWords.length} in shared dictionary</span>
+          )}
+        </div>
       </div>
 
       {/* Search */}
@@ -411,10 +528,10 @@ export default function DictionaryPage() {
         </div>
       )}
 
-      {/* Recent history */}
+      {/* Local recent lookups */}
       {!loading && history.length > 0 && (
         <div className="dict-history">
-          <div className="dict-history-title">Recent lookups</div>
+          <div className="dict-history-title">📦 Your recent lookups</div>
           <div className="dict-history-grid">
             {history.map(item => (
               <button
@@ -431,8 +548,33 @@ export default function DictionaryPage() {
         </div>
       )}
 
-      {/* Empty state */}
-      {!loading && history.length === 0 && (
+      {/* Shared dictionary from GitHub — visible on any device */}
+      {!loading && sharedWords.length > 0 && (() => {
+        const localSlugs = new Set(history.map(h => h.slug || h.transliteration || h.cacheKey))
+        const unseen = sharedWords.filter(w => !localSlugs.has(w.slug))
+        if (unseen.length === 0) return null
+        return (
+          <div className="dict-history">
+            <div className="dict-history-title">🌐 Shared dictionary</div>
+            <div className="dict-history-grid">
+              {unseen.map(item => (
+                <button
+                  key={item.slug}
+                  className="dict-history-card shared"
+                  onClick={() => { setQuery(item.word); lookupWord(item.word) }}
+                >
+                  <span className="dict-history-deva">{item.word}</span>
+                  <span className="dict-history-roman">{item.transliteration}</span>
+                  <span className="dict-history-meaning">{item.meaning}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )
+      })()}
+
+      {/* Empty state — only when nothing local AND nothing shared */}
+      {!loading && history.length === 0 && sharedWords.length === 0 && (
         <div className="dict-empty">
           <div className="dict-empty-icon">📖</div>
           <div className="dict-empty-title">Your dictionary is empty</div>
