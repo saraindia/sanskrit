@@ -29,14 +29,24 @@ const TYPE_OPTIONS = [
 
 // ── Image helpers ─────────────────────────────────────────────────────────────
 
-async function fetchWikiImage(query) {
-  try {
-    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(query)}`
-    const res = await fetch(url)
-    if (!res.ok) return null
-    const data = await res.json()
-    return data?.thumbnail?.source || data?.originalimage?.source || null
-  } catch { return null }
+async function fetchWikiImage(imageQuery, meaning) {
+  // Wikipedia needs an exact article title. Try progressively simpler terms.
+  const candidates = [
+    imageQuery,                          // e.g. "sun celestial"
+    imageQuery?.split(' ')[0],           // e.g. "sun"
+    meaning?.split(',')[0]?.trim(),      // e.g. "river" from "river, stream"
+  ].filter(Boolean)
+
+  for (const term of [...new Set(candidates)]) {
+    try {
+      const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(term)}`)
+      if (!res.ok) continue
+      const data = await res.json()
+      const img = data?.thumbnail?.source || data?.originalimage?.source
+      if (img) return img
+    } catch { continue }
+  }
+  return null
 }
 
 // ── GitHub shared dictionary (Layer 2 cache) ──────────────────────────────────
@@ -150,9 +160,13 @@ function WordDetail({ entry, source, onBack }) {
   useEffect(() => {
     if (entry.imageUrl) { setImage(entry.imageUrl); setImgLoading(false); return }
     if (!entry.imageQuery) { setImgLoading(false); return }
-    fetchWikiImage(entry.imageQuery).then(url => {
+    fetchWikiImage(entry.imageQuery, entry.meaning).then(url => {
       setImage(url)
       setImgLoading(false)
+      // Backfill the image URL into IndexedDB so future loads are instant
+      if (url && entry.cacheKey) {
+        setCachedWord(entry.cacheKey, { ...entry, imageUrl: url })
+      }
     })
   }, [entry.imageUrl, entry.imageQuery])
 
@@ -393,7 +407,7 @@ export default function DictionaryPage() {
       const shared = await checkSharedDictionary(w)
       if (shared) {
         let imageUrl = shared.imageUrl || null
-        if (!imageUrl && shared.imageQuery) imageUrl = await fetchWikiImage(shared.imageQuery)
+        if (!imageUrl && shared.imageQuery) imageUrl = await fetchWikiImage(shared.imageQuery, shared.meaning)
         const withImage = { ...shared, imageUrl }
         // Save to L1 under both the typed query and the IAST slug
         await setCachedWord(w, withImage)
@@ -419,7 +433,7 @@ export default function DictionaryPage() {
       const data = await res.json()
 
       let imageUrl = data.imageUrl || null
-      if (!imageUrl && data.imageQuery) imageUrl = await fetchWikiImage(data.imageQuery)
+      if (!imageUrl && data.imageQuery) imageUrl = await fetchWikiImage(data.imageQuery, data.meaning)
       const withImage = { ...data, imageUrl }
 
       await setCachedWord(w, withImage)
@@ -464,7 +478,7 @@ export default function DictionaryPage() {
       const data = await fetchSharedWord(item.slug, item.category)
       if (data) {
         let imageUrl = data.imageUrl || null
-        if (!imageUrl && data.imageQuery) imageUrl = await fetchWikiImage(data.imageQuery)
+        if (!imageUrl && data.imageQuery) imageUrl = await fetchWikiImage(data.imageQuery, data.meaning)
         const withImage = { ...data, imageUrl }
         await setCachedWord(w, withImage)
         if (item.slug !== w.toLowerCase()) await setCachedWord(item.slug, withImage)
