@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
-import { getCachedWord, setCachedWord, getAllCachedWords, getCachedWordCount } from '../utils/dictCache'
+import { getCachedWord, setCachedWord, getAllCachedWords } from '../utils/dictCache'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
 import './DictionaryPage.css'
@@ -302,7 +302,6 @@ export default function DictionaryPage() {
   const [error, setError]           = useState(null)
   const [history, setHistory]       = useState([])
   const [sharedWords, setSharedWords] = useState([]) // from GitHub _words.json
-  const [wordCount, setWordCount]   = useState(0)
   const [suggestions, setSuggestions] = useState([])
   const inputRef      = useRef(null)
   const inFlightRef   = useRef(null)
@@ -334,7 +333,6 @@ export default function DictionaryPage() {
   }
 
   useEffect(() => {
-    getCachedWordCount().then(setWordCount)
     getAllCachedWords().then(words => {
       localWordsRef.current = words
       // Deduplicate by word (Devanagari) — keep most recently cached entry per word
@@ -414,7 +412,7 @@ export default function DictionaryPage() {
         if (shared.slug && shared.slug !== w.toLowerCase()) await setCachedWord(shared.slug, withImage)
         setEntry(withImage)
         setSource('shared')
-        setWordCount(c => c + 1)
+
         setHistory(prev => [withImage, ...prev.filter(x => x.word !== withImage.word)].slice(0, 20))
         setLoading(false)
         return
@@ -484,7 +482,7 @@ export default function DictionaryPage() {
         if (item.slug !== w.toLowerCase()) await setCachedWord(item.slug, withImage)
         setEntry(withImage)
         setSource('shared')
-        setWordCount(c => c + 1)
+
         setHistory(prev => [withImage, ...prev.filter(x => x.word !== withImage.word)].slice(0, 20))
         return
       }
@@ -517,8 +515,8 @@ export default function DictionaryPage() {
           Look up any Sanskrit word to see its meaning, grammar, and 10 example sentences — questions, conversations, tenses, and more.
         </p>
         <div className="dict-word-count-row">
-          {wordCount > 0 && (
-            <span className="dict-word-count"><span>📦</span> {wordCount} on your device</span>
+          {history.length > 0 && (
+            <span className="dict-word-count"><span>📦</span> {history.length} on your device</span>
           )}
           {sharedWords.length > 0 && (
             <span className="dict-word-count shared"><span>🌐</span> {sharedWords.length} in shared dictionary</span>
