@@ -1,0 +1,114 @@
+{
+  "word": "सूर्य",
+  "transliteration": "surya",
+  "slug": "surya",
+  "meaning": "Sun",
+  "meaningExtended": "The sun; the solar deity in Hindu mythology; the visible celestial orb that provides light and heat to the world.",
+  "gender": "masculine",
+  "wordType": "noun",
+  "category": "nature",
+  "imageQuery": "sun celestial",
+  "sentences": [
+    {
+      "id": 1,
+      "devanagari": "सूर्य पूर्वे उदित भवति।",
+      "transliteration": "surya pūrve udita bhavati.",
+      "english": "The sun rises in the east.",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 2,
+      "devanagari": "सूर्यः सर्वस्य जीवनस्य कारणम् आसीत्।",
+      "transliteration": "suryaḥ sarvasya jīvanasya kāraṇam āsīt.",
+      "english": "The sun was the cause of all life.",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 3,
+      "devanagari": "सूर्य भविष्यति प्रकाशयिष्यति।",
+      "transliteration": "surya bhaviṣyati prakāśayiṣyati.",
+      "english": "The sun will shine in the future.",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "bhavishy",
+      "type": "statement"
+    },
+    {
+      "id": 4,
+      "devanagari": "किं सूर्यः दक्षिणे अस्ति?",
+      "transliteration": "kiṁ suryaḥ dakṣiṇe asti?",
+      "english": "Is the sun in the south?",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 5,
+      "devanagari": "कदा सूर्यो अस्ताचलम् प्रापणोति?",
+      "transliteration": "kadā suryo astāchalam prāpaṇoti?",
+      "english": "When does the sun reach the western mountain?",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 6,
+      "devanagari": "भो सूर्य, त्वं कथं इतरे ग्रहान् प्रकाशयसि?",
+      "transliteration": "bho surya, tvaṁ kathaṁ itare grahān prakāśayasi?",
+      "english": "O Sun, how do you illuminate the other planets?",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 7,
+      "devanagari": "सूर्य, त्वं सदा अग्निमान् भवसि।",
+      "transliteration": "surya, tvaṁ sadā agnimān bhavasi.",
+      "english": "Sun, you are always radiant.",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 8,
+      "devanagari": "सूर्यौ मिलितौ प्रकाशं द्विगुणम् दत:।",
+      "transliteration": "suryau militau prakāśaṁ dviguṇam dataḥ.",
+      "english": "The two suns together gave double the light.",
+      "vachan": "dvi",
+      "linga": "pullinga",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 9,
+      "devanagari": "सूर्याः नभसि शोभन्ते।",
+      "transliteration": "suryāḥ nabhasi śobhante.",
+      "english": "The suns shine beautifully in the sky.",
+      "vachan": "bahu",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 10,
+      "devanagari": "सूर्यो विश्वस्य आत्मा, तेजसां राजा च।",
+      "transliteration": "suryo viśvasya ātmā, tejasāṁ rājā cha.",
+      "english": "The sun is the soul of the universe and the king of radiances.",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "statement"
+    }
+  ],
+  "generatedAt": "2026-07-16T12:44:06.561Z"
+}
