@@ -9,7 +9,7 @@
 //   5. Return result
 
 const GITHUB_TOKEN  = process.env.GITHUB_DICT_TOKEN
-const GITHUB_REPO   = 'saraindia/sanskrit'
+const GITHUB_REPO   = 'saraindia/sanskrit-dict'
 const GITHUB_BRANCH = 'main'
 const GH_API        = `https://api.github.com/repos/${GITHUB_REPO}/contents`
 const GH_RAW        = `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}`

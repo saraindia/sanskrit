@@ -3,7 +3,7 @@
 // GET /api/dictionary-index
 
 const GITHUB_TOKEN = process.env.GITHUB_DICT_TOKEN
-const GITHUB_REPO  = 'saraindia/sanskrit'
+const GITHUB_REPO  = 'saraindia/sanskrit-dict'
 const GH_API       = `https://api.github.com/repos/${GITHUB_REPO}/contents`
 
 export default async function handler(req, res) {

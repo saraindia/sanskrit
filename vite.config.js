@@ -158,7 +158,7 @@ function ddNewsDevPlugin() {
 }
 
 function dictionaryIndexDevPlugin(env) {
-  const GITHUB_REPO = 'saraindia/sanskrit'
+  const GITHUB_REPO = 'saraindia/sanskrit-dict'
   const GH_API      = `https://api.github.com/repos/${GITHUB_REPO}/contents`
 
   return {
@@ -193,7 +193,7 @@ function dictionaryIndexDevPlugin(env) {
 }
 
 function dictionarySyncDevPlugin(env) {
-  const GITHUB_REPO   = 'saraindia/sanskrit'
+  const GITHUB_REPO   = 'saraindia/sanskrit-dict'
   const GITHUB_BRANCH = 'main'
   const GH_API        = `https://api.github.com/repos/${GITHUB_REPO}/contents`
 
@@ -310,7 +310,7 @@ function dictionarySyncDevPlugin(env) {
 }
 
 function dictionaryDevPlugin(env) {
-  const GITHUB_REPO   = 'saraindia/sanskrit'
+  const GITHUB_REPO   = 'saraindia/sanskrit-dict'
   const GITHUB_BRANCH = 'main'
   const GH_API        = `https://api.github.com/repos/${GITHUB_REPO}/contents`
   const GH_RAW        = `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}`

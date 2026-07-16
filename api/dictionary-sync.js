@@ -3,7 +3,7 @@
 // No Claude call — only used to sync words already generated (from IndexedDB) to the shared GitHub dict.
 
 const GITHUB_TOKEN  = process.env.GITHUB_DICT_TOKEN
-const GITHUB_REPO   = 'saraindia/sanskrit'
+const GITHUB_REPO   = 'saraindia/sanskrit-dict'
 const GITHUB_BRANCH = 'main'
 const GH_API        = `https://api.github.com/repos/${GITHUB_REPO}/contents`
 

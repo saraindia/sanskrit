@@ -51,7 +51,7 @@ async function fetchWikiImage(imageQuery, meaning) {
 
 // ── GitHub shared dictionary (Layer 2 cache) ──────────────────────────────────
 
-const DICT_RAW = 'https://raw.githubusercontent.com/saraindia/sanskrit/main/dictionary'
+const DICT_RAW = 'https://raw.githubusercontent.com/saraindia/sanskrit-dict/main/dictionary'
 
 // For typed searches: fetch index via our API (authenticated, no CDN lag),
 // then fetch the individual word file from raw CDN (immutable once written).
@@ -367,12 +367,17 @@ export default function DictionaryPage() {
     if (!query.trim()) { setSuggestions([]); return }
     const q = query.trim().toLowerCase()
     getAllCachedWords().then(words => {
-      const matches = words.filter(w =>
-        w.cacheKey?.includes(q) ||
-        w.word?.includes(query.trim()) ||
-        w.transliteration?.toLowerCase().includes(q) ||
-        w.meaning?.toLowerCase().includes(q)
-      ).slice(0, 6)
+      const seen = new Set()
+      const matches = words.filter(w => {
+        if (!( w.cacheKey?.includes(q) ||
+               w.word?.includes(query.trim()) ||
+               w.transliteration?.toLowerCase().includes(q) ||
+               w.meaning?.toLowerCase().includes(q) )) return false
+        const key = w.word || w.cacheKey
+        if (seen.has(key)) return false
+        seen.add(key)
+        return true
+      }).slice(0, 6)
       setSuggestions(matches)
     })
   }, [query])
@@ -438,7 +443,6 @@ export default function DictionaryPage() {
       if (data.slug && data.slug !== w.toLowerCase()) await setCachedWord(data.slug, withImage)
       setEntry(withImage)
       setSource('live')
-      setWordCount(c => c + 1)
       setHistory(prev => [withImage, ...prev.filter(x => x.word !== withImage.word)].slice(0, 20))
     } catch (err) {
       setError(err.message || 'Something went wrong. Please try again.')
