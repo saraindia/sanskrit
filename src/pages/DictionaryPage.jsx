@@ -53,9 +53,9 @@ async function fetchWikiImage(imageQuery, meaning) {
 
 const DICT_RAW = 'https://raw.githubusercontent.com/saraindia/sanskrit-dict/main/dictionary'
 
-// ── Monier-Williams local index (Layer 3 cache) ───────────────────────────────
+// ── Kosha local index (Layer 3 cache) ────────────────────────────────────────
 
-let _mwIndex    = null   // IAST key → entry
+let _mwIndex    = null   // Devanagari key → entry
 let _mwAsciiMap = null   // ascii → first IAST key (for fast lookup)
 let _mwLoading  = null   // in-flight Promise
 
@@ -68,8 +68,8 @@ async function loadMwIndex() {
       if (!res.ok) throw new Error(`HTTP ${res.status}`)
       _mwIndex    = await res.json()
       _mwAsciiMap = {}
-      for (const [iast, e] of Object.entries(_mwIndex)) {
-        if (!_mwAsciiMap[e.ascii]) _mwAsciiMap[e.ascii] = iast
+      for (const [key, e] of Object.entries(_mwIndex)) {
+        if (!_mwAsciiMap[e.ascii]) _mwAsciiMap[e.ascii] = key
       }
     } catch (e) {
       console.warn('[dict] MW index load failed:', e.message)
@@ -82,10 +82,15 @@ async function loadMwIndex() {
 function searchMwIndex(query) {
   if (!_mwIndex) return null
   const q = query.trim(); const qLow = q.toLowerCase()
-  const iast  = _mwIndex[qLow] ? qLow : _mwAsciiMap?.[qLow] ?? null
-  const entry = iast ? _mwIndex[iast] : Object.values(_mwIndex).find(e => e.word === q)
+  // New Kosha index: keyed by Devanagari. Try: Devanagari direct, ASCII map, or scan.
+  let entry = _mwIndex[q] || null
+  if (!entry) {
+    const devKey = _mwAsciiMap?.[qLow]
+    entry = devKey ? _mwIndex[devKey] : null
+  }
+  if (!entry) entry = Object.values(_mwIndex).find(e => e.ascii === qLow || e.meaning?.toLowerCase() === qLow) || null
   if (!entry) return null
-  return { ...entry, slug: entry.ascii || iast, fromMW: true, sentences: [] }
+  return { ...entry, slug: entry.ascii || qLow, fromMW: true, sentences: [] }
 }
 
 // For typed searches: fetch index via our API (authenticated, no CDN lag),
@@ -252,8 +257,8 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, loading: paren
           <>
             <span className="dict-cache-icon">📖</span>
             <div className="dict-cache-text">
-              <span className="dict-cache-label">Monier-Williams Dictionary</span>
-              <span className="dict-cache-sub">Classical Sanskrit dictionary — add example sentences with Claude below</span>
+              <span className="dict-cache-label">Kosha Practical Dictionary</span>
+              <span className="dict-cache-sub">Curated Sanskrit vocabulary — add example sentences with Claude below</span>
             </div>
           </>
         )}
@@ -449,9 +454,9 @@ export default function DictionaryPage() {
       const isEnglish = /^[a-z\s-]+$/.test(q) && _mwIndex
       const mwMatches = []
       if (isEnglish && cached.length < 6) {
-        for (const [iast, e] of Object.entries(_mwIndex)) {
+        for (const [devKey, e] of Object.entries(_mwIndex)) {
           if (e.meaning?.toLowerCase().includes(q)) {
-            const key = e.word || iast
+            const key = e.word || devKey
             if (!seen.has(key)) {
               seen.add(key)
               mwMatches.push({ ...e, slug: e.ascii || iast, fromMW: true, sentences: [] })
