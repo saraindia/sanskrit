@@ -466,6 +466,154 @@
   line-height: 1.4;
 }
 
+/* ── Word card (kosha layout) ────────────────────────────────────────── */
+
+.dict-word-card {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.25rem;
+  align-items: flex-start;
+}
+
+.dict-word-card-image {
+  width: 180px;
+  flex-shrink: 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--bg-elevated);
+  aspect-ratio: 1/1;
+}
+
+.dict-word-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.dict-word-card-img-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: var(--gold-dim);
+  opacity: 0.4;
+}
+
+.dict-word-card-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.dict-word-card-meaning {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #60a5fa;
+  margin-bottom: 0.35rem;
+  line-height: 1.2;
+}
+
+.dict-word-card-usable {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-size: 2rem;
+  color: var(--text-primary);
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dict-word-card-usable .dict-hero-speak {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+.dict-word-card-usable .dict-hero-speak:hover { background: rgba(255,255,255,0.15); }
+
+.dict-word-card-table {
+  border-left: 2px solid var(--border);
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.dict-word-card-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: baseline;
+}
+
+.dict-word-card-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+  width: 3.5rem;
+  flex-shrink: 0;
+}
+
+.dict-word-card-value {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: baseline;
+}
+
+.dict-word-card-ref {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  color: #60a5fa;
+  font-size: 0.95rem;
+}
+
+.dict-word-card-ref-en {
+  font-family: inherit;
+  font-size: 0.88rem;
+  color: #60a5fa;
+}
+
+.dict-word-card-usage .dict-word-card-value {
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.dict-word-card-sa {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.dict-word-card-en {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.dict-word-card-note {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+@media (max-width: 500px) {
+  .dict-word-card { flex-direction: column; }
+  .dict-word-card-image { width: 100%; aspect-ratio: 16/9; }
+}
+
 /* ── Hero image ──────────────────────────────────────────────────────── */
 
 .dict-hero {

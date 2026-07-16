@@ -273,37 +273,57 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, loading: paren
         )}
       </div>
 
-      {/* Image hero */}
-      <div className="dict-hero">
-        {image && !imgLoading && (
-          <img className="dict-hero-img" src={image} alt={entry.meaning} />
-        )}
-        {imgLoading && <div className="dict-hero-placeholder"><span className="dict-hero-om">ॐ</span></div>}
-        {!image && !imgLoading && <div className="dict-hero-placeholder dict-hero-no-img"><span className="dict-hero-om">ॐ</span></div>}
-        <div className="dict-hero-overlay">
-          <div className="dict-hero-word">
-            <span className="dict-hero-deva">{entry.word}</span>
+      {/* Word card */}
+      <div className="dict-word-card">
+        <div className="dict-word-card-image">
+          {image && !imgLoading && <img src={image} alt={entry.meaning} />}
+          {imgLoading && <div className="dict-word-card-img-placeholder"><span>ॐ</span></div>}
+          {!image && !imgLoading && <div className="dict-word-card-img-placeholder"><span>ॐ</span></div>}
+        </div>
+        <div className="dict-word-card-info">
+          <div className="dict-word-card-meaning">{entry.meaning}</div>
+          <div className="dict-word-card-usable">
+            {entry.usable || entry.word}
             <button
               className={`dict-hero-speak ${isWordPlaying ? 'playing' : ''}`}
-              onClick={() => speak(entry.word)}
+              onClick={() => speak(entry.usable || entry.word)}
               aria-label="Pronounce"
             >
-              <SpeakIcon size="18px" />
+              <SpeakIcon size="15px" />
             </button>
           </div>
-          <div className="dict-hero-roman">{entry.transliteration}</div>
-          <div className="dict-hero-meaning">{entry.meaning}</div>
+          <div className="dict-word-card-table">
+            <div className="dict-word-card-row">
+              <span className="dict-word-card-label">Root</span>
+              <span className="dict-word-card-value">
+                ({entry.word}{entry.gender ? ` — ${entry.gender}` : ''}{entry.wordType ? `, ${entry.wordType}` : ''})
+              </span>
+            </div>
+            <div className="dict-word-card-row">
+              <span className="dict-word-card-label">Ref</span>
+              <span className="dict-word-card-value">
+                <span className="dict-word-card-ref">{entry.word}</span>
+                {entry.meaning && <span className="dict-word-card-ref dict-word-card-ref-en">{entry.meaning.toLowerCase()}</span>}
+              </span>
+            </div>
+            {(entry.sampleSa || entry.sentences?.[0]) && (
+              <div className="dict-word-card-row dict-word-card-usage">
+                <span className="dict-word-card-label">Usage</span>
+                <span className="dict-word-card-value">
+                  <span className="dict-word-card-sa">{entry.sampleSa || entry.sentences?.[0]?.devanagari}</span>
+                  <span className="dict-word-card-en">{entry.sampleEn || entry.sentences?.[0]?.english}</span>
+                </span>
+              </div>
+            )}
+            {entry.meaningExtended && (
+              <div className="dict-word-card-row">
+                <span className="dict-word-card-label">Note</span>
+                <span className="dict-word-card-value dict-word-card-note">{entry.meaningExtended}</span>
+              </div>
+            )}
+          </div>
         </div>
       </div>
-
-      {/* Word metadata */}
-      <div className="dict-meta-row">
-        {entry.gender && <span className="dict-meta-chip">{entry.gender}</span>}
-        {entry.wordType && <span className="dict-meta-chip">{entry.wordType}</span>}
-      </div>
-      {entry.meaningExtended && (
-        <p className="dict-meaning-extended">{entry.meaningExtended}</p>
-      )}
 
       {/* MW-only: no sentences yet */}
       {source === 'dictionary' ? (
