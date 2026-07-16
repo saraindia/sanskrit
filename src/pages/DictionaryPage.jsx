@@ -53,6 +53,41 @@ async function fetchWikiImage(imageQuery, meaning) {
 
 const DICT_RAW = 'https://raw.githubusercontent.com/saraindia/sanskrit-dict/main/dictionary'
 
+// ── Monier-Williams local index (Layer 3 cache) ───────────────────────────────
+
+let _mwIndex    = null   // IAST key → entry
+let _mwAsciiMap = null   // ascii → first IAST key (for fast lookup)
+let _mwLoading  = null   // in-flight Promise
+
+async function loadMwIndex() {
+  if (_mwIndex)   return
+  if (_mwLoading) { await _mwLoading; return }
+  _mwLoading = (async () => {
+    try {
+      const res = await fetch(`${DICT_RAW}/_mw-index.json`)
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      _mwIndex    = await res.json()
+      _mwAsciiMap = {}
+      for (const [iast, e] of Object.entries(_mwIndex)) {
+        if (!_mwAsciiMap[e.ascii]) _mwAsciiMap[e.ascii] = iast
+      }
+    } catch (e) {
+      console.warn('[dict] MW index load failed:', e.message)
+      _mwIndex = {}; _mwAsciiMap = {}
+    }
+  })()
+  await _mwLoading
+}
+
+function searchMwIndex(query) {
+  if (!_mwIndex) return null
+  const q = query.trim(); const qLow = q.toLowerCase()
+  const iast  = _mwIndex[qLow] ? qLow : _mwAsciiMap?.[qLow] ?? null
+  const entry = iast ? _mwIndex[iast] : Object.values(_mwIndex).find(e => e.word === q)
+  if (!entry) return null
+  return { ...entry, slug: entry.ascii || iast, fromMW: true, sentences: [] }
+}
+
 // For typed searches: fetch index via our API (authenticated, no CDN lag),
 // then fetch the individual word file from raw CDN (immutable once written).
 async function checkSharedDictionary(query) {
@@ -147,8 +182,8 @@ function SentenceCard({ sentence, index }) {
 
 // ── Word detail view ──────────────────────────────────────────────────────────
 
-// source: 'device' | 'shared' | 'live'
-function WordDetail({ entry, source, onBack }) {
+// source: 'device' | 'shared' | 'dictionary' | 'live'
+function WordDetail({ entry, source, onBack, onGenerateSentences, loading: parentLoading, error: parentError }) {
   const [image, setImage]         = useState(entry.imageUrl || null)
   const [imgLoading, setImgLoading] = useState(!entry.imageUrl)
   const [vachan, setVachan]       = useState(new Set())
@@ -194,7 +229,7 @@ function WordDetail({ entry, source, onBack }) {
       <button className="dict-back-btn" onClick={onBack}>← Back</button>
 
       {/* Source badge */}
-      <div className={`dict-cache-badge ${source === 'device' ? 'cached' : source === 'shared' ? 'shared' : 'live'}`}>
+      <div className={`dict-cache-badge ${source === 'device' ? 'cached' : source === 'shared' ? 'shared' : source === 'dictionary' ? 'dictionary' : 'live'}`}>
         {source === 'device' && (
           <>
             <span className="dict-cache-icon">📦</span>
@@ -210,6 +245,15 @@ function WordDetail({ entry, source, onBack }) {
             <div className="dict-cache-text">
               <span className="dict-cache-label">From shared dictionary</span>
               <span className="dict-cache-sub">Another user already looked this up — served from the community dictionary</span>
+            </div>
+          </>
+        )}
+        {source === 'dictionary' && (
+          <>
+            <span className="dict-cache-icon">📖</span>
+            <div className="dict-cache-text">
+              <span className="dict-cache-label">Monier-Williams Dictionary</span>
+              <span className="dict-cache-sub">Classical Sanskrit dictionary — add example sentences with Claude below</span>
             </div>
           </>
         )}
@@ -256,6 +300,24 @@ function WordDetail({ entry, source, onBack }) {
         <p className="dict-meaning-extended">{entry.meaningExtended}</p>
       )}
 
+      {/* MW-only: no sentences yet */}
+      {source === 'dictionary' ? (
+        <div className="dict-generate-box">
+          <div className="dict-generate-title">उदाहरण वाक्यानि</div>
+          <p className="dict-generate-desc">
+            Generate 10 example sentences with tenses, filters, and audio — powered by Claude AI.
+          </p>
+          {parentError && <div className="dict-error">{parentError}</div>}
+          <button
+            className="dict-generate-btn"
+            onClick={onGenerateSentences}
+            disabled={parentLoading}
+          >
+            {parentLoading ? 'Generating…' : '✦ Generate sentences with Claude'}
+          </button>
+        </div>
+      ) : (
+        <>
       {/* Filters */}
       <div className="dict-filters">
         <div className="dict-filters-title">Filter sentences</div>
@@ -287,6 +349,8 @@ function WordDetail({ entry, source, onBack }) {
         <div className="dict-sentence-list">
           {filtered.map((s, i) => <SentenceCard key={s.id || i} sentence={s} index={i} />)}
         </div>
+      )}
+        </>
       )}
     </div>
   )
@@ -333,6 +397,7 @@ export default function DictionaryPage() {
   }
 
   useEffect(() => {
+    loadMwIndex() // start loading MW index in background
     getAllCachedWords().then(words => {
       localWordsRef.current = words
       // Deduplicate by word (Devanagari) — keep most recently cached entry per word
@@ -423,7 +488,20 @@ export default function DictionaryPage() {
         return
       }
 
-      // L3: Claude API (generates + writes to GitHub)
+      // L3: Monier-Williams local index (free, instant — no sentences)
+      const mwResult = searchMwIndex(w)
+      if (mwResult) {
+        let imageUrl = null
+        if (mwResult.imageQuery) imageUrl = await fetchWikiImage(mwResult.imageQuery, mwResult.meaning)
+        const withImage = { ...mwResult, imageUrl }
+        setEntry(withImage)
+        setSource('dictionary')
+        setLoading(false)
+        inFlightRef.current = null
+        return
+      }
+
+      // L4: Claude API (generates + writes to GitHub)
       const res = await fetch('/api/dictionary', {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -451,6 +529,34 @@ export default function DictionaryPage() {
       inFlightRef.current = null
     }
   }, [query])
+
+  async function generateSentences() {
+    if (!entry) return
+    const w = entry.word || query
+    setLoading(true)
+    setError(null)
+    try {
+      const res = await fetch('/api/dictionary', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ word: w }),
+      })
+      if (!res.ok) { const e = await res.json().catch(() => ({})); throw new Error(e.error || `HTTP ${res.status}`) }
+      const data = await res.json()
+      let imageUrl = data.imageUrl || entry.imageUrl || null
+      if (!imageUrl && data.imageQuery) imageUrl = await fetchWikiImage(data.imageQuery, data.meaning)
+      const withImage = { ...data, imageUrl }
+      await setCachedWord(w, withImage)
+      if (data.slug && data.slug !== w.toLowerCase()) await setCachedWord(data.slug, withImage)
+      setEntry(withImage)
+      setSource('live')
+      setHistory(prev => [withImage, ...prev.filter(x => x.word !== withImage.word)].slice(0, 20))
+    } catch (err) {
+      setError(err.message || 'Something went wrong.')
+    } finally {
+      setLoading(false)
+    }
+  }
 
   function handleSubmit(e) {
     e.preventDefault()
@@ -502,7 +608,7 @@ export default function DictionaryPage() {
   if (entry) {
     return (
       <div className="dict-page">
-        <WordDetail entry={entry} source={source} onBack={() => { setEntry(null); setQuery('') }} />
+        <WordDetail entry={entry} source={source} onBack={() => { setEntry(null); setQuery('') }} onGenerateSentences={generateSentences} loading={loading} error={error} />
       </div>
     )
   }
