@@ -1,0 +1,117 @@
+{
+  "word": "वर्षा",
+  "transliteration": "varṣā",
+  "meaning": "Rain",
+  "meaningExtended": "The falling of water from clouds; the rainy season in the Indian subcontinent, typically occurring from June to September.",
+  "gender": "feminine",
+  "wordType": "noun",
+  "imageQuery": "monsoon rain",
+  "sentences": [
+    {
+      "id": 1,
+      "devanagari": "वर्षा आकाशात् पतति।",
+      "transliteration": "varṣā ākāśāt patati.",
+      "english": "Rain falls from the sky.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 2,
+      "devanagari": "गते वर्षे भारी वर्षा अभवत्।",
+      "transliteration": "gate varṣe bhārī varṣā abhavat.",
+      "english": "Last year, there was heavy rain.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 3,
+      "devanagari": "आगामी मासे वर्षा भविष्यति।",
+      "transliteration": "āgāmī māse varṣā bhaviṣyati.",
+      "english": "Rain will occur in the coming month.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhavishy",
+      "type": "statement"
+    },
+    {
+      "id": 4,
+      "devanagari": "किम् वर्षा आज पतिष्यति?",
+      "transliteration": "kim varṣā āja patiṣyati?",
+      "english": "Will rain fall today?",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhavishy",
+      "type": "question"
+    },
+    {
+      "id": 5,
+      "devanagari": "कीदृशी वर्षा भारते अनुभूयते?",
+      "transliteration": "kīdṛśī varṣā bhārate anubhūyate?",
+      "english": "What kind of rain is experienced in India?",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 6,
+      "devanagari": "अहं वर्षाप्रेमी अस्मि, तव किम्?",
+      "transliteration": "ahaṁ varṣāpremi asmi, tava kim?",
+      "english": "I love rain; what about you?",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 7,
+      "devanagari": "वर्षा आयाति, तदा सर्वं हरितं भवति।",
+      "transliteration": "varṣā āyāti, tadā sarvaṁ haritaṁ bhavati.",
+      "english": "When rain comes, everything becomes green.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 8,
+      "devanagari": "इमे द्वे वर्षे उष्णे आसन्।",
+      "transliteration": "ime dve varṣe uṣṇe āsan.",
+      "english": "These two rain seasons were hot.",
+      "vachan": "dvi",
+      "linga": "striling",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 9,
+      "devanagari": "बहुविधाः वर्षाः पृथिव्याः जीवनं पोषयन्ति।",
+      "transliteration": "bahuvidhāḥ varṣāḥ pṛthivyāḥ jīvanaṁ poṣayanti.",
+      "english": "Various rains nourish the life of the earth.",
+      "vachan": "bahu",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 10,
+      "devanagari": "वर्षा जीवनस्य सलिलं, संसारस्य आशीर्वादः।",
+      "transliteration": "varṣā jīvanasya salilaṁ, saṁsārasya āśīrvādaḥ.",
+      "english": "Rain is the water of life, the blessing of the world.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "statement"
+    }
+  ],
+  "generatedAt": "2026-07-16T12:28:42.240Z",
+  "imageUrl": null,
+  "cacheKey": "वर्षा",
+  "cachedAt": 1784204922890,
+  "slug": "varṣā",
+  "category": "miscellaneous"
+}
