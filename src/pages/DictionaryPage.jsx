@@ -6,7 +6,25 @@ import './DictionaryPage.css'
 
 // ── Image helpers ─────────────────────────────────────────────────────────────
 
+const LS_IMG_KEY = 'dict-img-cache-v1'
+let _imgCache = null
+
+function getImgCache() {
+  if (_imgCache) return _imgCache
+  try { _imgCache = JSON.parse(localStorage.getItem(LS_IMG_KEY) || '{}') }
+  catch { _imgCache = {} }
+  return _imgCache
+}
+
+function saveImgCache() {
+  try { localStorage.setItem(LS_IMG_KEY, JSON.stringify(_imgCache)) } catch {}
+}
+
 async function fetchWikiImage(imageQuery, meaning) {
+  const cache = getImgCache()
+  const cacheKey = imageQuery || meaning
+  if (cacheKey && cache[cacheKey] !== undefined) return cache[cacheKey] || null
+
   // Wikipedia needs an exact article title. Try progressively simpler terms.
   const candidates = [
     imageQuery,                          // e.g. "sun celestial"
@@ -20,9 +38,14 @@ async function fetchWikiImage(imageQuery, meaning) {
       if (!res.ok) continue
       const data = await res.json()
       const img = data?.thumbnail?.source || data?.originalimage?.source
-      if (img) return img
+      if (img) {
+        if (cacheKey) { cache[cacheKey] = img; saveImgCache() }
+        return img
+      }
     } catch { continue }
   }
+  // Cache misses too so we don't re-query on every render
+  if (cacheKey) { cache[cacheKey] = ''; saveImgCache() }
   return null
 }
 
