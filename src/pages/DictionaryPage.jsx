@@ -55,9 +55,11 @@ const DICT_RAW = 'https://raw.githubusercontent.com/saraindia/sanskrit-dict/main
 
 // ── Kosha local index (Layer 3 cache) ────────────────────────────────────────
 
-let _mwIndex    = null   // Devanagari key → entry
-let _mwAsciiMap = null   // ascii → first IAST key (for fast lookup)
-let _mwLoading  = null   // in-flight Promise
+let _mwIndex      = null   // Devanagari key → entry
+let _mwAsciiMap   = null   // ascii → Devanagari key
+let _mwLoading    = null   // in-flight Promise
+let _sentences    = null   // Devanagari key → sentences[]
+let _sentLoading  = null
 
 async function loadMwIndex() {
   if (_mwIndex)   return
@@ -79,18 +81,37 @@ async function loadMwIndex() {
   await _mwLoading
 }
 
+async function loadSentences() {
+  if (_sentences)   return
+  if (_sentLoading) { await _sentLoading; return }
+  _sentLoading = (async () => {
+    try {
+      const res = await fetch('/dict-sentences.json')
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      _sentences = await res.json()
+    } catch (e) {
+      console.warn('[dict] sentences bundle load failed:', e.message)
+      _sentences = {}
+    }
+  })()
+  await _sentLoading
+}
+
 function searchMwIndex(query) {
   if (!_mwIndex) return null
   const q = query.trim(); const qLow = q.toLowerCase()
-  // New Kosha index: keyed by Devanagari. Try: Devanagari direct, ASCII map, or scan.
-  let entry = _mwIndex[q] || null
-  if (!entry) {
-    const devKey = _mwAsciiMap?.[qLow]
-    entry = devKey ? _mwIndex[devKey] : null
+  // Keyed by Devanagari. Try: direct, ASCII map, then scan.
+  let devKey = null
+  if (_mwIndex[q])       devKey = q
+  else if (_mwAsciiMap?.[qLow]) devKey = _mwAsciiMap[qLow]
+  else {
+    const found = Object.entries(_mwIndex).find(([,e]) => e.ascii === qLow || e.meaning?.toLowerCase() === qLow)
+    devKey = found?.[0] ?? null
   }
-  if (!entry) entry = Object.values(_mwIndex).find(e => e.ascii === qLow || e.meaning?.toLowerCase() === qLow) || null
-  if (!entry) return null
-  return { ...entry, slug: entry.ascii || qLow, fromMW: true, sentences: [] }
+  if (!devKey) return null
+  const entry = _mwIndex[devKey]
+  const sentences = _sentences?.[devKey] || []
+  return { ...entry, slug: entry.ascii || qLow, fromMW: true, sentences }
 }
 
 // For typed searches: fetch index via our API (authenticated, no CDN lag),
@@ -233,100 +254,54 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, loading: paren
       {/* Back */}
       <button className="dict-back-btn" onClick={onBack}>← Back</button>
 
-      {/* Source badge */}
-      <div className={`dict-cache-badge ${source === 'device' ? 'cached' : source === 'shared' ? 'shared' : source === 'dictionary' ? 'dictionary' : 'live'}`}>
-        {source === 'device' && (
-          <>
-            <span className="dict-cache-icon">📦</span>
-            <div className="dict-cache-text">
-              <span className="dict-cache-label">Cached on your device</span>
-              <span className="dict-cache-sub">Saved from a previous lookup — instant, no API call</span>
-            </div>
-          </>
-        )}
-        {source === 'shared' && (
-          <>
-            <span className="dict-cache-icon">🌐</span>
-            <div className="dict-cache-text">
-              <span className="dict-cache-label">From shared dictionary</span>
-              <span className="dict-cache-sub">Another user already looked this up — served from the community dictionary</span>
-            </div>
-          </>
-        )}
-        {source === 'dictionary' && (
-          <>
-            <span className="dict-cache-icon">📖</span>
-            <div className="dict-cache-text">
-              <span className="dict-cache-label">Kosha Practical Dictionary</span>
-              <span className="dict-cache-sub">Curated Sanskrit vocabulary — add example sentences with Claude below</span>
-            </div>
-          </>
-        )}
-        {source === 'live' && (
-          <>
-            <span className="dict-cache-icon">✦</span>
-            <div className="dict-cache-text">
-              <span className="dict-cache-label">Built live with Claude</span>
-              <span className="dict-cache-sub">First-ever lookup — now in the shared dictionary for everyone</span>
-            </div>
-          </>
-        )}
-      </div>
-
       {/* Word card */}
       <div className="dict-word-card">
         <div className="dict-word-card-image">
           {image && !imgLoading && <img src={image} alt={entry.meaning} />}
-          {imgLoading && <div className="dict-word-card-img-placeholder"><span>ॐ</span></div>}
-          {!image && !imgLoading && <div className="dict-word-card-img-placeholder"><span>ॐ</span></div>}
+          {(imgLoading || !image) && <div className="dict-word-card-img-placeholder"><span>ॐ</span></div>}
         </div>
-        <div className="dict-word-card-info">
-          <div className="dict-word-card-meaning">{entry.meaning}</div>
-          <div className="dict-word-card-usable">
-            {entry.usable || entry.word}
+        <div className="dict-word-card-body">
+          <div className="dict-word-card-en">{entry.meaning}</div>
+          <div className="dict-word-card-headline">
+            <span className="dict-word-card-dev">{entry.usable || entry.word}</span>
             <button
-              className={`dict-hero-speak ${isWordPlaying ? 'playing' : ''}`}
+              className={`dict-speak-inline ${isWordPlaying ? 'playing' : ''}`}
               onClick={() => speak(entry.usable || entry.word)}
               aria-label="Pronounce"
             >
-              <SpeakIcon size="15px" />
+              <SpeakIcon size="13px" />
             </button>
           </div>
-          <div className="dict-word-card-table">
-            <div className="dict-word-card-row">
-              <span className="dict-word-card-label">Root</span>
-              <span className="dict-word-card-value">
-                ({entry.word}{entry.gender ? ` — ${entry.gender}` : ''}{entry.wordType ? `, ${entry.wordType}` : ''})
-              </span>
-            </div>
-            <div className="dict-word-card-row">
-              <span className="dict-word-card-label">Ref</span>
-              <span className="dict-word-card-value">
-                <span className="dict-word-card-ref">{entry.word}</span>
-                {entry.meaning && <span className="dict-word-card-ref dict-word-card-ref-en">{entry.meaning.toLowerCase()}</span>}
-              </span>
-            </div>
-            {(entry.sampleSa || entry.sentences?.[0]) && (
-              <div className="dict-word-card-row dict-word-card-usage">
-                <span className="dict-word-card-label">Usage</span>
-                <span className="dict-word-card-value">
-                  <span className="dict-word-card-sa">{entry.sampleSa || entry.sentences?.[0]?.devanagari}</span>
-                  <span className="dict-word-card-en">{entry.sampleEn || entry.sentences?.[0]?.english}</span>
-                </span>
-              </div>
+          <div className="dict-word-card-meta">
+            {entry.usable && entry.usable !== entry.word && (
+              <span className="dict-word-card-root-word">{entry.word}</span>
             )}
-            {entry.meaningExtended && (
-              <div className="dict-word-card-row">
-                <span className="dict-word-card-label">Note</span>
-                <span className="dict-word-card-value dict-word-card-note">{entry.meaningExtended}</span>
-              </div>
-            )}
+            {entry.gender && <span className="dict-word-card-gender">{entry.gender}</span>}
+            {entry.wordType && <span className="dict-word-card-gender">{entry.wordType}</span>}
+          </div>
+          <div className="dict-word-card-chips">
+            {entry.category && <span className="dict-wc-chip">{entry.category}</span>}
+            {entry.difficulty && <span className={`dict-wc-chip dict-wc-diff-${entry.difficulty?.toLowerCase()}`}>{entry.difficulty}</span>}
+          </div>
+          {(entry.sampleSa || entry.sentences?.[0]) && (
+            <div className="dict-word-card-quote">
+              <p className="dict-wc-quote-sa">{entry.sampleSa || entry.sentences?.[0]?.devanagari}</p>
+              <p className="dict-wc-quote-en">{entry.sampleEn || entry.sentences?.[0]?.english}</p>
+            </div>
+          )}
+          {entry.meaningExtended && !entry.sampleSa && !entry.sentences?.[0] && (
+            <p className="dict-wc-note">{entry.meaningExtended}</p>
+          )}
+          <div className="dict-word-card-source">
+            {source === 'device'     && '📦 cached on device'}
+            {source === 'shared'     && '🌐 community dictionary'}
+            {source === 'dictionary' && '📖 kosha vocabulary'}
+            {source === 'live'       && '✦ generated with Claude'}
           </div>
         </div>
       </div>
 
-      {/* MW-only: no sentences yet */}
-      {source === 'dictionary' ? (
+      {source === 'dictionary' && (
         <div className="dict-generate-box">
           <div className="dict-generate-title">उदाहरण वाक्यानि</div>
           <p className="dict-generate-desc">
@@ -341,8 +316,9 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, loading: paren
             {parentLoading ? 'Generating…' : '✦ Generate sentences with Claude'}
           </button>
         </div>
-      ) : (
-        <>
+      )}
+
+      {source !== 'dictionary' && <>
       {/* Filters */}
       <div className="dict-filters">
         <div className="dict-filters-title">Filter sentences</div>
@@ -375,8 +351,7 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, loading: paren
           {filtered.map((s, i) => <SentenceCard key={s.id || i} sentence={s} index={i} />)}
         </div>
       )}
-        </>
-      )}
+      </>}
     </div>
   )
 }
@@ -423,7 +398,8 @@ export default function DictionaryPage() {
   }
 
   useEffect(() => {
-    loadMwIndex() // start loading MW index in background
+    loadMwIndex()    // start loading Kosha index in background
+    loadSentences()  // start loading bundled sentences in background
     getAllCachedWords().then(words => {
       localWordsRef.current = words
       // Deduplicate by word (Devanagari) — keep most recently cached entry per word
@@ -532,14 +508,14 @@ export default function DictionaryPage() {
         return
       }
 
-      // L3: Monier-Williams local index (free, instant — no sentences)
+      // L3: Kosha local index — sentences from bundle if available
+      await loadSentences()
       const mwResult = searchMwIndex(w)
       if (mwResult) {
-        let imageUrl = null
-        if (mwResult.imageQuery) imageUrl = await fetchWikiImage(mwResult.imageQuery, mwResult.meaning)
-        const withImage = { ...mwResult, imageUrl }
+        const withImage = { ...mwResult, imageUrl: mwResult.imageUrl || null }
         setEntry(withImage)
-        setSource('dictionary')
+        // If we have bundled sentences, treat as 'shared' so filters/sentences show
+        setSource(mwResult.sentences?.length ? 'shared' : 'dictionary')
         setLoading(false)
         inFlightRef.current = null
         return
