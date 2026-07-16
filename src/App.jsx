@@ -18,6 +18,7 @@ const GrammarPage   = lazy(() => import('./pages/GrammarPage'))
 const DDNewsPage        = lazy(() => import('./pages/DDNewsPage'))
 const SanskritCoursePage= lazy(() => import('./pages/SanskritCoursePage'))
 const VarnamalaPage     = lazy(() => import('./pages/VarnamalaPage'))
+const DictionaryPage    = lazy(() => import('./pages/DictionaryPage'))
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
 import { PurchaseProvider, usePurchase } from './context/PurchaseContext'
@@ -34,7 +35,7 @@ import './styles/app.css'
 
 const STUDY_ROUTES = ['/study', '/flashcards', '/drill', '/fill', '/match', '/grammar', '/grammar/pronouns', '/grammar/endings', '/grammar/verbs', '/grammar/nouns', '/grammar/vibhakti', '/grammar/tenses', '/grammar/explorer', '/grammar/questions', '/grammar/gender', '/course']
 const TEXTS_ROUTES = ['/texts', '/gita', '/upanishads', '/brahmasutras', '/yogasutras']
-const MORE_ROUTES  = ['/podcast', '/ddnews']
+const MORE_ROUTES  = ['/podcast', '/ddnews', '/dictionary']
 
 const SIDEBAR_GROUPS = [
   { label: null, items: [{ to: '/', label: 'Home', icon: '🏠', end: true }] },
@@ -60,7 +61,8 @@ const SIDEBAR_GROUPS = [
     { to: '/upanishads', label: 'Upaniṣad',   icon: '🕉️' },
     { to: '/story',      label: 'Stories',    icon: '📖' },
     { to: '/podcast',    label: 'Listen',     icon: '🎧' },
-    { to: '/ddnews',     label: 'Skt Vārtā',  icon: '📺' },
+    { to: '/ddnews',      label: 'Skt Vārtā',  icon: '📺' },
+    { to: '/dictionary',  label: 'Dictionary', icon: '📖' },
   ]},
 ]
 
@@ -173,7 +175,8 @@ function AppShell() {
           <Route path="/podcast"    element={<PodcastPage />} />
           <Route path="/ddnews"    element={<DDNewsPage />} />
           <Route path="/course"      element={<SanskritCoursePage />} />
-          <Route path="/varnamala"  element={<VarnamalaPage />} />
+          <Route path="/varnamala"   element={<VarnamalaPage />} />
+          <Route path="/dictionary" element={<DictionaryPage />} />
         </Routes>
         </Suspense>
       </main>
@@ -279,6 +282,10 @@ function AppShell() {
               <NavLink to="/ddnews" className="more-sheet-item" onClick={() => setMoreOpen(false)}>
                 <span className="more-sheet-icon">📺</span>
                 <span className="more-sheet-label">Skt Vārtā</span>
+              </NavLink>
+              <NavLink to="/dictionary" className="more-sheet-item" onClick={() => setMoreOpen(false)}>
+                <span className="more-sheet-icon">📖</span>
+                <span className="more-sheet-label">Dictionary</span>
               </NavLink>
             </div>
           </div>
