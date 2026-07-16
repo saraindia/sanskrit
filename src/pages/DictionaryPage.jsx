@@ -4,29 +4,6 @@ import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
 import './DictionaryPage.css'
 
-// ── Filter config ─────────────────────────────────────────────────────────────
-
-const VACHAN_OPTIONS = [
-  { value: 'eka',  label: 'एकवचन',  sub: 'Singular' },
-  { value: 'dvi',  label: 'द्विवचन', sub: 'Dual' },
-  { value: 'bahu', label: 'बहुवचन', sub: 'Plural' },
-]
-const LINGA_OPTIONS = [
-  { value: 'pullinga',  label: 'पुल्लिङ्ग',   sub: 'Masculine' },
-  { value: 'striling',  label: 'स्त्रीलिङ्ग', sub: 'Feminine' },
-  { value: 'napumsaka', label: 'नपुंसक',       sub: 'Neuter' },
-]
-const KAAL_OPTIONS = [
-  { value: 'vartaman', label: 'वर्तमान', sub: 'Present' },
-  { value: 'bhoota',   label: 'भूत',     sub: 'Past' },
-  { value: 'bhavishy', label: 'भविष्य',  sub: 'Future' },
-]
-const TYPE_OPTIONS = [
-  { value: 'statement',    label: 'वाक्य',      sub: 'Statement' },
-  { value: 'question',     label: 'प्रश्न',     sub: 'Question' },
-  { value: 'conversation', label: 'संवाद',       sub: 'Conversation' },
-]
-
 // ── Image helpers ─────────────────────────────────────────────────────────────
 
 async function fetchWikiImage(imageQuery, meaning) {
@@ -57,6 +34,7 @@ const DICT_RAW = 'https://raw.githubusercontent.com/saraindia/sanskrit-dict/main
 
 let _mwIndex      = null   // Devanagari key → entry
 let _mwAsciiMap   = null   // ascii → Devanagari key
+let _usableMap    = null   // inflected form → Devanagari key
 let _mwLoading    = null   // in-flight Promise
 let _sentences    = null   // Devanagari key → sentences[]
 let _sentLoading  = null
@@ -70,8 +48,11 @@ async function loadMwIndex() {
       if (!res.ok) throw new Error(`HTTP ${res.status}`)
       _mwIndex    = await res.json()
       _mwAsciiMap = {}
+      _usableMap  = {}
       for (const [key, e] of Object.entries(_mwIndex)) {
         if (!_mwAsciiMap[e.ascii]) _mwAsciiMap[e.ascii] = key
+        _usableMap[key] = key                        // root form itself
+        if (e.usable) _usableMap[e.usable] = key    // inflected form e.g. गजः
       }
     } catch (e) {
       console.warn('[dict] MW index load failed:', e.message)
@@ -150,31 +131,41 @@ async function fetchSharedWord(slug, category) {
   } catch { return null }
 }
 
-// ── Filter chip component ─────────────────────────────────────────────────────
+// ── Sentence word tokenizer ───────────────────────────────────────────────────
 
-function FilterGroup({ label, options, selected, onToggle }) {
+// Strip leading/trailing Devanagari punctuation to get the bare word
+function stripDevaPunct(t) {
+  return t.replace(/^[।॥,.!?;:"'()\[\]०-९\s]+|[।॥,.!?;:"'()\[\]०-९\s]+$/g, '')
+}
+
+// Render Devanagari sentence text with dict-matched words as clickable spans
+function DevaText({ text, onWordClick }) {
+  if (!onWordClick || !_usableMap) return <>{text}</>
+  // Split keeping delimiters so we can re-join without losing spaces/punctuation
+  const tokens = text.split(/(\s+|[।॥,.!?;:"'()\[\]]+)/)
   return (
-    <div className="dict-filter-group">
-      <span className="dict-filter-label">{label}</span>
-      <div className="dict-filter-chips">
-        {options.map(opt => (
-          <button
-            key={opt.value}
-            className={`dict-chip ${selected.has(opt.value) ? 'active' : ''}`}
-            onClick={() => onToggle(opt.value)}
-          >
-            <span className="dict-chip-deva">{opt.label}</span>
-            <span className="dict-chip-sub">{opt.sub}</span>
-          </button>
-        ))}
-      </div>
-    </div>
+    <>
+      {tokens.map((tok, i) => {
+        const bare = stripDevaPunct(tok)
+        const key  = bare && _usableMap[bare]
+        if (key) {
+          return (
+            <button
+              key={i}
+              className="dict-sent-word-link"
+              onClick={() => onWordClick(key)}
+            >{tok}</button>
+          )
+        }
+        return <span key={i}>{tok}</span>
+      })}
+    </>
   )
 }
 
 // ── Sentence card ─────────────────────────────────────────────────────────────
 
-function SentenceCard({ sentence, index }) {
+function SentenceCard({ sentence, index, onWordClick }) {
   const { speak, isPlaying, currentText } = useSpeech()
   const isThisPlaying = isPlaying && currentText === sentence.devanagari
 
@@ -199,7 +190,9 @@ function SentenceCard({ sentence, index }) {
           <SpeakIcon size="14px" />
         </button>
       </div>
-      <div className="dict-sentence-deva">{sentence.devanagari}</div>
+      <div className="dict-sentence-deva">
+        <DevaText text={sentence.devanagari} onWordClick={onWordClick} />
+      </div>
       <div className="dict-sentence-roman">{sentence.transliteration}</div>
       <div className="dict-sentence-english">{sentence.english}</div>
     </div>
@@ -209,13 +202,9 @@ function SentenceCard({ sentence, index }) {
 // ── Word detail view ──────────────────────────────────────────────────────────
 
 // source: 'device' | 'shared' | 'dictionary' | 'live'
-function WordDetail({ entry, source, onBack, onGenerateSentences, loading: parentLoading, error: parentError }) {
-  const [image, setImage]         = useState(entry.imageUrl || null)
+function WordDetail({ entry, source, onBack, onGenerateSentences, onWordClick, loading: parentLoading, error: parentError }) {
+  const [image, setImage]           = useState(entry.imageUrl || null)
   const [imgLoading, setImgLoading] = useState(!entry.imageUrl)
-  const [vachan, setVachan]       = useState(new Set())
-  const [linga, setLinga]         = useState(new Set())
-  const [kaal, setKaal]           = useState(new Set())
-  const [type, setType]           = useState(new Set())
   const { speak, isPlaying, currentText } = useSpeech()
 
   useEffect(() => {
@@ -224,28 +213,13 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, loading: paren
     fetchWikiImage(entry.imageQuery, entry.meaning).then(url => {
       setImage(url)
       setImgLoading(false)
-      // Backfill the image URL into IndexedDB so future loads are instant
       if (url && entry.cacheKey) {
         setCachedWord(entry.cacheKey, { ...entry, imageUrl: url })
       }
     })
   }, [entry.imageUrl, entry.imageQuery])
 
-  function toggle(setter, value) {
-    setter(prev => {
-      const next = new Set(prev)
-      next.has(value) ? next.delete(value) : next.add(value)
-      return next
-    })
-  }
-
-  const filtered = (entry.sentences || []).filter(s => {
-    if (vachan.size && !vachan.has(s.vachan)) return false
-    if (linga.size  && !linga.has(s.linga))   return false
-    if (kaal.size   && !kaal.has(s.kaal))      return false
-    if (type.size   && !type.has(s.type))      return false
-    return true
-  })
+  const sentences = entry.sentences || []
 
   const isWordPlaying = isPlaying && currentText === entry.word
 
@@ -301,57 +275,11 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, loading: paren
         </div>
       </div>
 
-      {source === 'dictionary' && (
-        <div className="dict-generate-box">
-          <div className="dict-generate-title">उदाहरण वाक्यानि</div>
-          <p className="dict-generate-desc">
-            Generate 10 example sentences with tenses, filters, and audio — powered by Claude AI.
-          </p>
-          {parentError && <div className="dict-error">{parentError}</div>}
-          <button
-            className="dict-generate-btn"
-            onClick={onGenerateSentences}
-            disabled={parentLoading}
-          >
-            {parentLoading ? 'Generating…' : '✦ Generate sentences with Claude'}
-          </button>
-        </div>
-      )}
-
-      {source !== 'dictionary' && <>
-      {/* Filters */}
-      <div className="dict-filters">
-        <div className="dict-filters-title">Filter sentences</div>
-        <FilterGroup label="वचन"  options={VACHAN_OPTIONS} selected={vachan} onToggle={v => toggle(setVachan, v)} />
-        <FilterGroup label="लिङ्ग" options={LINGA_OPTIONS}  selected={linga}  onToggle={v => toggle(setLinga, v)} />
-        <FilterGroup label="काल"  options={KAAL_OPTIONS}   selected={kaal}   onToggle={v => toggle(setKaal, v)} />
-        <FilterGroup label="प्रकार" options={TYPE_OPTIONS}  selected={type}   onToggle={v => toggle(setType, v)} />
-        {(vachan.size || linga.size || kaal.size || type.size) ? (
-          <button className="dict-clear-filters" onClick={() => { setVachan(new Set()); setLinga(new Set()); setKaal(new Set()); setType(new Set()) }}>
-            Clear all filters
-          </button>
-        ) : null}
-      </div>
-
-      {/* Sentences */}
-      <div className="dict-sentences-header">
-        <span className="dict-sentences-title">उदाहरण वाक्यानि</span>
-        <span className="dict-sentences-count">{filtered.length} of {(entry.sentences || []).length}</span>
-      </div>
-
-      {filtered.length === 0 ? (
-        <div className="dict-no-results">
-          <span>No sentences match these filters.</span>
-          <button onClick={() => { setVachan(new Set()); setLinga(new Set()); setKaal(new Set()); setType(new Set()) }}>
-            Clear filters
-          </button>
-        </div>
-      ) : (
+      {sentences.length > 0 && (
         <div className="dict-sentence-list">
-          {filtered.map((s, i) => <SentenceCard key={s.id || i} sentence={s} index={i} />)}
+          {sentences.map((s, i) => <SentenceCard key={s.id || i} sentence={s} index={i} onWordClick={onWordClick} />)}
         </div>
       )}
-      </>}
     </div>
   )
 }
@@ -629,7 +557,7 @@ export default function DictionaryPage() {
   if (entry) {
     return (
       <div className="dict-page">
-        <WordDetail entry={entry} source={source} onBack={() => { setEntry(null); setQuery('') }} onGenerateSentences={generateSentences} loading={loading} error={error} />
+        <WordDetail entry={entry} source={source} onBack={() => { setEntry(null); setQuery('') }} onGenerateSentences={generateSentences} onWordClick={w => { setQuery(w); lookupWord(w) }} loading={loading} error={error} />
       </div>
     )
   }
@@ -645,14 +573,6 @@ export default function DictionaryPage() {
         <p className="dict-page-sub">
           Look up any Sanskrit word to see its meaning, grammar, and 10 example sentences — questions, conversations, tenses, and more.
         </p>
-        <div className="dict-word-count-row">
-          {history.length > 0 && (
-            <span className="dict-word-count"><span>📦</span> {history.length} on your device</span>
-          )}
-          {sharedWords.length > 0 && (
-            <span className="dict-word-count shared"><span>🌐</span> {sharedWords.length} in shared dictionary</span>
-          )}
-        </div>
       </div>
 
       {/* Search */}
@@ -718,17 +638,6 @@ export default function DictionaryPage() {
         </div>
       )}
 
-      {/* Sample words prompt */}
-      {!loading && (
-        <div className="dict-empty">
-          <div className="dict-sample-words">
-            <span className="dict-sample-label">Try:</span>
-            {['गज', 'नदी', 'सूर्य', 'पुस्तक', 'आकाश'].map(w => (
-              <button key={w} className="dict-sample-word" onClick={() => { setQuery(w); lookupWord(w) }}>{w}</button>
-            ))}
-          </div>
-        </div>
-      )}
     </div>
   )
 }
