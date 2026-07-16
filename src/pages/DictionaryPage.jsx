@@ -433,7 +433,7 @@ export default function DictionaryPage() {
     const q = query.trim().toLowerCase()
     getAllCachedWords().then(words => {
       const seen = new Set()
-      const matches = words.filter(w => {
+      const cached = words.filter(w => {
         if (!( w.cacheKey?.includes(q) ||
                w.word?.includes(query.trim()) ||
                w.transliteration?.toLowerCase().includes(q) ||
@@ -443,7 +443,24 @@ export default function DictionaryPage() {
         seen.add(key)
         return true
       }).slice(0, 6)
-      setSuggestions(matches)
+
+      // Also search MW index by English meaning when query is ASCII (English)
+      const isEnglish = /^[a-z\s-]+$/.test(q) && _mwIndex
+      const mwMatches = []
+      if (isEnglish && cached.length < 6) {
+        for (const [iast, e] of Object.entries(_mwIndex)) {
+          if (e.meaning?.toLowerCase().includes(q)) {
+            const key = e.word || iast
+            if (!seen.has(key)) {
+              seen.add(key)
+              mwMatches.push({ ...e, slug: e.ascii || iast, fromMW: true, sentences: [] })
+              if (cached.length + mwMatches.length >= 6) break
+            }
+          }
+        }
+      }
+
+      setSuggestions([...cached, ...mwMatches])
     })
   }, [query])
 
