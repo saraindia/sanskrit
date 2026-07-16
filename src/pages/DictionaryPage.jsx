@@ -717,57 +717,9 @@ export default function DictionaryPage() {
         </div>
       )}
 
-      {/* Local recent lookups */}
-      {!loading && history.length > 0 && (
-        <div className="dict-history">
-          <div className="dict-history-title">📦 Your recent lookups</div>
-          <div className="dict-history-grid">
-            {history.map(item => (
-              <button
-                key={item.cacheKey}
-                className="dict-history-card"
-                onClick={() => handleHistory(item)}
-              >
-                <span className="dict-history-deva">{item.word}</span>
-                <span className="dict-history-roman">{item.transliteration}</span>
-                <span className="dict-history-meaning">{item.meaning}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Shared dictionary from GitHub — visible on any device */}
-      {!loading && sharedWords.length > 0 && (() => {
-        const localSlugs = new Set(history.map(h => h.slug || h.transliteration || h.cacheKey))
-        const unseen = sharedWords.filter(w => !localSlugs.has(w.slug))
-        if (unseen.length === 0) return null
-        return (
-          <div className="dict-history">
-            <div className="dict-history-title">🌐 Shared dictionary</div>
-            <div className="dict-history-grid">
-              {unseen.map(item => (
-                <button
-                  key={item.slug}
-                  className="dict-history-card shared"
-                  onClick={() => handleSharedWord(item)}
-                >
-                  <span className="dict-history-deva">{item.word}</span>
-                  <span className="dict-history-roman">{item.transliteration}</span>
-                  <span className="dict-history-meaning">{item.meaning}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        )
-      })()}
-
-      {/* Empty state — only when nothing local AND nothing shared */}
-      {!loading && history.length === 0 && sharedWords.length === 0 && (
+      {/* Sample words prompt */}
+      {!loading && (
         <div className="dict-empty">
-          <div className="dict-empty-icon">📖</div>
-          <div className="dict-empty-title">Your dictionary is empty</div>
-          <div className="dict-empty-sub">Search for a Sanskrit word above to build your personal dictionary. Every lookup is saved — search again and it loads instantly.</div>
           <div className="dict-sample-words">
             <span className="dict-sample-label">Try:</span>
             {['गज', 'नदी', 'सूर्य', 'पुस्तक', 'आकाश'].map(w => (
