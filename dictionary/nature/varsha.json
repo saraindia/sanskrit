@@ -1,0 +1,114 @@
+{
+  "word": "वर्षा",
+  "transliteration": "varṣā",
+  "slug": "varsha",
+  "meaning": "rain, rainfall",
+  "meaningExtended": "The season of rains or rainfall itself; the fourth season in the traditional Hindu calendar, occurring after summer and before autumn.",
+  "gender": "feminine",
+  "wordType": "noun",
+  "category": "nature",
+  "imageQuery": "rain monsoon",
+  "sentences": [
+    {
+      "id": 1,
+      "devanagari": "वर्षा आकाशात् पतति।",
+      "transliteration": "varṣā ākāśāt patati.",
+      "english": "Rain falls from the sky.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 2,
+      "devanagari": "वर्षा भूमिं सिञ्चिता।",
+      "transliteration": "varṣā bhūmiṁ siñcitā.",
+      "english": "The rain watered the earth.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 3,
+      "devanagari": "वर्षा आगामी वर्षे आगमिष्यति।",
+      "transliteration": "varṣā āgāmī varṣe āgamiṣyati.",
+      "english": "The rains will come in the coming year.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhavishy",
+      "type": "statement"
+    },
+    {
+      "id": 4,
+      "devanagari": "किं वर्षा आज पतिष्यति?",
+      "transliteration": "kiṁ varṣā āja patiṣyati?",
+      "english": "Will it rain today?",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhavishy",
+      "type": "question"
+    },
+    {
+      "id": 5,
+      "devanagari": "कुत्र वर्षा अधिका अस्ति?",
+      "transliteration": "kutra varṣā adhikā asti?",
+      "english": "Where is there more rainfall?",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 6,
+      "devanagari": "वर्षा आया, अतः हरितता प्रकटितः।",
+      "transliteration": "varṣā āyā, ataḥ haritā prakāṭitaḥ.",
+      "english": "The rain came, and therefore greenness appeared.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "bhoota",
+      "type": "conversation"
+    },
+    {
+      "id": 7,
+      "devanagari": "हे वर्षे! कृपया पुष्टि दातुम् आगच्छ।",
+      "transliteration": "he varṣe! kṛpayā puṣṭi dātum āgacch.",
+      "english": "O rain! Please come to nourish us.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 8,
+      "devanagari": "वर्षे (द्वे) पातनकारे मेघे सहितौ आगतौ।",
+      "transliteration": "varṣe (dve) pātanakāre meghe sahitau āgatau.",
+      "english": "The two rains came along with rain-bringing clouds.",
+      "vachan": "dvi",
+      "linga": "striling",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 9,
+      "devanagari": "वर्षाः वनस्यतरुभ्यः जलं प्रदत्ताः।",
+      "transliteration": "varṣāḥ vanasya tarubhyaḥ jalaṁ pradattāḥ.",
+      "english": "The rains provided water to the forest trees.",
+      "vachan": "bahu",
+      "linga": "striling",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 10,
+      "devanagari": "वर्षा जीवनस्य सोतः, सर्वस्य पालनी।",
+      "transliteration": "varṣā jīvanasya sotaḥ, sarvasya pālanī.",
+      "english": "Rain is the source of life, the nurturer of all things.",
+      "vachan": "eka",
+      "linga": "striling",
+      "kaal": "vartaman",
+      "type": "statement"
+    }
+  ],
+  "generatedAt": "2026-07-16T12:49:08.287Z"
+}
