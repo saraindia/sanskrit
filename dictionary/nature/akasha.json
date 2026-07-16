@@ -1,0 +1,114 @@
+{
+  "word": "आकाश",
+  "transliteration": "akasha",
+  "slug": "akasha",
+  "meaning": "sky, space, ether",
+  "meaningExtended": "The vast expanse above the earth; in Hindu philosophy, one of the five elements (panchamahabhutas), representing the space or ether that pervades all existence.",
+  "gender": "neuter",
+  "wordType": "noun",
+  "category": "nature",
+  "imageQuery": "sky space ether",
+  "sentences": [
+    {
+      "id": 1,
+      "devanagari": "आकाशं नीलं सुन्दरं वर्तते।",
+      "transliteration": "akasham nilam sundaram vartate.",
+      "english": "The sky exists blue and beautiful.",
+      "vachan": "eka",
+      "linga": "napumsaka",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 2,
+      "devanagari": "आकाशः तारांगणः आसीत्।",
+      "transliteration": "akashah taranganaḥ asīt.",
+      "english": "The sky was filled with stars.",
+      "vachan": "eka",
+      "linga": "napumsaka",
+      "kaal": "bhoota",
+      "type": "statement"
+    },
+    {
+      "id": 3,
+      "devanagari": "आकाशं मेघैः आच्छादनं भविष्यति।",
+      "transliteration": "akasham meghaiḥ achhädanam bhavishyati.",
+      "english": "The sky will be covered with clouds.",
+      "vachan": "eka",
+      "linga": "napumsaka",
+      "kaal": "bhavishy",
+      "type": "statement"
+    },
+    {
+      "id": 4,
+      "devanagari": "किं आकाशः अनन्तः अस्ति?",
+      "transliteration": "kim akashah anantah asti?",
+      "english": "Is the sky infinite?",
+      "vachan": "eka",
+      "linga": "napumsaka",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 5,
+      "devanagari": "कः आकाशस्य सीमा जानाति?",
+      "transliteration": "kah akashasya sima janati?",
+      "english": "Who knows the boundaries of the sky?",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "question"
+    },
+    {
+      "id": 6,
+      "devanagari": "त्वं आकाशं पश्य, कति सुन्दरं!",
+      "transliteration": "tvam akasham pashya, kati sundaram!",
+      "english": "Look at the sky, how beautiful it is!",
+      "vachan": "eka",
+      "linga": "napumsaka",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 7,
+      "devanagari": "हे मित्र, आकाशे चन्द्रः भ्रमति।",
+      "transliteration": "he mitra, akashe chandrah bhramati.",
+      "english": "O friend, the moon wanders in the sky.",
+      "vachan": "eka",
+      "linga": "pullinga",
+      "kaal": "vartaman",
+      "type": "conversation"
+    },
+    {
+      "id": 8,
+      "devanagari": "आकाशौ सूर्य-चन्द्रौ नियमितं चरतः।",
+      "transliteration": "akashau surya-chandhrau niyamitam charatah.",
+      "english": "In the two skies, the sun and moon move in order.",
+      "vachan": "dvi",
+      "linga": "napumsaka",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 9,
+      "devanagari": "आकाशानि विविधैः रङ्गैः शोभन्ते।",
+      "transliteration": "akashani vividhaiḥ rangaiḥ shobhante.",
+      "english": "The skies shine with various colors.",
+      "vachan": "bahu",
+      "linga": "napumsaka",
+      "kaal": "vartaman",
+      "type": "statement"
+    },
+    {
+      "id": 10,
+      "devanagari": "आकाशः अनन्त-तत्त्वं ब्रह्मणः प्रतिबिम्बः इव।",
+      "transliteration": "akashah ananta-tattvam brahmanah pratibimnah iva.",
+      "english": "The sky is like a reflection of the infinite essence of Brahman.",
+      "vachan": "eka",
+      "linga": "napumsaka",
+      "kaal": "vartaman",
+      "type": "statement"
+    }
+  ],
+  "generatedAt": "2026-07-16T14:32:38.633Z"
+}
