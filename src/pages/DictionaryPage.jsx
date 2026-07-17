@@ -250,7 +250,7 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, onWordClick, l
   return (
     <div className="dict-detail">
       {/* Back */}
-      <HubBack to="/dictionary" label="Dictionary" />
+      <HubBack label="Dictionary" onClick={onBack} />
 
       {/* Word card */}
       <div className="dict-word-card">
