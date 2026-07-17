@@ -317,7 +317,6 @@
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 0.9rem 1.1rem;
-  margin-top: 0.75rem;
 }
 .gita-chant-info {
   display: flex;

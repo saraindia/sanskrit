@@ -559,7 +559,9 @@ export default function Dashboard() {
       <ShlokaOfDay />
 
       {/* ── Full Gita Chant ───────────────────────────────────────────── */}
-      <GitaChantPlayer />
+      <div className="dash-section" style={{ paddingBottom: '0.25rem' }}>
+        <GitaChantPlayer />
+      </div>
 
       {/* ── Dictionary search ──────────────────────────────────────────── */}
       <div className="dash-section-label" style={{ marginTop: '0.25rem' }}>
