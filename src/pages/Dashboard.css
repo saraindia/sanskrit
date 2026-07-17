@@ -307,6 +307,59 @@
 }
 .shloka-link:hover { background: color-mix(in srgb, var(--gold) 12%, transparent); }
 
+/* ── Full Gita Chant Player ─────────────────────────────────────────────────── */
+.gita-chant-player {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 0.9rem 1.1rem;
+  margin-top: 0.75rem;
+}
+.gita-chant-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.gita-chant-title {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+}
+.gita-chant-ref {
+  font-size: 0.72rem;
+  color: var(--gold);
+}
+.gita-chant-btn {
+  flex-shrink: 0;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  color: var(--text-secondary);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-bright);
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.gita-chant-btn:hover {
+  color: var(--gold);
+  border-color: var(--gold-dim);
+  background: rgba(201,148,42,0.08);
+}
+.gita-chant-btn.playing {
+  color: var(--gold-light);
+  border-color: var(--gold);
+  background: rgba(201,148,42,0.12);
+}
+
 /* ── Section label ──────────────────────────────────────────────────────────── */
 .dash-section-label {
   font-family: var(--font-display);

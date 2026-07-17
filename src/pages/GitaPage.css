@@ -179,32 +179,6 @@
 
 .gita-verse-tags .gita-speak { margin: 0; }
 
-.gita-chant-all-btn {
-  margin-left: auto;
-  font-family: var(--font-display);
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  font-weight: 600;
-  color: var(--text-secondary);
-  background: var(--bg-elevated);
-  border: 1px solid var(--border-bright);
-  border-radius: 999px;
-  padding: 0.3rem 0.85rem;
-  cursor: pointer;
-  transition: color 0.15s, border-color 0.15s, background 0.15s;
-}
-.gita-chant-all-btn:hover {
-  color: var(--gold);
-  border-color: var(--gold-dim);
-  background: rgba(201,148,42,0.08);
-}
-.gita-chant-all-btn.playing {
-  color: var(--gold-light);
-  border-color: var(--gold);
-  background: rgba(201,148,42,0.12);
-  animation: verse-glow 2s ease-in-out infinite;
-}
-
 .gita-deva {
   font-size: 1.6rem;
   line-height: 2;

@@ -17,6 +17,65 @@ function getDailyVerse() {
   return BHAGAVAD_GITA[day % BHAGAVAD_GITA.length]
 }
 
+const GITA_VERSE_COUNTS = [0,47,72,43,42,29,47,30,28,34,42,55,20,35,27,20,24,28,78]
+
+function GitaChantPlayer() {
+  const [playing, setPlaying] = useState(false)
+  const [current, setCurrent] = useState({ ch: 1, v: 1 })
+  const stopRef  = useRef(false)
+  const audioRef = useRef(null)
+
+  const stop = useCallback(() => {
+    stopRef.current = true
+    if (audioRef.current) { audioRef.current.pause(); audioRef.current = null }
+    setPlaying(false)
+  }, [])
+
+  useEffect(() => () => stop(), [stop])
+
+  const play = useCallback(async () => {
+    if (playing) { stop(); return }
+    stopRef.current = false
+    setPlaying(true)
+    const { getGitaAudioUrl } = await import('../utils/gitaAudio.js')
+    let ch = 1, v = 1
+    outer: while (ch <= 18) {
+      const maxV = GITA_VERSE_COUNTS[ch]
+      while (v <= maxV) {
+        if (stopRef.current) break outer
+        setCurrent({ ch, v })
+        try {
+          const url = await getGitaAudioUrl(ch, v)
+          if (stopRef.current) break outer
+          await new Promise((resolve) => {
+            const audio = new Audio(url)
+            audioRef.current = audio
+            audio.onended = resolve
+            audio.onerror = resolve
+            audio.play().catch(resolve)
+          })
+          audioRef.current = null
+        } catch { /* skip */ }
+        v++
+      }
+      ch++; v = 1
+    }
+    if (!stopRef.current) setPlaying(false)
+  }, [playing, stop])
+
+  return (
+    <div className="gita-chant-player">
+      <div className="gita-chant-info">
+        <span className="gita-chant-title">Bhagavad Gītā — Full Chant</span>
+        {playing && <span className="gita-chant-ref">BG {current.ch}.{current.v}</span>}
+      </div>
+      <button className={`gita-chant-btn${playing ? ' playing' : ''}`} onClick={play}>
+        {playing ? '◼ Stop' : '▶ Play Full Gita'}
+      </button>
+    </div>
+  )
+}
+
 function ShlokaOfDay() {
   const [open, setOpen] = useState(false)
   const [loading, setLoading] = useState(false)
@@ -498,6 +557,9 @@ export default function Dashboard() {
 
       {/* ── Shloka of the Day ─────────────────────────────────────────── */}
       <ShlokaOfDay />
+
+      {/* ── Full Gita Chant ───────────────────────────────────────────── */}
+      <GitaChantPlayer />
 
       {/* ── Dictionary search ──────────────────────────────────────────── */}
       <div className="dash-section-label" style={{ marginTop: '0.25rem' }}>

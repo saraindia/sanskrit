@@ -48,53 +48,8 @@ export default function GitaPage() {
   const { speak, speakLines, playUrl, stop, isPlaying } = useSpeech()
   const [activeLine, setActiveLine] = useState(-1)
   const [audioLoading, setAudioLoading] = useState(false)
-  const [chantPlaying, setChantPlaying] = useState(false)
-  const cancelRef   = useRef(false)
-  const chantRef    = useRef(false)   // true = stop continuous chant
-  const chantAudio  = useRef(null)    // current Audio object for chant
+  const cancelRef  = useRef(false)
   const vocabData  = useVocabularyData()
-
-  // ── Continuous chant: play all verses from current position ────────────────
-  const CHAPTER_VERSE_COUNTS = [0,47,72,43,42,29,47,30,28,34,42,55,20,35,27,20,24,28,78]
-
-  const stopChant = useCallback(() => {
-    chantRef.current = true
-    if (chantAudio.current) { chantAudio.current.pause(); chantAudio.current = null }
-    setChantPlaying(false)
-  }, [])
-
-  const playAllChant = useCallback(async () => {
-    if (chantPlaying) { stopChant(); return }
-    chantRef.current = false
-    setChantPlaying(true)
-    let ch = chapterNum || 1
-    let v  = verseNum  || 1
-    outer: while (ch <= 18) {
-      const chData = await loadJson(chapterFile(ch)).catch(() => null)
-      if (!chData) { ch++; v = 1; continue }
-      const maxV = CHAPTER_VERSE_COUNTS[ch]
-      while (v <= maxV) {
-        if (chantRef.current) break outer
-        setChapterNum(ch)
-        setVerseNum(v)
-        try {
-          const url = await getGitaAudioUrl(ch, v)
-          if (chantRef.current) break outer
-          await new Promise((resolve) => {
-            const audio = new Audio(url)
-            chantAudio.current = audio
-            audio.onended = resolve
-            audio.onerror = resolve   // skip broken files
-            audio.play().catch(resolve)
-          })
-          chantAudio.current = null
-        } catch { /* skip */ }
-        v++
-      }
-      ch++; v = 1
-    }
-    if (!chantRef.current) setChantPlaying(false)
-  }, [chantPlaying, chapterNum, verseNum, stopChant, setChapterNum, setVerseNum])
 
   const handleVerseSpeak = useCallback(async (dev, chapter, verse) => {
     if (isPlaying || audioLoading) { stop(); setActiveLine(-1); return }
@@ -293,13 +248,6 @@ export default function GitaPage() {
             onClick={() => handleVerseSpeak(verse.dev, chapter.chapter, verse.v)}
           >
             <SpeakIcon />
-          </button>
-          <button
-            className={`gita-chant-all-btn${chantPlaying ? ' playing' : ''}`}
-            title={chantPlaying ? 'Stop full chant' : 'Play full Gita from here'}
-            onClick={playAllChant}
-          >
-            {chantPlaying ? '◼ Stop' : '▶ Play All'}
           </button>
         </div>
 
