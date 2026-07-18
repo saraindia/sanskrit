@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { getCachedWord, setCachedWord, getAllCachedWords } from '../utils/dictCache'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
@@ -226,7 +227,7 @@ function SentenceCard({ sentence, index, onWordClick }) {
 // ── Word detail view ──────────────────────────────────────────────────────────
 
 // source: 'device' | 'shared' | 'dictionary' | 'live'
-function WordDetail({ entry, source, onBack, onGenerateSentences, onWordClick, loading: parentLoading, error: parentError }) {
+function WordDetail({ entry, source, onBack, onGenerateSentences, onWordClick, loading: parentLoading, error: parentError, showHeader }) {
   const [image, setImage]           = useState(entry.imageUrl || null)
   const [imgLoading, setImgLoading] = useState(!entry.imageUrl)
   const { speak, isPlaying, currentText } = useSpeech()
@@ -249,6 +250,14 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, onWordClick, l
 
   return (
     <div className="dict-detail">
+      {showHeader && (
+        <div className="dict-page-header dict-page-header--compact">
+          <div className="dict-page-title-row">
+            <h1 className="dict-page-title">शब्दकोशः</h1>
+            <span className="dict-page-title-en">Sanskrit Dictionary</span>
+          </div>
+        </div>
+      )}
       {/* Back */}
       <HubBack label="Dictionary" onClick={onBack} />
 
@@ -311,8 +320,10 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, onWordClick, l
 // ── Main page ─────────────────────────────────────────────────────────────────
 
 export default function DictionaryPage() {
-  const [query, setQuery]           = useState('')
+  const [searchParams] = useSearchParams()
+  const [query, setQuery]           = useState(searchParams.get('q') || '')
   const [entry, setEntry]           = useState(null)
+  const [entryFromPrefill, setEntryFromPrefill] = useState(false)
   const [source, setSource]         = useState('live') // 'device' | 'shared' | 'live'
   const [loading, setLoading]       = useState(false)
   const [loadingMsg, setLoadingMsg] = useState('')
@@ -380,7 +391,25 @@ export default function DictionaryPage() {
         syncLocalToGitHub()
       })
       .catch(() => {})
-  }, [])
+    // Auto-lookup if navigated with ?q=
+    const initialQ = searchParams.get('q')
+    if (initialQ) {
+      const prefillRaw = sessionStorage.getItem('dict-prefill')
+      if (prefillRaw) {
+        try {
+          const prefill = JSON.parse(prefillRaw)
+          if (prefill.query === initialQ) {
+            sessionStorage.removeItem('dict-prefill')
+            setEntry({ ...prefill, cacheKey: initialQ.trim().toLowerCase(), cachedAt: Date.now() })
+            setEntryFromPrefill(true)
+            setSource('device')
+            return
+          }
+        } catch {}
+      }
+      setTimeout(() => lookupWord(initialQ), 100)
+    }
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!query.trim()) { setSuggestions([]); return }
@@ -581,7 +610,7 @@ export default function DictionaryPage() {
   if (entry) {
     return (
       <div className="dict-page">
-        <WordDetail entry={entry} source={source} onBack={() => { setEntry(null); setQuery('') }} onGenerateSentences={generateSentences} onWordClick={w => { setQuery(w); lookupWord(w) }} loading={loading} error={error} />
+        <WordDetail entry={entry} source={source} onBack={() => { setEntry(null); setQuery(''); setEntryFromPrefill(false) }} onGenerateSentences={generateSentences} onWordClick={w => { setQuery(w); lookupWord(w) }} loading={loading} error={error} showHeader={entryFromPrefill} />
       </div>
     )
   }

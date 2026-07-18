@@ -202,13 +202,45 @@
   margin-top: 3px;
 }
 
+/* ── Daily cards 2-column row ───────────────────────────────────────────────── */
+.daily-cards-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 0.5rem;
+  margin: 0.6rem 0.75rem 0.75rem;
+}
+
 /* ── Shloka of the Day accordion ───────────────────────────────────────────── */
 .shloka-accord {
-  margin: 0.6rem 0.75rem 0.75rem;
+  margin: 0;
   border: 1px solid var(--border);
   border-radius: 12px;
   overflow: hidden;
   background: var(--bg-card);
+}
+.word-of-day-accord {
+  border-color: color-mix(in srgb, var(--teal, #3a9e8a) 50%, var(--border));
+}
+.daily-card--open {
+  grid-column: 1 / -1;
+}
+.wod-example {
+  padding: 0.5rem 0.7rem;
+  border-left: 2px solid var(--teal, #3a9e8a);
+  background: rgba(58,158,138,0.06);
+  border-radius: 0 6px 6px 0;
+}
+.wod-example-sa {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+.wod-example-en {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
 }
 .shloka-accord-hdr {
   width: 100%;

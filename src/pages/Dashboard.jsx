@@ -1,5 +1,5 @@
 import React, { useMemo, useState, useRef, useEffect, useCallback } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useUserProgress as useProgress } from '../hooks/useUserProgress'
 import { useVocabularyData, useSentenceData } from '../hooks/useData'
 import { MODULES } from '../data/modules.js'
@@ -8,6 +8,8 @@ import SpeakIcon from '../components/SpeakIcon'
 import { toIAST } from '../utils/transliterate.js'
 import { getLevel, getNextLevel, getLevelProgress, getEarnedBadges, BADGES } from '../utils/levels.js'
 import { BHAGAVAD_GITA } from '../data/sacred.js'
+import { VOCABULARY } from '../data/vocabulary.js'
+import { VNP_SENTENCES, COLLATED_SENTENCES } from '../data/sentences.js'
 import './Dashboard.css'
 
 function getDailyVerse() {
@@ -76,8 +78,7 @@ function GitaChantPlayer() {
   )
 }
 
-function ShlokaOfDay() {
-  const [open, setOpen] = useState(false)
+function ShlokaOfDay({ open, onToggle }) {
   const [loading, setLoading] = useState(false)
   const verse = useMemo(() => getDailyVerse(), [])
   const { playUrl, stop, isPlaying } = useSpeech()
@@ -96,8 +97,8 @@ function ShlokaOfDay() {
 
   if (!verse) return null
   return (
-    <div className="shloka-accord">
-      <button className="shloka-accord-hdr" onClick={() => setOpen(o => !o)}>
+    <div className={`shloka-accord${open ? ' daily-card--open' : ''}`}>
+      <button className="shloka-accord-hdr" onClick={onToggle}>
         <span className="shloka-accord-flame">🪷</span>
         <div className="shloka-accord-meta">
           <span className="shloka-accord-title">Shloka of the Day</span>
@@ -133,12 +134,6 @@ function ShlokaOfDay() {
 }
 
 
-function searchDict(q, index) {
-  if (!q || !q.trim() || !index) return []
-  const terms = q.trim().toLowerCase().split(/\s+/)
-  return index.filter(v => terms.every(t => v._search.includes(t))).slice(0, 40)
-}
-
 // ── POS badge colour map ──────────────────────────────────────────────────────
 const POS_COLOUR = {
   noun: 'var(--gold)',
@@ -146,6 +141,102 @@ const POS_COLOUR = {
   adj:  '#a78bfa',
   adv:  '#f59e0b',
   pronoun: '#60a5fa',
+}
+
+function getDailyWord() {
+  const start = new Date('2024-01-01')
+  const today = new Date()
+  const day = Math.floor((today - start) / 86400000)
+  return VOCABULARY[day % VOCABULARY.length]
+}
+
+function WordOfDay({ open, onToggle }) {
+  const word = useMemo(() => getDailyWord(), [])
+  const { speak, stop, isPlaying } = useSpeech()
+  const navigate = useNavigate()
+
+  const exampleSentence = useMemo(() => {
+    if (!word) return null
+    const allSentences = [...VNP_SENTENCES, ...COLLATED_SENTENCES]
+    const root = word.devanagari.replace(/[ंःँ।॥]/g, '').trim()
+    return (
+      allSentences.find(s => s.devanagari.includes(root)) ||
+      allSentences.find(s => s.english?.toLowerCase().includes(word.english.toLowerCase())) ||
+      null
+    )
+  }, [word])
+
+  const handleSeeInDict = useCallback((e) => {
+    e.preventDefault()
+    sessionStorage.setItem('dict-prefill', JSON.stringify({
+      query: word.english,
+      word: word.devanagari,
+      meaning: word.english,
+      transliteration: word.iast,
+      wordType: word.pos,
+      gender: word.gender,
+      difficulty: word.level,
+      category: word.pos,
+    }))
+    navigate(`/dictionary?q=${encodeURIComponent(word.english)}`)
+  }, [word, navigate])
+
+  const handleListen = useCallback((e) => {
+    e.stopPropagation()
+    if (isPlaying) { stop(); return }
+    speak(word.devanagari)
+  }, [isPlaying, stop, speak, word])
+
+  if (!word) return null
+  const posColour = POS_COLOUR[word.pos] || 'var(--text-muted)'
+  return (
+    <div className={`shloka-accord word-of-day-accord${open ? ' daily-card--open' : ''}`}>
+      <button className="shloka-accord-hdr" onClick={onToggle}>
+        <span className="shloka-accord-flame">{word.emoji || '✨'}</span>
+        <div className="shloka-accord-meta">
+          <span className="shloka-accord-title">Word of the Day</span>
+          <span className="shloka-accord-ref" style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}>{word.devanagari}</span>
+        </div>
+        <span className="shloka-accord-chevron">{open ? '▾' : '›'}</span>
+      </button>
+      {open && (
+        <div className="shloka-accord-body">
+          <div className="shloka-deva-row">
+            <div className="shloka-deva" style={{ fontSize: '1.3rem' }}>{word.devanagari}</div>
+            <button
+              className={`shloka-listen-icon${isPlaying ? ' playing' : ''}`}
+              onClick={handleListen}
+              title={isPlaying ? 'Stop' : 'Listen'}
+            >
+              {isPlaying ? '■' : <SpeakIcon size="16px" />}
+            </button>
+          </div>
+          {word.iast && <div className="shloka-iast">{word.iast}</div>}
+          <div className="shloka-translation">{word.english}</div>
+          {word.pos && (
+            <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
+              <span className="dict-tag" style={{ color: posColour, borderColor: posColour }}>{word.pos}</span>
+              {word.gender && <span className="dict-tag">{{ m: 'masc.', f: 'fem.', n: 'neut.' }[word.gender] || word.gender}</span>}
+              {word.level && <span className="dict-tag">{word.level}</span>}
+            </div>
+          )}
+          {exampleSentence && (
+            <div className="wod-example">
+              <div className="wod-example-sa">{exampleSentence.devanagari}</div>
+              <div className="wod-example-en">{exampleSentence.english}</div>
+            </div>
+          )}
+          <button className="shloka-link" onClick={handleSeeInDict}>See in Dictionary →</button>
+        </div>
+      )}
+    </div>
+  )
+}
+
+function searchDict(q, index) {
+  if (!q || !q.trim() || !index) return []
+  const terms = q.trim().toLowerCase().split(/\s+/)
+  return index.filter(v => terms.every(t => v._search.includes(t))).slice(0, 40)
 }
 
 // ── Word detail popup ─────────────────────────────────────────────────────────
@@ -340,8 +431,9 @@ function DictionarySearch({ vocabulary }) {
 const DASH_SECTIONS = (dueCount) => [
   { label: 'Learn', dev: 'शिक्षणम्', icon: '🎬', color: '#06b6d4',
     items: [
-      { to: '/varnamala', icon: '🎬', label: 'Varṇamālā Series', sub: '25 episodes · Tattvam · Sanskrit sounds & script' },
-      { to: '/course',    icon: '🎬', label: 'Sanskrit in 33 Days', sub: '5 weeks · 33 video lessons · by Ashok' },
+      { to: '/varnamala',  icon: '🎬', label: 'Varṇamālā Series',    sub: '25 episodes · Tattvam · Sanskrit sounds & script' },
+      { to: '/course',     icon: '🎬', label: 'Sanskrit in 33 Days', sub: '5 weeks · 33 video lessons · by Ashok' },
+      { to: '/dictionary', icon: '📖', label: 'Dictionary',          sub: '1,200+ words · meaning · grammar · examples' },
     ]
   },
   { label: 'Grammar', dev: 'व्याकरणम्', icon: '🔠', color: '#f59e0b',
@@ -454,6 +546,7 @@ export default function Dashboard() {
 
   const level      = useMemo(() => getLevel(progress.xp || 0), [progress.xp])
   const [whyOpen, setWhyOpen] = useState(false)
+  const [dailyOpen, setDailyOpen] = useState(null) // 'shloka' | 'word' | null
 
   return (
     <div className="dash-page anim-fade-up">
@@ -555,19 +648,16 @@ export default function Dashboard() {
         </div>
       )}
 
-      {/* ── Shloka of the Day ─────────────────────────────────────────── */}
-      <ShlokaOfDay />
+      {/* ── Shloka & Word of the Day ──────────────────────────────────── */}
+      <div className="daily-cards-row">
+        <ShlokaOfDay open={dailyOpen === 'shloka'} onToggle={() => setDailyOpen(d => d === 'shloka' ? null : 'shloka')} />
+        <WordOfDay   open={dailyOpen === 'word'}   onToggle={() => setDailyOpen(d => d === 'word'   ? null : 'word')} />
+      </div>
 
       {/* ── Full Gita Chant ───────────────────────────────────────────── */}
-      <div className="dash-section" style={{ paddingBottom: '0.25rem' }}>
+      <div className="dash-section">
         <GitaChantPlayer />
       </div>
-
-      {/* ── Dictionary search ──────────────────────────────────────────── */}
-      <div className="dash-section-label" style={{ marginTop: '0.25rem' }}>
-        <span style={{ marginRight: '0.4rem' }}>📖</span> Dictionary
-      </div>
-      <DictionarySearch vocabulary={vocabData?.vocabulary} />
 
       {/* ── Section accordions ─────────────────────────────────────────── */}
       <DashSections dueCount={dueItems.length} />
