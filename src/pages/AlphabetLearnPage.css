@@ -173,6 +173,16 @@
   to   { transform: translateY(0);    opacity: 1 }
 }
 
+@keyframes stroke-draw {
+  from { stroke-dashoffset: 1; }
+  to   { stroke-dashoffset: 0; }
+}
+
+@keyframes fade-in-char {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 .modal-close {
   position: absolute;
   top: 0.9rem;

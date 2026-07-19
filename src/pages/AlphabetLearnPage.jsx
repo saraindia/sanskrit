@@ -1,62 +1,86 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ALPHABET_CARDS } from '../data/vocabulary.js'
+import { STROKE_PATHS } from '../data/alphabetStrokes.js'
 import { useSpeech } from '../hooks/useSpeech.js'
 import './AlphabetLearnPage.css'
 
-// Stroke-order hints for vowels (start point markers and direction info)
-const STROKE_HINTS = {
-  'a-01': { count: 3, tip: 'Loop left body → right bar → top headline' },
-  'a-02': { count: 4, tip: 'Like अ + right vertical hook' },
-  'a-03': { count: 2, tip: 'Left body curve → top headline' },
-  'a-04': { count: 3, tip: 'Like इ + right downward hook' },
-  'a-05': { count: 2, tip: 'Left teardrop loop → top headline' },
-  'a-06': { count: 3, tip: 'Like उ + extra bottom hook' },
-  'a-07': { count: 2, tip: 'Curved body → top headline' },
-  'a-08': { count: 3, tip: 'Like ए + upper right mark' },
-  'a-09': { count: 3, tip: 'Left oval + right loop → headline' },
-  'a-10': { count: 4, tip: 'Like ओ + upper right mark' },
-  'a-11': { count: 3, tip: 'Right vertical → left angle arm → headline' },
-  'a-13': { count: 2, tip: 'Single curved stroke → headline' },
-  'a-19': { count: 3, tip: 'Left hook → right curve → headline' },
-  'a-21': { count: 3, tip: 'Curved left loop → right vertical → headline' },
-  'a-23': { count: 2, tip: 'Rolling curve downward → headline' },
-  'a-26': { count: 3, tip: 'Upper hook left → lower hook right → headline' },
+// Derive stroke count & tip from STROKE_PATHS automatically
+function buildHints() {
+  const tips = {
+    'a-01': 'Loop body → right bar → headline',
+    'a-02': 'Body loop → inner stem → outer stem → headline',
+    'a-03': 'Body arc → headline',
+    'a-04': 'Body arc → headline → right hook',
+    'a-05': 'Teardrop body → headline',
+    'a-06': 'Teardrop body → headline → lower hook',
+    'a-07': 'Main curve → headline',
+    'a-08': 'Main curve → left mark → right mark → headline',
+    'a-09': 'Left arc → right stem → headline',
+    'a-10': 'Left arc → middle stem → outer stem → headline',
+    'a-11': 'Left stem → upper arm → lower curve → headline',
+    'a-12': 'Oval body → middle bar → headline',
+    'a-13': 'Sweeping curve → headline',
+    'a-14': 'Body curve → right stem → headline',
+    'a-15': 'C-shape with tail → headline',
+    'a-16': 'Crossbar → right body curve → headline',
+    'a-17': 'Left arc → right stem → headline',
+    'a-18': 'Right arc → left stem → headline',
+    'a-19': 'Left stem → diagonal → right stem → headline',
+    'a-20': 'Left stem → P-bowl → headline',
+    'a-21': 'Left stem → right loop → headline',
+    'a-22': 'Left stem → right body curve → headline',
+    'a-23': 'Rolling curve → headline',
+    'a-24': 'Left stem → upper bow → lower bow → headline',
+    'a-25': 'Upper arc → lower arc → headline',
+    'a-26': 'Upper hook → lower body → headline',
+    'a-27': 'Outer curve → inner descender → headline',
+    'a-28': 'Oval body → upper arch → headline',
+    'a-29': 'Vertical → left arm → headline',
+    'a-30': 'Single dot (circle)',
+    'a-31': 'Upper dot → lower dot',
+  }
+  const hints = {}
+  for (const [id, paths] of Object.entries(STROKE_PATHS)) {
+    hints[id] = { count: paths.length, tip: tips[id] || '' }
+  }
+  return hints
 }
+const STROKE_HINTS = buildHints()
 
 // Example words for each letter
 const EXAMPLES = {
-  'a-01': { word: 'अग्नि', iast: 'agni', meaning: 'fire' },
-  'a-02': { word: 'आकाश', iast: 'ākāśa', meaning: 'sky' },
-  'a-03': { word: 'इन्द्र', iast: 'indra', meaning: 'Indra (king of gods)' },
-  'a-04': { word: 'ईश्वर', iast: 'īśvara', meaning: 'God / Lord' },
-  'a-05': { word: 'उपनिषद्', iast: 'upaniṣad', meaning: 'Upanishad' },
-  'a-06': { word: 'ऊर्जा', iast: 'ūrjā', meaning: 'energy' },
-  'a-07': { word: 'एक', iast: 'eka', meaning: 'one' },
-  'a-08': { word: 'ऐश्वर्य', iast: 'aiśvarya', meaning: 'divine glory' },
-  'a-09': { word: 'ओम्', iast: 'om', meaning: 'sacred syllable' },
-  'a-10': { word: 'औषध', iast: 'auṣadha', meaning: 'medicine' },
-  'a-11': { word: 'कमल', iast: 'kamala', meaning: 'lotus' },
-  'a-12': { word: 'खग', iast: 'khaga', meaning: 'bird (sky-goer)' },
-  'a-13': { word: 'गुरु', iast: 'guru', meaning: 'teacher' },
-  'a-14': { word: 'घर', iast: 'ghara', meaning: 'house' },
-  'a-15': { word: 'चन्द्र', iast: 'candra', meaning: 'moon' },
-  'a-16': { word: 'जल', iast: 'jala', meaning: 'water' },
-  'a-17': { word: 'तारा', iast: 'tārā', meaning: 'star' },
-  'a-18': { word: 'दीप', iast: 'dīpa', meaning: 'lamp / light' },
-  'a-19': { word: 'नम', iast: 'nama', meaning: 'name / bow' },
-  'a-20': { word: 'पुष्प', iast: 'puṣpa', meaning: 'flower' },
-  'a-21': { word: 'मन', iast: 'mana', meaning: 'mind' },
-  'a-22': { word: 'योग', iast: 'yoga', meaning: 'union / practice' },
-  'a-23': { word: 'राम', iast: 'rāma', meaning: 'Rama' },
-  'a-24': { word: 'वन', iast: 'vana', meaning: 'forest' },
-  'a-25': { word: 'सत्य', iast: 'satya', meaning: 'truth' },
-  'a-26': { word: 'हस्त', iast: 'hasta', meaning: 'hand' },
-  'a-27': { word: 'शान्ति', iast: 'śānti', meaning: 'peace' },
-  'a-28': { word: 'षट्', iast: 'ṣaṭ', meaning: 'six' },
-  'a-29': { word: 'लक्ष्मी', iast: 'lakṣmī', meaning: 'Lakshmi (goddess)' },
-  'a-30': { word: 'संस्कृत', iast: 'saṃskṛta', meaning: 'Sanskrit' },
-  'a-31': { word: 'नमः', iast: 'namaḥ', meaning: 'salutation' },
+  'a-01': { word: 'अग्नि',    iast: 'agni',      meaning: 'fire' },
+  'a-02': { word: 'आकाश',    iast: 'ākāśa',     meaning: 'sky' },
+  'a-03': { word: 'इन्द्र',   iast: 'indra',     meaning: 'Indra (king of gods)' },
+  'a-04': { word: 'ईश्वर',    iast: 'īśvara',    meaning: 'God / Lord' },
+  'a-05': { word: 'उपनिषद्', iast: 'upaniṣad',  meaning: 'Upanishad' },
+  'a-06': { word: 'ऊर्जा',   iast: 'ūrjā',      meaning: 'energy' },
+  'a-07': { word: 'एक',      iast: 'eka',        meaning: 'one' },
+  'a-08': { word: 'ऐश्वर्य', iast: 'aiśvarya',  meaning: 'divine glory' },
+  'a-09': { word: 'ओम्',     iast: 'om',         meaning: 'sacred syllable' },
+  'a-10': { word: 'औषध',    iast: 'auṣadha',    meaning: 'medicine' },
+  'a-11': { word: 'कमल',     iast: 'kamala',     meaning: 'lotus' },
+  'a-12': { word: 'खग',      iast: 'khaga',      meaning: 'bird (sky-goer)' },
+  'a-13': { word: 'गुरु',    iast: 'guru',       meaning: 'teacher' },
+  'a-14': { word: 'घर',      iast: 'ghara',      meaning: 'house' },
+  'a-15': { word: 'चन्द्र',  iast: 'candra',     meaning: 'moon' },
+  'a-16': { word: 'जल',      iast: 'jala',       meaning: 'water' },
+  'a-17': { word: 'तारा',    iast: 'tārā',       meaning: 'star' },
+  'a-18': { word: 'दीप',     iast: 'dīpa',       meaning: 'lamp / light' },
+  'a-19': { word: 'नम',      iast: 'nama',       meaning: 'name / bow' },
+  'a-20': { word: 'पुष्प',   iast: 'puṣpa',      meaning: 'flower' },
+  'a-21': { word: 'मन',      iast: 'mana',       meaning: 'mind' },
+  'a-22': { word: 'योग',     iast: 'yoga',       meaning: 'union / practice' },
+  'a-23': { word: 'राम',     iast: 'rāma',       meaning: 'Rama' },
+  'a-24': { word: 'वन',      iast: 'vana',       meaning: 'forest' },
+  'a-25': { word: 'सत्य',    iast: 'satya',      meaning: 'truth' },
+  'a-26': { word: 'हस्त',    iast: 'hasta',      meaning: 'hand' },
+  'a-27': { word: 'शान्ति',  iast: 'śānti',      meaning: 'peace' },
+  'a-28': { word: 'षट्',     iast: 'ṣaṭ',        meaning: 'six' },
+  'a-29': { word: 'लक्ष्मी', iast: 'lakṣmī',     meaning: 'Lakshmi (goddess)' },
+  'a-30': { word: 'संस्कृत', iast: 'saṃskṛta',   meaning: 'Sanskrit' },
+  'a-31': { word: 'नमः',     iast: 'namaḥ',      meaning: 'salutation' },
 }
 
 const TABS = [
@@ -65,143 +89,119 @@ const TABS = [
   { key: 'special',   label: 'Special',    labelSa: 'विशेष' },
 ]
 
-// Stroke order arrow SVGs per character (start-point arrows as simple SVG)
-function StrokeArrows({ id }) {
-  // Simple numbered start-point indicators
-  const arrows = {
-    'a-01': [
-      { x: 38, y: 52, label: '1' },
-      { x: 62, y: 30, label: '2' },
-      { x: 18, y: 30, label: '3' },
-    ],
-    'a-02': [
-      { x: 35, y: 52, label: '1' },
-      { x: 60, y: 30, label: '2' },
-      { x: 75, y: 30, label: '3' },
-      { x: 18, y: 30, label: '4' },
-    ],
-    'a-03': [
-      { x: 42, y: 50, label: '1' },
-      { x: 20, y: 30, label: '2' },
-    ],
-    'a-05': [
-      { x: 50, y: 48, label: '1' },
-      { x: 20, y: 30, label: '2' },
-    ],
-    'a-09': [
-      { x: 38, y: 52, label: '1' },
-      { x: 62, y: 48, label: '2' },
-      { x: 18, y: 30, label: '3' },
-    ],
-  }
-  const pts = arrows[id]
-  if (!pts) return null
+// Per-stroke animation durations
+const STROKE_DUR_MS  = 650  // ms to draw each stroke
+const STROKE_GAP_MS  = 120  // pause between strokes
 
-  return (
-    <svg viewBox="0 0 100 100" className="stroke-arrows" aria-hidden>
-      {pts.map(p => (
-        <g key={p.label} transform={`translate(${p.x},${p.y})`}>
-          <circle r="7" fill="var(--accent-gold, #c8a83c)" opacity="0.85"/>
-          <text x="0" y="4" textAnchor="middle" fill="white"
-                fontSize="8" fontFamily="sans-serif" fontWeight="bold">
-            {p.label}
-          </text>
-        </g>
-      ))}
-    </svg>
-  )
-}
-
-function AnimatedChar({ char, playing, onAnimEnd }) {
-  const svgRef = useRef(null)
-  const textRef = useRef(null)
-  const animRef = useRef(null)
+// ── Stroke animation component ────────────────────────────────────────────────
+function StrokeAnimation({ card, animKey, onAnimEnd }) {
+  const strokes = STROKE_PATHS[card.id] || []
+  const [done, setDone] = useState(false)
+  const timerRef = useRef(null)
 
   useEffect(() => {
-    if (!playing || !textRef.current) return
-    // Compute perimeter length of the glyph outline via SVG stroke trick
-    // We use a large dasharray so it covers any character length
-    const el = textRef.current
-    el.style.strokeDasharray = '3000'
-    el.style.strokeDashoffset = '3000'
-    el.style.fill = 'transparent'
-
-    let start = null
-    const duration = 2200 // ms
-
-    function step(ts) {
-      if (!start) start = ts
-      const progress = Math.min((ts - start) / duration, 1)
-      el.style.strokeDashoffset = String(3000 * (1 - progress))
-      if (progress < 1) {
-        animRef.current = requestAnimationFrame(step)
-      } else {
-        // Fade fill in
-        el.style.transition = 'fill 0.4s ease'
-        el.style.fill = 'var(--text-primary, #fff)'
-        el.style.stroke = 'transparent'
-        onAnimEnd?.()
-      }
-    }
-    animRef.current = requestAnimationFrame(step)
-    return () => {
-      if (animRef.current) cancelAnimationFrame(animRef.current)
-    }
-  }, [playing, char, onAnimEnd])
+    setDone(false)
+    if (!strokes.length) { onAnimEnd?.(); return }
+    const total = (strokes.length - 1) * (STROKE_DUR_MS + STROKE_GAP_MS) + STROKE_DUR_MS
+    timerRef.current = setTimeout(() => { setDone(true); onAnimEnd?.() }, total + 100)
+    return () => clearTimeout(timerRef.current)
+  }, [animKey]) // eslint-disable-line
 
   return (
-    <svg ref={svgRef} viewBox="0 0 100 110" className="char-svg" aria-hidden>
-      {/* Ruled lines like a Devanagari practice sheet */}
-      <line x1="10" y1="28" x2="90" y2="28" stroke="rgba(255,221,0,0.3)" strokeWidth="0.8"/>
-      <line x1="10" y1="85" x2="90" y2="85" stroke="rgba(255,221,0,0.15)" strokeWidth="0.5" strokeDasharray="3,3"/>
-      {/* Ghost character */}
+    <svg viewBox="0 0 100 110" className="char-svg" aria-hidden>
+      {/* Devanagari practice lines */}
+      <line x1="8" y1="28" x2="92" y2="28" stroke="rgba(255,221,0,0.35)" strokeWidth="0.8"/>
+      <line x1="8" y1="82" x2="92" y2="82" stroke="rgba(255,221,0,0.15)" strokeWidth="0.5" strokeDasharray="3,3"/>
+
+      {/* Ghost character — shows target shape while drawing */}
       <text x="50" y="82" textAnchor="middle"
             fontFamily="'Noto Sans Devanagari', serif"
-            fontSize="68" fill="rgba(255,221,0,0.08)">
-        {char}
-      </text>
-      {/* Animated character */}
-      <text ref={textRef} x="50" y="82" textAnchor="middle"
-            fontFamily="'Noto Sans Devanagari', serif"
             fontSize="68"
-            fill={playing ? 'transparent' : 'var(--text-primary, #fff)'}
-            stroke="var(--gold, #ffdd00)"
-            strokeWidth="1.5"
-            strokeDasharray="3000"
-            strokeDashoffset={playing ? '3000' : '0'}>
-        {char}
+            fill={done ? 'transparent' : 'rgba(255,221,0,0.07)'}>
+        {card.devanagari}
       </text>
+
+      {/* Animated stroke paths, one per stroke */}
+      {strokes.map((d, i) => {
+        const delay = i * (STROKE_DUR_MS + STROKE_GAP_MS)
+        return (
+          <path
+            key={`${animKey}-${i}`}
+            d={d}
+            fill="none"
+            stroke="var(--gold, #ffdd00)"
+            strokeWidth="2.8"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            pathLength="1"
+            style={{
+              strokeDasharray: 1,
+              animation: `stroke-draw ${STROKE_DUR_MS}ms ease ${delay}ms both`,
+            }}
+          />
+        )
+      })}
+
+      {/* Final character — fades in when all strokes complete */}
+      {done && (
+        <text x="50" y="82" textAnchor="middle"
+              fontFamily="'Noto Sans Devanagari', serif"
+              fontSize="68"
+              fill="var(--text-primary, #fff)"
+              style={{ animation: 'fade-in-char 0.4s ease forwards' }}>
+          {card.devanagari}
+        </text>
+      )}
+
+      {/* Stroke-number start-point indicators */}
+      {!done && strokes.map((d, i) => {
+        // Parse first M command to get start point
+        const m = d.match(/^M\s*([\d.]+)[,\s]([\d.]+)/)
+        if (!m) return null
+        const sx = parseFloat(m[1]), sy = parseFloat(m[2])
+        const delay = i * (STROKE_DUR_MS + STROKE_GAP_MS)
+        return (
+          <g key={`dot-${animKey}-${i}`}
+             style={{ animation: `fade-in-char 0.2s ease ${delay}ms both` }}>
+            <circle cx={sx} cy={sy} r="5.5"
+                    fill="var(--gold, #ffdd00)" opacity="0.9"/>
+            <text x={sx} y={sy + 3.5} textAnchor="middle"
+                  fill="#000" fontSize="6" fontFamily="sans-serif" fontWeight="bold">
+              {i + 1}
+            </text>
+          </g>
+        )
+      })}
     </svg>
   )
 }
 
+// ── Letter detail modal ───────────────────────────────────────────────────────
 function LetterModal({ card, onClose, onPrev, onNext }) {
   const [animKey, setAnimKey] = useState(0)
-  const [animating, setAnimating] = useState(false)
   const [animDone, setAnimDone] = useState(false)
   const { speak, speaking } = useSpeech()
   const hint = STROKE_HINTS[card.id]
-  const ex = EXAMPLES[card.id]
+  const ex   = EXAMPLES[card.id]
 
   const handlePlay = useCallback(() => {
     setAnimKey(k => k + 1)
-    setAnimating(true)
     setAnimDone(false)
     speak(card.devanagari)
   }, [card.devanagari, speak])
 
   // Auto-play on open
   useEffect(() => {
-    const t = setTimeout(handlePlay, 150)
+    const t = setTimeout(handlePlay, 200)
     return () => clearTimeout(t)
   }, [card.id]) // eslint-disable-line
 
-  // Keyboard nav
+  // Keyboard navigation
   useEffect(() => {
     const handler = (e) => {
-      if (e.key === 'Escape') onClose()
-      if (e.key === 'ArrowRight') onNext()
-      if (e.key === 'ArrowLeft') onPrev()
+      if (e.key === 'Escape')      onClose()
+      if (e.key === 'ArrowRight')  onNext()
+      if (e.key === 'ArrowLeft')   onPrev()
     }
     window.addEventListener('keydown', handler)
     return () => window.removeEventListener('keydown', handler)
@@ -216,13 +216,11 @@ function LetterModal({ card, onClose, onPrev, onNext }) {
         <div className="modal-nav modal-nav--next" onClick={onNext} aria-label="Next">›</div>
 
         <div className="modal-char-area">
-          <AnimatedChar
-            key={animKey}
-            char={card.devanagari}
-            playing={animating}
-            onAnimEnd={() => { setAnimating(false); setAnimDone(true) }}
+          <StrokeAnimation
+            card={card}
+            animKey={animKey}
+            onAnimEnd={() => setAnimDone(true)}
           />
-          <StrokeArrows id={card.id} />
         </div>
 
         <div className="modal-meta">
@@ -250,11 +248,10 @@ function LetterModal({ card, onClose, onPrev, onNext }) {
           <button
             className={`btn-listen ${speaking ? 'btn-listen--active' : ''}`}
             onClick={() => speak(card.devanagari)}
-            aria-label="Listen"
           >
             {speaking ? '🔊' : '🔉'} Listen
           </button>
-          <button className="btn-replay" onClick={handlePlay} aria-label="Replay animation">
+          <button className="btn-replay" onClick={handlePlay}>
             ↺ Replay
           </button>
         </div>
@@ -263,23 +260,22 @@ function LetterModal({ card, onClose, onPrev, onNext }) {
   )
 }
 
+// ── Page ──────────────────────────────────────────────────────────────────────
 export default function AlphabetLearnPage() {
   const navigate = useNavigate()
   const [tab, setTab] = useState('vowel')
   const [selected, setSelected] = useState(null)
 
-  const filtered = ALPHABET_CARDS.filter(c => c.type === tab)
-  const allVisible = ALPHABET_CARDS.filter(c => c.type === tab)
-
-  const selectedIdx = selected ? allVisible.findIndex(c => c.id === selected.id) : -1
+  const visible   = ALPHABET_CARDS.filter(c => c.type === tab)
+  const selIdx    = selected ? visible.findIndex(c => c.id === selected.id) : -1
 
   const handlePrev = useCallback(() => {
-    if (selectedIdx > 0) setSelected(allVisible[selectedIdx - 1])
-  }, [selectedIdx, allVisible])
+    if (selIdx > 0) setSelected(visible[selIdx - 1])
+  }, [selIdx, visible])
 
   const handleNext = useCallback(() => {
-    if (selectedIdx < allVisible.length - 1) setSelected(allVisible[selectedIdx + 1])
-  }, [selectedIdx, allVisible])
+    if (selIdx < visible.length - 1) setSelected(visible[selIdx + 1])
+  }, [selIdx, visible])
 
   return (
     <div className="alpha-page">
@@ -293,11 +289,9 @@ export default function AlphabetLearnPage() {
 
       <nav className="alpha-tabs">
         {TABS.map(t => (
-          <button
-            key={t.key}
+          <button key={t.key}
             className={`alpha-tab ${tab === t.key ? 'alpha-tab--active' : ''}`}
-            onClick={() => setTab(t.key)}
-          >
+            onClick={() => setTab(t.key)}>
             <span className="tab-sa">{t.labelSa}</span>
             <span className="tab-en">{t.label}</span>
           </button>
@@ -307,13 +301,10 @@ export default function AlphabetLearnPage() {
       <p className="alpha-hint">Tap a letter to see how it's written and hear its sound.</p>
 
       <div className={`alpha-grid alpha-grid--${tab}`}>
-        {filtered.map(card => (
-          <button
-            key={card.id}
-            className="alpha-card"
+        {visible.map(card => (
+          <button key={card.id} className="alpha-card"
             onClick={() => setSelected(card)}
-            aria-label={`${card.devanagari} — ${card.iast}`}
-          >
+            aria-label={`${card.devanagari} — ${card.iast}`}>
             <span className="alpha-card-char">{card.devanagari}</span>
             <span className="alpha-card-iast">{card.iast}</span>
           </button>
