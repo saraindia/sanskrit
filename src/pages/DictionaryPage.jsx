@@ -394,27 +394,6 @@ export default function DictionaryPage() {
     // Auto-lookup if navigated with ?q=
     const initialQ = searchParams.get('q')
     if (initialQ) {
-      const prefillRaw = sessionStorage.getItem('dict-prefill')
-      if (prefillRaw) {
-        try {
-          const prefill = JSON.parse(prefillRaw)
-          if (prefill.query === initialQ) {
-            sessionStorage.removeItem('dict-prefill')
-            const baseEntry = { ...prefill, cacheKey: initialQ.trim().toLowerCase(), cachedAt: Date.now() }
-            setEntry(baseEntry)
-            setEntryFromPrefill(true)
-            setSource('device')
-            // Hydrate sentences from bundle/MW index in background
-            Promise.all([loadMwIndex(), loadSentences()]).then(() => {
-              const mwResult = searchMwIndex(prefill.word || initialQ)
-              if (mwResult?.sentences?.length) {
-                setEntry(prev => prev ? { ...prev, sentences: mwResult.sentences } : prev)
-              }
-            })
-            return
-          }
-        } catch {}
-      }
       setTimeout(() => lookupWord(initialQ), 100)
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
@@ -475,8 +454,25 @@ export default function DictionaryPage() {
       return
     }
 
+    // Use sessionStorage prefill as optimistic entry so the word card shows
+    // immediately while we fetch sentences — avoids blank loading screen.
+    let hasOptimisticEntry = false
+    const prefillRaw = sessionStorage.getItem('dict-prefill')
+    if (prefillRaw) {
+      try {
+        const prefill = JSON.parse(prefillRaw)
+        if (prefill.query?.toLowerCase() === w.toLowerCase()) {
+          sessionStorage.removeItem('dict-prefill')
+          setEntry({ ...prefill, cacheKey: w.toLowerCase(), cachedAt: Date.now() })
+          setEntryFromPrefill(true)
+          setSource('device')
+          hasOptimisticEntry = true
+        }
+      } catch {}
+    }
+
     setLoading(true)
-    setEntry(null)
+    if (!hasOptimisticEntry) setEntry(null)
     setLoadingMsg('Checking shared dictionary…')
 
     try {
