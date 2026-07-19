@@ -176,7 +176,10 @@ export default function GitaPage() {
   // ── Chapter picker ────────────────────────────────────────────────────
   if (!chapterNum) return (
     <div className="gita anim-fade-up">
-      <HubBack to="/texts" label="Sacred Texts" />
+      <Breadcrumb crumbs={[
+        { label: 'Sacred Texts', onClick: () => navigate('/texts') },
+        { label: 'Bhagavad Gītā' },
+      ]} />
       <div className="page-header">
         <h1 className="page-title">Bhagavad Gītā</h1>
         <p className="page-subtitle">18 chapters · 701 verses · word by word</p>

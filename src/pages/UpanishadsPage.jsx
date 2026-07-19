@@ -255,7 +255,10 @@ export default function UpanishadsPage() {
 
   if (!textId) return (
     <div className="gita anim-fade-up">
-      <HubBack to="/texts" label="Sacred Texts" />
+      <Breadcrumb crumbs={[
+        { label: 'Sacred Texts', onClick: () => navigate('/texts') },
+        { label: isYoga ? 'Yoga Sūtras' : 'Upaniṣads' },
+      ]} />
       <div className="page-header">
         <h1 className="page-title">{pageTitle}</h1>
         <p className="page-subtitle">{pageSubtitle}</p>
