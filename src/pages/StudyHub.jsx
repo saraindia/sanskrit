@@ -17,7 +17,6 @@ export default function StudyHub() {
     { to: '/drill',      icon: '⚡',  label: 'Sentence Drill',dev: 'वाक्याभ्यासः', sub: `${sentCount} sentences`,    color: '#34d399' },
     { to: '/fill',       icon: '✏️', label: 'Fill in Blanks', dev: 'रिक्तस्थानम्', sub: `${fillCount} exercises`,   color: '#ec4899' },
     { to: '/match',      icon: '🔡', label: 'Match Pairs',    dev: 'मेलनम्',       sub: 'Adaptive rounds',            color: '#a855f7' },
-    { to: '/course',     icon: '🎬', label: 'Sanskrit in 33 Days', dev: 'संस्कृतम्', sub: '5 weeks · 33 lessons',  color: '#14b8a6' },
   ]
 
   return (
