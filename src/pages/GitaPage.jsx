@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
 import HubBack from '../components/HubBack'
+import Breadcrumb from '../components/Breadcrumb'
 import { ClickableVerse } from '../components/ClickableSentence'
 import { useVocabularyData } from '../hooks/useData'
 import { usePurchase } from '../context/PurchaseContext'
@@ -35,6 +36,7 @@ export default function GitaPage() {
   const { isPro: _isPro, isChecking, showPaywall, FREE_LIMITS } = usePurchase()
   const isPro = _isPro || isChecking
   const location = useLocation()
+  const navigate = useNavigate()
   const [manifest, setManifest]     = useState(() => cache.get('manifest.json') || null)
   const [chapterNum, setChapterNum] = useSessionStorage('gita_chapter', 0)  // 0 = chapter list
   const [verseNum, setVerseNum]     = useSessionStorage('gita_verse', 1)
@@ -218,7 +220,11 @@ export default function GitaPage() {
 
   return (
     <div className="gita anim-fade-up">
-      <button className="gita-back" onClick={() => setChapterNum(0)}>← All chapters</button>
+      <Breadcrumb crumbs={[
+        { label: 'Sacred Texts', onClick: () => navigate('/texts') },
+        { label: 'Bhagavad Gītā', onClick: () => setChapterNum(0) },
+        { label: `Chapter ${chapterNum}` },
+      ]} />
       <div className="page-header">
         <h1 className="page-title devanagari">{chapter.name}</h1>
         <p className="page-subtitle">Chapter {chapter.chapter} · {chapter.nameEnglish}</p>

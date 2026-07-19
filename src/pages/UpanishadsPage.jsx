@@ -4,6 +4,7 @@ import { useSessionStorage } from '../hooks/useSessionStorage'
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
 import HubBack from '../components/HubBack'
+import Breadcrumb from '../components/Breadcrumb'
 import { ClickableVerse } from '../components/ClickableSentence'
 import { useVocabularyData } from '../hooks/useData'
 import { usePurchase } from '../context/PurchaseContext'
@@ -295,7 +296,11 @@ export default function UpanishadsPage() {
   // ── Adhyāya picker (top level, for texts with chapters e.g. Chāndogya) ──
   if (hasAdhyayas && !adhId) return (
     <div className="gita anim-fade-up">
-      <button className="gita-back" onClick={() => isBrahma ? navigate('/texts') : setTextId('')}>← {isBrahma ? 'Sacred Texts' : isYoga ? 'Yoga Sūtras' : 'All Upaniṣads'}</button>
+      <Breadcrumb crumbs={[
+        { label: 'Sacred Texts', onClick: () => navigate('/texts') },
+        { label: isBrahma ? 'Brahma Sūtras' : isYoga ? 'Yoga Sūtras' : 'Upaniṣads', onClick: isBrahma ? undefined : () => setTextId('') },
+        { label: text.title },
+      ]} />
       <div className="page-header">
         <h1 className="page-title" style={{ fontSize: '1.1rem' }}>{text.title}</h1>
         <p className="page-subtitle devanagari" style={{ fontSize: '1rem', marginBottom: '0.25rem' }}>{text.titleDeva}</p>
@@ -327,9 +332,12 @@ export default function UpanishadsPage() {
   // ── Khaṇḍa / section picker ──────────────────────────────────────────
   if (!sectionId) return (
     <div className="gita anim-fade-up">
-      <button className="gita-back" onClick={() => hasAdhyayas ? setAdhId('') : (isBrahma ? navigate('/texts') : setTextId(''))}>
-        ← {hasAdhyayas ? `${text.title} adhyāyas` : (isBrahma ? 'Sacred Texts' : isYoga ? 'Yoga Sūtras' : 'All Upaniṣads')}
-      </button>
+      <Breadcrumb crumbs={[
+        { label: 'Sacred Texts', onClick: () => navigate('/texts') },
+        { label: isYoga ? 'Yoga Sūtras' : 'Upaniṣads', onClick: isBrahma ? undefined : () => { setTextId(''); setAdhId('') } },
+        hasAdhyayas ? { label: text.title, onClick: () => setAdhId('') } : null,
+        { label: hasAdhyayas ? adhId : text.title },
+      ].filter(Boolean)} />
       <div className="page-header">
         <h1 className="page-title" style={{ fontSize: '1.1rem' }}>{text.title}</h1>
         <p className="page-subtitle devanagari" style={{ fontSize: '1rem', marginBottom: '0.25rem' }}>{text.titleDeva}</p>
@@ -380,9 +388,13 @@ export default function UpanishadsPage() {
 
   return (
     <div className="gita anim-fade-up">
-      <button className="gita-back" onClick={() => hasAdhyayas ? setAdhId('') : (isYoga ? setTextId('') : setSectionId(''))}>
-        ← {hasAdhyayas ? `${text.title} adhyāyas` : (isYoga ? 'Yoga Sūtras' : text.title)}
-      </button>
+      <Breadcrumb crumbs={[
+        { label: 'Sacred Texts', onClick: () => navigate('/texts') },
+        { label: isYoga ? 'Yoga Sūtras' : 'Upaniṣads', onClick: isBrahma ? undefined : () => { setTextId(''); setAdhId(''); setSectionId('') } },
+        hasAdhyayas ? { label: text.title, onClick: () => { setAdhId(''); setSectionId('') } } : null,
+        { label: hasAdhyayas ? adhId : text.title, onClick: () => setSectionId('') },
+        { label: sectionId },
+      ].filter(Boolean)} />
       <div className="page-header">
         <h1 className="page-title devanagari">{text.titleDeva}</h1>
         <p className="page-subtitle">{verse.adh ? `${verse.adh} · ` : ''}{sectionId}</p>
