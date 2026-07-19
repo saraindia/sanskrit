@@ -400,9 +400,17 @@ export default function DictionaryPage() {
           const prefill = JSON.parse(prefillRaw)
           if (prefill.query === initialQ) {
             sessionStorage.removeItem('dict-prefill')
-            setEntry({ ...prefill, cacheKey: initialQ.trim().toLowerCase(), cachedAt: Date.now() })
+            const baseEntry = { ...prefill, cacheKey: initialQ.trim().toLowerCase(), cachedAt: Date.now() }
+            setEntry(baseEntry)
             setEntryFromPrefill(true)
             setSource('device')
+            // Hydrate sentences from bundle/MW index in background
+            Promise.all([loadMwIndex(), loadSentences()]).then(() => {
+              const mwResult = searchMwIndex(prefill.word || initialQ)
+              if (mwResult?.sentences?.length) {
+                setEntry(prev => prev ? { ...prev, sentences: mwResult.sentences } : prev)
+              }
+            })
             return
           }
         } catch {}
