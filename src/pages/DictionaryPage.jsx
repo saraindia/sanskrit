@@ -193,7 +193,7 @@ function DevaText({ text, onWordClick }) {
             <button
               key={i}
               className="dict-sent-word-link"
-              onClick={() => onWordClick(key)}
+              onClick={e => { e.stopPropagation(); onWordClick(key) }}
             >{tok}</button>
           )
         }
@@ -207,6 +207,7 @@ function DevaText({ text, onWordClick }) {
 
 function SentenceCard({ sentence, index, onWordClick }) {
   const { speak, isPlaying, currentText } = useSpeech()
+  const [open, setOpen] = useState(false)
   const isThisPlaying = isPlaying && currentText === sentence.devanagari
 
   const typeIcon = { statement: '💬', question: '❓', conversation: '🗣️' }
@@ -214,27 +215,37 @@ function SentenceCard({ sentence, index, onWordClick }) {
   const vachanLabel = { eka: 'Sing.', dvi: 'Dual', bahu: 'Plur.' }
 
   return (
-    <div className="dict-sentence-card">
-      <div className="dict-sentence-header">
+    <div className={`dict-sentence-card ${open ? 'open' : ''}`}>
+      <div
+        className="dict-sentence-trigger"
+        onClick={() => setOpen(o => !o)}
+        role="button"
+        aria-expanded={open}
+        tabIndex={0}
+        onKeyDown={e => (e.key === 'Enter' || e.key === ' ') && setOpen(o => !o)}
+      >
         <span className="dict-sentence-num">{index + 1}</span>
         <span className="dict-sentence-type-icon" title={sentence.type}>{typeIcon[sentence.type] || '💬'}</span>
         <div className="dict-sentence-tags">
-          <span className="dict-tag dict-tag-kaal">{kaalLabel[sentence.kaal] || sentence.kaal}</span>
-          <span className="dict-tag dict-tag-vachan">{vachanLabel[sentence.vachan] || sentence.vachan}</span>
+          {sentence.kaal && <span className="dict-tag dict-tag-kaal">{kaalLabel[sentence.kaal] || sentence.kaal}</span>}
+          {sentence.vachan && <span className="dict-tag dict-tag-vachan">{vachanLabel[sentence.vachan] || sentence.vachan}</span>}
         </div>
+        <div className="dict-sentence-deva-inline">
+          <DevaText text={sentence.devanagari} onWordClick={onWordClick} />
+        </div>
+        <span className="dict-sentence-chevron">{open ? '▲' : '▼'}</span>
+      </div>
+      <div className="dict-sentence-body">
         <button
-          className={`dict-speak-btn ${isThisPlaying ? 'playing' : ''}`}
-          onClick={() => speak(sentence.devanagari)}
+          className={`dict-speak-btn dict-speak-sentence ${isThisPlaying ? 'playing' : ''}`}
+          onClick={e => { e.stopPropagation(); speak(sentence.devanagari) }}
           aria-label="Listen"
         >
-          <SpeakIcon size="14px" />
+          <SpeakIcon size="14px" /> <span>Listen</span>
         </button>
+        <div className="dict-sentence-roman">{sentence.transliteration}</div>
+        <div className="dict-sentence-english">{sentence.english}</div>
       </div>
-      <div className="dict-sentence-deva">
-        <DevaText text={sentence.devanagari} onWordClick={onWordClick} />
-      </div>
-      <div className="dict-sentence-roman">{sentence.transliteration}</div>
-      <div className="dict-sentence-english">{sentence.english}</div>
     </div>
   )
 }

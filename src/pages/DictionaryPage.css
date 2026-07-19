@@ -774,16 +774,23 @@
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  padding: 0.85rem 1rem;
+  overflow: hidden;
   transition: border-color 0.2s;
 }
 .dict-sentence-card:hover { border-color: var(--border-bright); }
+.dict-sentence-card.open { border-color: var(--border-bright); }
 
-.dict-sentence-header {
+.dict-sentence-trigger {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 0.55rem;
+  padding: 0.75rem 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  color: inherit;
 }
 
 .dict-sentence-num {
@@ -800,12 +807,12 @@
   font-family: var(--font-mono);
 }
 
-.dict-sentence-type-icon { font-size: 0.85rem; line-height: 1; }
+.dict-sentence-type-icon { font-size: 0.85rem; line-height: 1; flex-shrink: 0; }
 
 .dict-sentence-tags {
   display: flex;
   gap: 0.3rem;
-  flex: 1;
+  flex-shrink: 0;
 }
 
 .dict-tag {
@@ -828,6 +835,31 @@
   border: 1px solid rgba(58,158,138,0.25);
 }
 
+.dict-sentence-deva-inline {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-size: 1rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+  flex: 1;
+  text-align: left;
+  min-width: 0;
+}
+
+.dict-sentence-chevron {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: color 0.15s;
+}
+.dict-sentence-trigger:hover .dict-sentence-chevron { color: var(--text-secondary); }
+
+.dict-sentence-body {
+  display: none;
+  padding: 0 1rem 0.85rem;
+  border-top: 1px solid var(--border);
+}
+.dict-sentence-card.open .dict-sentence-body { display: block; }
+
 .dict-speak-btn {
   background: none;
   color: var(--text-muted);
@@ -835,10 +867,24 @@
   border-radius: 4px;
   display: flex;
   align-items: center;
-  margin-left: auto;
   transition: color 0.15s;
 }
 .dict-speak-btn:hover, .dict-speak-btn.playing { color: var(--gold); }
+
+.dict-speak-sentence {
+  gap: 0.35rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.65rem;
+}
+.dict-speak-sentence span { font-family: var(--font-display); letter-spacing: 0.04em; }
+.dict-speak-sentence:hover, .dict-speak-sentence.playing {
+  color: var(--gold);
+  border-color: var(--gold-dim);
+}
 
 .dict-sentence-deva {
   font-family: 'Noto Sans Devanagari', sans-serif;
