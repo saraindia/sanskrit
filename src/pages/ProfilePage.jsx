@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { usePurchase } from '../context/PurchaseContext'
 import { useTheme, THEMES } from '../context/ThemeContext'
 import { useSoundContext } from '../context/SoundContext'
@@ -14,14 +14,50 @@ export default function ProfilePage() {
   const pkg   = offerings?.availablePackages?.[0]
   const price = pkg?.product?.priceString ?? null
 
+  const [whyOpen, setWhyOpen] = useState(false)
+
   const handleSoundToggle = () => {
     const next = !soundEnabled
     setSoundEnabled(next)
     if (next) setTimeout(() => play('toggleOn'), 50)
   }
 
+  const WHY_FEATURES = [
+    { icon: '📖', title: 'Sacred Texts — Word by Word',         desc: 'Bhagavad Gītā (701 verses), 8 Upaniṣads, Brahmasūtras & Yoga Sūtras — every verse with Devanagari, transliteration, and English. Not just translations — understanding.' },
+    { icon: '🔠', title: 'Grammar from Absolute Zero',           desc: 'A structured path from Pronouns → Conjugation → Nouns → Vibhakti → Tenses. Learn Sanskrit grammar the way Sanskrit scholars do — with context and progression, not rote lists.' },
+    { icon: '⚡', title: '1,200+ Words · 1,260+ Sentences',     desc: 'A living vocabulary bank with spaced-repetition flashcards, sentence drills, fill-in-the-blank, and match-pairs — all in Sanskrit. Practice the way your brain actually learns.' },
+    { icon: '🎬', title: 'Learn by Listening & Watching',        desc: 'Varṇamālā Series (25 episodes on Sanskrit sounds & script by Tattvam), Sanskrit in 33 Days video course, and live Sanskrit news on Ākāśavāṇi radio — all in one place.' },
+    { icon: '🗣️', title: 'Authentic Pronunciation from Day One', desc: 'Audio for sacred texts, Varṇamālā phonetics covering every varṇa including the rare ṛ, ḷ, anusvāra, visarga and their 8 modifications — the sounds no other app teaches.' },
+    { icon: '📻', title: 'Live Sanskrit — Every Day',            desc: "Today's Ākāśavāṇi Sanskrit news bulletin, archived by day. Sanskrit is a living language — hear it spoken fluently in real broadcasts, not just recorded lessons." },
+    { icon: '🌟', title: 'No App in the World Does This',        desc: "Every other Sanskrit app is either a dictionary, a transliteration tool, or a children's alphabet app. Sanskritly is the first to combine grammar learning, sacred text study, pronunciation mastery, and daily listening in a single mobile experience." },
+  ]
+
   return (
     <div className="profile-page anim-fade-up">
+
+      {/* ── Why Sanskritly accordion ───────────────────────────────────── */}
+      <button className="why-accord-trigger" onClick={() => setWhyOpen(o => !o)}>
+        <div className="why-accord-left">
+          <span className="why-accord-eyebrow">संस्कृतम् · The Only App of Its Kind</span>
+          <span className="why-accord-title">✦ Why Sanskritly?</span>
+        </div>
+        <span className="why-accord-chevron">{whyOpen ? '▲' : '▼'}</span>
+      </button>
+
+      {whyOpen && (
+        <div className="why-accord-body">
+          {WHY_FEATURES.map(({ icon, title, desc }) => (
+            <div key={title} className="why-feature-row">
+              <span className="why-feature-icon">{icon}</span>
+              <div>
+                <div className="why-feature-title">{title}</div>
+                <div className="why-feature-desc">{desc}</div>
+              </div>
+            </div>
+          ))}
+          <div className="why-footer-note">🙏 Built with love for Sanskrit · For learners, scholars &amp; seekers</div>
+        </div>
+      )}
 
       {/* ── Access status ──────────────────────────────────────────────── */}
       {isPro ? (
@@ -118,34 +154,6 @@ export default function ProfilePage() {
           <span className="profile-setting-badge">🔒 Local</span>
         </div>
       </div>
-
-      {/* ── Why Sanskritly ────────────────────────────────────────────────── */}
-      <div className="profile-section-label">About</div>
-      <div className="profile-settings-group why-section">
-        <div className="why-eyebrow">संस्कृतम् · The Only App of Its Kind</div>
-        <h2 className="why-heading">Why Sanskritly?</h2>
-
-        {[
-          { icon: '📖', title: 'Sacred Texts — Word by Word',        desc: 'Bhagavad Gītā (701 verses), 8 Upaniṣads, Brahmasūtras & Yoga Sūtras — every verse with Devanagari, transliteration, and English. Not just translations — understanding.' },
-          { icon: '🔠', title: 'Grammar from Absolute Zero',          desc: 'A structured path from Pronouns → Conjugation → Nouns → Vibhakti → Tenses. Learn Sanskrit grammar the way Sanskrit scholars do — with context and progression, not rote lists.' },
-          { icon: '⚡', title: '1,200+ Words · 1,260+ Sentences',    desc: 'A living vocabulary bank with spaced-repetition flashcards, sentence drills, fill-in-the-blank, and match-pairs — all in Sanskrit. Practice the way your brain actually learns.' },
-          { icon: '🎬', title: 'Learn by Listening & Watching',       desc: 'Varṇamālā Series (25 episodes on Sanskrit sounds & script by Tattvam), Sanskrit in 33 Days video course, and live Sanskrit news on Ākāśavāṇi radio — all in one place.' },
-          { icon: '🗣️', title: 'Authentic Pronunciation from Day One', desc: 'Audio for sacred texts, Varṇamālā phonetics covering every varṇa including the rare ṛ, ḷ, anusvāra, visarga and their 8 modifications — the sounds no other app teaches.' },
-          { icon: '📻', title: 'Live Sanskrit — Every Day',           desc: "Today's Ākāśavāṇi Sanskrit news bulletin, archived by day. Sanskrit is a living language — hear it spoken fluently in real broadcasts, not just recorded lessons." },
-          { icon: '🌟', title: 'No App in the World Does This',       desc: 'Every other Sanskrit app is either a dictionary, a transliteration tool, or a children\'s alphabet app. Sanskritly is the first to combine grammar learning, sacred text study, pronunciation mastery, and daily listening in a single mobile experience.' },
-        ].map(({ icon, title, desc }) => (
-          <div key={title} className="why-feature-row">
-            <span className="why-feature-icon">{icon}</span>
-            <div>
-              <div className="why-feature-title">{title}</div>
-              <div className="why-feature-desc">{desc}</div>
-            </div>
-          </div>
-        ))}
-
-        <div className="why-footer-note">🙏 Built with love for Sanskrit · For learners, scholars &amp; seekers</div>
-      </div>
-
       <div className="profile-footer">
         Sanskritly · संस्कृतम् · v1.0
       </div>
