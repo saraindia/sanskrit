@@ -120,15 +120,15 @@ html, body, #root {
   touch-action: pan-y;  /* let vertical swipes scroll, not be swallowed */
 }
 
-/* Padding inside each page — clears the floating pill nav (52px) + gap (10px) + safe-area */
+/* Padding inside each page — clears the floating pill nav (~52px) + 8px bottom offset + gap */
 .main-content > * {
-  padding-bottom: calc(62px + env(safe-area-inset-bottom, 0px) + 10px);
+  padding-bottom: 72px;
 }
 
 /* ── Bottom tab bar ──────────────────────────────────────────────────────────── */
 .bottom-nav {
   position: fixed;
-  bottom: calc(env(safe-area-inset-bottom, 0px) + 10px);
+  bottom: 8px;
   left: 16px;
   right: 16px;
   background: var(--bg-elevated);
@@ -165,7 +165,7 @@ html, body, #root {
 }
 .more-sheet {
   position: fixed;
-  bottom: calc(72px + env(safe-area-inset-bottom, 0px));
+  bottom: 72px;
   left: 0;
   right: 0;
   z-index: 99;
@@ -347,7 +347,7 @@ html, body, #root {
 /* ── Install banner (shown when PWA installable) ─────────────────────────────── */
 .install-banner {
   position: fixed;
-  bottom: calc(72px + env(safe-area-inset-bottom, 0px) + 8px);
+  bottom: 80px;
   left: 1rem;
   right: 1rem;
   background: var(--bg-elevated);
@@ -398,7 +398,7 @@ html, body, #root {
 /* ── App update banner ───────────────────────────────────────────────────────── */
 .update-banner {
   position: fixed;
-  bottom: calc(72px + env(safe-area-inset-bottom, 0px) + 16px);
+  bottom: 88px;
   left: 1rem;
   right: 1rem;
   background: linear-gradient(135deg, var(--bg-elevated), var(--bg-subtle));
