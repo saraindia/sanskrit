@@ -616,7 +616,19 @@
 }
 .dict-wc-quote-header .dict-speak-btn {
   flex-shrink: 0;
-  margin-top: 0.1rem;
+  margin-top: 0.05rem;
+  color: var(--gold);
+  background: rgba(201,168,76,0.12);
+  border: 1px solid rgba(201,168,76,0.3);
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  justify-content: center;
+}
+.dict-wc-quote-header .dict-speak-btn:hover,
+.dict-wc-quote-header .dict-speak-btn.playing {
+  background: rgba(201,168,76,0.22);
+  border-color: var(--gold);
 }
 
 .dict-wc-quote-sa {
