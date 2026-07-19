@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
+import { createPortal } from 'react-dom'
 import { useNavigate } from 'react-router-dom'
 import { ALPHABET_CARDS } from '../data/vocabulary.js'
 import { STROKE_PATHS } from '../data/alphabetStrokes.js'
@@ -207,7 +208,7 @@ function LetterModal({ card, onClose, onPrev, onNext }) {
     return () => window.removeEventListener('keydown', handler)
   }, [onClose, onNext, onPrev])
 
-  return (
+  const content = (
     <div className="letter-modal-backdrop" onClick={onClose}>
       <div className="letter-modal" onClick={e => e.stopPropagation()}>
         <button className="modal-close" onClick={onClose} aria-label="Close">✕</button>
@@ -258,6 +259,7 @@ function LetterModal({ card, onClose, onPrev, onNext }) {
       </div>
     </div>
   )
+  return createPortal(content, document.body)
 }
 
 // ── Page ──────────────────────────────────────────────────────────────────────
