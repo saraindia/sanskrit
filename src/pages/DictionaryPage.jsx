@@ -64,6 +64,7 @@ let _usableMap    = null   // inflected form → Devanagari key
 let _mwLoading    = null   // in-flight Promise
 let _sentences    = null   // Devanagari key → sentences[]
 let _sentLoading  = null
+let _mwSearchList = null   // flat array for autocomplete — built after MW index loads
 
 async function loadMwIndex() {
   if (_mwIndex)   return
@@ -75,14 +76,28 @@ async function loadMwIndex() {
       _mwIndex    = await res.json()
       _mwAsciiMap = {}
       _usableMap  = {}
+      _mwSearchList = []
       for (const [key, e] of Object.entries(_mwIndex)) {
         if (!_mwAsciiMap[e.ascii]) _mwAsciiMap[e.ascii] = key
-        _usableMap[key] = key                        // root form itself
-        if (e.usable) _usableMap[e.usable] = key    // inflected form e.g. गजः
+        _usableMap[key] = key
+        if (e.usable) _usableMap[e.usable] = key
+        // Pre-build a lowercase search string for fast autocomplete matching
+        _mwSearchList.push({
+          word: key,
+          usable: e.usable || key,
+          meaning: e.meaning || '',
+          ascii: e.ascii || '',
+          category: e.category || '',
+          difficulty: e.difficulty || '',
+          imageUrl: e.imageUrl || null,
+          sampleSa: e.sampleSa || null,
+          sampleEn: e.sampleEn || null,
+          _search: `${(e.meaning || '').toLowerCase()} ${(e.ascii || '').toLowerCase()} ${key}`,
+        })
       }
     } catch (e) {
       console.warn('[dict] MW index load failed:', e.message)
-      _mwIndex = {}; _mwAsciiMap = {}
+      _mwIndex = {}; _mwAsciiMap = {}; _mwSearchList = []
     }
   })()
   await _mwLoading
@@ -446,16 +461,14 @@ export default function DictionaryPage() {
 
       const sofar = cached.length + vocabMatches.length + sharedMatches.length
 
-      // Also search MW index by English meaning when query is ASCII (English)
-      const isEnglish = /^[a-z\s-]+$/.test(q) && _mwIndex
+      // Search the pre-built MW search list (covers all 3,470 words by meaning + IAST)
       const mwMatches = []
-      if (isEnglish && sofar < 6) {
-        for (const [devKey, e] of Object.entries(_mwIndex)) {
-          if (e.meaning?.toLowerCase().includes(q)) {
-            const key = e.word || devKey
-            if (!seen.has(key)) {
-              seen.add(key)
-              mwMatches.push({ ...e, slug: e.ascii || devKey, fromMW: true, sentences: [] })
+      if (_mwSearchList && sofar < 6) {
+        for (const e of _mwSearchList) {
+          if (e._search.includes(q)) {
+            if (!seen.has(e.word)) {
+              seen.add(e.word)
+              mwMatches.push({ ...e, cacheKey: e.ascii || e.word, transliteration: e.ascii, fromMW: true })
               if (sofar + mwMatches.length >= 6) break
             }
           }
