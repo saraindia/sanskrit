@@ -39,7 +39,12 @@ const TEXTS_ROUTES = ['/texts', '/gita', '/upanishads', '/brahmasutras', '/yogas
 const MORE_ROUTES  = ['/podcast', '/ddnews', '/dictionary']
 
 const SIDEBAR_GROUPS = [
-  { label: null, items: [{ to: '/', label: 'Home', icon: '🏠', end: true }] },
+  { label: null, items: [
+    { to: '/',           label: 'Home',       icon: '🏠', end: true },
+    { to: '/dictionary', label: 'Dictionary', icon: '📖' },
+    { to: '/flashcards', label: 'Flashcards', icon: '🗂️' },
+    { to: '/drill',      label: 'Sentence Drill', icon: '⚡' },
+  ]},
   { label: 'Grammar Path', items: [
     { to: '/grammar/pronouns',   label: '1 · Pronouns',         icon: '👤' },
     { to: '/grammar/verbs',      label: '2 · Conjugation',      icon: '📋' },
@@ -51,8 +56,6 @@ const SIDEBAR_GROUPS = [
     { to: '/grammar/gender',     label: '↳ Gender Explorer',    icon: '⚥'  },
   ]},
   { label: 'Practice', items: [
-    { to: '/flashcards', label: 'Flashcards',     icon: '🗂️' },
-    { to: '/drill',      label: 'Sentence Drill', icon: '⚡' },
     { to: '/fill',       label: 'Fill Blanks',    icon: '✏️' },
     { to: '/match',      label: 'Match Pairs',    icon: '🔡' },
   ]},
@@ -62,8 +65,7 @@ const SIDEBAR_GROUPS = [
     { to: '/upanishads', label: 'Upaniṣad',   icon: '🕉️' },
     { to: '/story',      label: 'Stories',    icon: '📖' },
     { to: '/podcast',    label: 'Listen',     icon: '🎧' },
-    { to: '/ddnews',      label: 'Skt Vārtā',  icon: '📺' },
-    { to: '/dictionary',  label: 'Dictionary', icon: '📖' },
+    { to: '/ddnews',     label: 'Skt Vārtā',  icon: '📺' },
   ]},
 ]
 
