@@ -10,6 +10,31 @@ import { getLevel, getNextLevel, getLevelProgress, getEarnedBadges, BADGES } fro
 import { BHAGAVAD_GITA } from '../data/sacred.js'
 import { VOCABULARY } from '../data/vocabulary.js'
 import { VNP_SENTENCES, COLLATED_SENTENCES } from '../data/sentences.js'
+
+// ── MW dictionary index (same source as DictionaryPage autocomplete) ──────────
+const DICT_RAW = 'https://raw.githubusercontent.com/saraindia/sanskrit-dict/main/dictionary'
+let _mwWords = null  // flat array built once from MW index
+
+async function loadMwWords() {
+  if (_mwWords) return _mwWords
+  try {
+    const res = await fetch(`${DICT_RAW}/_mw-index.json`)
+    const index = await res.json()
+    _mwWords = Object.entries(index).map(([key, e]) => ({
+      devanagari: e.usable || key,
+      iast: e.ascii || '',
+      english: e.meaning || '',
+      gender: e.gender || '',
+      pos: e.category || '',
+      level: e.difficulty || '',
+      sampleSa: e.sampleSa || null,
+      sampleEn: e.sampleEn || null,
+    })).filter(w => w.english)
+  } catch {
+    _mwWords = []
+  }
+  return _mwWords
+}
 import './Dashboard.css'
 
 function getDailyVerse() {
@@ -143,20 +168,25 @@ const POS_COLOUR = {
   pronoun: '#60a5fa',
 }
 
-function getDailyWord() {
+function getDayIndex() {
   const start = new Date('2024-01-01')
-  const today = new Date()
-  const day = Math.floor((today - start) / 86400000)
-  return VOCABULARY[day % VOCABULARY.length]
+  return Math.floor((new Date() - start) / 86400000)
 }
 
 function WordOfDay({ open, onToggle }) {
-  const word = useMemo(() => getDailyWord(), [])
+  const [word, setWord] = useState(() => VOCABULARY[getDayIndex() % VOCABULARY.length])
   const { speak, stop, isPlaying } = useSpeech()
   const navigate = useNavigate()
 
+  useEffect(() => {
+    loadMwWords().then(words => {
+      if (words.length) setWord(words[getDayIndex() % words.length])
+    })
+  }, [])
+
   const exampleSentence = useMemo(() => {
     if (!word) return null
+    if (word.sampleSa) return { devanagari: word.sampleSa, english: word.sampleEn }
     const allSentences = [...VNP_SENTENCES, ...COLLATED_SENTENCES]
     const root = word.devanagari.replace(/[ंःँ।॥]/g, '').trim()
     return (
