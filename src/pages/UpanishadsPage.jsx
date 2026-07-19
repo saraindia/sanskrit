@@ -299,8 +299,8 @@ export default function UpanishadsPage() {
       <Breadcrumb crumbs={[
         { label: 'Sacred Texts', onClick: () => navigate('/texts') },
         { label: isBrahma ? 'Brahma Sūtras' : isYoga ? 'Yoga Sūtras' : 'Upaniṣads', onClick: isBrahma ? undefined : () => setTextId('') },
-        { label: text.title },
-      ]} />
+        !isBrahma ? { label: text.title } : null,
+      ].filter(Boolean)} />
       <div className="page-header">
         <h1 className="page-title" style={{ fontSize: '1.1rem' }}>{text.title}</h1>
         <p className="page-subtitle devanagari" style={{ fontSize: '1rem', marginBottom: '0.25rem' }}>{text.titleDeva}</p>
@@ -335,7 +335,7 @@ export default function UpanishadsPage() {
       <Breadcrumb crumbs={[
         { label: 'Sacred Texts', onClick: () => navigate('/texts') },
         { label: isBrahma ? 'Brahma Sūtras' : isYoga ? 'Yoga Sūtras' : 'Upaniṣads', onClick: isBrahma ? () => setAdhId('') : () => { setTextId(''); setAdhId('') } },
-        hasAdhyayas ? { label: text.title, onClick: () => setAdhId('') } : null,
+        hasAdhyayas && !isBrahma ? { label: text.title, onClick: () => setAdhId('') } : null,
         { label: hasAdhyayas ? adhId : text.title },
       ].filter(Boolean)} />
       <div className="page-header">
@@ -391,9 +391,10 @@ export default function UpanishadsPage() {
       <Breadcrumb crumbs={[
         { label: 'Sacred Texts', onClick: () => navigate('/texts') },
         { label: isBrahma ? 'Brahma Sūtras' : isYoga ? 'Yoga Sūtras' : 'Upaniṣads', onClick: isBrahma ? () => { setAdhId(''); setSectionId('') } : () => { setTextId(''); setAdhId(''); setSectionId('') } },
-        hasAdhyayas ? { label: text.title, onClick: () => { setAdhId(''); setSectionId('') } } : null,
-        { label: hasAdhyayas ? adhId : text.title, onClick: () => setSectionId('') },
-        { label: sectionId },
+        hasAdhyayas && !isBrahma ? { label: text.title, onClick: () => { setAdhId(''); setSectionId('') } } : null,
+        hasAdhyayas ? { label: adhId, onClick: () => setSectionId('') } : null,
+        isYoga ? { label: text.title } : { label: hasAdhyayas ? sectionId : text.title, onClick: hasAdhyayas ? undefined : () => setSectionId('') },
+        !isYoga && !hasAdhyayas ? { label: sectionId } : null,
       ].filter(Boolean)} />
       <div className="page-header">
         <h1 className="page-title devanagari">{text.titleDeva}</h1>
