@@ -334,7 +334,7 @@ export default function UpanishadsPage() {
     <div className="gita anim-fade-up">
       <Breadcrumb crumbs={[
         { label: 'Sacred Texts', onClick: () => navigate('/texts') },
-        { label: isYoga ? 'Yoga Sūtras' : 'Upaniṣads', onClick: isBrahma ? undefined : () => { setTextId(''); setAdhId('') } },
+        { label: isBrahma ? 'Brahma Sūtras' : isYoga ? 'Yoga Sūtras' : 'Upaniṣads', onClick: isBrahma ? () => setAdhId('') : () => { setTextId(''); setAdhId('') } },
         hasAdhyayas ? { label: text.title, onClick: () => setAdhId('') } : null,
         { label: hasAdhyayas ? adhId : text.title },
       ].filter(Boolean)} />
@@ -390,7 +390,7 @@ export default function UpanishadsPage() {
     <div className="gita anim-fade-up">
       <Breadcrumb crumbs={[
         { label: 'Sacred Texts', onClick: () => navigate('/texts') },
-        { label: isYoga ? 'Yoga Sūtras' : 'Upaniṣads', onClick: isBrahma ? undefined : () => { setTextId(''); setAdhId(''); setSectionId('') } },
+        { label: isBrahma ? 'Brahma Sūtras' : isYoga ? 'Yoga Sūtras' : 'Upaniṣads', onClick: isBrahma ? () => { setAdhId(''); setSectionId('') } : () => { setTextId(''); setAdhId(''); setSectionId('') } },
         hasAdhyayas ? { label: text.title, onClick: () => { setAdhId(''); setSectionId('') } } : null,
         { label: hasAdhyayas ? adhId : text.title, onClick: () => setSectionId('') },
         { label: sectionId },
