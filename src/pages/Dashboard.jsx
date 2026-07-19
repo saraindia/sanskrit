@@ -546,7 +546,6 @@ export default function Dashboard() {
   }, [progress.srs])
 
   const level      = useMemo(() => getLevel(progress.xp || 0), [progress.xp])
-  const [whyOpen, setWhyOpen] = useState(false)
   const [dailyOpen, setDailyOpen] = useState(null) // 'shloka' | 'word' | null
 
   return (
@@ -557,7 +556,6 @@ export default function Dashboard() {
         <div className="dash-hero-text">
           <div className="dash-hero-greeting-row">
             <span className="greeting-deva">नमस्ते</span>
-            <button className="why-btn" onClick={() => setWhyOpen(true)}>✦ Why Sanskritly?</button>
           </div>
           <div className="greeting-sub">Your Sanskrit journey continues</div>
         </div>
@@ -569,85 +567,6 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
-
-      {/* ── Why Sanskritly modal ────────────────────────────────────────── */}
-      {whyOpen && (
-        <div className="why-overlay" onClick={() => setWhyOpen(false)}>
-          <div className="why-modal" onClick={e => e.stopPropagation()}>
-            <div className="why-modal-header">
-              <div>
-                <p className="why-modal-eyebrow">संस्कृतम् · The Only App of Its Kind</p>
-                <h2 className="why-modal-title">Why Sanskritly?</h2>
-              </div>
-              <button className="why-modal-close" onClick={() => setWhyOpen(false)}>✕</button>
-            </div>
-
-            <div className="why-features">
-
-              <div className="why-feature">
-                <span className="why-feat-icon">📖</span>
-                <div>
-                  <p className="why-feat-title">Sacred Texts — Word by Word</p>
-                  <p className="why-feat-desc">Bhagavad Gītā (701 verses), 8 Upaniṣads, Brahmasūtras &amp; Yoga Sūtras — every verse with Devanagari, transliteration, and English. Not just translations — <em>understanding</em>.</p>
-                </div>
-              </div>
-
-              <div className="why-feature">
-                <span className="why-feat-icon">🔠</span>
-                <div>
-                  <p className="why-feat-title">Grammar from Absolute Zero</p>
-                  <p className="why-feat-desc">A structured path from Pronouns → Conjugation → Nouns → Vibhakti → Tenses. Learn Sanskrit grammar the way Sanskrit scholars do — with context and progression, not rote lists.</p>
-                </div>
-              </div>
-
-              <div className="why-feature">
-                <span className="why-feat-icon">⚡</span>
-                <div>
-                  <p className="why-feat-title">1,200+ Words · 1,260+ Sentences</p>
-                  <p className="why-feat-desc">A living vocabulary bank with spaced-repetition flashcards, sentence drills, fill-in-the-blank, and match-pairs — all in Sanskrit. Practice the way your brain actually learns.</p>
-                </div>
-              </div>
-
-              <div className="why-feature">
-                <span className="why-feat-icon">🎬</span>
-                <div>
-                  <p className="why-feat-title">Learn by Listening &amp; Watching</p>
-                  <p className="why-feat-desc">Varṇamālā Series (25 episodes on Sanskrit sounds &amp; script by Tattvam), Sanskrit in 33 Days video course, and live Sanskrit news on Ākāśavāṇi radio — all in one place.</p>
-                </div>
-              </div>
-
-              <div className="why-feature">
-                <span className="why-feat-icon">🗣️</span>
-                <div>
-                  <p className="why-feat-title">Authentic Pronunciation from Day One</p>
-                  <p className="why-feat-desc">Audio for sacred texts, Varṇamālā phonetics covering every varṇa including the rare ṛ, ḷ, anusvāra, visarga and their 8 modifications — the sounds no other app teaches.</p>
-                </div>
-              </div>
-
-              <div className="why-feature">
-                <span className="why-feat-icon">📻</span>
-                <div>
-                  <p className="why-feat-title">Live Sanskrit — Every Day</p>
-                  <p className="why-feat-desc">Today's Ākāśavāṇi Sanskrit news bulletin, archived by day. Sanskrit is a living language — hear it spoken fluently in real broadcasts, not just recorded lessons.</p>
-                </div>
-              </div>
-
-              <div className="why-feature">
-                <span className="why-feat-icon">🌟</span>
-                <div>
-                  <p className="why-feat-title">No App in the World Does This</p>
-                  <p className="why-feat-desc">Every other Sanskrit app is either a dictionary, a transliteration tool, or a children's alphabet app. Sanskritly is the first to combine grammar learning, sacred text study, pronunciation mastery, and daily listening in a single mobile experience.</p>
-                </div>
-              </div>
-
-            </div>
-
-            <div className="why-modal-footer">
-              <p className="why-footer-text">🙏 Built with love for Sanskrit · For learners, scholars &amp; seekers</p>
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* ── Shloka & Word of the Day ──────────────────────────────────── */}
       <div className="daily-cards-row">

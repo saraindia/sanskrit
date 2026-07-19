@@ -324,3 +324,66 @@
   padding-bottom: 0.5rem;
   letter-spacing: 0.04em;
 }
+
+/* ── Why Sanskritly section ───────────────────────────────────────────────── */
+.why-section {
+  padding: 1rem 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.why-eyebrow {
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold, #ffdd00);
+  opacity: 0.7;
+  margin-bottom: 0.2rem;
+}
+
+.why-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary, #fff);
+  margin: 0 0 0.9rem;
+}
+
+.why-feature-row {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.why-feature-row:first-of-type {
+  border-top: none;
+}
+
+.why-feature-icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+}
+
+.why-feature-title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-primary, #fff);
+  margin-bottom: 0.2rem;
+}
+
+.why-feature-desc {
+  font-size: 0.75rem;
+  color: var(--text-muted, #888);
+  line-height: 1.5;
+}
+
+.why-footer-note {
+  font-size: 0.72rem;
+  color: var(--text-muted, #888);
+  text-align: center;
+  padding: 0.9rem 0 0.4rem;
+  border-top: 1px solid var(--border);
+  margin-top: 0.3rem;
+}
