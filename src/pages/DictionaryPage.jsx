@@ -4,7 +4,6 @@ import { getCachedWord, setCachedWord, getAllCachedWords } from '../utils/dictCa
 import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
 import HubBack from '../components/HubBack'
-import { VOCABULARY } from '../data/vocabulary.js'
 import './DictionaryPage.css'
 
 // ── Image helpers ─────────────────────────────────────────────────────────────
@@ -416,68 +415,17 @@ export default function DictionaryPage() {
 
   useEffect(() => {
     if (!query.trim()) { setSuggestions([]); return }
+    if (!_mwSearchList) { setSuggestions([]); return }
     const q = query.trim().toLowerCase()
-    getAllCachedWords().then(words => {
-      const seen = new Set()
-      const cached = words.filter(w => {
-        if (!( w.cacheKey?.includes(q) ||
-               w.word?.includes(query.trim()) ||
-               w.transliteration?.toLowerCase().includes(q) ||
-               w.meaning?.toLowerCase().includes(q) )) return false
-        const key = w.word || w.cacheKey
-        if (seen.has(key)) return false
-        seen.add(key)
-        return true
-      }).slice(0, 6)
-
-      // Search local vocabulary (covers WOD words and core vocab)
-      const vocabMatches = VOCABULARY.filter(v => {
-        if (!( v.english?.toLowerCase().includes(q) ||
-               v.devanagari?.includes(query.trim()) ||
-               v.iast?.toLowerCase().includes(q) )) return false
-        const key = v.devanagari
-        if (seen.has(key)) return false
-        seen.add(key)
-        return true
-      }).slice(0, 6 - cached.length).map(v => ({
-        word: v.devanagari,
-        transliteration: v.iast || '',
-        meaning: v.english,
-        cacheKey: v.iast || v.english,
-        fromVocab: true,
-      }))
-
-      // Search shared community dictionary words
-      const sharedMatches = sharedWords.filter(w => {
-        if (!( w.slug?.includes(q) ||
-               w.word?.includes(query.trim()) ||
-               w.transliteration?.toLowerCase().includes(q) ||
-               w.meaning?.toLowerCase().includes(q) )) return false
-        const key = w.word || w.slug
-        if (seen.has(key)) return false
-        seen.add(key)
-        return true
-      }).slice(0, 6 - cached.length - vocabMatches.length)
-
-      const sofar = cached.length + vocabMatches.length + sharedMatches.length
-
-      // Search the pre-built MW search list (covers all 3,470 words by meaning + IAST)
-      const mwMatches = []
-      if (_mwSearchList && sofar < 6) {
-        for (const e of _mwSearchList) {
-          if (e._search.includes(q)) {
-            if (!seen.has(e.word)) {
-              seen.add(e.word)
-              mwMatches.push({ ...e, cacheKey: e.ascii || e.word, transliteration: e.ascii, fromMW: true })
-              if (sofar + mwMatches.length >= 6) break
-            }
-          }
-        }
+    const matches = []
+    for (const e of _mwSearchList) {
+      if (e._search.includes(q)) {
+        matches.push({ ...e, cacheKey: e.ascii || e.word, transliteration: e.ascii })
+        if (matches.length >= 6) break
       }
-
-      setSuggestions([...cached, ...vocabMatches, ...sharedMatches, ...mwMatches])
-    })
-  }, [query, sharedWords])
+    }
+    setSuggestions(matches)
+  }, [query])
 
   const lookupWord = useCallback(async (searchWord) => {
     const w = (searchWord || query).trim()
