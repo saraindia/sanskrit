@@ -899,15 +899,22 @@
 }
 
 .dict-speak-btn {
-  background: none;
-  color: var(--text-muted);
-  padding: 0.2rem;
-  border-radius: 4px;
+  background: rgba(201,168,76,0.12);
+  border: 1px solid rgba(201,168,76,0.3);
+  color: var(--gold);
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
   display: flex;
   align-items: center;
-  transition: color 0.15s;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.15s, border-color 0.15s;
 }
-.dict-speak-btn:hover, .dict-speak-btn.playing { color: var(--gold); }
+.dict-speak-btn:hover, .dict-speak-btn.playing {
+  background: rgba(201,168,76,0.22);
+  border-color: var(--gold);
+}
 
 .dict-sentence-deva {
   font-family: 'Noto Sans Devanagari', sans-serif;
