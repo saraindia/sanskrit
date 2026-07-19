@@ -333,12 +333,26 @@ function WordDetail({ entry, source, onBack, onGenerateSentences, onWordClick, l
             {entry.category && <span className="dict-wc-chip">{entry.category}</span>}
             {entry.difficulty && <span className={`dict-wc-chip dict-wc-diff-${entry.difficulty?.toLowerCase()}`}>{entry.difficulty}</span>}
           </div>
-          {(entry.sampleSa || entry.sentences?.[0]) && (
-            <div className="dict-word-card-quote">
-              <p className="dict-wc-quote-sa">{entry.sampleSa || entry.sentences?.[0]?.devanagari}</p>
-              <p className="dict-wc-quote-en">{entry.sampleEn || entry.sentences?.[0]?.english}</p>
-            </div>
-          )}
+          {(entry.sampleSa || entry.sentences?.[0]) && (() => {
+            const saSentence = entry.sampleSa || entry.sentences?.[0]?.devanagari
+            const enSentence = entry.sampleEn || entry.sentences?.[0]?.english
+            const isSaPlaying = isPlaying && currentText === saSentence
+            return (
+              <div className="dict-word-card-quote">
+                <div className="dict-wc-quote-header">
+                  <p className="dict-wc-quote-sa">{saSentence}</p>
+                  <button
+                    className={`dict-speak-btn ${isSaPlaying ? 'playing' : ''}`}
+                    onClick={() => speak(saSentence)}
+                    aria-label="Listen"
+                  >
+                    <SpeakIcon size="13px" />
+                  </button>
+                </div>
+                {enSentence && <p className="dict-wc-quote-en">{enSentence}</p>}
+              </div>
+            )
+          })()}
           {entry.meaningExtended && !entry.sampleSa && !entry.sentences?.[0] && (
             <p className="dict-wc-note">{entry.meaningExtended}</p>
           )}
