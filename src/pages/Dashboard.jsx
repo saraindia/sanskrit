@@ -432,6 +432,7 @@ const DASH_SECTIONS = (dueCount) => [
   { label: 'Learn', dev: 'शिक्षणम्', icon: '🎬', color: '#06b6d4',
     items: [
       { to: '/varnamala',  icon: '🎬', label: 'Varṇamālā Series',    sub: '25 episodes · Tattvam · Sanskrit sounds & script' },
+      { to: '/alphabet',   icon: '🔤', label: 'Alphabet — Write & Hear', sub: 'Tap each letter · stroke animation · audio' },
       { to: '/course',     icon: '🎬', label: 'Sanskrit in 33 Days', sub: '5 weeks · 33 video lessons · by Ashok' },
       { to: '/dictionary', icon: '📖', label: 'Dictionary',          sub: '1,200+ words · meaning · grammar · examples' },
     ]

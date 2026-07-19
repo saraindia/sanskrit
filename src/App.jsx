@@ -19,6 +19,7 @@ const DDNewsPage        = lazy(() => import('./pages/DDNewsPage'))
 const SanskritCoursePage= lazy(() => import('./pages/SanskritCoursePage'))
 const VarnamalaPage     = lazy(() => import('./pages/VarnamalaPage'))
 const DictionaryPage    = lazy(() => import('./pages/DictionaryPage'))
+const AlphabetLearnPage = lazy(() => import('./pages/AlphabetLearnPage'))
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
 import { PurchaseProvider, usePurchase } from './context/PurchaseContext'
@@ -176,6 +177,7 @@ function AppShell() {
           <Route path="/ddnews"    element={<DDNewsPage />} />
           <Route path="/course"      element={<SanskritCoursePage />} />
           <Route path="/varnamala"   element={<VarnamalaPage />} />
+          <Route path="/alphabet"    element={<AlphabetLearnPage />} />
           <Route path="/dictionary" element={<DictionaryPage />} />
         </Routes>
         </Suspense>
