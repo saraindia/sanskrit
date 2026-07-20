@@ -20,6 +20,7 @@ const SanskritCoursePage= lazy(() => import('./pages/SanskritCoursePage'))
 const VarnamalaPage     = lazy(() => import('./pages/VarnamalaPage'))
 const DictionaryPage    = lazy(() => import('./pages/DictionaryPage'))
 const AlphabetLearnPage = lazy(() => import('./pages/AlphabetLearnPage'))
+const RamayanaPage      = lazy(() => import('./pages/RamayanaPage'))
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
 import { PurchaseProvider, usePurchase } from './context/PurchaseContext'
@@ -35,7 +36,7 @@ import ScrollToTop from './components/ScrollToTop'
 import './styles/app.css'
 
 const STUDY_ROUTES = ['/study', '/flashcards', '/drill', '/fill', '/match', '/grammar', '/grammar/pronouns', '/grammar/endings', '/grammar/verbs', '/grammar/nouns', '/grammar/vibhakti', '/grammar/tenses', '/grammar/explorer', '/grammar/questions', '/grammar/gender', '/course']
-const TEXTS_ROUTES = ['/texts', '/gita', '/upanishads', '/brahmasutras', '/yogasutras']
+const TEXTS_ROUTES = ['/texts', '/gita', '/upanishads', '/brahmasutras', '/yogasutras', '/ramayana']
 const MORE_ROUTES  = ['/podcast', '/ddnews', '/dictionary']
 
 const SIDEBAR_GROUPS = [
@@ -181,6 +182,7 @@ function AppShell() {
           <Route path="/varnamala"   element={<VarnamalaPage />} />
           <Route path="/alphabet"    element={<AlphabetLearnPage />} />
           <Route path="/dictionary" element={<DictionaryPage />} />
+          <Route path="/ramayana"   element={<RamayanaPage />} />
         </Routes>
         </Suspense>
       </main>

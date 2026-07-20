@@ -1,0 +1,2746 @@
+{
+  "source": "imradhe/ramayanam-api (valmiki.iitk.ac.in)",
+  "translator": "IIT Kanpur Valmiki Ramayana Project",
+  "kandas": [
+    {
+      "kanda": 1,
+      "name": "बालकाण्ड",
+      "nameIast": "Bālakāṇḍa",
+      "nameEnglish": "The Book of Youth",
+      "sargas": 77,
+      "verses": 2206,
+      "sargas_list": [
+        {
+          "sarga": 1,
+          "verses": 100,
+          "file": "k1/s001.json"
+        },
+        {
+          "sarga": 2,
+          "verses": 43,
+          "file": "k1/s002.json"
+        },
+        {
+          "sarga": 3,
+          "verses": 38,
+          "file": "k1/s003.json"
+        },
+        {
+          "sarga": 4,
+          "verses": 31,
+          "file": "k1/s004.json"
+        },
+        {
+          "sarga": 5,
+          "verses": 23,
+          "file": "k1/s005.json"
+        },
+        {
+          "sarga": 6,
+          "verses": 28,
+          "file": "k1/s006.json"
+        },
+        {
+          "sarga": 7,
+          "verses": 22,
+          "file": "k1/s007.json"
+        },
+        {
+          "sarga": 8,
+          "verses": 24,
+          "file": "k1/s008.json"
+        },
+        {
+          "sarga": 9,
+          "verses": 19,
+          "file": "k1/s009.json"
+        },
+        {
+          "sarga": 10,
+          "verses": 31,
+          "file": "k1/s010.json"
+        },
+        {
+          "sarga": 11,
+          "verses": 30,
+          "file": "k1/s011.json"
+        },
+        {
+          "sarga": 12,
+          "verses": 21,
+          "file": "k1/s012.json"
+        },
+        {
+          "sarga": 13,
+          "verses": 37,
+          "file": "k1/s013.json"
+        },
+        {
+          "sarga": 14,
+          "verses": 57,
+          "file": "k1/s014.json"
+        },
+        {
+          "sarga": 15,
+          "verses": 34,
+          "file": "k1/s015.json"
+        },
+        {
+          "sarga": 16,
+          "verses": 32,
+          "file": "k1/s016.json"
+        },
+        {
+          "sarga": 17,
+          "verses": 35,
+          "file": "k1/s017.json"
+        },
+        {
+          "sarga": 18,
+          "verses": 58,
+          "file": "k1/s018.json"
+        },
+        {
+          "sarga": 19,
+          "verses": 21,
+          "file": "k1/s019.json"
+        },
+        {
+          "sarga": 20,
+          "verses": 27,
+          "file": "k1/s020.json"
+        },
+        {
+          "sarga": 21,
+          "verses": 21,
+          "file": "k1/s021.json"
+        },
+        {
+          "sarga": 22,
+          "verses": 23,
+          "file": "k1/s022.json"
+        },
+        {
+          "sarga": 23,
+          "verses": 22,
+          "file": "k1/s023.json"
+        },
+        {
+          "sarga": 24,
+          "verses": 32,
+          "file": "k1/s024.json"
+        },
+        {
+          "sarga": 25,
+          "verses": 21,
+          "file": "k1/s025.json"
+        },
+        {
+          "sarga": 26,
+          "verses": 36,
+          "file": "k1/s026.json"
+        },
+        {
+          "sarga": 27,
+          "verses": 26,
+          "file": "k1/s027.json"
+        },
+        {
+          "sarga": 28,
+          "verses": 20,
+          "file": "k1/s028.json"
+        },
+        {
+          "sarga": 29,
+          "verses": 31,
+          "file": "k1/s029.json"
+        },
+        {
+          "sarga": 30,
+          "verses": 24,
+          "file": "k1/s030.json"
+        },
+        {
+          "sarga": 31,
+          "verses": 24,
+          "file": "k1/s031.json"
+        },
+        {
+          "sarga": 32,
+          "verses": 26,
+          "file": "k1/s032.json"
+        },
+        {
+          "sarga": 33,
+          "verses": 26,
+          "file": "k1/s033.json"
+        },
+        {
+          "sarga": 34,
+          "verses": 23,
+          "file": "k1/s034.json"
+        },
+        {
+          "sarga": 35,
+          "verses": 24,
+          "file": "k1/s035.json"
+        },
+        {
+          "sarga": 36,
+          "verses": 27,
+          "file": "k1/s036.json"
+        },
+        {
+          "sarga": 37,
+          "verses": 32,
+          "file": "k1/s037.json"
+        },
+        {
+          "sarga": 38,
+          "verses": 24,
+          "file": "k1/s038.json"
+        },
+        {
+          "sarga": 39,
+          "verses": 25,
+          "file": "k1/s039.json"
+        },
+        {
+          "sarga": 40,
+          "verses": 29,
+          "file": "k1/s040.json"
+        },
+        {
+          "sarga": 41,
+          "verses": 26,
+          "file": "k1/s041.json"
+        },
+        {
+          "sarga": 42,
+          "verses": 25,
+          "file": "k1/s042.json"
+        },
+        {
+          "sarga": 43,
+          "verses": 41,
+          "file": "k1/s043.json"
+        },
+        {
+          "sarga": 44,
+          "verses": 22,
+          "file": "k1/s044.json"
+        },
+        {
+          "sarga": 45,
+          "verses": 32,
+          "file": "k1/s045.json"
+        },
+        {
+          "sarga": 46,
+          "verses": 23,
+          "file": "k1/s046.json"
+        },
+        {
+          "sarga": 47,
+          "verses": 22,
+          "file": "k1/s047.json"
+        },
+        {
+          "sarga": 48,
+          "verses": 33,
+          "file": "k1/s048.json"
+        },
+        {
+          "sarga": 49,
+          "verses": 22,
+          "file": "k1/s049.json"
+        },
+        {
+          "sarga": 50,
+          "verses": 23,
+          "file": "k1/s050.json"
+        },
+        {
+          "sarga": 51,
+          "verses": 28,
+          "file": "k1/s051.json"
+        },
+        {
+          "sarga": 52,
+          "verses": 23,
+          "file": "k1/s052.json"
+        },
+        {
+          "sarga": 53,
+          "verses": 25,
+          "file": "k1/s053.json"
+        },
+        {
+          "sarga": 54,
+          "verses": 23,
+          "file": "k1/s054.json"
+        },
+        {
+          "sarga": 55,
+          "verses": 28,
+          "file": "k1/s055.json"
+        },
+        {
+          "sarga": 56,
+          "verses": 24,
+          "file": "k1/s056.json"
+        },
+        {
+          "sarga": 57,
+          "verses": 21,
+          "file": "k1/s057.json"
+        },
+        {
+          "sarga": 58,
+          "verses": 24,
+          "file": "k1/s058.json"
+        },
+        {
+          "sarga": 59,
+          "verses": 22,
+          "file": "k1/s059.json"
+        },
+        {
+          "sarga": 60,
+          "verses": 34,
+          "file": "k1/s060.json"
+        },
+        {
+          "sarga": 61,
+          "verses": 22,
+          "file": "k1/s061.json"
+        },
+        {
+          "sarga": 62,
+          "verses": 28,
+          "file": "k1/s062.json"
+        },
+        {
+          "sarga": 63,
+          "verses": 26,
+          "file": "k1/s063.json"
+        },
+        {
+          "sarga": 64,
+          "verses": 20,
+          "file": "k1/s064.json"
+        },
+        {
+          "sarga": 65,
+          "verses": 36,
+          "file": "k1/s065.json"
+        },
+        {
+          "sarga": 66,
+          "verses": 26,
+          "file": "k1/s066.json"
+        },
+        {
+          "sarga": 67,
+          "verses": 27,
+          "file": "k1/s067.json"
+        },
+        {
+          "sarga": 68,
+          "verses": 19,
+          "file": "k1/s068.json"
+        },
+        {
+          "sarga": 69,
+          "verses": 18,
+          "file": "k1/s069.json"
+        },
+        {
+          "sarga": 70,
+          "verses": 43,
+          "file": "k1/s070.json"
+        },
+        {
+          "sarga": 71,
+          "verses": 24,
+          "file": "k1/s071.json"
+        },
+        {
+          "sarga": 72,
+          "verses": 25,
+          "file": "k1/s072.json"
+        },
+        {
+          "sarga": 73,
+          "verses": 37,
+          "file": "k1/s073.json"
+        },
+        {
+          "sarga": 74,
+          "verses": 25,
+          "file": "k1/s074.json"
+        },
+        {
+          "sarga": 75,
+          "verses": 28,
+          "file": "k1/s075.json"
+        },
+        {
+          "sarga": 76,
+          "verses": 24,
+          "file": "k1/s076.json"
+        },
+        {
+          "sarga": 77,
+          "verses": 30,
+          "file": "k1/s077.json"
+        }
+      ]
+    },
+    {
+      "kanda": 2,
+      "name": "अयोध्याकाण्ड",
+      "nameIast": "Ayodhyākāṇḍa",
+      "nameEnglish": "The Book of Ayodhya",
+      "sargas": 118,
+      "verses": 4151,
+      "sargas_list": [
+        {
+          "sarga": 1,
+          "verses": 50,
+          "file": "k2/s001.json"
+        },
+        {
+          "sarga": 2,
+          "verses": 54,
+          "file": "k2/s002.json"
+        },
+        {
+          "sarga": 3,
+          "verses": 49,
+          "file": "k2/s003.json"
+        },
+        {
+          "sarga": 4,
+          "verses": 45,
+          "file": "k2/s004.json"
+        },
+        {
+          "sarga": 5,
+          "verses": 26,
+          "file": "k2/s005.json"
+        },
+        {
+          "sarga": 6,
+          "verses": 28,
+          "file": "k2/s006.json"
+        },
+        {
+          "sarga": 7,
+          "verses": 36,
+          "file": "k2/s007.json"
+        },
+        {
+          "sarga": 8,
+          "verses": 39,
+          "file": "k2/s008.json"
+        },
+        {
+          "sarga": 9,
+          "verses": 66,
+          "file": "k2/s009.json"
+        },
+        {
+          "sarga": 10,
+          "verses": 40,
+          "file": "k2/s010.json"
+        },
+        {
+          "sarga": 11,
+          "verses": 29,
+          "file": "k2/s011.json"
+        },
+        {
+          "sarga": 12,
+          "verses": 114,
+          "file": "k2/s012.json"
+        },
+        {
+          "sarga": 13,
+          "verses": 26,
+          "file": "k2/s013.json"
+        },
+        {
+          "sarga": 14,
+          "verses": 68,
+          "file": "k2/s014.json"
+        },
+        {
+          "sarga": 15,
+          "verses": 49,
+          "file": "k2/s015.json"
+        },
+        {
+          "sarga": 16,
+          "verses": 47,
+          "file": "k2/s016.json"
+        },
+        {
+          "sarga": 17,
+          "verses": 22,
+          "file": "k2/s017.json"
+        },
+        {
+          "sarga": 18,
+          "verses": 41,
+          "file": "k2/s018.json"
+        },
+        {
+          "sarga": 19,
+          "verses": 41,
+          "file": "k2/s019.json"
+        },
+        {
+          "sarga": 20,
+          "verses": 55,
+          "file": "k2/s020.json"
+        },
+        {
+          "sarga": 21,
+          "verses": 63,
+          "file": "k2/s021.json"
+        },
+        {
+          "sarga": 22,
+          "verses": 30,
+          "file": "k2/s022.json"
+        },
+        {
+          "sarga": 23,
+          "verses": 40,
+          "file": "k2/s023.json"
+        },
+        {
+          "sarga": 24,
+          "verses": 38,
+          "file": "k2/s024.json"
+        },
+        {
+          "sarga": 25,
+          "verses": 47,
+          "file": "k2/s025.json"
+        },
+        {
+          "sarga": 26,
+          "verses": 31,
+          "file": "k2/s026.json"
+        },
+        {
+          "sarga": 27,
+          "verses": 23,
+          "file": "k2/s027.json"
+        },
+        {
+          "sarga": 28,
+          "verses": 26,
+          "file": "k2/s028.json"
+        },
+        {
+          "sarga": 29,
+          "verses": 24,
+          "file": "k2/s029.json"
+        },
+        {
+          "sarga": 30,
+          "verses": 47,
+          "file": "k2/s030.json"
+        },
+        {
+          "sarga": 31,
+          "verses": 35,
+          "file": "k2/s031.json"
+        },
+        {
+          "sarga": 32,
+          "verses": 45,
+          "file": "k2/s032.json"
+        },
+        {
+          "sarga": 33,
+          "verses": 31,
+          "file": "k2/s033.json"
+        },
+        {
+          "sarga": 34,
+          "verses": 61,
+          "file": "k2/s034.json"
+        },
+        {
+          "sarga": 35,
+          "verses": 35,
+          "file": "k2/s035.json"
+        },
+        {
+          "sarga": 36,
+          "verses": 18,
+          "file": "k2/s036.json"
+        },
+        {
+          "sarga": 37,
+          "verses": 37,
+          "file": "k2/s037.json"
+        },
+        {
+          "sarga": 38,
+          "verses": 18,
+          "file": "k2/s038.json"
+        },
+        {
+          "sarga": 39,
+          "verses": 41,
+          "file": "k2/s039.json"
+        },
+        {
+          "sarga": 40,
+          "verses": 51,
+          "file": "k2/s040.json"
+        },
+        {
+          "sarga": 41,
+          "verses": 21,
+          "file": "k2/s041.json"
+        },
+        {
+          "sarga": 42,
+          "verses": 35,
+          "file": "k2/s042.json"
+        },
+        {
+          "sarga": 43,
+          "verses": 21,
+          "file": "k2/s043.json"
+        },
+        {
+          "sarga": 44,
+          "verses": 31,
+          "file": "k2/s044.json"
+        },
+        {
+          "sarga": 45,
+          "verses": 33,
+          "file": "k2/s045.json"
+        },
+        {
+          "sarga": 46,
+          "verses": 34,
+          "file": "k2/s046.json"
+        },
+        {
+          "sarga": 47,
+          "verses": 19,
+          "file": "k2/s047.json"
+        },
+        {
+          "sarga": 48,
+          "verses": 37,
+          "file": "k2/s048.json"
+        },
+        {
+          "sarga": 49,
+          "verses": 18,
+          "file": "k2/s049.json"
+        },
+        {
+          "sarga": 50,
+          "verses": 51,
+          "file": "k2/s050.json"
+        },
+        {
+          "sarga": 51,
+          "verses": 27,
+          "file": "k2/s051.json"
+        },
+        {
+          "sarga": 52,
+          "verses": 102,
+          "file": "k2/s052.json"
+        },
+        {
+          "sarga": 53,
+          "verses": 35,
+          "file": "k2/s053.json"
+        },
+        {
+          "sarga": 54,
+          "verses": 43,
+          "file": "k2/s054.json"
+        },
+        {
+          "sarga": 55,
+          "verses": 20,
+          "file": "k2/s055.json"
+        },
+        {
+          "sarga": 56,
+          "verses": 37,
+          "file": "k2/s056.json"
+        },
+        {
+          "sarga": 57,
+          "verses": 34,
+          "file": "k2/s057.json"
+        },
+        {
+          "sarga": 58,
+          "verses": 37,
+          "file": "k2/s058.json"
+        },
+        {
+          "sarga": 59,
+          "verses": 38,
+          "file": "k2/s059.json"
+        },
+        {
+          "sarga": 60,
+          "verses": 23,
+          "file": "k2/s060.json"
+        },
+        {
+          "sarga": 61,
+          "verses": 27,
+          "file": "k2/s061.json"
+        },
+        {
+          "sarga": 62,
+          "verses": 20,
+          "file": "k2/s062.json"
+        },
+        {
+          "sarga": 63,
+          "verses": 53,
+          "file": "k2/s063.json"
+        },
+        {
+          "sarga": 64,
+          "verses": 30,
+          "file": "k2/s064.json"
+        },
+        {
+          "sarga": 65,
+          "verses": 29,
+          "file": "k2/s065.json"
+        },
+        {
+          "sarga": 66,
+          "verses": 29,
+          "file": "k2/s066.json"
+        },
+        {
+          "sarga": 67,
+          "verses": 38,
+          "file": "k2/s067.json"
+        },
+        {
+          "sarga": 68,
+          "verses": 22,
+          "file": "k2/s068.json"
+        },
+        {
+          "sarga": 69,
+          "verses": 21,
+          "file": "k2/s069.json"
+        },
+        {
+          "sarga": 70,
+          "verses": 30,
+          "file": "k2/s070.json"
+        },
+        {
+          "sarga": 72,
+          "verses": 53,
+          "file": "k2/s072.json"
+        },
+        {
+          "sarga": 73,
+          "verses": 10,
+          "file": "k2/s073.json"
+        },
+        {
+          "sarga": 74,
+          "verses": 36,
+          "file": "k2/s074.json"
+        },
+        {
+          "sarga": 75,
+          "verses": 64,
+          "file": "k2/s075.json"
+        },
+        {
+          "sarga": 76,
+          "verses": 23,
+          "file": "k2/s076.json"
+        },
+        {
+          "sarga": 77,
+          "verses": 26,
+          "file": "k2/s077.json"
+        },
+        {
+          "sarga": 78,
+          "verses": 26,
+          "file": "k2/s078.json"
+        },
+        {
+          "sarga": 79,
+          "verses": 17,
+          "file": "k2/s079.json"
+        },
+        {
+          "sarga": 80,
+          "verses": 22,
+          "file": "k2/s080.json"
+        },
+        {
+          "sarga": 81,
+          "verses": 16,
+          "file": "k2/s081.json"
+        },
+        {
+          "sarga": 82,
+          "verses": 32,
+          "file": "k2/s082.json"
+        },
+        {
+          "sarga": 83,
+          "verses": 26,
+          "file": "k2/s083.json"
+        },
+        {
+          "sarga": 84,
+          "verses": 18,
+          "file": "k2/s084.json"
+        },
+        {
+          "sarga": 85,
+          "verses": 22,
+          "file": "k2/s085.json"
+        },
+        {
+          "sarga": 86,
+          "verses": 25,
+          "file": "k2/s086.json"
+        },
+        {
+          "sarga": 87,
+          "verses": 23,
+          "file": "k2/s087.json"
+        },
+        {
+          "sarga": 88,
+          "verses": 30,
+          "file": "k2/s088.json"
+        },
+        {
+          "sarga": 89,
+          "verses": 22,
+          "file": "k2/s089.json"
+        },
+        {
+          "sarga": 90,
+          "verses": 24,
+          "file": "k2/s090.json"
+        },
+        {
+          "sarga": 91,
+          "verses": 83,
+          "file": "k2/s091.json"
+        },
+        {
+          "sarga": 92,
+          "verses": 39,
+          "file": "k2/s092.json"
+        },
+        {
+          "sarga": 93,
+          "verses": 27,
+          "file": "k2/s093.json"
+        },
+        {
+          "sarga": 94,
+          "verses": 27,
+          "file": "k2/s094.json"
+        },
+        {
+          "sarga": 95,
+          "verses": 19,
+          "file": "k2/s095.json"
+        },
+        {
+          "sarga": 96,
+          "verses": 31,
+          "file": "k2/s096.json"
+        },
+        {
+          "sarga": 97,
+          "verses": 31,
+          "file": "k2/s097.json"
+        },
+        {
+          "sarga": 98,
+          "verses": 18,
+          "file": "k2/s098.json"
+        },
+        {
+          "sarga": 99,
+          "verses": 42,
+          "file": "k2/s099.json"
+        },
+        {
+          "sarga": 100,
+          "verses": 76,
+          "file": "k2/s100.json"
+        },
+        {
+          "sarga": 101,
+          "verses": 9,
+          "file": "k2/s101.json"
+        },
+        {
+          "sarga": 102,
+          "verses": 49,
+          "file": "k2/s102.json"
+        },
+        {
+          "sarga": 103,
+          "verses": 32,
+          "file": "k2/s103.json"
+        },
+        {
+          "sarga": 104,
+          "verses": 27,
+          "file": "k2/s104.json"
+        },
+        {
+          "sarga": 105,
+          "verses": 46,
+          "file": "k2/s105.json"
+        },
+        {
+          "sarga": 106,
+          "verses": 35,
+          "file": "k2/s106.json"
+        },
+        {
+          "sarga": 107,
+          "verses": 19,
+          "file": "k2/s107.json"
+        },
+        {
+          "sarga": 108,
+          "verses": 18,
+          "file": "k2/s108.json"
+        },
+        {
+          "sarga": 109,
+          "verses": 39,
+          "file": "k2/s109.json"
+        },
+        {
+          "sarga": 110,
+          "verses": 34,
+          "file": "k2/s110.json"
+        },
+        {
+          "sarga": 111,
+          "verses": 32,
+          "file": "k2/s111.json"
+        },
+        {
+          "sarga": 112,
+          "verses": 31,
+          "file": "k2/s112.json"
+        },
+        {
+          "sarga": 113,
+          "verses": 24,
+          "file": "k2/s113.json"
+        },
+        {
+          "sarga": 114,
+          "verses": 31,
+          "file": "k2/s114.json"
+        },
+        {
+          "sarga": 115,
+          "verses": 27,
+          "file": "k2/s115.json"
+        },
+        {
+          "sarga": 116,
+          "verses": 26,
+          "file": "k2/s116.json"
+        },
+        {
+          "sarga": 117,
+          "verses": 27,
+          "file": "k2/s117.json"
+        },
+        {
+          "sarga": 118,
+          "verses": 54,
+          "file": "k2/s118.json"
+        },
+        {
+          "sarga": 119,
+          "verses": 22,
+          "file": "k2/s119.json"
+        }
+      ]
+    },
+    {
+      "kanda": 3,
+      "name": "अरण्यकाण्ड",
+      "nameIast": "Āraṇyakāṇḍa",
+      "nameEnglish": "The Book of the Forest",
+      "sargas": 75,
+      "verses": 2440,
+      "sargas_list": [
+        {
+          "sarga": 1,
+          "verses": 22,
+          "file": "k3/s001.json"
+        },
+        {
+          "sarga": 2,
+          "verses": 26,
+          "file": "k3/s002.json"
+        },
+        {
+          "sarga": 3,
+          "verses": 26,
+          "file": "k3/s003.json"
+        },
+        {
+          "sarga": 4,
+          "verses": 32,
+          "file": "k3/s004.json"
+        },
+        {
+          "sarga": 5,
+          "verses": 43,
+          "file": "k3/s005.json"
+        },
+        {
+          "sarga": 6,
+          "verses": 26,
+          "file": "k3/s006.json"
+        },
+        {
+          "sarga": 7,
+          "verses": 24,
+          "file": "k3/s007.json"
+        },
+        {
+          "sarga": 8,
+          "verses": 20,
+          "file": "k3/s008.json"
+        },
+        {
+          "sarga": 9,
+          "verses": 33,
+          "file": "k3/s009.json"
+        },
+        {
+          "sarga": 10,
+          "verses": 23,
+          "file": "k3/s010.json"
+        },
+        {
+          "sarga": 11,
+          "verses": 93,
+          "file": "k3/s011.json"
+        },
+        {
+          "sarga": 12,
+          "verses": 37,
+          "file": "k3/s012.json"
+        },
+        {
+          "sarga": 13,
+          "verses": 27,
+          "file": "k3/s013.json"
+        },
+        {
+          "sarga": 14,
+          "verses": 35,
+          "file": "k3/s014.json"
+        },
+        {
+          "sarga": 15,
+          "verses": 31,
+          "file": "k3/s015.json"
+        },
+        {
+          "sarga": 16,
+          "verses": 43,
+          "file": "k3/s016.json"
+        },
+        {
+          "sarga": 17,
+          "verses": 30,
+          "file": "k3/s017.json"
+        },
+        {
+          "sarga": 18,
+          "verses": 26,
+          "file": "k3/s018.json"
+        },
+        {
+          "sarga": 19,
+          "verses": 26,
+          "file": "k3/s019.json"
+        },
+        {
+          "sarga": 20,
+          "verses": 25,
+          "file": "k3/s020.json"
+        },
+        {
+          "sarga": 21,
+          "verses": 22,
+          "file": "k3/s021.json"
+        },
+        {
+          "sarga": 22,
+          "verses": 26,
+          "file": "k3/s022.json"
+        },
+        {
+          "sarga": 23,
+          "verses": 35,
+          "file": "k3/s023.json"
+        },
+        {
+          "sarga": 24,
+          "verses": 37,
+          "file": "k3/s024.json"
+        },
+        {
+          "sarga": 25,
+          "verses": 42,
+          "file": "k3/s025.json"
+        },
+        {
+          "sarga": 26,
+          "verses": 38,
+          "file": "k3/s026.json"
+        },
+        {
+          "sarga": 27,
+          "verses": 20,
+          "file": "k3/s027.json"
+        },
+        {
+          "sarga": 28,
+          "verses": 33,
+          "file": "k3/s028.json"
+        },
+        {
+          "sarga": 29,
+          "verses": 28,
+          "file": "k3/s029.json"
+        },
+        {
+          "sarga": 30,
+          "verses": 41,
+          "file": "k3/s030.json"
+        },
+        {
+          "sarga": 31,
+          "verses": 50,
+          "file": "k3/s031.json"
+        },
+        {
+          "sarga": 32,
+          "verses": 25,
+          "file": "k3/s032.json"
+        },
+        {
+          "sarga": 33,
+          "verses": 24,
+          "file": "k3/s033.json"
+        },
+        {
+          "sarga": 34,
+          "verses": 27,
+          "file": "k3/s034.json"
+        },
+        {
+          "sarga": 35,
+          "verses": 42,
+          "file": "k3/s035.json"
+        },
+        {
+          "sarga": 36,
+          "verses": 24,
+          "file": "k3/s036.json"
+        },
+        {
+          "sarga": 37,
+          "verses": 25,
+          "file": "k3/s037.json"
+        },
+        {
+          "sarga": 38,
+          "verses": 33,
+          "file": "k3/s038.json"
+        },
+        {
+          "sarga": 39,
+          "verses": 25,
+          "file": "k3/s039.json"
+        },
+        {
+          "sarga": 40,
+          "verses": 27,
+          "file": "k3/s040.json"
+        },
+        {
+          "sarga": 41,
+          "verses": 20,
+          "file": "k3/s041.json"
+        },
+        {
+          "sarga": 42,
+          "verses": 35,
+          "file": "k3/s042.json"
+        },
+        {
+          "sarga": 43,
+          "verses": 50,
+          "file": "k3/s043.json"
+        },
+        {
+          "sarga": 44,
+          "verses": 27,
+          "file": "k3/s044.json"
+        },
+        {
+          "sarga": 45,
+          "verses": 40,
+          "file": "k3/s045.json"
+        },
+        {
+          "sarga": 46,
+          "verses": 37,
+          "file": "k3/s046.json"
+        },
+        {
+          "sarga": 47,
+          "verses": 50,
+          "file": "k3/s047.json"
+        },
+        {
+          "sarga": 48,
+          "verses": 24,
+          "file": "k3/s048.json"
+        },
+        {
+          "sarga": 49,
+          "verses": 41,
+          "file": "k3/s049.json"
+        },
+        {
+          "sarga": 50,
+          "verses": 27,
+          "file": "k3/s050.json"
+        },
+        {
+          "sarga": 51,
+          "verses": 46,
+          "file": "k3/s051.json"
+        },
+        {
+          "sarga": 52,
+          "verses": 44,
+          "file": "k3/s052.json"
+        },
+        {
+          "sarga": 53,
+          "verses": 26,
+          "file": "k3/s053.json"
+        },
+        {
+          "sarga": 54,
+          "verses": 30,
+          "file": "k3/s054.json"
+        },
+        {
+          "sarga": 55,
+          "verses": 37,
+          "file": "k3/s055.json"
+        },
+        {
+          "sarga": 56,
+          "verses": 36,
+          "file": "k3/s056.json"
+        },
+        {
+          "sarga": 57,
+          "verses": 24,
+          "file": "k3/s057.json"
+        },
+        {
+          "sarga": 58,
+          "verses": 19,
+          "file": "k3/s058.json"
+        },
+        {
+          "sarga": 59,
+          "verses": 27,
+          "file": "k3/s059.json"
+        },
+        {
+          "sarga": 60,
+          "verses": 38,
+          "file": "k3/s060.json"
+        },
+        {
+          "sarga": 61,
+          "verses": 32,
+          "file": "k3/s061.json"
+        },
+        {
+          "sarga": 62,
+          "verses": 21,
+          "file": "k3/s062.json"
+        },
+        {
+          "sarga": 63,
+          "verses": 20,
+          "file": "k3/s063.json"
+        },
+        {
+          "sarga": 64,
+          "verses": 75,
+          "file": "k3/s064.json"
+        },
+        {
+          "sarga": 65,
+          "verses": 16,
+          "file": "k3/s065.json"
+        },
+        {
+          "sarga": 66,
+          "verses": 20,
+          "file": "k3/s066.json"
+        },
+        {
+          "sarga": 67,
+          "verses": 29,
+          "file": "k3/s067.json"
+        },
+        {
+          "sarga": 68,
+          "verses": 38,
+          "file": "k3/s068.json"
+        },
+        {
+          "sarga": 69,
+          "verses": 51,
+          "file": "k3/s069.json"
+        },
+        {
+          "sarga": 70,
+          "verses": 18,
+          "file": "k3/s070.json"
+        },
+        {
+          "sarga": 71,
+          "verses": 33,
+          "file": "k3/s071.json"
+        },
+        {
+          "sarga": 72,
+          "verses": 27,
+          "file": "k3/s072.json"
+        },
+        {
+          "sarga": 73,
+          "verses": 45,
+          "file": "k3/s073.json"
+        },
+        {
+          "sarga": 74,
+          "verses": 35,
+          "file": "k3/s074.json"
+        },
+        {
+          "sarga": 75,
+          "verses": 30,
+          "file": "k3/s075.json"
+        }
+      ]
+    },
+    {
+      "kanda": 4,
+      "name": "किष्किन्धाकाण्ड",
+      "nameIast": "Kiṣkindhākāṇḍa",
+      "nameEnglish": "The Book of Kishkindha",
+      "sargas": 67,
+      "verses": 2442,
+      "sargas_list": [
+        {
+          "sarga": 1,
+          "verses": 130,
+          "file": "k4/s001.json"
+        },
+        {
+          "sarga": 2,
+          "verses": 29,
+          "file": "k4/s002.json"
+        },
+        {
+          "sarga": 3,
+          "verses": 39,
+          "file": "k4/s003.json"
+        },
+        {
+          "sarga": 4,
+          "verses": 35,
+          "file": "k4/s004.json"
+        },
+        {
+          "sarga": 5,
+          "verses": 32,
+          "file": "k4/s005.json"
+        },
+        {
+          "sarga": 6,
+          "verses": 27,
+          "file": "k4/s006.json"
+        },
+        {
+          "sarga": 7,
+          "verses": 25,
+          "file": "k4/s007.json"
+        },
+        {
+          "sarga": 8,
+          "verses": 46,
+          "file": "k4/s008.json"
+        },
+        {
+          "sarga": 9,
+          "verses": 26,
+          "file": "k4/s009.json"
+        },
+        {
+          "sarga": 10,
+          "verses": 35,
+          "file": "k4/s010.json"
+        },
+        {
+          "sarga": 11,
+          "verses": 93,
+          "file": "k4/s011.json"
+        },
+        {
+          "sarga": 12,
+          "verses": 42,
+          "file": "k4/s012.json"
+        },
+        {
+          "sarga": 13,
+          "verses": 29,
+          "file": "k4/s013.json"
+        },
+        {
+          "sarga": 14,
+          "verses": 22,
+          "file": "k4/s014.json"
+        },
+        {
+          "sarga": 15,
+          "verses": 31,
+          "file": "k4/s015.json"
+        },
+        {
+          "sarga": 16,
+          "verses": 38,
+          "file": "k4/s016.json"
+        },
+        {
+          "sarga": 17,
+          "verses": 52,
+          "file": "k4/s017.json"
+        },
+        {
+          "sarga": 18,
+          "verses": 67,
+          "file": "k4/s018.json"
+        },
+        {
+          "sarga": 19,
+          "verses": 28,
+          "file": "k4/s019.json"
+        },
+        {
+          "sarga": 20,
+          "verses": 25,
+          "file": "k4/s020.json"
+        },
+        {
+          "sarga": 21,
+          "verses": 16,
+          "file": "k4/s021.json"
+        },
+        {
+          "sarga": 22,
+          "verses": 31,
+          "file": "k4/s022.json"
+        },
+        {
+          "sarga": 23,
+          "verses": 29,
+          "file": "k4/s023.json"
+        },
+        {
+          "sarga": 24,
+          "verses": 44,
+          "file": "k4/s024.json"
+        },
+        {
+          "sarga": 25,
+          "verses": 52,
+          "file": "k4/s025.json"
+        },
+        {
+          "sarga": 26,
+          "verses": 41,
+          "file": "k4/s026.json"
+        },
+        {
+          "sarga": 27,
+          "verses": 48,
+          "file": "k4/s027.json"
+        },
+        {
+          "sarga": 28,
+          "verses": 66,
+          "file": "k4/s028.json"
+        },
+        {
+          "sarga": 29,
+          "verses": 34,
+          "file": "k4/s029.json"
+        },
+        {
+          "sarga": 30,
+          "verses": 85,
+          "file": "k4/s030.json"
+        },
+        {
+          "sarga": 31,
+          "verses": 51,
+          "file": "k4/s031.json"
+        },
+        {
+          "sarga": 32,
+          "verses": 22,
+          "file": "k4/s032.json"
+        },
+        {
+          "sarga": 33,
+          "verses": 65,
+          "file": "k4/s033.json"
+        },
+        {
+          "sarga": 34,
+          "verses": 19,
+          "file": "k4/s034.json"
+        },
+        {
+          "sarga": 35,
+          "verses": 23,
+          "file": "k4/s035.json"
+        },
+        {
+          "sarga": 36,
+          "verses": 20,
+          "file": "k4/s036.json"
+        },
+        {
+          "sarga": 37,
+          "verses": 37,
+          "file": "k4/s037.json"
+        },
+        {
+          "sarga": 38,
+          "verses": 34,
+          "file": "k4/s038.json"
+        },
+        {
+          "sarga": 39,
+          "verses": 44,
+          "file": "k4/s039.json"
+        },
+        {
+          "sarga": 40,
+          "verses": 70,
+          "file": "k4/s040.json"
+        },
+        {
+          "sarga": 41,
+          "verses": 50,
+          "file": "k4/s041.json"
+        },
+        {
+          "sarga": 42,
+          "verses": 55,
+          "file": "k4/s042.json"
+        },
+        {
+          "sarga": 43,
+          "verses": 64,
+          "file": "k4/s043.json"
+        },
+        {
+          "sarga": 44,
+          "verses": 17,
+          "file": "k4/s044.json"
+        },
+        {
+          "sarga": 45,
+          "verses": 15,
+          "file": "k4/s045.json"
+        },
+        {
+          "sarga": 46,
+          "verses": 24,
+          "file": "k4/s046.json"
+        },
+        {
+          "sarga": 47,
+          "verses": 14,
+          "file": "k4/s047.json"
+        },
+        {
+          "sarga": 48,
+          "verses": 23,
+          "file": "k4/s048.json"
+        },
+        {
+          "sarga": 49,
+          "verses": 22,
+          "file": "k4/s049.json"
+        },
+        {
+          "sarga": 50,
+          "verses": 41,
+          "file": "k4/s050.json"
+        },
+        {
+          "sarga": 51,
+          "verses": 19,
+          "file": "k4/s051.json"
+        },
+        {
+          "sarga": 52,
+          "verses": 19,
+          "file": "k4/s052.json"
+        },
+        {
+          "sarga": 53,
+          "verses": 39,
+          "file": "k4/s053.json"
+        },
+        {
+          "sarga": 54,
+          "verses": 22,
+          "file": "k4/s054.json"
+        },
+        {
+          "sarga": 55,
+          "verses": 23,
+          "file": "k4/s055.json"
+        },
+        {
+          "sarga": 56,
+          "verses": 17,
+          "file": "k4/s056.json"
+        },
+        {
+          "sarga": 57,
+          "verses": 19,
+          "file": "k4/s057.json"
+        },
+        {
+          "sarga": 58,
+          "verses": 36,
+          "file": "k4/s058.json"
+        },
+        {
+          "sarga": 59,
+          "verses": 28,
+          "file": "k4/s059.json"
+        },
+        {
+          "sarga": 60,
+          "verses": 21,
+          "file": "k4/s060.json"
+        },
+        {
+          "sarga": 61,
+          "verses": 17,
+          "file": "k4/s061.json"
+        },
+        {
+          "sarga": 62,
+          "verses": 15,
+          "file": "k4/s062.json"
+        },
+        {
+          "sarga": 63,
+          "verses": 15,
+          "file": "k4/s063.json"
+        },
+        {
+          "sarga": 64,
+          "verses": 24,
+          "file": "k4/s064.json"
+        },
+        {
+          "sarga": 65,
+          "verses": 34,
+          "file": "k4/s065.json"
+        },
+        {
+          "sarga": 66,
+          "verses": 37,
+          "file": "k4/s066.json"
+        },
+        {
+          "sarga": 67,
+          "verses": 50,
+          "file": "k4/s067.json"
+        }
+      ]
+    },
+    {
+      "kanda": 5,
+      "name": "सुन्दरकाण्ड",
+      "nameIast": "Sundarakāṇḍa",
+      "nameEnglish": "The Book of Beauty",
+      "sargas": 68,
+      "verses": 2780,
+      "sargas_list": [
+        {
+          "sarga": 1,
+          "verses": 201,
+          "file": "k5/s001.json"
+        },
+        {
+          "sarga": 2,
+          "verses": 58,
+          "file": "k5/s002.json"
+        },
+        {
+          "sarga": 3,
+          "verses": 51,
+          "file": "k5/s003.json"
+        },
+        {
+          "sarga": 4,
+          "verses": 29,
+          "file": "k5/s004.json"
+        },
+        {
+          "sarga": 5,
+          "verses": 27,
+          "file": "k5/s005.json"
+        },
+        {
+          "sarga": 6,
+          "verses": 42,
+          "file": "k5/s006.json"
+        },
+        {
+          "sarga": 7,
+          "verses": 17,
+          "file": "k5/s007.json"
+        },
+        {
+          "sarga": 8,
+          "verses": 7,
+          "file": "k5/s008.json"
+        },
+        {
+          "sarga": 9,
+          "verses": 73,
+          "file": "k5/s009.json"
+        },
+        {
+          "sarga": 10,
+          "verses": 54,
+          "file": "k5/s010.json"
+        },
+        {
+          "sarga": 11,
+          "verses": 47,
+          "file": "k5/s011.json"
+        },
+        {
+          "sarga": 12,
+          "verses": 25,
+          "file": "k5/s012.json"
+        },
+        {
+          "sarga": 13,
+          "verses": 69,
+          "file": "k5/s013.json"
+        },
+        {
+          "sarga": 14,
+          "verses": 52,
+          "file": "k5/s014.json"
+        },
+        {
+          "sarga": 15,
+          "verses": 54,
+          "file": "k5/s015.json"
+        },
+        {
+          "sarga": 16,
+          "verses": 32,
+          "file": "k5/s016.json"
+        },
+        {
+          "sarga": 17,
+          "verses": 32,
+          "file": "k5/s017.json"
+        },
+        {
+          "sarga": 18,
+          "verses": 32,
+          "file": "k5/s018.json"
+        },
+        {
+          "sarga": 19,
+          "verses": 23,
+          "file": "k5/s019.json"
+        },
+        {
+          "sarga": 20,
+          "verses": 36,
+          "file": "k5/s020.json"
+        },
+        {
+          "sarga": 21,
+          "verses": 34,
+          "file": "k5/s021.json"
+        },
+        {
+          "sarga": 22,
+          "verses": 46,
+          "file": "k5/s022.json"
+        },
+        {
+          "sarga": 23,
+          "verses": 19,
+          "file": "k5/s023.json"
+        },
+        {
+          "sarga": 24,
+          "verses": 48,
+          "file": "k5/s024.json"
+        },
+        {
+          "sarga": 25,
+          "verses": 20,
+          "file": "k5/s025.json"
+        },
+        {
+          "sarga": 26,
+          "verses": 38,
+          "file": "k5/s026.json"
+        },
+        {
+          "sarga": 27,
+          "verses": 51,
+          "file": "k5/s027.json"
+        },
+        {
+          "sarga": 28,
+          "verses": 19,
+          "file": "k5/s028.json"
+        },
+        {
+          "sarga": 29,
+          "verses": 8,
+          "file": "k5/s029.json"
+        },
+        {
+          "sarga": 30,
+          "verses": 44,
+          "file": "k5/s030.json"
+        },
+        {
+          "sarga": 31,
+          "verses": 19,
+          "file": "k5/s031.json"
+        },
+        {
+          "sarga": 32,
+          "verses": 14,
+          "file": "k5/s032.json"
+        },
+        {
+          "sarga": 33,
+          "verses": 31,
+          "file": "k5/s033.json"
+        },
+        {
+          "sarga": 34,
+          "verses": 41,
+          "file": "k5/s034.json"
+        },
+        {
+          "sarga": 35,
+          "verses": 89,
+          "file": "k5/s035.json"
+        },
+        {
+          "sarga": 36,
+          "verses": 47,
+          "file": "k5/s036.json"
+        },
+        {
+          "sarga": 37,
+          "verses": 65,
+          "file": "k5/s037.json"
+        },
+        {
+          "sarga": 38,
+          "verses": 73,
+          "file": "k5/s038.json"
+        },
+        {
+          "sarga": 39,
+          "verses": 54,
+          "file": "k5/s039.json"
+        },
+        {
+          "sarga": 40,
+          "verses": 25,
+          "file": "k5/s040.json"
+        },
+        {
+          "sarga": 41,
+          "verses": 21,
+          "file": "k5/s041.json"
+        },
+        {
+          "sarga": 42,
+          "verses": 43,
+          "file": "k5/s042.json"
+        },
+        {
+          "sarga": 43,
+          "verses": 25,
+          "file": "k5/s043.json"
+        },
+        {
+          "sarga": 44,
+          "verses": 20,
+          "file": "k5/s044.json"
+        },
+        {
+          "sarga": 45,
+          "verses": 17,
+          "file": "k5/s045.json"
+        },
+        {
+          "sarga": 46,
+          "verses": 39,
+          "file": "k5/s046.json"
+        },
+        {
+          "sarga": 47,
+          "verses": 38,
+          "file": "k5/s047.json"
+        },
+        {
+          "sarga": 48,
+          "verses": 61,
+          "file": "k5/s048.json"
+        },
+        {
+          "sarga": 49,
+          "verses": 20,
+          "file": "k5/s049.json"
+        },
+        {
+          "sarga": 50,
+          "verses": 19,
+          "file": "k5/s050.json"
+        },
+        {
+          "sarga": 51,
+          "verses": 46,
+          "file": "k5/s051.json"
+        },
+        {
+          "sarga": 52,
+          "verses": 26,
+          "file": "k5/s052.json"
+        },
+        {
+          "sarga": 53,
+          "verses": 44,
+          "file": "k5/s053.json"
+        },
+        {
+          "sarga": 54,
+          "verses": 50,
+          "file": "k5/s054.json"
+        },
+        {
+          "sarga": 55,
+          "verses": 34,
+          "file": "k5/s055.json"
+        },
+        {
+          "sarga": 56,
+          "verses": 34,
+          "file": "k5/s056.json"
+        },
+        {
+          "sarga": 57,
+          "verses": 51,
+          "file": "k5/s057.json"
+        },
+        {
+          "sarga": 58,
+          "verses": 166,
+          "file": "k5/s058.json"
+        },
+        {
+          "sarga": 59,
+          "verses": 36,
+          "file": "k5/s059.json"
+        },
+        {
+          "sarga": 60,
+          "verses": 6,
+          "file": "k5/s060.json"
+        },
+        {
+          "sarga": 61,
+          "verses": 23,
+          "file": "k5/s061.json"
+        },
+        {
+          "sarga": 62,
+          "verses": 39,
+          "file": "k5/s062.json"
+        },
+        {
+          "sarga": 63,
+          "verses": 29,
+          "file": "k5/s063.json"
+        },
+        {
+          "sarga": 64,
+          "verses": 39,
+          "file": "k5/s064.json"
+        },
+        {
+          "sarga": 65,
+          "verses": 27,
+          "file": "k5/s065.json"
+        },
+        {
+          "sarga": 66,
+          "verses": 15,
+          "file": "k5/s066.json"
+        },
+        {
+          "sarga": 67,
+          "verses": 37,
+          "file": "k5/s067.json"
+        },
+        {
+          "sarga": 68,
+          "verses": 29,
+          "file": "k5/s068.json"
+        }
+      ]
+    },
+    {
+      "kanda": 6,
+      "name": "युद्धकाण्ड",
+      "nameIast": "Yuddhakāṇḍa",
+      "nameEnglish": "The Book of War",
+      "sargas": 131,
+      "verses": 5711,
+      "sargas_list": [
+        {
+          "sarga": 1,
+          "verses": 19,
+          "file": "k6/s001.json"
+        },
+        {
+          "sarga": 2,
+          "verses": 25,
+          "file": "k6/s002.json"
+        },
+        {
+          "sarga": 3,
+          "verses": 34,
+          "file": "k6/s003.json"
+        },
+        {
+          "sarga": 4,
+          "verses": 124,
+          "file": "k6/s004.json"
+        },
+        {
+          "sarga": 5,
+          "verses": 23,
+          "file": "k6/s005.json"
+        },
+        {
+          "sarga": 6,
+          "verses": 18,
+          "file": "k6/s006.json"
+        },
+        {
+          "sarga": 7,
+          "verses": 25,
+          "file": "k6/s007.json"
+        },
+        {
+          "sarga": 8,
+          "verses": 24,
+          "file": "k6/s008.json"
+        },
+        {
+          "sarga": 9,
+          "verses": 23,
+          "file": "k6/s009.json"
+        },
+        {
+          "sarga": 10,
+          "verses": 26,
+          "file": "k6/s010.json"
+        },
+        {
+          "sarga": 11,
+          "verses": 32,
+          "file": "k6/s011.json"
+        },
+        {
+          "sarga": 12,
+          "verses": 40,
+          "file": "k6/s012.json"
+        },
+        {
+          "sarga": 13,
+          "verses": 21,
+          "file": "k6/s013.json"
+        },
+        {
+          "sarga": 14,
+          "verses": 22,
+          "file": "k6/s014.json"
+        },
+        {
+          "sarga": 15,
+          "verses": 14,
+          "file": "k6/s015.json"
+        },
+        {
+          "sarga": 16,
+          "verses": 27,
+          "file": "k6/s016.json"
+        },
+        {
+          "sarga": 17,
+          "verses": 64,
+          "file": "k6/s017.json"
+        },
+        {
+          "sarga": 18,
+          "verses": 38,
+          "file": "k6/s018.json"
+        },
+        {
+          "sarga": 19,
+          "verses": 35,
+          "file": "k6/s019.json"
+        },
+        {
+          "sarga": 20,
+          "verses": 36,
+          "file": "k6/s020.json"
+        },
+        {
+          "sarga": 21,
+          "verses": 33,
+          "file": "k6/s021.json"
+        },
+        {
+          "sarga": 22,
+          "verses": 87,
+          "file": "k6/s022.json"
+        },
+        {
+          "sarga": 23,
+          "verses": 16,
+          "file": "k6/s023.json"
+        },
+        {
+          "sarga": 24,
+          "verses": 45,
+          "file": "k6/s024.json"
+        },
+        {
+          "sarga": 25,
+          "verses": 33,
+          "file": "k6/s025.json"
+        },
+        {
+          "sarga": 26,
+          "verses": 48,
+          "file": "k6/s026.json"
+        },
+        {
+          "sarga": 27,
+          "verses": 48,
+          "file": "k6/s027.json"
+        },
+        {
+          "sarga": 28,
+          "verses": 44,
+          "file": "k6/s028.json"
+        },
+        {
+          "sarga": 29,
+          "verses": 29,
+          "file": "k6/s029.json"
+        },
+        {
+          "sarga": 30,
+          "verses": 35,
+          "file": "k6/s030.json"
+        },
+        {
+          "sarga": 31,
+          "verses": 45,
+          "file": "k6/s031.json"
+        },
+        {
+          "sarga": 32,
+          "verses": 44,
+          "file": "k6/s032.json"
+        },
+        {
+          "sarga": 33,
+          "verses": 38,
+          "file": "k6/s033.json"
+        },
+        {
+          "sarga": 34,
+          "verses": 28,
+          "file": "k6/s034.json"
+        },
+        {
+          "sarga": 35,
+          "verses": 37,
+          "file": "k6/s035.json"
+        },
+        {
+          "sarga": 36,
+          "verses": 22,
+          "file": "k6/s036.json"
+        },
+        {
+          "sarga": 37,
+          "verses": 37,
+          "file": "k6/s037.json"
+        },
+        {
+          "sarga": 38,
+          "verses": 19,
+          "file": "k6/s038.json"
+        },
+        {
+          "sarga": 39,
+          "verses": 29,
+          "file": "k6/s039.json"
+        },
+        {
+          "sarga": 40,
+          "verses": 30,
+          "file": "k6/s040.json"
+        },
+        {
+          "sarga": 41,
+          "verses": 99,
+          "file": "k6/s041.json"
+        },
+        {
+          "sarga": 42,
+          "verses": 47,
+          "file": "k6/s042.json"
+        },
+        {
+          "sarga": 43,
+          "verses": 45,
+          "file": "k6/s043.json"
+        },
+        {
+          "sarga": 44,
+          "verses": 39,
+          "file": "k6/s044.json"
+        },
+        {
+          "sarga": 45,
+          "verses": 28,
+          "file": "k6/s045.json"
+        },
+        {
+          "sarga": 46,
+          "verses": 50,
+          "file": "k6/s046.json"
+        },
+        {
+          "sarga": 47,
+          "verses": 23,
+          "file": "k6/s047.json"
+        },
+        {
+          "sarga": 48,
+          "verses": 37,
+          "file": "k6/s048.json"
+        },
+        {
+          "sarga": 49,
+          "verses": 32,
+          "file": "k6/s049.json"
+        },
+        {
+          "sarga": 50,
+          "verses": 65,
+          "file": "k6/s050.json"
+        },
+        {
+          "sarga": 51,
+          "verses": 36,
+          "file": "k6/s051.json"
+        },
+        {
+          "sarga": 52,
+          "verses": 38,
+          "file": "k6/s052.json"
+        },
+        {
+          "sarga": 53,
+          "verses": 32,
+          "file": "k6/s053.json"
+        },
+        {
+          "sarga": 54,
+          "verses": 38,
+          "file": "k6/s054.json"
+        },
+        {
+          "sarga": 55,
+          "verses": 31,
+          "file": "k6/s055.json"
+        },
+        {
+          "sarga": 56,
+          "verses": 39,
+          "file": "k6/s056.json"
+        },
+        {
+          "sarga": 57,
+          "verses": 46,
+          "file": "k6/s057.json"
+        },
+        {
+          "sarga": 58,
+          "verses": 60,
+          "file": "k6/s058.json"
+        },
+        {
+          "sarga": 59,
+          "verses": 146,
+          "file": "k6/s059.json"
+        },
+        {
+          "sarga": 60,
+          "verses": 97,
+          "file": "k6/s060.json"
+        },
+        {
+          "sarga": 61,
+          "verses": 40,
+          "file": "k6/s061.json"
+        },
+        {
+          "sarga": 62,
+          "verses": 23,
+          "file": "k6/s062.json"
+        },
+        {
+          "sarga": 63,
+          "verses": 57,
+          "file": "k6/s063.json"
+        },
+        {
+          "sarga": 64,
+          "verses": 36,
+          "file": "k6/s064.json"
+        },
+        {
+          "sarga": 65,
+          "verses": 57,
+          "file": "k6/s065.json"
+        },
+        {
+          "sarga": 66,
+          "verses": 34,
+          "file": "k6/s066.json"
+        },
+        {
+          "sarga": 67,
+          "verses": 178,
+          "file": "k6/s067.json"
+        },
+        {
+          "sarga": 68,
+          "verses": 23,
+          "file": "k6/s068.json"
+        },
+        {
+          "sarga": 69,
+          "verses": 95,
+          "file": "k6/s069.json"
+        },
+        {
+          "sarga": 70,
+          "verses": 66,
+          "file": "k6/s070.json"
+        },
+        {
+          "sarga": 71,
+          "verses": 115,
+          "file": "k6/s071.json"
+        },
+        {
+          "sarga": 72,
+          "verses": 17,
+          "file": "k6/s072.json"
+        },
+        {
+          "sarga": 73,
+          "verses": 74,
+          "file": "k6/s073.json"
+        },
+        {
+          "sarga": 74,
+          "verses": 76,
+          "file": "k6/s074.json"
+        },
+        {
+          "sarga": 75,
+          "verses": 70,
+          "file": "k6/s075.json"
+        },
+        {
+          "sarga": 76,
+          "verses": 93,
+          "file": "k6/s076.json"
+        },
+        {
+          "sarga": 77,
+          "verses": 23,
+          "file": "k6/s077.json"
+        },
+        {
+          "sarga": 78,
+          "verses": 20,
+          "file": "k6/s078.json"
+        },
+        {
+          "sarga": 79,
+          "verses": 40,
+          "file": "k6/s079.json"
+        },
+        {
+          "sarga": 80,
+          "verses": 42,
+          "file": "k6/s080.json"
+        },
+        {
+          "sarga": 81,
+          "verses": 34,
+          "file": "k6/s081.json"
+        },
+        {
+          "sarga": 82,
+          "verses": 27,
+          "file": "k6/s082.json"
+        },
+        {
+          "sarga": 83,
+          "verses": 43,
+          "file": "k6/s083.json"
+        },
+        {
+          "sarga": 84,
+          "verses": 22,
+          "file": "k6/s084.json"
+        },
+        {
+          "sarga": 85,
+          "verses": 35,
+          "file": "k6/s085.json"
+        },
+        {
+          "sarga": 86,
+          "verses": 34,
+          "file": "k6/s086.json"
+        },
+        {
+          "sarga": 87,
+          "verses": 29,
+          "file": "k6/s087.json"
+        },
+        {
+          "sarga": 88,
+          "verses": 36,
+          "file": "k6/s088.json"
+        },
+        {
+          "sarga": 89,
+          "verses": 41,
+          "file": "k6/s089.json"
+        },
+        {
+          "sarga": 90,
+          "verses": 53,
+          "file": "k6/s090.json"
+        },
+        {
+          "sarga": 91,
+          "verses": 96,
+          "file": "k6/s091.json"
+        },
+        {
+          "sarga": 92,
+          "verses": 27,
+          "file": "k6/s092.json"
+        },
+        {
+          "sarga": 93,
+          "verses": 67,
+          "file": "k6/s093.json"
+        },
+        {
+          "sarga": 94,
+          "verses": 38,
+          "file": "k6/s094.json"
+        },
+        {
+          "sarga": 95,
+          "verses": 40,
+          "file": "k6/s095.json"
+        },
+        {
+          "sarga": 96,
+          "verses": 43,
+          "file": "k6/s096.json"
+        },
+        {
+          "sarga": 97,
+          "verses": 35,
+          "file": "k6/s097.json"
+        },
+        {
+          "sarga": 98,
+          "verses": 37,
+          "file": "k6/s098.json"
+        },
+        {
+          "sarga": 99,
+          "verses": 25,
+          "file": "k6/s099.json"
+        },
+        {
+          "sarga": 100,
+          "verses": 50,
+          "file": "k6/s100.json"
+        },
+        {
+          "sarga": 101,
+          "verses": 62,
+          "file": "k6/s101.json"
+        },
+        {
+          "sarga": 102,
+          "verses": 48,
+          "file": "k6/s102.json"
+        },
+        {
+          "sarga": 103,
+          "verses": 38,
+          "file": "k6/s103.json"
+        },
+        {
+          "sarga": 104,
+          "verses": 31,
+          "file": "k6/s104.json"
+        },
+        {
+          "sarga": 105,
+          "verses": 30,
+          "file": "k6/s105.json"
+        },
+        {
+          "sarga": 106,
+          "verses": 26,
+          "file": "k6/s106.json"
+        },
+        {
+          "sarga": 107,
+          "verses": 30,
+          "file": "k6/s107.json"
+        },
+        {
+          "sarga": 108,
+          "verses": 35,
+          "file": "k6/s108.json"
+        },
+        {
+          "sarga": 109,
+          "verses": 28,
+          "file": "k6/s109.json"
+        },
+        {
+          "sarga": 110,
+          "verses": 38,
+          "file": "k6/s110.json"
+        },
+        {
+          "sarga": 111,
+          "verses": 33,
+          "file": "k6/s111.json"
+        },
+        {
+          "sarga": 112,
+          "verses": 24,
+          "file": "k6/s112.json"
+        },
+        {
+          "sarga": 113,
+          "verses": 25,
+          "file": "k6/s113.json"
+        },
+        {
+          "sarga": 114,
+          "verses": 125,
+          "file": "k6/s114.json"
+        },
+        {
+          "sarga": 115,
+          "verses": 25,
+          "file": "k6/s115.json"
+        },
+        {
+          "sarga": 116,
+          "verses": 53,
+          "file": "k6/s116.json"
+        },
+        {
+          "sarga": 117,
+          "verses": 35,
+          "file": "k6/s117.json"
+        },
+        {
+          "sarga": 118,
+          "verses": 24,
+          "file": "k6/s118.json"
+        },
+        {
+          "sarga": 119,
+          "verses": 35,
+          "file": "k6/s119.json"
+        },
+        {
+          "sarga": 120,
+          "verses": 32,
+          "file": "k6/s120.json"
+        },
+        {
+          "sarga": 121,
+          "verses": 21,
+          "file": "k6/s121.json"
+        },
+        {
+          "sarga": 122,
+          "verses": 38,
+          "file": "k6/s122.json"
+        },
+        {
+          "sarga": 123,
+          "verses": 23,
+          "file": "k6/s123.json"
+        },
+        {
+          "sarga": 124,
+          "verses": 29,
+          "file": "k6/s124.json"
+        },
+        {
+          "sarga": 125,
+          "verses": 26,
+          "file": "k6/s125.json"
+        },
+        {
+          "sarga": 126,
+          "verses": 56,
+          "file": "k6/s126.json"
+        },
+        {
+          "sarga": 127,
+          "verses": 21,
+          "file": "k6/s127.json"
+        },
+        {
+          "sarga": 128,
+          "verses": 45,
+          "file": "k6/s128.json"
+        },
+        {
+          "sarga": 129,
+          "verses": 54,
+          "file": "k6/s129.json"
+        },
+        {
+          "sarga": 130,
+          "verses": 61,
+          "file": "k6/s130.json"
+        },
+        {
+          "sarga": 131,
+          "verses": 124,
+          "file": "k6/s131.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+.ramayana { max-width: 720px; padding-left: 1.1rem; padding-right: 1.1rem; }
+@media (max-width: 480px) { .ramayana { padding-left: 0.75rem; padding-right: 0.75rem; } }
+
+/* Reuse gita styles for shared elements */
+.ramayana .gita-loading,
+.ramayana .gita-toolbar,
+.ramayana .gita-nav-btn,
+.ramayana .gita-verse-select,
+.ramayana .gita-verse-card,
+.ramayana .gita-verse-tags,
+.ramayana .gita-deva,
+.ramayana .gita-trans,
+.ramayana .gita-words,
+.ramayana .gita-word,
+.ramayana .gita-word-deva,
+.ramayana .gita-word-ear,
+.ramayana .gita-word-en,
+.ramayana .gita-footer-nav,
+.ramayana .gita-reveal,
+.ramayana .gita-speak,
+.ramayana .gita-chant-btn,
+.ramayana .weak-toggle { /* inherited via shared CSS */ }
+
+.ramayana .btn-primary,
+.ramayana .btn-ghost {
+  background: color-mix(in srgb, var(--gold) 14%, transparent);
+  color: var(--gold);
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.06);
+  font-weight: 600;
+  letter-spacing: 0.07em;
+}
+.ramayana .btn-primary:hover,
+.ramayana .btn-ghost:hover {
+  background: color-mix(in srgb, var(--gold) 22%, transparent);
+  border-color: color-mix(in srgb, var(--gold) 65%, transparent);
+  color: var(--gold-light);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.08);
+}
+.ramayana .btn-primary:active,
+.ramayana .btn-ghost:active { transform: scale(0.97); }
+.ramayana .btn-primary:disabled,
+.ramayana .btn-ghost:disabled { opacity: 0.3; cursor: default; transform: none; }
+
+.ramayana .gita-footer-nav .btn-ghost,
+.ramayana .gita-footer-nav .btn-primary {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  padding: 0.6rem 1rem;
+}
+.ramayana .gita-reveal.btn-primary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  padding: 0.65rem 1rem;
+}
+
+/* ── Kāṇḍa grid ─────────────────────────────────────────────────────────── */
+.ram-kanda-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.ram-kanda-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  padding: 0.85rem 0.9rem 0.8rem;
+  cursor: pointer;
+  text-align: left;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  transition: border-color 0.15s, background 0.15s;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+}
+.ram-kanda-card:hover {
+  border-color: var(--kcolor);
+  background: color-mix(in srgb, var(--kcolor) 6%, var(--bg-card));
+}
+.ram-kanda-card:active { opacity: 0.8; }
+
+.ram-kanda-num {
+  font-size: 0.58rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.ram-kanda-dev {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+  margin-top: 0.1rem;
+}
+.ram-kanda-iast {
+  font-size: 0.75rem;
+  color: var(--gold);
+  font-style: italic;
+}
+.ram-kanda-eng {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+.ram-kanda-sub {
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+/* ── Sarga grid ──────────────────────────────────────────────────────────── */
+.ram-sarga-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.4rem;
+}
+@media (max-width: 400px) {
+  .ram-sarga-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.ram-sarga-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+  padding: 0.55rem 0.6rem;
+  cursor: pointer;
+  text-align: left;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  transition: border-color 0.15s, background 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.ram-sarga-card:hover {
+  border-color: var(--gold-dim);
+  background: color-mix(in srgb, var(--gold) 5%, var(--bg-card));
+}
+.ram-sarga-card:active { opacity: 0.8; }
+
+.ram-sarga-num {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.ram-sarga-count {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+}
+
+/* ── Sarga description ───────────────────────────────────────────────────── */
+.ram-sarga-desc {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  border-left: 3px solid var(--gold-dim);
+  padding: 0.5rem 0.85rem;
+  margin-bottom: 0.75rem;
+  background: rgba(201,148,42,0.05);
+  border-radius: 0 8px 8px 0;
+}
+
+/* ── Chant audio note ────────────────────────────────────────────────────── */
+.ram-kanda-chant-note {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  padding: 0.4rem 0.75rem;
+  margin-bottom: 0.75rem;
+  background: rgba(201,148,42,0.06);
+  border: 1px solid var(--gold-dim);
+  border-radius: 8px;
+}

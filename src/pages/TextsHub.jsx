@@ -4,10 +4,11 @@ import { BHAGAVAD_GITA } from '../data/sacred.js'
 import './Hub.css'
 
 const ITEMS = [
-  { to: '/gita',                    icon: '🪷',  label: 'Bhagavad Gītā', dev: 'भगवद्गीता',    sub: `18 chapters · ${BHAGAVAD_GITA.length} verses`, color: '#f59e0b' },
-  { to: '/upanishads',              icon: '🕉️', label: 'Upaniṣads',     dev: 'उपनिषद्',      sub: 'Īśa · Kena · Kaṭha · Muṇḍaka',               color: '#a855f7' },
-  { to: '/brahmasutras',                icon: '📿', label: 'Brahmasūtras', dev: 'ब्रह्मसूत्राणि', sub: '4 adhyāyas · 510 sūtras',               color: '#34d399' },
-  { to: '/yogasutras',                  icon: '🧘', label: 'Yoga Sūtras',   dev: 'योगसूत्राणि',    sub: '4 pādas · 196 sūtras · Patañjali',     color: '#f97316' },
+  { to: '/gita',         icon: '🪷',  label: 'Bhagavad Gītā',      dev: 'भगवद्गीता',       sub: `18 chapters · ${BHAGAVAD_GITA.length} verses`,  color: '#f59e0b' },
+  { to: '/ramayana',     icon: '🏹',  label: 'Vālmīki Rāmāyaṇa',  dev: 'वाल्मीकिरामायणम्', sub: '6 kāṇḍas · 19,730 verses',                     color: '#f97316' },
+  { to: '/upanishads',   icon: '🕉️', label: 'Upaniṣads',          dev: 'उपनिषद्',          sub: 'Īśa · Kena · Kaṭha · Muṇḍaka',                 color: '#a855f7' },
+  { to: '/brahmasutras', icon: '📿',  label: 'Brahmasūtras',       dev: 'ब्रह्मसूत्राणि',   sub: '4 adhyāyas · 510 sūtras',                       color: '#34d399' },
+  { to: '/yogasutras',   icon: '🧘',  label: 'Yoga Sūtras',        dev: 'योगसूत्राणि',       sub: '4 pādas · 196 sūtras · Patañjali',              color: '#06b6d4' },
 ]
 
 export default function TextsHub() {
