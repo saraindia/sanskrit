@@ -8,6 +8,7 @@ import { ClickableVerse } from '../components/ClickableSentence'
 import { useVocabularyData } from '../hooks/useData'
 import { usePurchase } from '../context/PurchaseContext'
 import { getRamayanaSargaAudioUrl, kandaHasChantAudio } from '../utils/ramayanaAudio'
+import './GitaPage.css'
 import './RamayanaPage.css'
 
 const KANDA_COLORS = ['#f97316','#ec4899','#22c55e','#06b6d4','#a855f7','#f59e0b']
