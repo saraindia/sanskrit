@@ -219,9 +219,6 @@
   overflow: hidden;
   background: var(--bg-card);
 }
-.word-of-day-accord {
-  border-color: color-mix(in srgb, var(--teal, #3a9e8a) 50%, var(--border));
-}
 .daily-card--open {
   grid-column: 1 / -1;
 }
