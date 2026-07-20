@@ -2241,4 +2241,437 @@ const NEW_STORIES = [
 // Merge new stories into STORIES array (export already defined above)
 STORIES.push(...NEW_STORIES)
 
+// ── Amarahasa graded readers (CC0) ──────────────────────────────────────────
+const AMARAHASA_STORIES = [
+  {
+    id: 'story-33', type: 'story', category: 'amarahasa', level: 'beginner',
+    title: 'बुद्धः कः?', titleIast: 'Buddhaḥ Kaḥ?', titleEnglish: 'Who Is the Buddha?',
+    description: 'A gentle introduction to the Buddha and his family through simple questions and answers.',
+    moral: 'The son of a great king chose a greater path.',
+    sentences: [
+      { id: 'am33-1', words: [
+          { devanagari: 'बुद्धः',    iast: 'buddhaḥ',    english: 'the Buddha',    grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'भिक्षुः',  iast: 'bhikṣuḥ',   english: 'a monk',        grammar: 'noun, nom. sg.' },
+        ], translation: 'The Buddha is a monk.', vocabIds: [] },
+      { id: 'am33-2', words: [
+          { devanagari: 'बुद्धः',    iast: 'buddhaḥ',    english: 'the Buddha',    grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'महान्',     iast: 'mahān',      english: 'great',         grammar: 'adj, nom. sg.' },
+        ], translation: 'The Buddha is great.', vocabIds: [] },
+      { id: 'am33-3', words: [
+          { devanagari: 'बुद्धः',    iast: 'buddhaḥ',    english: 'the Buddha',    grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'महान्',     iast: 'mahān',      english: 'great',         grammar: 'adj, nom. sg.' },
+          { devanagari: 'भिक्षुः',  iast: 'bhikṣuḥ',   english: 'monk',          grammar: 'noun, nom. sg.' },
+        ], translation: 'The Buddha is a great monk.', vocabIds: [] },
+      { id: 'am33-4', words: [
+          { devanagari: 'शुद्धोदनः', iast: 'śuddhodanaḥ', english: 'Śuddhodana',  grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'राजा',     iast: 'rājā',       english: 'a king',        grammar: 'noun, nom. sg.' },
+        ], translation: 'Śuddhodana is a king.', vocabIds: [] },
+      { id: 'am33-5', words: [
+          { devanagari: 'शुद्धोदनः', iast: 'śuddhodanaḥ', english: 'Śuddhodana',  grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'महान्',     iast: 'mahān',      english: 'great',         grammar: 'adj, nom. sg.' },
+          { devanagari: 'राजा',     iast: 'rājā',       english: 'king',          grammar: 'noun, nom. sg.' },
+        ], translation: 'Śuddhodana is a great king.', vocabIds: [] },
+      { id: 'am33-6', words: [
+          { devanagari: 'बुद्धः',    iast: 'buddhaḥ',    english: 'the Buddha',    grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'शुद्धोदनस्य', iast: 'śuddhodanasya', english: 'of Śuddhodana', grammar: 'noun, gen. sg.' },
+          { devanagari: 'पुत्रः',    iast: 'putraḥ',    english: 'son',           grammar: 'noun, nom. sg.' },
+        ], translation: 'The Buddha is the son of Śuddhodana.', vocabIds: [] },
+      { id: 'am33-7', words: [
+          { devanagari: 'बुद्धः',    iast: 'buddhaḥ',    english: 'the Buddha',    grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'राज्ञः',    iast: 'rājñaḥ',    english: 'of the king',   grammar: 'noun, gen. sg.' },
+          { devanagari: 'पुत्रः',    iast: 'putraḥ',    english: 'son',           grammar: 'noun, nom. sg.' },
+        ], translation: 'The Buddha is the son of the king.', vocabIds: [] },
+    ],
+  },
+  {
+    id: 'story-34', type: 'story', category: 'amarahasa', level: 'beginner',
+    title: 'संजयः सुखी न', titleIast: 'Saṃjayaḥ Sukhī Na', titleEnglish: 'Saṃjaya Is Not Happy',
+    description: 'Young Saṃjaya wants something. What does he want? Can he get it?',
+    moral: 'Knowing what we truly want is the first step to happiness.',
+    sentences: [
+      { id: 'am34-1', words: [
+          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'बालः',     iast: 'bālaḥ',     english: 'a boy',         grammar: 'noun, nom. sg.' },
+        ], translation: 'Saṃjaya is a boy.', vocabIds: [] },
+      { id: 'am34-2', words: [
+          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'सुखी',     iast: 'sukhī',     english: 'happy',         grammar: 'adj, nom. sg.' },
+          { devanagari: 'न',        iast: 'na',         english: 'not',           grammar: 'particle, negation' },
+        ], translation: 'Saṃjaya is not happy.', vocabIds: [] },
+      { id: 'am34-3', words: [
+          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'किम्',     iast: 'kim',        english: 'what',          grammar: 'pronoun, acc. sg. n.' },
+          { devanagari: 'इच्छति',   iast: 'icchati',   english: 'wants',         grammar: 'verb, pres. 3sg.' },
+        ], translation: 'What does Saṃjaya want?', vocabIds: [] },
+      { id: 'am34-4', words: [
+          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play',      grammar: 'verb, infinitive' },
+          { devanagari: 'इच्छति',   iast: 'icchati',   english: 'wants',         grammar: 'verb, pres. 3sg.' },
+        ], translation: 'Saṃjaya wants to play.', vocabIds: [] },
+      { id: 'am34-5', words: [
+          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'वानरम्',   iast: 'vānaram',   english: 'a monkey',      grammar: 'noun, acc. sg.' },
+          { devanagari: 'पश्यति',   iast: 'paśyati',   english: 'sees',          grammar: 'verb, pres. 3sg.' },
+        ], translation: 'Saṃjaya sees a monkey.', vocabIds: [] },
+      { id: 'am34-6', words: [
+          { devanagari: 'वानरः',    iast: 'vānaraḥ',   english: 'the monkey',    grammar: 'noun, nom. sg.' },
+          { devanagari: 'अपि',      iast: 'api',        english: 'also',          grammar: 'particle' },
+          { devanagari: 'क्रीडति',  iast: 'krīḍati',   english: 'plays',         grammar: 'verb, pres. 3sg.' },
+        ], translation: 'The monkey also plays.', vocabIds: [] },
+      { id: 'am34-7', words: [
+          { devanagari: 'इदानीम्',  iast: 'idānīm',    english: 'now',           grammar: 'adverb' },
+          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'सुखी',     iast: 'sukhī',     english: 'happy',         grammar: 'adj, nom. sg.' },
+        ], translation: 'Now Saṃjaya is happy.', vocabIds: [] },
+    ],
+  },
+  {
+    id: 'story-35', type: 'story', category: 'amarahasa', level: 'beginner',
+    title: 'हरिणी शुकं पश्यति', titleIast: 'Hariṇī Śukaṃ Paśyati', titleEnglish: 'The Doe Sees the Parrot',
+    description: 'A young doe notices a parrot that is unhappy. The parrot longs to fly free.',
+    moral: 'Freedom is dearer than comfort.',
+    sentences: [
+      { id: 'am35-1', words: [
+          { devanagari: 'हरिणी',    iast: 'hariṇī',    english: 'the doe',       grammar: 'noun, nom. sg. f.' },
+          { devanagari: 'बाला',     iast: 'bālā',      english: 'young',         grammar: 'adj, nom. sg. f.' },
+        ], translation: 'The doe is young.', vocabIds: [] },
+      { id: 'am35-2', words: [
+          { devanagari: 'हरिणी',    iast: 'hariṇī',    english: 'the doe',       grammar: 'noun, nom. sg. f.' },
+          { devanagari: 'सुखिनी',   iast: 'sukhinī',   english: 'happy',         grammar: 'adj, nom. sg. f.' },
+          { devanagari: 'बाला',     iast: 'bālā',      english: 'young',         grammar: 'adj, nom. sg. f.' },
+        ], translation: 'The doe is a happy, young deer.', vocabIds: [] },
+      { id: 'am35-3', words: [
+          { devanagari: 'हरिणी',    iast: 'hariṇī',    english: 'the doe',       grammar: 'noun, nom. sg. f.' },
+          { devanagari: 'शुकम्',    iast: 'śukam',     english: 'a parrot',      grammar: 'noun, acc. sg.' },
+          { devanagari: 'पश्यति',   iast: 'paśyati',   english: 'sees',          grammar: 'verb, pres. 3sg.' },
+        ], translation: 'The doe sees a parrot.', vocabIds: [] },
+      { id: 'am35-4', words: [
+          { devanagari: 'शुकः',     iast: 'śukaḥ',     english: 'the parrot',    grammar: 'noun, nom. sg.' },
+          { devanagari: 'सुखी',     iast: 'sukhī',     english: 'happy',         grammar: 'adj, nom. sg.' },
+          { devanagari: 'न',        iast: 'na',         english: 'not',           grammar: 'particle, negation' },
+        ], translation: 'The parrot is not happy.', vocabIds: [] },
+      { id: 'am35-5', words: [
+          { devanagari: 'शुकः',     iast: 'śukaḥ',     english: 'the parrot',    grammar: 'noun, nom. sg.' },
+          { devanagari: 'किम्',     iast: 'kim',        english: 'what',          grammar: 'pronoun, acc. sg. n.' },
+          { devanagari: 'इच्छति',   iast: 'icchati',   english: 'wants',         grammar: 'verb, pres. 3sg.' },
+        ], translation: 'What does the parrot want?', vocabIds: [] },
+      { id: 'am35-6', words: [
+          { devanagari: 'शुकः',     iast: 'śukaḥ',     english: 'the parrot',    grammar: 'noun, nom. sg.' },
+          { devanagari: 'गन्तुम्',  iast: 'gantum',    english: 'to go',         grammar: 'verb, infinitive' },
+          { devanagari: 'इच्छति',   iast: 'icchati',   english: 'wants',         grammar: 'verb, pres. 3sg.' },
+        ], translation: 'The parrot wants to go.', vocabIds: [] },
+      { id: 'am35-7', words: [
+          { devanagari: 'शुकः',     iast: 'śukaḥ',     english: 'the parrot',    grammar: 'noun, nom. sg.' },
+          { devanagari: 'गच्छति',   iast: 'gacchati',  english: 'goes',          grammar: 'verb, pres. 3sg.' },
+        ], translation: 'The parrot goes — it flies free!', vocabIds: [] },
+    ],
+  },
+  {
+    id: 'story-36', type: 'story', category: 'amarahasa', level: 'beginner',
+    title: 'रामः कः?', titleIast: 'Rāmaḥ Kaḥ?', titleEnglish: 'Who Is Rāma?',
+    description: 'Simple sentences introduce Rāma, his family, and his city Ayodhyā.',
+    moral: 'Duty, family, and virtue are the marks of a true hero.',
+    sentences: [
+      { id: 'am36-1', words: [
+          { devanagari: 'रामः',     iast: 'rāmaḥ',     english: 'Rāma',          grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'राजकुमारः', iast: 'rājakumāraḥ', english: 'a prince',  grammar: 'noun, nom. sg.' },
+        ], translation: 'Rāma is a prince.', vocabIds: ['v-001'] },
+      { id: 'am36-2', words: [
+          { devanagari: 'रामः',     iast: 'rāmaḥ',     english: 'Rāma',          grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'महान्',    iast: 'mahān',     english: 'great',         grammar: 'adj, nom. sg.' },
+          { devanagari: 'राजकुमारः', iast: 'rājakumāraḥ', english: 'prince',    grammar: 'noun, nom. sg.' },
+        ], translation: 'Rāma is a great prince.', vocabIds: ['v-001'] },
+      { id: 'am36-3', words: [
+          { devanagari: 'दशरथः',    iast: 'daśarathaḥ', english: 'Daśaratha',   grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'रामस्य',   iast: 'rāmasya',   english: "Rāma's",       grammar: 'proper noun, gen. sg.' },
+          { devanagari: 'पिता',     iast: 'pitā',      english: 'father',        grammar: 'noun, nom. sg.' },
+        ], translation: 'Daśaratha is Rāma\'s father.', vocabIds: ['v-001'] },
+      { id: 'am36-4', words: [
+          { devanagari: 'दशरथः',    iast: 'daśarathaḥ', english: 'Daśaratha',   grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'महान्',    iast: 'mahān',     english: 'great',         grammar: 'adj, nom. sg.' },
+          { devanagari: 'राजा',     iast: 'rājā',      english: 'king',          grammar: 'noun, nom. sg.' },
+        ], translation: 'Daśaratha is a great king.', vocabIds: [] },
+      { id: 'am36-5', words: [
+          { devanagari: 'रामः',     iast: 'rāmaḥ',     english: 'Rāma',          grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'अयोध्यायाम्', iast: 'ayodhyāyām', english: 'in Ayodhyā', grammar: 'proper noun, loc. sg.' },
+          { devanagari: 'वसति',     iast: 'vasati',    english: 'lives',         grammar: 'verb, pres. 3sg.' },
+        ], translation: 'Rāma lives in Ayodhyā.', vocabIds: ['v-001'] },
+      { id: 'am36-6', words: [
+          { devanagari: 'सीता',     iast: 'sītā',      english: 'Sītā',          grammar: 'proper noun, nom. sg. f.' },
+          { devanagari: 'रामस्य',   iast: 'rāmasya',   english: "Rāma's",       grammar: 'proper noun, gen. sg.' },
+          { devanagari: 'पत्नी',    iast: 'patnī',     english: 'wife',          grammar: 'noun, nom. sg. f.' },
+        ], translation: 'Sītā is Rāma\'s wife.', vocabIds: ['v-001'] },
+      { id: 'am36-7', words: [
+          { devanagari: 'रामः',     iast: 'rāmaḥ',     english: 'Rāma',          grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'सुखी',     iast: 'sukhī',     english: 'happy',         grammar: 'adj, nom. sg.' },
+          { devanagari: 'धर्मशीलः', iast: 'dharmaśīlaḥ', english: 'virtuous',   grammar: 'adj, nom. sg.' },
+        ], translation: 'Rāma is happy and virtuous.', vocabIds: ['v-001'] },
+    ],
+  },
+]
+
+// ── More Pañcatantra classics ────────────────────────────────────────────────
+const PANCHATANTRA_STORIES_2 = [
+  {
+    id: 'story-37', type: 'story', category: 'panchatantra', level: 'beginner',
+    title: 'पिपासित-काकः', titleIast: 'Pipāsita-kākaḥ', titleEnglish: 'The Thirsty Crow (Classical)',
+    description: 'A thirsty crow finds a pot with a little water at the bottom. Unable to reach it, the crow uses stones to raise the water level.',
+    moral: 'Ingenuity and persistence overcome adversity.',
+    sentences: [
+      { id: 'pt37-1', words: [
+          { devanagari: 'एकः',      iast: 'ekaḥ',      english: 'a / one',       grammar: 'numeral, nom. sg.' },
+          { devanagari: 'काकः',     iast: 'kākaḥ',     english: 'crow',          grammar: 'noun, nom. sg.' },
+          { devanagari: 'पिपासितः', iast: 'pipāsitaḥ', english: 'thirsty',       grammar: 'adj, nom. sg.' },
+          { devanagari: 'आसीत्',    iast: 'āsīt',      english: 'was',           grammar: 'verb, impf. 3sg.' },
+        ], translation: 'There was a thirsty crow.', vocabIds: [] },
+      { id: 'pt37-2', words: [
+          { devanagari: 'सः',       iast: 'saḥ',       english: 'he',            grammar: 'pronoun, nom. sg.' },
+          { devanagari: 'जलम्',     iast: 'jalam',     english: 'water',         grammar: 'noun, acc. sg.' },
+          { devanagari: 'अमार्गत्', iast: 'amārgat',   english: 'sought',        grammar: 'verb, impf. 3sg.' },
+        ], translation: 'He searched for water.', vocabIds: [] },
+      { id: 'pt37-3', words: [
+          { devanagari: 'एकं',      iast: 'ekaṃ',      english: 'one / a',       grammar: 'numeral, acc. sg.' },
+          { devanagari: 'कुम्भम्',  iast: 'kumbham',   english: 'pot',           grammar: 'noun, acc. sg.' },
+          { devanagari: 'अपश्यत्',  iast: 'apaśyat',   english: 'saw',           grammar: 'verb, impf. 3sg.' },
+        ], translation: 'He saw a pot.', vocabIds: [] },
+      { id: 'pt37-4', words: [
+          { devanagari: 'कुम्भे',   iast: 'kumbhe',    english: 'in the pot',    grammar: 'noun, loc. sg.' },
+          { devanagari: 'स्वल्पम्', iast: 'svalpam',   english: 'a little',      grammar: 'adj, nom. sg. n.' },
+          { devanagari: 'जलम्',     iast: 'jalam',     english: 'water',         grammar: 'noun, nom. sg.' },
+          { devanagari: 'आसीत्',    iast: 'āsīt',      english: 'was',           grammar: 'verb, impf. 3sg.' },
+        ], translation: 'In the pot there was only a little water.', vocabIds: [] },
+      { id: 'pt37-5', words: [
+          { devanagari: 'काकः',     iast: 'kākaḥ',     english: 'the crow',      grammar: 'noun, nom. sg.' },
+          { devanagari: 'पाषाणान्', iast: 'pāṣāṇān',  english: 'stones',        grammar: 'noun, acc. pl.' },
+          { devanagari: 'आनयत्',    iast: 'ānayat',    english: 'brought',       grammar: 'verb, impf. 3sg.' },
+        ], translation: 'The crow brought stones.', vocabIds: [] },
+      { id: 'pt37-6', words: [
+          { devanagari: 'सः',       iast: 'saḥ',       english: 'he',            grammar: 'pronoun, nom. sg.' },
+          { devanagari: 'पाषाणान्', iast: 'pāṣāṇān',  english: 'stones',        grammar: 'noun, acc. pl.' },
+          { devanagari: 'कुम्भे',   iast: 'kumbhe',    english: 'into the pot',  grammar: 'noun, loc. sg.' },
+          { devanagari: 'अक्षिपत्', iast: 'akṣipat',   english: 'dropped',       grammar: 'verb, impf. 3sg.' },
+        ], translation: 'He dropped the stones into the pot.', vocabIds: [] },
+      { id: 'pt37-7', words: [
+          { devanagari: 'जलम्',     iast: 'jalam',     english: 'the water',     grammar: 'noun, nom. sg.' },
+          { devanagari: 'उपरि',     iast: 'upari',     english: 'upward',        grammar: 'adverb' },
+          { devanagari: 'आगच्छत्',  iast: 'āgacchat',  english: 'came',          grammar: 'verb, impf. 3sg.' },
+        ], translation: 'The water rose upward.', vocabIds: [] },
+      { id: 'pt37-8', words: [
+          { devanagari: 'काकः',     iast: 'kākaḥ',     english: 'the crow',      grammar: 'noun, nom. sg.' },
+          { devanagari: 'जलम्',     iast: 'jalam',     english: 'the water',     grammar: 'noun, acc. sg.' },
+          { devanagari: 'अपिबत्',   iast: 'apibat',    english: 'drank',         grammar: 'verb, impf. 3sg.' },
+        ], translation: 'The crow drank the water.', vocabIds: [] },
+      { id: 'pt37-9', words: [
+          { devanagari: 'बुद्धिः',  iast: 'buddhiḥ',   english: 'intelligence',  grammar: 'noun, nom. sg. f.' },
+          { devanagari: 'बलात्',    iast: 'balāt',     english: 'than strength', grammar: 'noun, abl. sg.' },
+          { devanagari: 'श्रेयसी',  iast: 'śreyasī',   english: 'greater',       grammar: 'adj, nom. sg. f.' },
+        ], translation: 'Intelligence is greater than strength.', vocabIds: [] },
+    ],
+  },
+  {
+    id: 'story-38', type: 'story', category: 'panchatantra', level: 'intermediate',
+    title: 'ब्राह्मण-स्वप्नः', titleIast: 'Brāhmaṇa-svapnaḥ', titleEnglish: 'The Brahmin\'s Dream',
+    description: 'A poor Brahmin receives a pot of barley flour and begins to daydream about all the wealth he will gain — only to ruin it all with a kick in his sleep.',
+    moral: 'Do not count your chickens before they hatch. Act wisely; do not live only in dreams.',
+    sentences: [
+      { id: 'pt38-1', words: [
+          { devanagari: 'एकः',      iast: 'ekaḥ',      english: 'a / one',       grammar: 'numeral, nom. sg.' },
+          { devanagari: 'दरिद्रः',  iast: 'daridraḥ',  english: 'poor',          grammar: 'adj, nom. sg.' },
+          { devanagari: 'ब्राह्मणः', iast: 'brāhmaṇaḥ', english: 'Brahmin',      grammar: 'noun, nom. sg.' },
+          { devanagari: 'आसीत्',    iast: 'āsīt',      english: 'was',           grammar: 'verb, impf. 3sg.' },
+        ], translation: 'There was a poor Brahmin.', vocabIds: [] },
+      { id: 'pt38-2', words: [
+          { devanagari: 'तस्य',     iast: 'tasya',     english: 'his',           grammar: 'pronoun, gen. sg.' },
+          { devanagari: 'गृहे',     iast: 'gṛhe',      english: 'at home',       grammar: 'noun, loc. sg.' },
+          { devanagari: 'एकः',      iast: 'ekaḥ',      english: 'one',           grammar: 'numeral, nom. sg.' },
+          { devanagari: 'घटः',      iast: 'ghaṭaḥ',   english: 'pot',           grammar: 'noun, nom. sg.' },
+          { devanagari: 'यवचूर्णेन', iast: 'yavacūrṇena', english: 'with barley flour', grammar: 'noun, inst. sg.' },
+          { devanagari: 'पूर्णः',   iast: 'pūrṇaḥ',   english: 'full',          grammar: 'adj, nom. sg.' },
+          { devanagari: 'आसीत्',    iast: 'āsīt',      english: 'was',           grammar: 'verb, impf. 3sg.' },
+        ], translation: 'At his house was a pot full of barley flour.', vocabIds: [] },
+      { id: 'pt38-3', words: [
+          { devanagari: 'सः',       iast: 'saḥ',       english: 'he',            grammar: 'pronoun, nom. sg.' },
+          { devanagari: 'घटम्',     iast: 'ghaṭam',    english: 'the pot',       grammar: 'noun, acc. sg.' },
+          { devanagari: 'विक्रीय',  iast: 'vikrīya',   english: 'selling',       grammar: 'verb, absol.' },
+          { devanagari: 'धनम्',     iast: 'dhanam',    english: 'money',         grammar: 'noun, acc. sg.' },
+          { devanagari: 'लभिष्यामि', iast: 'labhiṣyāmi', english: 'I shall gain', grammar: 'verb, fut. 1sg.' },
+        ], translation: '"By selling this pot, I shall gain money."', vocabIds: [] },
+      { id: 'pt38-4', words: [
+          { devanagari: 'तेन',      iast: 'tena',      english: 'with that',     grammar: 'pronoun, inst. sg.' },
+          { devanagari: 'धनेन',     iast: 'dhanena',   english: 'money',         grammar: 'noun, inst. sg.' },
+          { devanagari: 'अजाः',     iast: 'ajāḥ',      english: 'goats',         grammar: 'noun, acc. pl.' },
+          { devanagari: 'क्रेष्यामि', iast: 'kreṣyāmi', english: 'I will buy',   grammar: 'verb, fut. 1sg.' },
+        ], translation: '"With that money I will buy goats."', vocabIds: [] },
+      { id: 'pt38-5', words: [
+          { devanagari: 'अजाभिः',   iast: 'ajābhiḥ',   english: 'from the goats', grammar: 'noun, inst. pl.' },
+          { devanagari: 'गाः',      iast: 'gāḥ',       english: 'cows',          grammar: 'noun, acc. pl.' },
+          { devanagari: 'क्रेष्यामि', iast: 'kreṣyāmi', english: 'I will buy',   grammar: 'verb, fut. 1sg.' },
+        ], translation: '"From the profit of the goats I will buy cows."', vocabIds: [] },
+      { id: 'pt38-6', words: [
+          { devanagari: 'ततः',      iast: 'tataḥ',     english: 'then',          grammar: 'adverb' },
+          { devanagari: 'राजपुत्री', iast: 'rājaputrī', english: 'a princess',   grammar: 'noun, acc. sg. f.' },
+          { devanagari: 'विवाहिष्यामि', iast: 'vivāhiṣyāmi', english: 'I will marry', grammar: 'verb, fut. 1sg.' },
+        ], translation: '"Then I will marry a princess."', vocabIds: [] },
+      { id: 'pt38-7', words: [
+          { devanagari: 'अस्माकम्', iast: 'asmākam',   english: 'our',           grammar: 'pronoun, gen. pl.' },
+          { devanagari: 'पुत्रः',   iast: 'putraḥ',    english: 'son',           grammar: 'noun, nom. sg.' },
+          { devanagari: 'भविष्यति', iast: 'bhaviṣyati', english: 'will be born', grammar: 'verb, fut. 3sg.' },
+        ], translation: '"We will have a son."', vocabIds: [] },
+      { id: 'pt38-8', words: [
+          { devanagari: 'सः',       iast: 'saḥ',       english: 'he',            grammar: 'pronoun, nom. sg.' },
+          { devanagari: 'स्वप्नेषु', iast: 'svapneṣu',  english: 'in dreams',     grammar: 'noun, loc. pl.' },
+          { devanagari: 'पादम्',    iast: 'pādam',     english: 'a foot',        grammar: 'noun, acc. sg.' },
+          { devanagari: 'अप्रेरयत्', iast: 'aprerayat', english: 'kicked out',   grammar: 'verb, impf. 3sg.' },
+        ], translation: 'Lost in dreams, he kicked out his foot.', vocabIds: [] },
+      { id: 'pt38-9', words: [
+          { devanagari: 'घटः',      iast: 'ghaṭaḥ',   english: 'the pot',       grammar: 'noun, nom. sg.' },
+          { devanagari: 'भूमौ',     iast: 'bhūmau',    english: 'on the ground', grammar: 'noun, loc. sg.' },
+          { devanagari: 'पपात',     iast: 'papāta',    english: 'fell',          grammar: 'verb, perf. 3sg.' },
+          { devanagari: 'भग्नः',    iast: 'bhagnaḥ',   english: 'broken',        grammar: 'adj, nom. sg.' },
+          { devanagari: 'च',        iast: 'ca',         english: 'and',           grammar: 'particle' },
+        ], translation: 'The pot fell to the ground and shattered.', vocabIds: [] },
+      { id: 'pt38-10', words: [
+          { devanagari: 'स्वप्नः',  iast: 'svapnaḥ',   english: 'the dream',     grammar: 'noun, nom. sg.' },
+          { devanagari: 'विनष्टः',  iast: 'vinaṣṭaḥ',  english: 'was destroyed', grammar: 'adj, nom. sg.' },
+        ], translation: 'The dream was destroyed.', vocabIds: [] },
+    ],
+  },
+  {
+    id: 'story-39', type: 'story', category: 'panchatantra', level: 'intermediate',
+    title: 'सिंहः जीवितः', titleIast: 'Siṃhaḥ Jīvitaḥ', titleEnglish: 'The Lion Brought Back to Life',
+    description: 'Four Brahmin friends journey together. Three are book-learned but lack common sense; the fourth is wise but uneducated. They bring a dead lion to life with their learning — with fatal results for three of them.',
+    moral: 'Bookish knowledge without common sense leads to ruin.',
+    sentences: [
+      { id: 'pt39-1', words: [
+          { devanagari: 'चत्वारः',  iast: 'catvāraḥ',  english: 'four',          grammar: 'numeral, nom. pl.' },
+          { devanagari: 'ब्राह्मणाः', iast: 'brāhmaṇāḥ', english: 'Brahmins',   grammar: 'noun, nom. pl.' },
+          { devanagari: 'मित्राणि',  iast: 'mitrāṇi',   english: 'friends',      grammar: 'noun, nom. pl.' },
+          { devanagari: 'आसन्',      iast: 'āsan',       english: 'were',         grammar: 'verb, impf. 3pl.' },
+        ], translation: 'Four Brahmins were friends.', vocabIds: [] },
+      { id: 'pt39-2', words: [
+          { devanagari: 'त्रयः',    iast: 'trayaḥ',    english: 'three',         grammar: 'numeral, nom. pl.' },
+          { devanagari: 'शास्त्रज्ञाः', iast: 'śāstrajñāḥ', english: 'learned in scripture', grammar: 'adj, nom. pl.' },
+          { devanagari: 'किन्तु',    iast: 'kintu',     english: 'but',           grammar: 'particle' },
+          { devanagari: 'निर्बुद्धयः', iast: 'nirbuddhayaḥ', english: 'foolish', grammar: 'adj, nom. pl.' },
+          { devanagari: 'आसन्',      iast: 'āsan',       english: 'were',         grammar: 'verb, impf. 3pl.' },
+        ], translation: 'Three were learned in scripture but lacked common sense.', vocabIds: [] },
+      { id: 'pt39-3', words: [
+          { devanagari: 'चतुर्थः',  iast: 'caturthaḥ',  english: 'the fourth',   grammar: 'numeral, nom. sg.' },
+          { devanagari: 'सुबुद्धिः', iast: 'subuddhiḥ',  english: 'wise',         grammar: 'adj, nom. sg.' },
+          { devanagari: 'किन्तु',    iast: 'kintu',      english: 'but',          grammar: 'particle' },
+          { devanagari: 'अशिक्षितः', iast: 'aśikṣitaḥ', english: 'uneducated',   grammar: 'adj, nom. sg.' },
+          { devanagari: 'आसीत्',    iast: 'āsīt',       english: 'was',          grammar: 'verb, impf. 3sg.' },
+        ], translation: 'The fourth was wise but uneducated.', vocabIds: [] },
+      { id: 'pt39-4', words: [
+          { devanagari: 'मार्गे',    iast: 'mārge',     english: 'on the road',   grammar: 'noun, loc. sg.' },
+          { devanagari: 'एकः',       iast: 'ekaḥ',      english: 'a',            grammar: 'numeral, nom. sg.' },
+          { devanagari: 'मृतः',      iast: 'mṛtaḥ',    english: 'dead',          grammar: 'adj, nom. sg.' },
+          { devanagari: 'सिंहः',     iast: 'siṃhaḥ',   english: 'lion',          grammar: 'noun, nom. sg.' },
+          { devanagari: 'आसीत्',     iast: 'āsīt',      english: 'was',          grammar: 'verb, impf. 3sg.' },
+        ], translation: 'On the road lay a dead lion.', vocabIds: [] },
+      { id: 'pt39-5', words: [
+          { devanagari: 'प्रथमः',    iast: 'prathamaḥ', english: 'the first',    grammar: 'numeral, nom. sg.' },
+          { devanagari: 'अस्थीनि',   iast: 'asthīni',   english: 'the bones',    grammar: 'noun, acc. pl.' },
+          { devanagari: 'संयोजयत्',  iast: 'saṃyojayat', english: 'assembled',   grammar: 'verb, impf. 3sg.' },
+        ], translation: 'The first assembled the bones.', vocabIds: [] },
+      { id: 'pt39-6', words: [
+          { devanagari: 'द्वितीयः',  iast: 'dvitīyaḥ',  english: 'the second',   grammar: 'numeral, nom. sg.' },
+          { devanagari: 'त्वचम्',    iast: 'tvacam',     english: 'skin',         grammar: 'noun, acc. sg.' },
+          { devanagari: 'मांसम्',    iast: 'māṃsam',    english: 'flesh',        grammar: 'noun, acc. sg.' },
+          { devanagari: 'च',         iast: 'ca',          english: 'and',         grammar: 'particle' },
+          { devanagari: 'अयोजयत्',   iast: 'ayojayat',   english: 'attached',    grammar: 'verb, impf. 3sg.' },
+        ], translation: 'The second attached skin and flesh.', vocabIds: [] },
+      { id: 'pt39-7', words: [
+          { devanagari: 'सुबुद्धिः', iast: 'subuddhiḥ',  english: 'the wise one', grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'अवदत्',     iast: 'avadat',     english: 'said',         grammar: 'verb, impf. 3sg.' },
+          { devanagari: 'मा',        iast: 'mā',          english: 'do not',      grammar: 'particle, prohib.' },
+          { devanagari: 'जीवयत',     iast: 'jīvayata',   english: 'bring to life', grammar: 'verb, imper. 2pl.' },
+          { devanagari: 'एनम्',      iast: 'enam',       english: 'this one',     grammar: 'pronoun, acc. sg.' },
+        ], translation: 'The wise one said, "Do not bring this one to life."', vocabIds: [] },
+      { id: 'pt39-8', words: [
+          { devanagari: 'तृतीयः',    iast: 'tṛtīyaḥ',   english: 'the third',    grammar: 'numeral, nom. sg.' },
+          { devanagari: 'तस्य',      iast: 'tasya',      english: 'his',          grammar: 'pronoun, gen. sg.' },
+          { devanagari: 'वचनम्',     iast: 'vacanam',    english: 'words',        grammar: 'noun, acc. sg.' },
+          { devanagari: 'अतिक्रम्य', iast: 'atikramya',  english: 'ignoring',     grammar: 'verb, absol.' },
+          { devanagari: 'जीवम्',     iast: 'jīvam',     english: 'life',         grammar: 'noun, acc. sg.' },
+          { devanagari: 'दत्तवान्',  iast: 'dattavān',   english: 'gave',        grammar: 'verb, perf. part.' },
+        ], translation: 'The third, ignoring his words, gave the lion life.', vocabIds: [] },
+      { id: 'pt39-9', words: [
+          { devanagari: 'सिंहः',     iast: 'siṃhaḥ',    english: 'the lion',     grammar: 'noun, nom. sg.' },
+          { devanagari: 'उत्थाय',    iast: 'utthāya',   english: 'rising up',    grammar: 'verb, absol.' },
+          { devanagari: 'त्रीन्',    iast: 'trīn',      english: 'the three',    grammar: 'numeral, acc. pl.' },
+          { devanagari: 'अमारयत्',   iast: 'amārayat',  english: 'killed',       grammar: 'verb, impf. 3sg.' },
+        ], translation: 'The lion rose up and killed the three.', vocabIds: [] },
+      { id: 'pt39-10', words: [
+          { devanagari: 'व्यावहारिकी', iast: 'vyāvahārikī', english: 'practical', grammar: 'adj, nom. sg. f.' },
+          { devanagari: 'बुद्धिः',   iast: 'buddhiḥ',   english: 'wisdom',       grammar: 'noun, nom. sg. f.' },
+          { devanagari: 'शास्त्रज्ञानात्', iast: 'śāstrajñānāt', english: 'than scriptural knowledge', grammar: 'noun, abl. sg.' },
+          { devanagari: 'श्रेयसी',   iast: 'śreyasī',   english: 'better',       grammar: 'adj, nom. sg. f.' },
+        ], translation: 'Practical wisdom is better than scriptural knowledge alone.', vocabIds: [] },
+    ],
+  },
+  {
+    id: 'story-40', type: 'story', category: 'panchatantra', level: 'intermediate',
+    title: 'पञ्चतन्त्रम् — उपोद्घातः', titleIast: 'Pañcatantram — Upoghātaḥ', titleEnglish: 'The Panchatantra — Introduction',
+    description: 'The framing story of the Pañcatantra: King Amaraśakti of Mahilāropya has three foolish sons. He commissions the sage Viṣṇuśarman to make them wise through stories.',
+    moral: 'Whoever reads or hears the Pañcatantra becomes wise.',
+    sentences: [
+      { id: 'pt40-1', words: [
+          { devanagari: 'अस्ति',     iast: 'asti',      english: 'there is',      grammar: 'verb, pres. 3sg.' },
+          { devanagari: 'महिलारोप्यम्', iast: 'mahilāropyam', english: 'Mahilāropya', grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'नाम',       iast: 'nāma',      english: 'named',         grammar: 'adverb' },
+          { devanagari: 'नगरम्',     iast: 'nagaram',   english: 'city',          grammar: 'noun, nom. sg.' },
+        ], translation: 'There is a city named Mahilāropya.', vocabIds: [] },
+      { id: 'pt40-2', words: [
+          { devanagari: 'तत्र',      iast: 'tatra',     english: 'there',         grammar: 'adverb' },
+          { devanagari: 'अमरशक्तिः', iast: 'amaraśaktiḥ', english: 'Amaraśakti', grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'नाम',       iast: 'nāma',      english: 'named',         grammar: 'adverb' },
+          { devanagari: 'राजा',      iast: 'rājā',      english: 'king',          grammar: 'noun, nom. sg.' },
+          { devanagari: 'बभूव',      iast: 'babhūva',   english: 'lived',         grammar: 'verb, perf. 3sg.' },
+        ], translation: 'In it lived a king named Amaraśakti.', vocabIds: [] },
+      { id: 'pt40-3', words: [
+          { devanagari: 'तस्य',      iast: 'tasya',     english: 'his',           grammar: 'pronoun, gen. sg.' },
+          { devanagari: 'त्रयः',     iast: 'trayaḥ',   english: 'three',         grammar: 'numeral, nom. pl.' },
+          { devanagari: 'मूर्खाः',   iast: 'mūrkhāḥ',  english: 'foolish',       grammar: 'adj, nom. pl.' },
+          { devanagari: 'पुत्राः',   iast: 'putrāḥ',   english: 'sons',          grammar: 'noun, nom. pl.' },
+          { devanagari: 'बभूवुः',    iast: 'babhūvuḥ',  english: 'were',         grammar: 'verb, perf. 3pl.' },
+        ], translation: 'He had three foolish sons.', vocabIds: [] },
+      { id: 'pt40-4', words: [
+          { devanagari: 'राजा',      iast: 'rājā',      english: 'the king',      grammar: 'noun, nom. sg.' },
+          { devanagari: 'चिन्तितः',  iast: 'cintitaḥ',  english: 'troubled',     grammar: 'adj, nom. sg.' },
+          { devanagari: 'आसीत्',     iast: 'āsīt',      english: 'was',          grammar: 'verb, impf. 3sg.' },
+        ], translation: 'The king was troubled.', vocabIds: [] },
+      { id: 'pt40-5', words: [
+          { devanagari: 'विष्णुशर्मा', iast: 'viṣṇuśarmā', english: 'Viṣṇuśarman', grammar: 'proper noun, nom. sg.' },
+          { devanagari: 'नाम',        iast: 'nāma',     english: 'named',        grammar: 'adverb' },
+          { devanagari: 'महापण्डितः', iast: 'mahāpaṇḍitaḥ', english: 'great scholar', grammar: 'noun, nom. sg.' },
+          { devanagari: 'आगत्य',      iast: 'āgatya',   english: 'coming',       grammar: 'verb, absol.' },
+          { devanagari: 'अवदत्',      iast: 'avadat',   english: 'said',         grammar: 'verb, impf. 3sg.' },
+        ], translation: 'A great scholar named Viṣṇuśarman came and spoke.', vocabIds: [] },
+      { id: 'pt40-6', words: [
+          { devanagari: 'अहम्',       iast: 'aham',     english: 'I',            grammar: 'pronoun, nom. sg.' },
+          { devanagari: 'तव',         iast: 'tava',     english: 'your',         grammar: 'pronoun, gen. sg.' },
+          { devanagari: 'पुत्रान्',   iast: 'putrān',   english: 'sons',         grammar: 'noun, acc. pl.' },
+          { devanagari: 'बुद्धिमतः',  iast: 'buddhimataḥ', english: 'wise',      grammar: 'adj, acc. pl.' },
+          { devanagari: 'करिष्यामि',  iast: 'kariṣyāmi', english: 'I will make', grammar: 'verb, fut. 1sg.' },
+        ], translation: '"I will make your sons wise."', vocabIds: [] },
+      { id: 'pt40-7', words: [
+          { devanagari: 'यः',         iast: 'yaḥ',      english: 'whoever',      grammar: 'pronoun, nom. sg.' },
+          { devanagari: 'पञ्चतन्त्रम्', iast: 'pañcatantram', english: 'the Pañcatantra', grammar: 'proper noun, acc. sg.' },
+          { devanagari: 'पठति',       iast: 'paṭhati',  english: 'reads',        grammar: 'verb, pres. 3sg.' },
+          { devanagari: 'शृणोति',     iast: 'śṛṇoti',   english: 'or hears',     grammar: 'verb, pres. 3sg.' },
+          { devanagari: 'वा',         iast: 'vā',        english: 'or',          grammar: 'particle' },
+        ], translation: 'Whoever reads or hears the Pañcatantra —', vocabIds: [] },
+      { id: 'pt40-8', words: [
+          { devanagari: 'सः',         iast: 'saḥ',      english: 'that person',  grammar: 'pronoun, nom. sg.' },
+          { devanagari: 'बुद्धिमान्', iast: 'buddhimān', english: 'wise',        grammar: 'adj, nom. sg.' },
+          { devanagari: 'भवति',       iast: 'bhavati',  english: 'becomes',      grammar: 'verb, pres. 3sg.' },
+        ], translation: '— that person becomes wise.', vocabIds: [] },
+    ],
+  },
+]
+
+STORIES.push(...AMARAHASA_STORIES)
+STORIES.push(...PANCHATANTRA_STORIES_2)
+
 // ── Bhagavad Gita — key verses ───────────────────────────────────────────────

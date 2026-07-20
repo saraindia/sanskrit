@@ -515,7 +515,7 @@ function StoryReader({ story, onBack }) {
       </div>
 
       {/* Story Summary Card — shown for moral & panchatantra stories */}
-      {!isDialogue && (story.category === 'moral' || story.category === 'panchatantra') && !showPractice && (
+      {!isDialogue && (story.category === 'moral' || story.category === 'panchatantra' || story.category === 'amarahasa') && !showPractice && (
         <StorySummaryCard
           story={story}
           onPlayAll={handlePlayAll}
@@ -597,6 +597,7 @@ function StoryList({ onSelect }) {
   const stories      = applyFilter(STORIES.filter(s => s.type === 'story' && !s.category))
   const morals       = applyFilter(STORIES.filter(s => s.category === 'moral'))
   const panchatantra = applyFilter(STORIES.filter(s => s.category === 'panchatantra'))
+  const amarahasa    = applyFilter(STORIES.filter(s => s.category === 'amarahasa'))
   const dialogues    = applyFilter(STORIES.filter(s => s.type === 'dialogue'))
   // Distribute the global free-story budget across sections in order so that
   // FREE_STORIES=1 means exactly 1 story total is free, not 1 per section.
@@ -606,6 +607,7 @@ function StoryList({ onSelect }) {
     { key: 'stories',      items: stories,      label: 'Stories',        icon: null,  subtitle: null },
     { key: 'morals',       items: morals,        label: 'Moral Stories',  icon: '📜',  subtitle: 'Hitopadesha — values & character in Sanskrit' },
     { key: 'panchatantra', items: panchatantra,  label: 'Panchatantra',   icon: '🐘',  subtitle: 'Classic fables by Viṣṇuśarman — statecraft & wisdom' },
+    { key: 'amarahasa',    items: amarahasa,     label: 'Amarahasa',      icon: '🪷',  subtitle: 'Graded readers — CC0 — from beginner to advanced' },
     { key: 'dialogues',    items: dialogues,     label: 'Conversations',  icon: null,  subtitle: null },
   ].map(sec => {
     const sectionFree = isPro ? undefined : Math.min(rem, sec.items.length)
@@ -613,12 +615,13 @@ function StoryList({ onSelect }) {
     return { ...sec, freeCount: sectionFree }
   })
 
-  const totalResults = stories.length + morals.length + panchatantra.length + dialogues.length
+  const totalResults = stories.length + morals.length + panchatantra.length + amarahasa.length + dialogues.length
 
   const totalCounts = {
     stories:      STORIES.filter(s => s.type === 'story' && !s.category).length,
     morals:       STORIES.filter(s => s.category === 'moral').length,
     panchatantra: STORIES.filter(s => s.category === 'panchatantra').length,
+    amarahasa:    STORIES.filter(s => s.category === 'amarahasa').length,
     dialogues:    STORIES.filter(s => s.type === 'dialogue').length,
   }
 
