@@ -46,59 +46,6 @@ function getDailyVerse() {
 
 const GITA_VERSE_COUNTS = [0,47,72,43,42,29,47,30,28,34,42,55,20,35,27,20,24,28,78]
 
-const SUNDARA_SARGAS = 68 // Sundarakanda has 68 sargas in Vishwas Bhide recording
-
-function SundaraChantPlayer() {
-  const [playing, setPlaying] = useState(false)
-  const [currentSarga, setCurrentSarga] = useState(1)
-  const stopRef  = useRef(false)
-  const audioRef = useRef(null)
-
-  const stop = useCallback(() => {
-    stopRef.current = true
-    if (audioRef.current) { audioRef.current.pause(); audioRef.current = null }
-    setPlaying(false)
-  }, [])
-
-  useEffect(() => () => stop(), [stop])
-
-  const play = useCallback(async () => {
-    if (playing) { stop(); return }
-    stopRef.current = false
-    setPlaying(true)
-    const { getRamayanaSargaAudioUrl } = await import('../utils/ramayanaAudio.js')
-    for (let sarga = 1; sarga <= SUNDARA_SARGAS; sarga++) {
-      if (stopRef.current) break
-      setCurrentSarga(sarga)
-      const url = getRamayanaSargaAudioUrl(5, sarga)
-      if (!url) continue
-      try {
-        await new Promise((resolve) => {
-          const audio = new Audio(url)
-          audioRef.current = audio
-          audio.onended = resolve
-          audio.onerror = resolve
-          audio.play().catch(resolve)
-        })
-        audioRef.current = null
-      } catch { /* skip */ }
-    }
-    if (!stopRef.current) setPlaying(false)
-  }, [playing, stop])
-
-  return (
-    <div className="gita-chant-player">
-      <div className="gita-chant-info">
-        <span className="gita-chant-title">Sundarakāṇḍa — Full Chant</span>
-        {playing && <span className="gita-chant-ref">Sarga {currentSarga}</span>}
-      </div>
-      <button className={`gita-chant-btn${playing ? ' playing' : ''}`} onClick={play}>
-        {playing ? '◼ Stop' : '▶ Play Sundara'}
-      </button>
-    </div>
-  )
-}
-
 function GitaChantPlayer() {
   const [playing, setPlaying] = useState(false)
   const [current, setCurrent] = useState({ ch: 1, v: 1 })
@@ -657,12 +604,9 @@ export default function Dashboard() {
         <WordOfDay   open={dailyOpen === 'word'}   onToggle={() => setDailyOpen(d => d === 'word'   ? null : 'word')} />
       </div>
 
-      {/* ── Full Chant players ───────────────────────────────────────── */}
+      {/* ── Full Gita Chant ───────────────────────────────────────────── */}
       <div className="dash-section">
-        <div className="chant-players-row">
-          <GitaChantPlayer />
-          <SundaraChantPlayer />
-        </div>
+        <GitaChantPlayer />
       </div>
 
       {/* ── Section accordions ─────────────────────────────────────────── */}

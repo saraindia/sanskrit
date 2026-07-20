@@ -337,14 +337,6 @@
 .shloka-link:hover { background: color-mix(in srgb, var(--gold) 12%, transparent); }
 
 /* ── Full Gita Chant Player ─────────────────────────────────────────────────── */
-.chant-players-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-}
-@media (max-width: 480px) {
-  .chant-players-row { grid-template-columns: 1fr; }
-}
 
 .gita-chant-player {
   display: flex;
