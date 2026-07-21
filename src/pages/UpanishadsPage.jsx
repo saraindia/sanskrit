@@ -242,7 +242,7 @@ export default function UpanishadsPage() {
 
   // ── Text picker ───────────────────────────────────────────────────────
   const UPAN_COLORS = ['#f59e0b','#a855f7','#22c55e','#3b82f6','#ec4899','#f97316','#14b8a6','#e11d48','#8b5cf6']
-  const UPAN_ICONS  = { aitareya:'🌅', isha:'🕉️', kena:'💫', katha:'⚡', taittiriya:'🌿', mandukya:'🔔', mundaka:'🔥', chandogya:'🎶' }
+  const UPAN_ICONS  = { aitareya:'🌅', isha:'🕉️', kena:'💫', katha:'⚡', taittiriya:'🌿', mandukya:'🔔', mundaka:'🔥', prashna:'❓', chandogya:'🎶' }
   const YOGA_ICONS  = ['🧘', '🌿', '✨', '🕊️']
 
   const upanTexts = manifest.texts.filter(t => t.id !== 'brahmasutra' && !t.id.startsWith('yogasutra-'))

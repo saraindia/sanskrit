@@ -66,6 +66,15 @@
    "file": "mundaka.json"
   },
   {
+   "id": "prashna",
+   "title": "Praśna Upaniṣad",
+   "titleDeva": "प्रश्नोपनिषद्",
+   "titleEnglish": "Six Questions on Ultimate Reality",
+   "veda": "Atharvaveda",
+   "verses": 67,
+   "file": "prashna.json"
+  },
+  {
    "id": "chandogya",
    "title": "Chāndogya Upaniṣad",
    "titleDeva": "छान्दोग्योपनिषद्",
