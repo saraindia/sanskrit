@@ -68,7 +68,7 @@ export const AMARAHASA_GROUP_D = [
         words: [
           { devanagari: 'दशरथः', iast: 'daśarathaḥ', english: 'Daśaratha', grammar: 'proper noun, nom. sg. m.' },
           { devanagari: 'प्रियो', iast: 'priyo', english: 'beloved', grammar: 'adj., nom. sg. m.' },
-          { devanagari: 'ऽयोध्यारāजः', iast: "'yodhyārājaḥ", english: 'king of Ayodhyā', grammar: 'compound, nom. sg. m.' },
+          { devanagari: 'ऽयोध्याराजः', iast: "'yodhyārājaḥ", english: 'king of Ayodhyā', grammar: 'compound, nom. sg. m.' },
           { devanagari: 'पूर्वम्', iast: 'pūrvam', english: 'previously', grammar: 'adverb' },
           { devanagari: 'एतद्', iast: 'etad', english: 'this', grammar: 'pronoun, acc. sg. n.' },
           { devanagari: 'अचिन्तयत्', iast: 'acintayat', english: 'thought', grammar: 'verb, 3rd sg. imperf.' },
@@ -189,7 +189,7 @@ export const AMARAHASA_GROUP_D = [
       {
         id: 'am62-15',
         words: [
-          { devanagari: 'अयोध्यारāजस्य', iast: 'ayodhyārājasya', english: 'of the king of Ayodhyā', grammar: 'compound, gen. sg. m.' },
+          { devanagari: 'अयोध्याराजस्य', iast: 'ayodhyārājasya', english: 'of the king of Ayodhyā', grammar: 'compound, gen. sg. m.' },
           { devanagari: 'दशरथस्य', iast: 'daśarathasya', english: 'Daśaratha\'s', grammar: 'proper noun, gen. sg. m.' },
           { devanagari: 'बह्व्यः', iast: 'bahvyaḥ', english: 'many', grammar: 'adj., nom. pl. f.' },
           { devanagari: 'पत्न्यः', iast: 'patnyaḥ', english: 'wives', grammar: 'noun, nom. pl. f.' },
@@ -1008,7 +1008,7 @@ export const AMARAHASA_GROUP_D = [
       {
         id: 'am63-1',
         words: [
-          { devanagari: 'अयोध्यारāजो', iast: 'ayodhyārājo', english: 'king of Ayodhyā', grammar: 'compound, nom. sg. m.' },
+          { devanagari: 'अयोध्याराजो', iast: 'ayodhyārājo', english: 'king of Ayodhyā', grammar: 'compound, nom. sg. m.' },
           { devanagari: 'दशरथः', iast: 'daśarathaḥ', english: 'Daśaratha', grammar: 'proper noun, nom. sg. m.' },
           { devanagari: 'सुखितो', iast: 'sukhito', english: 'happy', grammar: 'adj., nom. sg. m.' },
           { devanagari: 'ऽभवत्', iast: "'bhavat", english: 'was', grammar: 'verb, 3rd sg. imperf.' },
@@ -2719,7 +2719,7 @@ export const AMARAHASA_GROUP_D = [
       {
         id: 'am66-21',
         words: [
-          { devanagari: 'रāजन्', iast: 'rājan', english: 'O king', grammar: 'noun, voc. sg. m.' },
+          { devanagari: 'राजन्', iast: 'rājan', english: 'O king', grammar: 'noun, voc. sg. m.' },
           { devanagari: 'अर्जुन', iast: 'arjuna', english: 'Arjuna', grammar: 'proper noun, nom. sg. m.' },
           { devanagari: 'एतद्', iast: 'etad', english: 'this', grammar: 'pronoun, acc. sg. n.' },
           { devanagari: 'उक्त्वा', iast: 'uktvā', english: 'having spoken', grammar: 'gerund' },
