@@ -1,4 +1,4 @@
-// Amarahasa Group A — CC0 — https://en.amarahasa.com
+// Amarahasa Group A - CC0 - https://en.amarahasa.com
 export const AMARAHASA_GROUP_A = [
   {
     id: 'story-41',
@@ -14,7 +14,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-1',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is a warrior.',
         vocabIds: [],
@@ -33,7 +33,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is a strong warrior.',
         vocabIds: [],
@@ -43,7 +43,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Is Arjuna a warrior?',
         vocabIds: [],
@@ -52,7 +52,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-5',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is a warrior.',
         vocabIds: [],
@@ -73,7 +73,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Is Arjuna a strong warrior?',
         vocabIds: [],
@@ -92,7 +92,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is a strong warrior.',
         vocabIds: [],
@@ -100,8 +100,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-10',
         words: [
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरअ᳓¸¥', iast: 'yudhiṭ£ṭ­hiraḍ¥', english: 'Yudhishthira', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरः', iast: 'yudhiṣṭhiraḥ', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Yudhishthira?',
         vocabIds: [],
@@ -109,9 +109,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-11',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Is Yudhishthira a warrior?',
         vocabIds: [],
@@ -119,8 +119,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-12',
         words: [
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Yudhishthira is a warrior.',
         vocabIds: [],
@@ -128,8 +128,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-13',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
         ],
         translation: 'Is Yudhishthira strong?',
@@ -138,7 +138,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-14',
         words: [
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
         ],
         translation: 'Yudhishthira is strong.',
@@ -147,9 +147,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-15',
         words: [
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Yudhishthira is a strong warrior.',
         vocabIds: [],
@@ -158,7 +158,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-16',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरस्य', iast: 'yudhiṭ£ṭ­hirasya', english: 'of Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरस्य', iast: 'yudhiṣṭhirasya', english: 'of Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
         ],
         translation: 'Arjuna is Yudhishthira\'s brother.',
@@ -168,7 +168,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-17',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरस्य', iast: 'yudhiṭ£ṭ­hirasya', english: 'of Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरस्य', iast: 'yudhiṣṭhirasya', english: 'of Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
         ],
@@ -190,7 +190,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-19',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is a warrior.',
         vocabIds: [],
@@ -198,8 +198,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-20',
         words: [
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Yudhishthira is a warrior.',
         vocabIds: [],
@@ -208,7 +208,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-21',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरश', iast: 'yudhiṭ£ṭ­hiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरश्', iast: 'yudhiṣṭhiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'योधौ', iast: 'yodhau', english: 'two warriors', grammar: 'nom. sg.' },
         ],
@@ -219,7 +219,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-22',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरश', iast: 'yudhiṭ£ṭ­hiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरश्', iast: 'yudhiṣṭhiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'बलवन्तौ', iast: 'balavantau', english: 'two strong', grammar: 'nom. sg.' },
         ],
@@ -230,7 +230,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-23',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरश', iast: 'yudhiṭ£ṭ­hiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरश्', iast: 'yudhiṣṭhiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'बलवन्तौ', iast: 'balavantau', english: 'two strong', grammar: 'nom. sg.' },
           { devanagari: 'योधौ', iast: 'yodhau', english: 'two warriors', grammar: 'nom. sg.' },
@@ -243,7 +243,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरश', iast: 'yudhiṭ£ṭ­hiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरश्', iast: 'yudhiṣṭhiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'भ्रातरौ', iast: 'bhrātarau', english: 'two brothers', grammar: '' },
         ],
@@ -254,7 +254,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-25',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरश', iast: 'yudhiṭ£ṭ­hiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरश्', iast: 'yudhiṣṭhiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'भ्रातरौ', iast: 'bhrātarau', english: 'two brothers', grammar: '' },
         ],
@@ -265,7 +265,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-26',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरश', iast: 'yudhiṭ£ṭ­hiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरश्', iast: 'yudhiṣṭhiraś', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'बलवन्तौ', iast: 'balavantau', english: 'two strong', grammar: 'nom. sg.' },
           { devanagari: 'भ्रातरौ', iast: 'bhrātarau', english: 'two brothers', grammar: '' },
@@ -276,8 +276,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-27',
         words: [
-          { devanagari: 'भीमअ᳓¸¥', iast: 'bhīmaḍ¥', english: 'Bhima', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'भीमः', iast: 'bhīmaḥ', english: 'Bhima', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Bhima?',
         vocabIds: [],
@@ -285,8 +285,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-28',
         words: [
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Nakula?',
         vocabIds: [],
@@ -294,8 +294,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-29',
         words: [
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'सहदेवअ᳓¸¥', iast: 'sahadevaḍ¥', english: 'Sahadeva', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'सहदेवः', iast: 'sahadevaḥ', english: 'Sahadeva', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Sahadeva?',
         vocabIds: [],
@@ -304,7 +304,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-30',
         words: [
           { devanagari: 'भीमो', iast: 'bhīmo', english: 'Bhima', grammar: 'nom. sg.' },
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'के', iast: 'ke', english: 'who all? what all?', grammar: 'nom. sg.' },
@@ -315,12 +315,12 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-31',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'भीमो', iast: 'bhīmo', english: 'Bhima', grammar: 'nom. sg.' },
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
         ],
         translation: 'Are Bhima, Nakula, and Sahadeva warriors?',
         vocabIds: [],
@@ -329,10 +329,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-32',
         words: [
           { devanagari: 'भीमो', iast: 'bhīmo', english: 'Bhima', grammar: 'nom. sg.' },
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
         ],
         translation: 'Bhima, Nakula, and Sahadeva are warriors.',
         vocabIds: [],
@@ -340,12 +340,12 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-33',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'भीमो', iast: 'bhīmo', english: 'Bhima', grammar: 'nom. sg.' },
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'बलवन्तअ᳓¸¥', iast: 'balavantaḍ¥', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तः', iast: 'balavantaḥ', english: 'strong', grammar: 'nom. sg.' },
         ],
         translation: 'Are Bhima, Nakula, and Sahadeva strong?',
         vocabIds: [],
@@ -354,10 +354,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-34',
         words: [
           { devanagari: 'भीमो', iast: 'bhīmo', english: 'Bhima', grammar: 'nom. sg.' },
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'बलवन्तअ᳓¸¥', iast: 'balavantaḍ¥', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तः', iast: 'balavantaḥ', english: 'strong', grammar: 'nom. sg.' },
         ],
         translation: 'Bhima, Nakula, and Sahadeva are strong.',
         vocabIds: [],
@@ -396,7 +396,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-38',
         words: [
-          { devanagari: 'अर्जुनअ᳓¸¥', iast: 'arjunaḍ¥', english: 'Arjuna', grammar: 'nom. sg.' },
+          { devanagari: 'अर्जुनः', iast: 'arjunaḥ', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवस्य', iast: 'sahadevasya', english: 'of Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
         ],
@@ -408,7 +408,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'अर्जुनस्य', iast: 'arjunasya', english: 'of Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
-          { devanagari: 'भ्रातरअ᳓¸¥', iast: 'bhrātaraḍ¥', english: 'brothers', grammar: '' },
+          { devanagari: 'भ्रातरः', iast: 'bhrātaraḥ', english: 'brothers', grammar: '' },
         ],
         translation: 'Arjuna has many brothers!',
         vocabIds: [],
@@ -419,7 +419,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'अर्जुनस्य', iast: 'arjunasya', english: 'of Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'भ्रातरअ᳓¸¥', iast: 'bhrātaraḍ¥', english: 'brothers', grammar: '' },
+          { devanagari: 'भ्रातरः', iast: 'bhrātaraḥ', english: 'brothers', grammar: '' },
         ],
         translation: 'Arjuna has many strong brothers.',
         vocabIds: [],
@@ -430,7 +430,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
           { devanagari: 'योधा', iast: 'yodhā', english: 'warriors', grammar: 'nom. sg.' },
           { devanagari: 'अर्जुनस्य', iast: 'arjunasya', english: 'of Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'भ्रातरअ᳓¸¥', iast: 'bhrātaraḍ¥', english: 'brothers', grammar: '' },
+          { devanagari: 'भ्रातरः', iast: 'bhrātaraḥ', english: 'brothers', grammar: '' },
         ],
         translation: 'Many warriors are Arjuna\'s brothers.',
         vocabIds: [],
@@ -439,13 +439,13 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-42',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'भीमो', iast: 'bhīmo', english: 'Bhima', grammar: 'nom. sg.' },
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'भ्रातरअ᳓¸¥', iast: 'bhrātaraḍ¥', english: 'brothers', grammar: '' },
+          { devanagari: 'भ्रातरः', iast: 'bhrātaraḥ', english: 'brothers', grammar: '' },
         ],
         translation: 'Arjuna, Yudhishthira, Bhima, Nakula, and Sahadeva are powerful brothers.',
         vocabIds: [],
@@ -465,7 +465,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
           { devanagari: 'योधानाम्', iast: 'yodhānām', english: 'of the warriors', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is the brother of many warriors.',
@@ -476,8 +476,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'बलवताअ᳓꣡', iast: 'balavatāṭ', english: 'of (many) strong', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'बलवतां', iast: 'balavatāṃ', english: 'of (many) strong', grammar: 'nom. sg.' },
           { devanagari: 'योधानाम्', iast: 'yodhānām', english: 'of the warriors', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is the brother of many strong warriors.',
@@ -486,8 +486,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-46',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸उअ᳓¸¥', iast: 'pāṭḍuḍ¥', english: 'Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डुः', iast: 'pāṇḍuḥ', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Pandu?',
         vocabIds: [],
@@ -495,9 +495,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-47',
         words: [
-          { devanagari: 'अर्जुनअ᳓¸¥', iast: 'arjunaḍ¥', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'अर्जुनः', iast: 'arjunaḥ', english: 'Arjuna', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is Pandu\'s son.',
         vocabIds: [],
@@ -505,10 +505,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-48',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरअ᳓¸¥', iast: 'yudhiṭ£ṭ­hiraḍ¥', english: 'Yudhishthira', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरः', iast: 'yudhiṣṭhiraḥ', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Is Yudhishthira Pandu\'s son?',
         vocabIds: [],
@@ -516,9 +516,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-49',
         words: [
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरअ᳓¸¥', iast: 'yudhiṭ£ṭ­hiraḍ¥', english: 'Yudhishthira', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरः', iast: 'yudhiṣṭhiraḥ', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
         ],
         translation: 'Yudhishthira is the son of Pandu.',
         vocabIds: [],
@@ -526,10 +526,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-50',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'भीमअ᳓¸¥', iast: 'bhīmaḍ¥', english: 'Bhima', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'भीमः', iast: 'bhīmaḥ', english: 'Bhima', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
         ],
         translation: 'Is Bhima the son of Pandu?',
         vocabIds: [],
@@ -537,12 +537,12 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-51',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'पुत्रौ', iast: 'putrau', english: 'two sons', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
         ],
         translation: 'Are Nakula and Sahadeva the sons of Pandu?',
         vocabIds: [],
@@ -551,11 +551,11 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-52',
         words: [
           { devanagari: 'भीमो', iast: 'bhīmo', english: 'Bhima', grammar: 'nom. sg.' },
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'Bhima, Nakula, and Sahadeva are Pandu\'s sons.',
         vocabIds: [],
@@ -564,9 +564,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-53',
         words: [
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'Many warriors are Pandu\'s sons.',
         vocabIds: [],
@@ -576,9 +576,9 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
         ],
         translation: 'Many strong warriors are sons of Pandu.',
         vocabIds: [],
@@ -586,10 +586,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-55',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओर्', iast: 'pāṭḍor', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोर्', iast: 'pāṇḍor', english: 'from or of Pandu', grammar: 'nom. sg.' },
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
-          { devanagari: 'बलवन्तअ᳓¸¥', iast: 'balavantaḍ¥', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तः', iast: 'balavantaḥ', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'Pandu has many strong sons.',
         vocabIds: [],
@@ -606,9 +606,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-57',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'कुन्ती', iast: 'kuntī', english: 'Kunti (mother of Yudhishthira, Bhima, and Arjuna)', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Is Kunti a warrior?',
         vocabIds: [],
@@ -618,7 +618,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'कुन्ती', iast: 'kuntī', english: 'Kunti (mother of Yudhishthira, Bhima, and Arjuna)', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Kunti is not a warrior.',
         vocabIds: [],
@@ -636,7 +636,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-60',
         words: [
           { devanagari: 'कुन्ती', iast: 'kuntī', english: 'Kunti (mother of Yudhishthira, Bhima, and Arjuna)', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
           { devanagari: 'पत्नी', iast: 'patnī', english: 'wife', grammar: 'nom. sg.' },
         ],
         translation: 'Kunti is Pandu\'s wife.',
@@ -645,8 +645,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-61',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸उअ᳓¸¥', iast: 'pāṭḍuḍ¥', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डुः', iast: 'pāṇḍuḥ', english: 'Pandu', grammar: 'nom. sg.' },
           { devanagari: 'पत्नी', iast: 'patnī', english: 'wife', grammar: 'nom. sg.' },
         ],
         translation: 'Is Pandu a wife?',
@@ -655,7 +655,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-62',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸उर्', iast: 'pāṭḍur', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डुर्', iast: 'pāṇḍur', english: 'Pandu', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पत्नी', iast: 'patnī', english: 'wife', grammar: 'nom. sg.' },
         ],
@@ -665,8 +665,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-63',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸उअ᳓¸¥', iast: 'pāṭḍuḍ¥', english: 'Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'पतिअ᳓¸¥', iast: 'patiḍ¥', english: 'lord, husband', grammar: '' },
+          { devanagari: 'पाण्डुः', iast: 'pāṇḍuḥ', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पतिः', iast: 'patiḥ', english: 'lord, husband', grammar: '' },
         ],
         translation: 'Pandu is a husband.',
         vocabIds: [],
@@ -674,9 +674,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-64',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸उअ᳓¸¥', iast: 'pāṭḍuḍ¥', english: 'Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'कुन्त्याअ᳓¸¥', iast: 'kuntyāḍ¥', english: 'from or of Kunti', grammar: 'nom. sg.' },
-          { devanagari: 'पतिअ᳓¸¥', iast: 'patiḍ¥', english: 'lord, husband', grammar: '' },
+          { devanagari: 'पाण्डुः', iast: 'pāṇḍuḥ', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'कुन्त्याः', iast: 'kuntyāḥ', english: 'from or of Kunti', grammar: 'nom. sg.' },
+          { devanagari: 'पतिः', iast: 'patiḥ', english: 'lord, husband', grammar: '' },
         ],
         translation: 'Pandu is Kunti\'s husband.',
         vocabIds: [],
@@ -685,9 +685,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-65',
         words: [
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'अर्जुनअ᳓¸¥', iast: 'arjunaḍ¥', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'कुन्त्याअ᳓¸¥', iast: 'kuntyāḍ¥', english: 'from or of Kunti', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'अर्जुनः', iast: 'arjunaḥ', english: 'Arjuna', grammar: 'nom. sg.' },
+          { devanagari: 'कुन्त्याः', iast: 'kuntyāḥ', english: 'from or of Kunti', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Is Arjuna Kunti\'s son?',
         vocabIds: [],
@@ -695,9 +695,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-66',
         words: [
-          { devanagari: 'अर्जुनअ᳓¸¥', iast: 'arjunaḍ¥', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'कुन्त्याअ᳓¸¥', iast: 'kuntyāḍ¥', english: 'from or of Kunti', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'अर्जुनः', iast: 'arjunaḥ', english: 'Arjuna', grammar: 'nom. sg.' },
+          { devanagari: 'कुन्त्याः', iast: 'kuntyāḥ', english: 'from or of Kunti', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is Kunti\'s son.',
         vocabIds: [],
@@ -705,11 +705,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-67',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'भीमश', iast: 'bhīmaś', english: 'Bhima', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'कुन्त्याअ᳓¸¥', iast: 'kuntyāḍ¥', english: 'from or of Kunti', grammar: 'nom. sg.' },
+          { devanagari: 'कुन्त्याः', iast: 'kuntyāḥ', english: 'from or of Kunti', grammar: 'nom. sg.' },
           { devanagari: 'पुत्रौ', iast: 'putrau', english: 'two sons', grammar: 'nom. sg.' },
         ],
         translation: 'Are Yudhishthira and Bhima Kunti\'s sons?',
@@ -718,10 +718,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-68',
         words: [
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'भीमश', iast: 'bhīmaś', english: 'Bhima', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'कुन्त्याअ᳓¸¥', iast: 'kuntyāḍ¥', english: 'from or of Kunti', grammar: 'nom. sg.' },
+          { devanagari: 'कुन्त्याः', iast: 'kuntyāḥ', english: 'from or of Kunti', grammar: 'nom. sg.' },
           { devanagari: 'पुत्रौ', iast: 'putrau', english: 'two sons', grammar: 'nom. sg.' },
         ],
         translation: 'Yudhishthira and Bhima are Kunti\'s sons.',
@@ -731,12 +731,12 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-69',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'भीमश', iast: 'bhīmaś', english: 'Bhima', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'कुन्त्या', iast: 'kuntyā', english: 'from or of Kunti', grammar: 'nom. sg.' },
-          { devanagari: 'बलवन्तअ᳓¸¥', iast: 'balavantaḍ¥', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तः', iast: 'balavantaḥ', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna, Yudhishthira, and Bhima are Kunti\'s strong sons.',
         vocabIds: [],
@@ -744,11 +744,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-70',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'कुन्त्याअ᳓¸¥', iast: 'kuntyāḍ¥', english: 'from or of Kunti', grammar: 'nom. sg.' },
+          { devanagari: 'कुन्त्याः', iast: 'kuntyāḥ', english: 'from or of Kunti', grammar: 'nom. sg.' },
           { devanagari: 'पुत्रौ', iast: 'putrau', english: 'two sons', grammar: 'nom. sg.' },
         ],
         translation: 'Are Nakula and Sahadeva Kunti\'s sons?',
@@ -757,11 +757,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-71',
         words: [
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'कुन्त्याअ᳓¸¥', iast: 'kuntyāḍ¥', english: 'from or of Kunti', grammar: 'nom. sg.' },
+          { devanagari: 'कुन्त्याः', iast: 'kuntyāḥ', english: 'from or of Kunti', grammar: 'nom. sg.' },
           { devanagari: 'पुत्रौ', iast: 'putrau', english: 'two sons', grammar: 'nom. sg.' },
         ],
         translation: 'Nakula and Sahadeva are not Kunti\'s sons.',
@@ -770,11 +770,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-72',
         words: [
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'पुत्रौ', iast: 'putrau', english: 'two sons', grammar: 'nom. sg.' },
-          { devanagari: 'माद्र्याअ᳓¸¥', iast: 'mādryāḍ¥', english: 'from or of Madri', grammar: 'nom. sg.' },
+          { devanagari: 'माद्र्याः', iast: 'mādryāḥ', english: 'from or of Madri', grammar: 'nom. sg.' },
         ],
         translation: 'Nakula and Sahadeva are the sons of Madri.',
         vocabIds: [],
@@ -792,7 +792,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-74',
         words: [
           { devanagari: 'माद्री', iast: 'mādrī', english: 'Madri (mother of Nakula and Sahadeva)', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
           { devanagari: 'पत्नी', iast: 'patnī', english: 'wife', grammar: 'nom. sg.' },
         ],
         translation: 'Madri is Pandu\'s wife.',
@@ -801,9 +801,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-75',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸उअ᳓¸¥', iast: 'pāṭḍuḍ¥', english: 'Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'कुन्त्याअ᳓¸¥', iast: 'kuntyāḍ¥', english: 'from or of Kunti', grammar: 'nom. sg.' },
-          { devanagari: 'पतिअ᳓¸¥', iast: 'patiḍ¥', english: 'lord, husband', grammar: '' },
+          { devanagari: 'पाण्डुः', iast: 'pāṇḍuḥ', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'कुन्त्याः', iast: 'kuntyāḥ', english: 'from or of Kunti', grammar: 'nom. sg.' },
+          { devanagari: 'पतिः', iast: 'patiḥ', english: 'lord, husband', grammar: '' },
         ],
         translation: 'Pandu is Kunti\'s husband.',
         vocabIds: [],
@@ -811,9 +811,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-76',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸उर्', iast: 'pāṭḍur', english: 'Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'माद्र्याअ᳓¸¥', iast: 'mādryāḍ¥', english: 'from or of Madri', grammar: 'nom. sg.' },
-          { devanagari: 'पतिअ᳓¸¥', iast: 'patiḍ¥', english: 'lord, husband', grammar: '' },
+          { devanagari: 'पाण्डुर्', iast: 'pāṇḍur', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'माद्र्याः', iast: 'mādryāḥ', english: 'from or of Madri', grammar: 'nom. sg.' },
+          { devanagari: 'पतिः', iast: 'patiḥ', english: 'lord, husband', grammar: '' },
         ],
         translation: 'Pandu is Madri\'s husband.',
         vocabIds: [],
@@ -821,11 +821,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-77',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸उअ᳓¸¥', iast: 'pāṭḍuḍ¥', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डुः', iast: 'pāṇḍuḥ', english: 'Pandu', grammar: 'nom. sg.' },
           { devanagari: 'कुन्त्या', iast: 'kuntyā', english: 'from or of Kunti', grammar: 'nom. sg.' },
           { devanagari: 'माद्र्याश', iast: 'mādryāś', english: 'from or of Madri', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'पतिअ᳓¸¥', iast: 'patiḍ¥', english: 'lord, husband', grammar: '' },
+          { devanagari: 'पतिः', iast: 'patiḥ', english: 'lord, husband', grammar: '' },
         ],
         translation: 'Pandu is Kunti and Madri\'s husband.',
         vocabIds: [],
@@ -834,11 +834,11 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-78',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'भीमश', iast: 'bhīmaś', english: 'Bhima', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'कुन्त्याअ᳓¸¥', iast: 'kuntyāḍ¥', english: 'from or of Kunti', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'कुन्त्याः', iast: 'kuntyāḥ', english: 'from or of Kunti', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna, Yudhishthira, and Bhima are Kunti\'s sons.',
         vocabIds: [],
@@ -846,10 +846,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-79',
         words: [
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'माद्र्याअ᳓¸¥', iast: 'mādryāḍ¥', english: 'from or of Madri', grammar: 'nom. sg.' },
+          { devanagari: 'माद्र्याः', iast: 'mādryāḥ', english: 'from or of Madri', grammar: 'nom. sg.' },
           { devanagari: 'पुत्रौ', iast: 'putrau', english: 'two sons', grammar: 'nom. sg.' },
         ],
         translation: 'Nakula and Sahadeva are Madri\'s sons.',
@@ -858,9 +858,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-80',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओर्', iast: 'pāṭḍor', english: 'from or of Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'बहवअ᳓¸¥', iast: 'bahavaḍ¥', english: 'many', grammar: '' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोर्', iast: 'pāṇḍor', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'बहवः', iast: 'bahavaḥ', english: 'many', grammar: '' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'Pandu has many sons.',
         vocabIds: [],
@@ -868,10 +868,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am41-81',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओर्', iast: 'pāṭḍor', english: 'from or of Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'बहवअ᳓¸¥', iast: 'bahavaḍ¥', english: 'many', grammar: '' },
+          { devanagari: 'पाण्डोर्', iast: 'pāṇḍor', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'बहवः', iast: 'bahavaḥ', english: 'many', grammar: '' },
           { devanagari: 'पुत्रा', iast: 'putrā', english: 'sons', grammar: 'nom. sg.' },
-          { devanagari: 'बलवन्तअ᳓¸¥', iast: 'balavantaḍ¥', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तः', iast: 'balavantaḥ', english: 'strong', grammar: 'nom. sg.' },
         ],
         translation: 'Pandu\'s many sons are strong.',
         vocabIds: [],
@@ -880,9 +880,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am41-82',
         words: [
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
         ],
         translation: 'Many warriors are sons of Pandu.',
         vocabIds: [],
@@ -892,9 +892,9 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'Many strong warriors are sons of Pandu.',
         vocabIds: [],
@@ -944,7 +944,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयस्य', iast: 'saṭjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयस्य', iast: 'saṃjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Nalini is the mother of Sanjaya.',
         vocabIds: [],
@@ -952,8 +952,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-5',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Sanjaya?',
         vocabIds: [],
@@ -961,8 +961,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-6',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is a boy.',
         vocabIds: [],
@@ -991,7 +991,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-9',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1011,7 +1011,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'कस्मान्', iast: 'kasmān', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1022,7 +1022,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-12',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'Nalini is sleepy.',
         vocabIds: [],
@@ -1064,7 +1064,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'कस्मान्', iast: 'kasmān', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'Why is Nalini sleepy?',
         vocabIds: [],
@@ -1075,7 +1075,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कस्मान्', iast: 'kasmān', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गता', iast: 'gatā', english: 'gone, has gone', grammar: '' },
         ],
         translation: 'Why hasn\'t Nalini gone to sleep?',
@@ -1086,7 +1086,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'पद्मायाअ᳓¸¥', iast: 'padmāyāḍ¥', english: 'from or of Padma', grammar: 'nom. sg.' },
+          { devanagari: 'पद्मायाः', iast: 'padmāyāḥ', english: 'from or of Padma', grammar: 'nom. sg.' },
         ],
         translation: 'Nalini is the mother of Padma.',
         vocabIds: [],
@@ -1104,7 +1104,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-20',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'शइशउअ᳓¸¥', iast: 'śiśuḍ¥', english: 'baby', grammar: 'nom. sg.' },
+          { devanagari: 'शिशुः', iast: 'śiśuḥ', english: 'baby', grammar: 'nom. sg.' },
         ],
         translation: 'Padma is a baby.',
         vocabIds: [],
@@ -1113,8 +1113,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-21',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'नलिन्याअ᳓¸¥', iast: 'nalinyāḍ¥', english: 'from or of Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'शइशउअ᳓¸¥', iast: 'śiśuḍ¥', english: 'baby', grammar: 'nom. sg.' },
+          { devanagari: 'नलिन्याः', iast: 'nalinyāḥ', english: 'from or of Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'शिशुः', iast: 'śiśuḥ', english: 'baby', grammar: 'nom. sg.' },
         ],
         translation: 'Padma is Nalini\'s baby.',
         vocabIds: [],
@@ -1122,7 +1122,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-22',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'सुखिनी', iast: 'sukhinī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -1143,7 +1143,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'शइशउअ᳓¸¥', iast: 'śiśuḍ¥', english: 'baby', grammar: 'nom. sg.' },
+          { devanagari: 'शिशुः', iast: 'śiśuḥ', english: 'baby', grammar: 'nom. sg.' },
         ],
         translation: 'Padma is a happy baby.',
         vocabIds: [],
@@ -1162,7 +1162,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'शइशओअ᳓¸¥', iast: 'śiśoḍ¥', english: 'from or of the baby', grammar: 'nom. sg.' },
+          { devanagari: 'शिशोः', iast: 'śiśoḥ', english: 'from or of the baby', grammar: 'nom. sg.' },
         ],
         translation: 'Nalini is the mother of a baby.',
         vocabIds: [],
@@ -1172,8 +1172,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'सुखिनअ᳓¸¥', iast: 'sukhinaḍ¥', english: 'from or of the happy', grammar: 'nom. sg.' },
-          { devanagari: 'शइशओअ᳓¸¥', iast: 'śiśoḍ¥', english: 'from or of the baby', grammar: 'nom. sg.' },
+          { devanagari: 'सुखिनः', iast: 'sukhinaḥ', english: 'from or of the happy', grammar: 'nom. sg.' },
+          { devanagari: 'शिशोः', iast: 'śiśoḥ', english: 'from or of the baby', grammar: 'nom. sg.' },
         ],
         translation: 'Nalini is the mother of a happy baby.',
         vocabIds: [],
@@ -1184,8 +1184,8 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'सुखिनी', iast: 'sukhinī', english: 'happy', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'सुखिनअ᳓¸¥', iast: 'sukhinaḍ¥', english: 'from or of the happy', grammar: 'nom. sg.' },
-          { devanagari: 'शइशओअ᳓¸¥', iast: 'śiśoḍ¥', english: 'from or of the baby', grammar: 'nom. sg.' },
+          { devanagari: 'सुखिनः', iast: 'sukhinaḥ', english: 'from or of the happy', grammar: 'nom. sg.' },
+          { devanagari: 'शिशोः', iast: 'śiśoḥ', english: 'from or of the baby', grammar: 'nom. sg.' },
         ],
         translation: 'Nalini is the happy mother of a happy baby.',
         vocabIds: [],
@@ -1207,8 +1207,8 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'निद्रालुर्', iast: 'nidrālur', english: 'sleepy', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'सुखिनअ᳓¸¥', iast: 'sukhinaḍ¥', english: 'from or of the happy', grammar: 'nom. sg.' },
-          { devanagari: 'शइशओअ᳓¸¥', iast: 'śiśoḍ¥', english: 'from or of the baby', grammar: 'nom. sg.' },
+          { devanagari: 'सुखिनः', iast: 'sukhinaḥ', english: 'from or of the happy', grammar: 'nom. sg.' },
+          { devanagari: 'शिशोः', iast: 'śiśoḥ', english: 'from or of the baby', grammar: 'nom. sg.' },
         ],
         translation: 'Nalini is the tired mother of a happy baby!',
         vocabIds: [],
@@ -1216,9 +1216,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-31',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
-          { devanagari: 'गतअ᳓¸¥', iast: 'gataḍ¥', english: 'gone', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
+          { devanagari: 'गतः', iast: 'gataḥ', english: 'gone', grammar: '' },
         ],
         translation: 'Sanjaya has gone to sleep.',
         vocabIds: [],
@@ -1235,7 +1235,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-33',
         words: [
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma, go to sleep.',
@@ -1244,9 +1244,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-34',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
@@ -1267,7 +1267,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-36',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1288,9 +1288,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-38',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'Is Padma sleepy?',
         vocabIds: [],
@@ -1298,9 +1298,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-39',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1312,7 +1312,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1335,7 +1335,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'शइशउअ᳓¸¥', iast: 'śiśuḍ¥', english: 'baby', grammar: 'nom. sg.' },
+          { devanagari: 'शिशुः', iast: 'śiśuḥ', english: 'baby', grammar: 'nom. sg.' },
         ],
         translation: 'Padma isn\'t a happy baby!',
         vocabIds: [],
@@ -1373,7 +1373,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-46',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1410,7 +1410,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1454,7 +1454,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'निद्रालुर्', iast: 'nidrālur', english: 'sleepy', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'शइशओअ᳓¸¥', iast: 'śiśoḍ¥', english: 'from or of the baby', grammar: 'nom. sg.' },
+          { devanagari: 'शिशोः', iast: 'śiśoḥ', english: 'from or of the baby', grammar: 'nom. sg.' },
         ],
         translation: 'Nalini is the sleepy mother of a baby.',
         vocabIds: [],
@@ -1463,7 +1463,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-54',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1476,7 +1476,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1488,8 +1488,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
-          { devanagari: 'शइशउअ᳓¸¥', iast: 'śiśuḍ¥', english: 'baby', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'शिशुः', iast: 'śiśuḥ', english: 'baby', grammar: 'nom. sg.' },
         ],
         translation: 'Padma isn\'t a sleepy baby.',
         vocabIds: [],
@@ -1520,7 +1520,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'Why isn\'t Padma sleepy?',
         vocabIds: [],
@@ -1531,7 +1531,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1592,7 +1592,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-66',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छेत्', iast: 'gacchet', english: 'might, could, or should go', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma might go to sleep.',
@@ -1603,7 +1603,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छेत्', iast: 'gacchet', english: 'might, could, or should go', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma might go to sleep after eating.',
@@ -1614,7 +1614,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
@@ -1625,8 +1625,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-69',
         words: [
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'खादितुम्', iast: 'khāditum', english: 'to eat', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
@@ -1636,10 +1636,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-70',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
@@ -1678,7 +1678,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-74',
         words: [
           { devanagari: 'शइशउर्', iast: 'śiśur', english: 'baby', grammar: 'nom. sg.' },
-          { devanagari: 'नलिन्याअ᳓¸¥', iast: 'nalinyāḍ¥', english: 'from or of Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'नलिन्याः', iast: 'nalinyāḥ', english: 'from or of Nalini', grammar: 'nom. sg.' },
           { devanagari: 'खादितुम्', iast: 'khāditum', english: 'to eat', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1699,7 +1699,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-76',
         words: [
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'खादितुम्', iast: 'khāditum', english: 'to eat', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
@@ -1756,7 +1756,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-82',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छेत्', iast: 'gacchet', english: 'might, could, or should go', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma might go to sleep.',
@@ -1767,7 +1767,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छेत्', iast: 'gacchet', english: 'might, could, or should go', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma might go to sleep after eating.',
@@ -1786,7 +1786,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-85',
         words: [
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'खादितवती', iast: 'khāditavatī', english: 'has eaten', grammar: '' },
         ],
         translation: 'Padma, you have eaten.',
@@ -1795,9 +1795,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-86',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
@@ -1807,10 +1807,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-87',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
@@ -1820,9 +1820,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-88',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Is Padma going to sleep?',
@@ -1831,10 +1831,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-89',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Is Padma going to sleep after eating?',
@@ -1855,7 +1855,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma isn\'t going to sleep.',
@@ -1876,7 +1876,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'But Padma isn\'t sleepy!',
         vocabIds: [],
@@ -1886,7 +1886,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -1909,9 +1909,9 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
@@ -1921,7 +1921,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-97',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
@@ -1945,7 +1945,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
@@ -1999,7 +1999,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गता', iast: 'gatā', english: 'gone, has gone', grammar: '' },
         ],
         translation: 'But Padma hasn\'t gone to sleep.',
@@ -2018,7 +2018,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-106',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -2028,9 +2028,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-107',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'शइशउअ᳓¸¥', iast: 'śiśuḍ¥', english: 'baby', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'शिशुः', iast: 'śiśuḥ', english: 'baby', grammar: 'nom. sg.' },
         ],
         translation: 'Is Sanjaya a baby?',
         vocabIds: [],
@@ -2038,9 +2038,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-108',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'शइशउअ᳓¸¥', iast: 'śiśuḍ¥', english: 'baby', grammar: 'nom. sg.' },
+          { devanagari: 'शिशुः', iast: 'śiśuḥ', english: 'baby', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is not a baby.',
         vocabIds: [],
@@ -2048,8 +2048,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-109',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is a boy.',
         vocabIds: [],
@@ -2057,9 +2057,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-110',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'बालो', iast: 'bālo', english: 'boy, child', grammar: 'nom. sg.' },
-          { devanagari: 'नलिन्याअ᳓¸¥', iast: 'nalinyāḍ¥', english: 'from or of Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'नलिन्याः', iast: 'nalinyāḥ', english: 'from or of Nalini', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is Nalini\'s child.',
         vocabIds: [],
@@ -2068,10 +2068,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-111',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'But Sanjaya is not a happy child.',
         vocabIds: [],
@@ -2079,9 +2079,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-112',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'निद्रालुर्', iast: 'nidrālur', english: 'sleepy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is a sleepy child.',
         vocabIds: [],
@@ -2089,8 +2089,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-113',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'नलिनीअ᳓꣡', iast: 'nalinīṭ', english: 'Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'नलिनीं', iast: 'nalinīṃ', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to Nalini.',
@@ -2099,9 +2099,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-114',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'नलिनीअ᳓꣡', iast: 'nalinīṭ', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'मातरअ᳓꣡', iast: 'mātaraṭ', english: 'mother', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'नलिनीं', iast: 'nalinīṃ', english: 'Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'मातरं', iast: 'mātaraṃ', english: 'mother', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to his mother Nalini.',
@@ -2120,7 +2120,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-116',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya!',
         vocabIds: [],
@@ -2128,9 +2128,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-117',
         words: [
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Go to sleep, Sanjaya.',
         vocabIds: [],
@@ -2138,7 +2138,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-118',
         words: [
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
         ],
         translation: 'Mother!',
         vocabIds: [],
@@ -2149,7 +2149,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'कस्मान्', iast: 'kasmān', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गता', iast: 'gatā', english: 'gone, has gone', grammar: '' },
         ],
         translation: 'Why hasn\'t Padma gone to sleep?',
@@ -2161,7 +2161,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'Why isn\'t Padma sleepy?',
         vocabIds: [],
@@ -2169,7 +2169,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-121',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -2179,8 +2179,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-122',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -2192,10 +2192,10 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Padma doesn\'t want to go to sleep, Sanjaya.',
         vocabIds: [],
@@ -2203,7 +2203,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-124',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'खादितुम्', iast: 'khāditum', english: 'to eat', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
@@ -2216,7 +2216,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
@@ -2249,7 +2249,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'But Padma isn\'t sleepy.',
         vocabIds: [],
@@ -2257,8 +2257,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-129',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'पद्माअ᳓꣡', iast: 'padmāṭ', english: 'Padma', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'पद्मां', iast: 'padmāṃ', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to Padma.',
@@ -2268,7 +2268,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-130',
         words: [
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'खादितवती', iast: 'khāditavatī', english: 'has eaten', grammar: '' },
         ],
         translation: 'Padma, you\'ve eaten.',
@@ -2278,7 +2278,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-131',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
@@ -2290,7 +2290,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-132',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
@@ -2311,7 +2311,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-134',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
@@ -2323,9 +2323,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-135',
         words: [
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma, do you want to play?',
@@ -2334,10 +2334,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-136',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Do you want to play after eating?',
@@ -2376,7 +2376,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-140',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma wants to play.',
@@ -2387,7 +2387,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma, after eating, wants to play.',
@@ -2396,7 +2396,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-142',
         words: [
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
         ],
         translation: 'Mother!',
         vocabIds: [],
@@ -2405,7 +2405,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-143',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma wants to play.',
@@ -2416,7 +2416,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतवती', iast: 'krīḍitavatī', english: 'has played', grammar: '' },
+          { devanagari: 'क्रीडितवती', iast: 'krīḍitavatī', english: 'has played', grammar: '' },
         ],
         translation: 'Padma hasn\'t played.',
         vocabIds: [],
@@ -2426,8 +2426,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इत्वा', iast: 'krīḍitvā', english: 'after playing', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'क्रीडित्वा', iast: 'krīḍitvā', english: 'after playing', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छेत्', iast: 'gacchet', english: 'might, could, or should go', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Padma might go to sleep after playing.',
@@ -2438,8 +2438,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इत्वा', iast: 'krīḍitvā', english: 'after playing', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'क्रीडित्वा', iast: 'krīḍitvā', english: 'after playing', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
@@ -2461,7 +2461,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini doesn\'t want to play.',
@@ -2473,7 +2473,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कस्मान्', iast: 'kasmān', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Why doesn\'t Nalini want to play?',
@@ -2483,8 +2483,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-150',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इत्वा', iast: 'krīḍitvā', english: 'after playing', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'क्रीडित्वा', iast: 'krīḍitvā', english: 'after playing', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
@@ -2497,7 +2497,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -2518,7 +2518,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-153',
         words: [
           { devanagari: 'नलिन्या', iast: 'nalinyā', english: 'by Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतव्यम्', iast: 'krīḍitavyam', english: 'should or must play', grammar: '' },
+          { devanagari: 'क्रीडितव्यम्', iast: 'krīḍitavyam', english: 'should or must play', grammar: '' },
         ],
         translation: 'Nalini must play!',
         vocabIds: [],
@@ -2526,7 +2526,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-154',
         words: [
-          { devanagari: 'क्रीअ᳓¸ामअ᳓¸¥', iast: 'krīḍāmaḍ¥', english: '(we all) play, are playing', grammar: '3rd sg. pres.' },
+          { devanagari: 'क्रीडामः', iast: 'krīḍāmaḥ', english: '(we all) play, are playing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Let\'s play.',
         vocabIds: [],
@@ -2534,8 +2534,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-155',
         words: [
-          { devanagari: 'क्रीअ᳓¸ामअ᳓¸¥', iast: 'krīḍāmaḍ¥', english: '(we all) play, are playing', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडामः', iast: 'krīḍāmaḥ', english: '(we all) play, are playing', grammar: '3rd sg. pres.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Let\'s play, Sanjaya!',
         vocabIds: [],
@@ -2543,7 +2543,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-156',
         words: [
-          { devanagari: 'क्रीअ᳓¸ामअ᳓¸¥', iast: 'krīḍāmaḍ¥', english: '(we all) play, are playing', grammar: '3rd sg. pres.' },
+          { devanagari: 'क्रीडामः', iast: 'krīḍāmaḥ', english: '(we all) play, are playing', grammar: '3rd sg. pres.' },
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
         ],
         translation: 'Let\'s play, Padma!',
@@ -2563,7 +2563,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-158',
         words: [
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जयम्', iast: 'saṭjayam', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयम्', iast: 'saṃjayam', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
         ],
         translation: 'Go to Sanjaya, Padma!',
@@ -2582,7 +2582,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-160',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma goes to Sanjaya.',
@@ -2621,7 +2621,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-164',
         words: [
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जयम्', iast: 'saṭjayam', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयम्', iast: 'saṃjayam', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Go to Sanjaya!',
         vocabIds: [],
@@ -2630,9 +2630,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-165',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'नलिनीअ᳓꣡', iast: 'nalinīṭ', english: 'Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'नलिनीं', iast: 'nalinīṃ', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma, after going to Nalini, goes to Sanjaya.',
@@ -2653,7 +2653,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
           { devanagari: 'नलिनीम्', iast: 'nalinīm', english: 'Nalini', grammar: 'nom. sg.' },
         ],
@@ -2674,10 +2674,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-169',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'मातरअ᳓꣡', iast: 'mātaraṭ', english: 'mother', grammar: '' },
+          { devanagari: 'मातरं', iast: 'mātaraṃ', english: 'mother', grammar: '' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जयम्', iast: 'saṭjayam', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयम्', iast: 'saṃjayam', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Padma, after going to her mother, goes to Sanjaya.',
         vocabIds: [],
@@ -2696,7 +2696,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतवती', iast: 'krīḍitavatī', english: 'has played', grammar: '' },
+          { devanagari: 'क्रीडितवती', iast: 'krīḍitavatī', english: 'has played', grammar: '' },
         ],
         translation: 'Padma has played after eating.',
         vocabIds: [],
@@ -2704,9 +2704,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-172',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'Is Padma sleepy?',
         vocabIds: [],
@@ -2714,10 +2714,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-173',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
-          { devanagari: 'शइशउअ᳓¸¥', iast: 'śiśuḍ¥', english: 'baby', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'शिशुः', iast: 'śiśuḥ', english: 'baby', grammar: 'nom. sg.' },
         ],
         translation: 'Is Padma a sleepy baby?',
         vocabIds: [],
@@ -2726,7 +2726,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-174',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'Padma is sleepy.',
         vocabIds: [],
@@ -2735,8 +2735,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-175',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
-          { devanagari: 'शइशउअ᳓¸¥', iast: 'śiśuḍ¥', english: 'baby', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'शिशुः', iast: 'śiśuḥ', english: 'baby', grammar: 'nom. sg.' },
         ],
         translation: 'Padma is a sleepy baby!',
         vocabIds: [],
@@ -2754,9 +2754,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-177',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is a happy boy.',
         vocabIds: [],
@@ -2765,7 +2765,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-178',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma is going to sleep.',
@@ -2774,9 +2774,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-179',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya, Padma is sleepy.',
         vocabIds: [],
@@ -2786,7 +2786,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
           { devanagari: 'निद्राम्', iast: 'nidrām', english: 'sleep', grammar: '' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Go to sleep, Sanjaya.',
         vocabIds: [],
@@ -2804,7 +2804,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-182',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is happy.',
@@ -2813,10 +2813,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-183',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
           { devanagari: 'निद्रालुर्', iast: 'nidrālur', english: 'sleepy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is a happy, sleepy boy.',
         vocabIds: [],
@@ -2824,8 +2824,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-184',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to sleep.',
@@ -2835,9 +2835,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-185',
         words: [
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
@@ -2847,9 +2847,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am42-186',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'Are you sleepy?',
         vocabIds: [],
@@ -2858,7 +2858,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-187',
         words: [
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma, go to sleep.',
@@ -2868,7 +2868,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-188',
         words: [
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'Mother is sleepy.',
         vocabIds: [],
@@ -2877,7 +2877,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-189',
         words: [
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -2908,7 +2908,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-192',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतवती', iast: 'krīḍitavatī', english: 'has played', grammar: '' },
+          { devanagari: 'क्रीडितवती', iast: 'krīḍitavatī', english: 'has played', grammar: '' },
         ],
         translation: 'Padma has played.',
         vocabIds: [],
@@ -2918,7 +2918,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma doesn\'t want to play.',
@@ -2928,7 +2928,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-194',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गता', iast: 'gatā', english: 'gone, has gone', grammar: '' },
         ],
         translation: 'Padma has gone to sleep.',
@@ -2939,8 +2939,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'खादित्वा', iast: 'khāditvā', english: 'after eating', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इत्वा', iast: 'krīḍitvā', english: 'after playing', grammar: '' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'क्रीडित्वा', iast: 'krīḍitvā', english: 'after playing', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गता', iast: 'gatā', english: 'gone, has gone', grammar: '' },
         ],
         translation: 'Padma, after eating and playing, has gone to sleep.',
@@ -2972,8 +2972,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'शइशउर्', iast: 'śiśur', english: 'baby', grammar: 'nom. sg.' },
           { devanagari: 'नलिन्या', iast: 'nalinyā', english: 'from or of Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
-          { devanagari: 'गतअ᳓¸¥', iast: 'gataḍ¥', english: 'gone', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
+          { devanagari: 'गतः', iast: 'gataḥ', english: 'gone', grammar: '' },
         ],
         translation: 'Nalini\'s baby has gone to sleep.',
         vocabIds: [],
@@ -2982,7 +2982,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am42-199',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'निद्राअ᳓꣡', iast: 'nidrāṭ', english: 'sleep', grammar: '' },
+          { devanagari: 'निद्रां', iast: 'nidrāṃ', english: 'sleep', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -3002,7 +3002,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'निद्रालुअ᳓¸¥', iast: 'nidrāluḍ¥', english: 'sleepy', grammar: 'nom. sg.' },
+          { devanagari: 'निद्रालुः', iast: 'nidrāluḥ', english: 'sleepy', grammar: 'nom. sg.' },
         ],
         translation: 'Nalini isn\'t sleepy!',
         vocabIds: [],
@@ -3044,7 +3044,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-1',
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Duryodhana a warrior.',
         vocabIds: [],
@@ -3063,7 +3063,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Duryodhana is a strong warrior.',
         vocabIds: [],
@@ -3073,7 +3073,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'बन्धुअ᳓¸¥', iast: 'bandhuḍ¥', english: 'relative', grammar: 'nom. sg.' },
+          { devanagari: 'बन्धुः', iast: 'bandhuḥ', english: 'relative', grammar: 'nom. sg.' },
         ],
         translation: 'Duryodhana is a strong relative.',
         vocabIds: [],
@@ -3093,7 +3093,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'बन्धुर्', iast: 'bandhur', english: 'relative', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
           { devanagari: 'योधानाम्', iast: 'yodhānām', english: 'of the warriors', grammar: 'nom. sg.' },
         ],
         translation: 'Duryodhana is a relative of many warriors.',
@@ -3104,8 +3104,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'बन्धुर्', iast: 'bandhur', english: 'relative', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'बलवताअ᳓꣡', iast: 'balavatāṭ', english: 'of (many) strong', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'बलवतां', iast: 'balavatāṃ', english: 'of (many) strong', grammar: 'nom. sg.' },
           { devanagari: 'योधानाम्', iast: 'yodhānām', english: 'of the warriors', grammar: 'nom. sg.' },
         ],
         translation: 'Duryodhana is a relative of many strong warriors.',
@@ -3115,7 +3115,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-8',
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is a warrior.',
         vocabIds: [],
@@ -3125,7 +3125,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधअ᳓¸¥', iast: 'yodhaḍ¥', english: 'warrior', grammar: 'nom. sg.' },
+          { devanagari: 'योधः', iast: 'yodhaḥ', english: 'warrior', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is a strong warrior.',
         vocabIds: [],
@@ -3154,7 +3154,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'अर्जुनस्य', iast: 'arjunasya', english: 'of Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
-          { devanagari: 'भ्रातरअ᳓¸¥', iast: 'bhrātaraḍ¥', english: 'brothers', grammar: '' },
+          { devanagari: 'भ्रातरः', iast: 'bhrātaraḥ', english: 'brothers', grammar: '' },
         ],
         translation: 'Arjuna has many brothers.',
         vocabIds: [],
@@ -3162,9 +3162,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-13',
         words: [
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरो', iast: 'yudhiṭ£ṭ­hiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरो', iast: 'yudhiṣṭhiro', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'भीमो', iast: 'bhīmo', english: 'Bhima', grammar: 'nom. sg.' },
-          { devanagari: 'नकुलअ᳓¸¥', iast: 'nakulaḍ¥', english: 'Nakula', grammar: 'nom. sg.' },
+          { devanagari: 'नकुलः', iast: 'nakulaḥ', english: 'Nakula', grammar: 'nom. sg.' },
           { devanagari: 'सहदेवश', iast: 'sahadevaś', english: 'Sahadeva', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'भ्रातरो', iast: 'bhrātaro', english: 'brothers', grammar: '' },
@@ -3179,7 +3179,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'अर्जुनस्य', iast: 'arjunasya', english: 'of Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'भ्रातरअ᳓¸¥', iast: 'bhrātaraḍ¥', english: 'brothers', grammar: '' },
+          { devanagari: 'भ्रातरः', iast: 'bhrātaraḥ', english: 'brothers', grammar: '' },
         ],
         translation: 'Arjuna has many strong brothers.',
         vocabIds: [],
@@ -3190,7 +3190,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
           { devanagari: 'भ्रातरो', iast: 'bhrātaro', english: 'brothers', grammar: '' },
           { devanagari: 'ऽर्जुनस्य', iast: '\'rjunasya', english: 'of Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'बलवन्तअ᳓¸¥', iast: 'balavantaḍ¥', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तः', iast: 'balavantaḥ', english: 'strong', grammar: 'nom. sg.' },
         ],
         translation: 'All of Arjuna\'s brothers are strong.',
         vocabIds: [],
@@ -3201,7 +3201,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
           { devanagari: 'भ्रातरो', iast: 'bhrātaro', english: 'brothers', grammar: '' },
           { devanagari: 'ऽर्जुनस्य', iast: '\'rjunasya', english: 'of Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
         ],
         translation: 'All of Arjuna\'s brothers are warriors.',
         vocabIds: [],
@@ -3213,7 +3213,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'भ्रातरो', iast: 'bhrātaro', english: 'brothers', grammar: '' },
           { devanagari: 'ऽर्जुनस्य', iast: '\'rjunasya', english: 'of Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
         ],
         translation: 'All of Arjuna\'s brothers are strong warriors.',
         vocabIds: [],
@@ -3243,8 +3243,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-20',
         words: [
-          { devanagari: 'अर्जुनअ᳓¸¥', iast: 'arjunaḍ¥', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'अर्जुनः', iast: 'arjunaḥ', english: 'Arjuna', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Arjuna?',
         vocabIds: [],
@@ -3254,7 +3254,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'दुर्योधनस्य', iast: 'duryodhanasya', english: 'of Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'बन्धुअ᳓¸¥', iast: 'bandhuḍ¥', english: 'relative', grammar: 'nom. sg.' },
+          { devanagari: 'बन्धुः', iast: 'bandhuḥ', english: 'relative', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is Duryodhana\'s relative.',
         vocabIds: [],
@@ -3265,7 +3265,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'बन्धुर्', iast: 'bandhur', english: 'relative', grammar: 'nom. sg.' },
           { devanagari: 'अर्जुनस्य', iast: 'arjunasya', english: 'of Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरस्य', iast: 'yudhiṭ£ṭ­hirasya', english: 'of Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरस्य', iast: 'yudhiṣṭhirasya', english: 'of Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'भीमस्य', iast: 'bhīmasya', english: 'of Bhima', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
         ],
@@ -3288,9 +3288,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-24',
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'बन्धुअ᳓¸¥', iast: 'bandhuḍ¥', english: 'relative', grammar: 'nom. sg.' },
-          { devanagari: 'सर्वेअ᳓꣡£ाअ᳓꣡', iast: 'sarveṭ£āṭ', english: 'of all', grammar: '' },
-          { devanagari: 'भ्रात᳓꣡अ᳓꣡ाम्', iast: 'bhrātṭṭām', english: 'of the brothers', grammar: '' },
+          { devanagari: 'बन्धुः', iast: 'bandhuḥ', english: 'relative', grammar: 'nom. sg.' },
+          { devanagari: 'सर्वेषां', iast: 'sarveṣāṃ', english: 'of all', grammar: '' },
+          { devanagari: 'भ्रातॄणाम्', iast: 'bhrātṝṇām', english: 'of the brothers', grammar: '' },
           { devanagari: 'अर्जुनस्य', iast: 'arjunasya', english: 'of Arjuna', grammar: 'nom. sg.' },
         ],
         translation: 'Duryodhana is the relative of all the brothers of Arjuna.',
@@ -3301,8 +3301,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'बन्धुर्', iast: 'bandhur', english: 'relative', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'बलवताअ᳓꣡', iast: 'balavatāṭ', english: 'of (many) strong', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'बलवतां', iast: 'balavatāṃ', english: 'of (many) strong', grammar: 'nom. sg.' },
           { devanagari: 'योधानाम्', iast: 'yodhānām', english: 'of the warriors', grammar: 'nom. sg.' },
         ],
         translation: 'Duryodhana is the relative of many strong warriors.',
@@ -3311,7 +3311,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-26',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'दुर्योधनस्य', iast: 'duryodhanasya', english: 'of Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
         ],
@@ -3332,7 +3332,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'दुर्योधनस्य', iast: 'duryodhanasya', english: 'of Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
-          { devanagari: 'भ्रातरअ᳓¸¥', iast: 'bhrātaraḍ¥', english: 'brothers', grammar: '' },
+          { devanagari: 'भ्रातरः', iast: 'bhrātaraḥ', english: 'brothers', grammar: '' },
         ],
         translation: 'Duryodhana has many brothers.',
         vocabIds: [],
@@ -3340,11 +3340,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-29',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
           { devanagari: 'भ्रातरो', iast: 'bhrātaro', english: 'brothers', grammar: '' },
           { devanagari: 'दुर्योधनस्य', iast: 'duryodhanasya', english: 'of Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
         ],
         translation: 'Are all the brothers of Duryodhana warriors?',
         vocabIds: [],
@@ -3355,7 +3355,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
           { devanagari: 'भ्रातरो', iast: 'bhrātaro', english: 'brothers', grammar: '' },
           { devanagari: 'दुर्योधनस्य', iast: 'duryodhanasya', english: 'of Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
         ],
         translation: 'All the brothers of Duryodhana are warriors.',
         vocabIds: [],
@@ -3366,7 +3366,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
           { devanagari: 'भ्रातरो', iast: 'bhrātaro', english: 'brothers', grammar: '' },
           { devanagari: 'दुर्योधनस्य', iast: 'duryodhanasya', english: 'of Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'बलवन्तअ᳓¸¥', iast: 'balavantaḍ¥', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तः', iast: 'balavantaḥ', english: 'strong', grammar: 'nom. sg.' },
         ],
         translation: 'All the brothers of Duryodhana are strong.',
         vocabIds: [],
@@ -3378,7 +3378,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'भ्रातरो', iast: 'bhrātaro', english: 'brothers', grammar: '' },
           { devanagari: 'दुर्योधनस्य', iast: 'duryodhanasya', english: 'of Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
         ],
         translation: 'All the brothers of Duryodhana are strong warriors.',
         vocabIds: [],
@@ -3387,7 +3387,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-33',
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
         ],
         translation: 'Duryodhana is the brother of many.',
@@ -3397,8 +3397,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-34',
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'योधानाअ᳓꣡', iast: 'yodhānāṭ', english: 'of the warriors', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'योधानां', iast: 'yodhānāṃ', english: 'of the warriors', grammar: 'nom. sg.' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
         ],
         translation: 'Duryodhana is the brother of many warriors.',
@@ -3408,9 +3408,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-35',
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'बलवताअ᳓꣡', iast: 'balavatāṭ', english: 'of (many) strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधानाअ᳓꣡', iast: 'yodhānāṭ', english: 'of the warriors', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'बलवतां', iast: 'balavatāṃ', english: 'of (many) strong', grammar: 'nom. sg.' },
+          { devanagari: 'योधानां', iast: 'yodhānāṃ', english: 'of the warriors', grammar: 'nom. sg.' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
         ],
         translation: 'Duryodhana is the brother of many strong warriors.',
@@ -3420,8 +3420,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-36',
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रस्य', iast: 'dhṭtarāṭ£ṭ­rasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रस्य', iast: 'dhṛtarāṣṭrasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Duryodhana is Dhritrashtra\'s son.',
         vocabIds: [],
@@ -3429,8 +3429,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-37',
         words: [
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रअ᳓¸¥', iast: 'dhṭtarāṭ£ṭ­raḍ¥', english: 'Dhritarashtra', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रः', iast: 'dhṛtarāṣṭraḥ', english: 'Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Dhritarashtra?',
         vocabIds: [],
@@ -3438,7 +3438,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-38',
         words: [
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रो', iast: 'dhṭtarāṭ£ṭ­ro', english: 'Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रो', iast: 'dhṛtarāṣṭro', english: 'Dhritarashtra', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
         ],
         translation: 'Dhritarashtra is a king.',
@@ -3447,9 +3447,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-39',
         words: [
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रस्य', iast: 'dhṭtarāṭ£ṭ­rasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
-          { devanagari: 'बहवअ᳓¸¥', iast: 'bahavaḍ¥', english: 'many', grammar: '' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रस्य', iast: 'dhṛtarāṣṭrasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'बहवः', iast: 'bahavaḥ', english: 'many', grammar: '' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'Dhritarashtra has many sons.',
         vocabIds: [],
@@ -3457,10 +3457,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-40',
         words: [
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रस्य', iast: 'dhṭtarāṭ£ṭ­rasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रस्य', iast: 'dhṛtarāṣṭrasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
           { devanagari: 'बहवो', iast: 'bahavo', english: 'many', grammar: '' },
-          { devanagari: 'बलवन्तअ᳓¸¥', iast: 'balavantaḍ¥', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तः', iast: 'balavantaḥ', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'Dhritarashtra has many strong sons.',
         vocabIds: [],
@@ -3469,7 +3469,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-41',
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'राज­पुत्रअ᳓¸¥', iast: 'rāja­putraḍ¥', english: '', grammar: '' },
+          { devanagari: 'राजपुत्रः', iast: 'rājaputraḥ', english: '', grammar: '' },
         ],
         translation: 'Duryodhana is a prince.',
         vocabIds: [],
@@ -3479,7 +3479,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'राज­पुत्रअ᳓¸¥', iast: 'rāja­putraḍ¥', english: '', grammar: '' },
+          { devanagari: 'राजपुत्रः', iast: 'rājaputraḥ', english: '', grammar: '' },
         ],
         translation: 'Duryodhana is a strong prince.',
         vocabIds: [],
@@ -3489,8 +3489,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'राज­पुत्राअ᳓꣡ाम्', iast: 'rāja­putrāṭām', english: '', grammar: '' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'राजपुत्राणाम्', iast: 'rājaputrāṇām', english: '', grammar: '' },
         ],
         translation: 'Duryodhana is the brother of many princes.',
         vocabIds: [],
@@ -3499,8 +3499,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-44',
         words: [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
-          { devanagari: 'राज­पुत्रा', iast: 'rāja­putrā', english: '', grammar: '' },
-          { devanagari: 'बलवन्तअ᳓¸¥', iast: 'balavantaḍ¥', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'राजपुत्रा', iast: 'rājaputrā', english: '', grammar: '' },
+          { devanagari: 'बलवन्तः', iast: 'balavantaḥ', english: 'strong', grammar: 'nom. sg.' },
         ],
         translation: 'All the princes are strong.',
         vocabIds: [],
@@ -3509,9 +3509,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-45',
         words: [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
-          { devanagari: 'राज­पुत्रा', iast: 'rāja­putrā', english: '', grammar: '' },
+          { devanagari: 'राजपुत्रा', iast: 'rājaputrā', english: '', grammar: '' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
         ],
         translation: 'All the princes are strong warriors.',
         vocabIds: [],
@@ -3519,9 +3519,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-46',
         words: [
-          { devanagari: 'दुर्योधनअ᳓¸¥', iast: 'duryodhanaḍ¥', english: 'Duryodhana', grammar: 'nom. sg.' },
+          { devanagari: 'दुर्योधनः', iast: 'duryodhanaḥ', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'पुत्रो', iast: 'putro', english: 'son', grammar: 'nom. sg.' },
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रस्य', iast: 'dhṭtarāṭ£ṭ­rasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रस्य', iast: 'dhṛtarāṣṭrasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
         ],
         translation: 'Duryodhana is the son of Dhritarashtra.',
         vocabIds: [],
@@ -3529,9 +3529,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-47',
         words: [
-          { devanagari: 'दुर्योधनअ᳓¸¥', iast: 'duryodhanaḍ¥', english: 'Duryodhana', grammar: 'nom. sg.' },
+          { devanagari: 'दुर्योधनः', iast: 'duryodhanaḥ', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'पुत्रो', iast: 'putro', english: 'son', grammar: 'nom. sg.' },
-          { devanagari: 'गान्धार्याअ᳓¸¥', iast: 'gāndhāryāḍ¥', english: 'from or of Gandhari', grammar: 'nom. sg.' },
+          { devanagari: 'गान्धार्याः', iast: 'gāndhāryāḥ', english: 'from or of Gandhari', grammar: 'nom. sg.' },
         ],
         translation: 'Duryodhana is the son of Gandhari.',
         vocabIds: [],
@@ -3548,7 +3548,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-49',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'गान्धारी', iast: 'gāndhārī', english: 'Gandhari (wife of King Dhritarashtra)', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
         ],
@@ -3578,7 +3578,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-52',
         words: [
           { devanagari: 'गान्धारी', iast: 'gāndhārī', english: 'Gandhari (wife of King Dhritarashtra)', grammar: 'nom. sg.' },
-          { devanagari: 'राज­पत्नी', iast: 'rāja­patnī', english: '', grammar: '' },
+          { devanagari: 'राजपत्नी', iast: 'rājapatnī', english: '', grammar: '' },
         ],
         translation: 'Gandhari is a royal wife.',
         vocabIds: [],
@@ -3587,7 +3587,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-53',
         words: [
           { devanagari: 'गान्धारी', iast: 'gāndhārī', english: 'Gandhari (wife of King Dhritarashtra)', grammar: 'nom. sg.' },
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रस्य', iast: 'dhṭtarāṭ£ṭ­rasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रस्य', iast: 'dhṛtarāṣṭrasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
           { devanagari: 'पत्नी', iast: 'patnī', english: 'wife', grammar: 'nom. sg.' },
         ],
         translation: 'Gandhari is Dhritarashtra\'s wife.',
@@ -3596,10 +3596,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-54',
         words: [
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रश', iast: 'dhṭtarāṭ£ṭ­raś', english: 'Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रश्', iast: 'dhṛtarāṣṭraś', english: 'Dhritarashtra', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'पतिर्', iast: 'patir', english: 'lord, husband', grammar: '' },
-          { devanagari: 'गान्धार्याअ᳓¸¥', iast: 'gāndhāryāḍ¥', english: 'from or of Gandhari', grammar: 'nom. sg.' },
+          { devanagari: 'गान्धार्याः', iast: 'gāndhāryāḥ', english: 'from or of Gandhari', grammar: 'nom. sg.' },
         ],
         translation: 'And Dhritarashtra is the husband of Gandhari.',
         vocabIds: [],
@@ -3608,8 +3608,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-55',
         words: [
           { devanagari: 'गान्धार्या', iast: 'gāndhāryā', english: 'from or of Gandhari', grammar: 'nom. sg.' },
-          { devanagari: 'बहवअ᳓¸¥', iast: 'bahavaḍ¥', english: 'many', grammar: '' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'बहवः', iast: 'bahavaḥ', english: 'many', grammar: '' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'Gandhari has many sons.',
         vocabIds: [],
@@ -3621,7 +3621,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'पुत्रा', iast: 'putrā', english: 'sons', grammar: 'nom. sg.' },
           { devanagari: 'गान्धार्या', iast: 'gāndhāryā', english: 'from or of Gandhari', grammar: 'nom. sg.' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
         ],
         translation: 'All the sons of Gandhari are strong warriors.',
         vocabIds: [],
@@ -3633,7 +3633,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'पुत्रा', iast: 'putrā', english: 'sons', grammar: 'nom. sg.' },
           { devanagari: 'गान्धार्या', iast: 'gāndhāryā', english: 'from or of Gandhari', grammar: 'nom. sg.' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'राज­पुत्राअ᳓¸¥', iast: 'rāja­putrāḍ¥', english: '', grammar: '' },
+          { devanagari: 'राजपुत्राः', iast: 'rājaputrāḥ', english: '', grammar: '' },
         ],
         translation: 'All the sons of Gandhari are strong princes.',
         vocabIds: [],
@@ -3643,8 +3643,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'गान्धार्याअ᳓¸¥', iast: 'gāndhāryāḍ¥', english: 'from or of Gandhari', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'गान्धार्याः', iast: 'gāndhāryāḥ', english: 'from or of Gandhari', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Is Arjuna Gandhari\'s son?',
         vocabIds: [],
@@ -3655,7 +3655,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पुत्रो', iast: 'putro', english: 'son', grammar: 'nom. sg.' },
-          { devanagari: 'गान्धार्याअ᳓¸¥', iast: 'gāndhāryāḍ¥', english: 'from or of Gandhari', grammar: 'nom. sg.' },
+          { devanagari: 'गान्धार्याः', iast: 'gāndhāryāḥ', english: 'from or of Gandhari', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is not Gandhari\'s son.',
         vocabIds: [],
@@ -3663,9 +3663,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-60',
         words: [
-          { devanagari: 'अर्जुनअ᳓¸¥', iast: 'arjunaḍ¥', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'कस्याअ᳓¸¥', iast: 'kasyāḍ¥', english: 'from or of whom/what?', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'अर्जुनः', iast: 'arjunaḥ', english: 'Arjuna', grammar: 'nom. sg.' },
+          { devanagari: 'कस्याः', iast: 'kasyāḥ', english: 'from or of whom/what?', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Whose son is Arjuna?',
         vocabIds: [],
@@ -3673,9 +3673,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-61',
         words: [
-          { devanagari: 'अर्जुनअ᳓¸¥', iast: 'arjunaḍ¥', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'कुन्त्याअ᳓¸¥', iast: 'kuntyāḍ¥', english: 'from or of Kunti', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'अर्जुनः', iast: 'arjunaḥ', english: 'Arjuna', grammar: 'nom. sg.' },
+          { devanagari: 'कुन्त्याः', iast: 'kuntyāḥ', english: 'from or of Kunti', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is Kunti\'s son.',
         vocabIds: [],
@@ -3685,8 +3685,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रस्य', iast: 'dhṭtarāṭ£ṭ­rasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रस्य', iast: 'dhṛtarāṣṭrasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Is Arjuna Dhritarashtra\'s son?',
         vocabIds: [],
@@ -3697,7 +3697,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'अर्जुनो', iast: 'arjuno', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पुत्रो', iast: 'putro', english: 'son', grammar: 'nom. sg.' },
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रस्य', iast: 'dhṭtarāṭ£ṭ­rasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रस्य', iast: 'dhṛtarāṣṭrasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is not the son of Dhritarashtra.',
         vocabIds: [],
@@ -3705,9 +3705,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-64',
         words: [
-          { devanagari: 'अर्जुनअ᳓¸¥', iast: 'arjunaḍ¥', english: 'Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'अर्जुनः', iast: 'arjunaḥ', english: 'Arjuna', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
         ],
         translation: 'Arjuna is the son of Pandu.',
         vocabIds: [],
@@ -3718,8 +3718,8 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
           { devanagari: 'भ्रातरो', iast: 'bhrātaro', english: 'brothers', grammar: '' },
           { devanagari: 'ऽर्जुनस्य', iast: '\'rjunasya', english: 'of Arjuna', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओअ᳓¸¥', iast: 'pāṭḍoḍ¥', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोः', iast: 'pāṇḍoḥ', english: 'from or of Pandu', grammar: 'nom. sg.' },
         ],
         translation: 'All the brothers of Arjuna are sons of Pandu.',
         vocabIds: [],
@@ -3727,8 +3727,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-66',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸उअ᳓¸¥', iast: 'pāṭḍuḍ¥', english: 'Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डुः', iast: 'pāṇḍuḥ', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Pandu?',
         vocabIds: [],
@@ -3736,8 +3736,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-67',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸उर्', iast: 'pāṭḍur', english: 'Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रस्य', iast: 'dhṭtarāṭ£ṭ­rasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डुर्', iast: 'pāṇḍur', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रस्य', iast: 'dhṛtarāṣṭrasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
         ],
         translation: 'Pandu is Dhritarashtra\'s brother.',
@@ -3746,7 +3746,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-68',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸ू', iast: 'pāṭḍū', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डू', iast: 'pāṇḍū', english: 'Pandu', grammar: 'nom. sg.' },
           { devanagari: 'राज्ञओ', iast: 'rājño', english: 'from or of the king', grammar: '' },
           { devanagari: 'भ्राता', iast: 'bhrātā', english: 'brother', grammar: '' },
         ],
@@ -3756,8 +3756,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-69',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸ू', iast: 'pāṭḍū', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डू', iast: 'pāṇḍū', english: 'Pandu', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
         ],
         translation: 'Is Pandu a king?',
@@ -3766,7 +3766,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-70',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸उर्', iast: 'pāṭḍur', english: 'Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डुर्', iast: 'pāṇḍur', english: 'Pandu', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
         ],
@@ -3776,9 +3776,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-71',
         words: [
-          { devanagari: 'पाअ᳓꣡अ᳓¸ओर्', iast: 'pāṭḍor', english: 'from or of Pandu', grammar: 'nom. sg.' },
-          { devanagari: 'बहवअ᳓¸¥', iast: 'bahavaḍ¥', english: 'many', grammar: '' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डोर्', iast: 'pāṇḍor', english: 'from or of Pandu', grammar: 'nom. sg.' },
+          { devanagari: 'बहवः', iast: 'bahavaḥ', english: 'many', grammar: '' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'Pandu has many sons.',
         vocabIds: [],
@@ -3786,10 +3786,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-72',
         words: [
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­रस्य', iast: 'dhṭtarāṭ£ṭ­rasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
+          { devanagari: 'धृतराष्ट्रस्य', iast: 'dhṛtarāṣṭrasya', english: 'of Dhritarashtra', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'बहवअ᳓¸¥', iast: 'bahavaḍ¥', english: 'many', grammar: '' },
-          { devanagari: 'पुत्राअ᳓¸¥', iast: 'putrāḍ¥', english: 'sons', grammar: 'nom. sg.' },
+          { devanagari: 'बहवः', iast: 'bahavaḥ', english: 'many', grammar: '' },
+          { devanagari: 'पुत्राः', iast: 'putrāḥ', english: 'sons', grammar: 'nom. sg.' },
         ],
         translation: 'And Dhritarashtra has many sons.',
         vocabIds: [],
@@ -3798,9 +3798,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-73',
         words: [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸उ­पुत्रा', iast: 'pāṭḍu­putrā', english: '', grammar: '' },
+          { devanagari: 'पाण्डुपुत्रा', iast: 'pāṇḍuputrā', english: '', grammar: '' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
         ],
         translation: 'All the sons of Pandu are strong warriors.',
         vocabIds: [],
@@ -3810,9 +3810,9 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­र­पुत्रा', iast: 'dhṭtarāṭ£ṭ­ra­putrā', english: '', grammar: '' },
+          { devanagari: 'धृतराष्ट्रपुत्रा', iast: 'dhṛtarāṣṭraputrā', english: '', grammar: '' },
           { devanagari: 'बलवन्तो', iast: 'balavanto', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'योधाअ᳓¸¥', iast: 'yodhāḍ¥', english: 'warriors', grammar: 'nom. sg.' },
+          { devanagari: 'योधाः', iast: 'yodhāḥ', english: 'warriors', grammar: 'nom. sg.' },
         ],
         translation: 'And all the sons of Dhritarashtra are strong warriors.',
         vocabIds: [],
@@ -3830,7 +3830,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-76',
         words: [
-          { devanagari: 'दुर्योधनअ᳓¸¥', iast: 'duryodhanaḍ¥', english: 'Duryodhana', grammar: 'nom. sg.' },
+          { devanagari: 'दुर्योधनः', iast: 'duryodhanaḥ', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -3882,8 +3882,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-81',
         words: [
-          { devanagari: 'दुर्योधनअ᳓¸¥', iast: 'duryodhanaḍ¥', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓꣡', iast: 'kaṭ', english: 'whom?', grammar: 'nom. sg.' },
+          { devanagari: 'दुर्योधनः', iast: 'duryodhanaḥ', english: 'Duryodhana', grammar: 'nom. sg.' },
+          { devanagari: 'कं', iast: 'kaṃ', english: 'whom?', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -3894,7 +3894,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-82',
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरअ᳓꣡', iast: 'yudhiṭ£ṭ­hiraṭ', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरं', iast: 'yudhiṣṭhiraṃ', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -3905,7 +3905,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-83',
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'भीमअ᳓꣡', iast: 'bhīmaṭ', english: 'Bhima', grammar: 'nom. sg.' },
+          { devanagari: 'भीमं', iast: 'bhīmaṃ', english: 'Bhima', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -3915,9 +3915,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-84',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'ऽर्जुनअ᳓꣡', iast: '\'rjunaá¹', english: 'Arjuna', grammar: 'nom. sg.' },
+          { devanagari: 'ऽर्जुनं', iast: '\'rjunaṃ', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -3928,7 +3928,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-85',
         words: [
           { devanagari: 'दुर्योधनो', iast: 'duryodhano', english: 'Duryodhana', grammar: 'nom. sg.' },
-          { devanagari: 'ऽर्जुनअ᳓꣡', iast: '\'rjunaá¹', english: 'Arjuna', grammar: 'nom. sg.' },
+          { devanagari: 'ऽर्जुनं', iast: '\'rjunaṃ', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -3938,9 +3938,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-86',
         words: [
-          { devanagari: 'दुर्योधनअ᳓¸¥', iast: 'duryodhanaḍ¥', english: 'Duryodhana', grammar: 'nom. sg.' },
+          { devanagari: 'दुर्योधनः', iast: 'duryodhanaḥ', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'सर्वान्', iast: 'sarvān', english: 'all', grammar: '' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸उ­पुत्रान्', iast: 'pāṭḍu­putrān', english: '', grammar: '' },
+          { devanagari: 'पाण्डुपुत्रान्', iast: 'pāṇḍuputrān', english: '', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
         ],
@@ -4017,7 +4017,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छन्ति', iast: 'icchanti', english: '(they all) want', grammar: '3rd sg. pres.' },
           { devanagari: 'सर्वान्', iast: 'sarvān', english: 'all', grammar: '' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸उ­पुत्रान्', iast: 'pāṭḍu­putrān', english: '', grammar: '' },
+          { devanagari: 'पाण्डुपुत्रान्', iast: 'pāṇḍuputrān', english: '', grammar: '' },
         ],
         translation: 'All the brothers of Duryodhana want to kill all the sons of Pandu.',
         vocabIds: [],
@@ -4025,7 +4025,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am43-93',
         words: [
-          { devanagari: 'युधिअ᳓꣡£अ᳓꣡­हिरअ᳓¸¥', iast: 'yudhiṭ£ṭ­hiraḍ¥', english: 'Yudhishthira', grammar: 'nom. sg.' },
+          { devanagari: 'युधिष्ठिरः', iast: 'yudhiṣṭhiraḥ', english: 'Yudhishthira', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -4036,10 +4036,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-94',
         words: [
           { devanagari: 'भीमो', iast: 'bhīmo', english: 'Bhima', grammar: 'nom. sg.' },
-          { devanagari: 'ऽर्जुनश', iast: '\'rjunaÅ', english: 'Arjuna', grammar: 'nom. sg.' },
+          { devanagari: 'ऽर्जुनश', iast: '\'rjunaś', english: 'Arjuna', grammar: 'nom. sg.' },
           { devanagari: 'च', iast: 'ca', english: 'and', grammar: '' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'इच्छतअ᳓¸¥', iast: 'icchataḍ¥', english: '(both of them) want', grammar: '3rd sg. pres.' },
+          { devanagari: 'इच्छतः', iast: 'icchataḥ', english: '(both of them) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'What do Bhima and Arjuna want?',
         vocabIds: [],
@@ -4048,7 +4048,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-95',
         words: [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸उ­पुत्राअ᳓¸¥', iast: 'pāṭḍu­putrāḍ¥', english: '', grammar: '' },
+          { devanagari: 'पाण्डुपुत्राः', iast: 'pāṇḍuputrāḥ', english: '', grammar: '' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छन्ति', iast: 'icchanti', english: '(they all) want', grammar: '3rd sg. pres.' },
         ],
@@ -4059,7 +4059,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-96',
         words: [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸उ­पुत्रा', iast: 'pāṭḍu­putrā', english: '', grammar: '' },
+          { devanagari: 'पाण्डुपुत्रा', iast: 'pāṇḍuputrā', english: '', grammar: '' },
           { devanagari: 'योद्धुम्', iast: 'yoddhum', english: 'to fight', grammar: '' },
           { devanagari: 'इच्छन्ति', iast: 'icchanti', english: '(they all) want', grammar: '3rd sg. pres.' },
         ],
@@ -4070,7 +4070,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-97',
         words: [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸उ­पुत्रा', iast: 'pāṭḍu­putrā', english: '', grammar: '' },
+          { devanagari: 'पाण्डुपुत्रा', iast: 'pāṇḍuputrā', english: '', grammar: '' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छन्ति', iast: 'icchanti', english: '(they all) want', grammar: '3rd sg. pres.' },
         ],
@@ -4081,8 +4081,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-98',
         words: [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸उ­पुत्रा', iast: 'pāṭḍu­putrā', english: '', grammar: '' },
-          { devanagari: 'दुर्योधनअ᳓꣡', iast: 'duryodhanaṭ', english: 'Duryodhana', grammar: 'nom. sg.' },
+          { devanagari: 'पाण्डुपुत्रा', iast: 'pāṇḍuputrā', english: '', grammar: '' },
+          { devanagari: 'दुर्योधनं', iast: 'duryodhanaṃ', english: 'Duryodhana', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छन्ति', iast: 'icchanti', english: '(they all) want', grammar: '3rd sg. pres.' },
         ],
@@ -4093,9 +4093,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-99',
         words: [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸उ­पुत्राअ᳓¸¥', iast: 'pāṭḍu­putrāḍ¥', english: '', grammar: '' },
+          { devanagari: 'पाण्डुपुत्राः', iast: 'pāṇḍuputrāḥ', english: '', grammar: '' },
           { devanagari: 'सर्वान्', iast: 'sarvān', english: 'all', grammar: '' },
-          { devanagari: 'ध᳓꣡तराअ᳓꣡£अ᳓꣡­र­पुत्रान्', iast: 'dhṭtarāṭ£ṭ­ra­putrān', english: '', grammar: '' },
+          { devanagari: 'धृतराष्ट्रपुत्रान्', iast: 'dhṛtarāṣṭraputrān', english: '', grammar: '' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छन्ति', iast: 'icchanti', english: '(they all) want', grammar: '3rd sg. pres.' },
         ],
@@ -4106,7 +4106,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am43-100',
         words: [
           { devanagari: 'सर्वे', iast: 'sarve', english: 'all', grammar: '' },
-          { devanagari: 'पाअ᳓꣡अ᳓¸उ­पुत्रा', iast: 'pāṭḍu­putrā', english: '', grammar: '' },
+          { devanagari: 'पाण्डुपुत्रा', iast: 'pāṇḍuputrā', english: '', grammar: '' },
           { devanagari: 'बहून्', iast: 'bahūn', english: 'many', grammar: '' },
           { devanagari: 'बन्धून्', iast: 'bandhūn', english: 'relatives', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
@@ -4139,7 +4139,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-2',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'लुम्बिनी', iast: 'lumbinī', english: 'Lumbini', grammar: 'nom. sg.' },
           { devanagari: 'सुन्दरी', iast: 'sundarī', english: 'beautiful', grammar: 'nom. sg.' },
         ],
@@ -4149,9 +4149,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-3',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'लुम्बिनी', iast: 'lumbinī', english: 'Lumbini', grammar: 'nom. sg.' },
-          { devanagari: 'सुन्दरअ᳓꣡', iast: 'sundaraṭ', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'सुन्दरं', iast: 'sundaraṃ', english: 'beautiful, handsome', grammar: '' },
           { devanagari: 'वनम्', iast: 'vanam', english: 'forest', grammar: 'nom. sg.' },
         ],
         translation: 'Is Lumbini a beautiful forest?',
@@ -4161,7 +4161,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-4',
         words: [
           { devanagari: 'लुम्बिनी', iast: 'lumbinī', english: 'Lumbini', grammar: 'nom. sg.' },
-          { devanagari: 'सुन्दरअ᳓꣡', iast: 'sundaraṭ', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'सुन्दरं', iast: 'sundaraṃ', english: 'beautiful, handsome', grammar: '' },
           { devanagari: 'वनम्', iast: 'vanam', english: 'forest', grammar: 'nom. sg.' },
         ],
         translation: 'Lumbini is a beautiful forest.',
@@ -4170,7 +4170,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-5',
         words: [
-          { devanagari: 'सिद्धार्थअ᳓¸¥', iast: 'siddhārthaḍ¥', english: 'Siddhartha', grammar: 'nom. sg.' },
+          { devanagari: 'सिद्धार्थः', iast: 'siddhārthaḥ', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अकरोत्', iast: 'akarot', english: 'did', grammar: '' },
         ],
@@ -4180,7 +4180,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-6',
         words: [
-          { devanagari: 'सिद्धार्थअ᳓¸¥', iast: 'siddhārthaḍ¥', english: 'Siddhartha', grammar: 'nom. sg.' },
+          { devanagari: 'सिद्धार्थः', iast: 'siddhārthaḥ', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अकरोल्', iast: 'akarol', english: 'did', grammar: '' },
           { devanagari: 'लुम्बिन्याम्', iast: 'lumbinyām', english: 'in Lumbini', grammar: 'nom. sg.' },
@@ -4191,7 +4191,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-7',
         words: [
-          { devanagari: 'सिद्धार्थअ᳓¸¥', iast: 'siddhārthaḍ¥', english: 'Siddhartha', grammar: 'nom. sg.' },
+          { devanagari: 'सिद्धार्थः', iast: 'siddhārthaḥ', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अकरोत्', iast: 'akarot', english: 'did', grammar: '' },
           { devanagari: 'सुन्दरे', iast: 'sundare', english: 'in the beautiful or handsome one', grammar: '' },
@@ -4204,7 +4204,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-8',
         words: [
           { devanagari: 'सिद्धार्थो', iast: 'siddhārtho', english: 'Siddhartha', grammar: 'nom. sg.' },
-          { devanagari: 'ऽजायत', iast: '\'jÄyata', english: 'was born', grammar: '' },
+          { devanagari: 'ऽजायत', iast: '\'jāyata', english: 'was born', grammar: '' },
         ],
         translation: 'Siddhartha was born.',
         vocabIds: [],
@@ -4213,7 +4213,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-9',
         words: [
           { devanagari: 'सिद्धार्थो', iast: 'siddhārtho', english: 'Siddhartha', grammar: 'nom. sg.' },
-          { devanagari: 'ऽजायत', iast: '\'jÄyata', english: 'was born', grammar: '' },
+          { devanagari: 'ऽजायत', iast: '\'jāyata', english: 'was born', grammar: '' },
           { devanagari: 'लुम्बिन्याम्', iast: 'lumbinyām', english: 'in Lumbini', grammar: 'nom. sg.' },
         ],
         translation: 'Siddhartha was born in Lumbini.',
@@ -4223,7 +4223,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-10',
         words: [
           { devanagari: 'सिद्धार्थो', iast: 'siddhārtho', english: 'Siddhartha', grammar: 'nom. sg.' },
-          { devanagari: 'ऽजायत', iast: '\'jÄyata', english: 'was born', grammar: '' },
+          { devanagari: 'ऽजायत', iast: '\'jāyata', english: 'was born', grammar: '' },
           { devanagari: 'सुन्दरे', iast: 'sundare', english: 'in the beautiful or handsome one', grammar: '' },
           { devanagari: 'वने', iast: 'vane', english: 'in or on the forest', grammar: 'nom. sg.' },
         ],
@@ -4233,9 +4233,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-11',
         words: [
-          { devanagari: 'सिद्धार्थअ᳓¸¥', iast: 'siddhārthaḍ¥', english: 'Siddhartha', grammar: 'nom. sg.' },
-          { devanagari: 'कस्याअ᳓¸¥', iast: 'kasyāḍ¥', english: 'from or of whom/what?', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'सिद्धार्थः', iast: 'siddhārthaḥ', english: 'Siddhartha', grammar: 'nom. sg.' },
+          { devanagari: 'कस्याः', iast: 'kasyāḥ', english: 'from or of whom/what?', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Siddhartha is whose son?',
         vocabIds: [],
@@ -4244,8 +4244,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-12',
         words: [
           { devanagari: 'सिद्धार्थो', iast: 'siddhārtho', english: 'Siddhartha', grammar: 'nom. sg.' },
-          { devanagari: 'मायायाअ᳓¸¥', iast: 'māyāyāḍ¥', english: 'from or of Maya', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'मायायाः', iast: 'māyāyāḥ', english: 'from or of Maya', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Siddhartha is Maya\'s son.',
         vocabIds: [],
@@ -4254,7 +4254,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-13',
         words: [
           { devanagari: 'माया', iast: 'māyā', english: 'Maya', grammar: 'nom. sg.' },
-          { devanagari: 'लुम्बिन्याअ᳓꣡', iast: 'lumbinyāṭ', english: 'in Lumbini', grammar: 'nom. sg.' },
+          { devanagari: 'लुम्बिन्यां', iast: 'lumbinyāṃ', english: 'in Lumbini', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अकरोत्', iast: 'akarot', english: 'did', grammar: '' },
         ],
@@ -4264,7 +4264,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-14',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'माया', iast: 'māyā', english: 'Maya', grammar: 'nom. sg.' },
           { devanagari: 'लुम्बिन्याम्', iast: 'lumbinyām', english: 'in Lumbini', grammar: 'nom. sg.' },
           { devanagari: 'अजायत', iast: 'ajāyata', english: 'was born', grammar: '' },
@@ -4297,7 +4297,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-17',
         words: [
           { devanagari: 'माया', iast: 'māyā', english: 'Maya', grammar: 'nom. sg.' },
-          { devanagari: 'लुम्बिन्याअ᳓꣡', iast: 'lumbinyāṭ', english: 'in Lumbini', grammar: 'nom. sg.' },
+          { devanagari: 'लुम्बिन्यां', iast: 'lumbinyāṃ', english: 'in Lumbini', grammar: 'nom. sg.' },
           { devanagari: 'सिद्धार्थम्', iast: 'siddhārtham', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'अजनयत्', iast: 'ajanayat', english: 'made born, gave birth', grammar: '' },
         ],
@@ -4318,7 +4318,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'माया', iast: 'māyā', english: 'Maya', grammar: 'nom. sg.' },
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'अजनयत्', iast: 'ajanayat', english: 'made born, gave birth', grammar: '' },
-          { devanagari: 'सिद्धार्थअ᳓꣡', iast: 'siddhārthaṭ', english: 'Siddhartha', grammar: 'nom. sg.' },
+          { devanagari: 'सिद्धार्थं', iast: 'siddhārthaṃ', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'लुम्बिन्याम्', iast: 'lumbinyām', english: 'in Lumbini', grammar: 'nom. sg.' },
         ],
         translation: 'Why did Maya give birth to Siddhartha in Lumbini?',
@@ -4330,7 +4330,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'माया', iast: 'māyā', english: 'Maya', grammar: 'nom. sg.' },
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'अजनयत्', iast: 'ajanayat', english: 'made born, gave birth', grammar: '' },
-          { devanagari: 'सिद्धार्थअ᳓꣡', iast: 'siddhārthaṭ', english: 'Siddhartha', grammar: 'nom. sg.' },
+          { devanagari: 'सिद्धार्थं', iast: 'siddhārthaṃ', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'वने', iast: 'vane', english: 'in or on the forest', grammar: 'nom. sg.' },
         ],
         translation: 'Why did Maya give birth to Siddhartha in the forest?',
@@ -4350,8 +4350,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-22',
         words: [
           { devanagari: 'माया', iast: 'māyā', english: 'Maya', grammar: 'nom. sg.' },
-          { devanagari: 'सिद्धार्थअ᳓꣡', iast: 'siddhārthaṭ', english: 'Siddhartha', grammar: 'nom. sg.' },
-          { devanagari: 'लुम्बिन्याअ᳓꣡', iast: 'lumbinyāṭ', english: 'in Lumbini', grammar: 'nom. sg.' },
+          { devanagari: 'सिद्धार्थं', iast: 'siddhārthaṃ', english: 'Siddhartha', grammar: 'nom. sg.' },
+          { devanagari: 'लुम्बिन्यां', iast: 'lumbinyāṃ', english: 'in Lumbini', grammar: 'nom. sg.' },
           { devanagari: 'जनयितुम्', iast: 'janayitum', english: 'to make born, give birth', grammar: '' },
           { devanagari: 'ऐच्छत्', iast: 'aicchat', english: 'wanted', grammar: '3rd sg. pres.' },
         ],
@@ -4371,7 +4371,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'माया', iast: 'māyā', english: 'Maya', grammar: 'nom. sg.' },
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'सिद्धार्थअ᳓꣡', iast: 'siddhārthaṭ', english: 'Siddhartha', grammar: 'nom. sg.' },
+          { devanagari: 'सिद्धार्थं', iast: 'siddhārthaṃ', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'जनयितुम्', iast: 'janayitum', english: 'to make born, give birth', grammar: '' },
           { devanagari: 'ऐच्छल्', iast: 'aicchal', english: 'wanted', grammar: '3rd sg. pres.' },
           { devanagari: 'लुम्बिन्याम्', iast: 'lumbinyām', english: 'in Lumbini', grammar: 'nom. sg.' },
@@ -4386,7 +4386,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'माया', iast: 'māyā', english: 'Maya', grammar: 'nom. sg.' },
           { devanagari: 'सिद्धार्थम्', iast: 'siddhārtham', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'ऐच्छज्', iast: 'aicchaj', english: 'wanted', grammar: '3rd sg. pres.' },
-          { devanagari: 'जनयितुअ᳓꣡', iast: 'janayituṭ', english: 'to make born, give birth', grammar: '' },
+          { devanagari: 'जनयितुं', iast: 'janayituṃ', english: 'to make born, give birth', grammar: '' },
           { devanagari: 'वने', iast: 'vane', english: 'in or on the forest', grammar: 'nom. sg.' },
         ],
         translation: 'Why did Maya want to give birth to Siddhartha in the forest?',
@@ -4396,7 +4396,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-26',
         words: [
           { devanagari: 'लुम्बिनी', iast: 'lumbinī', english: 'Lumbini', grammar: 'nom. sg.' },
-          { devanagari: 'सुन्दरअ᳓꣡', iast: 'sundaraṭ', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'सुन्दरं', iast: 'sundaraṃ', english: 'beautiful, handsome', grammar: '' },
           { devanagari: 'वनम्', iast: 'vanam', english: 'forest', grammar: 'nom. sg.' },
         ],
         translation: 'Lumbini is a beautiful forest.',
@@ -4419,7 +4419,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-28',
         words: [
           { devanagari: 'उरुविल्वा', iast: 'uruvilvā', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
-          { devanagari: 'ग्रामअ᳓¸¥', iast: 'grāmaḍ¥', english: 'village', grammar: 'nom. sg.' },
+          { devanagari: 'ग्रामः', iast: 'grāmaḥ', english: 'village', grammar: 'nom. sg.' },
         ],
         translation: 'Uruvilva is a village.',
         vocabIds: [],
@@ -4448,7 +4448,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-31',
         words: [
           { devanagari: 'उरुविल्वा', iast: 'uruvilvā', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
-          { devanagari: 'ग्रामअ᳓¸¥', iast: 'grāmaḍ¥', english: 'village', grammar: 'nom. sg.' },
+          { devanagari: 'ग्रामः', iast: 'grāmaḥ', english: 'village', grammar: 'nom. sg.' },
         ],
         translation: 'Uruvilva is a village.',
         vocabIds: [],
@@ -4469,7 +4469,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'उरुविल्वा', iast: 'uruvilvā', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
           { devanagari: 'सुन्दरो', iast: 'sundaro', english: 'beautiful, handsome', grammar: '' },
-          { devanagari: 'ग्रामअ᳓¸¥', iast: 'grāmaḍ¥', english: 'village', grammar: 'nom. sg.' },
+          { devanagari: 'ग्रामः', iast: 'grāmaḥ', english: 'village', grammar: 'nom. sg.' },
         ],
         translation: 'Is Uruvilva a beautiful village?',
         vocabIds: [],
@@ -4479,7 +4479,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'उरुविल्वा', iast: 'uruvilvā', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
           { devanagari: 'सुन्दरो', iast: 'sundaro', english: 'beautiful, handsome', grammar: '' },
-          { devanagari: 'ग्रामअ᳓¸¥', iast: 'grāmaḍ¥', english: 'village', grammar: 'nom. sg.' },
+          { devanagari: 'ग्रामः', iast: 'grāmaḥ', english: 'village', grammar: 'nom. sg.' },
         ],
         translation: 'Uruvilva is a beautiful village.',
         vocabIds: [],
@@ -4497,8 +4497,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-36',
         words: [
-          { devanagari: 'सिद्धार्थअ᳓¸¥', iast: 'siddhārthaḍ¥', english: 'Siddhartha', grammar: 'nom. sg.' },
-          { devanagari: 'सुन्दरअ᳓꣡', iast: 'sundaraṭ', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'सिद्धार्थः', iast: 'siddhārthaḥ', english: 'Siddhartha', grammar: 'nom. sg.' },
+          { devanagari: 'सुन्दरं', iast: 'sundaraṃ', english: 'beautiful, handsome', grammar: '' },
           { devanagari: 'ग्रामम्', iast: 'grāmam', english: 'village', grammar: 'nom. sg.' },
           { devanagari: 'अगच्छत्', iast: 'agacchat', english: 'went', grammar: '3rd sg. pres.' },
         ],
@@ -4509,8 +4509,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-37',
         words: [
           { devanagari: 'सिद्धार्थ', iast: 'siddhārtha', english: 'Siddhartha', grammar: 'nom. sg.' },
-          { devanagari: 'उरुविल्वाअ᳓꣡', iast: 'uruvilvāṭ', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
-          { devanagari: 'सुन्दरअ᳓꣡', iast: 'sundaraṭ', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'उरुविल्वां', iast: 'uruvilvāṃ', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
+          { devanagari: 'सुन्दरं', iast: 'sundaraṃ', english: 'beautiful, handsome', grammar: '' },
           { devanagari: 'ग्रामम्', iast: 'grāmam', english: 'village', grammar: 'nom. sg.' },
           { devanagari: 'अगच्छत्', iast: 'agacchat', english: 'went', grammar: '3rd sg. pres.' },
         ],
@@ -4520,7 +4520,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-38',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'सिद्धार्थ', iast: 'siddhārtha', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'उरुविल्वायाम्', iast: 'uruvilvāyām', english: 'in Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
           { devanagari: 'अजायत', iast: 'ajāyata', english: 'was born', grammar: '' },
@@ -4531,11 +4531,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-39',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'सिद्धार्थअ᳓¸¥', iast: 'siddhārthaḍ¥', english: 'Siddhartha', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'सिद्धार्थः', iast: 'siddhārthaḥ', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'सुन्दरे', iast: 'sundare', english: 'in the beautiful or handsome one', grammar: '' },
           { devanagari: 'ग्रामे', iast: 'grāme', english: 'in or on the village', grammar: 'nom. sg.' },
-          { devanagari: 'ऽजायत', iast: '\'jÄyata', english: 'was born', grammar: '' },
+          { devanagari: 'ऽजायत', iast: '\'jāyata', english: 'was born', grammar: '' },
         ],
         translation: 'Was Siddhartha born in the beautiful village?',
         vocabIds: [],
@@ -4547,7 +4547,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुन्दरे', iast: 'sundare', english: 'in the beautiful or handsome one', grammar: '' },
           { devanagari: 'ग्रामे', iast: 'grāme', english: 'in or on the village', grammar: 'nom. sg.' },
-          { devanagari: 'ऽजायत', iast: '\'jÄyata', english: 'was born', grammar: '' },
+          { devanagari: 'ऽजायत', iast: '\'jāyata', english: 'was born', grammar: '' },
         ],
         translation: 'Siddhartha was not born in a beautiful village.',
         vocabIds: [],
@@ -4565,10 +4565,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-42',
         words: [
-          { devanagari: 'सिद्धार्थअ᳓¸¥', iast: 'siddhārthaḍ¥', english: 'Siddhartha', grammar: 'nom. sg.' },
+          { devanagari: 'सिद्धार्थः', iast: 'siddhārthaḥ', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'सुन्दरे', iast: 'sundare', english: 'in the beautiful or handsome one', grammar: '' },
           { devanagari: 'वने', iast: 'vane', english: 'in or on the forest', grammar: 'nom. sg.' },
-          { devanagari: 'ऽजायत', iast: '\'jÄyata', english: 'was born', grammar: '' },
+          { devanagari: 'ऽजायत', iast: '\'jāyata', english: 'was born', grammar: '' },
         ],
         translation: 'Siddhartha was born in a beautiful forest.',
         vocabIds: [],
@@ -4588,7 +4588,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-44',
         words: [
           { devanagari: 'सिद्धार्थ', iast: 'siddhārtha', english: 'Siddhartha', grammar: 'nom. sg.' },
-          { devanagari: 'उरुविल्वाअ᳓꣡', iast: 'uruvilvāṭ', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
+          { devanagari: 'उरुविल्वां', iast: 'uruvilvāṃ', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अकरोत्', iast: 'akarot', english: 'did', grammar: '' },
@@ -4602,7 +4602,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'सिद्धार्थो', iast: 'siddhārtho', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'जनित्वा', iast: 'janitvā', english: 'after being born', grammar: '' },
           { devanagari: 'लुम्बिन्याम्', iast: 'lumbinyām', english: 'in Lumbini', grammar: 'nom. sg.' },
-          { devanagari: 'उरुविल्वाअ᳓꣡', iast: 'uruvilvāṭ', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
+          { devanagari: 'उरुविल्वां', iast: 'uruvilvāṃ', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अकरोत्', iast: 'akarot', english: 'did', grammar: '' },
@@ -4634,7 +4634,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'सिद्धार्थो', iast: 'siddhārtho', english: 'Siddhartha', grammar: 'nom. sg.' },
           { devanagari: 'ऽबोधद्', iast: '\'bodhad', english: 'awoke', grammar: '' },
-          { devanagari: 'उरुविल्वाअ᳓꣡', iast: 'uruvilvāṭ', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
+          { devanagari: 'उरुविल्वां', iast: 'uruvilvāṃ', english: 'Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
         ],
         translation: 'Siddhartha awakened after going to Uruvilva.',
@@ -4655,7 +4655,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-50',
         words: [
-          { devanagari: 'म᳓꣡गदावो', iast: 'mṭgadāvo', english: '&quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'मृगदावो', iast: 'mṛgadāvo', english: '&quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
           { devanagari: 'वनम्', iast: 'vanam', english: 'forest', grammar: 'nom. sg.' },
         ],
         translation: 'Mrigadava is a forest.',
@@ -4664,9 +4664,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-51',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'म᳓꣡गदावअ᳓¸¥', iast: 'mṭgadāvaḍ¥', english: '&quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
-          { devanagari: 'सुन्दरअ᳓¸¥', iast: 'sundaraḍ¥', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'मृगदावः', iast: 'mṛgadāvaḥ', english: '&quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'सुन्दरः', iast: 'sundaraḥ', english: 'beautiful, handsome', grammar: '' },
         ],
         translation: 'Is Mrigadava beautiful?',
         vocabIds: [],
@@ -4674,8 +4674,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-52',
         words: [
-          { devanagari: 'म᳓꣡गदावअ᳓¸¥', iast: 'mṭgadāvaḍ¥', english: '&quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
-          { devanagari: 'सुन्दरअ᳓¸¥', iast: 'sundaraḍ¥', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'मृगदावः', iast: 'mṛgadāvaḥ', english: '&quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'सुन्दरः', iast: 'sundaraḥ', english: 'beautiful, handsome', grammar: '' },
         ],
         translation: 'Mrigadava is beautiful.',
         vocabIds: [],
@@ -4683,8 +4683,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-53',
         words: [
-          { devanagari: 'म᳓꣡गदावअ᳓¸¥', iast: 'mṭgadāvaḍ¥', english: '&quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
-          { devanagari: 'सुन्दरअ᳓꣡', iast: 'sundaraṭ', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'मृगदावः', iast: 'mṛgadāvaḥ', english: '&quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'सुन्दरं', iast: 'sundaraṃ', english: 'beautiful, handsome', grammar: '' },
           { devanagari: 'वनम्', iast: 'vanam', english: 'forest', grammar: 'nom. sg.' },
         ],
         translation: 'Mrigadava is a beautiful forest.',
@@ -4693,9 +4693,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-54',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
-          { devanagari: 'म᳓꣡गदावे', iast: 'mṭgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'मृगदावे', iast: 'mṛgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
           { devanagari: 'ऽबोधत्', iast: '\'bodhat', english: 'awoke', grammar: '' },
         ],
         translation: 'Did the Buddha awaken in Mrigadava?',
@@ -4706,7 +4706,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'म᳓꣡गदावे', iast: 'mṭgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'मृगदावे', iast: 'mṛgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
           { devanagari: 'ऽबोधत्', iast: '\'bodhat', english: 'awoke', grammar: '' },
         ],
         translation: 'The Buddha did not awaken in Mrigadava.',
@@ -4725,10 +4725,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-57',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
-          { devanagari: 'म᳓꣡गदावे', iast: 'mṭgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
-          { devanagari: 'ऽजायत', iast: '\'jÄyata', english: 'was born', grammar: '' },
+          { devanagari: 'मृगदावे', iast: 'mṛgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'ऽजायत', iast: '\'jāyata', english: 'was born', grammar: '' },
         ],
         translation: 'Was the Buddha born in Mrigadava?',
         vocabIds: [],
@@ -4738,8 +4738,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'म᳓꣡गदावे', iast: 'mṭgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
-          { devanagari: 'ऽजायत', iast: '\'jÄyata', english: 'was born', grammar: '' },
+          { devanagari: 'मृगदावे', iast: 'mṛgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'ऽजायत', iast: '\'jāyata', english: 'was born', grammar: '' },
         ],
         translation: 'The Buddha wasn\'t born in Mrigadava.',
         vocabIds: [],
@@ -4748,7 +4748,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-59',
         words: [
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
-          { devanagari: 'ऽजायत', iast: '\'jÄyata', english: 'was born', grammar: '' },
+          { devanagari: 'ऽजायत', iast: '\'jāyata', english: 'was born', grammar: '' },
           { devanagari: 'लुम्बिन्याम्', iast: 'lumbinyām', english: 'in Lumbini', grammar: 'nom. sg.' },
         ],
         translation: 'The Buddha was born in Lumbini.',
@@ -4757,10 +4757,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-60',
         words: [
-          { devanagari: 'बुद्धअ᳓¸¥', iast: 'buddhaḍ¥', english: 'the Buddha', grammar: 'nom. sg.' },
+          { devanagari: 'बुद्धः', iast: 'buddhaḥ', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अकरोन्', iast: 'akaron', english: 'did', grammar: '' },
-          { devanagari: 'म᳓꣡गदावे', iast: 'mṭgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'मृगदावे', iast: 'mṛgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
         ],
         translation: 'What did the Buddha do in Mrigadava?',
         vocabIds: [],
@@ -4778,7 +4778,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-62',
         words: [
-          { devanagari: 'बुद्धअ᳓¸¥', iast: 'buddhaḍ¥', english: 'the Buddha', grammar: 'nom. sg.' },
+          { devanagari: 'बुद्धः', iast: 'buddhaḥ', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'प्रथमम्', iast: 'prathamam', english: 'first', grammar: 'nom. sg.' },
           { devanagari: 'उपदेशअम्', iast: 'upadeśam', english: 'teaching', grammar: 'nom. sg.' },
           { devanagari: 'अकरोत्', iast: 'akarot', english: 'did', grammar: '' },
@@ -4790,7 +4790,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-63',
         words: [
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
-          { devanagari: 'म᳓꣡गदावे', iast: 'mṭgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'मृगदावे', iast: 'mṛgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
           { devanagari: 'प्रथमम्', iast: 'prathamam', english: 'first', grammar: 'nom. sg.' },
           { devanagari: 'उपदेशअम्', iast: 'upadeśam', english: 'teaching', grammar: 'nom. sg.' },
           { devanagari: 'अकरोत्', iast: 'akarot', english: 'did', grammar: '' },
@@ -4802,9 +4802,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am44-64',
         words: [
           { devanagari: 'बुद्ध', iast: 'buddha', english: 'the Buddha', grammar: 'nom. sg.' },
-          { devanagari: 'उरुविल्वायाअ᳓꣡', iast: 'uruvilvāyāṭ', english: 'in Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
+          { devanagari: 'उरुविल्वायां', iast: 'uruvilvāyāṃ', english: 'in Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
           { devanagari: 'बुद्ध्वा', iast: 'buddhvā', english: 'after waking up', grammar: '' },
-          { devanagari: 'म᳓꣡गदावे', iast: 'mṭgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'मृगदावे', iast: 'mṛgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
           { devanagari: 'ऽकरोत्', iast: '\'karot', english: 'did', grammar: '' },
           { devanagari: 'प्रथमम्', iast: 'prathamam', english: 'first', grammar: 'nom. sg.' },
           { devanagari: 'उपदेशअम्', iast: 'upadeśam', english: 'teaching', grammar: 'nom. sg.' },
@@ -4818,9 +4818,9 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'जनित्वा', iast: 'janitvā', english: 'after being born', grammar: '' },
           { devanagari: 'लुम्बिन्याम्', iast: 'lumbinyām', english: 'in Lumbini', grammar: 'nom. sg.' },
-          { devanagari: 'उरुविल्वायाअ᳓꣡', iast: 'uruvilvāyāṭ', english: 'in Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
+          { devanagari: 'उरुविल्वायां', iast: 'uruvilvāyāṃ', english: 'in Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
           { devanagari: 'बुद्ध्वा', iast: 'buddhvā', english: 'after waking up', grammar: '' },
-          { devanagari: 'म᳓꣡गदावअ᳓꣡', iast: 'mṭgadāvaṭ', english: '&quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'मृगदावं', iast: 'mṛgadāvaṃ', english: '&quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
           { devanagari: 'प्रथमम्', iast: 'prathamam', english: 'first', grammar: 'nom. sg.' },
           { devanagari: 'उपदेशअम्', iast: 'upadeśam', english: 'teaching', grammar: 'nom. sg.' },
@@ -4832,8 +4832,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-66',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'कुशीनगरअ᳓꣡', iast: 'kuśīnagaraṭ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'कुशीनगरं', iast: 'kuśīnagaraṃ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
           { devanagari: 'वनम्', iast: 'vanam', english: 'forest', grammar: 'nom. sg.' },
         ],
         translation: 'Is Kushinagara a forest?',
@@ -4842,7 +4842,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-67',
         words: [
-          { devanagari: 'कुशीनगरअ᳓꣡', iast: 'kuśīnagaraṭ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
+          { devanagari: 'कुशीनगरं', iast: 'kuśīnagaraṃ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'वनम्', iast: 'vanam', english: 'forest', grammar: 'nom. sg.' },
         ],
@@ -4852,9 +4852,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-68',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'कुशीनगरअ᳓꣡', iast: 'kuśīnagaraṭ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
-          { devanagari: 'ग्रामअ᳓¸¥', iast: 'grāmaḍ¥', english: 'village', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'कुशीनगरं', iast: 'kuśīnagaraṃ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
+          { devanagari: 'ग्रामः', iast: 'grāmaḥ', english: 'village', grammar: 'nom. sg.' },
         ],
         translation: 'Is Kushinagara a village?',
         vocabIds: [],
@@ -4862,9 +4862,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-69',
         words: [
-          { devanagari: 'कुशीनगरअ᳓꣡', iast: 'kuśīnagaraṭ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
+          { devanagari: 'कुशीनगरं', iast: 'kuśīnagaraṃ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ग्रामअ᳓¸¥', iast: 'grāmaḍ¥', english: 'village', grammar: 'nom. sg.' },
+          { devanagari: 'ग्रामः', iast: 'grāmaḥ', english: 'village', grammar: 'nom. sg.' },
         ],
         translation: 'Kushinagara is not a village.',
         vocabIds: [],
@@ -4872,7 +4872,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-70',
         words: [
-          { devanagari: 'कुशीनगरअ᳓꣡', iast: 'kuśīnagaraṭ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
+          { devanagari: 'कुशीनगरं', iast: 'kuśīnagaraṃ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
         ],
         translation: 'What is Kushinagara?',
@@ -4881,7 +4881,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-71',
         words: [
-          { devanagari: 'कुशीनगरअ᳓꣡', iast: 'kuśīnagaraṭ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
+          { devanagari: 'कुशीनगरं', iast: 'kuśīnagaraṃ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
           { devanagari: 'नगरम्', iast: 'nagaram', english: 'city', grammar: '' },
         ],
         translation: 'Kushinagara is a city.',
@@ -4890,8 +4890,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-72',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'कुशीनगरअ᳓꣡', iast: 'kuśīnagaraṭ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'कुशीनगरं', iast: 'kuśīnagaraṃ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
           { devanagari: 'सुन्दरम्', iast: 'sundaram', english: 'beautiful, handsome', grammar: '' },
         ],
         translation: 'Is Kushinagara beautiful?',
@@ -4900,9 +4900,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-73',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'कुशीनगरअ᳓꣡', iast: 'kuśīnagaraṭ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
-          { devanagari: 'सुन्दरअ᳓꣡', iast: 'sundaraṭ', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'कुशीनगरं', iast: 'kuśīnagaraṃ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
+          { devanagari: 'सुन्दरं', iast: 'sundaraṃ', english: 'beautiful, handsome', grammar: '' },
           { devanagari: 'नगरम्', iast: 'nagaram', english: 'city', grammar: '' },
         ],
         translation: 'Is Kushinagara a beautiful city?',
@@ -4911,8 +4911,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-74',
         words: [
-          { devanagari: 'कुशीनगरअ᳓꣡', iast: 'kuśīnagaraṭ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
-          { devanagari: 'सुन्दरअ᳓꣡', iast: 'sundaraṭ', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'कुशीनगरं', iast: 'kuśīnagaraṃ', english: 'Kushinagara (modern-day Kushinagar)', grammar: '' },
+          { devanagari: 'सुन्दरं', iast: 'sundaraṃ', english: 'beautiful, handsome', grammar: '' },
           { devanagari: 'नगरम्', iast: 'nagaram', english: 'city', grammar: '' },
         ],
         translation: 'Kushinagara is a beautiful city.',
@@ -4921,7 +4921,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-75',
         words: [
-          { devanagari: 'बुद्धअ᳓¸¥', iast: 'buddhaḍ¥', english: 'the Buddha', grammar: 'nom. sg.' },
+          { devanagari: 'बुद्धः', iast: 'buddhaḥ', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अकरोत्', iast: 'akarot', english: 'did', grammar: '' },
           { devanagari: 'कुशीनगरे', iast: 'kuśīnagare', english: 'in Kushinagara (modern-day Kushinagar)', grammar: '' },
@@ -4932,7 +4932,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-76',
         words: [
-          { devanagari: 'बुद्धअ᳓¸¥', iast: 'buddhaḍ¥', english: 'the Buddha', grammar: 'nom. sg.' },
+          { devanagari: 'बुद्धः', iast: 'buddhaḥ', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अकरोत्', iast: 'akarot', english: 'did', grammar: '' },
           { devanagari: 'सुन्दरे', iast: 'sundare', english: 'in the beautiful or handsome one', grammar: '' },
@@ -4944,9 +4944,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-77',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
-          { devanagari: 'ऽजायत', iast: '\'jÄyata', english: 'was born', grammar: '' },
+          { devanagari: 'ऽजायत', iast: '\'jāyata', english: 'was born', grammar: '' },
           { devanagari: 'कुशीनगरे', iast: 'kuśīnagare', english: 'in Kushinagara (modern-day Kushinagar)', grammar: '' },
         ],
         translation: 'Was the Buddha born in Kushinagara?',
@@ -4958,7 +4958,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'कुशीनगरे', iast: 'kuśīnagare', english: 'in Kushinagara (modern-day Kushinagar)', grammar: '' },
-          { devanagari: 'ऽजायत', iast: '\'jÄyata', english: 'was born', grammar: '' },
+          { devanagari: 'ऽजायत', iast: '\'jāyata', english: 'was born', grammar: '' },
         ],
         translation: 'The Buddha wasn\'t born in Kushinagara.',
         vocabIds: [],
@@ -4976,7 +4976,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-80',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'ऽबोधत्', iast: '\'bodhat', english: 'awoke', grammar: '' },
           { devanagari: 'कुशीनगरे', iast: 'kuśīnagare', english: 'in Kushinagara (modern-day Kushinagar)', grammar: '' },
@@ -5008,7 +5008,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-83',
         words: [
-          { devanagari: 'बुद्धअ᳓¸¥', iast: 'buddhaḍ¥', english: 'the Buddha', grammar: 'nom. sg.' },
+          { devanagari: 'बुद्धः', iast: 'buddhaḥ', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'सुन्दरे', iast: 'sundare', english: 'in the beautiful or handsome one', grammar: '' },
           { devanagari: 'ग्रामे', iast: 'grāme', english: 'in or on the village', grammar: 'nom. sg.' },
           { devanagari: 'ऽबोधत्', iast: '\'bodhat', english: 'awoke', grammar: '' },
@@ -5019,7 +5019,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-84',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'ऽकरोत्', iast: '\'karot', english: 'did', grammar: '' },
           { devanagari: 'प्रथमम्', iast: 'prathamam', english: 'first', grammar: 'nom. sg.' },
@@ -5031,11 +5031,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-85',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'ऽकरोत्', iast: '\'karot', english: 'did', grammar: '' },
           { devanagari: 'प्रथमम्', iast: 'prathamam', english: 'first', grammar: 'nom. sg.' },
-          { devanagari: 'उपदेशअअ᳓꣡', iast: 'upadeśaṭ', english: 'teaching', grammar: 'nom. sg.' },
+          { devanagari: 'उपदेशं', iast: 'upadeśaṃ', english: 'teaching', grammar: 'nom. sg.' },
           { devanagari: 'कुशीनगरे', iast: 'kuśīnagare', english: 'in Kushinagara (modern-day Kushinagar)', grammar: '' },
         ],
         translation: 'Did the Buddha give his first teaching in Kushinagara?',
@@ -5057,11 +5057,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-87',
         words: [
-          { devanagari: 'बुद्धअ᳓¸¥', iast: 'buddhaḍ¥', english: 'the Buddha', grammar: 'nom. sg.' },
+          { devanagari: 'बुद्धः', iast: 'buddhaḥ', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'प्रथमम्', iast: 'prathamam', english: 'first', grammar: 'nom. sg.' },
           { devanagari: 'उपदेशअम्', iast: 'upadeśam', english: 'teaching', grammar: 'nom. sg.' },
           { devanagari: 'अकरोन्', iast: 'akaron', english: 'did', grammar: '' },
-          { devanagari: 'म᳓꣡गदावे', iast: 'mṭgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'मृगदावे', iast: 'mṛgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
         ],
         translation: 'The Buddha gave his first teaching in Mrigadava.',
         vocabIds: [],
@@ -5069,7 +5069,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-88',
         words: [
-          { devanagari: 'बुद्धअ᳓¸¥', iast: 'buddhaḍ¥', english: 'the Buddha', grammar: 'nom. sg.' },
+          { devanagari: 'बुद्धः', iast: 'buddhaḥ', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'अकरोत्', iast: 'akarot', english: 'did', grammar: '' },
           { devanagari: 'कुशीनगरे', iast: 'kuśīnagare', english: 'in Kushinagara (modern-day Kushinagar)', grammar: '' },
@@ -5099,7 +5099,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am44-91',
         words: [
-          { devanagari: 'बुद्धअ᳓¸¥', iast: 'buddhaḍ¥', english: 'the Buddha', grammar: 'nom. sg.' },
+          { devanagari: 'बुद्धः', iast: 'buddhaḥ', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'सुन्दरे', iast: 'sundare', english: 'in the beautiful or handsome one', grammar: '' },
           { devanagari: 'नगरे', iast: 'nagare', english: 'in the city', grammar: '' },
           { devanagari: 'ऽम्रियत', iast: '\'mriyata', english: 'died', grammar: '3rd sg. pres.' },
@@ -5125,7 +5125,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'जनित्वा', iast: 'janitvā', english: 'after being born', grammar: '' },
           { devanagari: 'लुम्बिन्याम्', iast: 'lumbinyām', english: 'in Lumbini', grammar: 'nom. sg.' },
-          { devanagari: 'उरुविल्वायाअ᳓꣡', iast: 'uruvilvāyāṭ', english: 'in Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
+          { devanagari: 'उरुविल्वायां', iast: 'uruvilvāyāṃ', english: 'in Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
           { devanagari: 'बुद्ध्वा', iast: 'buddhvā', english: 'after waking up', grammar: '' },
           { devanagari: 'कुशीनगरे', iast: 'kuśīnagare', english: 'in Kushinagara (modern-day Kushinagar)', grammar: '' },
           { devanagari: 'ऽम्रियत', iast: '\'mriyata', english: 'died', grammar: '3rd sg. pres.' },
@@ -5139,10 +5139,10 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'बुद्धो', iast: 'buddho', english: 'the Buddha', grammar: 'nom. sg.' },
           { devanagari: 'जनित्वा', iast: 'janitvā', english: 'after being born', grammar: '' },
           { devanagari: 'लुम्बिन्याम्', iast: 'lumbinyām', english: 'in Lumbini', grammar: 'nom. sg.' },
-          { devanagari: 'उरुविल्वायाअ᳓꣡', iast: 'uruvilvāyāṭ', english: 'in Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
+          { devanagari: 'उरुविल्वायां', iast: 'uruvilvāyāṃ', english: 'in Uruvilva (modern-day Bodh Gaya)', grammar: 'nom. sg.' },
           { devanagari: 'बुद्ध्वा', iast: 'buddhvā', english: 'after waking up', grammar: '' },
-          { devanagari: 'म᳓꣡गदावे', iast: 'mṭgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
-          { devanagari: 'क᳓꣡त्वा', iast: 'kṭtvā', english: 'after doing', grammar: '' },
+          { devanagari: 'मृगदावे', iast: 'mṛgadāve', english: 'in &quot;Deer Park&quot; (modern-day Sarnath)', grammar: 'nom. sg.' },
+          { devanagari: 'कृत्वा', iast: 'kṛtvā', english: 'after doing', grammar: '' },
           { devanagari: 'प्रथमम्', iast: 'prathamam', english: 'first', grammar: 'nom. sg.' },
           { devanagari: 'उपदेशअम्', iast: 'upadeśam', english: 'teaching', grammar: 'nom. sg.' },
           { devanagari: 'अम्रियत', iast: 'amriyata', english: 'died', grammar: '3rd sg. pres.' },
@@ -5169,7 +5169,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-1',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is a boy.',
         vocabIds: [],
@@ -5177,8 +5177,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-2',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Is Rahula happy?',
@@ -5187,10 +5187,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-3',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Is Rahula a happy boy?',
         vocabIds: [],
@@ -5201,7 +5201,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is not a happy boy.',
         vocabIds: [],
@@ -5210,7 +5210,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-5',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is scared.',
         vocabIds: [],
@@ -5220,7 +5220,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भीतो', iast: 'bhīto', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is a scared boy.',
         vocabIds: [],
@@ -5231,7 +5231,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भीतो', iast: 'bhīto', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Why is Rahula a scared boy?',
         vocabIds: [],
@@ -5239,23 +5239,23 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-8',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
-        translation: 'Does Rahula see a <i>rÄká¹£asa</i>?',
+        translation: 'Does Rahula see a <i>rākṣasa</i>?',
         vocabIds: [],
       },
       {
         id: 'am45-9',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
-        translation: 'Rahula doesn\'t see a <i>rÄká¹£asa</i>.',
+        translation: 'Rahula doesn\'t see a <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
@@ -5263,7 +5263,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'But Rahula is scared.',
         vocabIds: [],
@@ -5271,8 +5271,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-11',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'What does Rahula see?',
@@ -5282,7 +5282,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-12',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula sees a tree.',
@@ -5293,9 +5293,9 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Rahula doesn\'t want to see the tree.',
@@ -5307,8 +5307,8 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Why doesn\'t Rahula want to see a tree?',
@@ -5317,23 +5317,23 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-15',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असो', iast: 'rākṭ£aso', english: 'demon', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसो', iast: 'rākṣaso', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
-        translation: 'Is a <i>rÄká¹£asa</i> in the tree?',
+        translation: 'Is a <i>rākṣasa</i> in the tree?',
         vocabIds: [],
       },
       {
         id: 'am45-16',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
-        translation: 'Does Rahula see a <i>rÄká¹£asa</i> in the tree?',
+        translation: 'Does Rahula see a <i>rākṣasa</i> in the tree?',
         vocabIds: [],
       },
       {
@@ -5342,9 +5342,9 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
-          { devanagari: 'राक᳓꣡£असम्', iast: 'rākṭ£asam', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसम्', iast: 'rākṣasam', english: 'demon', grammar: 'nom. sg.' },
         ],
-        translation: 'Rahula doesn\'t see a <i>rÄká¹£asa</i>.',
+        translation: 'Rahula doesn\'t see a <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
@@ -5353,10 +5353,10 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
-        translation: 'Rahula doesn\'t see a <i>rÄká¹£asa</i> in the tree.',
+        translation: 'Rahula doesn\'t see a <i>rākṣasa</i> in the tree.',
         vocabIds: [],
       },
       {
@@ -5364,18 +5364,18 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असाद्', iast: 'rākṭ£asād', english: 'from the demon', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसाद्', iast: 'rākṣasād', english: 'from the demon', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
-        translation: 'Rahula isn\'t scared of a <i>rÄká¹£asa</i>.',
+        translation: 'Rahula isn\'t scared of a <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
         id: 'am45-20',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'What is Rahula is scared of?',
         vocabIds: [],
@@ -5384,8 +5384,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-21',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is scared of the tree!',
         vocabIds: [],
@@ -5394,9 +5394,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-22',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
           { devanagari: 'भीतो', iast: 'bhīto', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is a boy scared of a tree.',
         vocabIds: [],
@@ -5405,11 +5405,11 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-23',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£ओ', iast: 'vṭkṭ£o', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षो', iast: 'vṛkṣo', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
-        translation: 'But the tree is not a <i>rÄká¹£asa</i>.',
+        translation: 'But the tree is not a <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
@@ -5417,8 +5417,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Why is Rahula scared of the tree?',
         vocabIds: [],
@@ -5427,8 +5427,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-25',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula wants to climb the tree.',
@@ -5439,8 +5439,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'जानाति', iast: 'jānāti', english: 'knows', grammar: '3rd sg. pres.' },
         ],
@@ -5453,7 +5453,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भीतो', iast: 'bhīto', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ात्', iast: 'vṭkṭ£āt', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षात्', iast: 'vṛkṣāt', english: 'from the tree', grammar: 'nom. sg.' },
         ],
         translation: 'Why is Rahula scared of a tree?',
         vocabIds: [],
@@ -5463,7 +5463,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भीत', iast: 'bhīta', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'ारोहअ᳓꣡ात्', iast: 'ārohaṭāt', english: 'from climbing', grammar: '' },
+          { devanagari: 'आरोहणात्', iast: 'ārohaṇāt', english: 'from climbing', grammar: '' },
         ],
         translation: 'Rahula is scared of climbing.',
         vocabIds: [],
@@ -5473,8 +5473,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भीत', iast: 'bhīta', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'ारोहअ᳓꣡ाद्', iast: 'ārohaṭād', english: 'from climbing', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अस्य', iast: 'vṭkṭ£asya', english: 'of the tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोहणाद्', iast: 'ārohaṇād', english: 'from climbing', grammar: '' },
+          { devanagari: 'वृक्षस्य', iast: 'vṛkṣasya', english: 'of the tree', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is scared of climbing the tree.',
         vocabIds: [],
@@ -5483,9 +5483,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-30',
         words: [
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ारोहअ᳓꣡ाद्', iast: 'ārohaṭād', english: 'from climbing', grammar: '' },
+          { devanagari: 'आरोहणाद्', iast: 'ārohaṇād', english: 'from climbing', grammar: '' },
           { devanagari: 'भीतो', iast: 'bhīto', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is a boy scared of climbing.',
         vocabIds: [],
@@ -5495,8 +5495,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Why does Rahula want to climb a tree?',
@@ -5518,7 +5518,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'बालाम्', iast: 'bālām', english: 'girl', grammar: 'nom. sg.' },
           { devanagari: 'अपशयद्', iast: 'apaśyad', english: 'saw', grammar: '3rd sg. pres.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula saw a girl in the tree.',
         vocabIds: [],
@@ -5526,7 +5526,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-34',
         words: [
-          { devanagari: 'ाअ᳓¸¥', iast: 'āḍ¥', english: 'Ah!', grammar: '' },
+          { devanagari: 'आः', iast: 'āḥ', english: 'Ah!', grammar: '' },
         ],
         translation: 'Ah!',
         vocabIds: [],
@@ -5535,7 +5535,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-35',
         words: [
           { devanagari: 'बाला', iast: 'bālā', english: 'girl', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
         translation: 'A girl is in the tree.',
         vocabIds: [],
@@ -5545,7 +5545,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'बाला', iast: 'bālā', english: 'girl', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
         translation: 'Why is a girl in the tree?',
         vocabIds: [],
@@ -5553,7 +5553,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-37',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'बाला', iast: 'bālā', english: 'girl', grammar: 'nom. sg.' },
           { devanagari: 'भीता', iast: 'bhītā', english: 'scared', grammar: 'nom. sg.' },
         ],
@@ -5563,18 +5563,18 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-38',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'बाला', iast: 'bālā', english: 'girl', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
-        translation: 'Does the girl see a <i>rÄká¹£asa</i>?',
+        translation: 'Does the girl see a <i>rākṣasa</i>?',
         vocabIds: [],
       },
       {
         id: 'am45-39',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'ज्ञातुम्', iast: 'jñātum', english: 'to know', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
@@ -5585,7 +5585,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-40',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'अगच्छत्', iast: 'agacchat', english: 'went', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula went to the tree.',
@@ -5595,9 +5595,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-41',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'बालाअ᳓꣡', iast: 'bālāṭ', english: 'girl', grammar: 'nom. sg.' },
-          { devanagari: 'द᳓꣡अ᳓꣡£अ᳓꣡­वा', iast: 'dṭṭ£ṭ­vā', english: 'after seeing', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'बालां', iast: 'bālāṃ', english: 'girl', grammar: 'nom. sg.' },
+          { devanagari: 'दृष्ट्वा', iast: 'dṛṣṭvā', english: 'after seeing', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'अगच्छत्', iast: 'agacchat', english: 'went', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula, after seeing the girl, went to the tree.',
@@ -5607,7 +5607,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-42',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
           { devanagari: 'बालाम्', iast: 'bālām', english: 'girl', grammar: 'nom. sg.' },
           { devanagari: 'अपशयत्', iast: 'apaśyat', english: 'saw', grammar: '3rd sg. pres.' },
@@ -5627,8 +5627,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-44',
         words: [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
         translation: 'Why are you in a tree?',
         vocabIds: [],
@@ -5636,8 +5636,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-45',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'भीता', iast: 'bhītā', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Are you scared?',
@@ -5646,20 +5646,20 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-46',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'पशयसि', iast: 'paśyasi', english: '(you) see, are seeing', grammar: '3rd sg. pres.' },
         ],
-        translation: 'Do you see a <i>rÄká¹£asa</i>?',
+        translation: 'Do you see a <i>rākṣasa</i>?',
         vocabIds: [],
       },
       {
         id: 'am45-47',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
@@ -5669,9 +5669,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-48',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
@@ -5681,18 +5681,18 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-49',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
         ],
-        translation: 'I don\'t see a <i>rÄká¹£asa</i>.',
+        translation: 'I don\'t see a <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
         id: 'am45-50',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'भीता', iast: 'bhītā', english: 'scared', grammar: 'nom. sg.' },
         ],
@@ -5702,7 +5702,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-51',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'सुखिनी', iast: 'sukhinī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m happy!',
@@ -5712,8 +5712,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-52',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
         translation: 'But you\'re in a tree.',
         vocabIds: [],
@@ -5722,7 +5722,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-53',
         words: [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'सुखिनी', iast: 'sukhinī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Why are you happy?',
@@ -5731,7 +5731,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-54',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'ज्ञातुम्', iast: 'jñātum', english: 'to know', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
@@ -5742,7 +5742,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-55',
         words: [
           { devanagari: 'ारोह', iast: 'āroha', english: 'climb!', grammar: '3rd sg. pres.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
         ],
         translation: 'Climb the tree!',
         vocabIds: [],
@@ -5750,7 +5750,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-56',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'ज्ञास्यसि', iast: 'jñāsyasi', english: '(you) will know', grammar: '3rd sg. pres.' },
         ],
         translation: 'You will know.',
@@ -5759,8 +5759,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-57',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'ारुह्य', iast: 'āruhya', english: 'after climbing', grammar: '' },
           { devanagari: 'ज्ञास्यसि', iast: 'jñāsyasi', english: '(you) will know', grammar: '3rd sg. pres.' },
         ],
@@ -5771,7 +5771,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-58',
         words: [
           { devanagari: 'बाला', iast: 'bālā', english: 'girl', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
           { devanagari: 'अवारोहत्', iast: 'avārohat', english: 'climbed down', grammar: '' },
         ],
         translation: 'The girl climbs down from the tree.',
@@ -5781,8 +5781,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-59',
         words: [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
           { devanagari: 'अवरोहसि', iast: 'avarohasi', english: '(you) climb down', grammar: '3rd sg. pres.' },
         ],
         translation: 'Why are you climbing down from the tree?',
@@ -5792,7 +5792,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-60',
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तव्यम्', iast: 'gantavyam', english: 'should or must go or leave', grammar: '' },
         ],
         translation: 'I have to go home.',
@@ -5801,8 +5801,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-61',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गच्छामि', iast: 'gacchāmi', english: '(I) go, am going', grammar: '3rd sg. pres.' },
         ],
         translation: 'I\'m going home.',
@@ -5812,7 +5812,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-62',
         words: [
           { devanagari: 'बाला', iast: 'bālā', english: 'girl', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हम्', iast: 'gṭham', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहम्', iast: 'gṛham', english: 'house, home', grammar: '' },
           { devanagari: 'अगच्छत्', iast: 'agacchat', english: 'went', grammar: '3rd sg. pres.' },
         ],
         translation: 'The girl went home.',
@@ -5822,9 +5822,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-63',
         words: [
           { devanagari: 'बाला', iast: 'bālā', english: 'girl', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
           { devanagari: 'अवरुह्य', iast: 'avaruhya', english: 'after climbing down', grammar: '' },
-          { devanagari: 'ग᳓꣡हम्', iast: 'gṭham', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहम्', iast: 'gṛham', english: 'house, home', grammar: '' },
           { devanagari: 'अगच्छत्', iast: 'agacchat', english: 'went', grammar: '3rd sg. pres.' },
         ],
         translation: 'The girl, after climbing down from the tree, went home.',
@@ -5836,7 +5836,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ग᳓꣡हम्', iast: 'gṭham', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहम्', iast: 'gṛham', english: 'house, home', grammar: '' },
           { devanagari: 'अगच्छत्', iast: 'agacchat', english: 'went', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Rahula didn\'t go home.',
@@ -5847,7 +5847,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'ऐच्छत्', iast: 'aicchat', english: 'wanted', grammar: '3rd sg. pres.' },
         ],
@@ -5858,7 +5858,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-66',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'अपशयत्', iast: 'apaśyat', english: 'saw', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula saw the tree.',
@@ -5867,7 +5867,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-67',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'ज्ञातुम्', iast: 'jñātum', english: 'to know', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
@@ -5877,9 +5877,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-68',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to climb the tree.',
@@ -5889,8 +5889,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-69',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'But ... I\'m scared.',
         vocabIds: [],
@@ -5898,9 +5898,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-70',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'जानामि', iast: 'jānāmi', english: '(I) know', grammar: '3rd sg. pres.' },
         ],
@@ -5912,7 +5912,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'ारोहत्', iast: 'ārohat', english: 'climbed', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula didn\'t climb the tree.',
@@ -5922,7 +5922,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-72',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हम्', iast: 'gṭham', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहम्', iast: 'gṛham', english: 'house, home', grammar: '' },
           { devanagari: 'अगच्छत्', iast: 'agacchat', english: 'went', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula went home.',
@@ -5932,7 +5932,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-73',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हे', iast: 'gṭhe', english: 'in the house, at home', grammar: '' },
+          { devanagari: 'गृहे', iast: 'gṛhe', english: 'in the house, at home', grammar: '' },
         ],
         translation: 'Rahula is at home.',
         vocabIds: [],
@@ -5942,8 +5942,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Rahula wants to climb a tree.',
@@ -5952,9 +5952,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-75',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m not scared!',
         vocabIds: [],
@@ -5962,9 +5962,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-76',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोक᳓꣡£यामि', iast: 'ārokṭ£yāmi', english: '(I) will climb', grammar: '3rd sg. pres.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोक्ष्यामि', iast: 'ārokṣyāmi', english: '(I) will climb', grammar: '3rd sg. pres.' },
         ],
         translation: 'I\'ll climb the tree.',
         vocabIds: [],
@@ -5973,8 +5973,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-77',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उअ᳓꣡', iast: 'draṭ£ṭ­uṭ', english: 'to see', grammar: '' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुं', iast: 'draṣṭuṃ', english: 'to see', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula goes to see the tree.',
@@ -5984,8 +5984,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-78',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula goes to climb the tree.',
@@ -5995,9 +5995,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-79',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हाद्', iast: 'gṭhād', english: 'from the house', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'गतअ᳓¸¥', iast: 'gataḍ¥', english: 'gone', grammar: '' },
+          { devanagari: 'गृहाद्', iast: 'gṛhād', english: 'from the house', grammar: '' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'गतः', iast: 'gataḥ', english: 'gone', grammar: '' },
         ],
         translation: 'Rahula has gone from his house to the tree.',
         vocabIds: [],
@@ -6006,9 +6006,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-80',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula, after going to the tree, looks at the tree.',
@@ -6018,8 +6018,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-81',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is scared of the tree.',
         vocabIds: [],
@@ -6028,7 +6028,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-82',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -6041,7 +6041,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Rahula doesn\'t go home.',
@@ -6051,8 +6051,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-84',
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अ', iast: 'vṭkṭ£a', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हव्यअ᳓¸¥', iast: 'āroḍhavyaḍ¥', english: 'should or must climb', grammar: '' },
+          { devanagari: 'वृक्ष', iast: 'vṛkṣa', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढव्यः', iast: 'āroḍhavyaḥ', english: 'should or must climb', grammar: '' },
         ],
         translation: 'I must climb the tree!',
         vocabIds: [],
@@ -6061,7 +6061,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-85',
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'गन्तव्यम्', iast: 'gantavyam', english: 'should or must go or leave', grammar: '' },
         ],
@@ -6071,9 +6071,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-86',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m not scared!',
         vocabIds: [],
@@ -6082,7 +6082,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-87',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula looks at the tree.',
@@ -6091,7 +6091,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-88',
         words: [
-          { devanagari: 'व᳓꣡क᳓꣡£अ', iast: 'vṭkṭ£a', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्ष', iast: 'vṛkṣa', english: 'tree', grammar: 'nom. sg.' },
         ],
         translation: 'Tree!',
         vocabIds: [],
@@ -6099,8 +6099,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-89',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
         ],
         translation: 'I am Rahula!',
         vocabIds: [],
@@ -6108,10 +6108,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-90',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अ', iast: 'vṭkṭ£a', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्ष', iast: 'vṛkṣa', english: 'tree', grammar: 'nom. sg.' },
         ],
         translation: 'I see you, tree!',
         vocabIds: [],
@@ -6119,9 +6119,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-91',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वाम्', iast: 'tvām', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to climb you.',
@@ -6130,9 +6130,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-92',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m not scared.',
         vocabIds: [],
@@ -6140,10 +6140,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-93',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'त्वद्', iast: 'tvad', english: 'from you', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m not scared of you.',
         vocabIds: [],
@@ -6151,9 +6151,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-94',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वाम्', iast: 'tvām', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'जानामि', iast: 'jānāmi', english: '(I) know', grammar: '3rd sg. pres.' },
         ],
         translation: 'I know how to climb you!',
@@ -6162,9 +6162,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-95',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
@@ -6176,7 +6176,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'But Rahula is scared.',
         vocabIds: [],
@@ -6185,8 +6185,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-97',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is scared of the tree.',
         vocabIds: [],
@@ -6195,8 +6195,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-98',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'जानाति', iast: 'jānāti', english: 'knows', grammar: '3rd sg. pres.' },
         ],
@@ -6207,7 +6207,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-99',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हम्', iast: 'gṭham', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहम्', iast: 'gṛham', english: 'house, home', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
         ],
@@ -6217,18 +6217,18 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-100',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
-        translation: 'You\'re not a <i>rÄká¹£asa</i>!',
+        translation: 'You\'re not a <i>rākṣasa</i>!',
         vocabIds: [],
       },
       {
         id: 'am45-101',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓¸¥', iast: 'vṭkṭ£aḍ¥', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षः', iast: 'vṛkṣaḥ', english: 'tree', grammar: 'nom. sg.' },
         ],
         translation: 'You\'re a tree!',
         vocabIds: [],
@@ -6236,7 +6236,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-102',
         words: [
-          { devanagari: 'माअ᳓꣡', iast: 'māṭ', english: 'me', grammar: 'nom. sg.' },
+          { devanagari: 'मां', iast: 'māṃ', english: 'me', grammar: 'nom. sg.' },
           { devanagari: 'पशय', iast: 'paśya', english: 'see!', grammar: '3rd sg. pres.' },
         ],
         translation: 'Look at me!',
@@ -6245,8 +6245,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-103',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
         ],
         translation: 'I am Rahula!',
         vocabIds: [],
@@ -6254,7 +6254,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-104',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वाम्', iast: 'tvām', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'ारोहामि', iast: 'ārohāmi', english: '(I) climb', grammar: '3rd sg. pres.' },
         ],
@@ -6265,8 +6265,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-105',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula wants to climb the tree.',
@@ -6279,8 +6279,8 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'जानाति', iast: 'jānāti', english: 'knows', grammar: '3rd sg. pres.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
         ],
         translation: 'But Rahula doesn\'t know how to climb the tree.',
         vocabIds: [],
@@ -6288,10 +6288,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-107',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोक᳓꣡£यति', iast: 'ārokṭ£yati', english: 'will climb', grammar: '3rd sg. pres.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोक्ष्यति', iast: 'ārokṣyati', english: 'will climb', grammar: '3rd sg. pres.' },
         ],
         translation: 'Will Rahula climb the tree?',
         vocabIds: [],
@@ -6299,12 +6299,12 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-108',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'ारुह्य', iast: 'āruhya', english: 'after climbing', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
-          { devanagari: 'गमिअ᳓꣡£यति', iast: 'gamiṭ£yati', english: 'will go', grammar: '3rd sg. pres.' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
+          { devanagari: 'गमिष्यति', iast: 'gamiṣyati', english: 'will go', grammar: '3rd sg. pres.' },
         ],
         translation: 'Will Rahula climb the tree then go home?',
         vocabIds: [],
@@ -6312,8 +6312,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-109',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'जानासि', iast: 'jānāsi', english: '(you) know', grammar: '3rd sg. pres.' },
         ],
         translation: 'Do you know?',
@@ -6324,7 +6324,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'ारोहति', iast: 'ārohati', english: 'climbs', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula doesn\'t climb the tree.',
@@ -6335,8 +6335,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भीत', iast: 'bhīta', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'ारोहअ᳓꣡ाद्', iast: 'ārohaṭād', english: 'from climbing', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अस्य', iast: 'vṭkṭ£asya', english: 'of the tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोहणाद्', iast: 'ārohaṇād', english: 'from climbing', grammar: '' },
+          { devanagari: 'वृक्षस्य', iast: 'vṛkṣasya', english: 'of the tree', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is scared of climbing the tree.',
         vocabIds: [],
@@ -6356,8 +6356,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula doesn\'t want to see the tree.',
@@ -6368,9 +6368,9 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भयाद्', iast: 'bhayād', english: 'from fear', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula, due to fear, doesn\'t want to see the tree.',
@@ -6381,7 +6381,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -6393,7 +6393,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Rahula goes home.',
@@ -6404,7 +6404,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भयाद्', iast: 'bhayād', english: 'from fear', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula goes home from fear.',
@@ -6414,9 +6414,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-118',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
           { devanagari: 'भयात्', iast: 'bhayāt', english: 'from fear', grammar: '' },
         ],
@@ -6427,8 +6427,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-119',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
-          { devanagari: 'गतअ᳓¸¥', iast: 'gataḍ¥', english: 'gone', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
+          { devanagari: 'गतः', iast: 'gataḥ', english: 'gone', grammar: '' },
         ],
         translation: 'Rahula has gone home.',
         vocabIds: [],
@@ -6437,10 +6437,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-120',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula, after going home, doesn\'t see a tree.',
@@ -6451,7 +6451,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula isn\'t scared.',
         vocabIds: [],
@@ -6460,9 +6460,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-122',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हे', iast: 'gṭhe', english: 'in the house, at home', grammar: '' },
+          { devanagari: 'गृहे', iast: 'gṛhe', english: 'in the house, at home', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula isn\'t scared at home.',
         vocabIds: [],
@@ -6482,8 +6482,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-124',
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Why am I scared?',
         vocabIds: [],
@@ -6492,9 +6492,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-125',
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'भीतो', iast: 'bhīto', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ात्', iast: 'vṭkṭ£āt', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षात्', iast: 'vṛkṣāt', english: 'from the tree', grammar: 'nom. sg.' },
         ],
         translation: 'Why am I scared of a tree?',
         vocabIds: [],
@@ -6504,8 +6504,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'अहम्', iast: 'aham', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'ारोहअ᳓꣡ाद्', iast: 'ārohaṭād', english: 'from climbing', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'आरोहणाद्', iast: 'ārohaṇād', english: 'from climbing', grammar: '' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Why am I scared of climbing?',
         vocabIds: [],
@@ -6514,9 +6514,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-127',
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'भीतो', iast: 'bhīto', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Why am I a scared boy?',
         vocabIds: [],
@@ -6524,7 +6524,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-128',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'जानामि', iast: 'jānāmi', english: '(I) know', grammar: '3rd sg. pres.' },
         ],
@@ -6535,7 +6535,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-129',
         words: [
           { devanagari: 'किन्त्व्', iast: 'kintv', english: 'but', grammar: '' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'ज्ञातुम्', iast: 'jñātum', english: 'to know', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
@@ -6547,8 +6547,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'अहम्', iast: 'aham', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'इच्छाम्य्', iast: 'icchāmy', english: '(I) want', grammar: '3rd sg. pres.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
         ],
         translation: 'I want to climb the tree!',
         vocabIds: [],
@@ -6557,7 +6557,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-131',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हे', iast: 'gṭhe', english: 'in the house, at home', grammar: '' },
+          { devanagari: 'गृहे', iast: 'gṛhe', english: 'in the house, at home', grammar: '' },
         ],
         translation: 'Rahula is at home.',
         vocabIds: [],
@@ -6567,7 +6567,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula doesn\'t see the tree.',
@@ -6588,8 +6588,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-134',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula wants to climb the tree.',
@@ -6598,8 +6598,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-135',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m scared.',
         vocabIds: [],
@@ -6607,9 +6607,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-136',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'भीतो', iast: 'bhīto', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ात्', iast: 'vṭkṭ£āt', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षात्', iast: 'vṛkṣāt', english: 'from the tree', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m scared of the tree.',
         vocabIds: [],
@@ -6617,9 +6617,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-137',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'भीत', iast: 'bhīta', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'ारोहअ᳓꣡ात्', iast: 'ārohaṭāt', english: 'from climbing', grammar: '' },
+          { devanagari: 'आरोहणात्', iast: 'ārohaṇāt', english: 'from climbing', grammar: '' },
         ],
         translation: 'I\'m scared of climbing.',
         vocabIds: [],
@@ -6627,10 +6627,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-138',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'भीत', iast: 'bhīta', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'ारोहअ᳓꣡ाद्', iast: 'ārohaṭād', english: 'from climbing', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अस्य', iast: 'vṭkṭ£asya', english: 'of the tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोहणाद्', iast: 'ārohaṇād', english: 'from climbing', grammar: '' },
+          { devanagari: 'वृक्षस्य', iast: 'vṛkṣasya', english: 'of the tree', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m scared of climbing a tree!',
         vocabIds: [],
@@ -6638,10 +6638,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-139',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I don\'t want to see the tree.',
@@ -6652,8 +6652,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ओ', iast: 'vṭkṭ£o', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'गन्तव्यअ᳓¸¥', iast: 'gantavyaḍ¥', english: 'should or must go or leave', grammar: '' },
+          { devanagari: 'वृक्षो', iast: 'vṛkṣo', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'गन्तव्यः', iast: 'gantavyaḥ', english: 'should or must go or leave', grammar: '' },
         ],
         translation: 'But I must go to the tree.',
         vocabIds: [],
@@ -6662,8 +6662,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-141',
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ओ', iast: 'vṭkṭ£o', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­अव्यअ᳓¸¥', iast: 'draṭ£ṭ­avyaḍ¥', english: 'should or must see', grammar: '' },
+          { devanagari: 'वृक्षो', iast: 'vṛkṣo', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टव्यः', iast: 'draṣṭavyaḥ', english: 'should or must see', grammar: '' },
         ],
         translation: 'I must see the tree.',
         vocabIds: [],
@@ -6672,8 +6672,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-142',
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अ', iast: 'vṭkṭ£a', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हव्यअ᳓¸¥', iast: 'āroḍhavyaḍ¥', english: 'should or must climb', grammar: '' },
+          { devanagari: 'वृक्ष', iast: 'vṛkṣa', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढव्यः', iast: 'āroḍhavyaḥ', english: 'should or must climb', grammar: '' },
         ],
         translation: 'I must climb the tree!',
         vocabIds: [],
@@ -6684,7 +6684,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'भीतो', iast: 'bhīto', english: 'scared', grammar: 'nom. sg.' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -6696,7 +6696,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Rahula goes to the tree.',
@@ -6706,8 +6706,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-145',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हाद्', iast: 'gṭhād', english: 'from the house', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'गृहाद्', iast: 'gṛhād', english: 'from the house', grammar: '' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula goes from his house to the tree.',
@@ -6717,9 +6717,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-146',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हाद्', iast: 'gṭhād', english: 'from the house', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'गतअ᳓¸¥', iast: 'gataḍ¥', english: 'gone', grammar: '' },
+          { devanagari: 'गृहाद्', iast: 'gṛhād', english: 'from the house', grammar: '' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'गतः', iast: 'gataḥ', english: 'gone', grammar: '' },
         ],
         translation: 'Rahula has gone from his house to the tree.',
         vocabIds: [],
@@ -6728,10 +6728,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-147',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हाद्', iast: 'gṭhād', english: 'from the house', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'गृहाद्', iast: 'gṛhād', english: 'from the house', grammar: '' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'गत्वा', iast: 'gatvā', english: 'after going', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula, after going from his house to the tree, sees the tree.',
@@ -6740,7 +6740,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-148',
         words: [
-          { devanagari: 'व᳓꣡क᳓꣡£अ', iast: 'vṭkṭ£a', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्ष', iast: 'vṛkṣa', english: 'tree', grammar: 'nom. sg.' },
         ],
         translation: 'Tree!',
         vocabIds: [],
@@ -6748,9 +6748,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-149',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गच्छामि', iast: 'gacchāmi', english: '(I) go, am going', grammar: '3rd sg. pres.' },
         ],
         translation: 'I\'m not going home.',
@@ -6759,9 +6759,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-150',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वाम्', iast: 'tvām', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to climb you.',
@@ -6770,8 +6770,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-151',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m Rahula.',
         vocabIds: [],
@@ -6779,11 +6779,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-152',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'जानाम्य्', iast: 'jānāmy', english: '(I) know', grammar: '3rd sg. pres.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
         ],
         translation: 'I don\'t know how to climb you.',
         vocabIds: [],
@@ -6791,8 +6791,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-153',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m scared.',
         vocabIds: [],
@@ -6800,10 +6800,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-154',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वाम्', iast: 'tvām', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m scared to climb you.',
         vocabIds: [],
@@ -6812,7 +6812,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-155',
         words: [
           { devanagari: 'किन्त्व्', iast: 'kintv', english: 'but', grammar: '' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वाम्', iast: 'tvām', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'ारोहामि', iast: 'ārohāmi', english: '(I) climb', grammar: '3rd sg. pres.' },
         ],
@@ -6824,7 +6824,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'त्वम्', iast: 'tvam', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हव्यअ᳓¸¥', iast: 'āroḍhavyaḍ¥', english: 'should or must climb', grammar: '' },
+          { devanagari: 'आरोढव्यः', iast: 'āroḍhavyaḥ', english: 'should or must climb', grammar: '' },
         ],
         translation: 'I must climb you!',
         vocabIds: [],
@@ -6833,9 +6833,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-157',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'जानासि', iast: 'jānāsi', english: '(you) know', grammar: '3rd sg. pres.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
@@ -6846,8 +6846,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-158',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'ज्ञापयितुम्', iast: 'jñāpayitum', english: 'to explain', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
@@ -6857,8 +6857,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-159',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'ज्ञातुम्', iast: 'jñātum', english: 'to know', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
@@ -6868,10 +6868,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-160',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Do you want to know how to climb the tree?',
@@ -6880,7 +6880,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-161',
         words: [
-          { devanagari: 'ाअ᳓¸¥', iast: 'āḍ¥', english: 'Ah!', grammar: '' },
+          { devanagari: 'आः', iast: 'āḥ', english: 'Ah!', grammar: '' },
         ],
         translation: 'Ah!',
         vocabIds: [],
@@ -6889,7 +6889,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-162',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हम्', iast: 'gṭham', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहम्', iast: 'gṛham', english: 'house, home', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
         ],
@@ -6900,7 +6900,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-163',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is scared.',
         vocabIds: [],
@@ -6911,8 +6911,8 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'But Rahula isn\'t scared of the tree.',
         vocabIds: [],
@@ -6920,8 +6920,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-165',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'What does Rahula see?',
@@ -6930,10 +6930,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-166',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
         translation: 'What does Rahula see in the tree?',
         vocabIds: [],
@@ -6942,30 +6942,30 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-167',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
-        translation: 'Rahula sees a <i>rÄká¹£asa</i>.',
+        translation: 'Rahula sees a <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
         id: 'am45-168',
         words: [
-          { devanagari: 'राक᳓꣡£असो', iast: 'rākṭ£aso', english: 'demon', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसो', iast: 'rākṣaso', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
-        translation: 'A <i>rÄká¹£asa</i> is in the tree.',
+        translation: 'A <i>rākṣasa</i> is in the tree.',
         vocabIds: [],
       },
       {
         id: 'am45-169',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
-        translation: 'Rahula sees a <i>rÄká¹£asa</i> in the tree.',
+        translation: 'Rahula sees a <i>rākṣasa</i> in the tree.',
         vocabIds: [],
       },
       {
@@ -6973,8 +6973,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula doesn\'t want to climb the tree.',
@@ -6984,7 +6984,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-171',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -6996,7 +6996,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
@@ -7007,10 +7007,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-173',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असाद्', iast: 'rākṭ£asād', english: 'from the demon', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसाद्', iast: 'rākṣasād', english: 'from the demon', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
-        translation: 'Rahula is scared of the <i>rÄká¹£asa</i>.',
+        translation: 'Rahula is scared of the <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
@@ -7018,7 +7018,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भयाद्', iast: 'bhayād', english: 'from fear', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
@@ -7046,8 +7046,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-177',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
           { devanagari: 'अवरोहामि', iast: 'avarohāmi', english: '(I) climb down', grammar: '3rd sg. pres.' },
         ],
         translation: 'I\'m climbing down from the tree.',
@@ -7056,9 +7056,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-178',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
         ],
@@ -7068,43 +7068,43 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-179',
         words: [
-          { devanagari: 'राक᳓꣡£असो', iast: 'rākṭ£aso', english: 'demon', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसो', iast: 'rākṣaso', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
           { devanagari: 'अवरोहति', iast: 'avarohati', english: 'climb downs', grammar: '3rd sg. pres.' },
         ],
-        translation: 'The <i>rÄká¹£asa</i> climbs down from the tree.',
+        translation: 'The <i>rākṣasa</i> climbs down from the tree.',
         vocabIds: [],
       },
       {
         id: 'am45-180',
         words: [
-          { devanagari: 'राक᳓꣡£असो', iast: 'rākṭ£aso', english: 'demon', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
-          { devanagari: 'अवरूअ᳓¸हवान्', iast: 'avarūḍhavān', english: 'have climbed down', grammar: '' },
+          { devanagari: 'राक्षसो', iast: 'rākṣaso', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'अवरूढवान्', iast: 'avarūḍhavān', english: 'have climbed down', grammar: '' },
         ],
-        translation: 'The <i>rÄká¹£asa</i> has climbed down from the tree.',
+        translation: 'The <i>rākṣasa</i> has climbed down from the tree.',
         vocabIds: [],
       },
       {
         id: 'am45-181',
         words: [
-          { devanagari: 'राक᳓꣡£असो', iast: 'rākṭ£aso', english: 'demon', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓꣡', iast: 'rāhulaṭ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसो', iast: 'rākṣaso', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलं', iast: 'rāhulaṃ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
-        translation: 'The <i>rÄká¹£asa</i> goes to Rahula.',
+        translation: 'The <i>rākṣasa</i> goes to Rahula.',
         vocabIds: [],
       },
       {
         id: 'am45-182',
         words: [
-          { devanagari: 'राक᳓꣡£असो', iast: 'rākṭ£aso', english: 'demon', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसो', iast: 'rākṣaso', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
           { devanagari: 'अवरुह्य', iast: 'avaruhya', english: 'after climbing down', grammar: '' },
-          { devanagari: 'राहुलअ᳓꣡', iast: 'rāhulaṭ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलं', iast: 'rāhulaṃ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
-        translation: 'The <i>rÄká¹£asa</i>, after climbing down from the tree, goes to Rahula.',
+        translation: 'The <i>rākṣasa</i>, after climbing down from the tree, goes to Rahula.',
         vocabIds: [],
       },
       {
@@ -7114,7 +7114,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
-          { devanagari: 'ग᳓꣡हम्', iast: 'gṭham', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहम्', iast: 'gṛham', english: 'house, home', grammar: '' },
         ],
         translation: 'Rahula, scared, wants to go home.',
         vocabIds: [],
@@ -7122,7 +7122,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-184',
         words: [
-          { devanagari: 'ाअ᳓¸¥', iast: 'āḍ¥', english: 'Ah!', grammar: '' },
+          { devanagari: 'आः', iast: 'āḥ', english: 'Ah!', grammar: '' },
         ],
         translation: 'Ah!',
         vocabIds: [],
@@ -7131,9 +7131,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-185',
         words: [
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
-          { devanagari: 'राक᳓꣡£अस', iast: 'rākṭ£asa', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षस', iast: 'rākṣasa', english: 'demon', grammar: 'nom. sg.' },
         ],
-        translation: 'Go, <i>rÄká¹£asa</i>!',
+        translation: 'Go, <i>rākṣasa</i>!',
         vocabIds: [],
       },
       {
@@ -7141,7 +7141,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
           { devanagari: 'तव', iast: 'tava', english: 'your, of you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
         ],
         translation: 'Go to your tree!',
         vocabIds: [],
@@ -7149,10 +7149,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-187',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I don\'t want to see you!',
@@ -7162,9 +7162,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-188',
         words: [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'माअ᳓꣡', iast: 'māṭ', english: 'me', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'मां', iast: 'māṃ', english: 'me', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Why do you want to see me?',
@@ -7173,8 +7173,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-189',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
         ],
@@ -7185,53 +7185,53 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-190',
         words: [
           { devanagari: 'किन्त्व्', iast: 'kintv', english: 'but', grammar: '' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
         ],
-        translation: 'But I don\'t see a <i>rÄká¹£asa</i>.',
+        translation: 'But I don\'t see a <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
         id: 'am45-191',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असो', iast: 'rākṭ£aso', english: 'demon', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसो', iast: 'rākṣaso', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
-        translation: 'Is a <i>rÄká¹£asa</i> in the tree?',
+        translation: 'Is a <i>rākṣasa</i> in the tree?',
         vocabIds: [],
       },
       {
         id: 'am45-192',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'पशयसि', iast: 'paśyasi', english: '(you) see, are seeing', grammar: '3rd sg. pres.' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
-        translation: 'Do you see a <i>rÄká¹£asa</i> in the tree?',
+        translation: 'Do you see a <i>rākṣasa</i> in the tree?',
         vocabIds: [],
       },
       {
         id: 'am45-193',
         words: [
-          { devanagari: 'राक᳓꣡£असो', iast: 'rākṭ£aso', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसो', iast: 'rākṣaso', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
-        translation: 'The <i>rÄká¹£asa</i> isn\'t in the tree.',
+        translation: 'The <i>rākṣasa</i> isn\'t in the tree.',
         vocabIds: [],
       },
       {
         id: 'am45-194',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
-        translation: 'You\'re the <i>rÄká¹£asa</i>!',
+        translation: 'You\'re the <i>rākṣasa</i>!',
         vocabIds: [],
       },
       {
@@ -7239,7 +7239,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
           { devanagari: 'तव', iast: 'tava', english: 'your, of you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
         ],
         translation: 'Go your tree!',
         vocabIds: [],
@@ -7249,7 +7249,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
           { devanagari: 'तव', iast: 'tava', english: 'your, of you', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हम्', iast: 'gṭham', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहम्', iast: 'gṛham', english: 'house, home', grammar: '' },
         ],
         translation: 'Go to your home!',
         vocabIds: [],
@@ -7258,18 +7258,18 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-197',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'राक᳓꣡£असो', iast: 'rākṭ£aso', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसो', iast: 'rākṣaso', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
-        translation: 'But the <i>rÄká¹£asa</i> doesn\'t go to the tree.',
+        translation: 'But the <i>rākṣasa</i> doesn\'t go to the tree.',
         vocabIds: [],
       },
       {
         id: 'am45-198',
         words: [
-          { devanagari: 'माअ᳓꣡', iast: 'māṭ', english: 'me', grammar: 'nom. sg.' },
+          { devanagari: 'मां', iast: 'māṃ', english: 'me', grammar: 'nom. sg.' },
           { devanagari: 'पशय', iast: 'paśya', english: 'see!', grammar: '3rd sg. pres.' },
         ],
         translation: 'Look at me!',
@@ -7278,7 +7278,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-199',
         words: [
-          { devanagari: 'माअ᳓꣡', iast: 'māṭ', english: 'me', grammar: 'nom. sg.' },
+          { devanagari: 'मां', iast: 'māṃ', english: 'me', grammar: 'nom. sg.' },
           { devanagari: 'पशय', iast: 'paśya', english: 'see!', grammar: '3rd sg. pres.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
         ],
@@ -7288,7 +7288,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-200',
         words: [
-          { devanagari: 'ाअ᳓¸¥', iast: 'āḍ¥', english: 'Ah!', grammar: '' },
+          { devanagari: 'आः', iast: 'āḥ', english: 'Ah!', grammar: '' },
         ],
         translation: 'Ah!',
         vocabIds: [],
@@ -7297,7 +7297,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-201',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is scared.',
         vocabIds: [],
@@ -7307,7 +7307,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भीतो', iast: 'bhīto', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ात्', iast: 'vṭkṭ£āt', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षात्', iast: 'vṛkṣāt', english: 'from the tree', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is scared of the tree.',
         vocabIds: [],
@@ -7317,7 +7317,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भीत', iast: 'bhīta', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'ारोहअ᳓꣡ात्', iast: 'ārohaṭāt', english: 'from climbing', grammar: '' },
+          { devanagari: 'आरोहणात्', iast: 'ārohaṇāt', english: 'from climbing', grammar: '' },
         ],
         translation: 'Rahula is scared of climbing.',
         vocabIds: [],
@@ -7327,9 +7327,9 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'भीतो', iast: 'bhīto', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असात्', iast: 'rākṭ£asāt', english: 'from the demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसात्', iast: 'rākṣasāt', english: 'from the demon', grammar: 'nom. sg.' },
         ],
-        translation: 'Rahula is scared of the <i>rÄká¹£asa</i>.',
+        translation: 'Rahula is scared of the <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
@@ -7337,18 +7337,18 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
-        translation: 'Rahula doesn\'t want to see the <i>rÄká¹£asa</i>.',
+        translation: 'Rahula doesn\'t want to see the <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
         id: 'am45-206',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -7361,7 +7361,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Rahula doesn\'t go home.',
@@ -7370,9 +7370,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-208',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m not scared.',
         vocabIds: [],
@@ -7380,9 +7380,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-209',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m not scared.',
         vocabIds: [],
@@ -7390,9 +7390,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-210',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m not scared!',
         vocabIds: [],
@@ -7400,10 +7400,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-211',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'त्वद्', iast: 'tvad', english: 'from you', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m not scared of you!',
         vocabIds: [],
@@ -7412,17 +7412,17 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-212',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
-        translation: 'Rahula looks at the <i>rÄká¹£asa</i>.',
+        translation: 'Rahula looks at the <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
         id: 'am45-213',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'What does Rahula see?',
@@ -7431,12 +7431,12 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-214',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
-          { devanagari: 'राक᳓꣡£असम्', iast: 'rākṭ£asam', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसम्', iast: 'rākṣasam', english: 'demon', grammar: 'nom. sg.' },
         ],
-        translation: 'Does Rahula see a <i>rÄká¹£asa</i>?',
+        translation: 'Does Rahula see a <i>rākṣasa</i>?',
         vocabIds: [],
       },
       {
@@ -7444,17 +7444,17 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असअ᳓꣡', iast: 'rākṭ£asaṭ', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसं', iast: 'rākṣasaṃ', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
-        translation: 'Rahula doesn\'t see a <i>rÄká¹£asa</i>.',
+        translation: 'Rahula doesn\'t see a <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
         id: 'am45-216',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓꣡', iast: 'kaṭ', english: 'whom?', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'कं', iast: 'kaṃ', english: 'whom?', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Whom does Rahula see?',
@@ -7464,8 +7464,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-217',
         words: [
           { devanagari: 'को', iast: 'ko', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
-          { devanagari: 'अवरूअ᳓¸हवान्', iast: 'avarūḍhavān', english: 'have climbed down', grammar: '' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'अवरूढवान्', iast: 'avarūḍhavān', english: 'have climbed down', grammar: '' },
         ],
         translation: 'Who has climbed down from the tree?',
         vocabIds: [],
@@ -7473,8 +7473,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-218',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula sees Sanjaya!',
@@ -7483,19 +7483,19 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-219',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
-        translation: 'Sanjaya isn\'t a <i>rÄká¹£asa</i>.',
+        translation: 'Sanjaya isn\'t a <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
         id: 'am45-220',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is a happy boy.',
         vocabIds: [],
@@ -7511,18 +7511,18 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-222',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
-        translation: 'I\'m not a <i>rÄká¹£asa</i>.',
+        translation: 'I\'m not a <i>rākṣasa</i>.',
         vocabIds: [],
       },
       {
         id: 'am45-223',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m a boy.',
         vocabIds: [],
@@ -7530,7 +7530,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-224',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is happy.',
@@ -7541,8 +7541,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयात्', iast: 'saṭjayāt', english: 'from Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'संजयात्', iast: 'saṃjayāt', english: 'from Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula isn\'t scared of Sanjaya.',
         vocabIds: [],
@@ -7550,18 +7550,18 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-226',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
-        translation: 'You\'re not a <i>rÄká¹£asa</i>!',
+        translation: 'You\'re not a <i>rākṣasa</i>!',
         vocabIds: [],
       },
       {
         id: 'am45-227',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'You\'re a boy!',
         vocabIds: [],
@@ -7569,8 +7569,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-228',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m Rahula.',
         vocabIds: [],
@@ -7578,8 +7578,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-229',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who are you?',
         vocabIds: [],
@@ -7597,8 +7597,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-231',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m Sanjaya!',
         vocabIds: [],
@@ -7607,10 +7607,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-232',
         words: [
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula, do you want to climb the tree?',
@@ -7619,10 +7619,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-233',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'इच्छाम्य्', iast: 'icchāmy', english: '(I) want', grammar: '3rd sg. pres.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
         ],
         translation: 'I want to climb the tree.',
         vocabIds: [],
@@ -7631,11 +7631,11 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-234',
         words: [
           { devanagari: 'किन्त्व्', iast: 'kintv', english: 'but', grammar: '' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'जानाम्य्', iast: 'jānāmy', english: '(I) know', grammar: '3rd sg. pres.' },
-          { devanagari: 'ारोअ᳓¸हुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
+          { devanagari: 'आरोढुम्', iast: 'āroḍhum', english: 'to climb', grammar: '' },
         ],
         translation: 'But I don\'t know how to climb the tree.',
         vocabIds: [],
@@ -7644,8 +7644,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-235',
         words: [
           { devanagari: 'अहम्', iast: 'aham', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'ारोहअ᳓꣡ाद्', iast: 'ārohaṭād', english: 'from climbing', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'आरोहणाद्', iast: 'ārohaṇād', english: 'from climbing', grammar: '' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m scared of climbing.',
         vocabIds: [],
@@ -7653,9 +7653,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-236',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'What are you scared of?',
         vocabIds: [],
@@ -7663,9 +7663,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-237',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'जानासि', iast: 'jānāsi', english: '(you) know', grammar: '3rd sg. pres.' },
         ],
@@ -7676,9 +7676,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-238',
         words: [
           { devanagari: 'किन्त्व्', iast: 'kintv', english: 'but', grammar: '' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'जानामि', iast: 'jānāmi', english: '(I) know', grammar: '3rd sg. pres.' },
         ],
         translation: 'But I know how to climb a tree.',
@@ -7687,8 +7687,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-239',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'ज्ञापयितुम्', iast: 'jñāpayitum', english: 'to explain', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
@@ -7698,9 +7698,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-240',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोक᳓꣡£यसि', iast: 'ārokṭ£yasi', english: '(you) will climb', grammar: '3rd sg. pres.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोक्ष्यसि', iast: 'ārokṣyasi', english: '(you) will climb', grammar: '3rd sg. pres.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
         ],
         translation: 'You will climb a tree, Rahula!',
@@ -7709,7 +7709,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-241',
         words: [
-          { devanagari: 'माअ᳓꣡', iast: 'māṭ', english: 'me', grammar: 'nom. sg.' },
+          { devanagari: 'मां', iast: 'māṃ', english: 'me', grammar: 'nom. sg.' },
           { devanagari: 'ज्ञापय', iast: 'jñāpaya', english: 'explain!', grammar: '' },
         ],
         translation: 'Teach me!',
@@ -7719,9 +7719,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-242',
         words: [
           { devanagari: 'माम्', iast: 'mām', english: 'me', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'ज्ञापय', iast: 'jñāpaya', english: 'explain!', grammar: '' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Teach me to climb, Sanjaya.',
         vocabIds: [],
@@ -7729,7 +7729,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-243',
         words: [
-          { devanagari: 'माअ᳓꣡', iast: 'māṭ', english: 'me', grammar: 'nom. sg.' },
+          { devanagari: 'मां', iast: 'māṃ', english: 'me', grammar: 'nom. sg.' },
           { devanagari: 'पशय', iast: 'paśya', english: 'see!', grammar: '3rd sg. pres.' },
         ],
         translation: 'Look at me!',
@@ -7738,8 +7738,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-244',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'ज्ञापयामि', iast: 'jñāpayāmi', english: '(I) explain', grammar: '' },
         ],
         translation: 'I will teach you.',
@@ -7748,9 +7748,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-245',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'राहुलाय', iast: 'rāhulāya', english: 'for Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'ारोहति', iast: 'ārohati', english: 'climbs', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya climbs the tree for Rahula.',
@@ -7759,9 +7759,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-246',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'माअ᳓꣡', iast: 'māṭ', english: 'me', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'मां', iast: 'māṃ', english: 'me', grammar: 'nom. sg.' },
           { devanagari: 'पशयसि', iast: 'paśyasi', english: '(you) see, are seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Do you see me?',
@@ -7770,10 +7770,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-247',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'I see you, Sanjaya!',
         vocabIds: [],
@@ -7781,9 +7781,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-248',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारूअ᳓¸हवान्', iast: 'ārūḍhavān', english: 'has climbed', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरूढवान्', iast: 'ārūḍhavān', english: 'has climbed', grammar: '' },
         ],
         translation: 'Sanjaya has climbed the tree.',
         vocabIds: [],
@@ -7791,8 +7791,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-249',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓꣡', iast: 'rāhulaṭ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलं', iast: 'rāhulaṃ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya looks at Rahula.',
@@ -7801,9 +7801,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-250',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Are you scared?',
         vocabIds: [],
@@ -7811,10 +7811,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-251',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'जानासि', iast: 'jānāsi', english: '(you) know', grammar: '3rd sg. pres.' },
         ],
         translation: 'Do you know how to climb the tree?',
@@ -7823,10 +7823,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-252',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m not scared, Sanjaya.',
         vocabIds: [],
@@ -7834,9 +7834,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-253',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'जानामि', iast: 'jānāmi', english: '(I) know', grammar: '3rd sg. pres.' },
         ],
         translation: 'I know how to climb the tree!',
@@ -7845,9 +7845,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-254',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'राहुलाय', iast: 'rāhulāya', english: 'for Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अअ᳓꣡', iast: 'vṭkṭ£aṭ', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षं', iast: 'vṛkṣaṃ', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'दर्शअयति', iast: 'darśayati', english: 'shows', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya shows the tree to Rahula.',
@@ -7865,7 +7865,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-256',
         words: [
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'ारोह', iast: 'āroha', english: 'climb!', grammar: '3rd sg. pres.' },
         ],
         translation: 'Climb the tree!',
@@ -7875,7 +7875,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-257',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'ारोहति', iast: 'ārohati', english: 'climbs', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula climbs the tree.',
@@ -7884,9 +7884,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-258',
         words: [
-          { devanagari: 'माअ᳓꣡', iast: 'māṭ', english: 'me', grammar: 'nom. sg.' },
+          { devanagari: 'मां', iast: 'māṃ', english: 'me', grammar: 'nom. sg.' },
           { devanagari: 'पशय', iast: 'paśya', english: 'see!', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Look at me, Sanjaya!',
         vocabIds: [],
@@ -7894,8 +7894,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-259',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
           { devanagari: 'ारोहामि', iast: 'ārohāmi', english: '(I) climb', grammar: '3rd sg. pres.' },
         ],
         translation: 'I\'m climbing the tree!',
@@ -7904,7 +7904,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-260',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is happy.',
@@ -7913,8 +7913,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-261',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
         ],
@@ -7941,7 +7941,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-264',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is in the tree.',
         vocabIds: [],
@@ -7950,8 +7950,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-265',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारूअ᳓¸हवान्', iast: 'ārūḍhavān', english: 'has climbed', grammar: '' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरूढवान्', iast: 'ārūḍhavān', english: 'has climbed', grammar: '' },
         ],
         translation: 'Rahula has climbed the tree.',
         vocabIds: [],
@@ -7959,9 +7959,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-266',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is a happy boy.',
         vocabIds: [],
@@ -7971,7 +7971,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'भीतअ᳓¸¥', iast: 'bhītaḍ¥', english: 'scared', grammar: 'nom. sg.' },
+          { devanagari: 'भीतः', iast: 'bhītaḥ', english: 'scared', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula isn\'t scared.',
         vocabIds: [],
@@ -7979,8 +7979,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-268',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
         ],
@@ -7990,7 +7990,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-269',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m happy!',
@@ -8000,7 +8000,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-270',
         words: [
           { devanagari: 'पशय', iast: 'paśya', english: 'see!', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Look, Sanjaya!',
         vocabIds: [],
@@ -8009,7 +8009,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-271',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula sees his house.',
@@ -8019,8 +8019,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-272',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयाय', iast: 'saṭjayāya', english: 'for Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
+          { devanagari: 'संजयाय', iast: 'saṃjayāya', english: 'for Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'दर्शअयति', iast: 'darśayati', english: 'shows', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula shows his house to Sanjaya.',
@@ -8029,9 +8029,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-273',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'मम', iast: 'mama', english: 'my, of me', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'I see my house.',
@@ -8040,10 +8040,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-274',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'तव', iast: 'tava', english: 'your, of you', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'पशयसि', iast: 'paśyasi', english: '(you) see, are seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Do you see your house?',
@@ -8052,10 +8052,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-275',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
           { devanagari: 'मम', iast: 'mama', english: 'my, of me', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हम्', iast: 'gṭham', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहम्', iast: 'gṛham', english: 'house, home', grammar: '' },
         ],
         translation: 'I see my house.',
         vocabIds: [],
@@ -8071,9 +8071,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-277',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'राहुलाय', iast: 'rāhulāya', english: 'for Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'दर्शअयति', iast: 'darśayati', english: 'shows', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya shows his house to Rahula.',
@@ -8082,7 +8082,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-278',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is happy.',
@@ -8091,8 +8091,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-279',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
@@ -8103,10 +8103,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-280',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'मम', iast: 'mama', english: 'my, of me', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
@@ -8116,11 +8116,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-281',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'मम', iast: 'mama', english: 'my, of me', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Do you want to see my house?',
@@ -8129,10 +8129,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-282',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'तव', iast: 'tava', english: 'your, of you', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to see your house.',
@@ -8141,7 +8141,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-283',
         words: [
-          { devanagari: 'गच्छावअ᳓¸¥', iast: 'gacchāvaḍ¥', english: '(we two) go, are going', grammar: '3rd sg. pres.' },
+          { devanagari: 'गच्छावः', iast: 'gacchāvaḥ', english: '(we two) go, are going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Let\'s go!',
         vocabIds: [],
@@ -8149,7 +8149,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-284',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is happy.',
@@ -8158,8 +8158,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-285',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
           { devanagari: 'अवरोहति', iast: 'avarohati', english: 'climb downs', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya climbs down from the tree.',
@@ -8169,11 +8169,11 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-286',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ाद्', iast: 'vṭkṭ£ād', english: 'from the tree', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षाद्', iast: 'vṛkṣād', english: 'from the tree', grammar: 'nom. sg.' },
           { devanagari: 'अवरुह्य', iast: 'avaruhya', english: 'after climbing down', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राहुलअ᳓꣡', iast: 'rāhulaṭ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलं', iast: 'rāhulaṃ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Sanjaya doesn\'t see Rahula after climbing down from the tree.',
@@ -8190,8 +8190,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-288',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
@@ -8202,9 +8202,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-289',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m in the tree, Sanjaya!',
         vocabIds: [],
@@ -8212,9 +8212,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-290',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓꣡', iast: 'rāhulaṭ', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£ए', iast: 'vṭkṭ£e', english: 'in or on the tree', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलं', iast: 'rāhulaṃ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षे', iast: 'vṛkṣe', english: 'in or on the tree', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya sees Rahula in the tree.',
@@ -8235,7 +8235,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am45-292',
         words: [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
@@ -8246,9 +8246,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-293',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'जानासि', iast: 'jānāsi', english: '(you) know', grammar: '3rd sg. pres.' },
         ],
         translation: 'You know how to climb a tree.',
@@ -8257,9 +8257,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-294',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारूअ᳓¸हवान्', iast: 'ārūḍhavān', english: 'has climbed', grammar: '' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरूढवान्', iast: 'ārūḍhavān', english: 'has climbed', grammar: '' },
         ],
         translation: 'You\'ve climbed a tree!',
         vocabIds: [],
@@ -8267,9 +8267,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-295',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारूअ᳓¸हवान्', iast: 'ārūḍhavān', english: 'has climbed', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरूढवान्', iast: 'ārūḍhavān', english: 'has climbed', grammar: '' },
         ],
         translation: 'I\'ve climbed a tree.',
         vocabIds: [],
@@ -8277,9 +8277,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am45-296',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'व᳓꣡क᳓꣡£अम्', iast: 'vṭkṭ£am', english: 'tree', grammar: 'nom. sg.' },
-          { devanagari: 'ारोअ᳓¸हुअ᳓꣡', iast: 'āroḍhuṭ', english: 'to climb', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'वृक्षम्', iast: 'vṛkṣam', english: 'tree', grammar: 'nom. sg.' },
+          { devanagari: 'आरोढुं', iast: 'āroḍhuṃ', english: 'to climb', grammar: '' },
           { devanagari: 'जानामि', iast: 'jānāmi', english: '(I) know', grammar: '3rd sg. pres.' },
         ],
         translation: 'I know how to climb a tree.',
@@ -8290,7 +8290,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्त्व्', iast: 'kintv', english: 'but', grammar: '' },
           { devanagari: 'अहम्', iast: 'aham', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'अवरोअ᳓¸हुअ᳓꣡', iast: 'avaroḍhuṭ', english: 'to climb down', grammar: '' },
+          { devanagari: 'अवरोढुं', iast: 'avaroḍhuṃ', english: 'to climb down', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'जानामि', iast: 'jānāmi', english: '(I) know', grammar: '3rd sg. pres.' },
         ],
@@ -8312,8 +8312,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-1',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Rama?',
         vocabIds: [],
@@ -8321,9 +8321,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-2',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'वानरअ᳓¸¥', iast: 'vānaraḍ¥', english: 'monkey', grammar: 'nom. sg.' },
+          { devanagari: 'वानरः', iast: 'vānaraḥ', english: 'monkey', grammar: 'nom. sg.' },
         ],
         translation: 'Is Rama a monkey?',
         vocabIds: [],
@@ -8333,7 +8333,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'वानरअ᳓¸¥', iast: 'vānaraḍ¥', english: 'monkey', grammar: 'nom. sg.' },
+          { devanagari: 'वानरः', iast: 'vānaraḥ', english: 'monkey', grammar: 'nom. sg.' },
         ],
         translation: 'Rama is not a monkey.',
         vocabIds: [],
@@ -8342,7 +8342,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-4',
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'नरअ᳓¸¥', iast: 'naraḍ¥', english: 'man', grammar: 'nom. sg.' },
+          { devanagari: 'नरः', iast: 'naraḥ', english: 'man', grammar: 'nom. sg.' },
         ],
         translation: 'Rama is a man.',
         vocabIds: [],
@@ -8361,7 +8361,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'नरअ᳓¸¥', iast: 'naraḍ¥', english: 'man', grammar: 'nom. sg.' },
+          { devanagari: 'नरः', iast: 'naraḥ', english: 'man', grammar: 'nom. sg.' },
         ],
         translation: 'Rama is a strong man.',
         vocabIds: [],
@@ -8371,7 +8371,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'बलवत्तमो', iast: 'balavattamo', english: 'strongest', grammar: 'nom. sg.' },
-          { devanagari: 'नरअ᳓¸¥', iast: 'naraḍ¥', english: 'man', grammar: 'nom. sg.' },
+          { devanagari: 'नरः', iast: 'naraḥ', english: 'man', grammar: 'nom. sg.' },
         ],
         translation: 'Rama is the strongest man!',
         vocabIds: [],
@@ -8379,9 +8379,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-8',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'सीतायाअ᳓¸¥', iast: 'sītāyāḍ¥', english: 'from or of Sita', grammar: 'nom. sg.' },
-          { devanagari: 'पतिअ᳓¸¥', iast: 'patiḍ¥', english: 'lord, husband', grammar: '' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'सीतायाः', iast: 'sītāyāḥ', english: 'from or of Sita', grammar: 'nom. sg.' },
+          { devanagari: 'पतिः', iast: 'patiḥ', english: 'lord, husband', grammar: '' },
         ],
         translation: 'Rama is Sita\'s husband.',
         vocabIds: [],
@@ -8389,7 +8389,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-9',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'वानरी', iast: 'vānarī', english: '(female) monkey', grammar: 'nom. sg.' },
         ],
@@ -8448,7 +8448,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-15',
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'हनुमतअ᳓¸¥', iast: 'hanumataḍ¥', english: 'from or of Hanuman', grammar: 'nom. sg.' },
+          { devanagari: 'हनुमतः', iast: 'hanumataḥ', english: 'from or of Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'सखा', iast: 'sakhā', english: 'friend', grammar: '' },
         ],
         translation: 'Rama is Hanuman\'s friend.',
@@ -8457,9 +8457,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-16',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
         translation: 'Is Hanuman a rakshasa?',
         vocabIds: [],
@@ -8467,9 +8467,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-17',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'नरअ᳓¸¥', iast: 'naraḍ¥', english: 'man', grammar: 'nom. sg.' },
+          { devanagari: 'नरः', iast: 'naraḥ', english: 'man', grammar: 'nom. sg.' },
         ],
         translation: 'Is Hanuman a man?',
         vocabIds: [],
@@ -8479,7 +8479,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is not a rakshasa.',
         vocabIds: [],
@@ -8489,7 +8489,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'नरअ᳓¸¥', iast: 'naraḍ¥', english: 'man', grammar: 'nom. sg.' },
+          { devanagari: 'नरः', iast: 'naraḥ', english: 'man', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is not a man.',
         vocabIds: [],
@@ -8498,7 +8498,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-20',
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'वानरअ᳓¸¥', iast: 'vānaraḍ¥', english: 'monkey', grammar: 'nom. sg.' },
+          { devanagari: 'वानरः', iast: 'vānaraḥ', english: 'monkey', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is a monkey.',
         vocabIds: [],
@@ -8508,7 +8508,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'वानरअ᳓¸¥', iast: 'vānaraḍ¥', english: 'monkey', grammar: 'nom. sg.' },
+          { devanagari: 'वानरः', iast: 'vānaraḥ', english: 'monkey', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is a strong monkey.',
         vocabIds: [],
@@ -8518,7 +8518,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'दशअरथस्य', iast: 'daśarathasya', english: 'of Dasharatha', grammar: 'nom. sg.' },
-          { devanagari: 'पुत्रअ᳓¸¥', iast: 'putraḍ¥', english: 'son', grammar: 'nom. sg.' },
+          { devanagari: 'पुत्रः', iast: 'putraḥ', english: 'son', grammar: 'nom. sg.' },
         ],
         translation: 'Rama is Dasharatha\'s son.',
         vocabIds: [],
@@ -8526,9 +8526,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-23',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'दशअरथो', iast: 'daśaratho', english: 'Dasharatha', grammar: 'nom. sg.' },
-          { devanagari: 'वानरअ᳓¸¥', iast: 'vānaraḍ¥', english: 'monkey', grammar: 'nom. sg.' },
+          { devanagari: 'वानरः', iast: 'vānaraḥ', english: 'monkey', grammar: 'nom. sg.' },
         ],
         translation: 'Is Dasharatha a monkey?',
         vocabIds: [],
@@ -8538,7 +8538,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'दशअरथो', iast: 'daśaratho', english: 'Dasharatha', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'वानरअ᳓¸¥', iast: 'vānaraḍ¥', english: 'monkey', grammar: 'nom. sg.' },
+          { devanagari: 'वानरः', iast: 'vānaraḥ', english: 'monkey', grammar: 'nom. sg.' },
         ],
         translation: 'Dasharatha is not a monkey.',
         vocabIds: [],
@@ -8547,7 +8547,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-25',
         words: [
           { devanagari: 'दशअरथो', iast: 'daśaratho', english: 'Dasharatha', grammar: 'nom. sg.' },
-          { devanagari: 'नरअ᳓¸¥', iast: 'naraḍ¥', english: 'man', grammar: 'nom. sg.' },
+          { devanagari: 'नरः', iast: 'naraḥ', english: 'man', grammar: 'nom. sg.' },
         ],
         translation: 'Dasharatha is a man.',
         vocabIds: [],
@@ -8557,7 +8557,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'दशअरथो', iast: 'daśaratho', english: 'Dasharatha', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'नरअ᳓¸¥', iast: 'naraḍ¥', english: 'man', grammar: 'nom. sg.' },
+          { devanagari: 'नरः', iast: 'naraḥ', english: 'man', grammar: 'nom. sg.' },
         ],
         translation: 'Dasharatha is a strong man.',
         vocabIds: [],
@@ -8574,7 +8574,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-28',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
         ],
@@ -8595,7 +8595,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-30',
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'राज­पुत्रअ᳓¸¥', iast: 'rāja­putraḍ¥', english: '', grammar: '' },
+          { devanagari: 'राजपुत्रः', iast: 'rājaputraḥ', english: '', grammar: '' },
         ],
         translation: 'Rama is a prince.',
         vocabIds: [],
@@ -8603,9 +8603,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-31',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'प्रियो', iast: 'priyo', english: 'dear or beloved', grammar: 'nom. sg.' },
-          { devanagari: 'राज­पुत्रअ᳓¸¥', iast: 'rāja­putraḍ¥', english: '', grammar: '' },
+          { devanagari: 'राजपुत्रः', iast: 'rājaputraḥ', english: '', grammar: '' },
         ],
         translation: 'Rama is a beloved prince.',
         vocabIds: [],
@@ -8615,7 +8615,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'राज­पुत्रअ᳓¸¥', iast: 'rāja­putraḍ¥', english: '', grammar: '' },
+          { devanagari: 'राजपुत्रः', iast: 'rājaputraḥ', english: '', grammar: '' },
         ],
         translation: 'Rama is a strong prince.',
         vocabIds: [],
@@ -8623,9 +8623,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-33',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'सुन्दरो', iast: 'sundaro', english: 'beautiful, handsome', grammar: '' },
-          { devanagari: 'राज­पुत्रअ᳓¸¥', iast: 'rāja­putraḍ¥', english: '', grammar: '' },
+          { devanagari: 'राजपुत्रः', iast: 'rājaputraḥ', english: '', grammar: '' },
         ],
         translation: 'Rama is a handsome prince.',
         vocabIds: [],
@@ -8633,11 +8633,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-34',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'प्रियो', iast: 'priyo', english: 'dear or beloved', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
           { devanagari: 'सुन्दरो', iast: 'sundaro', english: 'beautiful, handsome', grammar: '' },
-          { devanagari: 'राज­पुत्रअ᳓¸¥', iast: 'rāja­putraḍ¥', english: '', grammar: '' },
+          { devanagari: 'राजपुत्रः', iast: 'rājaputraḥ', english: '', grammar: '' },
         ],
         translation: 'Rama is a beloved, strong, handsome prince.',
         vocabIds: [],
@@ -8646,8 +8646,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-35',
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'प्रियअ᳓¸¥', iast: 'priyaḍ¥', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'प्रियः', iast: 'priyaḥ', english: 'dear or beloved', grammar: 'nom. sg.' },
         ],
         translation: 'Rama is beloved to many.',
         vocabIds: [],
@@ -8656,9 +8656,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-36',
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'नराअ᳓꣡ाअ᳓꣡', iast: 'narāṭāṭ', english: 'of the men', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियअ᳓¸¥', iast: 'priyaḍ¥', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'नराणां', iast: 'narāṇāṃ', english: 'of the men', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियः', iast: 'priyaḥ', english: 'dear or beloved', grammar: 'nom. sg.' },
         ],
         translation: 'Rama is beloved to many men.',
         vocabIds: [],
@@ -8667,9 +8667,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-37',
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'नारीअ᳓꣡ाअ᳓꣡', iast: 'nārīṭāṭ', english: 'of the women', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियअ᳓¸¥', iast: 'priyaḍ¥', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'नारीणां', iast: 'nārīṇāṃ', english: 'of the women', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियः', iast: 'priyaḥ', english: 'dear or beloved', grammar: 'nom. sg.' },
         ],
         translation: 'Rama is beloved to many women.',
         vocabIds: [],
@@ -8678,9 +8678,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-38',
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'वानराअ᳓꣡ाअ᳓꣡', iast: 'vānarāṭāṭ', english: 'of the monkeys', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियअ᳓¸¥', iast: 'priyaḍ¥', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'वानराणां', iast: 'vānarāṇāṃ', english: 'of the monkeys', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियः', iast: 'priyaḥ', english: 'dear or beloved', grammar: 'nom. sg.' },
         ],
         translation: 'Rama is beloved to many monkeys!',
         vocabIds: [],
@@ -8689,9 +8689,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-39',
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
           { devanagari: 'प्रियो', iast: 'priyo', english: 'dear or beloved', grammar: 'nom. sg.' },
-          { devanagari: 'राज­पुत्रअ᳓¸¥', iast: 'rāja­putraḍ¥', english: '', grammar: '' },
+          { devanagari: 'राजपुत्रः', iast: 'rājaputraḥ', english: '', grammar: '' },
         ],
         translation: 'Rama is a prince beloved to many.',
         vocabIds: [],
@@ -8699,7 +8699,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-40',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -8709,7 +8709,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-41',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'सीताम्', iast: 'sītām', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -8727,7 +8727,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-43',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'सीताम्', iast: 'sītām', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
@@ -8738,9 +8738,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-44',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'म᳓꣡ता', iast: 'mṭtā', english: 'dead', grammar: '' },
+          { devanagari: 'मृता', iast: 'mṛtā', english: 'dead', grammar: '' },
         ],
         translation: 'Is Sita dead?',
         vocabIds: [],
@@ -8750,7 +8750,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'म᳓꣡ता', iast: 'mṭtā', english: 'dead', grammar: '' },
+          { devanagari: 'मृता', iast: 'mṛtā', english: 'dead', grammar: '' },
         ],
         translation: 'Sita isn\'t dead.',
         vocabIds: [],
@@ -8759,7 +8759,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-46',
         words: [
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'Sita was kidnapped!',
         vocabIds: [],
@@ -8767,10 +8767,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-47',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'दशअरथेन', iast: 'daśarathena', english: 'by Dasharatha', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'Did Dasharatha kidnap Sita?',
         vocabIds: [],
@@ -8781,7 +8781,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'दशअरथेन', iast: 'daśarathena', english: 'by Dasharatha', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'Dasharatha did not kidnap Sita.',
         vocabIds: [],
@@ -8789,10 +8789,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-49',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'हनुमता', iast: 'hanumatā', english: 'by Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'Did Hanuman kidnap Sita?',
         vocabIds: [],
@@ -8802,7 +8802,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमता', iast: 'hanumatā', english: 'by Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman did not kidnap Sita.',
@@ -8813,7 +8813,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'केन', iast: 'kena', english: 'by whom or what? how?', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'Who kidnapped Sita?',
         vocabIds: [],
@@ -8821,9 +8821,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-52',
         words: [
-          { devanagari: 'रावअ᳓꣡एन', iast: 'rāvaṭena', english: 'by Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणेन', iast: 'rāvaṇena', english: 'by Ravana', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'Ravana kidnapped Sita.',
         vocabIds: [],
@@ -8832,7 +8832,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-53',
         words: [
           { devanagari: 'को', iast: 'ko', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अअ᳓¸¥', iast: 'rāvaṭaḍ¥', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणः', iast: 'rāvaṇaḥ', english: 'Ravana', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Ravana?',
         vocabIds: [],
@@ -8840,8 +8840,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-54',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana is a rakshasa.',
         vocabIds: [],
@@ -8849,7 +8849,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-55',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana is strong.',
@@ -8858,9 +8858,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-56',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana is a strong rakshasa.',
         vocabIds: [],
@@ -8868,7 +8868,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-57',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
         ],
@@ -8878,11 +8878,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-58',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'नराअ᳓꣡ाम्', iast: 'narāṭām', english: 'of the men', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'नराणाम्', iast: 'narāṇām', english: 'of the men', grammar: 'nom. sg.' },
         ],
         translation: 'Is Ravana the king of many men?',
         vocabIds: [],
@@ -8890,11 +8890,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-59',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'नराअ᳓꣡ाम्', iast: 'narāṭām', english: 'of the men', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'नराणाम्', iast: 'narāṇām', english: 'of the men', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana is not king of many men.',
         vocabIds: [],
@@ -8902,11 +8902,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-60',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'वानराअ᳓꣡ाम्', iast: 'vānarāṭām', english: 'of the monkeys', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'वानराणाम्', iast: 'vānarāṇām', english: 'of the monkeys', grammar: 'nom. sg.' },
         ],
         translation: 'Is Ravana the king of many monkeys?',
         vocabIds: [],
@@ -8914,11 +8914,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-61',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'वानराअ᳓꣡ाम्', iast: 'vānarāṭām', english: 'of the monkeys', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'वानराणाम्', iast: 'vānarāṇām', english: 'of the monkeys', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana is not king of many monkeys.',
         vocabIds: [],
@@ -8926,10 +8926,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-62',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'राक᳓꣡£असानाम्', iast: 'rākṭ£asānām', english: 'of the demons', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'राक्षसानाम्', iast: 'rākṣasānām', english: 'of the demons', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana is the king of many rakshasas.',
         vocabIds: [],
@@ -8937,9 +8937,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-63',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस­राजअ᳓¸¥', iast: 'rākṭ£asa­rājaḍ¥', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजः', iast: 'rākṣasarājaḥ', english: '', grammar: '' },
         ],
         translation: 'Ravana is the strong rakshasa king.',
         vocabIds: [],
@@ -8947,9 +8947,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-64',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'बलवत्तमो', iast: 'balavattamo', english: 'strongest', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana is the strongest rakshasa.',
         vocabIds: [],
@@ -8958,8 +8958,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-65',
         words: [
           { devanagari: 'बलवत्तमो', iast: 'balavattamo', english: 'strongest', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असो', iast: 'rākṭ£aso', english: 'demon', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस­राजअ᳓¸¥', iast: 'rākṭ£asa­rājaḍ¥', english: '', grammar: '' },
+          { devanagari: 'राक्षसो', iast: 'rākṣaso', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसराजः', iast: 'rākṣasarājaḥ', english: '', grammar: '' },
         ],
         translation: 'The strongest rakshasa is the rakshasa king.',
         vocabIds: [],
@@ -8968,7 +8968,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-66',
         words: [
           { devanagari: 'बलवत्तमो', iast: 'balavattamo', english: 'strongest', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असो', iast: 'rākṭ£aso', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसो', iast: 'rākṣaso', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'रामस्य', iast: 'rāmasya', english: 'of Rama', grammar: 'nom. sg.' },
           { devanagari: 'सखा', iast: 'sakhā', english: 'friend', grammar: '' },
@@ -8979,9 +8979,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-67',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अस्य', iast: 'rāvaṭasya', english: 'of Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणस्य', iast: 'rāvaṇasya', english: 'of Ravana', grammar: 'nom. sg.' },
           { devanagari: 'सखा', iast: 'sakhā', english: 'friend', grammar: '' },
           { devanagari: 'भवितुम्', iast: 'bhavitum', english: 'to be or become', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
@@ -8994,7 +8994,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'रावअ᳓꣡अस्य', iast: 'rāvaṭasya', english: 'of Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणस्य', iast: 'rāvaṇasya', english: 'of Ravana', grammar: 'nom. sg.' },
           { devanagari: 'सखा', iast: 'sakhā', english: 'friend', grammar: '' },
           { devanagari: 'भवितुम्', iast: 'bhavitum', english: 'to be or become', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
@@ -9005,9 +9005,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-69',
         words: [
-          { devanagari: 'राक᳓꣡£अस­राजेन', iast: 'rākṭ£asa­rājena', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजेन', iast: 'rākṣasarājena', english: '', grammar: '' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'The rakshasa king kidnapped Sita.',
         vocabIds: [],
@@ -9015,10 +9015,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-70',
         words: [
-          { devanagari: 'राक᳓꣡£अस­राजेन', iast: 'rākṭ£asa­rājena', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजेन', iast: 'rākṣasarājena', english: '', grammar: '' },
           { devanagari: 'पत्नी', iast: 'patnī', english: 'wife', grammar: 'nom. sg.' },
           { devanagari: 'रामस्य', iast: 'rāmasya', english: 'of Rama', grammar: 'nom. sg.' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'The rakshasa king kidnapped Ramas\'s wife.',
         vocabIds: [],
@@ -9026,11 +9026,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-71',
         words: [
-          { devanagari: 'राक᳓꣡£अस­राजेन', iast: 'rākṭ£asa­rājena', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजेन', iast: 'rākṣasarājena', english: '', grammar: '' },
           { devanagari: 'प्रिया', iast: 'priyā', english: 'dear or beloved', grammar: 'nom. sg.' },
           { devanagari: 'पत्नी', iast: 'patnī', english: 'wife', grammar: 'nom. sg.' },
           { devanagari: 'रामस्य', iast: 'rāmasya', english: 'of Rama', grammar: 'nom. sg.' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'The rakshasa king kidnapped Ramas\'s beloved wife.',
         vocabIds: [],
@@ -9038,7 +9038,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-72',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'सीताम्', iast: 'sītām', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9049,7 +9049,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-73',
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस­राजअ᳓꣡', iast: 'rākṭ£asa­rājaṭ', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजं', iast: 'rākṣasarājaṃ', english: '', grammar: '' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9119,10 +9119,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-80',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'सीतायाअ᳓¸¥', iast: 'sītāyāḍ¥', english: 'from or of Sita', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियतमअ᳓¸¥', iast: 'priyatamaḍ¥', english: 'dearest or most beloved', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'सीतायाः', iast: 'sītāyāḥ', english: 'from or of Sita', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियतमः', iast: 'priyatamaḥ', english: 'dearest or most beloved', grammar: 'nom. sg.' },
         ],
         translation: 'Is Rama Sita\'s most beloved?',
         vocabIds: [],
@@ -9130,9 +9130,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-81',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'सीतायाअ᳓¸¥', iast: 'sītāyāḍ¥', english: 'from or of Sita', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियतमअ᳓¸¥', iast: 'priyatamaḍ¥', english: 'dearest or most beloved', grammar: 'nom. sg.' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'सीतायाः', iast: 'sītāyāḥ', english: 'from or of Sita', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियतमः', iast: 'priyatamaḥ', english: 'dearest or most beloved', grammar: 'nom. sg.' },
         ],
         translation: 'Rama is Sita\'s most beloved.',
         vocabIds: [],
@@ -9140,10 +9140,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-82',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'सीतायाअ᳓¸¥', iast: 'sītāyāḍ¥', english: 'from or of Sita', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियअ᳓¸¥', iast: 'priyaḍ¥', english: 'dear or beloved', grammar: 'nom. sg.' },
-          { devanagari: 'पतिअ᳓¸¥', iast: 'patiḍ¥', english: 'lord, husband', grammar: '' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'सीतायाः', iast: 'sītāyāḥ', english: 'from or of Sita', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियः', iast: 'priyaḥ', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'पतिः', iast: 'patiḥ', english: 'lord, husband', grammar: '' },
         ],
         translation: 'Rama is Sita\'s beloved husband.',
         vocabIds: [],
@@ -9161,8 +9161,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-84',
         words: [
-          { devanagari: 'जनकअ᳓¸¥', iast: 'janakaḍ¥', english: 'Janaka', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'जनकः', iast: 'janakaḥ', english: 'Janaka', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Janaka?',
         vocabIds: [],
@@ -9189,7 +9189,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-87',
         words: [
-          { devanagari: 'जनकअ᳓¸¥', iast: 'janakaḍ¥', english: 'Janaka', grammar: 'nom. sg.' },
+          { devanagari: 'जनकः', iast: 'janakaḥ', english: 'Janaka', grammar: 'nom. sg.' },
           { devanagari: 'प्रियो', iast: 'priyo', english: 'dear or beloved', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
         ],
@@ -9200,8 +9200,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-88',
         words: [
           { devanagari: 'जनको', iast: 'janako', english: 'Janaka', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'प्रियअ᳓¸¥', iast: 'priyaḍ¥', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'प्रियः', iast: 'priyaḥ', english: 'dear or beloved', grammar: 'nom. sg.' },
         ],
         translation: 'Janaka is beloved to many.',
         vocabIds: [],
@@ -9210,7 +9210,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-89',
         words: [
           { devanagari: 'जनको', iast: 'janako', english: 'Janaka', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
           { devanagari: 'प्रियो', iast: 'priyo', english: 'dear or beloved', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
         ],
@@ -9220,9 +9220,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-90',
         words: [
-          { devanagari: 'रावअ᳓꣡एन', iast: 'rāvaṭena', english: 'by Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणेन', iast: 'rāvaṇena', english: 'by Ravana', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'Sita was kidnapped by Ravana.',
         vocabIds: [],
@@ -9240,9 +9240,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-92',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अम्', iast: 'rāvaṭam', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणम्', iast: 'rāvaṇam', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Does Sita want Ravana?',
@@ -9251,9 +9251,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-93',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असम्', iast: 'rākṭ£asam', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसम्', iast: 'rākṣasam', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Does Sita want the rakshasa?',
@@ -9262,10 +9262,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-94',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'बलवन्तअ᳓꣡', iast: 'balavantaṭ', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असम्', iast: 'rākṭ£asam', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तं', iast: 'balavantaṃ', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसम्', iast: 'rākṣasam', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Does Sita want the strong rakshasa?',
@@ -9276,8 +9276,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'बलवन्तअ᳓꣡', iast: 'balavantaṭ', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असम्', iast: 'rākṭ£asam', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तं', iast: 'balavantaṃ', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसम्', iast: 'rākṣasam', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sita doesn\'t want the strong rakshasa.',
@@ -9297,7 +9297,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'रावअ᳓꣡अम्', iast: 'rāvaṭam', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणम्', iast: 'rāvaṇam', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Why doesn\'t Sita want Ravana?',
@@ -9309,8 +9309,8 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'बलवन्तअ᳓꣡', iast: 'balavantaṭ', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असम्', iast: 'rākṭ£asam', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तं', iast: 'balavantaṃ', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसम्', iast: 'rākṣasam', english: 'demon', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Why doesn\'t Sita want the strong rakshasa?',
@@ -9340,7 +9340,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-101',
         words: [
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियअ᳓꣡', iast: 'priyaṭ', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियं', iast: 'priyaṃ', english: 'dear or beloved', grammar: 'nom. sg.' },
           { devanagari: 'रामम्', iast: 'rāmam', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9351,7 +9351,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-102',
         words: [
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'बलवन्तअ᳓꣡', iast: 'balavantaṭ', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तं', iast: 'balavantaṃ', english: 'strong', grammar: 'nom. sg.' },
           { devanagari: 'रामम्', iast: 'rāmam', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9362,7 +9362,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-103',
         words: [
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'सुन्दरअ᳓꣡', iast: 'sundaraṭ', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'सुन्दरं', iast: 'sundaraṃ', english: 'beautiful, handsome', grammar: '' },
           { devanagari: 'रामम्', iast: 'rāmam', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9373,10 +9373,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-104',
         words: [
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियअ᳓꣡', iast: 'priyaṭ', english: 'dear or beloved', grammar: 'nom. sg.' },
-          { devanagari: 'बलवन्तअ᳓꣡', iast: 'balavantaṭ', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'सुन्दरअ᳓꣡', iast: 'sundaraṭ', english: 'beautiful, handsome', grammar: '' },
-          { devanagari: 'पतिअ᳓꣡', iast: 'patiṭ', english: 'lord, husband', grammar: '' },
+          { devanagari: 'प्रियं', iast: 'priyaṃ', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'बलवन्तं', iast: 'balavantaṃ', english: 'strong', grammar: 'nom. sg.' },
+          { devanagari: 'सुन्दरं', iast: 'sundaraṃ', english: 'beautiful, handsome', grammar: '' },
+          { devanagari: 'पतिं', iast: 'patiṃ', english: 'lord, husband', grammar: '' },
           { devanagari: 'रामम्', iast: 'rāmam', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9397,7 +9397,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-106',
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Hanuman?',
         vocabIds: [],
@@ -9415,9 +9415,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-108',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
         translation: 'Is Hanuman a rakshasa?',
         vocabIds: [],
@@ -9427,7 +9427,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is not a rakshasa.',
         vocabIds: [],
@@ -9436,7 +9436,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-110',
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'वानरअ᳓¸¥', iast: 'vānaraḍ¥', english: 'monkey', grammar: 'nom. sg.' },
+          { devanagari: 'वानरः', iast: 'vānaraḥ', english: 'monkey', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is a monkey.',
         vocabIds: [],
@@ -9446,7 +9446,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
-          { devanagari: 'वानरअ᳓¸¥', iast: 'vānaraḍ¥', english: 'monkey', grammar: 'nom. sg.' },
+          { devanagari: 'वानरः', iast: 'vānaraḥ', english: 'monkey', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is a strong monkey.',
         vocabIds: [],
@@ -9466,7 +9466,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'रामस्य', iast: 'rāmasya', english: 'of Rama', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियअ᳓¸¥', iast: 'priyaḍ¥', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियः', iast: 'priyaḥ', english: 'dear or beloved', grammar: 'nom. sg.' },
           { devanagari: 'सखा', iast: 'sakhā', english: 'friend', grammar: '' },
         ],
         translation: 'Hanuman is Rama\'s dear friend.',
@@ -9477,8 +9477,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'प्रियो', iast: 'priyo', english: 'dear or beloved', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'नराअ᳓꣡ाम्', iast: 'narāṭām', english: 'of the men', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'नराणाम्', iast: 'narāṇām', english: 'of the men', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is dear to many men.',
         vocabIds: [],
@@ -9488,8 +9488,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'प्रियो', iast: 'priyo', english: 'dear or beloved', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'वानराअ᳓꣡ाम्', iast: 'vānarāṭām', english: 'of the monkeys', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'वानराणाम्', iast: 'vānarāṇām', english: 'of the monkeys', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is dear to many monkeys.',
         vocabIds: [],
@@ -9498,8 +9498,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-116',
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'प्रियअ᳓¸¥', iast: 'priyaḍ¥', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'प्रियः', iast: 'priyaḥ', english: 'dear or beloved', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is dear to many!',
         vocabIds: [],
@@ -9508,9 +9508,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-117',
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
           { devanagari: 'प्रियो', iast: 'priyo', english: 'dear or beloved', grammar: 'nom. sg.' },
-          { devanagari: 'वानरअ᳓¸¥', iast: 'vānaraḍ¥', english: 'monkey', grammar: 'nom. sg.' },
+          { devanagari: 'वानरः', iast: 'vānaraḥ', english: 'monkey', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is a monkey dear to many.',
         vocabIds: [],
@@ -9528,7 +9528,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-119',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
           { devanagari: 'भवितुम्', iast: 'bhavitum', english: 'to be or become', grammar: '' },
@@ -9540,9 +9540,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-120',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'वानर­राजो', iast: 'vānara­rājo', english: '', grammar: '' },
+          { devanagari: 'वानरराजो', iast: 'vānararājo', english: '', grammar: '' },
           { devanagari: 'भवितुम्', iast: 'bhavitum', english: 'to be or become', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9554,7 +9554,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'वानर­राजो', iast: 'vānara­rājo', english: '', grammar: '' },
+          { devanagari: 'वानरराजो', iast: 'vānararājo', english: '', grammar: '' },
           { devanagari: 'भवितुम्', iast: 'bhavitum', english: 'to be or become', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9572,8 +9572,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-123',
         words: [
-          { devanagari: 'वानर­राजो', iast: 'vānara­rājo', english: '', grammar: '' },
-          { devanagari: 'हनुमतअ᳓¸¥', iast: 'hanumataḍ¥', english: 'from or of Hanuman', grammar: 'nom. sg.' },
+          { devanagari: 'वानरराजो', iast: 'vānararājo', english: '', grammar: '' },
+          { devanagari: 'हनुमतः', iast: 'hanumataḥ', english: 'from or of Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'सखा', iast: 'sakhā', english: 'friend', grammar: '' },
         ],
         translation: 'The monkey king is Hanuman\'s friend.',
@@ -9582,8 +9582,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-124',
         words: [
-          { devanagari: 'वानर­राजअ᳓¸¥', iast: 'vānara­rājaḍ¥', english: '', grammar: '' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'वानरराजः', iast: 'vānararājaḥ', english: '', grammar: '' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is the monkey king?',
         vocabIds: [],
@@ -9591,8 +9591,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-125',
         words: [
-          { devanagari: 'वानर­राजअ᳓¸¥', iast: 'vānara­rājaḍ¥', english: '', grammar: '' },
-          { devanagari: 'सुग्रीवअ᳓¸¥', iast: 'sugrīvaḍ¥', english: 'Sugriva', grammar: 'nom. sg.' },
+          { devanagari: 'वानरराजः', iast: 'vānararājaḥ', english: '', grammar: '' },
+          { devanagari: 'सुग्रीवः', iast: 'sugrīvaḥ', english: 'Sugriva', grammar: 'nom. sg.' },
         ],
         translation: 'The monkey king is Sugriva.',
         vocabIds: [],
@@ -9603,7 +9603,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'सुग्रीवो', iast: 'sugrīvo', english: 'Sugriva', grammar: 'nom. sg.' },
           { devanagari: 'बलवान्', iast: 'balavān', english: 'strong', grammar: 'nom. sg.' },
           { devanagari: 'प्रियो', iast: 'priyo', english: 'dear or beloved', grammar: 'nom. sg.' },
-          { devanagari: 'वानर­राजअ᳓¸¥', iast: 'vānara­rājaḍ¥', english: '', grammar: '' },
+          { devanagari: 'वानरराजः', iast: 'vānararājaḥ', english: '', grammar: '' },
         ],
         translation: 'Sugriva is the strong and beloved monkey king.',
         vocabIds: [],
@@ -9632,7 +9632,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-129',
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓꣡', iast: 'kaṭ', english: 'whom?', grammar: 'nom. sg.' },
+          { devanagari: 'कं', iast: 'kaṃ', english: 'whom?', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9642,9 +9642,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-130',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'रामअ᳓꣡', iast: 'rāmaṭ', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'रामं', iast: 'rāmaṃ', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9667,7 +9667,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-132',
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अअ᳓꣡', iast: 'rāvaṭaṭ', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणं', iast: 'rāvaṇaṃ', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9679,7 +9679,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अअ᳓꣡', iast: 'rāvaṭaṭ', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणं', iast: 'rāvaṇaṃ', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9689,9 +9689,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-134',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस­राजो', iast: 'rākṭ£asa­rājo', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजो', iast: 'rākṣasarājo', english: '', grammar: '' },
           { devanagari: 'भवितुम्', iast: 'bhavitum', english: 'to be or become', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9703,7 +9703,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'राक᳓꣡£अस­राज', iast: 'rākṭ£asa­rāja', english: '', grammar: '' },
+          { devanagari: 'राक्षसराज', iast: 'rākṣasarāja', english: '', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
           { devanagari: 'भवितुम्', iast: 'bhavitum', english: 'to be or become', grammar: '' },
         ],
@@ -9715,7 +9715,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस­राजम्', iast: 'rākṭ£asa­rājam', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजम्', iast: 'rākṣasarājam', english: '', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
         ],
@@ -9725,9 +9725,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-137',
         words: [
-          { devanagari: 'रावअ᳓꣡एन', iast: 'rāvaṭena', english: 'by Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणेन', iast: 'rāvaṇena', english: 'by Ravana', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'Ravana kidnapped Sita.',
         vocabIds: [],
@@ -9747,8 +9747,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-139',
         words: [
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'हनुमतअ᳓¸¥', iast: 'hanumataḍ¥', english: 'from or of Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियअ᳓¸¥', iast: 'priyaḍ¥', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'हनुमतः', iast: 'hanumataḥ', english: 'from or of Hanuman', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियः', iast: 'priyaḥ', english: 'dear or beloved', grammar: 'nom. sg.' },
           { devanagari: 'सखा', iast: 'sakhā', english: 'friend', grammar: '' },
         ],
         translation: 'Rama is Hanuman\'s friend.',
@@ -9757,7 +9757,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-140',
         words: [
-          { devanagari: 'राक᳓꣡£अस­राजो', iast: 'rākṭ£asa­rājo', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजो', iast: 'rākṣasarājo', english: '', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'रामस्य', iast: 'rāmasya', english: 'of Rama', grammar: 'nom. sg.' },
           { devanagari: 'सखा', iast: 'sakhā', english: 'friend', grammar: '' },
@@ -9768,10 +9768,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-141',
         words: [
-          { devanagari: 'राक᳓꣡£अस­राजो', iast: 'rākṭ£asa­rājo', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजो', iast: 'rākṣasarājo', english: '', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सखा', iast: 'sakhā', english: 'friend', grammar: '' },
-          { devanagari: 'हनुमतअ᳓¸¥', iast: 'hanumataḍ¥', english: 'from or of Hanuman', grammar: 'nom. sg.' },
+          { devanagari: 'हनुमतः', iast: 'hanumataḥ', english: 'from or of Hanuman', grammar: 'nom. sg.' },
         ],
         translation: 'The rakshasa king is not a friend of Hanuman.',
         vocabIds: [],
@@ -9780,7 +9780,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-142',
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस­राजअ᳓꣡', iast: 'rākṭ£asa­rājaṭ', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजं', iast: 'rākṣasarājaṃ', english: '', grammar: '' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9792,7 +9792,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'रामाय', iast: 'rāmāya', english: 'for Rama', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस­राजअ᳓꣡', iast: 'rākṭ£asa­rājaṭ', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजं', iast: 'rākṣasarājaṃ', english: '', grammar: '' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9804,7 +9804,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'सीतायै', iast: 'sītāyai', english: 'for Sita', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस­राजम्', iast: 'rākṭ£asa­rājam', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजम्', iast: 'rākṣasarājam', english: '', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
         ],
@@ -9816,7 +9816,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'सख्ये', iast: 'sakhye', english: 'for a friend', grammar: '' },
-          { devanagari: 'राक᳓꣡£अस­राजअ᳓꣡', iast: 'rākṭ£asa­rājaṭ', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजं', iast: 'rākṣasarājaṃ', english: '', grammar: '' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9829,7 +9829,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'प्रियाय', iast: 'priyāya', english: 'for the dear or beloved', grammar: 'nom. sg.' },
           { devanagari: 'सख्ये', iast: 'sakhye', english: 'for a friend', grammar: '' },
-          { devanagari: 'राक᳓꣡£अस­राजअ᳓꣡', iast: 'rākṭ£asa­rājaṭ', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजं', iast: 'rākṣasarājaṃ', english: '', grammar: '' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9843,7 +9843,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'प्रियाय', iast: 'priyāya', english: 'for the dear or beloved', grammar: 'nom. sg.' },
           { devanagari: 'बलवते', iast: 'balavate', english: 'for the strong', grammar: 'nom. sg.' },
           { devanagari: 'सख्ये', iast: 'sakhye', english: 'for a friend', grammar: '' },
-          { devanagari: 'राक᳓꣡£अस­राजम्', iast: 'rākṭ£asa­rājam', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजम्', iast: 'rākṣasarājam', english: '', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
         ],
@@ -9853,8 +9853,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-148',
         words: [
-          { devanagari: 'रावअ᳓꣡अअ᳓¸¥', iast: 'rāvaṭaḍ¥', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'रावणः', iast: 'rāvaṇaḥ', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Ravana?',
         vocabIds: [],
@@ -9862,7 +9862,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-149',
         words: [
-          { devanagari: 'रावअ᳓꣡अअ᳓¸¥', iast: 'rāvaṭaḍ¥', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणः', iast: 'rāvaṇaḥ', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9872,8 +9872,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-150',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस­राजा', iast: 'rākṭ£asa­rājā', english: '', grammar: '' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसराजा', iast: 'rākṣasarājā', english: '', grammar: '' },
         ],
         translation: 'Ravana is the rakshasa king.',
         vocabIds: [],
@@ -9881,9 +9881,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-151',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'बलवत्तमो', iast: 'balavattamo', english: 'strongest', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असअ᳓¸¥', iast: 'rākṭ£asaḍ¥', english: 'demon', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसः', iast: 'rākṣasaḥ', english: 'demon', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana is the strongest rakshasa.',
         vocabIds: [],
@@ -9891,7 +9891,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-152',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
           { devanagari: 'बहूनाम्', iast: 'bahūnām', english: 'of many', grammar: '' },
         ],
@@ -9901,10 +9901,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-153',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'राक᳓꣡£असानाम्', iast: 'rākṭ£asānām', english: 'of the demons', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'राक्षसानाम्', iast: 'rākṣasānām', english: 'of the demons', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana is the king of many rakshasas.',
         vocabIds: [],
@@ -9912,11 +9912,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-154',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'राजा', iast: 'rājā', english: 'king', grammar: '' },
-          { devanagari: 'बहूनाअ᳓꣡', iast: 'bahūnāṭ', english: 'of many', grammar: '' },
-          { devanagari: 'बलवताअ᳓꣡', iast: 'balavatāṭ', english: 'of (many) strong', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£असानाम्', iast: 'rākṭ£asānām', english: 'of the demons', grammar: 'nom. sg.' },
+          { devanagari: 'बहूनां', iast: 'bahūnāṃ', english: 'of many', grammar: '' },
+          { devanagari: 'बलवतां', iast: 'balavatāṃ', english: 'of (many) strong', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसानाम्', iast: 'rākṣasānām', english: 'of the demons', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana is the king of many strong rakshasas.',
         vocabIds: [],
@@ -9924,7 +9924,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-155',
         words: [
-          { devanagari: 'रावअ᳓꣡अअ᳓¸¥', iast: 'rāvaṭaḍ¥', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणः', iast: 'rāvaṇaḥ', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9934,7 +9934,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-156',
         words: [
-          { devanagari: 'रावअ᳓꣡अअ᳓¸¥', iast: 'rāvaṭaḍ¥', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणः', iast: 'rāvaṇaḥ', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'सीताम्', iast: 'sītām', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9945,7 +9945,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-157',
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अ', iast: 'rāvaṭa', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावण', iast: 'rāvaṇa', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
           { devanagari: 'सीताम्', iast: 'sītām', english: 'Sita', grammar: 'nom. sg.' },
         ],
@@ -9956,9 +9956,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-158',
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡एन', iast: 'rāvaṭena', english: 'by Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणेन', iast: 'rāvaṇena', english: 'by Ravana', grammar: 'nom. sg.' },
           { devanagari: 'सीता', iast: 'sītā', english: 'Sita', grammar: 'nom. sg.' },
-          { devanagari: 'ह᳓꣡ता', iast: 'hṭtā', english: 'carried, kidnapped', grammar: '' },
+          { devanagari: 'हृता', iast: 'hṛtā', english: 'carried, kidnapped', grammar: '' },
         ],
         translation: 'Why did Ravana kidnap Sita?',
         vocabIds: [],
@@ -9966,9 +9966,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-159',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अअ᳓¸¥', iast: 'rāvaṭaḍ¥', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'सीताअ᳓꣡', iast: 'sītāṭ', english: 'Sita', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'रावणः', iast: 'rāvaṇaḥ', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'सीतां', iast: 'sītāṃ', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9978,9 +9978,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-160',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'सीताअ᳓꣡', iast: 'sītāṭ', english: 'Sita', grammar: 'nom. sg.' },
+          { devanagari: 'सीतां', iast: 'sītāṃ', english: 'Sita', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -9990,8 +9990,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-161',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अअ᳓¸¥', iast: 'rāvaṭaḍ¥', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'रावणः', iast: 'rāvaṇaḥ', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'पुत्रीम्', iast: 'putrīm', english: 'daughter', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -10001,7 +10001,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-162',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पुत्रीम्', iast: 'putrīm', english: 'daughter', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
@@ -10012,7 +10012,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-163',
         words: [
-          { devanagari: 'रावअ᳓꣡अअ᳓¸¥', iast: 'rāvaṭaḍ¥', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणः', iast: 'rāvaṇaḥ', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'पत्नीम्', iast: 'patnīm', english: 'wife', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -10022,8 +10022,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-164',
         words: [
-          { devanagari: 'रावअ᳓꣡अअ᳓¸¥', iast: 'rāvaṭaḍ¥', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'सीतायाअ᳓¸¥', iast: 'sītāyāḍ¥', english: 'from or of Sita', grammar: 'nom. sg.' },
+          { devanagari: 'रावणः', iast: 'rāvaṇaḥ', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'सीतायाः', iast: 'sītāyāḥ', english: 'from or of Sita', grammar: 'nom. sg.' },
           { devanagari: 'पतिर्', iast: 'patir', english: 'lord, husband', grammar: '' },
           { devanagari: 'भवितुम्', iast: 'bhavitum', english: 'to be or become', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
@@ -10035,11 +10035,11 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-165',
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस­राजो', iast: 'rākṭ£asa­rājo', english: '', grammar: '' },
+          { devanagari: 'राक्षसराजो', iast: 'rākṣasarājo', english: '', grammar: '' },
           { devanagari: 'भवितुम्', iast: 'bhavitum', english: 'to be or become', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
-          { devanagari: 'सीतायाअ᳓¸¥', iast: 'sītāyāḍ¥', english: 'from or of Sita', grammar: 'nom. sg.' },
-          { devanagari: 'पतिअ᳓¸¥', iast: 'patiḍ¥', english: 'lord, husband', grammar: '' },
+          { devanagari: 'सीतायाः', iast: 'sītāyāḥ', english: 'from or of Sita', grammar: 'nom. sg.' },
+          { devanagari: 'पतिः', iast: 'patiḥ', english: 'lord, husband', grammar: '' },
         ],
         translation: 'Why does the rakshasa king want to become Sita\'s husband?',
         vocabIds: [],
@@ -10047,8 +10047,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-166',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अस्य', iast: 'rāvaṭasya', english: 'of Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'रावणस्य', iast: 'rāvaṇasya', english: 'of Ravana', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पत्नी', iast: 'patnī', english: 'wife', grammar: 'nom. sg.' },
         ],
@@ -10058,7 +10058,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-167',
         words: [
-          { devanagari: 'रावअ᳓꣡अस्य', iast: 'rāvaṭasya', english: 'of Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणस्य', iast: 'rāvaṇasya', english: 'of Ravana', grammar: 'nom. sg.' },
           { devanagari: 'पत्नी', iast: 'patnī', english: 'wife', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana has a wife.',
@@ -10067,9 +10067,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-168',
         words: [
-          { devanagari: 'रावअ᳓꣡अस्य', iast: 'rāvaṭasya', english: 'of Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'बह्व्यअ᳓¸¥', iast: 'bahvyaḍ¥', english: 'many', grammar: '' },
-          { devanagari: 'पत्न्यअ᳓¸¥', iast: 'patnyaḍ¥', english: 'wives', grammar: 'nom. sg.' },
+          { devanagari: 'रावणस्य', iast: 'rāvaṇasya', english: 'of Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'बह्व्यः', iast: 'bahvyaḥ', english: 'many', grammar: '' },
+          { devanagari: 'पत्न्यः', iast: 'patnyaḥ', english: 'wives', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana has many wives!',
         vocabIds: [],
@@ -10077,10 +10077,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-169',
         words: [
-          { devanagari: 'रावअ᳓꣡अस्य', iast: 'rāvaṭasya', english: 'of Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'बह्व्यअ᳓¸¥', iast: 'bahvyaḍ¥', english: 'many', grammar: '' },
-          { devanagari: 'सुन्दर्यअ᳓¸¥', iast: 'sundaryaḍ¥', english: 'beautiful', grammar: 'nom. sg.' },
-          { devanagari: 'पत्न्यअ᳓¸¥', iast: 'patnyaḍ¥', english: 'wives', grammar: 'nom. sg.' },
+          { devanagari: 'रावणस्य', iast: 'rāvaṇasya', english: 'of Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'बह्व्यः', iast: 'bahvyaḥ', english: 'many', grammar: '' },
+          { devanagari: 'सुन्दर्यः', iast: 'sundaryaḥ', english: 'beautiful', grammar: 'nom. sg.' },
+          { devanagari: 'पत्न्यः', iast: 'patnyaḥ', english: 'wives', grammar: 'nom. sg.' },
         ],
         translation: 'Ravana has many beautiful wives.',
         vocabIds: [],
@@ -10089,9 +10089,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-170',
         words: [
           { devanagari: 'बह्व्यो', iast: 'bahvyo', english: 'many', grammar: '' },
-          { devanagari: 'राक᳓꣡£अस्यो', iast: 'rākṭ£asyo', english: '(female) demons', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अस्य', iast: 'rāvaṭasya', english: 'of Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'पत्न्यअ᳓¸¥', iast: 'patnyaḍ¥', english: 'wives', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षस्यो', iast: 'rākṣasyo', english: '(female) demons', grammar: 'nom. sg.' },
+          { devanagari: 'रावणस्य', iast: 'rāvaṇasya', english: 'of Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'पत्न्यः', iast: 'patnyaḥ', english: 'wives', grammar: 'nom. sg.' },
         ],
         translation: 'Many rakshasis are Ravana\'s wives.',
         vocabIds: [],
@@ -10099,11 +10099,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-171',
         words: [
-          { devanagari: 'बह्व्यअ᳓¸¥', iast: 'bahvyaḍ¥', english: 'many', grammar: '' },
+          { devanagari: 'बह्व्यः', iast: 'bahvyaḥ', english: 'many', grammar: '' },
           { devanagari: 'सुन्दर्यो', iast: 'sundaryo', english: 'beautiful', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस्यो', iast: 'rākṭ£asyo', english: '(female) demons', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अस्य', iast: 'rāvaṭasya', english: 'of Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'पत्न्यअ᳓¸¥', iast: 'patnyaḍ¥', english: 'wives', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षस्यो', iast: 'rākṣasyo', english: '(female) demons', grammar: 'nom. sg.' },
+          { devanagari: 'रावणस्य', iast: 'rāvaṇasya', english: 'of Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'पत्न्यः', iast: 'patnyaḥ', english: 'wives', grammar: 'nom. sg.' },
         ],
         translation: 'Many beautiful rakshasis are Ravana\'s wives.',
         vocabIds: [],
@@ -10112,8 +10112,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-172',
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'राक᳓꣡£अस­राजो', iast: 'rākṭ£asa­rājo', english: '', grammar: '' },
-          { devanagari: 'नार्याअ᳓¸¥', iast: 'nāryāḍ¥', english: 'from or of the woman', grammar: 'nom. sg.' },
+          { devanagari: 'राक्षसराजो', iast: 'rākṣasarājo', english: '', grammar: '' },
+          { devanagari: 'नार्याः', iast: 'nāryāḥ', english: 'from or of the woman', grammar: 'nom. sg.' },
           { devanagari: 'पतिर्', iast: 'patir', english: 'lord, husband', grammar: '' },
           { devanagari: 'भवितुम्', iast: 'bhavitum', english: 'to be or become', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
@@ -10143,9 +10143,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-175',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'रामअ᳓꣡', iast: 'rāmaṭ', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रामं', iast: 'rāmaṃ', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -10155,8 +10155,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-176',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'रामअ᳓꣡', iast: 'rāmaṭ', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रामं', iast: 'rāmaṃ', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -10167,7 +10167,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-177',
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
           { devanagari: 'रामम्', iast: 'rāmam', english: 'Rama', grammar: 'nom. sg.' },
@@ -10178,10 +10178,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-178',
         words: [
-          { devanagari: 'रामअ᳓¸¥', iast: 'rāmaḍ¥', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'सीतायाअ᳓¸¥', iast: 'sītāyāḍ¥', english: 'from or of Sita', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियअ᳓¸¥', iast: 'priyaḍ¥', english: 'dear or beloved', grammar: 'nom. sg.' },
-          { devanagari: 'पतिअ᳓¸¥', iast: 'patiḍ¥', english: 'lord, husband', grammar: '' },
+          { devanagari: 'रामः', iast: 'rāmaḥ', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'सीतायाः', iast: 'sītāyāḥ', english: 'from or of Sita', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियः', iast: 'priyaḥ', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'पतिः', iast: 'patiḥ', english: 'lord, husband', grammar: '' },
         ],
         translation: 'Rama is Sita\'s beloved husband.',
         vocabIds: [],
@@ -10189,9 +10189,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-179',
         words: [
-          { devanagari: 'रावअ᳓꣡अअ᳓¸¥', iast: 'rāvaṭaḍ¥', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'सीतायाअ᳓¸¥', iast: 'sītāyāḍ¥', english: 'from or of Sita', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियअ᳓¸¥', iast: 'priyaḍ¥', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'रावणः', iast: 'rāvaṇaḥ', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'सीतायाः', iast: 'sītāyāḥ', english: 'from or of Sita', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियः', iast: 'priyaḥ', english: 'dear or beloved', grammar: 'nom. sg.' },
           { devanagari: 'पतिर्', iast: 'patir', english: 'lord, husband', grammar: '' },
           { devanagari: 'भवितुम्', iast: 'bhavitum', english: 'to be or become', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
@@ -10202,10 +10202,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-180',
         words: [
-          { devanagari: 'रावअ᳓꣡अअ᳓¸¥', iast: 'rāvaṭaḍ¥', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'सीतायाअ᳓¸¥', iast: 'sītāyāḍ¥', english: 'from or of Sita', grammar: 'nom. sg.' },
-          { devanagari: 'प्रियअ᳓꣡', iast: 'priyaṭ', english: 'dear or beloved', grammar: 'nom. sg.' },
-          { devanagari: 'रामअ᳓꣡', iast: 'rāmaṭ', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'रावणः', iast: 'rāvaṇaḥ', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'सीतायाः', iast: 'sītāyāḥ', english: 'from or of Sita', grammar: 'nom. sg.' },
+          { devanagari: 'प्रियं', iast: 'priyaṃ', english: 'dear or beloved', grammar: 'nom. sg.' },
+          { devanagari: 'रामं', iast: 'rāmaṃ', english: 'Rama', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -10215,9 +10215,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-181',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'हनुमन्तअ᳓꣡', iast: 'hanumantaṭ', english: 'Hanuman', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'हनुमन्तं', iast: 'hanumantaṃ', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -10227,7 +10227,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-182',
         words: [
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'हनुमन्तम्', iast: 'hanumantam', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
@@ -10239,7 +10239,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am46-183',
         words: [
           { devanagari: 'कस्माद्', iast: 'kasmād', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
           { devanagari: 'मारयितुम्', iast: 'mārayitum', english: 'to kill', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
           { devanagari: 'हनुमन्तम्', iast: 'hanumantam', english: 'Hanuman', grammar: 'nom. sg.' },
@@ -10274,7 +10274,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सखा', iast: 'sakhā', english: 'friend', grammar: '' },
-          { devanagari: 'रावअ᳓꣡अस्य', iast: 'rāvaṭasya', english: 'of Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रावणस्य', iast: 'rāvaṇasya', english: 'of Ravana', grammar: 'nom. sg.' },
         ],
         translation: 'Hanuman is not a friend of Ravana.',
         vocabIds: [],
@@ -10282,9 +10282,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-187',
         words: [
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓꣡', iast: 'kaṭ', english: 'whom?', grammar: 'nom. sg.' },
-          { devanagari: 'मारयिअ᳓꣡£यति', iast: 'mārayiṭ£yati', english: 'will kill', grammar: '' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'कं', iast: 'kaṃ', english: 'whom?', grammar: 'nom. sg.' },
+          { devanagari: 'मारयिष्यति', iast: 'mārayiṣyati', english: 'will kill', grammar: '' },
         ],
         translation: 'Who will kill whom?',
         vocabIds: [],
@@ -10292,10 +10292,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-188',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'रामो', iast: 'rāmo', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अअ᳓꣡', iast: 'rāvaṭaṭ', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'मारयिअ᳓꣡£यति', iast: 'mārayiṭ£yati', english: 'will kill', grammar: '' },
+          { devanagari: 'रावणं', iast: 'rāvaṇaṃ', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'मारयिष्यति', iast: 'mārayiṣyati', english: 'will kill', grammar: '' },
         ],
         translation: 'Will Rama kill Ravana?',
         vocabIds: [],
@@ -10303,10 +10303,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-189',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'हनुमान्', iast: 'hanumān', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡अअ᳓꣡', iast: 'rāvaṭaṭ', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'मारयिअ᳓꣡£यति', iast: 'mārayiṭ£yati', english: 'will kill', grammar: '' },
+          { devanagari: 'रावणं', iast: 'rāvaṇaṃ', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'मारयिष्यति', iast: 'mārayiṣyati', english: 'will kill', grammar: '' },
         ],
         translation: 'Will Hanuman kill Ravana?',
         vocabIds: [],
@@ -10314,10 +10314,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-190',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'रामअ᳓꣡', iast: 'rāmaṭ', english: 'Rama', grammar: 'nom. sg.' },
-          { devanagari: 'मारयिअ᳓꣡£यति', iast: 'mārayiṭ£yati', english: 'will kill', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'रामं', iast: 'rāmaṃ', english: 'Rama', grammar: 'nom. sg.' },
+          { devanagari: 'मारयिष्यति', iast: 'mārayiṣyati', english: 'will kill', grammar: '' },
         ],
         translation: 'Will Ravana kill Rama?',
         vocabIds: [],
@@ -10325,10 +10325,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am46-191',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
-          { devanagari: 'रावअ᳓꣡ओ', iast: 'rāvaṭo', english: 'Ravana', grammar: 'nom. sg.' },
-          { devanagari: 'हनुमन्तअ᳓꣡', iast: 'hanumantaṭ', english: 'Hanuman', grammar: 'nom. sg.' },
-          { devanagari: 'मारयिअ᳓꣡£यति', iast: 'mārayiṭ£yati', english: 'will kill', grammar: '' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'रावणो', iast: 'rāvaṇo', english: 'Ravana', grammar: 'nom. sg.' },
+          { devanagari: 'हनुमन्तं', iast: 'hanumantaṃ', english: 'Hanuman', grammar: 'nom. sg.' },
+          { devanagari: 'मारयिष्यति', iast: 'mārayiṣyati', english: 'will kill', grammar: '' },
         ],
         translation: 'Will Ravana kill Hanuman?',
         vocabIds: [],
@@ -10348,8 +10348,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-1',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is a boy.',
         vocabIds: [],
@@ -10357,7 +10357,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-2',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is happy.',
@@ -10366,9 +10366,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-3',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is a happy boy.',
         vocabIds: [],
@@ -10378,7 +10378,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Nalini is not a boy.',
         vocabIds: [],
@@ -10396,7 +10396,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-6',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयस्य', iast: 'saṭjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयस्य', iast: 'saṃjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
         ],
         translation: 'Nalini is Sanjaya\'s mother.',
@@ -10405,8 +10405,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-7',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'नलिनीअ᳓꣡', iast: 'nalinīṭ', english: 'Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'नलिनीं', iast: 'nalinīṃ', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya sees Nalini.',
@@ -10415,9 +10415,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-8',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'नलिनीअ᳓꣡', iast: 'nalinīṭ', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'मातरअ᳓꣡', iast: 'mātaraṭ', english: 'mother', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'नलिनीं', iast: 'nalinīṃ', english: 'Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'मातरं', iast: 'mātaraṃ', english: 'mother', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya sees his mother Nalini.',
@@ -10426,8 +10426,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-9',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'नलिनीअ᳓꣡', iast: 'nalinīṭ', english: 'Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'नलिनीं', iast: 'nalinīṃ', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to Nalini.',
@@ -10436,7 +10436,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-10',
         words: [
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
         ],
         translation: 'Mother!',
         vocabIds: [],
@@ -10444,7 +10444,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-11',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
           { devanagari: 'नलिनीम्', iast: 'nalinīm', english: 'Nalini', grammar: 'nom. sg.' },
         ],
@@ -10456,7 +10456,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
@@ -10466,7 +10466,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-13',
         words: [
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
         ],
         translation: 'Mother!',
         vocabIds: [],
@@ -10474,7 +10474,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-14',
         words: [
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
         ],
         translation: 'Mother!',
         vocabIds: [],
@@ -10483,7 +10483,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-15',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓꣡', iast: 'kaṭ', english: 'whom?', grammar: 'nom. sg.' },
+          { devanagari: 'कं', iast: 'kaṃ', english: 'whom?', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Whom does Nalini see?',
@@ -10493,7 +10493,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-16',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini sees Sanjaya.',
@@ -10502,7 +10502,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-17',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya?',
         vocabIds: [],
@@ -10510,7 +10510,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-18',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -10520,9 +10520,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-19',
         words: [
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Mother, I want to play.',
@@ -10531,7 +10531,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-20',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -10541,8 +10541,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-21',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play.',
@@ -10562,9 +10562,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-23',
         words: [
-          { devanagari: 'किअ᳓꣡', iast: 'kiṭ', english: 'what?', grammar: 'nom. sg.' },
+          { devanagari: 'किं', iast: 'kiṃ', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Does Nalini want to play?',
@@ -10575,7 +10575,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini doesn\'t want to play.',
@@ -10584,11 +10584,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-25',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'I don\'t want to play, Sanjaya.',
         vocabIds: [],
@@ -10596,7 +10596,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-26',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'शरान्ता', iast: 'śrāntā', english: 'tired', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m tired.',
@@ -10624,9 +10624,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-29',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'शरान्तअ᳓¸¥', iast: 'śrāntaḍ¥', english: 'tired', grammar: 'nom. sg.' },
+          { devanagari: 'श्रान्तः', iast: 'śrāntaḥ', english: 'tired', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya isn\'t tired.',
         vocabIds: [],
@@ -10634,8 +10634,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-30',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play.',
@@ -10644,10 +10644,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-31',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'नलिन्या', iast: 'nalinyā', english: 'by Nalini', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Nalini.',
@@ -10668,7 +10668,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini doesn\'t want to play.',
@@ -10678,10 +10678,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-34',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini doesn\'t want to play with Sanjaya.',
@@ -10692,7 +10692,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Mother doesn\'t want to play.',
@@ -10701,8 +10701,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-36',
         words: [
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play?',
@@ -10714,7 +10714,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'को', iast: 'ko', english: 'who? what?', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play with me?',
@@ -10723,8 +10723,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-38',
         words: [
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play?',
@@ -10733,10 +10733,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-39',
         words: [
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play with Sanjaya?',
@@ -10745,8 +10745,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-40',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is a boy.',
         vocabIds: [],
@@ -10755,10 +10755,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-41',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'But Sanjaya is not a happy boy.',
         vocabIds: [],
@@ -10766,8 +10766,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-42',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play.',
@@ -10776,10 +10776,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-43',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'नलिन्या', iast: 'nalinyā', english: 'by Nalini', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Nalini.',
@@ -10788,10 +10788,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-44',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'मात्रा', iast: 'mātrā', english: 'by the mother', grammar: '' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with his mother.',
@@ -10802,7 +10802,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयस्य', iast: 'saṭjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयस्य', iast: 'saṃjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'शरान्ता', iast: 'śrāntā', english: 'tired', grammar: 'nom. sg.' },
         ],
         translation: 'But Sanjaya\'s mother is tired.',
@@ -10812,9 +10812,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-46',
         words: [
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयस्य', iast: 'saṭjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयस्य', iast: 'saṃjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya\'s mother doesn\'t want to play.',
@@ -10825,7 +10825,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Mother doesn\'t want to play.',
@@ -10838,7 +10838,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Mother doesn\'t want to play with me.',
@@ -10850,7 +10850,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'को', iast: 'ko', english: 'who? what?', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play with me?',
@@ -10868,7 +10868,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-51',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -10890,7 +10890,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Padma is not a boy.',
         vocabIds: [],
@@ -10928,7 +10928,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-57',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'पद्माअ᳓꣡', iast: 'padmāṭ', english: 'Padma', grammar: 'nom. sg.' },
+          { devanagari: 'पद्मां', iast: 'padmāṃ', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini sees Padma.',
@@ -10937,7 +10937,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-58',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'शरान्ता', iast: 'śrāntā', english: 'tired', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m tired.',
@@ -10958,7 +10958,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-60',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma might want to play.',
@@ -10968,9 +10968,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-61',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma might want to play with Sanjaya.',
@@ -10988,8 +10988,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-63',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya! Sanjaya!',
         vocabIds: [],
@@ -10997,8 +10997,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-64',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'नलिनीअ᳓꣡', iast: 'nalinīṭ', english: 'Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'नलिनीं', iast: 'nalinīṃ', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to Nalini.',
@@ -11007,8 +11007,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-65',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'मातरअ᳓꣡', iast: 'mātaraṭ', english: 'mother', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'मातरं', iast: 'mātaraṃ', english: 'mother', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to his mother.',
@@ -11017,7 +11017,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-66',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
           { devanagari: 'मातरम्', iast: 'mātaram', english: 'mother', grammar: '' },
         ],
@@ -11027,7 +11027,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-67',
         words: [
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
         ],
         translation: 'Mother?',
         vocabIds: [],
@@ -11036,7 +11036,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-68',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini sees Sanjaya.',
@@ -11045,8 +11045,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-69',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'शरान्ता', iast: 'śrāntā', english: 'tired', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya, I\'m tired.',
@@ -11055,9 +11055,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-70',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I don\'t want to play.',
@@ -11079,7 +11079,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
           { devanagari: 'पद्माम्', iast: 'padmām', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Go to Padma, Sanjaya!',
         vocabIds: [],
@@ -11087,7 +11087,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-73',
         words: [
-          { devanagari: 'क्रीअ᳓¸अ', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
+          { devanagari: 'क्रीड', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
         ],
         translation: 'Play!',
         vocabIds: [],
@@ -11097,7 +11097,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मया', iast: 'padmayā', english: 'by Padma', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸अ', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
+          { devanagari: 'क्रीड', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
         ],
         translation: 'Play with Padma.',
         vocabIds: [],
@@ -11105,8 +11105,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-75',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'पद्माअ᳓꣡', iast: 'padmāṭ', english: 'Padma', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'पद्मां', iast: 'padmāṃ', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya sees Padma.',
@@ -11115,7 +11115,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-76',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is happy.',
@@ -11124,9 +11124,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-77',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is a happy boy.',
         vocabIds: [],
@@ -11155,7 +11155,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-80',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma might want to play.',
@@ -11167,7 +11167,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma might want to play with me!',
@@ -11176,8 +11176,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-82',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play.',
@@ -11186,10 +11186,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-83',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पद्मया', iast: 'padmayā', english: 'by Padma', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Padma.',
@@ -11198,8 +11198,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-84',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'पद्माअ᳓꣡', iast: 'padmāṭ', english: 'Padma', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'पद्मां', iast: 'padmāṃ', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to Padma.',
@@ -11208,8 +11208,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-85',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुअ᳓꣡', iast: 'krīḍituṭ', english: 'to play', grammar: '' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुं', iast: 'krīḍituṃ', english: 'to play', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to play.',
@@ -11218,10 +11218,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-86',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पद्मया', iast: 'padmayā', english: 'by Padma', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुअ᳓꣡', iast: 'krīḍituṭ', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुं', iast: 'krīḍituṃ', english: 'to play', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to play with Padma.',
@@ -11238,8 +11238,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-88',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play.',
@@ -11250,7 +11250,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸अ', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
+          { devanagari: 'क्रीड', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
         ],
         translation: 'Play with me!',
         vocabIds: [],
@@ -11258,7 +11258,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-90',
         words: [
-          { devanagari: 'क्रीअ᳓¸अ', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
+          { devanagari: 'क्रीड', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
@@ -11282,7 +11282,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma doesn\'t want to play.',
@@ -11292,10 +11292,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-93',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma doesn\'t want to play with Sanjaya.',
@@ -11314,8 +11314,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-95',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'पद्माअ᳓꣡', iast: 'padmāṭ', english: 'Padma', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'पद्मां', iast: 'padmāṃ', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to Padma.',
@@ -11324,8 +11324,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-96',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुअ᳓꣡', iast: 'krīḍituṭ', english: 'to play', grammar: '' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुं', iast: 'krīḍituṃ', english: 'to play', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to play.',
@@ -11334,10 +11334,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-97',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पद्मया', iast: 'padmayā', english: 'by Padma', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुअ᳓꣡', iast: 'krīḍituṭ', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुं', iast: 'krīḍituṃ', english: 'to play', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to play with Padma.',
@@ -11348,7 +11348,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
@@ -11359,7 +11359,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-99',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
@@ -11401,7 +11401,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-103',
         words: [
           { devanagari: 'पद्मे', iast: 'padme', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
           { devanagari: 'गच्छसि', iast: 'gacchasi', english: '(you) go, are going', grammar: '3rd sg. pres.' },
         ],
@@ -11411,8 +11411,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-104',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play.',
@@ -11421,10 +11421,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-105',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वया', iast: 'tvayā', english: 'by you', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with you!',
@@ -11433,8 +11433,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-106',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play.',
@@ -11443,10 +11443,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-107',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पद्मया', iast: 'padmayā', english: 'by Padma', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Padma.',
@@ -11458,7 +11458,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Padma doesn\'t want to play.',
@@ -11468,10 +11468,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-109',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma doesn\'t want to play with Sanjaya.',
@@ -11480,7 +11480,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-110',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -11490,10 +11490,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-111',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is not a happy boy.',
         vocabIds: [],
@@ -11533,7 +11533,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-115',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'मातरअ᳓꣡', iast: 'mātaraṭ', english: 'mother', grammar: '' },
+          { devanagari: 'मातरं', iast: 'mātaraṃ', english: 'mother', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -11554,7 +11554,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-117',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'मातरअ᳓꣡', iast: 'mātaraṭ', english: 'mother', grammar: '' },
+          { devanagari: 'मातरं', iast: 'mātaraṃ', english: 'mother', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma sees her mother.',
@@ -11564,8 +11564,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-118',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'नलिनीअ᳓꣡', iast: 'nalinīṭ', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'मातरअ᳓꣡', iast: 'mātaraṭ', english: 'mother', grammar: '' },
+          { devanagari: 'नलिनीं', iast: 'nalinīṃ', english: 'Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'मातरं', iast: 'mātaraṃ', english: 'mother', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma sees her mother Nalini.',
@@ -11584,7 +11584,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-120',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -11607,7 +11607,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयम्', iast: 'saṭjayam', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयम्', iast: 'saṃjayam', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Padma doesn\'t want Sanjaya.',
@@ -11617,7 +11617,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-123',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
@@ -11628,8 +11628,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-124',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play.',
@@ -11638,10 +11638,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-125',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'पद्मया', iast: 'padmayā', english: 'by Padma', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with Padma.',
@@ -11653,7 +11653,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Padma doesn\'t want to play.',
@@ -11666,7 +11666,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma doesn\'t want to play with me.',
@@ -11675,8 +11675,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-128',
         words: [
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play?',
@@ -11688,7 +11688,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'को', iast: 'ko', english: 'who? what?', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play with me?',
@@ -11699,9 +11699,9 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini doesn\'t want to play with Sanjaya.',
@@ -11720,10 +11720,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-132',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma doesn\'t want to play with Sanjaya.',
@@ -11742,7 +11742,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-134',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -11752,9 +11752,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-135',
         words: [
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Mother, I want to play.',
@@ -11763,8 +11763,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-136',
         words: [
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play?',
@@ -11776,7 +11776,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'को', iast: 'ko', english: 'who? what?', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play with me?',
@@ -11785,9 +11785,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-138',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya, where is Rahula?',
         vocabIds: [],
@@ -11795,8 +11795,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-139',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula might want to play.',
@@ -11805,8 +11805,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-140',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Rahula?',
         vocabIds: [],
@@ -11815,7 +11815,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-141',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'बालअ᳓¸¥', iast: 'bālaḍ¥', english: 'boy, child', grammar: 'nom. sg.' },
+          { devanagari: 'बालः', iast: 'bālaḥ', english: 'boy, child', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is a boy.',
         vocabIds: [],
@@ -11832,8 +11832,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-143',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयस्य', iast: 'saṭjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'संजयस्य', iast: 'saṃjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'मित्रम्', iast: 'mitram', english: 'friend', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is Sanjaya\'s friend.',
@@ -11842,7 +11842,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-144',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is happy.',
@@ -11851,10 +11851,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-145',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Rahula.',
@@ -11863,10 +11863,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-146',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रेअ᳓꣡अ', iast: 'mitreṭa', english: 'by the friend', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रेण', iast: 'mitreṇa', english: 'by the friend', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with his friend!',
@@ -11875,8 +11875,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-147',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula might want to play!',
@@ -11888,7 +11888,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula might want to play with me!',
@@ -11897,7 +11897,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-149',
         words: [
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
         ],
         translation: 'Mother!',
         vocabIds: [],
@@ -11905,7 +11905,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-150',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'गच्छामि', iast: 'gacchāmi', english: '(I) go, am going', grammar: '3rd sg. pres.' },
         ],
         translation: 'I\'m going.',
@@ -11914,10 +11914,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-151',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
           { devanagari: 'गच्छसि', iast: 'gacchasi', english: '(you) go, are going', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Where are you going, Sanjaya?',
         vocabIds: [],
@@ -11925,9 +11925,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-152',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓꣡', iast: 'rāhulaṭ', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलं', iast: 'rāhulaṃ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to see Rahula.',
@@ -11947,8 +11947,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-154',
         words: [
           { devanagari: 'मम', iast: 'mama', english: 'my, of me', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रअ᳓꣡', iast: 'mitraṭ', english: 'friend', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'मित्रं', iast: 'mitraṃ', english: 'friend', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'My friend might want to play.',
@@ -11958,10 +11958,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-155',
         words: [
           { devanagari: 'मम', iast: 'mama', english: 'my, of me', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रअ᳓꣡', iast: 'mitraṭ', english: 'friend', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रं', iast: 'mitraṃ', english: 'friend', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'My friend might want to play with me.',
@@ -11970,9 +11970,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-156',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓꣡', iast: 'rāhulaṭ', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उअ᳓꣡', iast: 'draṭ£ṭ­uṭ', english: 'to see', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलं', iast: 'rāhulaṃ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुं', iast: 'draṣṭuṃ', english: 'to see', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to see Rahula.',
@@ -11981,7 +11981,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-157',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -11991,9 +11991,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-158',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓꣡', iast: 'rāhulaṭ', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलं', iast: 'rāhulaṃ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to see Rahula.',
@@ -12002,10 +12002,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-159',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Rahula.',
@@ -12015,8 +12015,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-160',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓꣡', iast: 'rāhulaṭ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलं', iast: 'rāhulaṃ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
@@ -12027,7 +12027,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-161',
         words: [
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
         ],
         translation: 'Where is Rahula?',
         vocabIds: [],
@@ -12036,7 +12036,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-162',
         words: [
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयस्य', iast: 'saṭjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयस्य', iast: 'saṃjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'मित्रम्', iast: 'mitram', english: 'friend', grammar: 'nom. sg.' },
         ],
         translation: 'Where is Sanjaya\'s friend?',
@@ -12062,8 +12062,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-165',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
         ],
@@ -12073,7 +12073,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-166',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
         ],
         translation: 'Where are you?',
@@ -12082,9 +12082,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-167',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
         ],
@@ -12094,7 +12094,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-168',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -12104,8 +12104,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-169',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓꣡', iast: 'rāhulaṭ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलं', iast: 'rāhulaṃ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya sees Rahula.',
@@ -12114,8 +12114,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-170',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रअ᳓꣡', iast: 'mitraṭ', english: 'friend', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रं', iast: 'mitraṃ', english: 'friend', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya sees his friend!',
@@ -12124,7 +12124,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-171',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is happy.',
@@ -12133,10 +12133,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-172',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Rahula.',
@@ -12145,10 +12145,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-173',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रेअ᳓꣡अ', iast: 'mitreṭa', english: 'by the friend', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रेण', iast: 'mitreṇa', english: 'by the friend', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with his friend.',
@@ -12158,8 +12158,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-174',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
@@ -12178,8 +12178,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-176',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
         ],
@@ -12189,8 +12189,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-177',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula sees Sanjaya.',
@@ -12200,7 +12200,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-178',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रअ᳓꣡', iast: 'mitraṭ', english: 'friend', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रं', iast: 'mitraṃ', english: 'friend', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula sees his friend.',
@@ -12209,7 +12209,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-179',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Rahula is happy.',
@@ -12218,7 +12218,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-180',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya!',
         vocabIds: [],
@@ -12235,10 +12235,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-182',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'I see you, Sanjaya!',
         vocabIds: [],
@@ -12246,8 +12246,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-183',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula goes to Sanjaya.',
@@ -12257,7 +12257,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-184',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रअ᳓꣡', iast: 'mitraṭ', english: 'friend', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रं', iast: 'mitraṃ', english: 'friend', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula goes to his friend.',
@@ -12266,10 +12266,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-185',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'What do you want, Sanjaya?',
         vocabIds: [],
@@ -12277,7 +12277,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-186',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
           { devanagari: 'गच्छसि', iast: 'gacchasi', english: '(you) go, are going', grammar: '3rd sg. pres.' },
         ],
@@ -12287,7 +12287,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-187',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -12305,8 +12305,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-189',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play.',
@@ -12315,10 +12315,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-190',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रेअ᳓꣡अ', iast: 'mitreṭa', english: 'by the friend', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रेण', iast: 'mitreṇa', english: 'by the friend', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with my friend.',
@@ -12327,10 +12327,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-191',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वया', iast: 'tvayā', english: 'by you', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with you!',
@@ -12341,7 +12341,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸अ', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
+          { devanagari: 'क्रीड', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
           { devanagari: 'राहुल', iast: 'rāhula', english: 'Rahula', grammar: 'nom. sg.' },
         ],
         translation: 'Play with me, Rahula!',
@@ -12350,7 +12350,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-193',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is happy.',
@@ -12389,7 +12389,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-197',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -12399,10 +12399,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-198',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Rahula.',
@@ -12411,10 +12411,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-199',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रेअ᳓꣡अ', iast: 'mitreṭa', english: 'by the friend', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रेण', iast: 'mitreṇa', english: 'by the friend', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with his friend.',
@@ -12434,7 +12434,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-201',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -12444,9 +12444,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-202',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya, I want to play.',
@@ -12455,10 +12455,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-203',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वया', iast: 'tvayā', english: 'by you', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with you.',
@@ -12485,8 +12485,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'माअ᳓꣡', iast: 'māṭ', english: 'me', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'मां', iast: 'māṃ', english: 'me', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'But my mother wants to see me.',
@@ -12535,7 +12535,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-211',
         words: [
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'ग᳓꣡हे', iast: 'gṭhe', english: 'in the house, at home', grammar: '' },
+          { devanagari: 'गृहे', iast: 'gṛhe', english: 'in the house, at home', grammar: '' },
         ],
         translation: 'Mother\'s at home.',
         vocabIds: [],
@@ -12544,7 +12544,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-212',
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तव्यम्', iast: 'gantavyam', english: 'should or must go or leave', grammar: '' },
         ],
         translation: 'I have to go home.',
@@ -12553,7 +12553,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-213',
         words: [
-          { devanagari: 'ग᳓꣡हम्', iast: 'gṭham', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहम्', iast: 'gṛham', english: 'house, home', grammar: '' },
         ],
         translation: 'Home?!',
         vocabIds: [],
@@ -12561,7 +12561,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-214',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -12581,9 +12581,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-216',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya, I want to play!',
@@ -12592,7 +12592,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-217',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'तव', iast: 'tava', english: 'your, of you', grammar: 'nom. sg.' },
           { devanagari: 'मित्रम्', iast: 'mitram', english: 'friend', grammar: 'nom. sg.' },
         ],
@@ -12602,10 +12602,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-218',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वया', iast: 'tvayā', english: 'by you', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with you.',
@@ -12616,7 +12616,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तव्यम्', iast: 'gantavyam', english: 'should or must go or leave', grammar: '' },
         ],
         translation: 'But I must go home.',
@@ -12636,8 +12636,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-221',
         words: [
           { devanagari: 'किन्त्व्', iast: 'kintv', english: 'but', grammar: '' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'But I want to play.',
@@ -12646,10 +12646,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-222',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वया', iast: 'tvayā', english: 'by you', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with you!',
@@ -12660,8 +12660,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतव्यम्', iast: 'krīḍitavyam', english: 'should or must play', grammar: '' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितव्यम्', iast: 'krīḍitavyam', english: 'should or must play', grammar: '' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'I must not play, Sanjaya.',
         vocabIds: [],
@@ -12671,7 +12671,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­अव्या', iast: 'draṭ£ṭ­avyā', english: 'should or must see', grammar: '' },
+          { devanagari: 'द्रष्टव्या', iast: 'draṣṭavyā', english: 'should or must see', grammar: '' },
         ],
         translation: 'I must see my mother.',
         vocabIds: [],
@@ -12679,7 +12679,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-225',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -12689,9 +12689,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-226',
         words: [
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गच्छ', iast: 'gaccha', english: 'go!', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Go home, Sanjaya.',
         vocabIds: [],
@@ -12701,7 +12701,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मया', iast: 'padmayā', english: 'by Padma', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸अ', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
+          { devanagari: 'क्रीड', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
         ],
         translation: 'Play with Padma.',
         vocabIds: [],
@@ -12709,7 +12709,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-228',
         words: [
-          { devanagari: 'क्रीअ᳓¸अ', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
+          { devanagari: 'क्रीड', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
           { devanagari: 'तव', iast: 'tava', english: 'your, of you', grammar: 'nom. sg.' },
           { devanagari: 'मात्रा', iast: 'mātrā', english: 'by the mother', grammar: '' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
@@ -12723,7 +12723,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'त्वया', iast: 'tvayā', english: 'by you', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma might want to play with you.',
@@ -12736,7 +12736,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
           { devanagari: 'त्वया', iast: 'tvayā', english: 'by you', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Your mother might want to play with you.',
@@ -12750,7 +12750,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Padma doesn\'t want to play with me!',
@@ -12764,7 +12764,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'My mother doesn\'t want to play with me!',
@@ -12773,9 +12773,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-233',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
@@ -12785,10 +12785,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-234',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Rahula.',
@@ -12808,7 +12808,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-236',
         words: [
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तव्यम्', iast: 'gantavyam', english: 'should or must go or leave', grammar: '' },
         ],
         translation: 'Rahula must go home.',
@@ -12819,7 +12819,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­अव्या', iast: 'draṭ£ṭ­avyā', english: 'should or must see', grammar: '' },
+          { devanagari: 'द्रष्टव्या', iast: 'draṣṭavyā', english: 'should or must see', grammar: '' },
         ],
         translation: 'Rahula must see his mother.',
         vocabIds: [],
@@ -12829,7 +12829,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतव्यम्', iast: 'krīḍitavyam', english: 'should or must play', grammar: '' },
+          { devanagari: 'क्रीडितव्यम्', iast: 'krīḍitavyam', english: 'should or must play', grammar: '' },
         ],
         translation: 'Rahula must not play.',
         vocabIds: [],
@@ -12838,7 +12838,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-239',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula goes home.',
@@ -12847,7 +12847,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-240',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -12857,8 +12857,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-241',
         words: [
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play?',
@@ -12870,7 +12870,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'को', iast: 'ko', english: 'who? what?', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play with me?',
@@ -12879,10 +12879,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-243',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'केन', iast: 'kena', english: 'by whom or what? how?', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸एत्', iast: 'krīḍet', english: 'might, could, or should play', grammar: '3rd sg. pres.' },
+          { devanagari: 'क्रीडेत्', iast: 'krīḍet', english: 'might, could, or should play', grammar: '3rd sg. pres.' },
         ],
         translation: 'Whom might Sanjaya play with?',
         vocabIds: [],
@@ -12890,7 +12890,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-244',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -12900,8 +12900,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-245',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play.',
@@ -12910,10 +12910,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-246',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'नलिन्या', iast: 'nalinyā', english: 'by Nalini', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Nalini.',
@@ -12922,10 +12922,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-247',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'मात्रा', iast: 'mātrā', english: 'by the mother', grammar: '' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with his mother.',
@@ -12946,7 +12946,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini doesn\'t want to play.',
@@ -12956,10 +12956,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-250',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini doesn\'t want to play with Sanjaya.',
@@ -12978,10 +12978,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-252',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पद्मया', iast: 'padmayā', english: 'by Padma', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Padma.',
@@ -12993,7 +12993,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'But Padma doesn\'t want to play.',
@@ -13003,10 +13003,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-254',
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma doesn\'t want to play with Sanjaya.',
@@ -13037,7 +13037,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'पद्मा', iast: 'padmā', english: 'Padma', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'सअ᳓꣡जयम्', iast: 'saṭjayam', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयम्', iast: 'saṃjayam', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Padma doesn\'t want Sanjaya.',
@@ -13046,10 +13046,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-258',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with Rahula.',
@@ -13058,10 +13058,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-259',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रेअ᳓꣡अ', iast: 'mitreṭa', english: 'by the friend', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रेण', iast: 'mitreṇa', english: 'by the friend', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play with his friend.',
@@ -13070,8 +13070,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-260',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula wants to play.',
@@ -13080,10 +13080,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-261',
         words: [
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Rahula wants to play with Sanjaya.',
@@ -13104,7 +13104,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­अव्या', iast: 'draṭ£ṭ­avyā', english: 'should or must see', grammar: '' },
+          { devanagari: 'द्रष्टव्या', iast: 'draṣṭavyā', english: 'should or must see', grammar: '' },
         ],
         translation: 'Rahula has to see his mother.',
         vocabIds: [],
@@ -13123,7 +13123,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-265',
         words: [
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तव्यम्', iast: 'gantavyam', english: 'should or must go or leave', grammar: '' },
         ],
         translation: 'Rahula has to go home.',
@@ -13134,7 +13134,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतव्यम्', iast: 'krīḍitavyam', english: 'should or must play', grammar: '' },
+          { devanagari: 'क्रीडितव्यम्', iast: 'krīḍitavyam', english: 'should or must play', grammar: '' },
         ],
         translation: 'Rahula must not play.',
         vocabIds: [],
@@ -13143,10 +13143,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-267',
         words: [
           { devanagari: 'राहुलेन', iast: 'rāhulena', english: 'by Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतव्यम्', iast: 'krīḍitavyam', english: 'should or must play', grammar: '' },
+          { devanagari: 'क्रीडितव्यम्', iast: 'krīḍitavyam', english: 'should or must play', grammar: '' },
         ],
         translation: 'Rahula must not play with Sanjaya.',
         vocabIds: [],
@@ -13154,8 +13154,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-268',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play.',
@@ -13165,8 +13165,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-269',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'But who might want to play?',
@@ -13178,7 +13178,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'को', iast: 'ko', english: 'who? what?', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छेत्', iast: 'icchet', english: 'might, could, or should want', grammar: '3rd sg. pres.' },
         ],
         translation: 'Who might want to play with me?',
@@ -13187,7 +13187,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-271',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -13197,8 +13197,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-272',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'शरान्तअ᳓¸¥', iast: 'śrāntaḍ¥', english: 'tired', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'श्रान्तः', iast: 'śrāntaḥ', english: 'tired', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is tired.',
         vocabIds: [],
@@ -13208,7 +13208,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'कशचित्', iast: 'kaścit', english: 'someone', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nobody wants to play.',
@@ -13221,7 +13221,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कशचिन्', iast: 'kaścin', english: 'someone', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nobody wants to play with me.',
@@ -13230,7 +13230,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-275',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -13240,8 +13240,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-276',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गन्तुम्', iast: 'gantum', english: 'to go or leave', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -13251,7 +13251,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-277',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -13261,8 +13261,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-278',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya wants to play.',
@@ -13272,10 +13272,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-279',
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'But who wants to play with Sanjaya?',
@@ -13286,9 +13286,9 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'कशचित्', iast: 'kaścit', english: 'someone', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nobody wants to play with Sanjaya.',
@@ -13297,8 +13297,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-281',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'शरान्तअ᳓¸¥', iast: 'śrāntaḍ¥', english: 'tired', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'श्रान्तः', iast: 'śrāntaḥ', english: 'tired', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is tired.',
         vocabIds: [],
@@ -13306,8 +13306,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-282',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes home.',
@@ -13326,7 +13326,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-284',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हे', iast: 'gṭhe', english: 'in the house, at home', grammar: '' },
+          { devanagari: 'गृहे', iast: 'gṛhe', english: 'in the house, at home', grammar: '' },
         ],
         translation: 'Nalini is at home.',
         vocabIds: [],
@@ -13334,8 +13334,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-285',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'नलिनीअ᳓꣡', iast: 'nalinīṭ', english: 'Nalini', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'नलिनीं', iast: 'nalinīṃ', english: 'Nalini', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya sees Nalini.',
@@ -13344,8 +13344,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-286',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'मातरअ᳓꣡', iast: 'mātaraṭ', english: 'mother', grammar: '' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'मातरं', iast: 'mātaraṃ', english: 'mother', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya sees his mother.',
@@ -13356,7 +13356,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
@@ -13367,7 +13367,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-288',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'शान्ताअ᳓꣡', iast: 'śāntāṭ', english: 'Shanta', grammar: 'nom. sg.' },
+          { devanagari: 'शान्तां', iast: 'śāntāṃ', english: 'Shanta', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini sees Shanta.',
@@ -13405,8 +13405,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-292',
         words: [
           { devanagari: 'शान्ता', iast: 'śāntā', english: 'Shanta', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयस्य', iast: 'saṭjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हे', iast: 'gṭhe', english: 'in the house, at home', grammar: '' },
+          { devanagari: 'संजयस्य', iast: 'saṃjayasya', english: 'of Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'गृहे', iast: 'gṛhe', english: 'in the house, at home', grammar: '' },
         ],
         translation: 'Shanta is in Sanjaya\'s house.',
         vocabIds: [],
@@ -13415,7 +13415,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-293',
         words: [
           { devanagari: 'शान्ता', iast: 'śāntā', english: 'Shanta', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Shanta sees Sanjaya.',
@@ -13433,7 +13433,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-295',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya!',
         vocabIds: [],
@@ -13441,7 +13441,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-296',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'का', iast: 'kā', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who are you?',
@@ -13450,7 +13450,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-297',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'शान्ता', iast: 'śāntā', english: 'Shanta', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m Shanta.',
@@ -13459,7 +13459,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-298',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'नलिन्या', iast: 'nalinyā', english: 'from or of Nalini', grammar: 'nom. sg.' },
           { devanagari: 'मित्रम्', iast: 'mitram', english: 'friend', grammar: 'nom. sg.' },
         ],
@@ -13469,7 +13469,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-299',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'तव', iast: 'tava', english: 'your, of you', grammar: 'nom. sg.' },
           { devanagari: 'मातुर्', iast: 'mātur', english: 'from or of the mother', grammar: '' },
           { devanagari: 'मित्रम्', iast: 'mitram', english: 'friend', grammar: 'nom. sg.' },
@@ -13480,9 +13480,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-300',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
-          { devanagari: 'राहुलअ᳓¸¥', iast: 'rāhulaḍ¥', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलः', iast: 'rāhulaḥ', english: 'Rahula', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya, where is Rahula?',
         vocabIds: [],
@@ -13490,8 +13490,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-301',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'राहुलअ᳓꣡', iast: 'rāhulaṭ', english: 'Rahula', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'राहुलं', iast: 'rāhulaṃ', english: 'Rahula', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
         ],
@@ -13501,9 +13501,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-302',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'तव', iast: 'tava', english: 'your, of you', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रअ᳓꣡', iast: 'mitraṭ', english: 'friend', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रं', iast: 'mitraṃ', english: 'friend', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'पशयामि', iast: 'paśyāmi', english: '(I) see, am seeing', grammar: '3rd sg. pres.' },
         ],
@@ -13524,8 +13524,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-304',
         words: [
           { devanagari: 'राहुलो', iast: 'rāhulo', english: 'Rahula', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
-          { devanagari: 'गतअ᳓¸¥', iast: 'gataḍ¥', english: 'gone', grammar: '' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
+          { devanagari: 'गतः', iast: 'gataḥ', english: 'gone', grammar: '' },
         ],
         translation: 'Rahula has gone home.',
         vocabIds: [],
@@ -13534,9 +13534,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-305',
         words: [
           { devanagari: 'मम', iast: 'mama', english: 'my, of me', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रअ᳓꣡', iast: 'mitraṭ', english: 'friend', grammar: 'nom. sg.' },
-          { devanagari: 'ग᳓꣡हअ᳓꣡', iast: 'gṭhaṭ', english: 'house, home', grammar: '' },
-          { devanagari: 'गतअ᳓¸¥', iast: 'gataḍ¥', english: 'gone', grammar: '' },
+          { devanagari: 'मित्रं', iast: 'mitraṃ', english: 'friend', grammar: 'nom. sg.' },
+          { devanagari: 'गृहं', iast: 'gṛhaṃ', english: 'house, home', grammar: '' },
+          { devanagari: 'गतः', iast: 'gataḥ', english: 'gone', grammar: '' },
         ],
         translation: 'My friend has gone home.',
         vocabIds: [],
@@ -13545,7 +13545,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-306',
         words: [
           { devanagari: 'नलिनी', iast: 'nalinī', english: 'Nalini', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nalini looks at Sanjaya.',
@@ -13554,8 +13554,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-307',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -13574,7 +13574,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-309',
         words: [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -13584,8 +13584,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-310',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'शरान्तअ᳓¸¥', iast: 'śrāntaḍ¥', english: 'tired', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'श्रान्तः', iast: 'śrāntaḥ', english: 'tired', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m tired.',
         vocabIds: [],
@@ -13593,8 +13593,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-311',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play.',
@@ -13603,10 +13603,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-312',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'केनचित्', iast: 'kenacit', english: 'by someone or something', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with someone.',
@@ -13618,7 +13618,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'कशचित्', iast: 'kaścit', english: 'someone', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'But nobody wants to play.',
@@ -13631,7 +13631,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कशचिन्', iast: 'kaścin', english: 'someone', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nobody wants to play with me!',
@@ -13641,7 +13641,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-315',
         words: [
           { devanagari: 'शान्ता', iast: 'śāntā', english: 'Shanta', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓꣡', iast: 'saṭjayaṭ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयं', iast: 'saṃjayaṃ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Shanta looks at Sanjaya.',
@@ -13680,7 +13680,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-319',
         words: [
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
         ],
         translation: 'Where is Harini?',
         vocabIds: [],
@@ -13688,8 +13688,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-320',
         words: [
-          { devanagari: 'हरिअ᳓꣡इ', iast: 'hariṭi', english: 'Harini', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणि', iast: 'hariṇi', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
         ],
         translation: 'Harini, where are you?',
@@ -13698,11 +13698,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-321',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'त्वाअ᳓꣡', iast: 'tvāṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'द्रअ᳓꣡£अ᳓꣡­उम्', iast: 'draṭ£ṭ­um', english: 'to see', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'त्वां', iast: 'tvāṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'द्रष्टुम्', iast: 'draṣṭum', english: 'to see', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
-          { devanagari: 'हरिअ᳓꣡इ', iast: 'hariṭi', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणि', iast: 'hariṇi', english: 'Harini', grammar: 'nom. sg.' },
         ],
         translation: 'I want to see you, Harini!',
         vocabIds: [],
@@ -13710,7 +13710,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-322',
         words: [
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
           { devanagari: 'का', iast: 'kā', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who is Harini?',
@@ -13719,7 +13719,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-323',
         words: [
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
           { devanagari: 'बाला', iast: 'bālā', english: 'girl', grammar: 'nom. sg.' },
         ],
         translation: 'Harini is a girl.',
@@ -13729,7 +13729,7 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-324',
         words: [
           { devanagari: 'शान्ता', iast: 'śāntā', english: 'Shanta', grammar: 'nom. sg.' },
-          { devanagari: 'हरिअ᳓꣡या', iast: 'hariṭyā', english: 'from or of Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिण्या', iast: 'hariṇyā', english: 'from or of Harini', grammar: 'nom. sg.' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
         ],
         translation: 'Shanta is Harini\'s mother.',
@@ -13738,8 +13738,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-325',
         words: [
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
-          { devanagari: 'शान्ताअ᳓꣡', iast: 'śāntāṭ', english: 'Shanta', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'शान्तां', iast: 'śāntāṃ', english: 'Shanta', grammar: 'nom. sg.' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Harini goes to Shanta.',
@@ -13748,9 +13748,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-326',
         words: [
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
-          { devanagari: 'शान्ताअ᳓꣡', iast: 'śāntāṭ', english: 'Shanta', grammar: 'nom. sg.' },
-          { devanagari: 'मातरअ᳓꣡', iast: 'mātaraṭ', english: 'mother', grammar: '' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'शान्तां', iast: 'śāntāṃ', english: 'Shanta', grammar: 'nom. sg.' },
+          { devanagari: 'मातरं', iast: 'mātaraṃ', english: 'mother', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Harini goes to her mother Shanta.',
@@ -13759,7 +13759,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-327',
         words: [
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखिनी', iast: 'sukhinī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -13769,7 +13769,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-328',
         words: [
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -13779,8 +13779,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-329',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'हरिअ᳓꣡ीअ᳓꣡', iast: 'hariṭīṭ', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणीं', iast: 'hariṇīṃ', english: 'Harini', grammar: 'nom. sg.' },
           { devanagari: 'पशयति', iast: 'paśyati', english: 'sees, is seeing', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya sees Harini.',
@@ -13789,7 +13789,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-330',
         words: [
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -13799,7 +13799,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-331',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'का', iast: 'kā', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who are you?',
@@ -13808,8 +13808,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-332',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m Harini.',
         vocabIds: [],
@@ -13817,8 +13817,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-333',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'कअ᳓¸¥', iast: 'kaḍ¥', english: 'who? what?', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'कः', iast: 'kaḥ', english: 'who? what?', grammar: 'nom. sg.' },
         ],
         translation: 'Who are you?',
         vocabIds: [],
@@ -13826,8 +13826,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-334',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m Sanjaya.',
         vocabIds: [],
@@ -13835,8 +13835,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-335',
         words: [
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखिनी', iast: 'sukhinī', english: 'happy', grammar: 'nom. sg.' },
         ],
@@ -13846,7 +13846,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-336',
         words: [
-          { devanagari: 'हरिअ᳓꣡इ', iast: 'hariṭi', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणि', iast: 'hariṇi', english: 'Harini', grammar: 'nom. sg.' },
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
         ],
         translation: 'Harini, why?',
@@ -13856,10 +13856,10 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-337',
         words: [
           { devanagari: 'कस्मात्', iast: 'kasmāt', english: 'from what? why?', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'सुखिनी', iast: 'sukhinī', english: 'happy', grammar: 'nom. sg.' },
-          { devanagari: 'हरिअ᳓꣡इ', iast: 'hariṭi', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणि', iast: 'hariṇi', english: 'Harini', grammar: 'nom. sg.' },
         ],
         translation: 'Why aren\'t you happy, Harini?',
         vocabIds: [],
@@ -13867,10 +13867,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-338',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
         ],
         translation: 'I want to play, mother!',
         vocabIds: [],
@@ -13888,8 +13888,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-340',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play!',
@@ -13898,10 +13898,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-341',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'केनचित्', iast: 'kenacit', english: 'by someone or something', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with someone!',
@@ -13913,7 +13913,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'किन्तु', iast: 'kintu', english: 'but', grammar: '' },
           { devanagari: 'माता', iast: 'mātā', english: 'mother', grammar: '' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'But mother doesn\'t want to play.',
@@ -13923,9 +13923,9 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-343',
         words: [
           { devanagari: 'मम', iast: 'mama', english: 'my, of me', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रअ᳓꣡', iast: 'mitraṭ', english: 'friend', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रं', iast: 'mitraṃ', english: 'friend', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'My friend doesn\'t want to play.',
@@ -13936,7 +13936,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
           { devanagari: 'कशचित्', iast: 'kaścit', english: 'someone', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nobody wants to play!',
@@ -13949,7 +13949,7 @@ export const AMARAHASA_GROUP_A = [
           { devanagari: 'कशचिन्', iast: 'kaścin', english: 'someone', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Nobody wants to play with me!',
@@ -13958,9 +13958,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-346',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'शरान्तअ᳓¸¥', iast: 'śrāntaḍ¥', english: 'tired', grammar: 'nom. sg.' },
+          { devanagari: 'श्रान्तः', iast: 'śrāntaḥ', english: 'tired', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya isn\'t tired.',
         vocabIds: [],
@@ -13968,7 +13968,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-347',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is happy!',
@@ -13978,8 +13978,8 @@ export const AMARAHASA_GROUP_A = [
         id: 'am47-348',
         words: [
           { devanagari: 'किन्त्व्', iast: 'kintv', english: 'but', grammar: '' },
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'But I want to play!',
@@ -13988,10 +13988,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-349',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
-          { devanagari: 'हरिअ᳓꣡इ', iast: 'hariṭi', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणि', iast: 'hariṇi', english: 'Harini', grammar: 'nom. sg.' },
         ],
         translation: 'I want to play, Harini!',
         vocabIds: [],
@@ -13999,10 +13999,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-350',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'त्वया', iast: 'tvayā', english: 'by you', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with you.',
@@ -14013,7 +14013,7 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸अ', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
+          { devanagari: 'क्रीड', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
         ],
         translation: 'Play with me!',
         vocabIds: [],
@@ -14021,7 +14021,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-352',
         words: [
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
           { devanagari: 'सुखिनी', iast: 'sukhinī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Harini is happy.',
@@ -14030,8 +14030,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-353',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'You want to play!',
@@ -14040,10 +14040,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-354',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छसि', iast: 'icchasi', english: '(you) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'You want to play with me!',
@@ -14052,7 +14052,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-355',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'सुखिनी', iast: 'sukhinī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'I\'m happy.',
@@ -14063,8 +14063,8 @@ export const AMARAHASA_GROUP_A = [
         words: [
           { devanagari: 'मया', iast: 'mayā', english: 'by me', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸अ', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीड', iast: 'krīḍa', english: 'play!', grammar: '3rd sg. pres.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Play with me, Sanjaya!',
         vocabIds: [],
@@ -14072,7 +14072,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-357',
         words: [
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
         ],
         translation: 'Mother!',
         vocabIds: [],
@@ -14080,7 +14080,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-358',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'गच्छामि', iast: 'gacchāmi', english: '(I) go, am going', grammar: '3rd sg. pres.' },
         ],
         translation: 'I\'m going!',
@@ -14089,9 +14089,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-359',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'गच्छामि', iast: 'gacchāmi', english: '(I) go, am going', grammar: '3rd sg. pres.' },
-          { devanagari: 'मातअ᳓¸¥', iast: 'mātaḍ¥', english: 'mother!', grammar: '' },
+          { devanagari: 'मातः', iast: 'mātaḥ', english: 'mother!', grammar: '' },
         ],
         translation: 'I\'m going, Mother!',
         vocabIds: [],
@@ -14099,8 +14099,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-360',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'सअ᳓꣡जयेन', iast: 'saṭjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'संजयेन', iast: 'saṃjayena', english: 'by Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
           { devanagari: 'गच्छामि', iast: 'gacchāmi', english: '(I) go, am going', grammar: '3rd sg. pres.' },
         ],
@@ -14110,10 +14110,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-361',
         words: [
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
           { devanagari: 'गच्छसि', iast: 'gacchasi', english: '(you) go, are going', grammar: '3rd sg. pres.' },
-          { devanagari: 'सअ᳓꣡जय', iast: 'saṭjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजय', iast: 'saṃjaya', english: 'Sanjaya', grammar: 'nom. sg.' },
         ],
         translation: 'Where are you going, Sanjaya?',
         vocabIds: [],
@@ -14121,8 +14121,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-362',
         words: [
-          { devanagari: 'हरिअ᳓꣡इ', iast: 'hariṭi', english: 'Harini', grammar: 'nom. sg.' },
-          { devanagari: 'त्वअ᳓꣡', iast: 'tvaṭ', english: 'you', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणि', iast: 'hariṇi', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'त्वं', iast: 'tvaṃ', english: 'you', grammar: 'nom. sg.' },
           { devanagari: 'कुत्र', iast: 'kutra', english: 'where?', grammar: '' },
           { devanagari: 'गच्छसि', iast: 'gacchasi', english: '(you) go, are going', grammar: '3rd sg. pres.' },
         ],
@@ -14132,8 +14132,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-363',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play.',
@@ -14142,10 +14142,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-364',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
-          { devanagari: 'हरिअ᳓꣡या', iast: 'hariṭyā', english: 'by Harini', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'हरिण्या', iast: 'hariṇyā', english: 'by Harini', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with Harini.',
@@ -14154,7 +14154,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-365',
         words: [
-          { devanagari: 'हरिअ᳓꣡ी', iast: 'hariṭī', english: 'Harini', grammar: 'nom. sg.' },
+          { devanagari: 'हरिणी', iast: 'hariṇī', english: 'Harini', grammar: 'nom. sg.' },
           { devanagari: 'मम', iast: 'mama', english: 'my, of me', grammar: 'nom. sg.' },
           { devanagari: 'मित्रम्', iast: 'mitram', english: 'friend', grammar: 'nom. sg.' },
         ],
@@ -14164,7 +14164,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-366',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'मम', iast: 'mama', english: 'my, of me', grammar: 'nom. sg.' },
           { devanagari: 'मित्रम्', iast: 'mitram', english: 'friend', grammar: 'nom. sg.' },
         ],
@@ -14174,11 +14174,11 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-367',
         words: [
-          { devanagari: 'अहअ᳓꣡', iast: 'ahaṭ', english: 'I', grammar: 'nom. sg.' },
+          { devanagari: 'अहं', iast: 'ahaṃ', english: 'I', grammar: 'nom. sg.' },
           { devanagari: 'मम', iast: 'mama', english: 'my, of me', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रेअ᳓꣡अ', iast: 'mitreṭa', english: 'by the friend', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रेण', iast: 'mitreṇa', english: 'by the friend', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play', grammar: '' },
           { devanagari: 'इच्छामि', iast: 'icchāmi', english: '(I) want', grammar: '3rd sg. pres.' },
         ],
         translation: 'I want to play with my friend!',
@@ -14187,8 +14187,8 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-368',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'क्रीअ᳓¸इतुअ᳓꣡', iast: 'krīḍituṭ', english: 'to play', grammar: '' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'क्रीडितुं', iast: 'krīḍituṃ', english: 'to play', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to play.',
@@ -14197,10 +14197,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-369',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'हरिअ᳓꣡या', iast: 'hariṭyā', english: 'by Harini', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'हरिण्या', iast: 'hariṇyā', english: 'by Harini', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुअ᳓꣡', iast: 'krīḍituṭ', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुं', iast: 'krīḍituṃ', english: 'to play', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to play with Harini.',
@@ -14209,10 +14209,10 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-370',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
-          { devanagari: 'मित्रेअ᳓꣡अ', iast: 'mitreṭa', english: 'by the friend', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'मित्रेण', iast: 'mitreṇa', english: 'by the friend', grammar: 'nom. sg.' },
           { devanagari: 'सह', iast: 'saha', english: 'together', grammar: '' },
-          { devanagari: 'क्रीअ᳓¸इतुअ᳓꣡', iast: 'krīḍituṭ', english: 'to play', grammar: '' },
+          { devanagari: 'क्रीडितुं', iast: 'krīḍituṃ', english: 'to play', grammar: '' },
           { devanagari: 'गच्छति', iast: 'gacchati', english: 'goes, is going', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya goes to play with his friend.',
@@ -14221,7 +14221,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-371',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'किम्', iast: 'kim', english: 'what?', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
@@ -14231,9 +14231,9 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-372',
         words: [
-          { devanagari: 'सअ᳓꣡जयो', iast: 'saṭjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयो', iast: 'saṃjayo', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'न', iast: 'na', english: 'not', grammar: '' },
-          { devanagari: 'किअ᳓꣡चिद्', iast: 'kiṭcid', english: 'something', grammar: 'nom. sg.' },
+          { devanagari: 'किंचिद्', iast: 'kiṃcid', english: 'something', grammar: 'nom. sg.' },
           { devanagari: 'इच्छति', iast: 'icchati', english: 'wants', grammar: '3rd sg. pres.' },
         ],
         translation: 'Sanjaya doesn\'t want anything.',
@@ -14242,7 +14242,7 @@ export const AMARAHASA_GROUP_A = [
       {
         id: 'am47-373',
         words: [
-          { devanagari: 'सअ᳓꣡जयअ᳓¸¥', iast: 'saṭjayaḍ¥', english: 'Sanjaya', grammar: 'nom. sg.' },
+          { devanagari: 'संजयः', iast: 'saṃjayaḥ', english: 'Sanjaya', grammar: 'nom. sg.' },
           { devanagari: 'सुखी', iast: 'sukhī', english: 'happy', grammar: 'nom. sg.' },
         ],
         translation: 'Sanjaya is happy.',
