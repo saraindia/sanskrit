@@ -820,26 +820,35 @@
   letter-spacing: 0.01em;
 }
 
-/* accordion sentences */
+/* accordion toggle header */
+.story-summary-accordion-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1.25rem 0.6rem;
+  cursor: pointer;
+  user-select: none;
+}
+.story-summary-accordion-toggle:hover .summary-accordion-chevron {
+  color: var(--gold);
+}
+
+/* sentence list */
 .story-summary-accordion {
   display: flex;
   flex-direction: column;
   padding: 0 1.25rem 1.1rem;
   gap: 0;
 }
-.summary-accordion-row {
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-  cursor: pointer;
-  user-select: none;
-}
-.summary-accordion-row:last-child {
-  border-bottom: none;
-}
-.summary-accordion-head {
+.summary-sentence-row {
   display: flex;
   align-items: flex-start;
   gap: 0.6rem;
-  padding: 0.65rem 0;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.summary-sentence-row:last-child {
+  border-bottom: none;
 }
 .summary-accordion-num {
   font-size: 0.72rem;
@@ -857,18 +866,14 @@
 .summary-accordion-chevron {
   font-size: 0.6rem;
   color: var(--text-muted);
-  padding-top: 0.35rem;
   flex-shrink: 0;
   transition: color 0.15s;
 }
-.summary-accordion-row.open .summary-accordion-chevron {
-  color: var(--gold);
-}
-.summary-accordion-body {
-  font-size: 0.88rem;
+.summary-sentence-translation {
+  font-size: 0.85rem;
   color: var(--text-secondary);
   line-height: 1.5;
-  padding: 0 0 0.65rem 2rem;
+  margin-top: 0.25rem;
 }
 
 /* moral block */

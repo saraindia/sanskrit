@@ -285,7 +285,7 @@ function sentenceText(sentence) {
 
 // ── Story Summary Card ───────────────────────────────────────────────────────
 function StorySummaryCard({ story, onPlayAll, isPlaying, paused, onPause, onResume, onStop }) {
-  const [openIdx, setOpenIdx] = useState(null)
+  const [expanded, setExpanded] = useState(false)
 
   const sentences = story.sentences.map((s, i) => ({
     deva: s.words.map(w => w.devanagari.replace(/["""'"]/g, '')).join(' '),
@@ -337,33 +337,31 @@ function StorySummaryCard({ story, onPlayAll, isPlaying, paused, onPause, onResu
         </div>
       </div>
 
-      {/* Accordion sentences */}
-      <div className="story-summary-section-label">Full Story</div>
-      <div className="story-summary-accordion">
-        {sentences.map((s, i) => (
-          <div
-            key={i}
-            className={`summary-accordion-row${openIdx === i ? ' open' : ''}`}
-            onClick={() => setOpenIdx(openIdx === i ? null : i)}
-          >
-            <div className="summary-accordion-head">
+      {/* Accordion toggle for Full Story */}
+      <div
+        className="story-summary-accordion-toggle"
+        onClick={() => setExpanded(e => !e)}
+      >
+        <span className="story-summary-section-label" style={{margin: 0}}>Full Story</span>
+        <span className="summary-accordion-chevron">{expanded ? '▲' : '▼'}</span>
+      </div>
+
+      {expanded && (
+        <div className="story-summary-accordion">
+          {sentences.map((s, i) => (
+            <div key={i} className="summary-sentence-row">
               <span className="summary-accordion-num">{i + 1}</span>
               <div className="summary-accordion-deva">
                 <div className="story-summary-deva-text">
                   {s.deva}{s.isLast ? ' ॥' : ' ।'}
                 </div>
                 <div className="story-summary-iast-text">{s.iast}</div>
+                <div className="summary-sentence-translation">{s.translation}</div>
               </div>
-              <span className="summary-accordion-chevron">
-                {openIdx === i ? '▲' : '▼'}
-              </span>
             </div>
-            {openIdx === i && (
-              <div className="summary-accordion-body">{s.translation}</div>
-            )}
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
 
       {/* Moral */}
       {story.moral && (
