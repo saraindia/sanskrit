@@ -285,13 +285,14 @@ function sentenceText(sentence) {
 
 // ── Story Summary Card ───────────────────────────────────────────────────────
 function StorySummaryCard({ story, onPlayAll, isPlaying, paused, onPause, onResume, onStop }) {
-  const fullDevanagari = story.sentences.map(s =>
-    s.words.map(w => w.devanagari.replace(/["""'"]/g, '')).join(' ')
-  )
-  const fullIast = story.sentences.map(s =>
-    s.words.map(w => w.iast.replace(/["""'"]/g, '')).join(' ')
-  )
-  const fullTranslation = story.sentences.map(s => s.translation)
+  const [openIdx, setOpenIdx] = useState(null)
+
+  const sentences = story.sentences.map((s, i) => ({
+    deva: s.words.map(w => w.devanagari.replace(/["""'"]/g, '')).join(' '),
+    iast: s.words.map(w => w.iast.replace(/["""'"]/g, '')).join(' '),
+    translation: s.translation,
+    isLast: i === story.sentences.length - 1,
+  }))
 
   return (
     <div className="story-summary-card anim-fade-up">
@@ -336,26 +337,33 @@ function StorySummaryCard({ story, onPlayAll, isPlaying, paused, onPause, onResu
         </div>
       </div>
 
-      {/* Full Devanagari */}
+      {/* Accordion sentences */}
       <div className="story-summary-section-label">Full Story</div>
-      <div className="story-summary-devanagari">
-        {fullDevanagari.map((line, i) => (
-          <div key={i} className="story-summary-deva-line">
-            <div className="story-summary-deva-text">
-              {line}{i < fullDevanagari.length - 1 ? ' ।' : ' ॥'}
+      <div className="story-summary-accordion">
+        {sentences.map((s, i) => (
+          <div
+            key={i}
+            className={`summary-accordion-row${openIdx === i ? ' open' : ''}`}
+            onClick={() => setOpenIdx(openIdx === i ? null : i)}
+          >
+            <div className="summary-accordion-head">
+              <span className="summary-accordion-num">{i + 1}</span>
+              <div className="summary-accordion-deva">
+                <div className="story-summary-deva-text">
+                  {s.deva}{s.isLast ? ' ॥' : ' ।'}
+                </div>
+                <div className="story-summary-iast-text">{s.iast}</div>
+              </div>
+              <span className="summary-accordion-chevron">
+                {openIdx === i ? '▲' : '▼'}
+              </span>
             </div>
-            <div className="story-summary-iast-text">{fullIast[i]}</div>
+            {openIdx === i && (
+              <div className="summary-accordion-body">{s.translation}</div>
+            )}
           </div>
         ))}
       </div>
-
-      {/* Full Translation */}
-      <div className="story-summary-section-label">Translation</div>
-      <ol className="story-summary-translation">
-        {fullTranslation.map((tr, i) => (
-          <li key={i}>{tr}</li>
-        ))}
-      </ol>
 
       {/* Moral */}
       {story.moral && (
