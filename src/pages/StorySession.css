@@ -716,6 +716,7 @@
 /* ── Story Summary Card ───────────────────────────────────────────────────── */
 .story-summary-card {
   margin-top: 2rem;
+  margin-bottom: 1.5rem;
   background: var(--bg-card);
   border: 1px solid rgba(201,148,42,0.28);
   border-radius: var(--radius-lg);
