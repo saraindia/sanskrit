@@ -146,10 +146,33 @@ function DialogueBubble({ sentence, roles, index, active, onSpeak, onSpeakWord }
 // ── Vocab quiz ──────────────────────────────────────────────────────────────
 function buildQuizItems(story) {
   const vocabIdSet = new Set(story.sentences.flatMap(s => s.vocabIds))
-  const items = vocabulary.filter(v => vocabIdSet.has(v.id))
-  const pool  = vocabulary.filter(v => !vocabIdSet.has(v.id))
+
+  let items
+  if (vocabIdSet.size > 0) {
+    // linked vocab entries
+    items = vocabulary.filter(v => vocabIdSet.has(v.id))
+  } else {
+    // derive from story words — deduplicate by devanagari, skip punctuation
+    const seen = new Set()
+    items = []
+    for (const s of story.sentences) {
+      for (const w of s.words) {
+        const key = w.devanagari.replace(/[।॥""'"]/g, '').trim()
+        if (!key || seen.has(key) || !w.english) continue
+        seen.add(key)
+        items.push({ id: key, devanagari: key, iast: w.iast, english: w.english, grammar: w.grammar })
+      }
+    }
+    // shuffle and cap at 30 to keep the quiz manageable
+    items = items.sort(() => Math.random() - 0.5).slice(0, 30)
+  }
+
+  const pool = vocabIdSet.size > 0
+    ? vocabulary.filter(v => !vocabIdSet.has(v.id))
+    : items  // use the story's own words as wrong-answer pool too
+
   return items.map(v => {
-    const wrongs = [...pool].sort(() => Math.random() - 0.5).slice(0, 3).map(x => x.english)
+    const wrongs = pool.filter(x => x.id !== v.id).sort(() => Math.random() - 0.5).slice(0, 3).map(x => x.english)
     const options = [...wrongs, v.english].sort(() => Math.random() - 0.5)
     return { vocab: v, options }
   })
