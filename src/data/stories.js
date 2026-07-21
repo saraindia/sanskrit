@@ -1,4 +1,5 @@
 import { AMARAHASA_STORIES_2 } from './amarahasa_stories.js'
+import { PANCHATANTRA_FULL } from './panchatantra_stories.js'
 
 export const STORIES = [
   {
@@ -2676,5 +2677,6 @@ const PANCHATANTRA_STORIES_2 = [
 STORIES.push(...AMARAHASA_STORIES)
 STORIES.push(...PANCHATANTRA_STORIES_2)
 STORIES.push(...AMARAHASA_STORIES_2)
+STORIES.push(...PANCHATANTRA_FULL)
 
 // ── Bhagavad Gita — key verses ───────────────────────────────────────────────
