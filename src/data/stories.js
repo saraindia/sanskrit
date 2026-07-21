@@ -1,7 +1,8 @@
-import { AMARAHASA_STORIES_2 } from './amarahasa_stories.js'
 import { AMARAHASA_GROUP_A } from './amarahasa_group_a.js'
+import { AMARAHASA_GROUP_B } from './amarahasa_group_b.js'
 import { AMARAHASA_GROUP_C } from './amarahasa_group_c.js'
 import { AMARAHASA_GROUP_D } from './amarahasa_group_d.js'
+import { AMARAHASA_GROUP_E } from './amarahasa_group_e.js'
 import { PANCHATANTRA_FULL } from './panchatantra_stories.js'
 
 export const STORIES = [
@@ -2248,173 +2249,9 @@ const NEW_STORIES = [
 STORIES.push(...NEW_STORIES)
 
 // ── Amarahasa graded readers (CC0) ──────────────────────────────────────────
-const AMARAHASA_STORIES = [
-  {
-    id: 'story-33', type: 'story', category: 'amarahasa', level: 'beginner',
-    title: 'बुद्धः कः?', titleIast: 'Buddhaḥ Kaḥ?', titleEnglish: 'Who Is the Buddha?',
-    description: 'A gentle introduction to the Buddha and his family through simple questions and answers.',
-    moral: 'The son of a great king chose a greater path.',
-    sentences: [
-      { id: 'am33-1', words: [
-          { devanagari: 'बुद्धः',    iast: 'buddhaḥ',    english: 'the Buddha',    grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'भिक्षुः',  iast: 'bhikṣuḥ',   english: 'a monk',        grammar: 'noun, nom. sg.' },
-        ], translation: 'The Buddha is a monk.', vocabIds: [] },
-      { id: 'am33-2', words: [
-          { devanagari: 'बुद्धः',    iast: 'buddhaḥ',    english: 'the Buddha',    grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'महान्',     iast: 'mahān',      english: 'great',         grammar: 'adj, nom. sg.' },
-        ], translation: 'The Buddha is great.', vocabIds: [] },
-      { id: 'am33-3', words: [
-          { devanagari: 'बुद्धः',    iast: 'buddhaḥ',    english: 'the Buddha',    grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'महान्',     iast: 'mahān',      english: 'great',         grammar: 'adj, nom. sg.' },
-          { devanagari: 'भिक्षुः',  iast: 'bhikṣuḥ',   english: 'monk',          grammar: 'noun, nom. sg.' },
-        ], translation: 'The Buddha is a great monk.', vocabIds: [] },
-      { id: 'am33-4', words: [
-          { devanagari: 'शुद्धोदनः', iast: 'śuddhodanaḥ', english: 'Śuddhodana',  grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'राजा',     iast: 'rājā',       english: 'a king',        grammar: 'noun, nom. sg.' },
-        ], translation: 'Śuddhodana is a king.', vocabIds: [] },
-      { id: 'am33-5', words: [
-          { devanagari: 'शुद्धोदनः', iast: 'śuddhodanaḥ', english: 'Śuddhodana',  grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'महान्',     iast: 'mahān',      english: 'great',         grammar: 'adj, nom. sg.' },
-          { devanagari: 'राजा',     iast: 'rājā',       english: 'king',          grammar: 'noun, nom. sg.' },
-        ], translation: 'Śuddhodana is a great king.', vocabIds: [] },
-      { id: 'am33-6', words: [
-          { devanagari: 'बुद्धः',    iast: 'buddhaḥ',    english: 'the Buddha',    grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'शुद्धोदनस्य', iast: 'śuddhodanasya', english: 'of Śuddhodana', grammar: 'noun, gen. sg.' },
-          { devanagari: 'पुत्रः',    iast: 'putraḥ',    english: 'son',           grammar: 'noun, nom. sg.' },
-        ], translation: 'The Buddha is the son of Śuddhodana.', vocabIds: [] },
-      { id: 'am33-7', words: [
-          { devanagari: 'बुद्धः',    iast: 'buddhaḥ',    english: 'the Buddha',    grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'राज्ञः',    iast: 'rājñaḥ',    english: 'of the king',   grammar: 'noun, gen. sg.' },
-          { devanagari: 'पुत्रः',    iast: 'putraḥ',    english: 'son',           grammar: 'noun, nom. sg.' },
-        ], translation: 'The Buddha is the son of the king.', vocabIds: [] },
-    ],
-  },
-  {
-    id: 'story-34', type: 'story', category: 'amarahasa', level: 'beginner',
-    title: 'संजयः सुखी न', titleIast: 'Saṃjayaḥ Sukhī Na', titleEnglish: 'Saṃjaya Is Not Happy',
-    description: 'Young Saṃjaya wants something. What does he want? Can he get it?',
-    moral: 'Knowing what we truly want is the first step to happiness.',
-    sentences: [
-      { id: 'am34-1', words: [
-          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'बालः',     iast: 'bālaḥ',     english: 'a boy',         grammar: 'noun, nom. sg.' },
-        ], translation: 'Saṃjaya is a boy.', vocabIds: [] },
-      { id: 'am34-2', words: [
-          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'सुखी',     iast: 'sukhī',     english: 'happy',         grammar: 'adj, nom. sg.' },
-          { devanagari: 'न',        iast: 'na',         english: 'not',           grammar: 'particle, negation' },
-        ], translation: 'Saṃjaya is not happy.', vocabIds: [] },
-      { id: 'am34-3', words: [
-          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'किम्',     iast: 'kim',        english: 'what',          grammar: 'pronoun, acc. sg. n.' },
-          { devanagari: 'इच्छति',   iast: 'icchati',   english: 'wants',         grammar: 'verb, pres. 3sg.' },
-        ], translation: 'What does Saṃjaya want?', vocabIds: [] },
-      { id: 'am34-4', words: [
-          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'क्रीडितुम्', iast: 'krīḍitum', english: 'to play',      grammar: 'verb, infinitive' },
-          { devanagari: 'इच्छति',   iast: 'icchati',   english: 'wants',         grammar: 'verb, pres. 3sg.' },
-        ], translation: 'Saṃjaya wants to play.', vocabIds: [] },
-      { id: 'am34-5', words: [
-          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'वानरम्',   iast: 'vānaram',   english: 'a monkey',      grammar: 'noun, acc. sg.' },
-          { devanagari: 'पश्यति',   iast: 'paśyati',   english: 'sees',          grammar: 'verb, pres. 3sg.' },
-        ], translation: 'Saṃjaya sees a monkey.', vocabIds: [] },
-      { id: 'am34-6', words: [
-          { devanagari: 'वानरः',    iast: 'vānaraḥ',   english: 'the monkey',    grammar: 'noun, nom. sg.' },
-          { devanagari: 'अपि',      iast: 'api',        english: 'also',          grammar: 'particle' },
-          { devanagari: 'क्रीडति',  iast: 'krīḍati',   english: 'plays',         grammar: 'verb, pres. 3sg.' },
-        ], translation: 'The monkey also plays.', vocabIds: [] },
-      { id: 'am34-7', words: [
-          { devanagari: 'इदानीम्',  iast: 'idānīm',    english: 'now',           grammar: 'adverb' },
-          { devanagari: 'संजयः',    iast: 'saṃjayaḥ',  english: 'Saṃjaya',       grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'सुखी',     iast: 'sukhī',     english: 'happy',         grammar: 'adj, nom. sg.' },
-        ], translation: 'Now Saṃjaya is happy.', vocabIds: [] },
-    ],
-  },
-  {
-    id: 'story-35', type: 'story', category: 'amarahasa', level: 'beginner',
-    title: 'हरिणी शुकं पश्यति', titleIast: 'Hariṇī Śukaṃ Paśyati', titleEnglish: 'The Doe Sees the Parrot',
-    description: 'A young doe notices a parrot that is unhappy. The parrot longs to fly free.',
-    moral: 'Freedom is dearer than comfort.',
-    sentences: [
-      { id: 'am35-1', words: [
-          { devanagari: 'हरिणी',    iast: 'hariṇī',    english: 'the doe',       grammar: 'noun, nom. sg. f.' },
-          { devanagari: 'बाला',     iast: 'bālā',      english: 'young',         grammar: 'adj, nom. sg. f.' },
-        ], translation: 'The doe is young.', vocabIds: [] },
-      { id: 'am35-2', words: [
-          { devanagari: 'हरिणी',    iast: 'hariṇī',    english: 'the doe',       grammar: 'noun, nom. sg. f.' },
-          { devanagari: 'सुखिनी',   iast: 'sukhinī',   english: 'happy',         grammar: 'adj, nom. sg. f.' },
-          { devanagari: 'बाला',     iast: 'bālā',      english: 'young',         grammar: 'adj, nom. sg. f.' },
-        ], translation: 'The doe is a happy, young deer.', vocabIds: [] },
-      { id: 'am35-3', words: [
-          { devanagari: 'हरिणी',    iast: 'hariṇī',    english: 'the doe',       grammar: 'noun, nom. sg. f.' },
-          { devanagari: 'शुकम्',    iast: 'śukam',     english: 'a parrot',      grammar: 'noun, acc. sg.' },
-          { devanagari: 'पश्यति',   iast: 'paśyati',   english: 'sees',          grammar: 'verb, pres. 3sg.' },
-        ], translation: 'The doe sees a parrot.', vocabIds: [] },
-      { id: 'am35-4', words: [
-          { devanagari: 'शुकः',     iast: 'śukaḥ',     english: 'the parrot',    grammar: 'noun, nom. sg.' },
-          { devanagari: 'सुखी',     iast: 'sukhī',     english: 'happy',         grammar: 'adj, nom. sg.' },
-          { devanagari: 'न',        iast: 'na',         english: 'not',           grammar: 'particle, negation' },
-        ], translation: 'The parrot is not happy.', vocabIds: [] },
-      { id: 'am35-5', words: [
-          { devanagari: 'शुकः',     iast: 'śukaḥ',     english: 'the parrot',    grammar: 'noun, nom. sg.' },
-          { devanagari: 'किम्',     iast: 'kim',        english: 'what',          grammar: 'pronoun, acc. sg. n.' },
-          { devanagari: 'इच्छति',   iast: 'icchati',   english: 'wants',         grammar: 'verb, pres. 3sg.' },
-        ], translation: 'What does the parrot want?', vocabIds: [] },
-      { id: 'am35-6', words: [
-          { devanagari: 'शुकः',     iast: 'śukaḥ',     english: 'the parrot',    grammar: 'noun, nom. sg.' },
-          { devanagari: 'गन्तुम्',  iast: 'gantum',    english: 'to go',         grammar: 'verb, infinitive' },
-          { devanagari: 'इच्छति',   iast: 'icchati',   english: 'wants',         grammar: 'verb, pres. 3sg.' },
-        ], translation: 'The parrot wants to go.', vocabIds: [] },
-      { id: 'am35-7', words: [
-          { devanagari: 'शुकः',     iast: 'śukaḥ',     english: 'the parrot',    grammar: 'noun, nom. sg.' },
-          { devanagari: 'गच्छति',   iast: 'gacchati',  english: 'goes',          grammar: 'verb, pres. 3sg.' },
-        ], translation: 'The parrot goes — it flies free!', vocabIds: [] },
-    ],
-  },
-  {
-    id: 'story-36', type: 'story', category: 'amarahasa', level: 'beginner',
-    title: 'रामः कः?', titleIast: 'Rāmaḥ Kaḥ?', titleEnglish: 'Who Is Rāma?',
-    description: 'Simple sentences introduce Rāma, his family, and his city Ayodhyā.',
-    moral: 'Duty, family, and virtue are the marks of a true hero.',
-    sentences: [
-      { id: 'am36-1', words: [
-          { devanagari: 'रामः',     iast: 'rāmaḥ',     english: 'Rāma',          grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'राजकुमारः', iast: 'rājakumāraḥ', english: 'a prince',  grammar: 'noun, nom. sg.' },
-        ], translation: 'Rāma is a prince.', vocabIds: ['v-001'] },
-      { id: 'am36-2', words: [
-          { devanagari: 'रामः',     iast: 'rāmaḥ',     english: 'Rāma',          grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'महान्',    iast: 'mahān',     english: 'great',         grammar: 'adj, nom. sg.' },
-          { devanagari: 'राजकुमारः', iast: 'rājakumāraḥ', english: 'prince',    grammar: 'noun, nom. sg.' },
-        ], translation: 'Rāma is a great prince.', vocabIds: ['v-001'] },
-      { id: 'am36-3', words: [
-          { devanagari: 'दशरथः',    iast: 'daśarathaḥ', english: 'Daśaratha',   grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'रामस्य',   iast: 'rāmasya',   english: "Rāma's",       grammar: 'proper noun, gen. sg.' },
-          { devanagari: 'पिता',     iast: 'pitā',      english: 'father',        grammar: 'noun, nom. sg.' },
-        ], translation: 'Daśaratha is Rāma\'s father.', vocabIds: ['v-001'] },
-      { id: 'am36-4', words: [
-          { devanagari: 'दशरथः',    iast: 'daśarathaḥ', english: 'Daśaratha',   grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'महान्',    iast: 'mahān',     english: 'great',         grammar: 'adj, nom. sg.' },
-          { devanagari: 'राजा',     iast: 'rājā',      english: 'king',          grammar: 'noun, nom. sg.' },
-        ], translation: 'Daśaratha is a great king.', vocabIds: [] },
-      { id: 'am36-5', words: [
-          { devanagari: 'रामः',     iast: 'rāmaḥ',     english: 'Rāma',          grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'अयोध्यायाम्', iast: 'ayodhyāyām', english: 'in Ayodhyā', grammar: 'proper noun, loc. sg.' },
-          { devanagari: 'वसति',     iast: 'vasati',    english: 'lives',         grammar: 'verb, pres. 3sg.' },
-        ], translation: 'Rāma lives in Ayodhyā.', vocabIds: ['v-001'] },
-      { id: 'am36-6', words: [
-          { devanagari: 'सीता',     iast: 'sītā',      english: 'Sītā',          grammar: 'proper noun, nom. sg. f.' },
-          { devanagari: 'रामस्य',   iast: 'rāmasya',   english: "Rāma's",       grammar: 'proper noun, gen. sg.' },
-          { devanagari: 'पत्नी',    iast: 'patnī',     english: 'wife',          grammar: 'noun, nom. sg. f.' },
-        ], translation: 'Sītā is Rāma\'s wife.', vocabIds: ['v-001'] },
-      { id: 'am36-7', words: [
-          { devanagari: 'रामः',     iast: 'rāmaḥ',     english: 'Rāma',          grammar: 'proper noun, nom. sg.' },
-          { devanagari: 'सुखी',     iast: 'sukhī',     english: 'happy',         grammar: 'adj, nom. sg.' },
-          { devanagari: 'धर्मशीलः', iast: 'dharmaśīlaḥ', english: 'virtuous',   grammar: 'adj, nom. sg.' },
-        ], translation: 'Rāma is happy and virtuous.', vocabIds: ['v-001'] },
-    ],
-  },
-]
+// Amarahasa stories 33-36 — now in amarahasa_group_e.js
+const AMARAHASA_STORIES = AMARAHASA_GROUP_E
+
 
 // ── More Pañcatantra classics ────────────────────────────────────────────────
 const PANCHATANTRA_STORIES_2 = [
@@ -2679,8 +2516,8 @@ const PANCHATANTRA_STORIES_2 = [
 
 STORIES.push(...AMARAHASA_STORIES)
 STORIES.push(...PANCHATANTRA_STORIES_2)
-STORIES.push(...AMARAHASA_STORIES_2)
 STORIES.push(...AMARAHASA_GROUP_A)
+STORIES.push(...AMARAHASA_GROUP_B)
 STORIES.push(...AMARAHASA_GROUP_C)
 STORIES.push(...AMARAHASA_GROUP_D)
 STORIES.push(...PANCHATANTRA_FULL)
