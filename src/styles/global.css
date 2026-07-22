@@ -7,7 +7,7 @@
   --gold:          #c9942a;
   --gold-light:    #e8b84b;
   --gold-dim:      #7a5a1a;
-  --terracotta:    #b85c38;
+  --terracotta:    #d47048;
   --terracotta-dim:#6b3320;
   --cream:         #f0e6d0;
   --cream-dim:     #a89070;
@@ -15,12 +15,12 @@
 
   --teal:          #3a9e8a;
   --teal-dim:      #1f5e52;
-  --purple:        #8b6db5;
+  --purple:        #9e80ca;
   --purple-dim:    #4a3868;
 
   --text-primary:  #f0e6d0;
   --text-secondary:#a89070;
-  --text-muted:    #8a7058;
+  --text-muted:    #a48874;
   --border:        rgba(201,148,42,0.15);
   --border-bright: rgba(201,148,42,0.35);
 
