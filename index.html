@@ -78,10 +78,11 @@
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="/icon-192.png" />
 
-    <!-- Fonts: preconnect then load non-render-blocking (13 variants → 6) -->
+    <!-- Fonts: async only — preconnect warms the connection, stylesheet loads
+         non-render-blocking. No rel="preload" here: that would create a
+         3-hop critical chain (HTML → Fonts CSS → woff2 files). -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Crimson+Pro:ital,wght@0,400;1,400&family=JetBrains+Mono:wght@400&family=Noto+Sans+Devanagari:wght@400;600&display=swap" />
     <link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Crimson+Pro:ital,wght@0,400;1,400&family=JetBrains+Mono:wght@400&family=Noto+Sans+Devanagari:wght@400;600&display=swap" />
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Crimson+Pro:ital,wght@0,400;1,400&family=JetBrains+Mono:wght@400&family=Noto+Sans+Devanagari:wght@400;600&display=swap" /></noscript>
     <style>
