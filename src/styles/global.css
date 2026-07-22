@@ -83,7 +83,7 @@ body::before {
 }
 
 /* Allow text selection inside content areas */
-.main-content, .story-reader, .mp-page, .flashcard-inner,
+.main-content, .story-reader, .mp-page,
 p, .verse-translation, .mp-verse-translation { user-select: text; }
 
 h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing: 0.04em; }
@@ -188,8 +188,6 @@ button {
   font-weight: 600;
 }
 .pill-beginner  { background: rgba(58,158,138,0.15); color: var(--teal); border: 1px solid rgba(58,158,138,0.3); }
-.pill-intermediate { background: rgba(139,109,181,0.15); color: var(--purple); border: 1px solid rgba(139,109,181,0.3); }
-.pill-advanced  { background: rgba(184,92,56,0.15); color: var(--terracotta); border: 1px solid rgba(184,92,56,0.3); }
 .pill-sacred    { background: rgba(201,148,42,0.15); color: var(--gold); border: 1px solid rgba(201,148,42,0.3); }
 
 .progress-bar-track {
@@ -260,30 +258,12 @@ button {
 }
 .engine-toggle-btn:hover { border-color: var(--gold-dim); color: var(--text-secondary); }
 
-/* ── Shared Next button ──────────────────────────────────────────────────────── */
+/* ── Shared Next button wrap ─────────────────────────────────────────────────── */
 .fc-next-wrap {
   display: flex;
   justify-content: center;
   margin-top: 0.5rem;
 }
-.fc-next-btn {
-  background: var(--gold);
-  color: var(--bg-deep);
-  border: none;
-  border-radius: var(--radius-sm);
-  padding: 0.85rem 2.5rem;
-  font-family: var(--font-display);
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  cursor: pointer;
-  min-height: 52px;
-  min-width: 180px;
-  transition: background 0.15s, transform 0.1s;
-  -webkit-tap-highlight-color: transparent;
-}
-.fc-next-btn:hover  { background: var(--gold-light); }
-.fc-next-btn:active { transform: scale(0.96); }
 
 /* ── Study pages — frosted translucent buttons ─────────────────────────── */
 .flashcards .btn-primary, .flashcards .btn-ghost,
