@@ -7,9 +7,29 @@ import { useSpeech } from '../hooks/useSpeech'
 import SpeakIcon from '../components/SpeakIcon'
 import { toIAST } from '../utils/transliterate.js'
 import { getLevel, getNextLevel, getLevelProgress, getEarnedBadges, BADGES } from '../utils/levels.js'
-import { BHAGAVAD_GITA } from '../data/sacred.js'
-import { VOCABULARY } from '../data/vocabulary.js'
-import { VNP_SENTENCES, COLLATED_SENTENCES } from '../data/sentences.js'
+let _gitaData = null
+async function loadGita() {
+  if (_gitaData) return _gitaData
+  const m = await import('../data/sacred.js')
+  _gitaData = m.BHAGAVAD_GITA
+  return _gitaData
+}
+
+let _vocabData = null
+async function loadVocabStatic() {
+  if (_vocabData) return _vocabData
+  const m = await import('../data/vocabulary.js')
+  _vocabData = m.VOCABULARY
+  return _vocabData
+}
+
+let _sentenceData = null
+async function loadSentencesStatic() {
+  if (_sentenceData) return _sentenceData
+  const m = await import('../data/sentences.js')
+  _sentenceData = [...m.VNP_SENTENCES, ...m.COLLATED_SENTENCES]
+  return _sentenceData
+}
 
 // ── MW dictionary index (same source as DictionaryPage autocomplete) ──────────
 const DICT_RAW = 'https://raw.githubusercontent.com/saraindia/sanskrit-dict/main/dictionary'
@@ -37,11 +57,11 @@ async function loadMwWords() {
 }
 import './Dashboard.css'
 
-function getDailyVerse() {
+async function getDailyVerse() {
+  const gita = await loadGita()
   const start = new Date('2024-01-01')
-  const today = new Date()
-  const day = Math.floor((today - start) / 86400000)
-  return BHAGAVAD_GITA[day % BHAGAVAD_GITA.length]
+  const day = Math.floor((new Date() - start) / 86400000)
+  return gita[day % gita.length]
 }
 
 const GITA_VERSE_COUNTS = [0,47,72,43,42,29,47,30,28,34,42,55,20,35,27,20,24,28,78]
@@ -105,7 +125,8 @@ function GitaChantPlayer() {
 
 function ShlokaOfDay({ open, onToggle }) {
   const [loading, setLoading] = useState(false)
-  const verse = useMemo(() => getDailyVerse(), [])
+  const [verse, setVerse] = useState(null)
+  useEffect(() => { getDailyVerse().then(setVerse) }, [])
   const { playUrl, stop, isPlaying } = useSpeech()
 
   const handleListen = useCallback(async (e) => {
@@ -174,11 +195,16 @@ function getDayIndex() {
 }
 
 function WordOfDay({ open, onToggle }) {
-  const [word, setWord] = useState(() => VOCABULARY[getDayIndex() % VOCABULARY.length])
+  const [word, setWord] = useState(null)
+  const [allSentences, setAllSentences] = useState([])
   const { speak, stop, isPlaying } = useSpeech()
   const navigate = useNavigate()
 
   useEffect(() => {
+    loadVocabStatic().then(vocab => {
+      setWord(prev => prev ?? vocab[getDayIndex() % vocab.length])
+    })
+    loadSentencesStatic().then(setAllSentences)
     loadMwWords().then(words => {
       if (words.length) setWord(words[getDayIndex() % words.length])
     })
@@ -187,14 +213,13 @@ function WordOfDay({ open, onToggle }) {
   const exampleSentence = useMemo(() => {
     if (!word) return null
     if (word.sampleSa) return { devanagari: word.sampleSa, english: word.sampleEn }
-    const allSentences = [...VNP_SENTENCES, ...COLLATED_SENTENCES]
     const root = word.devanagari.replace(/[ंःँ।॥]/g, '').trim()
     return (
       allSentences.find(s => s.devanagari.includes(root)) ||
       allSentences.find(s => s.english?.toLowerCase().includes(word.english.toLowerCase())) ||
       null
     )
-  }, [word])
+  }, [word, allSentences])
 
   const handleSeeInDict = useCallback((e) => {
     e.preventDefault()

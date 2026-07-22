@@ -555,6 +555,15 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react(), swTimestampPlugin(), akashvaniDevPlugin(), ddNewsDevPlugin(), dictionaryIndexDevPlugin(env), dictionarySyncDevPlugin(env), dictionaryDevPlugin(env)],
     base: "./",   // required for Capacitor native builds
-    server: { port: 3000 }
+    server: { port: 3000 },
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            'vendor-react': ['react', 'react-dom', 'react-router-dom'],
+          },
+        },
+      },
+    }
   }
 })
