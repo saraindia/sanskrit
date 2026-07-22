@@ -13,6 +13,24 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 //  2. replace __PRECACHE_MANIFEST__ with the full list of built assets and
 //     content JSON so the whole app works offline, including pages and
 //     texts the user has never opened.
+// Plugin: make Vite's extracted CSS non-render-blocking.
+// The app shell in index.html has all critical CSS inlined, so the browser
+// can paint immediately without waiting for the full CSS bundle (~57 KB).
+// In dev mode this plugin does nothing (CSS is injected via JS anyway).
+function asyncCssPlugin() {
+  return {
+    name: 'async-css',
+    apply: 'build',
+    transformIndexHtml(html) {
+      return html.replace(
+        /<link rel="stylesheet" crossorigin href="([^"]+\.css)">/g,
+        '<link rel="preload" as="style" crossorigin onload="this.rel=\'stylesheet\'" href="$1">' +
+        '<noscript><link rel="stylesheet" crossorigin href="$1"></noscript>'
+      )
+    }
+  }
+}
+
 function swTimestampPlugin() {
   return {
     name: 'sw-timestamp',
@@ -553,7 +571,7 @@ Generate exactly 10 sentences: 3 statements (one per tense), 2 questions, 2 conv
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   return {
-    plugins: [react(), swTimestampPlugin(), akashvaniDevPlugin(), ddNewsDevPlugin(), dictionaryIndexDevPlugin(env), dictionarySyncDevPlugin(env), dictionaryDevPlugin(env)],
+    plugins: [react(), asyncCssPlugin(), swTimestampPlugin(), akashvaniDevPlugin(), ddNewsDevPlugin(), dictionaryIndexDevPlugin(env), dictionarySyncDevPlugin(env), dictionaryDevPlugin(env)],
     base: "./",   // required for Capacitor native builds
     server: { port: 3000 },
     build: {
