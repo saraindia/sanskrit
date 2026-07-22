@@ -73,11 +73,78 @@
     <link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Crimson+Pro:ital,wght@0,400;1,400&family=JetBrains+Mono:wght@400&family=Noto+Sans+Devanagari:wght@400;600&display=swap" />
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Crimson+Pro:ital,wght@0,400;1,400&family=JetBrains+Mono:wght@400&family=Noto+Sans+Devanagari:wght@400;600&display=swap" /></noscript>
     <style>
-      html, body, #root { margin:0; padding:0; background:#ede4d4; }
+      html, body, #root { margin:0; padding:0; background:#0e0e0e; }
+      #app-shell {
+        display: flex; height: 100dvh; overflow: hidden;
+        background: #0e0e0e; color: #f0e6d0;
+        font-family: 'Cinzel', 'Georgia', serif;
+      }
+      #app-shell-nav {
+        width: 270px; min-width: 270px;
+        background: #0e0e0e;
+        border-right: 1px solid rgba(201,148,42,0.2);
+        padding: 20px 16px;
+        display: flex; flex-direction: column; gap: 8px;
+      }
+      #app-shell-brand {
+        display: flex; align-items: center; gap: 10px;
+        padding: 8px 0 20px;
+        color: #c9942a; font-size: 0.85rem; letter-spacing: 0.1em;
+      }
+      #app-shell-brand span { font-size: 2rem; }
+      .app-shell-nav-item {
+        height: 44px; border-radius: 10px;
+        background: rgba(201,148,42,0.06);
+      }
+      #app-shell-main {
+        flex: 1; padding: 28px 32px;
+        display: flex; flex-direction: column; gap: 20px;
+        overflow: hidden;
+      }
+      #app-shell-greeting {
+        font-size: 2.2rem; font-weight: 600;
+        color: #c9942a; letter-spacing: 0.04em;
+      }
+      .app-shell-card {
+        height: 72px; border-radius: 14px;
+        background: rgba(201,148,42,0.05);
+        border: 1px solid rgba(201,148,42,0.12);
+      }
+      .app-shell-row { display: flex; gap: 16px; }
+      .app-shell-row .app-shell-card { flex: 1; }
+      @media (max-width: 768px) {
+        #app-shell-nav { display: none; }
+        #app-shell-greeting { font-size: 1.6rem; }
+      }
     </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div id="app-shell">
+        <nav id="app-shell-nav">
+          <div id="app-shell-brand"><span>ॐ</span><div>संस्कृतम्<br>SANSKRITLY</div></div>
+          <div class="app-shell-nav-item"></div>
+          <div class="app-shell-nav-item"></div>
+          <div class="app-shell-nav-item"></div>
+          <div class="app-shell-nav-item"></div>
+        </nav>
+        <main id="app-shell-main">
+          <div id="app-shell-greeting">नमस्ते</div>
+          <div class="app-shell-row">
+            <div class="app-shell-card"></div>
+            <div class="app-shell-card"></div>
+          </div>
+          <div class="app-shell-row">
+            <div class="app-shell-card"></div>
+            <div class="app-shell-card"></div>
+          </div>
+          <div class="app-shell-row">
+            <div class="app-shell-card"></div>
+            <div class="app-shell-card"></div>
+          </div>
+        </main>
+      </div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
     <!-- Vercel Analytics — loaded independently, no React dependency -->
     <script defer src="/_vercel/insights/script.js"></script>
