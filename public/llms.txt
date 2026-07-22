@@ -1,0 +1,30 @@
+# Sanskritly
+
+> Sanskritly is a free web app for learning Sanskrit through graded stories, grammar lessons, vocabulary flashcards, and sacred texts including the Bhagavad Gita and Upanishads. It supports both Devanagari script and IAST romanization.
+
+Sanskritly is designed for learners at all levels — from complete beginners learning the Devanagari alphabet to advanced readers exploring classical texts. All content is free. The app works offline as a Progressive Web App (PWA) and is also available on iOS and Android.
+
+## Core Learning Features
+
+- [Stories](https://sanskritly.com/story): Graded Sanskrit stories (beginner through advanced) with word-by-word translations, vocabulary popups, and audio pronunciation
+- [Grammar](https://sanskritly.com/grammar): Structured grammar lessons covering pronouns, verb conjugation, nouns, vibhakti (cases), tenses, and more
+- [Flashcards](https://sanskritly.com/flashcards): Vocabulary flashcards with Devanagari, IAST, and English meanings
+- [Sentence Drill](https://sanskritly.com/drill): Interactive sentence practice with fill-in-the-blank and match-pairs exercises
+- [Dictionary](https://sanskritly.com/dictionary): AI-powered Sanskrit dictionary with example sentences and grammatical analysis
+- [Alphabet](https://sanskritly.com/alphabet): Interactive Devanagari alphabet learning with stroke animations and audio
+
+## Sacred Texts
+
+- [Bhagavad Gita](https://sanskritly.com/gita): All 18 chapters with Sanskrit, transliteration, and English translation
+- [Upanishads](https://sanskritly.com/upanishads): Principal Upanishads with commentary
+- [Sacred Texts](https://sanskritly.com/texts): Collection of Sanskrit hymns, stotras, and classical passages
+
+## Additional Resources
+
+- [Listen](https://sanskritly.com/listen): Sanskrit audio — All India Radio news bulletins and DD News Sanskrit broadcasts
+- [Course](https://sanskritly.com/course): Structured Sanskrit course for beginners
+
+## Optional
+
+- [sitemap.xml](https://sanskritly.com/sitemap.xml): Full site map
+- [robots.txt](https://sanskritly.com/robots.txt): Crawling instructions
