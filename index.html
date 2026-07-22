@@ -63,6 +63,18 @@
     }
     </script>
 
+    <!-- Apply theme class before first paint to prevent forced reflow -->
+    <script>
+      try {
+        var _t = localStorage.getItem('sl_theme_v1') || 'high-contrast'
+        var _la = localStorage.getItem('sl_a11y_v1')
+        document.documentElement.classList.add('theme-' + _t)
+        if (_la === null ? true : _la === 'true') document.documentElement.classList.add('large-text')
+      } catch(e) {
+        document.documentElement.classList.add('theme-high-contrast')
+      }
+    </script>
+
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="/icon-192.png" />
 
